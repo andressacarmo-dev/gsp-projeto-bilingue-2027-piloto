@@ -2534,8 +2534,8 @@
       "summary": "Central de consulta para a equipe do CJA sobre produtos, Q&A e grades horárias do Projeto Bilíngue 2027.",
       "materials": [
         {
-          "label": "Manual — PDF",
-          "url": "https://drive.google.com/file/d/11eLtQOGqHtAcYKpDGaRHrNnpY8rewBXK/view?usp=drivesdk",
+          "label": "Manual comercial-pedagógico robusto — atualizado após revisão da grade",
+          "url": "https://drive.google.com/file/d/1lvboNjfKo-0tLkhA5mbjJi5WgTww-Hg8/view?usp=drivesdk",
           "type": "manual"
         },
         {
@@ -2549,8 +2549,8 @@
           "type": "qa"
         },
         {
-          "label": "Grade horária — CJA",
-          "url": "https://drive.google.com/file/d/1B6OUug2MeSKIkhZlpSQzbV0DL9bNNA-o/view?usp=drivesdk",
+          "label": "Grade horária atualizada — CJA",
+          "url": "https://drive.google.com/file/d/1765-37iIfOjaNuOxfIQA4bFiksGPOc3I/view?usp=drivesdk",
           "type": "grade"
         },
         {
@@ -3900,231 +3900,333 @@
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 1",
-          "text": "SCHEDULE REGULAR BILÍNGUE K4 MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:30 - 08:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 08:15 - 09:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 09:00 - 09:15 Break Break Break Break Break 09:15 - 10:00 Parque Parque Biblioteca Body and Movement Music 10:00 - 10:45 English Language English Parque Parque 10:45 - 11:30 Body and Movement Atividade Atividade Atividade Language"
+          "level": "h3",
+          "title": "Regular — Turma: F2-F6-M-A",
+          "text": "SCHEDULE REGULAR Turma: F2-F6-M-A - CJA SEGUNDA-FEIRA TERÇA-FEIRA QUARTA-FEIRA QUINTA-FEIRA SEXTA-FEIRA 07:30 Inglês Artes Prod. Textual Música Ciências 08:15 Inglês Matemática Ciências Matemática Geografia 09:00 LIV Ed. Física Ciências Português Geografia 09:45 Intervalo Intervalo Intervalo Intervalo Intervalo 10:05 Matemática Português Inglês História Matemática 10:55 Português Mind Makers Matemática Filosofia História 11:35 Português Geografia Matemática Ed. Física História"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Regular Bilíngue — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE REGULAR BILÍNGUE K4 MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:30 - 08:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 08:15 - 09:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 09:00 - 09:15 Break Break Break Break Break 09:15 - 10:00 Parque Parque Biblioteca Body and Movement Music 10:00 - 10:45 English Language English Parque Parque 10:45 - 11:30 Body and Movement Atividade Atividade Atividade Language"
+          "level": "h3",
+          "title": "Regular — Turma: F2-F7-M-A",
+          "text": "SCHEDULE REGULAR Turma: F2-F7-M-A - CJA SEGUNDA-FEIRA TERÇA-FEIRA QUARTA-FEIRA QUINTA-FEIRA SEXTA-FEIRA 07:30 Matemática Mind Makers Ed. Física Ciências Geografia 08:15 Ed. Física Português Geografia Ciências Inglês 09:00 História Português Geografia Matemática Português 09:45 Intervalo Intervalo Intervalo Intervalo Intervalo 10:05 LIV Matemática História Português Ciências 10:55 Inglês Matemática História Música Matemática 11:35 Inglês Artes Prod. Textual Filosofia Matemática"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 2",
-          "text": "SCHEDULE REGULAR BILÍNGUE K4 TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 13:30 - 14:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 14:15 - 15:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 15:00 - 15:15 Break Break Break Break Break 15:15 - 16:00 Parque Parque Biblioteca Body and Movement Music 16:00 - 16:45 English Language English Parque Parque 16:45 - 17:30 Body and Movement Atividade Atividade Atividade Language"
+          "level": "h3",
+          "title": "Regular — Turma: F2-F8-M-A",
+          "text": "SCHEDULE REGULAR Turma: F2-F8-M-A - CJA SEGUNDA-FEIRA TERÇA-FEIRA QUARTA-FEIRA QUINTA-FEIRA SEXTA-FEIRA 07:30 História Geografia Matemática Ed. Física Inglês 08:15 História Mind Makers Matemática Português Ciências 09:00 Ed. Física Matemática Filosofia Ciências Ciências 09:45 Intervalo Intervalo Intervalo Intervalo Intervalo 10:05 Português Artes Prod. Textual Música História 10:55 Matemática Português Inglês Matemática Geografia 11:35 LIV Português Inglês Matemática Geografia"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Regular Bilíngue — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE REGULAR BILÍNGUE K4 TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 13:30 - 14:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 14:15 - 15:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 15:00 - 15:15 Break Break Break Break Break 15:15 - 16:00 Parque Parque Biblioteca Body and Movement Music 16:00 - 16:45 English Language English Parque Parque 16:45 - 17:30 Body and Movement Atividade Atividade Atividade Language"
+          "level": "h3",
+          "title": "Regular — Turma: F2-F9-M-A",
+          "text": "SCHEDULE REGULAR Turma: F2-F9-M-A - CJA SEGUNDA-FEIRA TERÇA-FEIRA QUARTA-FEIRA QUINTA-FEIRA SEXTA-FEIRA 07:30 Ed. Física Matemática Inglês Matemática Ciências 08:15 Português Ed. Física Inglês História Matemática 09:00 Português Artes Matemática História Matemática 09:45 Intervalo Intervalo Intervalo Intervalo Intervalo 10:05 História Geografia Geografia Ciências Inglês 10:55 LIV Geografia Prod. Textual Ciências Português 11:35 Matemática Mind Makers Filosofia Música Português"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 3",
-          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE K4 MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:30 - 08:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 08:15 - 09:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 09:00 - 09:15 Break Break Break Break Break 09:15 - 10:00 Parque Parque Biblioteca Body and Movement Music 10:00 - 10:45 English Language English Parque Parque 10:45 - 11:30 Body and Movement Atividade Atividade Atividade Language 12:00 - 13:30 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 13:30 - 14:20 PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! 14:20 - 15:10 ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES 15:10 - 15:45 GARDENING AROUND THE WORLD COOKING CLASS AROUND THE WORLD STORYTELLING"
+          "level": "h3",
+          "title": "Regular — Turma: F2-F6-T-A",
+          "text": "SCHEDULE REGULAR Turma: F2-F6-T-A - CJA SEGUNDA-FEIRA TERÇA-FEIRA QUARTA-FEIRA QUINTA-FEIRA SEXTA-FEIRA 13:30 História Matemática Prod. Textual Português Artes 14:15 História Matemática Ed. Física Geografia Ciências 15:00 Português Ed. Física Ciências Geografia Ciências 15:45 Intervalo Intervalo Intervalo Intervalo Intervalo 16:05 Matemática Mind Makers Filosofia Matemática Inglês 16:50 Matemática Português Música Liv Inglês 17:35 Inglês Português Matemática História Geografia"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Integral — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE K4 MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:30 - 08:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 08:15 - 09:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 09:00 - 09:15 Break Break Break Break Break 09:15 - 10:00 Parque Parque Biblioteca Body and Movement Music 10:00 - 10:45 English Language English Parque Parque 10:45 - 11:30 Body and Movement Atividade Atividade Atividade Language 12:00 - 13:30 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 13:30 - 14:20 PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! 14:20 - 15:10 ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES 15:10 - 15:45 GARDENING AROUND THE WORLD COOKING CLASS AROUND THE WORLD STORYTELLING"
+          "level": "h3",
+          "title": "Regular — Turma: F2-F7-T-A",
+          "text": "SCHEDULE REGULAR Turma: F2-F7-T-A - CJA SEGUNDA-FEIRA TERÇA-FEIRA QUARTA-FEIRA QUINTA-FEIRA SEXTA-FEIRA 13:30 Português Geografia Ed. Física Matemática Prod. Textual 14:15 Matemática Geografia Matemática Português Inglês 15:00 Matemática Matemática Matemática Português Geografia 15:45 Intervalo Intervalo Intervalo Intervalo Intervalo 16:05 Ed. Física Português Ciências História Artes 16:50 Mind Makers Inglês Filosofia História Ciências 17:35 História Inglês Música Liv Ciências"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Semi — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE K4 MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:30 - 08:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 08:15 - 09:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 09:00 - 09:15 Break Break Break Break Break 09:15 - 10:00 Parque Parque Biblioteca Body and Movement Music 10:00 - 10:45 English Language English Parque Parque 10:45 - 11:30 Body and Movement Atividade Atividade Atividade Language 12:00 - 13:30 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 13:30 - 14:20 PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! 14:20 - 15:10 ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES 15:10 - 15:45 GARDENING AROUND THE WORLD COOKING CLASS AROUND THE WORLD STORYTELLING"
+          "level": "h3",
+          "title": "Regular — Turma: F2-F8-T-A",
+          "text": "SCHEDULE REGULAR Turma: F2-F8-T-A - CJA SEGUNDA-FEIRA TERÇA-FEIRA QUARTA-FEIRA QUINTA-FEIRA SEXTA-FEIRA 13:30 Ed. Física Português Matemática História Ciências 14:15 Inglês Ed. Física Português Matemática Prod. Textual 15:00 Inglês Geografia Filosofia Matemática Inglês 15:45 Intervalo Intervalo Intervalo Intervalo Intervalo 16:05 História Matemática Música Liv Geografia 16:50 História Matemática Ciências Português Geografia 17:35 Matemática Mind Makers Ciências Português Artes"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 4",
-          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE K4 TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 09:15 - 09:50 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 09:50 - 10:10 PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! 10:10 - 11:00 ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES 11:00 - 11:30 GARDENING AROUND THE WORLD COOKING CLASS AROUND THE WORLD STORYTELLING 11:30 - 13:00 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 13:00 - 13:30 PLAY TIME PLAY TIME PLAY TIME PLAY TIME PLAY TIME 13:30 - 14:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 14:15 - 15:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 15:00 - 15:15 Break Break Break Break Break 15:15 - 16:00 Parque Parque Biblioteca Body and Movement Music 16:00 - 16:45 English Language English Parque Parque 16:45 - 17:30 Body and Movement Atividade Atividade Atividade Language"
+          "level": "h3",
+          "title": "Regular — Turma: F2-F9-T-A",
+          "text": "SCHEDULE REGULAR Turma: F2-F9-T-A - CJA SEGUNDA-FEIRA TERÇA-FEIRA QUARTA-FEIRA QUINTA-FEIRA SEXTA-FEIRA 13:30 Matemática Ed. Física Ciências Música Geografia 14:15 Português Português Ciências História Geografia 15:00 História Português Ed. Física História Prod. Textual 15:45 Intervalo Intervalo Intervalo Intervalo Intervalo 16:05 Inglês Geografia Matemática Português Ciências 16:50 Inglês Mind Makers Matemática Matemática Artes 17:35 Liv Matemática Filosofia Matemática Inglês"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Integral — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE K4 TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 09:15 - 09:50 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 09:50 - 10:10 PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! 10:10 - 11:00 ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES 11:00 - 11:30 GARDENING AROUND THE WORLD COOKING CLASS AROUND THE WORLD STORYTELLING 11:30 - 13:00 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 13:00 - 13:30 PLAY TIME PLAY TIME PLAY TIME PLAY TIME PLAY TIME 13:30 - 14:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 14:15 - 15:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 15:00 - 15:15 Break Break Break Break Break 15:15 - 16:00 Parque Parque Biblioteca Body and Movement Music 16:00 - 16:45 English Language English Parque Parque 16:45 - 17:30 Body and Movement Atividade Atividade Atividade Language"
+          "level": "h3",
+          "title": "Regular — Turma: F2-F6-M-B",
+          "text": "SCHEDULE REGULAR Turma: F2-F6-M-B - CJA SEGUNDA-FEIRA TERÇA-FEIRA QUARTA-FEIRA QUINTA-FEIRA SEXTA-FEIRA 07:30 LIV Ed. Física Geografia História Matemática 08:15 Matemática Geografia Português Ed. Física Ciências 09:00 Matemática Geografia Português Música Filosofia 09:45 Intervalo Intervalo Intervalo Intervalo Intervalo 10:05 Inglês Mind Makers Matemática Matemática Prod. Textual 10:55 História Artes Ciências Português Inglês 11:35 História Matemática Ciências Português Inglês"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Semi — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE K4 TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 09:15 - 09:50 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 09:50 - 10:10 PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! 10:10 - 11:00 ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES 11:00 - 11:30 GARDENING AROUND THE WORLD COOKING CLASS AROUND THE WORLD STORYTELLING 11:30 - 13:00 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 13:00 - 13:30 PLAY TIME PLAY TIME PLAY TIME PLAY TIME PLAY TIME 13:30 - 14:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 14:15 - 15:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 15:00 - 15:15 Break Break Break Break Break 15:15 - 16:00 Parque Parque Biblioteca Body and Movement Music 16:00 - 16:45 English Language English Parque Parque 16:45 - 17:30 Body and Movement Atividade Atividade Atividade Language"
+          "level": "h3",
+          "title": "Regular Bilíngue — FUNDAMENTAL II - 6º AO 9º ANO MATUTINO",
+          "text": "SCHEDULE REGULAR BILÍNGUE FUNDAMENTAL II - 6º AO 9º ANO MATUTINO - CJA SEGUNDA-FEIRA TERÇA-FEIRA QUARTA-FEIRA QUINTA-FEIRA SEXTA-FEIRA 07:30 Inglês Artes Prod. Textual Música Ciências 08:15 Inglês Matemática Ciências Matemática Geografia 09:00 LIV Ed. Física Ciências Português Geografia 09:45 Intervalo Intervalo Intervalo Intervalo Intervalo 10:05 Matemática Português Inglês História Matemática 10:55 Português Mind Makers Matemática Filosofia História 11:35 Português Geografia Matemática Ed. Física História 12:20 Intervalo Intervalo Intervalo Intervalo História 12:30 History and Geography Financial Literacy Global Perspectives STEAM Speaking Lab"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 5",
-          "text": "SCHEDULE INTEGRAL BILÍNGUE K4 - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:40 - 08:05 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME: TOY DAY 08:05 - 08:50 BODY MOVEMENT ARTS & CRAFT MUSIC & MOTION ARTS & CRAFT BODY MOVEMENT 08:50 - 09:15 Break Break Break Break Break 09:15 - 09:50 GARDENING AROUND THE WORLD COOKING CLASS AROUND THE WORLD STORYTELLING 09:50 - 10:10 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 10:10 - 11:00 ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES 11:00 - 11:30 PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! 11:30 - 13:00 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 13:00 - 13:30 PLAY TIME PLAY TIME PLAY TIME PLAY TIME PLAY TIME 13:30 - 14:15 ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO 14:15 - 15:00 RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA 15:00 - 15:15 Break Break Break Break Break 15:15 - 16:00 Parque Parque Biblioteca Body and Movement Music 16:00 - 16:45 English Language English Parque Parque 16:45 - 17:30 Body and Movement Atividade Atividade Atividade Language"
+          "level": "h3",
+          "title": "Regular Bilíngue — FUNDAMENTAL II - 6º AO 9º ANO VESPERTINO",
+          "text": "SCHEDULE REGULAR BILÍNGUE FUNDAMENTAL II - 6º AO 9º ANO VESPERTINO - CJA SEGUNDA-FEIRA TERÇA-FEIRA QUARTA-FEIRA QUINTA-FEIRA SEXTA-FEIRA 12:30 History and Geography Financial Literacy Global Perspectives STEAM Speaking Lab 13:30 História Matemática Prod. Textual Português Artes 14:15 História Matemática Ed. Física Geografia Ciências 15:00 Português Ed. Física Ciências Geografia Ciências 15:45 Intervalo Intervalo Intervalo Intervalo Intervalo 16:05 Matemática Mind Makers Filosofia Matemática Inglês 16:50 Matemática Português Música Liv Inglês 17:35 Inglês Português Matemática História Geografia *STEAM Science/Tech/Enginnering/Arts/Math"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Integral — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE INTEGRAL BILÍNGUE K4 - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:40 - 08:05 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME: TOY DAY 08:05 - 08:50 BODY MOVEMENT ARTS & CRAFT MUSIC & MOTION ARTS & CRAFT BODY MOVEMENT 08:50 - 09:15 Break Break Break Break Break 09:15 - 09:50 GARDENING AROUND THE WORLD COOKING CLASS AROUND THE WORLD STORYTELLING 09:50 - 10:10 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 10:10 - 11:00 ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES 11:00 - 11:30 PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! 11:30 - 13:00 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 13:00 - 13:30 PLAY TIME PLAY TIME PLAY TIME PLAY TIME PLAY TIME 13:30 - 14:15 ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO 14:15 - 15:00 RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA 15:00 - 15:15 Break Break Break Break Break 15:15 - 16:00 Parque Parque Biblioteca Body and Movement Music 16:00 - 16:45 English"
+          "level": "h3",
+          "title": "Integral Bilíngue — FUNDAMENTAL II - 6º e 7º ANO MATUTINO",
+          "text": "SCHEDULE INTEGRAL BILÍNGUE FUNDAMENTAL II - 6º e 7º ANO MATUTINO - CJA SEGUNDA-FEIRA TERÇA-FEIRA QUARTA-FEIRA QUINTA-FEIRA SEXTA-FEIRA 07:30 Inglês Artes Prod. Textual Música Ciências 08:15 Inglês Matemática Ciências Matemática Geografia 09:00 LIV Ed. Física Ciências Português Geografia 09:45 Intervalo Intervalo Intervalo Intervalo Intervalo 10:05 Matemática Português Inglês História Matemática 10:55 Português Mind Makers Matemática Filosofia História 11:35 Português Geografia Matemática Ed. Física História 12:20 Intervalo Intervalo Intervalo Intervalo História 12:30 - 13:15 History and Geography Financial Literacy Global Perspectives Steam Speaking Lab 13:15 LUNCH LUNCH LUNCH LUNCH LUNCH 14:15 Creative Writing Arts & Crafts Creative Writing Around the World Cooking Experience 15:00 Wellbeing Wellbeing Wellbeing Wellbeing Wellbeing 16:00 English Class Body Movement English Class Gardening English Class 16:45 Snack Snack Snack Snack Snack 17:10 - 17:50 Music Music Music Music Music"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 6",
-          "text": "SCHEDULE REGULAR 1º ANO MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:40 - 08:25 PORTUGUÊS INGLÊS LITERATURA CIÊNCIAS HISTÓRIA 08:25 - 09:10 INGLÊS MATEMÁTICA INGLÊS ED. FÍSICA HISTÓRIA 09:10 - 09:45 Break Break Break Break Break 09:45 - 10:30 PORTUGUÊS MATEMÁTICA PORTUGUÊS CIÊNCIAS ED. FÍSICA 10:30 - 11:15 FILOSOFIA ARTES PORTUGUÊS MATEMÁTICA GEOGRAFIA 11:15 - 12:00 MÚSICA MATEMÁTICA PORTUGUÊS MATEMÁTICA LIV"
+          "level": "h3",
+          "title": "Integral Bilíngue — FUNDAMENTAL II - 6º e 7º ANO VESPERTINO",
+          "text": "SCHEDULE INTEGRAL BILÍNGUE FUNDAMENTAL II - 6º e 7º ANO VESPERTINO - CJA SEGUNDA-FEIRA TERÇA-FEIRA QUARTA-FEIRA QUINTA-FEIRA SEXTA-FEIRA 07:30 Fun Time Fun Time Fun Time Fun Time Fun Time 08:10 Snack Snack Snack Snack Snack 08:45 Creative Writing Creative Writing Creative Writing Creative Writing Creative Writing 09:30 Wellbeing Wellbeing Wellbeing Wellbeing Wellbeing 10:15 English Class English Class English Class English Class Arts 11:15 Music Music Music Music Music 11:30 LUNCH LUNCH LUNCH LUNCH LUNCH 12:30 -13:15 History and Geography Financial Literacy Global Perspectives STEAM Speaking Lab 13:30 História Matemática Prod. Textual Português Artes 14:15 História Matemática Ed. Física Geografia Ciências 15:00 Português Ed. Física Ciências Geografia Ciências 15:45 Intervalo Intervalo Intervalo Intervalo Intervalo 16:05 Matemática Mind Makers Filosofia Matemática Inglês 16:50 Matemática Português Música Liv Inglês 17:35 Inglês Português Matemática História Geografia"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 7",
-          "text": "SCHEDULE REGULAR 2º ANO TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 13:30 - 14:15 PORTUGUÊS MIND MAKERS HISTÓRIA GEOGRAFIA MATEMÁTICA 14:15 - 15:00 PORTUGUÊS HISTÓRIA BIBLIOTECA GEOGRAFIA MATEMÁTICA 15:00 - 15:35 Break Break Break Break Break 15:35 - 16:20 FILOSOFIA INGLÊS INGLÊS LIV PORTUGUÊS 16:20 - 17:05 MÚSICA CIÊNCIAS MATEMÁTICA ED. FÍSICA PORTUGUÊS 17:05 - 17:50 ARTES CIÊNCIAS MATEMÁTICA INGLÊS ED. FÍSICA"
+          "level": "h3",
+          "title": "High School Prep — FUNDAMENTAL II - 8º e 9º ANO MATUTINO",
+          "text": "SCHEDULE HIGH SCHOOL PREP FUNDAMENTAL II - 8º e 9º ANO MATUTINO - CJA SEGUNDA-FEIRA TERÇA-FEIRA QUARTA-FEIRA QUINTA-FEIRA SEXTA-FEIRA 07:30 Inglês Artes Prod. Textual Música Ciências 08:15 Inglês Matemática Ciências Matemática Geografia 09:00 LIV Ed. Física Ciências Português Geografia 09:45 Intervalo Intervalo Intervalo Intervalo Intervalo 10:05 Matemática Português Inglês História Matemática 10:55 Português Mind Makers Matemática Filosofia História 11:35 Português Geografia Matemática Ed. Física História 12:20 Intervalo Intervalo Intervalo Intervalo História 12:30 - 13:15 History and Geography Financial Literacy Global Perspectives STEAM Speaking Lab 13:15 LUNCH LUNCH LUNCH LUNCH LUNCH 14:30-17:30 High School High School"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 8",
-          "text": "SCHEDULE REGULAR BILÍNGUE F1 MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:40 - 08:25 FILOSOFIA BIBLIOTECA CIÊNCIAS MATEMÁTICA MATEMÁTICA 08:25 - 09:10 ENGLISH PORTUGUÊS CIÊNCIAS MIND MAKERS ED. FÍSICA 09:10 - 09:45 Break Break Break Break Break 09:45 - 10:30 PORTUGUÊS MATEMÁTICA PORTUGUÊS HISTÓRIA GEOGRAFIA 10:30 - 11:15 ARTES MATEMÁTICA ENGLISH HISTÓRIA GEOGRAFIA 11:15 - 12:00 PORTUGUÊS LIV MÚSICA ED. FÍSICA ENGLISH 12:00 - 12:30 LUNCH LUNCH LUNCH LUNCH LUNCH 12:30 - 13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB"
+          "level": "h3",
+          "title": "High School Prep — FUNDAMENTAL II - 8º AO 9º ANO VESPERTINO",
+          "text": "SCHEDULE HIGH SCHOOL PREP FUNDAMENTAL II - 8º AO 9º ANO VESPERTINO - CJA SEGUNDA-FEIRA TERÇA-FEIRA QUARTA-FEIRA QUINTA-FEIRA SEXTA-FEIRA 08:30-11:30 High School High School 11:30 LUNCH LUNCH LUNCH LUNCH LUNCH 12:30 - 13:15 History and Geography Financial Literacy Global Perspectives STEAM Speaking Lab 13:30 História Matemática Prod. Textual Português Artes 14:15 História Matemática Ed. Física Geografia Ciências 15:00 Português Ed. Física Ciências Geografia Ciências 15:45 Intervalo Intervalo Intervalo Intervalo Intervalo 16:05 Matemática Mind Makers Filosofia Matemática Inglês 16:50 Matemática Português Música Liv Inglês 17:35 Inglês Português Matemática História Geografia"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Regular Bilíngue — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE REGULAR BILÍNGUE F1 MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:40 - 08:25 FILOSOFIA BIBLIOTECA CIÊNCIAS MATEMÁTICA MATEMÁTICA 08:25 - 09:10 ENGLISH PORTUGUÊS CIÊNCIAS MIND MAKERS ED. FÍSICA 09:10 - 09:45 Break Break Break Break Break 09:45 - 10:30 PORTUGUÊS MATEMÁTICA PORTUGUÊS HISTÓRIA GEOGRAFIA 10:30 - 11:15 ARTES MATEMÁTICA ENGLISH HISTÓRIA GEOGRAFIA 11:15 - 12:00 PORTUGUÊS LIV MÚSICA ED. FÍSICA ENGLISH 12:00 - 12:30 LUNCH LUNCH LUNCH LUNCH LUNCH 12:30 - 13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB"
+          "level": "h3",
+          "title": "Regular Fund I — 1° ANO MATUTINO",
+          "text": "SCHEDULE REGULAR FUND I 1° ANO MATUTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:40 - 08:25 PORTUGUÊS INGLÊS LITERATURA CIÊNCIAS HISTÓRIA 08:25 - 09:10 INGLÊS MATEMÁTICA INGLÊS ED. FÍSICA HISTÓRIA 09:10 - 09:45 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 09:45 - 10:30 PORTUGUÊS MATEMÁTICA PORTUGUÊS CIÊNCIAS ED. FÍSICA 10:30 - 11:15 FILOSOFIA ARTES PORTUGUÊS MATEMÁTICA GEOGRAFIA 11:15 - 12:00 MÚSICA MATEMÁTICA PORTUGUÊS MATEMÁTICA LIV"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 9",
-          "text": "SCHEDULE REGULAR BILÍNGUE YEAR 4 TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 12:30 - 13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:15 - 13:30 Break Break Break Break Break 13:30 - 14:15 PORTUGUÊS INGLÊS CIÊNCIAS GEOGRAFIA FILOSOFIA 15:00 - 15:45 MATEMÁTICA MIND MAKERS INGLÊS GEOGRAFIA LIV 15:45 - 16:20 Break Break Break Break Break 16:20 - 17:05 BIBLIOTECA HISTÓRIA CIÊNCIAS PORTUGUÊS MATEMÁTICA 17:05 - 17:50 ED. FÍSICA HISTÓRIA ED. FÍSICA PORTUGUÊS MATEMÁTICA"
+          "level": "h3",
+          "title": "Regular Fund I — 1° ANO VESPERTINO",
+          "text": "SCHEDULE REGULAR FUND I 1° ANO VESPERTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 13:30 - 14:15 PORTUGUÊS CIÊNCIAS HISTÓRIA HISTÓRIA ED. FÍSICA 14:15 - 15:00 ARTES CIÊNCIAS MÚSICA ED. FÍSICA LIV/FILOSOFIA 15:00 - 15:35 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 15:35 - 16:20 INGLÊS BIBLIOTECA INGLÊS INGLÊS INGLÊS 16:20 - 17:05 PORTUGUÊS MATEMÁTICA PORTUGUÊS MATEMÁTICA GEOGRAFIA 17:05 - 17:50 PORTUGUÊS MATEMÁTICA PORTUGUÊS MATEMÁTICA GEOGRAFIA"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Regular Bilíngue — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE REGULAR BILÍNGUE YEAR 4 TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 12:30 - 13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:15 - 13:30 Break Break Break Break Break 13:30 - 14:15 PORTUGUÊS INGLÊS CIÊNCIAS GEOGRAFIA FILOSOFIA 15:00 - 15:45 MATEMÁTICA MIND MAKERS INGLÊS GEOGRAFIA LIV 15:45 - 16:20 Break Break Break Break Break 16:20 - 17:05 BIBLIOTECA HISTÓRIA CIÊNCIAS PORTUGUÊS MATEMÁTICA 17:05 - 17:50 ED. FÍSICA HISTÓRIA ED. FÍSICA PORTUGUÊS MATEMÁTICA"
+          "level": "h3",
+          "title": "Regular Fund I — 2º ANO MATUTINO",
+          "text": "SCHEDULE REGULAR FUND I 2º ANO MATUTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:40 - 08:25 PORTUGUÊS MATEMÁTICA PORTUGUÊS ED. FÍSICA GEOGRAFIA 08:25 - 09:10 PORTUGUÊS BIBLIOTECA INGLÊS MATEMÁTICA ARTES 09:10 - 09:45 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 09:45 - 10:30 CIÊNCIAS MATEMÁTICA PORTUGUÊS MATEMÁTICA GEOGRAFIA 10:30 - 11:15 CIÊNCIAS HISTÓRIA MÚSICA MIND MAKERS INGLÊS 11:15 - 12:00 CIÊNCIAS HISTÓRIA LIV FILOSOFIA ED. FÍSICA"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 10",
-          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE F1 MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:40 - 08:25 PORTUGUÊS LIV CIÊNCIAS MIND MAKERS PORTUGUÊS 08:25 - 09:10 PORTUGUÊS HISTÓRIA CIÊNCIAS MATEMÁTICA BIBLIOTECA 09:10 - 09:55 INGLÊS HISTÓRIA ED. FÍSICA ED. FÍSICA ARTES 09:55 - 10:30 Break Break Break Break Break 10:30 - 11:15 MATEMÁTICA INGLÊS MÚSICA GEOGRAFIA MATEMÁTICA 11:15 - 12:00 MATEMÁTICA INGLÊS FILOSOFIA GEOGRAFIA MATEMÁTICA 12:00 - 12:30 Lunch Lunch Lunch Lunch Lunch 12:30 - 13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:15 - 13:30 RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES 13:30 - 14:20 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 14:20 - 15:10 GARDENING Body Movement Body Movement Cooking Class Reading Across Languages 15:10 - 15:45 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME"
+          "level": "h3",
+          "title": "Regular Fund I — 2º ANO VESPERTINO",
+          "text": "SCHEDULE REGULAR FUND I 2º ANO VESPERTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 13:30 - 14:15 PORTUGUÊS MIND MAKERS HISTÓRIA GEOGRAFIA MATEMÁTICA 14:15 - 15:00 PORTUGUÊS HISTÓRIA BIBLIOTECA GEOGRAFIA MATEMÁTICA 15:00 - 15:35 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 15:35 - 16:20 FILOSOFIA INGLÊS INGLÊS LIV PORTUGUÊS 16:20 - 17:05 MÚSICA CIÊNCIAS MATEMÁTICA ED. FÍSICA PORTUGUÊS 17:05 - 17:50 ARTES CIÊNCIAS MATEMÁTICA INGLÊS ED. FÍSICA"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Integral — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE F1 MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:40 - 08:25 PORTUGUÊS LIV CIÊNCIAS MIND MAKERS PORTUGUÊS 08:25 - 09:10 PORTUGUÊS HISTÓRIA CIÊNCIAS MATEMÁTICA BIBLIOTECA 09:10 - 09:55 INGLÊS HISTÓRIA ED. FÍSICA ED. FÍSICA ARTES 09:55 - 10:30 Break Break Break Break Break 10:30 - 11:15 MATEMÁTICA INGLÊS MÚSICA GEOGRAFIA MATEMÁTICA 11:15 - 12:00 MATEMÁTICA INGLÊS FILOSOFIA GEOGRAFIA MATEMÁTICA 12:00 - 12:30 Lunch Lunch Lunch Lunch Lunch 12:30 - 13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:15 - 13:30 RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES 13:30 - 14:20 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 14:20 - 15:10 GARDENING Body Movement Body Movement Cooking Class Reading Across Languages 15:10 - 15:45 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME"
+          "level": "h3",
+          "title": "Regular Fund I — 3º ANO MATUTINO",
+          "text": "SCHEDULE REGULAR FUND I 3º ANO MATUTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:40 - 08:25 FILOSOFIA BIBLIOTECA CIÊNCIAS MATEMÁTICA MATEMÁTICA 08:25 - 09:10 INGLÊS PORTUGUÊS CIÊNCIAS MIND MAKERS ED. FÍSICA 09:10 - 09:45 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 09:45 - 10:30 PORTUGUÊS MATEMÁTICA PORTUGUÊS HISTÓRIA GEOGRAFIA 10:30 - 11:15 ARTES MATEMÁTICA INGLÊS HISTÓRIA GEOGRAFIA 11:15 - 12:00 PORTUGUÊS LIV MÚSICA ED. FÍSICA INGLÊS"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Semi — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE F1 MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:40 - 08:25 PORTUGUÊS LIV CIÊNCIAS MIND MAKERS PORTUGUÊS 08:25 - 09:10 PORTUGUÊS HISTÓRIA CIÊNCIAS MATEMÁTICA BIBLIOTECA 09:10 - 09:55 INGLÊS HISTÓRIA ED. FÍSICA ED. FÍSICA ARTES 09:55 - 10:30 Break Break Break Break Break 10:30 - 11:15 MATEMÁTICA INGLÊS MÚSICA GEOGRAFIA MATEMÁTICA 11:15 - 12:00 MATEMÁTICA INGLÊS FILOSOFIA GEOGRAFIA MATEMÁTICA 12:00 - 12:30 Lunch Lunch Lunch Lunch Lunch 12:30 - 13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:15 - 13:30 RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES 13:30 - 14:20 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 14:20 - 15:10 GARDENING Body Movement Body Movement Cooking Class Reading Across Languages 15:10 - 15:45 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME"
+          "level": "h3",
+          "title": "Regular Fund I — 3º ANO VESPERTINO",
+          "text": "SCHEDULE REGULAR FUND I 3º ANO VESPERTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 13:30 - 14:15 MATEMÁTICA PORTUGUÊS INGLÊS PORTUGUÊS ED. FÍSICA 14:15 - 15:00 MATEMÁTICA PORTUGUÊS MATEMÁTICA MIND MAKERS PORTUGUÊS 15:00 - 15:35 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 15:35 - 16:20 MÚSICA LIV MATEMÁTICA ED. FÍSICA HISTÓRIA 16:20 - 17:05 INGLÊS INGLÊS GEOGRAFIA CIÊNCIAS HISTÓRIA 17:05 - 17:50 FILOSOFIA ARTES GEOGRAFIA CIÊNCIAS BIBLIOTECA"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 11",
-          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE F1 TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 09:15 - 10:20 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 10:20 - 11:10 GARDENING BODY MOVEMENT COOKING CLASS AROUND THE WORLD STORYTELLING 11:10 - 11:45 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 11:45 - 12:30 LUNCH LUNCH LUNCH LUNCH LUNCH 12:30 - 13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:30 - 14:15 MATEMÁTICA PORTUGUÊS ENGLISH PORTUGUÊS ED. FÍSICA 14:15 - 15:00 MATEMÁTICA PORTUGUÊS MATEMÁTICA MIND MAKERS PORTUGUÊS 15:00 - 15:35 Break Break Break Break Break 15:35 - 16:20 MÚSICA LIV MATEMÁTICA ED. FÍSICA HISTÓRIA 16:20 - 17:05 ENGLISH ENGLISH GEOGRAFIA CIÊNCIAS HISTÓRIA 17:05 - 17:50 FILOSOFIA ARTES GEOGRAFIA CIÊNCIAS BIBLIOTECA"
+          "level": "h3",
+          "title": "Regular Fund I — 4° ANO MATUTINO",
+          "text": "SCHEDULE REGULAR FUND I 4° ANO MATUTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:40 - 08:25 PORTUGUÊS LIV CIÊNCIAS MIND MAKERS PORTUGUÊS 08:25 - 09:10 PORTUGUÊS HISTÓRIA CIÊNCIAS MATEMÁTICA BIBLIOTECA 09:10 - 09:55 iNGLÊS HISTÓRIA ED. FÍSICA ED. FÍSICA ARTES 09:55 - 10:30 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 10:30 - 11:15 MATEMÁTICA INGLÊS MÚSICA GEOGRAFIA MATEMÁTICA 11:15 - 12:00 MATEMÁTICA INGLÊS FILOSOFIA GEOGRAFIA MATEMÁTICA"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Integral — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE F1 TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 09:15 - 10:20 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 10:20 - 11:10 GARDENING BODY MOVEMENT COOKING CLASS AROUND THE WORLD STORYTELLING 11:10 - 11:45 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 11:45 - 12:30 LUNCH LUNCH LUNCH LUNCH LUNCH 12:30 - 13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:30 - 14:15 MATEMÁTICA PORTUGUÊS ENGLISH PORTUGUÊS ED. FÍSICA 14:15 - 15:00 MATEMÁTICA PORTUGUÊS MATEMÁTICA MIND MAKERS PORTUGUÊS 15:00 - 15:35 Break Break Break Break Break 15:35 - 16:20 MÚSICA LIV MATEMÁTICA ED. FÍSICA HISTÓRIA 16:20 - 17:05 ENGLISH ENGLISH GEOGRAFIA CIÊNCIAS HISTÓRIA 17:05 - 17:50 FILOSOFIA ARTES GEOGRAFIA CIÊNCIAS BIBLIOTECA"
+          "level": "h3",
+          "title": "Regular Fund I — 4° ANO VESPERTINO",
+          "text": "SCHEDULE REGULAR FUND I 4° ANO VESPERTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 13:30-14:15 PORTUGUÊS INGLÊS CIÊNCIAS geografia filosofia 14:15- 15:00 PORTUGUÊS MATEMÁTICA INGLÊS MÚSICA ARTES 15:00- 15:45 MATEMÁTICA MIND MAKERS INGLÊS GEOGRAFIA LIV 15:45-16:20 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 16:20-17:05 BIBLIOTECA HISTÓRIA CIÊNCIAS PORTUGUÊS MATEMÁTICA 17:05-17:50 ED. FÍSICA HISTÓRIA ED. FÍSICA PORTUGUÊS MATEMÁTICA"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Semi — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE F1 TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 09:15 - 10:20 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 10:20 - 11:10 GARDENING BODY MOVEMENT COOKING CLASS AROUND THE WORLD STORYTELLING 11:10 - 11:45 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 11:45 - 12:30 LUNCH LUNCH LUNCH LUNCH LUNCH 12:30 - 13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:30 - 14:15 MATEMÁTICA PORTUGUÊS ENGLISH PORTUGUÊS ED. FÍSICA 14:15 - 15:00 MATEMÁTICA PORTUGUÊS MATEMÁTICA MIND MAKERS PORTUGUÊS 15:00 - 15:35 Break Break Break Break Break 15:35 - 16:20 MÚSICA LIV MATEMÁTICA ED. FÍSICA HISTÓRIA 16:20 - 17:05 ENGLISH ENGLISH GEOGRAFIA CIÊNCIAS HISTÓRIA 17:05 - 17:50 FILOSOFIA ARTES GEOGRAFIA CIÊNCIAS BIBLIOTECA"
+          "level": "h3",
+          "title": "Regular Fund I — 5º ANO MATUTINO",
+          "text": "SCHEDULE REGULAR FUND I 5º ANO MATUTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:40- 08:25 INGLÊS MATEMÁTICA GEOGRAFIA PORTUGUÊS INGLÊS 08:25 - 09:10 LIV matemática ED. FÍSICA PORTUGUÊS INGLÊS 09:10 - 09:55 ARTES BIBLIOTECA MÚSICA FIOLOSOFIA GEOGRAFIA 09:55 - 10:30 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 10:30-11:15 MATEMÁTICA CIÊNCIAS PORTUGUÊS ED. FÍSICA HISTÓRIA 11:15- 12:00 MATEMÁTICA CIÊNCIAS PORTUGUÊS MIND MAKERS HISTÓRIA"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 12",
-          "text": "SCHEDULE INTEGRAL BILÍNGUE F1 - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:40 - 08:30 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 08:30 - 08:50 Break Break Break Break Break 08:50 - 09:35 BODY MOVEMENT ARTS & CRAFT BODY MOVEMENT ARTS & CRAFT CAMBRIDGE PREP 09:35 - 10:20 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 10:20 - 11:10 GARDENING AROUND THE WORLD COOKING CLASS AROUND THE WORLD STORYTELLING 11:10 - 11:45 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 11:45 - 12:30 LUNCH LUNCH LUNCH LUNCH LUNCH 12:30 - 13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:30 - 14:15 MATEMÁTICA PORTUGUÊS ENGLISH PORTUGUÊS ED. FÍSICA 14:15 - 15:00 MATEMÁTICA PORTUGUÊS MATEMÁTICA MIND MAKERS PORTUGUÊS 15:00 - 15:35 Break Break Break Break Break 15:35 - 16:20 MÚSICA LIV MATEMÁTICA ED. FÍSICA HISTÓRIA 16:20 - 17:05 ENGLISH ENGLISH GEOGRAFIA CIÊNCIAS HISTÓRIA 17:05 - 17:50 FILOSOFIA ARTES GEOGRAFIA CIÊNCIAS BIBLIOTECA"
+          "level": "h3",
+          "title": "Regular Fund I — 5º ANO VESPERTINO",
+          "text": "SCHEDULE REGULAR FUND I 5º ANO VESPERTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 13:30-14:15 INGLÊS MATEMÁTICA MÚSICA PORTUGUÊS PORTUGUÊS 14:15- 15:00 LIV MATEMÁTICA GEOGRAFIA PORTUGUÊS HISTÓRIA 15:00- 15:45 ARTES CIÊNCIAS PORTUGUÊS MIND MAKERS HISTÓRIA 15:45-16:20 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 16:20-17:05 MATEMÁTICA CIÊNCIAS INGLÊS ED. FÍSICA BIBLIOTECA 17:05-17:50 MATEMÁTICA ED. FÍSICA INGLÊS FILOSOFIA GEOGRAFIA"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Integral — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE INTEGRAL BILÍNGUE F1 - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:40 - 08:30 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 08:30 - 08:50 Break Break Break Break Break 08:50 - 09:35 BODY MOVEMENT ARTS & CRAFT BODY MOVEMENT ARTS & CRAFT CAMBRIDGE PREP 09:35 - 10:20 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 10:20 - 11:10 GARDENING AROUND THE WORLD COOKING CLASS AROUND THE WORLD STORYTELLING 11:10 - 11:45 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 11:45 - 12:30 LUNCH LUNCH LUNCH LUNCH LUNCH 12:30 - 13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:30 - 14:15 MATEMÁTICA PORTUGUÊS ENGLISH PORTUGUÊS ED. FÍSICA 14:15 - 15:00 MATEMÁTICA PORTUGUÊS MATEMÁTICA MIND MAKERS PORTUGUÊS 15:00 - 15:35 Break Break Break Break Break 15:35 - 16:20 MÚSICA LIV MATEMÁTICA ED. FÍSICA HISTÓRIA 16:20 - 17:05 ENGLISH ENGLISH GEOGRAFIA CIÊNCIAS HISTÓRIA 17:05 - 17:50 FILOSOFIA ARTES GEOGRAFIA CIÊNCIAS BIBLIOTECA"
+          "level": "h3",
+          "title": "Regular Bilíngue — 1° ANO MATUTINO",
+          "text": "SCHEDULE REGULAR BILÍNGUE 1° ANO MATUTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:40 - 08:25 PORTUGUÊS INGLÊS LITERATURA CIÊNCIAS HISTÓRIA 08:25 - 09:10 INGLÊS MATEMÁTICA INGLÊS ED. FÍSICA HISTÓRIA 09:10 - 09:45 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 09:45 - 10:30 PORTUGUÊS MATEMÁTICA PORTUGUÊS CIÊNCIAS ED. FÍSICA 10:30 - 11:15 FILOSOFIA ARTES PORTUGUÊS MATEMÁTICA GEOGRAFIA 11:15 - 12:00 MÚSICA MATEMÁTICA PORTUGUÊS MATEMÁTICA LIV 12:00-12:30 LUNCH LUNCH LUNCH LUNCH LUNCH 12h30 - 13h15 SCIENCE PBL (Problem-based learning) Global Perspectives Math Speaking Lab"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 13",
-          "text": "SCHEDULE REGULAR 6º ANO MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:30 LIV ED. FÍSICA GEOGRAFIA HISTÓRIA MATEMÁTICA 08:15 MATEMÁTICA GEOGRAFIA PORTUGUÊS ED. FÍSICA CIÊNCIAS 09:00 MATEMÁTICA GEOGRAFIA PORTUGUÊS MÚSICA FILOSOFIA 09:45 Break Break Break Break Break 10:05 English Mind Makers MATEMÁTICA MATEMÁTICA PROD. TEXTUAL 10:55 HISTÓRIA ARTES CIÊNCIAS PORTUGUÊS English 11:35 HISTÓRIA MATEMÁTICA CIÊNCIAS PORTUGUÊS English"
+          "level": "h3",
+          "title": "Regular Bilíngue — 1° ANO VESPERTINO",
+          "text": "SCHEDULE REGULAR BILÍNGUE 1° ANO VESPERTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 12:30-13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:30 - 14:15 PORTUGUÊS CIÊNCIAS HISTÓRIA HISTÓRIA ED. FÍSICA 14:15 - 15:00 ARTES CIÊNCIAS MÚSICA ED. FÍSICA LIV/FILOSOFIA 15:00 - 15:35 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 15:35 - 16:20 INGLÊS BIBLIOTECA INGLÊS INGLÊS INGLÊS 16:20 - 17:05 PORTUGUÊS MATEMÁTICA PORTUGUÊS MATEMÁTICA GEOGRAFIA 17:05 - 17:50 PORTUGUÊS MATEMÁTICA PORTUGUÊS MATEMÁTICA GEOGRAFIA"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 14",
-          "text": "SCHEDULE REGULAR 9º ANO TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 13:30 MATEMÁTICA ED. FÍSICA CIÊNCIAS MÚSICA GEOGRAFIA 14:15 PORTUGUÊS PORTUGUÊS CIÊNCIAS HISTÓRIA GEOGRAFIA 15:00 HISTÓRIA PORTUGUÊS ED. FÍSICA HISTÓRIA PROD. TEXTUAL 15:45 Break Break Break Break Break 16:05 English GEOGRAFIA MATEMÁTICA PORTUGUÊS CIÊNCIAS 16:50 English Mind Makers MATEMÁTICA MATEMÁTICA ARTES 17:35 LIV MATEMÁTICA FILOSOFIA MATEMÁTICA English"
+          "level": "h3",
+          "title": "Regular Bilíngue — 2º ANO MATUTINO",
+          "text": "SCHEDULE REGULAR BILÍNGUE 2º ANO MATUTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:40 - 08:25 PORTUGUÊS MATEMÁTICA PORTUGUÊS ED. FÍSICA GEOGRAFIA 08:25 - 09:10 PORTUGUÊS BIBLIOTECA INGLÊS MATEMÁTICA ARTES 09:10 - 09:45 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 09:45 - 10:30 CIÊNCIAS MATEMÁTICA PORTUGUÊS MATEMÁTICA GEOGRAFIA 10:30 - 11:15 CIÊNCIAS HISTÓRIA MÚSICA MIND MAKERS INGLÊS 11:15 - 12:00 CIÊNCIAS HISTÓRIA LIV FILOSOFIA ED. FÍSICA 12:00-12:30 LUNCH LUNCH LUNCH LUNCH LUNCH 12:30 - 13:15 SCIENCE PBL (Problem-based learning) GLOBAL PERSPECTIVES MATH SPEAKING LAB"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 15",
-          "text": "SCHEDULE REGULAR BILÍNGUE F2 MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:30 CIÊNCIAS ARTES PROD. TEXTUAL MÚSICA CIÊNCIAS 08:15 English MATEMÁTICA English MATEMÁTICA GEOGRAFIA 09:00 LIV ED. FÍSICA CIÊNCIAS PORTUGUÊS MATEMÁTICA 09:45 Break Break Break Break Break 10:05 MATEMÁTICA PORTUGUÊS English HISTÓRIA MATEMÁTICA 10:55 PORTUGUÊS Mind Makers MATEMÁTICA FILOSOFIA HISTÓRIA 11:35 HISTÓRIA GEOGRAFIA GEOGRAFIA ED. FÍSICA PORTUGUÊS 12:20 Break Break Break Break Break 12:30 History and Geography Financial Literacy Global Perspectives STEAM Speaking Lab"
+          "level": "h3",
+          "title": "Regular Bilíngue — 2º ANO VESPERTINO",
+          "text": "SCHEDULE REGULAR BILÍNGUE 2º ANO VESPERTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 12:30 - 13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:30 - 14:15 PORTUGUÊS MIND MAKERS HISTÓRIA GEOGRAFIA MATEMÁTICA 14:15 - 15:00 PORTUGUÊS HISTÓRIA BIBLIOTECA GEOGRAFIA MATEMÁTICA 15:00 - 15:35 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 15:35 - 16:20 FILOSOFIA INGLÊS INGLÊS LIV PORTUGUÊS 16:20 - 17:05 MÚSICA CIÊNCIAS MATEMÁTICA ED. FÍSICA PORTUGUÊS 17:05 - 17:50 ARTES CIÊNCIAS MATEMÁTICA INGLÊS ED. FÍSICA"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Regular Bilíngue — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE REGULAR BILÍNGUE F2 MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:30 CIÊNCIAS ARTES PROD. TEXTUAL MÚSICA CIÊNCIAS 08:15 English MATEMÁTICA English MATEMÁTICA GEOGRAFIA 09:00 LIV ED. FÍSICA CIÊNCIAS PORTUGUÊS MATEMÁTICA 09:45 Break Break Break Break Break 10:05 MATEMÁTICA PORTUGUÊS English HISTÓRIA MATEMÁTICA 10:55 PORTUGUÊS Mind Makers MATEMÁTICA FILOSOFIA HISTÓRIA 11:35 HISTÓRIA GEOGRAFIA GEOGRAFIA ED. FÍSICA PORTUGUÊS 12:20 Break Break Break Break Break 12:30 History and Geography Financial Literacy Global Perspectives STEAM Speaking Lab"
+          "level": "h3",
+          "title": "Regular Bilíngue — 3º ANO MATUTINO",
+          "text": "SCHEDULE REGULAR BILÍNGUE 3º ANO MATUTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:40 - 08:25 FILOSOFIA BIBLIOTECA CIÊNCIAS MATEMÁTICA MATEMÁTICA 08:25 - 09:10 INGLÊS PORTUGUÊS CIÊNCIAS MIND MAKERS ED. FÍSICA 09:10 - 09:45 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 09:45 - 10:30 PORTUGUÊS MATEMÁTICA PORTUGUÊS HISTÓRIA GEOGRAFIA 10:30 - 11:15 ARTES MATEMÁTICA iNGLÊS HISTÓRIA GEOGRAFIA 11:15 - 12:00 PORTUGUÊS LIV MÚSICA ED. FÍSICA iNGLÊS 12:00-12:30 LUNCH LUNCH LUNCH LUNCH LUNCH 12:30 - 13:15 Science PBL (Problem-based learning) Global Perspectives Math Speaking Lab"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 16",
-          "text": "SCHEDULE REGULAR BILÍNGUE F2 TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 12:30 History and Geography Financial Literacy Global Perspectives STEAM Speaking Lab 13:15 Break Break Break Break Break 13:30 CIÊNCIAS ARTES PROD. TEXTUAL MÚSICA CIÊNCIAS 14:15 English MATEMÁTICA English MATEMÁTICA GEOGRAFIA 15:00 LIV ED. FÍSICA CIÊNCIAS PORTUGUÊS MATEMÁTICA 15:45 Break Break Break Break Break 16:05 MATEMÁTICA PORTUGUÊS English HISTÓRIA MATEMÁTICA 16:50 PORTUGUÊS Mind Makers MATEMÁTICA FILOSOFIA HISTÓRIA 17:35 HISTÓRIA GEOGRAFIA GEOGRAFIA ED. FÍSICA PORTUGUÊS"
+          "level": "h3",
+          "title": "Regular Bilíngue — 3º ANO VESPERTINO",
+          "text": "SCHEDULE REGULAR BILÍNGUE 3º ANO VESPERTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 12:30 - 13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:30 - 14:15 MATEMÁTICA PORTUGUÊS INGLÊS PORTUGUÊS ED. FÍSICA 14:15 - 15:00 MATEMÁTICA PORTUGUÊS MATEMÁTICA MIND MAKERS PORTUGUÊS 15:00 - 15:35 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 15:35 - 16:20 MÚSICA LIV MATEMÁTICA ED. FÍSICA HISTÓRIA 16:20 - 17:05 INGLÊS INGLÊS GEOGRAFIA CIÊNCIAS HISTÓRIA 17:05 - 17:50 FILOSOFIA ARTES GEOGRAFIA CIÊNCIAS BIBLIOTECA"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Regular Bilíngue — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE REGULAR BILÍNGUE F2 TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 12:30 History and Geography Financial Literacy Global Perspectives STEAM Speaking Lab 13:15 Break Break Break Break Break 13:30 CIÊNCIAS ARTES PROD. TEXTUAL MÚSICA CIÊNCIAS 14:15 English MATEMÁTICA English MATEMÁTICA GEOGRAFIA 15:00 LIV ED. FÍSICA CIÊNCIAS PORTUGUÊS MATEMÁTICA 15:45 Break Break Break Break Break 16:05 MATEMÁTICA PORTUGUÊS English HISTÓRIA MATEMÁTICA 16:50 PORTUGUÊS Mind Makers MATEMÁTICA FILOSOFIA HISTÓRIA 17:35 HISTÓRIA GEOGRAFIA GEOGRAFIA ED. FÍSICA PORTUGUÊS"
+          "level": "h3",
+          "title": "Regular Bilíngue — 4° ANO MATUTINO",
+          "text": "SCHEDULE REGULAR BILÍNGUE 4° ANO MATUTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:40 - 08:25 PORTUGUÊS LIV CIÊNCIAS MIND MAKERS PORTUGUÊS 08:25 - 09:10 PORTUGUÊS HISTÓRIA CIÊNCIAS MATEMÁTICA BIBLIOTECA 09:10 - 09:55 INGLÊS HISTÓRIA ED. FÍSICA ED. FÍSICA ARTES 09:55 - 10:30 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 10:30 - 11:15 MATEMÁTICA INGLÊS MÚSICA GEOGRAFIA MATEMÁTICA 11:15 - 12:00 MATEMÁTICA INGLÊS FILOSOFIA GEOGRAFIA MATEMÁTICA 12:00-12:30 LUNCH LUNCH LUNCH LUNCH LUNCH 12:30 - 13:15 SCIENCE PBL (Problem-based learning) GLOBAL PERSPECTIVES MATH SPEAKING LAB"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 17",
-          "text": "SCHEDULE INTEGRAL BILÍNGUE F2 - CJA 6º E 7º MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:30 CIÊNCIAS ARTES PROD. TEXTUAL MÚSICA CIÊNCIAS 08:15 English MATEMÁTICA English MATEMÁTICA GEOGRAFIA 09:00 LIV ED. FÍSICA CIÊNCIAS PORTUGUÊS MATEMÁTICA 09:45 Break Break Break Break Break 10:05 MATEMÁTICA PORTUGUÊS English HISTÓRIA MATEMÁTICA 10:55 PORTUGUÊS Mind Makers MATEMÁTICA FILOSOFIA HISTÓRIA 11:35 HISTÓRIA GEOGRAFIA GEOGRAFIA ED. FÍSICA PORTUGUÊS 12:20 Break Break Break Break Break 12:30 History and Geography Financial Literacy Global Perspectives STEAM Speaking Lab 13:15 Lunch Lunch Lunch Lunch Lunch 14:15 Creative Writing Arts and Crafts Creative Writing Around the World Cooking Experience 15:00 Wellbeing Wellbeing Wellbeing Wellbeing Wellbeing 16:00 English Body and Movement English Gardening Arts 16:45 Break Break Break Break Break 17:10 Music Music Music Music Music"
+          "level": "h3",
+          "title": "Regular Bilíngue — 4° ANO VESPERTINO",
+          "text": "SCHEDULE REGULAR BILÍNGUE 4° ANO VESPERTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 12:30-13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:30-14:15 PORTUGUÊS INGLÊS CIÊNCIAS GEOGRAFIA FILOSOFIA 15:00- 15:45 MATEMÁTICA MIND MAKERS INGLÊS GEOGRAFIA LIV 15:45-16:20 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 16:20-17:05 BIBLIOTECA HISTÓRIA CIÊNCIAS PORTUGUÊS MATEMÁTICA 17:05-17:50 ED, FÍSICA HISTÓRIA ED. FÍSICA PORTUGUÊS MATEMÁTICA"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "Integral — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE INTEGRAL BILÍNGUE F2 - CJA 6º E 7º MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:30 CIÊNCIAS ARTES PROD. TEXTUAL MÚSICA CIÊNCIAS 08:15 English MATEMÁTICA English MATEMÁTICA GEOGRAFIA 09:00 LIV ED. FÍSICA CIÊNCIAS PORTUGUÊS MATEMÁTICA 09:45 Break Break Break Break Break 10:05 MATEMÁTICA PORTUGUÊS English HISTÓRIA MATEMÁTICA 10:55 PORTUGUÊS Mind Makers MATEMÁTICA FILOSOFIA HISTÓRIA 11:35 HISTÓRIA GEOGRAFIA GEOGRAFIA ED. FÍSICA PORTUGUÊS 12:20 Break Break Break Break Break 12:30 History and Geography Financial Literacy Global Perspectives STEAM Speaking Lab 13:15 Lunch Lunch Lunch Lunch Lunch 14:15 Creative Writing Arts and Crafts Creative Writing Around the World Cooking Experience 15:00 Wellbeing Wellbeing Wellbeing Wellbeing Wellbeing 16:00 English Body and Movement English Gardening Arts 16:45 Break Break Break Break Break 17:10 Music Music Music Music Music"
+          "level": "h3",
+          "title": "Regular Bilíngue — 5º ANO MATUTINO",
+          "text": "SCHEDULE REGULAR BILÍNGUE 5º ANO MATUTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:40- 08:25 INGLÊS MATEMÁTICA GEOGRAFIA português INGLÊS 08:25 - 09:10 LIV MATEMÁTICA ED. FÍSICA português INGLÊS 09:10 - 09:55 ARTES BIBLIOTECA MÚSICA filosofia geografia 09:55 - 10:30 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 10:30-11:15 MATEMÁTICA CIÊNCIAS PORTUGUÊS ED. FÍSICA HISTÓRIA 11:15- 12:00 MATEMÁTICA CIÊNCIAS PORTUGUÊS MIND MAKERS HISTÓRIA 12:00-12:30 LUNCH LUNCH LUNCH LUNCH LUNCH 12:30 - 13:15 SCIENCE PBL (Problem-based learning) GLOBAL PERSPECTIVES MATH SPEAKING LAB"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 18",
-          "text": "SCHEDULE HIGH SCHOOL PREP YEAR 8/9 MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:30 CIÊNCIAS ARTES PROD. TEXTUAL MÚSICA CIÊNCIAS 08:15 English MATEMÁTICA English MATEMÁTICA GEOGRAFIA 09:00 LIV ED. FÍSICA CIÊNCIAS PORTUGUÊS MATEMÁTICA 09:45 Break Break Break Break Break 10:05 MATEMÁTICA PORTUGUÊS English HISTÓRIA MATEMÁTICA 10:55 PORTUGUÊS Mind Makers MATEMÁTICA FILOSOFIA HISTÓRIA 11:35 HISTÓRIA GEOGRAFIA GEOGRAFIA ED. FÍSICA PORTUGUÊS 12:20 Break Break Break Break Break 12:30 History and Geography Financial Literacy Global Perspectives STEAM Speaking Lab 13:15 Lunch Lunch Lunch Lunch Lunch 14:15 High School High School High School High School High School 15:00 High School High School High School High School High School 16:00 High School High School High School High School High School 16:45 Break Break Break Break Break 17:10 High School High School High School High School High School"
+          "level": "h3",
+          "title": "Regular Bilíngue — 5º ANO VESPERTINO",
+          "text": "SCHEDULE REGULAR BILÍNGUE 5º ANO VESPERTINO - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 12:30-13:15 SCIENCE PBL GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:15-13:30 LIVRE LIVRE LIVRE LIVRE LIVRE 13:30-14:15 INGLÊS MATEMÁTICA MÚSICA PORTUGUÊS PORTUGUÊS 15:00- 15:45 ARTES CIÊNCIAS PORTUGUÊS MIND MAKERS HISTÓRIA 15:45-16:20 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 16:20-17:05 MATEMÁTICA CIÊNCIAS INGLÊS ED. FÍSICA BIBLIOTECA 17:05-17:50 MATEMÁTICA ED. FÍSICA INGLÊS FILOSOFIA GEOGRAFIA"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "High School — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE HIGH SCHOOL PREP YEAR 8/9 MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:30 CIÊNCIAS ARTES PROD. TEXTUAL MÚSICA CIÊNCIAS 08:15 English MATEMÁTICA English MATEMÁTICA GEOGRAFIA 09:00 LIV ED. FÍSICA CIÊNCIAS PORTUGUÊS MATEMÁTICA 09:45 Break Break Break Break Break 10:05 MATEMÁTICA PORTUGUÊS English HISTÓRIA MATEMÁTICA 10:55 PORTUGUÊS Mind Makers MATEMÁTICA FILOSOFIA HISTÓRIA 11:35 HISTÓRIA GEOGRAFIA GEOGRAFIA ED. FÍSICA PORTUGUÊS 12:20 Break Break Break Break Break 12:30 History and Geography Financial Literacy Global Perspectives STEAM Speaking Lab 13:15 Lunch Lunch Lunch Lunch Lunch 14:15 High School High School High School High School High School 15:00 High School High School High School High School High School 16:00 High School High School High School High School High School 16:45 Break Break Break Break Break 17:10 High School High School High School High School High School"
+          "level": "h3",
+          "title": "Semi-integral Bilíngue — 1º e 2º MORNING",
+          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE 1º e 2º MORNING - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 09h15-10h00 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 10h00-10h30 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 10h30-11h20 PROJECTS: GARDENING CREATIVE WRITING PROJECTS: COOKING CLASS AROUND THE WORLD PROJECTS: STORYTELLING 11h20-11h40 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 11h40-12h30 LUNCH LUNCH LUNCH LUNCH LUNCH 12h30 - 13h15 SCIENCE PBL (Problem-based learning) GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:30 - 14:15 PORTUGUÊS CIÊNCIAS HISTÓRIA HISTÓRIA ED. FÍSICA 14:15 - 15:00 ARTES CIÊNCIAS MÚSICA ED. FÍSICA LIV/FILOSOFIA 15:00 - 15:35 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 15:35 - 16:20 INGLÊS BIBLIOTECA INGLÊS INGLÊS INGLÊS 16:20 - 17:05 PORTUGUÊS MATEMÁTICA PORTUGUÊS MATEMÁTICA GEOGRAFIA 17:05 - 17:50 PORTUGUÊS MATEMÁTICA PORTUGUÊS MATEMÁTICA GEOGRAFIA"
         },
         {
           "source": "Grades horárias",
-          "level": "page",
-          "title": "grade cja 2027 modelo padronizado praia grande marupiara v1 — página 19",
-          "text": "SCHEDULE HIGH SCHOOL PREP YEAR 8/9 TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 09:00 High School High School High School High School High School 09:45 Break Break Break Break Break 10:05 High School High School High School High School High School 10:55 High School High School High School High School High School 11:35 High School High School High School High School High School 12:20 Break Break Break Break Break 12:30 History and Geography Financial Literacy Global Perspectives STEAM Speaking Lab 13:15 Break Break Break Break Break 13:30 CIÊNCIAS ARTES PROD. TEXTUAL MÚSICA CIÊNCIAS 14:15 English MATEMÁTICA English MATEMÁTICA GEOGRAFIA 15:00 LIV ED. FÍSICA CIÊNCIAS PORTUGUÊS MATEMÁTICA 15:45 Break Break Break Break Break 16:05 MATEMÁTICA PORTUGUÊS English HISTÓRIA MATEMÁTICA 16:50 PORTUGUÊS Mind Makers MATEMÁTICA FILOSOFIA HISTÓRIA 17:35 HISTÓRIA GEOGRAFIA GEOGRAFIA ED. FÍSICA PORTUGUÊS"
+          "level": "h3",
+          "title": "Semi-integral Bilíngue — 1º e 2º AFTERNOON",
+          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE 1º e 2º AFTERNOON - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:40 - 08:25 PORTUGUÊS INGLÊS LITERATURA CIÊNCIAS HISTÓRIA 08:25 - 09:10 INGLÊS MATEMÁTICA INGLÊS ED. FÍSICA HISTÓRIA 09:10 - 09:45 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 09:45 - 10:30 PORTUGUÊS MATEMÁTICA PORTUGUÊS CIÊNCIAS ED. FÍSICA 10:30 - 11:15 FILOSOFIA ARTES PORTUGUÊS MATEMÁTICA GEOGRAFIA 11:15 - 12:00 MÚSICA MATEMÁTICA PORTUGUÊS MATEMÁTICA LIV 12h00 - 12h30 Lunch Lunch Lunch Lunch Lunch 12h30-13h15 SCIENCE PBL (Problem-based learning) GLOBAL PERSPECTIVES MATH SPEAKING LAB 13h15 - 13h30 RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES 13h30 - 14h20 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 14h20 - 15h10 PROJECTS: GARDENING CREATIVE READING PROJECTS: COOKING CLASS STORYTELLING AROUND THE WORLD 15h10 - 15h45 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME"
         },
         {
           "source": "Grades horárias",
-          "level": "snippet",
-          "title": "High School — grade cja 2027 modelo padronizado praia grande marupiara v1",
-          "text": "SCHEDULE HIGH SCHOOL PREP YEAR 8/9 TARDE - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 09:00 High School High School High School High School High School 09:45 Break Break Break Break Break 10:05 High School High School High School High School High School 10:55 High School High School High School High School High School 11:35 High School High School High School High School High School 12:20 Break Break Break Break Break 12:30 History and Geography Financial Literacy Global Perspectives STEAM Speaking Lab 13:15 Break Break Break Break Break 13:30 CIÊNCIAS ARTES PROD. TEXTUAL MÚSICA CIÊNCIAS 14:15 English MATEMÁTICA English MATEMÁTICA GEOGRAFIA 15:00 LIV ED. FÍSICA CIÊNCIAS PORTUGUÊS MATEMÁTICA 15:45 Break Break Break Break Break 16:05 MATEMÁTICA PORTUGUÊS English HISTÓRIA MATEMÁTICA 16:50 PORTUGUÊS Mind Makers MATEMÁTICA FILOSOFIA HISTÓRIA 17:35 HISTÓRIA GEOGRAFIA GEOGRAFIA ED. FÍSICA PORTUGUÊS"
+          "level": "h3",
+          "title": "Integral Bilíngue — 1º e 2º MORNING",
+          "text": "SCHEDULE INTEGRAL BILÍNGUE 1º e 2º MORNING - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 7h40-8h05 GREETINGS/ FUN TIME GREETINGS/ FUN TIME GREETINGS/ FUN TIME GREETINGS/ FUN TIME GREETINGS/ FUN TIME 8h05-8h50 BODY MOVEMENT ARTS & CRAFT MUSIC & MOTION ARTS & CRAFT BODY MOVEMENT 8h50 - 9h15 SNACK SNACK SNACK SNACK SNACK 09h15-10h00 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 10h00-10h30 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 10h30-11h20 PROJECTS: GARDENING CREATIVE WRITING PROJECTS: COOKING CLASS AROUND THE WORLD PROJECTS: STORYTELLING 11h20-11h40 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 11h40-12h30 LUNCH LUNCH LUNCH LUNCH LUNCH 12h30 - 13h15 SCIENCE PBL (Problem-based learning) GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:30 - 14:15 PORTUGUÊS CIÊNCIAS HISTÓRIA HISTÓRIA ED. FÍSICA 14:15 - 15:00 ARTES CIÊNCIAS MÚSICA ED. FÍSICA LIV/FILOSOFIA 15:00 - 15:35 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 15:35 - 16:20 INGLÊS BIBLIOTECA INGLÊS INGLÊS INGLÊS 16:20 - 17:05 PORTUGUÊS MATEMÁTICA PORTUGUÊS MATEMÁTICA GEOGRAFIA 17:05 - 17:50 PORTUGUÊS MATEMÁTICA PORTUGUÊS MATEMÁTICA GEOGRAFIA"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Integral Bilíngue — 1º e 2º AFTERNOON",
+          "text": "SCHEDULE INTEGRAL BILÍNGUE 1º e 2º AFTERNOON - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:40 - 08:25 PORTUGUÊS INGLÊS LITERATURA CIÊNCIAS HISTÓRIA 08:25 - 09:10 INGLÊS MATEMÁTICA INGLÊS ED. FÍSICA HISTÓRIA 09:10 - 09:45 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 09:45 - 10:30 PORTUGUÊS MATEMÁTICA PORTUGUÊS CIÊNCIAS ED. FÍSICA 10:30 - 11:15 FILOSOFIA ARTES PORTUGUÊS MATEMÁTICA GEOGRAFIA 11:15 - 12:00 MÚSICA MATEMÁTICA PORTUGUÊS MATEMÁTICA LIV 12h00 - 12h30 LUNCH LUNCH LUNCH LUNCH LUNCH 12h30-13h15 SCIENCE PBL (Problem-based learning) GLOBAL PERSPECTIVES MATH SPEAKING LAB 13h15 - 13h30 RELAXING TIME/ GAMES RELAXING TIME/ GAMES RELAXING TIME/ GAMES RELAXING TIME/ GAMES RELAXING TIME/ GAMES 13h30 - 14h20 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 14h20 - 15h10 PROJECTS: GARDENING CREATIVE READING PROJECTS: COOKING CLASS STORYTELLING AROUND THE WORLD 15h10 - 15h45 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 15h45 - 16h20 SNACK SNACK SNACK SNACK SNACK 16h20 - 17h05 BODY MOVEMENT ARTS & CRAFT MUSIC & MOTION ARTS & CRAFT BODY MOVEMENT 17h05 - 17:50 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Semi-integral Bilíngue — 3º- 4º - 5º MORNING",
+          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE 3º- 4º - 5º MORNING - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 9h15 - 10h20 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 10h20-11h10 PROJECTS: GARDENING AROUND THE WORLD PROJECTS: COOKING CLASS CREATIVE WRITING PROJECTS: STORYTELLING 11h10-11h45 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 11h45 - 12h30 LUNCH LUNCH LUNCH LUNCH LUNCH 12h30 - 13h15 SCIENCE PBL (Problem-based learning) GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:30 - 14:15 MATEMÁTICA PORTUGUÊS INGLÊS PORTUGUÊS ED. FÍSICA 14:15 - 15:00 MATEMÁTICA PORTUGUÊS MATEMÁTICA MIND MAKERS PORTUGUÊS 15:00 - 15:35 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 15:35 - 16:20 MÚSICA LIV MATEMÁTICA ED. FÍSICA HISTÓRIA 16:20 - 17:05 INGLÊS INGLÊS GEOGRAFIA CIÊNCIAS HISTÓRIA 17:05 - 17:50 FILOSOFIA ARTES GEOGRAFIA CIÊNCIAS BIBLIOTECA"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Semi-integral Bilíngue — 3º - 4° - 5º AFTERNOON",
+          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE 3º - 4° - 5º AFTERNOON - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:40 - 08:25 PORTUGUÊS LIV CIÊNCIAS MIND MAKERS PORTUGUÊS 08:25 - 09:10 PORTUGUÊS HISTÓRIA CIÊNCIAS MATEMÁTICA BIBLIOTECA 09:10 - 09:55 INGLÊS HISTÓRIA ED. FÍSICA ED. FÍSICA ARTES 09:55 - 10:30 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 10:30 - 11:15 MATEMÁTICA INGLÊS MÚSICA GEOGRAFIA MATEMÁTICA 11:15 - 12:00 MATEMÁTICA INGLÊS FILOSOFIA GEOGRAFIA MATEMÁTICA 12h00 - 12h30 Lunch Lunch Lunch Lunch Lunch 12h30-13h15 SCIENCE PBL (Problem-based learning) GLOBAL PERSPECTIVES MATH SPEAKING LAB 13h10 - 13h30 RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES 13h30 - 14h20 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 14h20 - 15:10 PROJECTS: GARDENING Body Movement Body Movement Projects: Cooking Class Reading Across Languages 15h10 - 15h45 Fun Time FUN TIME FUN TIME FUN TIME FUN TIME"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Integral Bilíngue — 3º- 4º - 5º",
+          "text": "SCHEDULE INTEGRAL BILÍNGUE 3º- 4º - 5º - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 7h40-8h30 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 8h30-8h50 SNACK SNACK SNACK SNACK SNACK 8h50-9h35 BODY MOVEMENT ARTS & CRAFT SNACK ARTS & CRAFT CAMBRIDGE PREP 9h35 - 10h20 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 10h20-11h10 PROJECTS: GARDENING AROUND THE WORLD PROJECTS: COOKING CLASS CREATIVE WRITING PROJECTS: STORYTELLING 11h10-11h45 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 11h45 - 12h30 Lunch Lunch Lunch Lunch Lunch 12h30 - 13h15 SCIENCE PBL (Problem-based learning) GLOBAL PERSPECTIVES MATH SPEAKING LAB 13:30 - 14:15 MATEMÁTICA PORTUGUÊS INGLÊS PORTUGUÊS ED. FÍSICA 14:15 - 15:00 MATEMÁTICA PORTUGUÊS MATEMÁTICA MIND MAKERS PORTUGUÊS 15:00 - 15:35 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 15:35 - 16:20 MÚSICA LIV MATEMÁTICA ED. FÍSICA HISTÓRIA 16:20 - 17:05 INGLÊS INGLÊS GEOGRAFIA CIÊNCIAS HISTÓRIA 17:05 - 17:50 FILOSOFIA ARTES GEOGRAFIA CIÊNCIAS BIBLIOTECA"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Integral Bilíngue — 3º- 4º - 5º",
+          "text": "SCHEDULE INTEGRAL BILÍNGUE 3º- 4º - 5º - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:40 - 08:25 PORTUGUÊS LIV CIÊNCIAS MIND MAKERS PORTUGUÊS 08:25 - 09:10 PORTUGUÊS HISTÓRIA CIÊNCIAS MATEMÁTICA BIBLIOTECA 09:10 - 09:55 INGLÊS HISTÓRIA ED. FÍSICA ED. FÍSICA ARTES 09:55 - 10:30 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 10:30 - 11:15 MATEMÁTICA INGLÊS MÚSICA GEOGRAFIA MATEMÁTICA 11:15 - 12:00 MATEMÁTICA INGLÊS FILOSOFIA GEOGRAFIA MATEMÁTICA 12h00 - 12h30 Lunch Lunch Lunch Lunch Lunch 12h30-13h15 SCIENCE PBL (Problem-based learning) GLOBAL PERSPECTIVES MATH Speaking Lab 13h10 - 13h30 RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES RELAXING TIME/GAMES 13h30 - 14h20 HOMEWORK HOMEWORK HOMEWORK HOMEWORK HOMEWORK 14h20 - 15:10 PROJECTS: GARDENING BODY MOVEMENT BODY MOVEMENT PROJECTS: COOKING CLASS READING ACROSS LANGUAGES 15h10 - 15h45 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 15h45 - 16h10 SNACK SNACK SNACK SNACK SNACK 16h20 - 16:55 BODY MOVEMENT ARTS & CRAFT MUSIC & MOTION ARTS & CRAFT AROUND THE WORLD 16h55 - 17:50 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Educação Infantil — INFANTIL 1",
+          "text": "SCHEDULE EDUCAÇÃO INFANTIL INFANTIL 1 - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:30-08:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 08:15 - 09:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 09:00 - 09:15 intervalo intervalo intervalo intervalo intervalo 09:15 - 10:00 PSICOMOTRICIDADE Atividade MÚSICA InglÊs Atividade 10:00 - 10:45 Parque Parque Atividade Atividade Parque 10:45 - 11:30 Atividade Atividade Parque Parque Atividade"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Educação Infantil — INFANTIL 1",
+          "text": "SCHEDULE EDUCAÇÃO INFANTIL INFANTIL 1 - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 13:30 - 14:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 14:15 - 15:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Atividade 15:00 - 15:15 intervalo intervalo intervalo intervalo intervalo 15:15 - 16:00 Atividade Atividade Atividade Atividade Atividade 16:00 - 16:45 Parque Parque Parque Parque Parque 16:45 - 17:30 Psicomotricidade Inglês música Atividade Atividade"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Educação Infantil — INFANTIL 2",
+          "text": "SCHEDULE EDUCAÇÃO INFANTIL INFANTIL 2 - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:30-8:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 08:15 - 09:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 09:00 - 09:15 intervalo intervalo intervalo intervalo intervalo 09:15 - 10:00 Psicomotricidade Atividade Música Biblioteca Atividade 10:00 - 10:45 Inglês Parque Parque Parque Parque 10:45 - 11:30 Parque Atividade Atividade Atividade Atividade"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Educação Infantil — INFANTIL 2",
+          "text": "SCHEDULE EDUCAÇÃO INFANTIL INFANTIL 2 - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 13:30 - 14:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 14:15 - 15:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 15:00 - 15:15 intervalo intervalo intervalo intervalo intervalo 15:15 - 16:00 Inglês biblioteca música Psicomotricidade Atividade 16:00 - 16:45 Atividade Atividade Atividade Atividade Atividade 16:45 - 17:30 Parque Parque Parque Parque Parque"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Educação Infantil — INFANTIL 3",
+          "text": "SCHEDULE EDUCAÇÃO INFANTIL INFANTIL 3 - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:30-08:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 08:15 - 09:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 09:00 - 09:15 intervalo intervalo intervalo intervalo intervalo 09:15 - 10:00 InglÊs Atividade Atividade Atividade Atividade 10:00 - 10:45 psicomotricidade Parque Parque Biblioteca Música 10:45 - 11:30 Parque Ingês Atividade Parque Parque"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Educação Infantil — INFANTIL 3",
+          "text": "SCHEDULE EDUCAÇÃO INFANTIL INFANTIL 3 - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 13:30 - 14:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 14:15 - 15:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 15:00 - 15:15 intervalo intervalo intervalo intervalo intervalo 15:15 - 16:00 Inglês Inglês Biblioteca Atividade Atividade 16:00 - 16:45 Psicomotricidade Parque Atividade Atividade música 16:45 - 17:30 Parque Atividade Parque Parque Parque"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Educação Infantil — INFANTIL 4 - INFANTIL 5",
+          "text": "SCHEDULE EDUCAÇÃO INFANTIL INFANTIL 4 - INFANTIL 5 - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:30 - 08:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 08:15 - 09:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 09:00 - 09:15 intervalo intervalo intervalo intervalo intervalo 09:15 - 10:00 Parque Parque Biblioteca Psicomotricidade Música 10:00 - 10:45 Inglês Atividade Inglês Parque Parque 10:45 - 11:30 Psicomotricidade Atividade Atividade Atividade Atividade"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Educação Infantil — INFANTIL 4 - INFANTIL 5",
+          "text": "SCHEDULE EDUCAÇÃO INFANTIL INFANTIL 4 - INFANTIL 5 - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 13:30 - 14:15 Acolhimento Acolhimento Acolhimento Acolhimento Acolhimento 14:15 - 15:00 Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa Roda de Conversa 15:00 - 15:15 intervalo intervalo intervalo intervalo intervalo 15:15 - 16:00 Inglês Inglês Psicomotricidade Biblioteca Música 16:00 - 16:45 Parque Parque Parque Parque Parque 16:45 - 17:30 Psicomotricidade Atividade Atividade Atividade Atividade"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Semi-integral Bilíngue — KINDER - MANHÃ",
+          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE KINDER - MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 9h15-9h50 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 9h50-10h10 PROJECTS: GARDENING AROUND THE WORLD PROJECTS: COOKING CLASS AROUND THE WORLD Projects: Storytelling 10h10-11h00 ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES 11h00-11h30 PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! 11h30-13h00 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 13h00-13h30 PLAY TIME PLAY TIME PLAY TIME PLAY TIME PLAY TIME 13:30 - 14:15 ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO 14:15 - 15:00 RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA 15:00 - 15:15 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 15:15 - 16:00 INGLÊS INGLÊS PSICOMOTRICIDADE BIBLIOTECA MÚSICA 16:00 - 16:45 PARQUE PARQUE PARQUE PARQUE PARQUE 16:45 - 17:30 PSICOMOTRICIDADE ATIVIDADE ATIVIDADE ATIVIDADE ATIVIDADE"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Semi-integral Bilíngue — Grade horária",
+          "text": "SCHEDULE SEMI-INTEGRAL BILÍNGUE Grade horária - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:30 -8:15 ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO 08:15 - 09:00 RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA 09:00 - 09:15 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 09:15 - 10:00 INGLÊS INGLÊS PSICOMOTRICIDADE BIBLIOTECA MÚSICA 10:00 - 10:45 PARQUE PARQUE PARQUE PARQUE PARQUE 10:45 - 11:30 PSICOMOTRICIDADE ATIVIDADE ATIVIDADE ATIVIDADE ATIVIDADE 12h00 - 13h30 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 13h30 - 14h20 PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! 14h20 - 15h10 ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES 15h10 - 15h45 PROJECTS: GARDENING AROUND THE WORLD PROJECTS: COOKING CLASS AROUND THE WORLD PROJECTS: STORYTELLING"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Integral Bilíngue — KINDER - MANHÃ",
+          "text": "SCHEDULE INTEGRAL BILÍNGUE KINDER - MANHÃ - CJA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 7h40-8h05 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME: TOY DAY 8h05-8h50 BODY MOVEMENT ARTS & CRAFT MUSIC & MOTION ARTS & CRAFT BODY MOVEMENT 8h50 - 9h15 SNACK SNACK SNACK SNACK SNACK 9h15-9h50 PROJECTS: GARDENING AROUND THE WORLD PROJECTS: COOKING CLASS AROUND THE WORLD Projects: Storytelling 9h50-10h10 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME 10h10-11h00 ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES 11h00-11h30 PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! 11h30-13h00 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 13h00-13h30 PLAY TIME PLAY TIME PLAY TIME PLAY TIME PLAY TIME 13:30 - 14:15 ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO 14:15 - 15:00 RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA 15:00 - 15:15 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 15:15 - 16:00 INGLÊS INGLÊS PSICOMOTRICIDADE BIBLIOTECA MÚSICA 16:00 - 16:45 PARQUE PARQUE PARQUE PARQUE PARQUE 16:45 - 17:30 PSICOMOTRICIDADE ATIVIDADE ATIVIDADE ATIVIDADE ATIVIDADE"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h3",
+          "title": "Integral Bilíngue — KINDER - TARDE",
+          "text": "SCHEDULE INTEGRAL BILÍNGUE KINDER - TARDE - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:30 - 8:15 ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO 08:15 - 09:00 RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA 09:00 - 09:15 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 09:15 - 10:00 INGLÊS INGLÊS PSICOMOTRICIDADE BIBLIOTECA MÚSICA 10:00 - 10:45 PARQUE PARQUE PARQUE PARQUE PARQUE 10:45 - 11:30 PSICOMOTRICIDADE ATIVIDADE ATIVIDADE ATIVIDADE ATIVIDADE 12h00 - 13h30 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 13h30 - 14h20 PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! 14h20 - 15h10 ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES 15h10 - 15h45 PROJECTS: GARDENING AROUND THE WORLD PROJECTS: COOKING CLASS AROUND THE WORLD PROJECTS: STORYTELLING 15h45 - 16h10 SNACK SNACK SNACK SNACK SNACK 16h20 - 17h05 BODY MOVEMENT ARTS & CRAFT MUSIC & MOTION ARTS & CRAFT BODY MOVEMENT 17h05 - 17h50 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME: TOY DAY"
         }
       ],
       "faq": [
