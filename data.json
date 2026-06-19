@@ -33,6 +33,21 @@
           "label": "Pasta Drive Praia Grande",
           "url": "https://drive.google.com/drive/folders/1mGenvxoSnpvQnwo2fij-clJUZmtvsi_K",
           "type": "folder"
+        },
+        {
+          "label": "Grade horária — Infantil Praia Grande",
+          "url": "https://drive.google.com/file/d/1y36z_BvZ03WtkevqCxJQWHwD83z8K0Uq/view?usp=drivesdk",
+          "type": "grade"
+        },
+        {
+          "label": "Grade horária — Fundamental I Praia Grande",
+          "url": "https://drive.google.com/file/d/1j7pQ26CGmRBDe0M5atFejzHEaxEKOvwv/view?usp=drivesdk",
+          "type": "grade"
+        },
+        {
+          "label": "Grade horária — Fundamental II Praia Grande",
+          "url": "https://drive.google.com/file/d/1KHDVSFeBh1dj6uzwKB769crpmHPjzzj0/view?usp=drivesdk",
+          "type": "grade"
         }
       ],
       "quickTopics": [
@@ -59,6 +74,10 @@
         {
           "label": "High School e futuro internacional",
           "query": "High School Dual Diploma intercâmbio counseling"
+        },
+        {
+          "label": "Grades horárias",
+          "query": "Grade horária horários Infantil Fundamental Integral Regular Bilíngue High School Prep"
         }
       ],
       "content": [
@@ -571,6 +590,342 @@
           "level": "h2",
           "title": "17. Alinhamento interno e encaminhamentos",
           "text": "P1 Quem deve conhecer este Q&A? Atendimento, comercial, secretaria, coordenações de segmento, coordenação bilíngue, direção, equipe pedagógica e qualquer pessoa que possa ser acionada por famílias durante matrícula, rematrícula ou visitas. P2 Como a coordenação bilíngue deve apoiar a equipe? A coordenação bilíngue deve revisar o material com os times, esclarecer dúvidas, alinhar linguagem, apoiar simulações de atendimento e ajudar a transformar o Q&A em ferramenta ativa de rotina. P3 O que a equipe não deve fazer? Não deve improvisar informações, prometer fluência, garantir certificação, usar nomenclatura não oficial, criticar concorrentes, reduzir o projeto a preço ou responder dúvidas sensíveis sem alinhamento. P4 Quais dúvidas devem ser encaminhadas para liderança? Dúvidas sobre preço, desconto, exceção contratual, política de matrícula, alimentação, transporte, logística específica, contratação parcial, certificações, entrada tardia em High School e casos de alunos com necessidades específicas devem ser encaminhadas. P5 Como registrar dúvidas novas durante a rematrícula? A escola pode manter uma lista viva de perguntas recebidas, com data, público, segmento e resposta encaminhada. Isso permite atualizar o Q&A e reduzir ruídos entre atendimento, coordenação e direção. P6 Qual é a mensagem central para a equipe? O Projeto Bilíngue 2027 não é apenas uma mudança de produto. É uma transformação de proposta educacional. Para que funcione, todos precisam estudar, usar os materiais, alinhar discurso e tratar o bilinguismo como parte da experiência da escola."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h1",
+          "title": "Grade horária — Infantil",
+          "text": "Análise inicial — Grade Infantil / Praia Grande. Consulta interna das grades horárias de Praia Grande, com leitura por segmento, produto, horários, percentuais oficiais e pontos de explicação para famílias."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Infantil — Escopo do arquivo",
+          "text": "O PDF contém 12 páginas:\n- K1: Integral Bilíngue, Semi-integral Bilíngue, Regular Bilíngue\n- K2: Integral Bilíngue, Semi-integral Bilíngue, Regular Bilíngue\n- K3: Integral Bilíngue, Semi-integral Bilíngue, Regular Bilíngue\n- K4: Integral Bilíngue, Semi-integral Bilíngue, Regular Bilíngue\n\nNão aparecem K5/K6 neste arquivo."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Infantil — Regular Bilíngue",
+          "text": "- Horário: 13h20 às 18h00.\n- Permanência diária: 4h40.\n- Permanência semanal: 23h20.\n- Estrutura geral: período da tarde, com atividades regulares, lanche, aulas DE inglês e aulas/experiências EM inglês."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Infantil — Semi-integral Bilíngue",
+          "text": "- Horário: 9h50 às 18h00.\n- Permanência diária: 8h10.\n- Permanência semanal: 40h50.\n- Estrutura geral: inclui bloco de atividades antes do almoço, almoço, descanso/nap time e período regular da tarde.\n- Pela lógica da apresentação, representa combo Regular Bilíngue + metade do Full Time."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Infantil — Integral Bilíngue",
+          "text": "- Horário: 7h00 às 18h00.\n- Permanência diária: 11h.\n- Permanência semanal: 55h.\n- Estrutura geral: inclui acolhida, manhã estendida, refeições/rotinas, almoço, descanso/nap time e período regular da tarde.\n- Pela lógica da apresentação, representa combo Regular Bilíngue + Full Time."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Infantil — Comparação com a apresentação atualizada",
+          "text": "Na apresentação atualizada de 13/06/2026, Praia Grande — Infantil aparece como:\n\n- Regular Bilíngue: 30% em inglês; Music, P.E., Arts, Let’s Explore; 1 livro Cambridge.\n- Semi-integral Bilíngue: 50% em inglês; Music, P.E., Language, Let’s Explore, Arts, Storytelling, Body and Movement; 1 livro Cambridge; combo Regular Bilíngue + metade do Full Time.\n- Integral Bilíngue: 60% em inglês; Music, P.E., Arts, Let’s Explore, Gardening, Arts and Crafts, Storytelling, Fun Time, Body and Movement; 1 livro Cambridge; combo Regular Bilíngue + Full Time."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Infantil — Em inglês ou com provável entrega em inglês — validar com coordenação",
+          "text": "- English\n- Music\n- P.E.\n- Arts\n- Let’s Explore\n- Culture/Music\n- Art Studio\n- Projects\n- Cooking & Nutrition\n- Dramatic Play & Puppetry\n- Outdoor Education\n- Storytelling\n- Creative Writing Workshop\n- Story Creator’s Lab\n- Movement and Expression\n- Mindfulness\n- Playground/Movement — precisa validação: pode ser rotina/movimento, não necessariamente aula EM inglês.\n- Toy Time — precisa validação: pode ser rotina/brincadeira, não necessariamente aula EM inglês."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Infantil — Em português ou provavelmente parte do currículo regular em português",
+          "text": "- Unidade Didática\n- Projeto LIV\n- Projeto Mão na Massa\n- Projeto Leitura\n- Expressão Corporal\n- Futsal/Dança\n- Judô"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Infantil — Rotina/refeições/descanso",
+          "text": "- Welcome\n- Breakfast/Playground\n- Lunch\n- Nap Time\n- Snack"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Infantil — Regular Bilíngue",
+          "text": "O aluno permanece no período regular da tarde e tem contato diário/semanal com inglês dentro da matriz, não apenas como aula isolada. A proposta de valor é: manter a rotina escolar regular, mas com experiências bilíngues integradas, como English, Music, P.E., Arts e Let’s Explore, além do uso de material Cambridge.\n\nPonto de cuidado: pela grade visível, para chegar aos 30% da apresentação é necessário entender exatamente quais atividades contam como instrução em inglês e se alguma parte de Playground/Movement, Toy Time ou Unidade Didática é ministrada em inglês."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Infantil — Semi-integral Bilíngue",
+          "text": "O aluno permanece mais tempo na escola, das 9h50 às 18h00, agregando um bloco de experiências antes do almoço ao Regular Bilíngue. Esse bloco inclui atividades como Projects, Outdoor Education, Storytelling, Creative Writing Workshop, Dramatic Play & Puppetry, Story Creator’s Lab e Movement and Expression.\n\nProposta de valor: mais tempo de exposição ao inglês e experiências práticas/criativas, sem chegar ao dia completo desde cedo.\n\nA porcentagem de 50% parece coerente se o bloco adicional for majoritariamente ministrado em inglês e se forem consideradas apenas cargas instrucionais, excluindo almoço, lanche, descanso e rotinas."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Infantil — Integral Bilíngue",
+          "text": "O aluno permanece na escola das 7h00 às 18h00. Além do período regular e do bloco do semi-integral, há um bloco matutino mais amplo com Culture/Music, Art Studio, Cooking & Nutrition, Projects, Outdoor Education, Mindfulness e outras experiências.\n\nProposta de valor: maior tempo de permanência e maior exposição à língua inglesa por meio de experiências diversificadas, rotina bilíngue e atividades mão na massa.\n\nA porcentagem de 60% parece depender de considerar como instrução em inglês boa parte das atividades do Full Time e de excluir refeições/descanso/rotina do cálculo."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Infantil — Pontos para validar com coordenadores",
+          "text": "1. O cálculo de percentual em inglês considera:\n   - tempo total de permanência na escola; ou\n   - apenas tempo pedagógico/instrucional, excluindo lunch, snack, nap time, welcome e breakfast/playground?\n\n2. Quais atividades são oficialmente ministradas EM inglês no Infantil de Praia Grande?\n   - Playground/Movement conta?\n   - Toy Time conta?\n   - Culture/Music conta como Music?\n   - Projects conta como PBL/experiência em inglês?\n   - Cooking & Nutrition corresponde a Cooking/Gardening/Arts and Crafts do discurso?\n\n3. `Unidade Didática` é sempre em português ou pode conter momentos em inglês?\n\n4. Futsal/Dança e Judô são parte do período regular/contraturno em português? Entram no cálculo de instrução em inglês?\n\n5. O arquivo cobre apenas K1 a K4. Existem grades separadas para K5/K6 ou a unidade Praia Grande não oferta essas nomenclaturas/turmas?"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Infantil — Observação para discurso comercial",
+          "text": "Para famílias, a explicação mais segura não deve começar pelo percentual isolado. Melhor explicar a experiência do aluno:\n\n- Regular Bilíngue: rotina regular com inglês integrado à matriz e experiências em inglês.\n- Semi-integral Bilíngue: amplia a permanência e adiciona um bloco de experiências criativas em inglês.\n- Integral Bilíngue: dia completo, com rotina mais imersiva, mais experiências em inglês, refeições/descanso e atividades de desenvolvimento integral.\n\nDepois disso, apresentar os percentuais como referência de carga de instrução em inglês, desde que o cálculo esteja validado com coordenação."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Infantil — Respostas de Andressa — critérios confirmados",
+          "text": "Andressa confirmou os seguintes critérios para análise:\n\n1. O cálculo do percentual em inglês considera **somente a parte pedagógica/instrucional**. Rotinas, refeições e descanso não entram no cálculo. Os percentuais são **sempre arredondados para cima**.\n2. Playground/Movement e Toy Time são **somente rotina**, portanto não contam como instrução em inglês.\n3. Unidade Didática é **em português**.\n4. Futsal/Dança e Judô contam como **português**.\n5. Em Praia Grande, o Infantil vai **somente até K4**."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Infantil — Impacto na análise",
+          "text": "- A comparação com os percentuais da apresentação deve excluir lunch, snack, nap time, welcome, breakfast/playground, playground/movement e toy time.\n- Para o cálculo de inglês, considerar apenas atividades pedagógicas efetivamente ministradas em inglês.\n- A grade de K1 a K4 cobre todo o Infantil da unidade Praia Grande."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h1",
+          "title": "Grade horária — Fundamental I",
+          "text": "Análise inicial — Grade Fundamental 1 / Praia Grande. Consulta interna das grades horárias de Praia Grande, com leitura por segmento, produto, horários, percentuais oficiais e pontos de explicação para famílias."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Fundamental I — Escopo do arquivo",
+          "text": "O PDF contém 15 páginas:\n- Year 1: Integral Bilíngue, Regular Bilíngue, Regular\n- Year 2: Integral Bilíngue, Regular Bilíngue, Regular\n- Year 3: Integral Bilíngue, Regular Bilíngue, Regular\n- Year 4: Integral Bilíngue, Regular Bilíngue, Regular\n- Year 5: Integral Bilíngue, Regular Bilíngue, Regular"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental I — Regular",
+          "text": "- Horário: 13h20 às 18h00.\n- Permanência diária: 4h40.\n- Estrutura: período regular da tarde, com componentes curriculares em português e aulas DE inglês.\n- Carga pedagógica aparente: 5 tempos pedagógicos por dia, excluindo snack; 25 tempos/semana."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental I — Regular Bilíngue",
+          "text": "- Horário: 13h20 às 18h50.\n- Permanência diária: 5h30.\n- Estrutura: período regular da tarde + 1 tempo diário adicional de disciplina EM inglês.\n- A extensão diária 18h00-18h50 aparece com as disciplinas bilíngues:\n  - Speaking Lab\n  - Science\n  - Math\n  - PBL\n  - Global Perspectives\n- Carga pedagógica aparente: 30 tempos/semana, sendo 25 do período regular + 5 bilíngues adicionais."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental I — Integral Bilíngue",
+          "text": "- Horário: 7h00 às 18h50.\n- Permanência diária: 11h50.\n- Estrutura: bloco da manhã/Full Time + almoço/descanso + período Regular Bilíngue da tarde.\n- Pela lógica da apresentação: combo Regular Bilíngue + Full Time."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Fundamental I — Comparação com a apresentação atualizada",
+          "text": "Na apresentação atualizada de 13/06/2026, Praia Grande — Fundamental 1 aparece como:\n\n- Regular — 12% em inglês; aulas DE inglês; 1 livro Cambridge.\n- Regular Bilíngue — 30% em inglês; aulas DE inglês e EM inglês; Science, Math, Global Perspectives, PBL, Speaking Lab; 3 livros Cambridge.\n- Integral Bilíngue — 60% em inglês; aulas DE inglês e EM inglês; Science, Math, Global Perspectives, PBL, Speaking Lab, Cooking, Gardening, Arts and Crafts, Storytelling, Culture, Body and Movement, Wellbeing, Fun Time; 3 livros Cambridge; combo Regular Bilíngue + Full Time."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental I — Componentes em inglês / bilíngues explícitos",
+          "text": "Aparecem como inglês ou em nomenclatura inglesa:\n- English / Inglês — aulas DE inglês no período regular.\n- Speaking Lab — extensão bilíngue, 18h00-18h50.\n- Science — extensão bilíngue, 18h00-18h50.\n- Math — extensão bilíngue, 18h00-18h50.\n- PBL — extensão bilíngue, 18h00-18h50.\n- Global Perspectives — extensão bilíngue, 18h00-18h50."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental I — Bloco de Full Time/manhã — provável inglês, mas precisa validação",
+          "text": "No Integral Bilíngue, aparecem no período da manhã:\n- Mindfulness\n- Projects\n- Art Studio\n- Cooking & Nutrition\n- Storytelling\n- Outdoor Education\n- Creative Writing Workshop\n- Story Creator’s Lab\n- Dramatic Play & Puppetry\n- Movement and Expression\n\nEssas atividades parecem corresponder à proposta do Integral Bilíngue/Full Time e provavelmente sustentam o percentual maior de inglês, mas precisam de validação formal: são todas ministradas EM inglês?"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental I — Português / currículo regular",
+          "text": "- Língua Portuguesa\n- Matemática\n- Ciências\n- História\n- Geografia\n- História/Geografia\n- Arte\n- Música\n- Educação Física\n- Robótica\n- Projeto Leitura\n- Projeto LIV / LIV/Projeto / Playground/LIV\n- Laboratório/Projeto / Lab/Projeto/LIV\n- Judô/Projeto\n- Balé/Projeto\n- Playground/Projeto"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental I — Rotina/refeições/descanso",
+          "text": "- Welcome\n- Breakfast/Playground\n- Lunch\n- Nap Time\n- Snack"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental I — Regular — apresentação: 12% em inglês",
+          "text": "Na grade, o Regular parece ter 2 aulas de English/Inglês por semana em todos os Years.\nSe considerarmos 25 tempos pedagógicos semanais, isso dá 2/25 = 8%.\nCom arredondamento para cima, ainda não chega a 12%.\n\n**Ponto para validar:** existe alguma outra aula do Regular que deve contar como inglês? Ou o cálculo de 12% usa uma base diferente de tempos pedagógicos?"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental I — Regular Bilíngue — apresentação: 30% em inglês",
+          "text": "Na grade, o Regular Bilíngue parece incluir:\n- 2 aulas DE inglês por semana no período regular;\n- 5 aulas EM inglês por semana no horário 18h00-18h50: Speaking Lab, Science, Math, PBL e Global Perspectives.\n\nTotal aparente: 7 tempos em inglês / 30 tempos pedagógicos semanais = 23,3%, arredondando para 24%.\n\n**Ponto para validar:** para chegar a 30%, alguma aula do período regular também é ministrada em inglês? Ou o cálculo usa outra base?"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental I — Integral Bilíngue — apresentação: 60% em inglês",
+          "text": "O Integral inclui o Regular Bilíngue + bloco de manhã/Full Time.\nSe o bloco da manhã pedagógico for majoritariamente em inglês, ele aumenta bastante a exposição. Porém, pela grade extraída, seria necessário confirmar exatamente quais tempos contam como inglês e quais contam como português.\n\n**Ponto para validar:** quais atividades da manhã são oficialmente ministradas EM inglês e entram no cálculo? Mindfulness, Projects, Art Studio, Cooking & Nutrition, Storytelling, Outdoor Education, Creative Writing Workshop, Story Creator’s Lab, Dramatic Play & Puppetry e Movement and Expression contam todas como inglês?"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental I — Regular",
+          "text": "O aluno entra às 13h20 e sai às 18h00. Vive a rotina regular da escola, com componentes curriculares em português e aulas DE inglês. É o produto mais enxuto, com menor tempo de permanência e menor exposição à língua inglesa."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental I — Regular Bilíngue",
+          "text": "O aluno entra às 13h20 e sai às 18h50. Além da rotina regular, permanece mais 50 minutos por dia para cursar disciplinas EM inglês: Science, Math, PBL, Global Perspectives e Speaking Lab. É aqui que o inglês deixa de ser apenas componente linguístico e passa a ser usado como meio para aprender conteúdos e desenvolver comunicação acadêmica."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental I — Integral Bilíngue",
+          "text": "O aluno entra às 7h00 e sai às 18h50. Tem uma experiência de dia completo: bloco de Full Time/manhã, almoço, descanso/rotina e depois o Regular Bilíngue. A proposta de valor é maior permanência, maior repertório de experiências e mais exposição ao inglês em atividades práticas, criativas e mão na massa."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Fundamental I — Pontos para levar aos coordenadores",
+          "text": "1. Confirmar se o cálculo dos percentuais no F1 segue o mesmo critério: apenas parte pedagógica, excluindo rotinas/refeições/descanso, e arredondamento para cima.\n2. Confirmar quais atividades do bloco da manhã do Integral são oficialmente EM inglês.\n3. Confirmar se atividades como Música, Arte, Educação Física, Robótica, Laboratório/Projeto, Projeto LIV ou Projeto Leitura são sempre em português no F1.\n4. Confirmar por que o Regular aparece como 12% se a grade mostra, aparentemente, 2 aulas de English/Inglês em 25 tempos semanais.\n5. Confirmar por que o Regular Bilíngue aparece como 30% se a grade mostra, aparentemente, 7 tempos em inglês em 30 tempos semanais.\n6. Verificar se os horários 18h00-18h50 são parte regular obrigatória do Regular Bilíngue ou se há alguma variação operacional."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Fundamental I — Observação comercial preliminar",
+          "text": "A diferenciação entre os produtos fica clara:\n- Regular: ensino regular com inglês como componente de língua.\n- Regular Bilíngue: adiciona disciplinas EM inglês todos os dias, estendendo o dia até 18h50.\n- Integral Bilíngue: amplia para dia completo, com experiências práticas e criativas, além das disciplinas EM inglês do Regular Bilíngue.\n\nAntes de transformar em discurso final para famílias, é importante validar os percentuais, porque a grade extraída não fecha automaticamente com 12%, 30% e 60% sem assumir aulas adicionais como inglês ou outra metodologia de cálculo."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Fundamental I — Critérios confirmados por Andressa após a análise inicial",
+          "text": "Andressa confirmou:\n\n1. Podemos seguir com a porcentagem oficial dada na apresentação, mesmo que ela não represente exatamente os percentuais calculados diretamente a partir da grade.\n2. O cálculo considera somente a parte pedagógica.\n3. Em todas as grades horárias enviadas, tudo que estiver com nome em inglês indica aula/atividade ministrada ou realizada em inglês.\n4. Tudo que estiver com nome em português indica aula/atividade ministrada em português.\n5. Essa regra deve ser usada para contabilizar e interpretar as porcentagens.\n6. No Regular Bilíngue do Fundamental 1 de Praia Grande, o horário adicional das 18h00 às 18h50 é obrigatório."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental I — Impacto na análise",
+          "text": "- Usar os percentuais oficiais da apresentação para comunicação: Regular 12%, Regular Bilíngue 30%, Integral Bilíngue 60%.\n- Para explicar a grade, classificar idioma pelo nome da atividade: inglês = ministrada em inglês; português = ministrada em português.\n- Não tratar a diferença entre cálculo bruto e percentual da apresentação como inconsistência para comunicação com famílias; no máximo, manter como observação interna."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "h1",
+          "title": "Grade horária — Fundamental II",
+          "text": "Análise inicial — Grade Fundamental 2 / Praia Grande. Consulta interna das grades horárias de Praia Grande, com leitura por segmento, produto, horários, percentuais oficiais e pontos de explicação para famílias."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Fundamental II — Escopo do arquivo",
+          "text": "O PDF contém 12 páginas:\n- Year 6: Integral Bilíngue, Regular Bilíngue, Regular\n- Year 7: Integral Bilíngue, Regular Bilíngue, Regular\n- Year 8: High School Prep, Regular Bilíngue, Regular\n- Year 9: High School Prep, Regular Bilíngue, Regular"
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Fundamental II — Comparação com apresentação atualizada",
+          "text": "Na apresentação atualizada de 13/06/2026, Praia Grande — Fundamental 2 aparece como:\n\n- Regular — 10% em inglês; aulas DE inglês; 1 livro Cambridge.\n- Regular Bilíngue — 30% em inglês; aulas DE inglês e EM inglês; Global Perspectives, History and Geography, STEAM, Speaking Lab, Financial Literacy; 2 livros Cambridge.\n- Integral Bilíngue — 6º e 7º ano; 50% em inglês; aulas DE inglês e EM inglês; Global Perspectives, History and Geography, STEAM, Speaking Lab, Financial Literacy, Music, Arts, Creative Writing, Wellbeing; 2 livros Cambridge; combo Regular Bilíngue + Full Time.\n- High School Prep — 8º e 9º ano; 60% em inglês; aulas DE inglês e EM inglês; Global Perspectives, History and Geography, STEAM, Speaking Lab, Financial Literacy, Creative Writing, Contemporary World Issues, Practical Math, Physical Science, Electives; 2 livros Cambridge; combo Regular Bilíngue + High School.\n\nA grade está coerente com a apresentação em termos de produtos por série:\n- Year 6 e Year 7: Regular, Regular Bilíngue e Integral Bilíngue.\n- Year 8 e Year 9: Regular, Regular Bilíngue e High School Prep."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental II — Regular — Years 6 a 9",
+          "text": "- Horário: 7h00 às 12h30.\n- Estrutura: período regular da manhã.\n- Aulas em português predominantes, com aulas de English.\n- Na apresentação: 10% em inglês; 1 livro Cambridge."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental II — Regular Bilíngue — Years 6 a 9",
+          "text": "- Horário: 7h00 às 13h20.\n- Estrutura: período regular + disciplinas EM inglês até 13h20.\n- Disciplinas em inglês que aparecem na grade, conforme ano:\n  - English\n  - Global Perspectives\n  - History & Geography / History/Geography\n  - STEAM / TEAM (provável erro de digitação em Year 9)\n  - Speaking Lab\n  - Financial Literacy / Financial Literady (erro de digitação)\n- Na apresentação: 30% em inglês; 2 livros Cambridge."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental II — Integral Bilíngue — Years 6 e 7",
+          "text": "- Horário: 7h00 às 18h00.\n- Estrutura: Regular Bilíngue pela manhã + almoço + bloco integral/Full Time à tarde.\n- Atividades/aulas em inglês no bloco da tarde:\n  - Music\n  - Exam Prep\n  - Dramatic Play\n  - Arts\n  - Creative Writing\n  - PBL\n  - Culture\n  - Well Being\n  - Mindfulness\n  - Storytelling\n  - Cooking\n  - Physical Science\n  - World Issues\n  - Practical Math\n- Na apresentação: 50% em inglês; 2 livros Cambridge."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental II — High School Prep — Years 8 e 9",
+          "text": "- Horário: 7h00 às 18h00.\n- Estrutura: Regular Bilíngue pela manhã + almoço + bloco High School à tarde.\n- O bloco da tarde aparece como HIGH SCHOOL em vários tempos, além de disciplinas em inglês do Regular Bilíngue.\n- Na apresentação: 60% em inglês; 2 livros Cambridge; combo Regular Bilíngue + High School."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental II — Year 6",
+          "text": "- Regular: 7h00–12h30.\n- Regular Bilíngue: 7h00–13h20, com Global Perspectives, History & Geography, STEAM, Speaking Lab, Financial Literacy e English.\n- Integral Bilíngue: 7h00–18h00, com Regular Bilíngue + bloco vespertino em inglês/experiências de Full Time."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental II — Year 7",
+          "text": "- Regular: 7h00–12h30.\n- Regular Bilíngue: 7h00–13h20, com Financial Literacy, Speaking Lab, Global Perspectives, STEAM, History/Geography e English.\n- Integral Bilíngue: 7h00–18h00, com Regular Bilíngue + bloco vespertino em inglês/experiências de Full Time."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental II — Year 8",
+          "text": "- Regular: 7h00–12h30.\n- Regular Bilíngue: 7h00–13h20, com STEAM, Financial Literacy, History/Geography, Speaking Lab, Global Perspectives e English.\n- High School Prep: 7h00–18h00, com Regular Bilíngue + bloco vespertino High School."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental II — Year 9",
+          "text": "- Regular: 7h00–12h30.\n- Regular Bilíngue: 7h00–13h20, com History/Geography, TEAM/STEAM, Speaking Lab, Financial Literacy, Global Perspectives e English.\n- High School Prep: 7h00–18h00, com Regular Bilíngue + bloco vespertino High School."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Fundamental II — Aulas/atividades em inglês — conforme regra de nomenclatura",
+          "text": "Como definido por Andressa: tudo que aparece em inglês na grade é ministrado/realizado em inglês."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental II — Regular",
+          "text": "- English."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental II — Regular Bilíngue",
+          "text": "- English.\n- Global Perspectives.\n- History & Geography / History/Geography.\n- STEAM / TEAM.\n- Speaking Lab.\n- Financial Literacy / Financial Literady."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental II — Integral Bilíngue — 6º e 7º",
+          "text": "Além das disciplinas do Regular Bilíngue:\n- Music.\n- Exam Prep.\n- Dramatic Play.\n- Arts.\n- Creative Writing.\n- PBL.\n- Culture.\n- Well Being.\n- Mindfulness.\n- Storytelling.\n- Cooking.\n- Physical Science.\n- World Issues.\n- Practical Math."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hhh",
+          "title": "Grade horária — Fundamental II — High School Prep — 8º e 9º",
+          "text": "Além das disciplinas do Regular Bilíngue:\n- High School.\n- Componentes associados ao High School: pela apresentação, Creative Writing, Contemporary World Issues, Practical Math, Physical Science, Electives."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Fundamental II — Português / currículo regular",
+          "text": "Tudo que aparece em português na grade é ministrado em português:\n- Matemática.\n- Língua Portuguesa.\n- História.\n- Geografia.\n- Ciências.\n- Artes.\n- Ed. Física.\n- Direito e Cidadania.\n- LIV/LIIV.\n- Lab/Ciências."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Fundamental II — Rotina/refeições",
+          "text": "- Recess.\n- Lunch.\n- Saída/Sáida."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Fundamental II — Pontos de atenção / ajustes de digitação na grade",
+          "text": "1. `SÁIDA` / `SAÍDA` aparece com acento/posição possivelmente incorreta.\n2. `LIIV` aparece no Year 9; provavelmente deveria ser `LIV`.\n3. `TEAM` aparece no Year 9 Regular Bilíngue/High School Prep; provavelmente deveria ser `STEAM`.\n4. `FINANCIAL LITERADY` aparece no Year 9; provavelmente deveria ser `FINANCIAL LITERACY`.\n5. Na apresentação, High School Prep inclui disciplinas como Creative Writing, Contemporary World Issues, Practical Math, Physical Science e Electives. Na grade, o bloco aparece genericamente como `HIGH SCHOOL`; para discurso comercial, pode ser explicado com base na apresentação."
+        },
+        {
+          "source": "Grades horárias",
+          "level": "hh",
+          "title": "Grade horária — Fundamental II — Observação comercial preliminar",
+          "text": "A evolução dos produtos é clara:\n- Regular: manhã regular, com aulas de English como componente de língua.\n- Regular Bilíngue: manhã estendida até 13h20, com disciplinas EM inglês que desenvolvem competências acadêmicas globais.\n- Integral Bilíngue — 6º/7º: dia completo até 18h, com ampliação da vivência em inglês por meio de atividades criativas, culturais, preparação para exames e experiências práticas.\n- High School Prep — 8º/9º: dia completo até 18h, conectando o Regular Bilíngue ao início da trajetória internacional do High School/Dual Diploma.\n\nPara famílias, não centralizar em percentuais; usar a grade visual para mostrar a diferença entre o que acontece em português e o que acontece em inglês, e usar os percentuais apenas como base interna da equipe."
         }
       ]
     },
