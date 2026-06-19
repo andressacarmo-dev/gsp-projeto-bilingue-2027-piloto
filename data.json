@@ -1,0 +1,608 @@
+{
+  "meta": {
+    "title": "Portal Projeto Bilíngue 2027 — GSP",
+    "notice": "Material interno de apoio às equipes — não compartilhar externamente.",
+    "updatedAt": "2026-06-19",
+    "telegramUrl": "",
+    "telegramLabel": "Falar com Cecilia no Telegram"
+  },
+  "schools": [
+    {
+      "id": "praia-grande",
+      "name": "Praia Grande",
+      "city": "Praia Grande",
+      "status": "piloto ativo",
+      "summary": "Central de consulta para rematrícula, atendimento e alinhamento das equipes sobre o Projeto Bilíngue 2027.",
+      "materials": [
+        {
+          "label": "Manual — Google Doc",
+          "url": "https://docs.google.com/document/d/1ih07FpkMoOktFNGFzS9KqfY3L3Gd65PS2ZXjTQEbeVg/edit?usp=drivesdk",
+          "type": "manual"
+        },
+        {
+          "label": "Manual — PDF",
+          "url": "https://drive.google.com/file/d/1VZ68wdPOCDE3VqioLbnCX1jKdpbRcCx_/view?usp=drivesdk",
+          "type": "manual"
+        },
+        {
+          "label": "Q&A definitivo — PDF",
+          "url": "https://drive.google.com/file/d/1kbo6TZkUQBe4bnT4iWK8B7H8E_L_CGS0/view?usp=drivesdk",
+          "type": "qa"
+        },
+        {
+          "label": "Pasta Drive Praia Grande",
+          "url": "https://drive.google.com/drive/folders/1mGenvxoSnpvQnwo2fij-clJUZmtvsi_K",
+          "type": "folder"
+        }
+      ],
+      "quickTopics": [
+        {
+          "label": "Comece por aqui",
+          "query": "Mensagem central proposta de valor"
+        },
+        {
+          "label": "Produtos por segmento",
+          "query": "Produtos por segmento Infantil Fundamental Ensino Médio"
+        },
+        {
+          "label": "Dúvidas frequentes",
+          "query": "Dúvidas frequentes famílias"
+        },
+        {
+          "label": "Objeções comerciais",
+          "query": "Objeções respostas recomendadas"
+        },
+        {
+          "label": "Cambridge e exames",
+          "query": "Cambridge exames CEFR simulado"
+        },
+        {
+          "label": "High School e futuro internacional",
+          "query": "High School Dual Diploma intercâmbio counseling"
+        }
+      ],
+      "content": [
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Proposta Bilíngue Praia Grande 2027",
+          "text": "Manual técnico-comercial robusto v4 · aprofundamento pedagógico F1/F2 e argumentos de venda Manual comercial-pedagógico · Objetivo Praia Grande USO INTERNO"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Manual comercial-pedagógico — Praia Grande",
+          "text": "Para: equipe comercial, atendimento, liderança de unidade e coordenação. Função do material: apoiar a venda consultiva dos produtos bilíngues da unidade, com clareza pedagógica e argumentos de valor para famílias. O que este guia faz: conecta projeto, produtos, disciplinas, marcos de desenvolvimento e trajetória do aluno do Infantil ao Ensino Médio. O que este guia não é: não é tabela de preço, contrato, grade oficial ou documento curricular docente. É um manual de explicação e encantamento para conversas comerciais. Mensagem central O Projeto Bilíngue 2027 transforma o inglês em uma jornada de formação. O aluno não apenas aprende uma língua: ele aprende a usar o inglês para brincar, investigar, resolver problemas, argumentar, criar, compreender o mundo, preparar certificações e acessar oportunidades acadêmicas internacionais. A equipe comercial precisa vender a trajetória, não apenas a carga horária. A carga horária mostra intensidade; a trajetória mostra propósito. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Mensagem central",
+          "text": "O Projeto Bilíngue 2027 transforma o inglês em uma jornada de formação. O aluno não apenas aprende uma língua: ele aprende a usar o inglês para brincar, investigar, resolver problemas, argumentar, criar, compreender o mundo, preparar certificações e acessar oportunidades acadêmicas internacionais."
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "O inglês como projeto de vida",
+          "text": "Para a família, a proposta bilíngue precisa ser compreendida como uma decisão de longo prazo. O inglês não é uma atividade isolada na rotina: é uma competência que acompanha o aluno em diferentes fases da vida escolar e amplia repertório, segurança comunicativa e possibilidades futuras. Infantil vínculo afetivo, brincadeira, escuta, rotina, corpo e primeiras palavras Fundamental 1 base linguística, investigação, comunicação e raciocínio em inglês Fundamental 2 argumentação, pensamento crítico, temas globais e inglês acadêmico Ensino Médio certificação, High School, Dual Diploma e repertório internacional"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h3",
+          "title": "Como traduzir isso para a família",
+          "text": "“O objetivo não é apenas que o aluno tenha mais aulas de inglês. O objetivo é construir uma jornada: primeiro ele se sente seguro com a língua; depois usa o inglês para aprender conteúdos; em seguida começa a argumentar e pesquisar em inglês; e, quando chega às etapas mais avançadas, já tem base para certificações, High School, intercâmbio e experiências internacionais.”"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Proposta de valor em uma frase",
+          "text": "Praia Grande 2027 oferece uma trilha bilíngue progressiva, com diferentes intensidades de exposição ao inglês, preservando a matriz brasileira e ampliando a formação do aluno com currículo Cambridge, disciplinas em inglês, certificações e ponte para oportunidades internacionais. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Quatro pilares da proposta bilíngue",
+          "text": "1. Desenvolvimento linguístico O aluno desenvolve escuta, fala, leitura, escrita, vocabulário, pronúncia e estruturas de comunicação em inglês. Essa é a base que sustenta toda a jornada. 2. Uso real da língua O inglês aparece em disciplinas e experiências: Science, Math, Global Perspectives, PBL, STEAM, History and Geography, Financial Literacy, Speaking Lab e atividades do integral. 3. Formação global O aluno aprende a olhar temas por diferentes perspectivas, compreender problemas contemporâneos, argumentar, colaborar e comunicar ideias com repertório internacional. 4. Futuro acadêmico A proposta cria base para certificações Cambridge, High School/Dual Diploma, intercâmbio, universidade e experiências em contextos internacionais. Quando a família pergunta “por que escolher o bilíngue?”, a resposta precisa conectar presente e futuro: mais segurança hoje, mais repertório amanhã, mais possibilidades depois. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h3",
+          "title": "1. Desenvolvimento linguístico",
+          "text": "O aluno desenvolve escuta, fala, leitura, escrita, vocabulário, pronúncia e estruturas de comunicação em inglês. Essa é a base que sustenta toda a jornada."
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h3",
+          "title": "2. Uso real da língua",
+          "text": "O inglês aparece em disciplinas e experiências: Science, Math, Global Perspectives, PBL, STEAM, History and Geography, Financial Literacy, Speaking Lab e atividades do integral."
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h3",
+          "title": "3. Formação global",
+          "text": "O aluno aprende a olhar temas por diferentes perspectivas, compreender problemas contemporâneos, argumentar, colaborar e comunicar ideias com repertório internacional."
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h3",
+          "title": "4. Futuro acadêmico",
+          "text": "A proposta cria base para certificações Cambridge, High School/Dual Diploma, intercâmbio, universidade e experiências em contextos internacionais."
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "DE inglês x EM inglês — a explicação que muda a venda",
+          "text": "Tipo de aula O que acontece Valor pedagógico Como explicar Aulas DE inglês O aluno aprende a língua: vocabulário, gramática em uso, pronúncia, leitura, escrita, escuta e fala. Constrói a base linguística necessária para compreender e se expressar. “É o momento de aprender a língua com progressão e segurança.” Aulas EM inglês O aluno aprende conteúdos e desenvolve habilidades usando o inglês como língua de instrução. Transforma o inglês em ferramenta de pensamento, investigação, criação e comunicação. “É quando o aluno usa inglês para aprender sobre o mundo.” Experiências em inglês Projetos, música, movimento, artes, storytelling, cooking, outdoor education, creative writing e outras vivências. Aumenta exposição, naturalidade, repertório e confiança de uso. “É o inglês vivendo na rotina escolar, não preso apenas ao livro.” Resposta pronta: “Uma escola pode oferecer inglês apenas como disciplina. A proposta bilíngue vai além: mantém a aula de inglês, mas cria momentos em que o aluno usa o idioma para investigar, resolver, criar, apresentar e se preparar para situações reais.” Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Por que Cambridge importa para a família",
+          "text": "Cambridge não deve ser apresentado apenas como “material importado”. A força comercial está em mostrar que Cambridge oferece uma régua de qualidade, progressão e reconhecimento internacional. Diferencial O que significa Argumento comercial Cambridge English Educational Partner Reconhecimento de qualidade e alinhamento com uma instituição internacional de referência. “A escola não trabalha com uma proposta improvisada; ela se conecta a uma referência global.” Centro Oficial Preparatório Cambridge Preparação estruturada para exames internacionais de proficiência. “O aluno pode comprovar sua evolução por certificações reconhecidas.” CEFR Régua internacional de proficiência linguística. “A evolução do aluno conversa com parâmetros usados mundialmente.” Materiais Cambridge Sequência progressiva de aprendizagem por faixa etária e nível. “A família tem clareza de percurso, não apenas atividades soltas.” Cambridge International Currículos e programas que conectam conteúdos, habilidades e perspectiva global. “O aluno usa o inglês para aprender Science, Math, Global Perspectives e outras áreas.” Dado de encantamento: a apresentação oficial registra mais de dois anos com 100% de aprovação nos Exames Internacionais Cambridge. Use como evidência de preparo, consistência e acompanhamento. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Produtos de Praia Grande — leitura comercial",
+          "text": "Segmento Produtos Intensidade Leitura comercial Infantil K1 a K4 Regular Bilíngue · Semi-integral Bilíngue · Integral Bilíngue 30% · 50% · 60% em inglês A família escolhe o nível de exposição ao inglês em uma fase lúdica, afetiva e sensorial. Fundamental 1 Year 1 a Year 5 Regular · Regular Bilíngue · Integral Bilíngue 12% · 30% · 60% em inglês A criança pode aprender inglês como língua ou ampliar para aprender conteúdos em inglês todos os dias. Fundamental 2 Year 6 a Year 9 Regular · Regular Bilíngue · Integral Y6/Y7 · High School Prep Y8/Y9 10% · 30% · 50% · 60% em inglês O aluno aprofunda inglês acadêmico, pensamento crítico, repertório global e preparação internacional. Ensino Médio Regular · English Class · High School Dual Diploma Produto extracurricular conforme escolha Continuidade da trajetória com certificações, inglês avançado e possibilidade de diploma norte-americano. Não venda “30%, 50%, 60%” isoladamente. Venda a experiência que esses percentuais representam: mais tempo de uso real, mais disciplinas em inglês, mais repertório e mais preparo. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Infantil — onde o inglês vira afeto, rotina e descoberta",
+          "text": "K1 a K4 Ready, Set, Grow! Let’s Explore Regular · Semi-integral · Integral No Infantil, o bilíngue precisa ser vendido com sensibilidade. A família não quer apenas “mais inglês”; ela quer saber se a criança estará segura, acolhida e aprendendo de forma adequada à idade. Proposta pedagógica: criar uma relação positiva com o inglês por meio de histórias, músicas, movimento, artes, brincadeiras, exploração do mundo, rotinas e interações afetivas. O aluno aprende porque participa, brinca, observa, imita, repete, escolhe, cria e se expressa."
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Marcos de desenvolvimento esperados no Infantil",
+          "text": "Dimensão O que a criança desenvolve Como isso aparece Linguagem Escuta de comandos, palavras de rotina, músicas, histórias, expressões simples e primeiras respostas. Aponta, responde com gesto/palavra, canta trechos, reconhece vocabulário e participa de interações. Socioemocional Confiança, pertencimento, relação positiva com o inglês, turn-taking e cuidado com colegas. Aceita participar, espera a vez, pede ajuda, compartilha materiais e se sente segura para tentar. Cognitivo Curiosidade, classificação, comparação, sequência, causa simples e observação do mundo. Explora objetos, percebe diferenças, organiza materiais, observa plantas/animais e formula pequenas hipóteses. Corpo e movimento Compreensão corporal do inglês, coordenação, comandos, ritmo e expressão. Move-se conforme instruções, dança, imita, dramatiza e usa o corpo para compreender a língua. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Infantil — produtos e argumentos",
+          "text": "Produto Experiência do aluno Argumento de venda Regular Bilíngue 30% em inglês 13h20–18h Período regular da tarde com experiências bilíngues integradas: English, Music, P.E., Arts, Let’s Explore e material Cambridge. Ideal para famílias que querem inserir o inglês de forma estruturada, afetiva e cotidiana, sem ampliar demais o tempo de permanência. Semi-integral Bilíngue 50% em inglês 9h50–18h Regular Bilíngue + parte do contraturno, com experiências criativas como Projects, Storytelling, Outdoor Education, Dramatic Play e Movement. Mais tempo de exposição à língua, mais experiências práticas e mais repertório, com permanência estendida. Integral Bilíngue 60% em inglês 7h–18h Dia completo com Regular Bilíngue + Full Time, rotinas, alimentação, descanso e múltiplas vivências em inglês. Para famílias que buscam maior imersão, rotina completa e desenvolvimento integral dentro da escola."
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Disciplinas e experiências do Infantil",
+          "text": "Frente O que significa pedagogicamente Valor para família Ready, Set, Grow! Base Cambridge para pré-primário, com histórias, canções, imagens, atividades e linguagem adequada à criança pequena. Constrói vínculo positivo com o inglês, sem pressionar a criança com formalização precoce. Let’s Explore Exploração do mundo, desenvolvimento socioemocional, físico e cognitivo em experiências de descoberta. O aluno aprende inglês enquanto observa, toca, compara, cria, cuida, pergunta e descobre. Music / Storytelling Ritmo, repetição, memória, escuta, imaginação e repertório oral. Fortalece pronúncia, compreensão e prazer pela língua. Arts / Movement / Dramatic Play Expressão, corpo, criatividade, comandos e comunicação não verbal/verbal. A criança usa inglês com corpo, emoção e imaginação. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Infantil — aprofundamento das disciplinas e materiais",
+          "text": "Para vender bem o Infantil, a equipe precisa compreender que a criança pequena não aprende inglês da mesma forma que um aluno mais velho. Ela aprende por vínculo, repetição, rotina, corpo, música, imagem, brincadeira, imitação e interação. Por isso, a proposta bilíngue nessa etapa não deve ser explicada como “aula tradicional de inglês”, mas como uma experiência de desenvolvimento em inglês. Ideia essencial: aos 3, 4 e 5 anos, a criança está formando repertório auditivo, segurança emocional, coordenação, linguagem, autonomia e relações sociais. O inglês entra como parte dessa experiência, não como cobrança de desempenho formal."
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Por que começar inglês desde cedo?",
+          "text": "Razão pedagógica O que significa para a criança Como explicar para a família Familiaridade sonora A criança se acostuma aos sons, ritmo, entonação e padrões da língua inglesa. “Quanto mais cedo ela escuta e interage com o inglês, mais natural a língua se torna.” Baixa barreira emocional Crianças pequenas tendem a experimentar a língua com menos vergonha de errar. “Ela aprende tentando, repetindo, cantando, apontando e participando, sem medo de falar perfeito.” Aprendizagem por contexto O vocabulário aparece ligado a objetos, histórias, gestos, rotina, corpo e brincadeiras. “A criança não decora listas; ela entende porque vive situações em inglês.” Construção de confiança O aluno percebe que consegue compreender comandos, participar e se comunicar aos poucos. “Antes da fluência, vem a segurança: entender, responder e se sentir capaz.” Base para os anos seguintes O contato inicial prepara escuta, vocabulário e atitudes positivas para o Fundamental 1. “O Infantil planta a relação positiva com a língua que será aprofundada depois.” Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Ready, Set, Grow! — o que o aluno aprende",
+          "text": "Ready, Set, Grow! é a base Cambridge para a criança pequena construir os primeiros repertórios em inglês. A força do material está em organizar experiências de linguagem adequadas à idade, com histórias, imagens, músicas, personagens, rotinas e atividades que favorecem compreensão e participação. Habilidade Como aparece no Infantil O que a família pode esperar Listening escuta Comandos simples, músicas, histórias curtas, sons, nomes de objetos, expressões de rotina e instruções com apoio visual. A criança começa a reconhecer palavras e frases frequentes, compreende comandos do cotidiano e reage ao inglês com gestos, ações ou fala. Speaking fala Repetição de palavras, pequenas respostas, músicas, nomeação de objetos, escolhas simples e expressões funcionais como “my turn”, “please”, “I like”. Ela começa a usar inglês para participar, pedir, escolher, nomear, cumprimentar e interagir. Pre-reading pré-leitura Contato com livros, imagens, sequência de histórias, reconhecimento de personagens, direção de leitura e associação entre imagem e palavra. Antes de ler formalmente, a criança desenvolve comportamento leitor: observa, antecipa, reconta e se interessa por textos. Pre-writing pré-escrita Marcas gráficas, desenho, traçados, coordenação motora fina, correspondência imagem-palavra e primeiras tentativas de registro. A criança prepara mão, olhar e pensamento para a escrita, sem pressão por alfabetização precoce. Social language linguagem social Turn-taking, cumprimentos, agradecimentos, pedidos de ajuda, escolhas, combinados e convivência. O inglês passa a fazer parte da relação com colegas e professores. Como vender: “Ready, Set, Grow! não acelera a alfabetização de forma inadequada. Ele constrói a base: escuta, fala, vocabulário, histórias, pré-leitura, pré-escrita,…"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Let’s Explore — o que o aluno aprende",
+          "text": "Let’s Explore amplia a proposta do Infantil porque coloca a criança em contato com o mundo. O foco não é só “aprender palavras em inglês”, mas explorar temas e experiências ligados ao desenvolvimento integral: natureza, corpo, movimento, emoções, comunidade, materiais, tempo, espaço, cuidado e curiosidade. Dimensão O que a criança aprende Exemplos de desenvolvimento Understanding the world Observar plantas, animais, objetos, clima, espaços, pessoas, tempo, lugar e fenômenos simples. Percebe mudanças, compara materiais, cuida de plantas, identifica ambientes e fala sobre o que vê. Personal, social and emotional Reconhecer emoções, esperar a vez, fazer escolhas, colaborar, respeitar combinados e construir pertencimento. Participa de atividades em grupo, aprende a pedir ajuda e começa a explicar preferências. Physical development Usar corpo, coordenação, equilíbrio, comandos, ritmo, força, direção e movimento em inglês. Compreende “jump”, “run”, “stop”, “up”, “down”, “left/right” gradualmente, com corpo e brincadeira. Creative expression Comunicar ideias por desenho, colagem, música, dança, drama, construção e imaginação. Usa materiais para representar descobertas e ganha repertório para se expressar. Language in context Usar inglês em situações concretas de exploração: tocar, medir, comparar, cuidar, contar, classificar. A língua é aprendida em contexto real, com significado e propósito. Expectativa realista para famílias: no Infantil, desenvolvimento não é medir quantas frases a criança fala. É observar se ela compreende, participa, tenta se expressar, ganha repertório e se sente segura no ambiente bilíngue. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Infantil — discurso de fechamento",
+          "text": "“Nessa idade, o mais importante é que a criança construa uma relação positiva com o inglês. Ela não precisa decorar regras; precisa viver a língua em músicas, histórias, brincadeiras, movimento, artes e descobertas. No Regular Bilíngue, ela já tem essa vivência integrada. No Semi-integral e no Integral, ampliamos tempo, repertório e naturalidade de uso.”"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Dúvidas comuns de famílias do Infantil",
+          "text": "Dúvida Resposta recomendada “É cedo demais para inglês?” Não quando a proposta é adequada à idade. No Infantil, o inglês aparece em brincadeiras, histórias, música, rotina e movimento. A criança aprende de forma natural e afetiva. “Vai confundir português e inglês?” A criança pequena consegue construir repertórios linguísticos diferentes quando há contexto, rotina e apoio. A proposta respeita o desenvolvimento da língua materna e amplia contato com o inglês. “Meu filho não sabe nada de inglês.” Essa etapa foi feita para começar com segurança. O aluno participa com gestos, imagens, músicas, repetição e apoio do professor. “Por que escolher Semi ou Integral?” Porque mais permanência significa mais oportunidades de uso real do inglês em experiências variadas, sem depender apenas da aula formal. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Fundamental 1 — onde o inglês ganha base acadêmica",
+          "text": "Year 1 a Year 5 Kid’s Box Science Math Global Perspectives PBL Speaking Lab No Fundamental 1, a proposta precisa mostrar que o aluno deixa de apenas se familiarizar com o inglês e passa a construir uma base linguística e acadêmica mais consistente. Ele aprende a língua, mas também começa a usá-la para investigar, raciocinar, explicar e criar. Proposta pedagógica: combinar inglês como segunda língua com disciplinas em inglês que desenvolvem pensamento científico, raciocínio matemático, pesquisa, colaboração, projetos e oralidade."
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Marcos de desenvolvimento esperados no Fundamental 1",
+          "text": "Área Marcos ao longo do segmento Valor comercial Comunicação Ampliar vocabulário, compreender comandos e textos, responder perguntas, participar de diálogos e apresentar ideias curtas. O aluno ganha confiança para usar inglês em sala, não apenas repetir palavras. Investigação Observar, classificar, comparar, registrar dados, levantar hipóteses e comunicar descobertas. Science e GP tornam o inglês ferramenta de curiosidade e pensamento. Raciocínio Explicar estratégias, resolver problemas, identificar padrões, interpretar dados e justificar respostas. Math em inglês fortalece precisão, lógica e vocabulário acadêmico. Colaboração Trabalhar em grupo, dividir tarefas, criar projetos e apresentar resultados. PBL e Speaking Lab desenvolvem autonomia, escuta e comunicação real. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Fundamental 1 — produtos e argumentos",
+          "text": "Produto Experiência do aluno Argumento de venda Regular 12% em inglês 13h20–18h Currículo regular em português com aulas DE inglês e material Cambridge Kid’s Box. Boa base linguística para famílias que desejam inglês estruturado dentro da rotina regular. Regular Bilíngue 30% em inglês 13h20–18h50 Currículo regular + uma aula adicional diária em inglês: Science, Math, Global Perspectives, PBL e Speaking Lab. O inglês passa a ser usado todos os dias para aprender conteúdos, explicar ideias e desenvolver habilidades. Integral Bilíngue 60% em inglês 7h–18h50 Regular Bilíngue + Full Time com experiências práticas, criativas, culturais e mão na massa em inglês. Mais tempo, mais exposição, mais repertório e mais fluência funcional. A diferença entre Regular e Regular Bilíngue não é apenas “uma aula a mais”. É uma mudança de experiência: o aluno passa a ter uma rotina diária de uso acadêmico e comunicativo do inglês. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Fundamental 1 — disciplinas e proposta de valor",
+          "text": "Disciplina Desenvolvimento do aluno Argumento para famílias English / Kid’s Box Constrói a base da língua: vocabulário, estruturas, pronúncia, escuta, leitura, escrita, comunicação e preparação Cambridge Young Learners. É a espinha dorsal linguística do Fundamental 1: lúdica, progressiva e alinhada à idade. Science Desenvolve observação, investigação, comparação, registro, hipóteses, cuidado com ambiente e comunicação científica. A criança aprende ciência em inglês, usando a língua para descobrir e explicar o mundo. Math Fortalece number sense, padrões, medidas, dados, geometria, resolução de problemas e explicação de estratégias. O aluno aprende a pensar matematicamente em inglês, não apenas traduzir contas. Global Perspectives Pesquisa, análise, reflexão, comunicação e colaboração sobre temas pessoais, locais e globais. Ajuda a criança a considerar diferentes pontos de vista e comunicar ideias com respeito. PBL Projetos, problemas reais, criação de produtos, planejamento, colaboração e apresentação. Mostra à família o inglês em ação: criar, testar, melhorar e apresentar soluções. Speaking Lab Oralidade, fluência, escuta ativa, pronúncia, diálogos, apresentações e segurança para falar. É o espaço de prática oral frequente que ajuda o aluno a perder o medo de usar inglês. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Fundamental 1 — aprofundamento das disciplinas",
+          "text": "No Fundamental 1, a equipe comercial precisa defender que o bilíngue constrói uma base ampla: língua, pensamento, repertório acadêmico e confiança comunicativa. O aluno não aprende apenas “palavras em inglês”; ele começa a usar inglês para entender conteúdos, explicar raciocínios e participar de situações de aprendizagem mais complexas. Ideia essencial: nessa fase, a criança está consolidando alfabetização, raciocínio, autonomia de estudo e comunicação. O currículo bilíngue amplia essas competências porque dá ao inglês uma função real dentro da escola."
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Kid’s Box — o que o aluno aprende",
+          "text": "Kid’s Box é a coleção Cambridge que organiza a aprendizagem de inglês como segunda língua no Fundamental 1. Ela funciona como a espinha dorsal linguística: constrói vocabulário, estruturas, comunicação, leitura, escrita e preparação gradual para as certificações Cambridge Young Learners. Habilidade Como se desenvolve Valor para a família Listening Escuta de diálogos, histórias, músicas, comandos, instruções e situações comunicativas. O aluno compreende inglês falado em diferentes contextos, não apenas palavras isoladas. Speaking Diálogos, perguntas e respostas, apresentações curtas, pronúncia, jogos orais e interação com colegas. A criança ganha coragem para falar e começa a se expressar com frases cada vez mais completas. Reading Textos curtos, histórias, instruções, vocabulário em contexto, compreensão de ideias e leitura guiada. O aluno desenvolve leitura em inglês de forma progressiva e adequada à idade. Writing Palavras, frases, pequenos textos, respostas, descrições, registros e escrita com apoio. A escrita deixa de ser cópia mecânica e passa a comunicar ideias. Use of English Estruturas gramaticais em uso, vocabulário temático, funções comunicativas e linguagem de sala. O aluno aprende a usar a língua em situações reais, com progressão clara. Como vender: “Kid’s Box dá a base linguística. É ali que o aluno aprende a entender, falar, ler e escrever em inglês. As outras disciplinas bilíngues usam essa base para que ele aprenda conteúdos em inglês.” Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Science e Math — por que aprender conteúdos em inglês?",
+          "text": "Science e Math são fortes comercialmente porque mostram à família que o bilíngue não é um reforço de vocabulário. O aluno usa a língua para raciocinar. Isso desenvolve inglês acadêmico desde cedo e fortalece habilidades que também são importantes em português. Disciplina O que o aluno aprende Habilidades desenvolvidas Argumento comercial Science Plantas, animais, corpo, materiais, forças, ambiente, sustentabilidade, observação e investigação. Observar, perguntar, prever, testar, comparar, registrar, explicar e comunicar descobertas. “Ele aprende ciência usando inglês para pensar, não apenas traduzindo nomes de animais ou plantas.” Math Números, operações, padrões, medidas, formas, dados, problemas e estratégias de resolução. Raciocínio lógico, precisão, explicação de estratégias, leitura de problemas e linguagem matemática. “Ele desenvolve pensamento matemático e aprende a explicar raciocínios em inglês.”"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Global Perspectives, PBL e Speaking Lab — o que acrescentam?",
+          "text": "Disciplina O que o aluno aprende Valor pedagógico Global Perspectives Investigar temas pessoais, locais e globais, ouvir diferentes opiniões, comparar perspectivas e comunicar descobertas. Forma uma criança curiosa, respeitosa e capaz de perceber que existem diferentes formas de ver o mundo. PBL Transformar perguntas e problemas em projetos, produtos, apresentações e soluções colaborativas. Desenvolve autonomia, criatividade, planejamento, trabalho em equipe e inglês com propósito. Speaking Lab Praticar fala, escuta ativa, pronúncia, fluência, diálogos, apresentações e confiança oral. Cria tempo intencional para o aluno falar inglês, perder medo e ganhar presença comunicativa. Expectativa para famílias: no Fundamental 1, o aluno deve avançar em compreensão, participação oral, leitura, escrita inicial/intermediária, vocabulário acadêmico, raciocínio em inglês e confiança para se expressar. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Fundamental 1 — marcos por disciplina Cambridge",
+          "text": "No Fundamental 1, as disciplinas Cambridge dão concretude ao bilíngue. Elas mostram que o aluno não está apenas aumentando vocabulário, mas desenvolvendo formas de pensar em inglês: observar como cientista, raciocinar como matemático, investigar como pesquisador e comunicar ideias com mais segurança. Para a equipe comercial: quando a família pergunta “mas o que meu filho aprende de verdade?”, a resposta deve sair da lista de disciplinas e entrar nos marcos de desenvolvimento: o aluno aprende a observar, perguntar, testar, comparar, registrar, explicar, resolver, colaborar e apresentar — usando o inglês como ferramenta."
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Progressão esperada no Fundamental 1",
+          "text": "Etapa Desenvolvimento linguístico Desenvolvimento acadêmico em inglês Como explicar para famílias Years 1–2 entrada e base Compreende comandos, responde perguntas simples, usa vocabulário concreto, descreve objetos, ações e preferências. Observa, nomeia, compara, classifica, conta, mede, registra por desenho/palavras e participa de investigações guiadas. “A criança começa a usar inglês para entender a aula, participar e falar sobre o que vê e faz.” Years 3–4 ampliação Constrói frases mais completas, explica ideias simples, lê textos curtos, registra respostas e participa de pequenos projetos. Levanta hipóteses, interpreta dados simples, identifica padrões, explica estratégias e começa a justificar respostas. “O inglês passa a acompanhar o raciocínio: ela não só responde, mas começa a explicar como pensou.” Year 5 consolidação e transição Apresenta ideias, organiza falas, escreve pequenos textos, compreende instruções mais complexas e sustenta interações. Investiga com mais autonomia, compara fontes/dados, elabora conclusões, colabora em projetos e comunica resultados. “No final do F1, o aluno está mais preparado para o Fundamental 2, onde o inglês será usado para argumentar e pesquisar.” Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Science — o que o aluno desenvolve no Fundamental 1",
+          "text": "Science em inglês não deve ser vendido como “aprender nome de animais, plantas e planetas em inglês”. Essa é uma visão pequena. A proposta é desenvolver pensamento científico em inglês: curiosidade, observação, investigação, registro e explicação. Eixo de desenvolvimento O que o aluno aprende Marco observável Argumento comercial Observação científica Olhar com atenção para seres vivos, materiais, fenômenos, mudanças, semelhanças e diferenças. Descreve o que vê, compara objetos/seres, identifica características e usa vocabulário científico básico. “Ele aprende a observar o mundo com método, usando inglês para descrever descobertas.” Perguntas e hipóteses Fazer perguntas como “what happens if…?”, prever resultados e pensar em causas. Formula perguntas simples, antecipa resultados e começa a explicar por que algo acontece. “Science desenvolve curiosidade e raciocínio, não apenas memorização.” Investigação prática Testar, experimentar, manipular materiais, observar mudanças e registrar evidências. Participa de experimentos, segue procedimentos, registra dados em desenhos, tabelas ou frases. “O aluno aprende inglês enquanto faz, testa e descobre.” Vocabulário acadêmico Aprender palavras e estruturas ligadas a plantas, animais, corpo, materiais, forças, ambiente e sustentabilidade. Usa termos como observe, compare, predict, material, living thing, force, habitat, change, result. “A criança amplia o inglês para além do cotidiano e entra no vocabulário acadêmico.” Comunicação de descobertas Explicar o que fez, o que observou e o que concluiu. Apresenta pequenos resultados oralmente ou por registro visual/escrito. “Ela aprende a comunicar pensamento científico em inglês.” Resposta pronta: “Em Science, o ganho não é só saber palavras de ciência em inglês. O aluno aprende a…"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Math — o que o aluno desenvolve no Fundamental 1",
+          "text": "Math em inglês também precisa ser explicado com cuidado. A família pode achar que a criança vai “aprender contas em outra língua”. Na verdade, a proposta desenvolve raciocínio matemático, linguagem lógica e capacidade de explicar estratégias em inglês. Eixo de desenvolvimento O que o aluno aprende Marco observável Argumento comercial Number sense Compreender números, quantidade, ordem, comparação, valor posicional e relações numéricas. Usa inglês para contar, comparar, estimar, ordenar e explicar quantidades. “Ele não só calcula; ele entende o número e fala sobre ele em inglês.” Problem solving Ler situações-problema, identificar informações, escolher estratégias e revisar respostas. Explica como resolveu, justifica escolhas e percebe se a resposta faz sentido. “Math em inglês desenvolve raciocínio e autonomia diante de problemas.” Patterns and relationships Reconhecer padrões, sequências, regularidades, formas e relações. Identifica o que se repete, prevê próximos elementos e descreve padrões em inglês. “A criança aprende a enxergar lógica e estrutura, habilidade importante para qualquer área.” Data and measures Coletar, organizar e interpretar dados; medir comprimento, massa, tempo, capacidade e formas. Lê gráficos simples, compara medidas e usa linguagem matemática funcional. “Ela aprende a usar matemática para interpretar informações reais.” Mathematical communication Usar frases como “I solved it by…”, “because…”, “greater than”, “less than”, “equal to”. Consegue verbalizar raciocínio, não apenas entregar resultado. “O aluno aprende a explicar o pensamento, uma habilidade essencial para aprendizagem profunda.” Resposta pronta: “Math no bilíngue não substitui a Matemática da matriz brasileira. Ela amplia o repertório: o aluno pratica raciocínio, resolução de…"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Global Perspectives — o que o aluno desenvolve no Fundamental 1",
+          "text": "Global Perspectives é uma disciplina especialmente importante para defender a proposta bilíngue, porque ela mostra que o inglês não serve apenas para comunicação básica. Ele serve para investigar o mundo, ouvir opiniões, comparar realidades e aprender a pensar com respeito e curiosidade. Competência Cambridge No Fundamental 1, o aluno aprende a... Marco observável Argumento comercial Research pesquisa Fazer perguntas, observar, entrevistar, coletar informações simples e usar fontes adequadas à idade. Formula perguntas, registra respostas, coleta dados da turma/família/comunidade. “A criança aprende a perguntar melhor e buscar informações.” Analysis análise Comparar respostas, identificar semelhanças/diferenças, perceber causas e consequências simples. Organiza ideias em tabelas, desenhos, listas e pequenas conclusões. “Ela aprende a não ficar só na opinião; começa a olhar evidências.” Evaluation avaliação Começar a julgar opções: o que funciona melhor, o que é mais justo, o que é mais adequado. Escolhe soluções e explica por que uma ideia pode ser melhor que outra. “Desenvolve tomada de decisão e pensamento crítico desde cedo.” Reflection reflexão Pensar sobre o que aprendeu, o que faria diferente e como pode melhorar. Completa frases como “I learned…”, “Next time…”, “I can improve…”. “O aluno aprende a olhar para o próprio processo de aprendizagem.” Collaboration colaboração Trabalhar em grupo, ouvir colegas, dividir tarefas e construir um resultado comum. Participa de projetos e apresentações com papéis combinados. “A disciplina desenvolve convivência, escuta e colaboração em inglês.” Communication comunicação Apresentar ideias, responder perguntas, explicar descobertas e adaptar a fala ao público. Faz pequenas apresentações, compartilha resultados e responde com…"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Fundamental 1 — discurso de fechamento",
+          "text": "“No Fundamental 1, o aluno precisa construir base. Por isso, ele tem English com material Cambridge, mas no Regular Bilíngue vai além: usa o inglês para aprender Science, Math, Global Perspectives, desenvolver projetos e praticar fala. Isso cria uma base muito mais rica para o futuro, porque a língua deixa de ser só uma matéria e passa a ser ferramenta de aprendizagem.”"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Dúvidas comuns de famílias do Fundamental 1",
+          "text": "Dúvida Resposta recomendada “Ele vai aprender Matemática e Ciências direito se for em inglês?” Sim, porque essas aulas não substituem a matriz brasileira em português. Elas ampliam a experiência, desenvolvendo vocabulário, raciocínio e investigação em inglês de forma adequada à idade. “Meu filho pode se frustrar?” A progressão é gradual, com apoio visual, atividades práticas, linguagem de rotina e mediação do professor. O objetivo é construir confiança, não pressionar. “Qual é o maior ganho do Regular Bilíngue?” Contato diário com o inglês em uso real: falar, investigar, explicar, criar e apresentar. Isso aprofunda a aprendizagem mais do que a aula de inglês isolada. “Vale a pena o Integral?” Vale para famílias que querem maior exposição e mais repertório. O aluno vive inglês em diferentes contextos, inclusive práticos, criativos e culturais. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Fundamental 2 — inglês acadêmico, pensamento crítico e futuro internacional",
+          "text": "Year 6 a Year 9 Prepare Global Perspectives History and Geography STEAM Financial Literacy Speaking Lab High School Prep No Fundamental 2, o discurso precisa mostrar maturidade. O aluno adolescente precisa perceber que o inglês tem utilidade acadêmica, social e de futuro. A proposta desenvolve repertório global, argumentação, pesquisa, criatividade, cidadania, tecnologia e preparação para a etapa internacional. Proposta pedagógica: consolidar inglês como ferramenta de pensamento acadêmico e comunicação global, conectando língua, humanidades, ciências, tecnologia, finanças, debate e início da trajetória High School."
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Marcos de desenvolvimento esperados no Fundamental 2",
+          "text": "Área Marcos ao longo do segmento Valor comercial Inglês acadêmico Ler textos mais complexos, organizar argumentos, escrever com propósito, apresentar ideias e ampliar repertório temático. O aluno sai do inglês básico e começa a usar a língua para estudo e futuro. Pensamento crítico Pesquisar, analisar fontes, comparar perspectivas, avaliar informações e justificar posicionamentos. Global Perspectives e H&G formam um aluno mais preparado para temas reais. Inovação Projetar, prototipar, testar soluções, integrar ciência, arte, tecnologia e matemática. STEAM aproxima o inglês de criatividade, tecnologia e resolução de problemas. Autonomia e futuro Organizar rotina, participar de debates, entender escolhas financeiras e iniciar trilha High School. A proposta começa a preparar o aluno para Ensino Médio, certificações e Dual Diploma. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Fundamental 2 — produtos e argumentos",
+          "text": "Produto Experiência do aluno Argumento de venda Regular 10% em inglês 7h–12h30 Manhã regular com aulas DE inglês e material Cambridge Prepare. Inglês estruturado para adolescentes, com temas atuais e preparação progressiva Cambridge. Regular Bilíngue 30% em inglês 7h–13h20 Manhã estendida com Global Perspectives, History and Geography, STEAM, Speaking Lab e Financial Literacy. O aluno usa inglês para pesquisar, debater, criar, resolver problemas e compreender o mundo. Integral Bilíngue Y6/Y7 · 50% em inglês 7h–18h Regular Bilíngue + Full Time com experiências criativas, culturais, científicas e práticas. Amplia repertório antes da etapa High School, com mais vivência e fluência funcional. High School Prep Y8/Y9 · 60% em inglês 7h–18h Regular Bilíngue + início da trajetória High School/Keystone. Conecta o aluno ao currículo norte-americano e prepara para Dual Diploma no Ensino Médio. No Fundamental 2, a venda precisa mostrar futuro: o aluno não está apenas estudando inglês; está começando a operar academicamente em inglês. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Fundamental 2 — disciplinas e proposta de valor",
+          "text": "Disciplina Desenvolvimento do aluno Argumento para famílias English / Prepare Comunicação, leitura, escrita, escuta, temas adolescentes, life skills, cultura e preparação Cambridge. É a base linguística madura para a adolescência, conectada a exames e temas relevantes. Global Perspectives Pesquisa, análise, avaliação, reflexão, colaboração e comunicação sobre temas globais. Forma um aluno capaz de investigar problemas reais e argumentar com repertório. History and Geography Lugar, tempo, território, cultura, sociedade, migração, recursos, ambiente e desigualdade. Ajuda o aluno a compreender o mundo em inglês, com leitura histórica e geográfica dos temas. STEAM Ciência, tecnologia, engenharia, artes e matemática por investigação, design e prototipagem. Desenvolve criatividade, lógica, inovação, colaboração e solução de problemas em inglês. Financial Literacy Consumo, orçamento, recursos, trabalho, escolhas, impacto e responsabilidade. Prepara o aluno para tomar decisões práticas e responsáveis, usando inglês em temas da vida real. Speaking Lab Debate, apresentação, argumentação, escuta ativa, fluência e confiança oral. É o espaço para o adolescente falar, defender ideias e ganhar presença comunicativa. High School Prep Currículo norte-americano remoto em inglês, com disciplinas como Creative Writing, Contemporary World Issues, Practical Math e Physical Science. Inicia a ponte para o Dual Diploma, permitindo que o aluno construa trajetória internacional cedo. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Fundamental 2 — aprofundamento das disciplinas",
+          "text": "No Fundamental 2, a equipe comercial precisa mostrar que o bilíngue acompanha o amadurecimento do aluno. A proposta deixa de ser apenas “aprender inglês com mais frequência” e passa a ser formação acadêmica: ler, escrever, pesquisar, debater, argumentar, resolver problemas, compreender temas globais e preparar uma trajetória internacional. Ideia essencial: o adolescente precisa perceber utilidade. As disciplinas do Fundamental 2 dão função ao inglês: discutir mundo, tecnologia, finanças, sociedade, ciência, cultura, futuro e escolhas."
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Prepare — o que o aluno aprende",
+          "text": "Prepare é a coleção Cambridge para o inglês no Fundamental 2. Ela dialoga com adolescentes, amplia repertório linguístico e temático e prepara gradualmente para exames Cambridge English for Schools. Frente O que desenvolve Como defender para famílias Listening Compreensão de áudios, diálogos, entrevistas, temas cotidianos e acadêmicos. O aluno se prepara para entender inglês real, com diferentes falantes e contextos. Speaking Discussões, opiniões, diálogos, apresentações, interação, fluência e pronúncia. Ele aprende a se posicionar e comunicar ideias, não apenas responder exercícios. Reading Textos mais longos, temas atuais, vocabulário em contexto, estratégias de leitura e interpretação. O aluno passa a acessar conteúdos em inglês com mais autonomia. Writing Parágrafos, opiniões, descrições, e-mails, pequenos textos argumentativos e organização de ideias. Ele começa a escrever com propósito, clareza e estrutura. Life Skills Temas de adolescência, cultura, colaboração, tomada de decisão e comunicação social. O inglês se conecta à vida real e ao desenvolvimento pessoal do aluno. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Disciplinas em inglês no Fundamental 2 — o que o aluno aprende",
+          "text": "Disciplina Aprendizagens centrais Habilidades desenvolvidas Argumento comercial Global Perspectives Temas globais, pesquisa, fontes, perspectivas, causas, consequências e comunicação de ideias. Research, analysis, evaluation, reflection, collaboration e communication. “O aluno aprende a pensar sobre problemas reais em inglês, com repertório e respeito a diferentes pontos de vista.” History and Geography Cultura, identidade, território, migração, urbanização, recursos, ambiente, desigualdade e mudanças sociais. Leitura de mundo, conexão entre tempo e espaço, interpretação social e vocabulário acadêmico. “Ele entende fenômenos históricos e geográficos em inglês, conectando conteúdo a temas atuais.” STEAM Investigação, design, tecnologia, criatividade, protótipos, testes, melhorias e solução de problemas. Inovação, lógica, colaboração, criatividade, pensamento científico e comunicação técnica. “O aluno usa inglês para criar soluções, não apenas para conversar.” Financial Literacy Consumo, orçamento, escolhas, recursos, trabalho, responsabilidade, impacto e planejamento. Tomada de decisão, pensamento crítico, noção de consequência e vocabulário financeiro. “É inglês aplicado à vida real: escolhas, dinheiro, responsabilidade e futuro.” Speaking Lab Debates, apresentações, argumentação, escuta ativa, fluência, mediação e presença oral. Confiança, organização de fala, defesa de ponto de vista e interação. “É o espaço para transformar conhecimento em fala segura.” High School Prep Creative Writing, Contemporary World Issues, Practical Math, Physical Science e disciplinas/eletivas do percurso internacional. Inglês acadêmico, autonomia, rotina de estudo internacional e preparação para Dual Diploma. “O aluno começa a transição para uma experiência acadêmica internacional antes do…"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Fundamental 2 — marcos por disciplina Cambridge",
+          "text": "No Fundamental 2, as disciplinas Cambridge precisam ser defendidas como uma etapa de amadurecimento acadêmico. O aluno deixa de usar inglês apenas para interações simples e passa a usar a língua para construir opinião, pesquisar, analisar temas complexos, escrever com mais estrutura e apresentar ideias com mais segurança. Para a equipe comercial: o discurso deve mostrar que o F2 é o momento em que o inglês começa a virar ferramenta de estudo e futuro. É aqui que a proposta conversa diretamente com certificações, High School, intercâmbio, universidade e vida profissional. Etapa Desenvolvimento esperado Marco observável Como vender Years 6–7 consolidação Amplia vocabulário acadêmico, participa de discussões guiadas, lê textos mais longos e organiza ideias com apoio. Apresenta respostas mais completas, trabalha em grupo, usa evidências simples e começa a justificar opiniões. “O aluno sai do inglês mais básico e começa a usar a língua para estudar temas reais.” Years 8–9 autonomia e futuro Pesquisa com mais independência, compara perspectivas, escreve textos mais estruturados, argumenta e se prepara para High School. Produz apresentações, debates, projetos, textos opinativos e análises com repertório mais maduro. “A proposta prepara para uma etapa internacional: High School, certificações e inglês acadêmico.” Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Prepare — proposta pedagógica no Fundamental 2",
+          "text": "Prepare é a coleção que sustenta o inglês como segunda língua no Fundamental 2. Ela é importante porque conversa com a fase adolescente: trabalha temas mais próximos da idade, amplia vocabulário, desenvolve leitura e escrita mais maduras e prepara gradualmente para exames Cambridge English for Schools. Frente O aluno aprende a... Marco de desenvolvimento Argumento comercial Listening Compreender diálogos, entrevistas, instruções, opiniões e situações com diferentes objetivos comunicativos. Identifica ideia principal, detalhes, intenção do falante e vocabulário em contexto. “Ele se prepara para entender inglês real, não apenas frases de livro.” Speaking Dar opinião, pedir esclarecimento, discutir temas, apresentar ideias e interagir com mais espontaneidade. Participa de debates guiados, responde com frases mais completas e sustenta pequenas apresentações. “O aluno ganha presença oral e aprende a se posicionar em inglês.” Reading Ler textos informativos, narrativos e opinativos, reconhecendo ideias principais, detalhes e inferências. Usa estratégias de leitura, compreende textos mais extensos e amplia repertório cultural. “Ele começa a acessar conteúdos mais complexos em inglês.” Writing Produzir parágrafos, e-mails, descrições, opiniões, narrativas curtas e textos com organização. Escreve com mais clareza, conectores, vocabulário adequado e propósito comunicativo. “A escrita deixa de ser frase solta e começa a ganhar estrutura.” Exam preparation Familiarizar-se com formatos, habilidades e estratégias de exames Cambridge. Entende tipos de tarefa, gerencia melhor leitura/escuta e ganha segurança para certificações. “A preparação para exames acontece dentro da jornada, não como algo improvisado no final.” Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Global Perspectives no Fundamental 2 — maturidade acadêmica",
+          "text": "No Fundamental 2, Global Perspectives ganha profundidade. O aluno trabalha temas reais e aprende a pesquisar, analisar, comparar pontos de vista, avaliar informações e comunicar conclusões. É uma disciplina-chave para explicar a robustez do bilíngue. Competência O que o aluno desenvolve Marco observável Como explicar para famílias Research Formula perguntas de pesquisa, busca dados, usa fontes e organiza informações. Constrói questionários, consulta fontes, coleta evidências e registra achados. “Ele aprende a investigar, não apenas receber informação pronta.” Analysis Identifica padrões, relações de causa e consequência, semelhanças, diferenças e impactos. Compara perspectivas locais e globais e interpreta dados/relatos. “O aluno aprende a pensar com mais profundidade sobre problemas reais.” Evaluation Avalia qualidade de ideias, soluções, fontes e argumentos. Justifica por que uma fonte é mais confiável ou uma solução é mais adequada. “Isso desenvolve pensamento crítico, habilidade essencial hoje.” Reflection Analisa sua contribuição, aprendizagem e evolução. Explica o que aprendeu, o que mudaria e como sua visão se ampliou. “Ele aprende a aprender, com consciência do próprio processo.” Collaboration Planeja tarefas, negocia ideias, resolve conflitos e produz resultados em grupo. Participa de projetos com papéis, prazos e entregas compartilhadas. “A disciplina desenvolve colaboração real, não apenas trabalho em grupo.” Communication Apresenta pesquisas, defende argumentos, adapta linguagem e responde perguntas. Produz apresentações, relatórios, debates e exposições em inglês. “O aluno aprende a comunicar pensamento acadêmico em inglês.” Resposta pronta: “Global Perspectives é uma das disciplinas que melhor mostra o bilíngue como formação. O aluno aprende a pesquisar,…"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "History and Geography, STEAM e Financial Literacy — formação aplicada",
+          "text": "Essas disciplinas ajudam a mostrar que o Fundamental 2 bilíngue não é apenas linguístico; é formativo. Elas conectam inglês a mundo, tecnologia, sociedade, escolhas e futuro. Disciplina O que o aluno aprende Marcos de desenvolvimento Argumento de venda History and Geography Cultura, identidade, tempo, lugar, território, migração, urbanização, recursos, ambiente, desigualdade e sociedade. Lê fenômenos sociais por perspectiva histórica/geográfica; conecta passado, território e escolhas humanas; amplia vocabulário acadêmico. “O aluno entende o mundo em inglês: por que sociedades mudam, como lugares se organizam e como decisões impactam pessoas.” STEAM Integra ciência, tecnologia, engenharia, artes e matemática para investigar e criar soluções. Planeja, prototipa, testa, melhora, comunica processos e aprende com erro. “É inglês aplicado à inovação: o aluno cria, resolve e apresenta soluções.” Financial Literacy Consumo, orçamento, recursos, trabalho, escolhas, responsabilidade e impacto financeiro/social. Analisa consequências, toma decisões, compara prioridades e entende dinheiro como parte da vida real. “É uma disciplina prática: ajuda o aluno a pensar escolhas e futuro usando inglês.” Speaking Lab Debate, apresentação, argumentação, escuta ativa, fluência e presença oral. Defende pontos de vista, organiza fala, responde perguntas e ganha confiança em público. “Transforma conhecimento em comunicação. O aluno aprende a falar com segurança.” High School Prep Rotina acadêmica internacional, disciplinas em inglês, autonomia, escrita, leitura e estudo remoto. Prepara para currículo norte-americano, Dual Diploma e exigências de aprendizagem em inglês. “É a ponte entre o Fundamental 2 bilíngue e uma trajetória internacional no Ensino Médio.” Projeto Bilíngue 2027 · Praia Grande…"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Fundamental 2 — discurso de fechamento",
+          "text": "“No Fundamental 2, o inglês precisa ganhar função acadêmica. O aluno usa a língua para pesquisar, argumentar, debater, criar soluções, entender problemas globais e se preparar para a etapa internacional. Para 8º e 9º ano, o High School Prep ainda abre a possibilidade de começar antes a trajetória do Dual Diploma.”"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Dúvidas comuns de famílias do Fundamental 2",
+          "text": "Dúvida Resposta recomendada “Meu filho já é mais velho. Ainda vale entrar?” Sim. A entrada no bilíngue amplia repertório, contato com inglês acadêmico e preparação para exames e High School. Quanto antes começar, mais tempo terá para consolidar. “O High School Prep é pesado?” É uma proposta mais robusta, por isso é indicada para famílias que desejam uma trajetória internacional. A escola organiza essa transição com estrutura e acompanhamento. “Qual a diferença para um curso de inglês fora?” O curso externo trabalha língua. Aqui, o aluno trabalha língua + currículo + repertório acadêmico + projetos + conexão com High School e certificações. “Ele vai perder conteúdo brasileiro?” Não. A matriz brasileira permanece. O bilíngue amplia a formação e adiciona experiências em inglês. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Ensino Médio — continuidade da trajetória",
+          "text": "Mesmo que o foco principal da venda atual esteja em Infantil, Fundamental 1 e Fundamental 2, a equipe precisa saber explicar o destino da jornada. O inglês como projeto de vida fica mais convincente quando a família entende para onde essa trilha aponta. Produto/frente O que significa Valor para a família Regular Ensino Médio regular com inglês conforme matriz da escola, sem materiais Cambridge na frente regular. Continuidade da formação brasileira. English Class Curso extracurricular de inglês que potencializa comunicação, debates, projetos, resolução de problemas e preparação Cambridge. Opção para aprofundar proficiência e buscar certificações internacionais. High School Dual Diploma Programa em parceria com The Keystone School, permitindo cursar currículo brasileiro e norte-americano simultaneamente. Ao final, o aluno pode obter diploma brasileiro e diploma norte-americano reconhecido internacionalmente. Conexão comercial: quando a família escolhe Regular Bilíngue, Integral ou High School Prep antes do Ensino Médio, ela não está apenas escolhendo o produto daquele ano; está antecipando repertório e maturidade para aproveitar melhor as oportunidades futuras. “A jornada não termina no Fundamental. Ela pode seguir para English Class, certificações Cambridge, High School Dual Diploma, intercâmbio e experiências internacionais. Por isso dizemos que o inglês é um projeto de vida.” Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Objeções e respostas de convencimento",
+          "text": "Objeção Risco se responder mal Resposta recomendada “Está caro.” Virar comparação de preço por aula. “Entendo. O ponto é comparar não só quantidade de aulas, mas a experiência: materiais Cambridge, disciplinas em inglês, preparação para certificações, repertório global e caminho para High School. É uma decisão de formação, não só de carga horária.” “Vou colocar em curso de inglês fora.” Parecer competição direta com curso externo. “Curso de inglês ajuda, mas aqui a proposta é diferente: o aluno usa inglês dentro da rotina escolar para aprender conteúdos, desenvolver projetos, argumentar e construir repertório acadêmico.” “Tenho medo de sobrecarregar.” Família achar que bilíngue é pressão. “A proposta é progressiva e adequada à idade. No Infantil é lúdica; no Fundamental 1 é mediada e prática; no Fundamental 2 ganha mais profundidade. Não é jogar o aluno em inglês sem suporte.” “Meu filho não tem nível.” Família desistir por insegurança. “A escola trabalha com progressão, apoio visual, mediação e atividades contextualizadas. O objetivo é construir segurança de uso, não exigir fluência imediata.” “Não sei se ele vai usar isso no futuro.” Família ver inglês como acessório. “Hoje, inglês abre acesso a certificações, conteúdos acadêmicos, intercâmbio, universidade, carreira e experiências globais. O ganho não é só escolar; é de repertório de vida.” “Qual produto escolher?” Família ficar perdida entre opções. “Depende do objetivo da família: base estruturada, maior exposição diária, rotina integral ou trajetória internacional. Posso te explicar qual produto conversa melhor com a rotina e expectativa de vocês.” Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Perguntas frequentes das famílias",
+          "text": "Pergunta Resposta curta para atendimento O bilíngue substitui as aulas em português? Não. A matriz brasileira é preservada. O bilíngue amplia a formação com aulas e experiências em inglês. Meu filho terá aula com professor estrangeiro? Depende do produto. No High School, as aulas são remotas e ministradas por professores estrangeiros vinculados à parceria internacional. Nas demais frentes, a escola organiza a equipe conforme operação pedagógica. O exame Cambridge está incluído? Conforme campanha 2027, alunos de 5º e 9º ano matriculados nos produtos bilíngues e aprovados no simulado/mock test terão exame Cambridge custeado pela escola, sem repasse às famílias, exceto Santo Anjo. Qual é o diferencial do Cambridge? Cambridge oferece referência internacional, progressão, materiais, exames e uma régua reconhecida de proficiência. O que muda no dia a dia do Regular Bilíngue? No F1, o aluno fica uma aula a mais por dia e cursa disciplinas em inglês. No F2, a manhã é estendida até 13h20 com disciplinas em inglês. Integral é só contraturno? Não é apenas “ficar mais tempo”. O Integral amplia a experiência em inglês com atividades práticas, criativas, culturais e de desenvolvimento integral. High School Prep é igual High School? É o início da trajetória para 8º e 9º ano, combinando Regular Bilíngue e experiências curriculares que preparam para o Dual Diploma no Ensino Médio. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "1. Diagnosticar a família",
+          "text": "A família busca mais inglês, mais permanência, rotina integral ou projeto internacional? O aluno já teve contato com inglês? Como ele reage? A preocupação principal é custo, adaptação, carga horária, fluência ou futuro acadêmico?"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "2. Apresentar a jornada, não só o produto",
+          "text": "“A escola tem uma jornada bilíngue completa. No Infantil, a criança cria vínculo com a língua. No Fundamental 1, usa inglês para aprender conteúdos. No Fundamental 2, usa inglês para pesquisar, argumentar e se preparar para High School. No Ensino Médio, pode seguir para certificações e Dual Diploma.”"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "3. Conectar produto ao objetivo da família",
+          "text": "Objetivo da família Produto mais coerente Como posicionar Contato estruturado, sem ampliar muito rotina. Regular / Regular Bilíngue conforme segmento. Base segura e progressiva. Mais exposição e fluência funcional. Regular Bilíngue ou Integral. Uso diário e experiências em inglês. Rotina completa e repertório ampliado. Semi-integral/Integral. Tempo, vivência e desenvolvimento integral. Projeto internacional. High School Prep / High School. Currículo norte-americano, Dual Diploma e futuro acadêmico. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Argumentos de fechamento",
+          "text": "Fechamento por formação “Ao escolher o bilíngue, vocês não estão escolhendo apenas inglês. Estão escolhendo uma formação mais ampla: comunicação, pensamento crítico, repertório global, projetos e preparo para oportunidades futuras.” Fechamento por trajetória “O grande diferencial é que a escola consegue acompanhar o aluno do Infantil ao Ensino Médio, com uma jornada que cresce junto com ele.” Fechamento por segurança “A proposta é gradual, adequada à idade e conectada à rotina escolar. O aluno não precisa estar pronto; ele vai se desenvolvendo com acompanhamento.” Fechamento por futuro “Inglês hoje é acesso: a exames, conteúdos, universidades, intercâmbios, carreiras e experiências internacionais. Quanto antes essa base é construída, mais natural ela se torna.”"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h3",
+          "title": "Fechamento por formação",
+          "text": "“Ao escolher o bilíngue, vocês não estão escolhendo apenas inglês. Estão escolhendo uma formação mais ampla: comunicação, pensamento crítico, repertório global, projetos e preparo para oportunidades futuras.”"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h3",
+          "title": "Fechamento por trajetória",
+          "text": "“O grande diferencial é que a escola consegue acompanhar o aluno do Infantil ao Ensino Médio, com uma jornada que cresce junto com ele.”"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h3",
+          "title": "Fechamento por segurança",
+          "text": "“A proposta é gradual, adequada à idade e conectada à rotina escolar. O aluno não precisa estar pronto; ele vai se desenvolvendo com acompanhamento.”"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h3",
+          "title": "Fechamento por futuro",
+          "text": "“Inglês hoje é acesso: a exames, conteúdos, universidades, intercâmbios, carreiras e experiências internacionais. Quanto antes essa base é construída, mais natural ela se torna.”"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Fechamento completo sugerido",
+          "text": "“Pelo que vocês trouxeram, faz sentido olhar para o bilíngue não como uma atividade extra, mas como uma escolha de formação. O aluno mantém a matriz brasileira e, ao mesmo tempo, amplia contato com inglês de forma estruturada: primeiro com segurança e vínculo, depois com conteúdos em inglês, projetos, pensamento crítico e, mais à frente, certificações e High School. É uma escolha para o ano letivo, mas também para a trajetória dele.” Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h1",
+          "title": "Checklist final para a equipe comercial",
+          "text": "Expliquei a diferença entre aulas DE inglês e EM inglês? Mostrei que a proposta não substitui a matriz brasileira? Conectei o produto ao perfil da família? Expliquei o papel de Cambridge sem jargão excessivo? Mostrei a evolução do aluno por segmento? Expliquei o valor das disciplinas, não apenas seus nomes? Usei “inglês como projeto de vida” e não apenas “mais aulas”? Respondi objeções com segurança pedagógica? Fiz fechamento conectando presente, trajetória e futuro?"
+        },
+        {
+          "source": "Manual comercial-pedagógico",
+          "level": "h2",
+          "title": "Fontes internas usadas",
+          "text": "Este manual consolida: guia de encantamento Praia Grande, fonte principal de produtos bilíngues Praia Grande 2027, análises das grades horárias de Infantil/Fundamental 1/Fundamental 2, materiais técnico-comerciais das disciplinas Cambridge e bilíngues, e diretrizes do Projeto Bilíngue 2027. Nota interna: esta versão amplia o material piloto para funcionar como guia comercial-pedagógico completo. As informações de produtos e percentuais seguem a referência oficial da unidade Praia Grande; detalhes operacionais devem sempre acompanhar tabela comercial, contrato e grade oficial vigente. Projeto Bilíngue 2027 · Praia Grande USO INTERNO GSP"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h1",
+          "title": "Q&A completo para rematrícula e atendimento às famílias",
+          "text": "Central de respostas para equipes de atendimento, comercial, coordenações e liderança na apresentação dos produtos bilíngues 2027. Versão completa para análise da Andressa. Material em padrão GSP, preparado para revisão antes de circulação oficial. Ajustes de política comercial, prazos, preços e procedimentos devem ser validados antes do uso final. The Great Schools Platform · Uso interno Cecilia Franco"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "Sumário",
+          "text": "Como usar este Q&A Visão geral do Projeto Bilíngue 2027 Produtos e nomenclatura oficial Grades horárias e uso no atendimento Infantil — dúvidas comuns Fundamental 1 — dúvidas comuns Fundamental 2 — dúvidas comuns Ensino Médio, English Class e High School Dual Diploma Equipe docente, certificações e diretrizes MEC Cambridge e materiais didáticos Selos Cambridge e reconhecimento institucional Exames Cambridge, CEFR e simulado Graduação no exterior, counseling e preparação curricular Programa de intercâmbio e experiências internacionais Dúvidas comerciais e de matrícula Objeções e respostas recomendadas Alinhamento interno e encaminhamentos"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "1. Como usar este Q&A",
+          "text": "Este Q&A deve ser lido junto com as grades horárias e o Manual Comercial Pedagógico robusto. Ele foi escrito para apoiar respostas consistentes, evitando improvisos e reduzindo ruídos durante a rematrícula. P1 Para quem este material foi criado? Este Q&A foi criado para apoiar equipes de atendimento, comercial, coordenações de segmento, coordenação bilíngue, liderança da unidade e demais pessoas que precisarão explicar o Projeto Bilíngue 2027 às famílias durante a rematrícula e em visitas à escola. P2 Este Q&A substitui o Manual Comercial Pedagógico? Não. O manual apresenta a proposta, os produtos, os diferenciais e os argumentos de venda de forma estruturada. Este Q&A funciona como uma central de respostas para dúvidas práticas, objeções e perguntas recorrentes que podem surgir em conversas com famílias e equipes. P3 Como a equipe deve estudar este material? A recomendação é que cada pessoa leia de forma autônoma e, depois, participe de alinhamentos internos com a coordenação bilíngue local. O objetivo não é decorar respostas, mas compreender a lógica do projeto para responder com segurança, coerência e linguagem acessível. P4 O que fazer se uma família fizer uma pergunta que não está aqui? A equipe deve registrar a dúvida, responder apenas o que souber com segurança e encaminhar para a coordenação bilíngue ou liderança responsável. Não é recomendável improvisar informações sobre preço, grade, carga horária, material, certificação ou política comercial."
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "2. Visão geral do Projeto Bilíngue 2027",
+          "text": "P1 O que é o Projeto Bilíngue 2027? É o movimento de ampliação e organização da proposta bilíngue da escola para 2027, com produtos mais claros, maior integração entre inglês e experiência escolar, novas modalidades e uma comunicação mais objetiva para as famílias sobre o que cada aluno vivencia em cada formato. P2 A escola está virando uma escola bilíngue? Sim, a escola passa por um processo de transformação bilíngue. Isso não significa apagar a identidade da escola nem abandonar a matriz curricular brasileira. Significa ampliar, organizar e fortalecer o uso do inglês dentro da rotina escolar, com produtos bilíngues mais claros e experiências mais consistentes. P3 Por que essa mudança está acontecendo agora? Porque o bilinguismo deixou de ser apenas um diferencial pontual e passou a fazer parte da formação esperada para alunos que viverão em um mundo mais conectado, acadêmico e global. A mudança organiza melhor a proposta, dá mais clareza às famílias e fortalece a entrega pedagógica da escola. P4 O projeto é apenas uma ação comercial? Não. Existe uma dimensão comercial, porque as famílias precisam entender claramente o que estão contratando, mas o centro do projeto é pedagógico. A proposta busca ampliar exposição ao inglês, repertório acadêmico, comunicação, pensamento crítico, investigação, criatividade e preparação para trajetórias futuras. P5 O que muda para as famílias? As famílias passam a enxergar com mais clareza quais produtos existem, qual é a carga horária em inglês, quais experiências compõem cada modalidade e quais caminhos são possíveis conforme idade, rotina, interesse e objetivo de formação do aluno. P6 O que muda para a equipe da escola? A equipe precisa conhecer os produtos, usar a nomenclatura oficial, explicar diferenças entre modalidades, orientar…"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "3. Produtos e nomenclatura oficial",
+          "text": "P1 Quais produtos existem em Praia Grande? A oferta contempla diferentes formatos por segmento: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Regular Bilíngue e Integral Bilíngue; no Fundamental 2, Regular, Regular Bilíngue, Integral Bilíngue para 6º e 7º anos e High School Prep para 8º e 9º anos; no Ensino Médio, Regular, English Class e High School Dual Diploma. P2 Por que é tão importante usar a nomenclatura correta? Porque os produtos são novos e a equipe precisa evitar ruídos. Usar nomes antigos, apelidos internos ou termos operacionais pode confundir famílias e gerar desalinhamento. A comunicação deve priorizar os nomes oficiais: Regular Bilíngue, Semi-integral Bilíngue, Integral Bilíngue, English Class, High School Prep e High School Dual Diploma, conforme o segmento. P3 Podemos falar Part Time ou Full Time? Esses termos podem aparecer em contextos internos ou históricos, mas não devem ser o nome principal apresentado às famílias. Para a comunicação oficial, a equipe deve usar Semi-integral Bilíngue e Integral Bilíngue, explicando que a diferença está no tempo de permanência e na ampliação da exposição ao inglês. P4 Regular Bilíngue é a mesma coisa que curso de inglês? Não. O Regular Bilíngue integra aulas de inglês e aulas em inglês à rotina escolar. Um curso de inglês trabalha a língua como produto extracurricular ou complementar. O Regular Bilíngue amplia o uso do inglês dentro da experiência acadêmica e escolar. P5 Integral Bilíngue é apenas ficar mais tempo na escola? Não. A permanência ampliada é parte da proposta, mas o valor está em como esse tempo é usado: mais experiências em inglês, mais repertório, mais vivências práticas, maior naturalidade de uso da língua e uma rotina mais rica para o aluno.…"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "4. Grades horárias e uso no atendimento",
+          "text": "P1 Para que servem as grades horárias 2027? As grades tornam visível o que compõe cada produto. Elas ajudam a família a entender a rotina, a carga horária, a diferença entre modalidades e o que está sendo contratado de forma mais concreta. P2 Quando a equipe deve usar a grade horária? A grade deve ser usada em matrícula, rematrícula, visitas à unidade, reuniões com famílias e atendimentos em que seja necessário explicar a diferença entre Regular, Regular Bilíngue, Semi-integral, Integral ou High School Prep. P3 A grade deve ser enviada para todas as famílias? A decisão de envio deve seguir a orientação da liderança da unidade e da GSP. Mesmo quando não for enviada diretamente, ela deve ser usada pela equipe como apoio para explicar a composição dos produtos. P4 Como explicar a grade para uma família que está confusa? Comece pelo simples: mostre o horário, diferencie aulas de inglês e aulas em inglês, explique o tempo de permanência e relacione cada escolha ao perfil da família. Evite começar por termos técnicos; comece pela experiência real do aluno. P5 A família precisa entender todos os detalhes da grade? Não necessariamente. A família precisa entender o suficiente para tomar uma decisão segura: o que o aluno viverá, quanto tempo ficará na escola, quais experiências em inglês terá e por que uma modalidade é diferente da outra."
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "5. Infantil — dúvidas comuns",
+          "text": "P1 O que é o Regular Bilíngue no Infantil? É a modalidade em que a criança tem contato com o inglês dentro da rotina regular, com aulas de inglês e experiências em inglês adequadas à idade, como vivências de música, movimento, histórias, brincadeiras e descobertas. P2 É cedo demais para uma criança pequena ter inglês? Não, desde que a proposta seja adequada à idade. No Infantil, o inglês aparece de forma lúdica, afetiva e contextualizada. A criança não aprende por pressão ou memorização mecânica, mas por rotina, interação, música, histórias, movimento e brincadeira. P3 O inglês pode atrapalhar o português? A proposta respeita o desenvolvimento da língua materna. O contato com o inglês acontece em contextos claros, com mediação do professor e atividades adequadas. Crianças pequenas conseguem construir repertórios linguísticos diferentes quando há rotina, vínculo e intencionalidade pedagógica. P4 O que a criança realmente aprende no Infantil bilíngue? Ela constrói familiaridade com sons, comandos, vocabulário, músicas, histórias, expressões de rotina, interações simples e segurança emocional para se relacionar com o idioma. O objetivo é criar uma base positiva para o futuro. P5 Qual é a diferença entre Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue no Infantil? A diferença principal está no tempo de permanência e na quantidade de experiências em inglês. O Regular Bilíngue acontece no período regular. O Semi-integral amplia parte da rotina. O Integral amplia ainda mais a vivência, com maior exposição e mais momentos em inglês ao longo do dia. P6 Uma criança sem nenhum contato anterior com inglês consegue acompanhar? Sim. A proposta do Infantil foi feita para acolher crianças em diferentes níveis de exposição. O professor usa gestos, imagens, repetição,…"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "6. Fundamental 1 — dúvidas comuns",
+          "text": "P1 O que muda do Regular para o Regular Bilíngue no Fundamental 1? No Regular, o aluno tem aulas de inglês. No Regular Bilíngue, ele mantém a matriz curricular em português e passa a ter uma aula adicional diária em inglês, com disciplinas como Science, Math, Global Perspectives, PBL e Speaking Lab. P2 Regular Bilíngue significa que Matemática e Ciências brasileiras serão dadas só em inglês? Não. A matriz curricular brasileira permanece. As aulas em inglês ampliam a experiência e desenvolvem vocabulário, investigação, raciocínio e comunicação em inglês, mas não substituem a base obrigatória em português. P3 A criança pode ter dificuldade nas disciplinas em inglês? Pode haver adaptação inicial, especialmente para alunos com menos repertório, mas a proposta é gradual e mediada. O professor usa apoio visual, atividades práticas, linguagem de rotina, repetição e estratégias adequadas à faixa etária. P4 Por que Science em inglês é importante? Porque permite que o aluno use o inglês para observar, levantar hipóteses, comparar, investigar, registrar e explicar descobertas. A língua passa a ser ferramenta para compreender o mundo, não apenas uma matéria isolada. P5 Por que Math em inglês é importante? Porque desenvolve vocabulário matemático, raciocínio, resolução de problemas, padrões, medidas, dados e explicação de estratégias em inglês. O objetivo não é traduzir contas, mas ampliar o pensamento matemático em outro idioma. P6 O que é Global Perspectives no Fundamental 1? É uma frente que desenvolve pesquisa, reflexão, comunicação, colaboração e consideração de diferentes pontos de vista, a partir de temas adequados à idade e conectados ao mundo da criança. P7 O que é PBL? PBL significa aprendizagem baseada em projetos. O aluno investiga, cria, testa, colabora e apresenta…"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "7. Fundamental 2 — dúvidas comuns",
+          "text": "P1 O que muda no Fundamental 2? No Fundamental 2, o inglês ganha uma função mais acadêmica. O aluno passa a usar a língua para pesquisar, argumentar, debater, criar soluções, estudar temas globais e se preparar para escolhas futuras. P2 Qual é a diferença entre Regular e Regular Bilíngue no Fundamental 2? No Regular, o aluno tem aulas de inglês com material Prepare!. No Regular Bilíngue, além da base regular, há ampliação com disciplinas em inglês como Global Perspectives, History and Geography, STEAM, Financial Literacy e Speaking Lab. P3 O aluno que entra no F2 sem base forte em inglês consegue acompanhar? Depende do histórico e do perfil do aluno, mas a proposta deve acolher diferentes pontos de partida. É importante alinhar expectativas com a família e, quando necessário, orientar apoio complementar, rotina de estudo e acompanhamento próximo. P4 O que é Global Perspectives no F2? É uma disciplina que trabalha pesquisa, análise, avaliação, colaboração, reflexão e comunicação sobre temas globais. Ela ajuda o adolescente a desenvolver pensamento crítico e repertório para discutir problemas reais. P5 O que é History and Geography em inglês? É uma frente que trabalha tempo, espaço, território, cultura, sociedade, ambiente, recursos e transformações humanas usando o inglês como língua de instrução. Ajuda o aluno a compreender temas históricos e geográficos em uma perspectiva global. P6 O que é STEAM? STEAM integra ciência, tecnologia, engenharia, artes e matemática em experiências de investigação, criação, prototipagem e solução de problemas. Em inglês, fortalece criatividade, colaboração, vocabulário acadêmico e pensamento aplicado. P7 O que é Financial Literacy? É a frente que trabalha noções de consumo, orçamento, escolhas, recursos, responsabilidade e tomada de…"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "8. Ensino Médio, English Class e High School Dual Diploma",
+          "text": "P1 O Ensino Médio Regular usa material Cambridge? Não. No Ensino Médio Regular de Praia Grande, não são utilizados materiais Cambridge. O aluno pode, porém, contratar English Class e/ou High School Dual Diploma como produtos complementares, conforme interesse e perfil. P2 O que é English Class? É o curso extracurricular de inglês da escola. Ele potencializa o aprendizado, desenvolve comunicação, projetos, debates, resolução de problemas e preparação para certificações internacionais de proficiência Cambridge English. P3 English Class é só reforço? Não. Ele pode apoiar alunos que precisam fortalecer o inglês, mas não deve ser entendido apenas como reforço. É um curso estruturado para desenvolvimento linguístico, comunicação e preparação para certificação. P4 O que é High School Dual Diploma? É o programa em parceria com a The Keystone School que permite ao aluno cursar o currículo brasileiro e o currículo norte-americano, podendo obter dois diplomas ao final: o brasileiro e o norte-americano reconhecido internacionalmente. P5 As aulas do High School são presenciais? As aulas do currículo norte-americano acontecem em inglês e são ministradas remotamente por professores estrangeiros, dentro da estrutura do programa parceiro. P6 O aluno pode entrar no High School depois do 8º ano? Sim, a entrada posterior pode ser possível, como no 9º ano ou na 1ª série do Ensino Médio, mas o aluno terá menos tempo para concluir o programa. Essa orientação deve ser feita com cuidado, avaliando prazo, carga e perfil. P7 High School Dual Diploma serve apenas para quem quer estudar fora? Não. Ele é especialmente relevante para alunos com interesse em trajetórias internacionais, mas também desenvolve autonomia, inglês acadêmico, organização, repertório global e habilidades valorizadas em…"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "9. Equipe docente, certificações e diretrizes MEC",
+          "text": "P1 Quem são os professores que atuam nos produtos bilíngues? Os professores bilíngues são profissionais especializados em língua inglesa e ensino bilíngue. Eles não são apenas professores que 'sabem inglês'; são docentes preparados para conduzir experiências de aprendizagem em inglês, respeitando idade, segmento, objetivo pedagógico e nível de desenvolvimento dos alunos. P2 Os professores bilíngues têm certificação internacional? Sim. Os professores bilíngues possuem certificações internacionais de proficiência em língua inglesa, com níveis entre B2 e C2. Isso significa que têm domínio linguístico suficiente para conduzir aulas, interações, projetos e experiências acadêmicas em inglês com segurança. P3 O que significam os níveis B2, C1 e C2? São níveis de proficiência do CEFR, uma referência internacional para línguas. De forma simples: B2 indica usuário independente avançado; C1 indica domínio avançado; C2 indica domínio proficiente. Para as famílias, o ponto central é que a escola trabalha com docentes que têm comprovação internacional de competência linguística. P4 Ter certificação internacional basta para ser professor bilíngue? Não. A certificação comprova proficiência em inglês, mas a atuação bilíngue exige também formação pedagógica, experiência docente, conhecimento de desenvolvimento infantil/adolescente, planejamento, avaliação e domínio de estratégias para ensinar conteúdos e conduzir interações em inglês. P5 Os professores são especialistas em ensino bilíngue? Sim. A equipe bilíngue é composta por profissionais especializados em língua inglesa e ensino bilíngue, com preparo para trabalhar tanto aulas DE inglês quanto experiências EM inglês, de acordo com a proposta de cada segmento. P6 Os professores têm experiência internacional? A maioria dos docentes…"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "10. Cambridge e materiais didáticos",
+          "text": "P1 Qual é o papel da Cambridge no projeto? A Cambridge apoia a proposta com materiais e programas reconhecidos internacionalmente, adequados por faixa etária e por finalidade. Ela contribui para progressão, repertório, qualidade linguística e alinhamento a referências internacionais. P2 Quais materiais aparecem em Praia Grande? No Infantil, Ready, Set, Grow!. No Fundamental 1, Kid’s Box, Cambridge Primary Science e Cambridge Primary Mathematics. No Fundamental 2, Prepare! e Cambridge Global Perspectives, conforme a frente. No Ensino Médio Regular, não há material Cambridge; English Class pode apoiar a preparação para certificações. P3 Material Cambridge significa que a escola segue currículo estrangeiro? Não necessariamente. O material Cambridge apoia a aprendizagem de inglês e algumas frentes internacionais, mas a escola continua cumprindo o currículo brasileiro. No caso do High School, há também currículo norte-americano pela The Keystone School. P4 As certificações Cambridge são obrigatórias? A política de aplicação de exames deve ser alinhada pela escola/GSP. A equipe pode explicar que a proposta prepara e aproxima os alunos de certificações internacionais, mas não deve prometer exame, aprovação ou obrigatoriedade sem orientação oficial. P5 O aluno terá certificado automaticamente por estar no bilíngue? Não. Certificações dependem de exames e critérios específicos. O projeto fortalece a preparação e a exposição ao idioma, mas certificado internacional não é automático."
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "11. Selos Cambridge e reconhecimento institucional",
+          "text": "P1 Quais selos Cambridge a escola possui? A apresentação oficial destaca dois reconhecimentos: Cambridge English Educational Partner e Centro Oficial Preparatório dos Exames Cambridge English, também referido em conversas como Cambridge Prep Centre. Esses selos ajudam a mostrar que a proposta de inglês da escola está conectada a uma referência internacional. P2 O que significa ser Cambridge English Educational Partner? Significa que a escola integra uma rede global de instituições reconhecidas pela excelência no ensino do inglês como segunda língua. Para a família, esse selo comunica que a escola não trabalha com uma proposta isolada ou improvisada, mas alinhada a uma instituição internacional de referência. P3 O que significa ser Centro Oficial Preparatório dos Exames Cambridge English? Significa que a escola prepara seus alunos para os exames internacionais Cambridge English, com ensino alinhado aos níveis do CEFR e ao desenvolvimento das quatro habilidades: listening, speaking, reading e writing. P4 Cambridge Prep Centre é a mesma ideia de Centro Oficial Preparatório? Sim, na comunicação com famílias, a equipe pode explicar que a escola é um centro preparatório Cambridge, ou seja, uma escola que prepara alunos para exames Cambridge English. O nome oficial a priorizar no material é Centro Oficial Preparatório dos Exames Cambridge English. P5 Esses selos significam que o aluno recebe certificado automaticamente? Não. Os selos indicam reconhecimento institucional e preparação estruturada, mas certificados individuais dependem da realização da prova oficial e do desempenho do aluno no exame. P6 Como explicar esses selos sem parecer propaganda vazia? A equipe deve conectar o selo à experiência do aluno: materiais estruturados, progressão por níveis, preparação para…"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "12. Exames Cambridge, CEFR e simulado",
+          "text": "P1 Para que servem os exames Cambridge? Os exames Cambridge são certificações internacionais de proficiência em inglês. Eles ajudam a comprovar, por uma régua externa e reconhecida, o desenvolvimento do aluno em habilidades como leitura, escrita, escuta e fala. Para a família, funcionam como evidência concreta de percurso; para a escola, ajudam a acompanhar a evolução da proposta bilíngue. P2 Por que é importante fazer um exame de proficiência? Porque o exame mostra que o aluno consegue usar o inglês em uma situação oficial, com critérios internacionais. Ele também cria meta, repertório, maturidade acadêmica e confiança. Mais do que 'ter um certificado', o valor está em mostrar ao aluno que o inglês dele pode ser reconhecido fora da sala de aula. P3 O que é CEFR? CEFR é o Quadro Europeu Comum de Referência para Línguas, uma régua internacional que organiza níveis de proficiência. Ele ajuda a explicar em que etapa de desenvolvimento linguístico o aluno está e quais habilidades são esperadas em cada nível. P4 Quais exames Cambridge são trabalhados na escola? A escola trabalha com a trilha de exames Cambridge adequada à progressão dos alunos: STARTERS, KEY, PRELIMINARY e FIRST. Em termos de referência CEFR, STARTERS está na etapa inicial/pre-A1; KEY corresponde ao A2; PRELIMINARY corresponde ao B1; FIRST corresponde ao B2. P5 Todo aluno faz a mesma prova Cambridge? Não. Cada aluno tem seu momento. A indicação do exame depende do nível de proficiência, desempenho no simulado, maturidade, segurança emocional e avaliação global da equipe pedagógica. A escola não deve colocar o aluno em uma prova apenas porque ele está em determinado ano escolar. P6 Quando os exames Cambridge são aplicados? O fluxo usual começa com o simulado/mock test no primeiro semestre. Depois da correção…"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "13. Graduação no exterior, counseling e preparação curricular",
+          "text": "P1 A escola apoia alunos que sonham em fazer graduação no exterior? Sim. A escola apoia os alunos que desejam seguir uma trajetória internacional, com a coordenação bilíngue atuando como counselor para orientar caminhos, escolhas e preparação ao longo do percurso. P2 O que significa a coordenação bilíngue atuar como counselor? Significa acompanhar o aluno e a família na construção de uma trajetória coerente para objetivos internacionais: desenvolvimento de inglês, escolhas curriculares, certificações, experiências acadêmicas, organização de documentos, leitura de requisitos e preparação para processos seletivos. P3 Esse apoio garante aprovação em universidades estrangeiras? Não. A escola oferece apoio, orientação e preparação curricular, mas admissões internacionais dependem do background do aluno, histórico acadêmico, nível de inglês, maturidade, atividades, cartas, redações, perfil da universidade, critérios de cada país e concorrência do processo. P4 A escola também apoia alunos que buscam bolsas de estudo no exterior? Sim. A coordenação pode apoiar alunos que buscam bolsas de estudo, ajudando a entender requisitos, organizar trajetória e fortalecer o perfil acadêmico. Mas bolsas dependem das regras de cada universidade/programa e do background do aluno; não devem ser prometidas. P5 O que costuma compor um processo de application para graduação fora do Brasil? Em geral, processos internacionais podem envolver histórico escolar/transcripts, diploma ou previsão de conclusão, testes padronizados quando exigidos, comprovação de inglês, cartas de recomendação, essays/personal statements, currículo de atividades, prazos específicos e documentos financeiros ou de bolsa. Cada universidade e país tem regras próprias. P6 Por que a preparação precisa começar antes do…"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "14. Programa de intercâmbio e experiências internacionais",
+          "text": "P1 O que é o programa de intercâmbio mencionado no projeto? A GSP oferece o Programa de Intercâmbio para a University of Toronto, no Canadá, como parte das experiências internacionais conectadas à jornada bilíngue. Ele deve ser apresentado como uma oportunidade de ampliação cultural, acadêmica e linguística para os alunos. P2 Todas as escolas têm acesso ao programa de intercâmbio? Sim. A apresentação oficial do Projeto Bilíngue 2027 informa que todas as escolas oferecem o Programa de Intercâmbio para a University of Toronto, no Canadá. Detalhes de elegibilidade, inscrição, datas, vagas e custos devem seguir a comunicação oficial de cada ciclo. P3 O intercâmbio está incluído na mensalidade do bilíngue? Não se deve afirmar isso. O intercâmbio é uma oportunidade vinculada à jornada internacional da escola, mas custos, condições, prazos e regras de participação precisam ser informados conforme campanha e documentos oficiais específicos. P4 Qual é a relação entre bilíngue e intercâmbio? A proposta bilíngue prepara o aluno para aproveitar melhor experiências internacionais, porque amplia proficiência, repertório, autonomia, comunicação e confiança. O intercâmbio, por sua vez, dá sentido concreto ao inglês como ferramenta de vida fora da sala de aula. P5 O aluno precisa estar no bilíngue para participar do intercâmbio? Essa regra deve ser confirmada a cada edição do programa. O discurso seguro é: a experiência bilíngue fortalece a preparação do aluno para o intercâmbio, mas critérios oficiais de participação, custos e seleção devem ser consultados na comunicação específica do programa. P6 Como falar do intercâmbio para famílias do Infantil e Fundamental 1? Não como uma decisão imediata, mas como parte da jornada de longo prazo. A equipe pode explicar que a escola constrói,…"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "15. Dúvidas comerciais e de matrícula",
+          "text": "P1 Como apresentar a diferença de valor entre modalidades? A equipe deve relacionar valor financeiro à experiência entregue: carga horária, tempo de permanência, quantidade de aulas em inglês, material, projetos, repertório e profundidade da exposição. Preço deve ser tratado conforme tabela oficial, sem improvisos. P2 Como responder à família que diz que está caro? Acolha a preocupação e explique a composição da entrega. O objetivo não é pressionar, mas mostrar que a diferença de investimento corresponde a uma diferença real de experiência: mais tempo, mais inglês, mais repertório e mais oportunidades de desenvolvimento. P3 Como evitar uma venda agressiva? A conversa deve ser consultiva. Primeiro entenda rotina, expectativa, perfil do aluno e objetivo da família. Depois, mostre qual modalidade faz mais sentido. O projeto precisa ser apresentado com segurança, não com pressão. P4 Qual produto devo indicar para uma família indecisa? Depende do segmento, rotina, orçamento, objetivo e perfil do aluno. Em geral, a equipe deve explicar a escada de valor: Regular, Regular Bilíngue/Semi-integral quando aplicável, Integral Bilíngue e High School Prep/High School quando houver interesse em trajetória internacional. P5 Se a família não contratar bilíngue, o aluno ficará prejudicado? A resposta deve ser cuidadosa. O aluno continuará tendo a proposta regular da escola. Ao mesmo tempo, a equipe pode explicar que as modalidades bilíngues ampliam exposição ao inglês, repertório e oportunidades. Evite gerar medo; foque em valor. P6 Podemos dizer que o bilíngue garante fluência? Não é recomendável prometer fluência como garantia. A fluência depende de tempo de exposição, frequência, engajamento, percurso, perfil do aluno e continuidade. O correto é dizer que a proposta amplia…"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "16. Objeções e respostas recomendadas",
+          "text": "P1 “Meu filho não sabe inglês suficiente.” Resposta recomendada: A proposta foi pensada para desenvolver o aluno gradualmente. O ponto de partida importa, mas não impede a construção. A escola acompanha a adaptação e usa estratégias adequadas por idade. P2 “Tenho medo de ele se frustrar.” Resposta recomendada: A adaptação é uma preocupação legítima. Por isso, a proposta trabalha com mediação, rotina, apoio visual, prática e progressão. O objetivo é construir confiança, não gerar pressão. P3 “Ele já faz inglês fora.” Resposta recomendada: Ótimo, isso pode ajudar. A diferença é que aqui o inglês também aparece na rotina escolar e em conteúdos acadêmicos, projetos e experiências. Uma coisa pode complementar a outra. P4 “Não quero que ele perca conteúdo em português.” Resposta recomendada: Ele não perde a matriz curricular brasileira. As aulas em inglês ampliam a experiência, sem substituir as responsabilidades curriculares obrigatórias. P5 “Não sei se vale a pena investir agora.” Resposta recomendada: Quanto mais cedo e mais constante for a exposição, mais natural tende a ser a construção. O investimento não é apenas em inglês, mas em repertório, comunicação, autonomia e preparação para o futuro. P6 “Meu filho é tímido.” Resposta recomendada: A proposta não depende de exposição forçada. O aluno pode começar participando por gestos, pequenas respostas, atividades em grupo e interações mediadas. A confiança oral se constrói aos poucos. P7 “Tenho medo de ser muito pesado.” Resposta recomendada: Cada modalidade tem uma intensidade diferente. Por isso é importante escolher o produto adequado ao perfil e à rotina da família. A equipe pode ajudar a comparar as opções. P8 “O High School parece difícil.” Resposta recomendada: É uma proposta mais robusta e exige organização, mas…"
+        },
+        {
+          "source": "Q&A definitivo",
+          "level": "h2",
+          "title": "17. Alinhamento interno e encaminhamentos",
+          "text": "P1 Quem deve conhecer este Q&A? Atendimento, comercial, secretaria, coordenações de segmento, coordenação bilíngue, direção, equipe pedagógica e qualquer pessoa que possa ser acionada por famílias durante matrícula, rematrícula ou visitas. P2 Como a coordenação bilíngue deve apoiar a equipe? A coordenação bilíngue deve revisar o material com os times, esclarecer dúvidas, alinhar linguagem, apoiar simulações de atendimento e ajudar a transformar o Q&A em ferramenta ativa de rotina. P3 O que a equipe não deve fazer? Não deve improvisar informações, prometer fluência, garantir certificação, usar nomenclatura não oficial, criticar concorrentes, reduzir o projeto a preço ou responder dúvidas sensíveis sem alinhamento. P4 Quais dúvidas devem ser encaminhadas para liderança? Dúvidas sobre preço, desconto, exceção contratual, política de matrícula, alimentação, transporte, logística específica, contratação parcial, certificações, entrada tardia em High School e casos de alunos com necessidades específicas devem ser encaminhadas. P5 Como registrar dúvidas novas durante a rematrícula? A escola pode manter uma lista viva de perguntas recebidas, com data, público, segmento e resposta encaminhada. Isso permite atualizar o Q&A e reduzir ruídos entre atendimento, coordenação e direção. P6 Qual é a mensagem central para a equipe? O Projeto Bilíngue 2027 não é apenas uma mudança de produto. É uma transformação de proposta educacional. Para que funcione, todos precisam estudar, usar os materiais, alinhar discurso e tratar o bilinguismo como parte da experiência da escola."
+        }
+      ]
+    },
+    {
+      "id": "embare",
+      "name": "Embaré",
+      "city": "Santos",
+      "status": "em breve",
+      "summary": "Área reservada para materiais da unidade.",
+      "materials": [],
+      "quickTopics": [],
+      "content": []
+    },
+    {
+      "id": "ponta-da-praia",
+      "name": "Ponta da Praia",
+      "city": "Santos",
+      "status": "em breve",
+      "summary": "Área reservada para materiais da unidade.",
+      "materials": [],
+      "quickTopics": [],
+      "content": []
+    },
+    {
+      "id": "cja",
+      "name": "CJA",
+      "city": "",
+      "status": "em breve",
+      "summary": "Área reservada para materiais da unidade.",
+      "materials": [],
+      "quickTopics": [],
+      "content": []
+    }
+  ]
+}
