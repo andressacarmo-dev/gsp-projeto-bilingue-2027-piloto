@@ -1770,8 +1770,8 @@
         {
           "source": "Modo Atendimento",
           "level": "h3",
-          "title": "Modo Atendimento — abertura do atendimento",
-          "text": "Antes de explicar produto, confirme série do aluno, modalidade disponível, objetivo da família e tipo de dúvida. Para orientar com segurança, olhar primeiro a série do aluno e as modalidades disponíveis para essa etapa."
+          "title": "Modo Atendimento — produtos desta escola",
+          "text": "Oferta por segmento: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 2, Regular, Regular Bilíngue, Integral Bilíngue e High School Prep conforme série e grade oficial. Nomes oficiais: Regular, Regular Bilíngue, Semi-integral Bilíngue, Integral Bilíngue e High School Prep, conforme segmento e grade oficial."
         },
         {
           "source": "Modo Atendimento",
@@ -1783,67 +1783,73 @@
           "source": "Modo Atendimento",
           "level": "h3",
           "title": "Modo Atendimento — Educação Infantil",
-          "text": "No Infantil, o inglês aparece de forma natural, afetiva e adequada à idade. A criança aprende por músicas, histórias, movimento, brincadeiras, exploração e rotina, com Cambridge Ready Set Grow e Let’s Explore. O objetivo é criar vínculo, repertório e naturalidade com o inglês desde cedo."
+          "text": "No Infantil da Praia Grande, o Regular Bilíngue acontece no período regular; o Semi-integral amplia parte da rotina com experiências em inglês; e o Integral amplia ainda mais a vivência, com maior exposição ao inglês ao longo do dia. No Infantil, o inglês deve ser apresentado como vínculo, repertório, rotina e naturalidade com a língua desde cedo."
         },
         {
           "source": "Modo Atendimento",
           "level": "h3",
           "title": "Modo Atendimento — Fundamental I",
-          "text": "No Fundamental I, o aluno usa inglês para aprender conteúdos e desenvolver pensamento. Disciplinas e experiências incluem Science, Math, Global Perspectives, PBL e Speaking Lab conforme série. O aluno desenvolve vocabulário, raciocínio, fala, escuta e confiança usando inglês com propósito."
+          "text": "No Regular, o aluno tem aulas de inglês. No Regular Bilíngue, além da matriz curricular em português, há aulas em inglês como Science, Math, Global Perspectives, PBL e Speaking Lab. O Semi-integral e o Integral ampliam permanência e exposição ao inglês. O atendimento deve destacar vocabulário, raciocínio, comunicação, projetos e uso do inglês com propósito conforme oferta da unidade."
         },
         {
           "source": "Modo Atendimento",
           "level": "h3",
           "title": "Modo Atendimento — Fundamental II",
-          "text": "No Fundamental II, a proposta ganha maturidade acadêmica. O aluno usa inglês para argumentar, pesquisar, debater, resolver problemas e se preparar para trajetória internacional. Disciplinas e experiências incluem Global Perspectives, History and Geography, STEAM, Speaking Lab e Financial Literacy, com Cambridge Prepare."
+          "text": "No Fundamental 2 da Praia Grande, o Regular mantém a base curricular com inglês; o Regular Bilíngue amplia disciplinas e experiências em inglês; o Integral Bilíngue aprofunda permanência e repertório; e o High School Prep conecta os anos finais a uma trajetória internacional."
         },
         {
           "source": "Modo Atendimento",
           "level": "h3",
-          "title": "Modo Atendimento — High School Prep",
-          "text": "High School Prep é a entrada antecipada em trajetória internacional. Combina formação brasileira com experiências acadêmicas em inglês vinculadas ao High School. Não apresentar como contraturno comum; é ponte para currículo internacional, Dual Diploma, autonomia e rotina acadêmica internacional."
+          "title": "Modo Atendimento — trajetória internacional",
+          "text": "É a modalidade que aproxima o aluno de uma experiência acadêmica internacional, com Regular Bilíngue + High School/Keystone conforme a oferta da unidade, preparando para a continuidade da trajetória internacional."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — materiais e diferenciais",
+          "text": "No Infantil, Ready, Set, Grow! e Let’s Explore. No Fundamental 1, Kid’s Box e frentes em inglês como Science, Math, Global Perspectives, PBL e Speaking Lab. No Fundamental 2, Prepare!, Cambridge Global Perspectives e componentes da trilha High School Prep conforme grade da unidade."
         },
         {
           "source": "Modo Atendimento",
           "level": "h3",
           "title": "Modo Atendimento — objeção é só curso de inglês",
-          "text": "Não é só curso de inglês. Curso trabalha principalmente a língua; Projeto Bilíngue trabalha a língua dentro da experiência escolar. O aluno desenvolve pensamento científico e matemático em inglês, participa de projetos, amplia repertório cultural, pratica comunicação oral e usa materiais internacionais Cambridge."
+          "text": "Não é só curso de inglês. Curso trabalha principalmente a língua; Projeto Bilíngue trabalha a língua dentro da experiência escolar. O aluno desenvolve pensamento científico, matemático, comunicativo e cultural em inglês, participa de projetos, amplia repertório e usa materiais internacionais Cambridge como apoio à progressão quando previstos na oferta."
         },
         {
           "source": "Modo Atendimento",
           "level": "h3",
           "title": "Modo Atendimento — objeção já faz inglês fora",
-          "text": "Se o aluno já faz inglês fora, isso é positivo. A diferença é que, no bilíngue da escola, o inglês aparece aplicado à rotina acadêmica: investigar, argumentar, fazer projetos, desenvolver fala e ampliar repertório. Curso externo fortalece a língua; projeto bilíngue fortalece uso da língua em contexto escolar."
+          "text": "Se o aluno já faz inglês fora, isso é positivo. A diferença é que, no bilíngue da escola, o inglês aparece aplicado à rotina acadêmica: investigar, argumentar, fazer projetos, desenvolver fala e ampliar repertório."
         },
         {
           "source": "Modo Atendimento",
           "level": "h3",
           "title": "Modo Atendimento — objeção vai ficar pesado",
-          "text": "A proposta é progressiva e organizada por segmento. O aluno amplia contato com inglês conforme idade, rotina e modalidade escolhida. O objetivo não é sobrecarregar, mas aumentar repertório, confiança e familiaridade com inglês dentro de rotina planejada."
+          "text": "A proposta é progressiva e organizada por segmento. O aluno amplia contato com inglês conforme idade, rotina e modalidade escolhida. O objetivo é aumentar repertório, confiança e familiaridade com inglês dentro de rotina planejada."
         },
         {
           "source": "Modo Atendimento",
           "level": "h3",
-          "title": "Modo Atendimento — WhatsApp respostas prontas",
-          "text": "O Projeto Bilíngue 2027 amplia a vivência em inglês dentro da rotina escolar. Além das aulas de inglês, o aluno passa a ter experiências e disciplinas em inglês, como Science, Math, PBL, Global Perspectives e Speaking Lab, conforme segmento e modalidade. A proposta vai além de curso de idioma."
+          "title": "Modo Atendimento — WhatsApp resposta pronta",
+          "text": "O Projeto Bilíngue 2027 amplia a vivência em inglês dentro da rotina escolar. Além das aulas de inglês, o aluno passa a ter experiências e/ou disciplinas em inglês, projetos e práticas de comunicação, conforme o segmento e a modalidade disponível nesta unidade."
         },
         {
           "source": "Modo Atendimento",
           "level": "h3",
           "title": "Modo Atendimento — fechamento e convencimento",
-          "text": "Para família que busca segurança: proposta progressiva e adequada à idade. Para família que compara com curso: inglês vivido dentro da escola, em projetos, disciplinas e situações reais. Para família que pensa no futuro: repertório acadêmico, comunicação e preparação para certificações e trajetórias internacionais."
+          "text": "Para família que compara com curso de inglês: aqui o inglês é vivido dentro da escola, em projetos, disciplinas e situações reais de aprendizagem. Para família que pensa no futuro: fortalece repertório acadêmico, comunicação e preparação para certificações e trajetórias internacionais conforme oferta da unidade."
         },
         {
           "source": "Modo Atendimento",
           "level": "h3",
           "title": "Modo Atendimento — cuidados",
-          "text": "Não prometer produto fora da oferta oficial da escola ou série. Não reduzir projeto a mais aulas de inglês. Não afirmar carga ou disciplinas sem conferir segmento e modalidade. Não prometer fluência automática; falar em progressão, exposição, repertório e desenvolvimento."
+          "text": "Não prometer produto que não aparece na oferta oficial da escola ou série. Não reduzir o projeto a mais aulas de inglês. Não afirmar carga ou disciplinas sem conferir segmento e modalidade. Não prometer fluência automática."
         },
         {
           "source": "Modo Atendimento",
           "level": "h3",
           "title": "Modo Atendimento — quando chamar Coordenação Bilíngue",
-          "text": "Chamar Coordenação Bilíngue para dúvidas pedagógicas específicas, adaptação, inclusão, dificuldade de aprendizagem, comparação detalhada com outra escola, metodologia ou programa, dúvidas aprofundadas sobre Cambridge, exames, proficiência ou High School, e resistência forte da família."
+          "text": "Chamar Coordenação Bilíngue para dúvidas pedagógicas específicas, adaptação, inclusão, dificuldade de aprendizagem, comparação detalhada com outra escola, dúvidas aprofundadas sobre Cambridge, exames, proficiência, High School ou Dual Diploma, e resistência forte da família."
         }
       ],
       "faq": [
@@ -4305,6 +4311,90 @@
           "level": "h3",
           "title": "Integral Bilíngue — KINDER - TARDE",
           "text": "SCHEDULE INTEGRAL BILÍNGUE KINDER - TARDE - CJA SEGUNDA TERÇA QUARTA QUINTA SEXTA 07:30 - 8:15 ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO ACOLHIMENTO 08:15 - 09:00 RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA RODA DE CONVERSA 09:00 - 09:15 INTERVALO INTERVALO INTERVALO INTERVALO INTERVALO 09:15 - 10:00 INGLÊS INGLÊS PSICOMOTRICIDADE BIBLIOTECA MÚSICA 10:00 - 10:45 PARQUE PARQUE PARQUE PARQUE PARQUE 10:45 - 11:30 PSICOMOTRICIDADE ATIVIDADE ATIVIDADE ATIVIDADE ATIVIDADE 12h00 - 13h30 LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME LUNCH & RELAX TIME 13h30 - 14h20 PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! PLAN IT, TRY IT, CHECK IT! 14h20 - 15h10 ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES ACTIVITIES 15h10 - 15h45 PROJECTS: GARDENING AROUND THE WORLD PROJECTS: COOKING CLASS AROUND THE WORLD PROJECTS: STORYTELLING 15h45 - 16h10 SNACK SNACK SNACK SNACK SNACK 16h20 - 17h05 BODY MOVEMENT ARTS & CRAFT MUSIC & MOTION ARTS & CRAFT BODY MOVEMENT 17h05 - 17h50 FUN TIME FUN TIME FUN TIME FUN TIME FUN TIME: TOY DAY"
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — produtos desta escola",
+          "text": "Oferta por segmento: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 2, Regular, Regular Bilíngue, Integral Bilíngue para 6º e 7º anos e High School Prep para 8º e 9º anos. A continuidade para Ensino Médio/Dual Diploma deve ser apresentada conforme orientação oficial da unidade. Nomes oficiais: Regular, Regular Bilíngue, Semi-integral Bilíngue, Integral Bilíngue e High School Prep, conforme segmento e grade oficial."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — pitch rápido",
+          "text": "O Projeto Bilíngue 2027 amplia o inglês dentro da rotina escolar, com proposta mais completa que curso de idioma. O aluno usa inglês para aprender, investigar, criar projetos, desenvolver repertório cultural e se preparar para certificações internacionais, com apoio de materiais Cambridge e disciplinas em inglês conforme segmento."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Educação Infantil",
+          "text": "No Infantil do CJA, o Regular Bilíngue acontece no período regular; o Semi-integral amplia parte da rotina com experiências em inglês; e o Integral amplia ainda mais a vivência, com maior exposição ao inglês ao longo do dia. No Infantil, o inglês deve ser apresentado como vínculo, repertório, rotina e naturalidade com a língua desde cedo."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental I",
+          "text": "No Regular, o aluno tem aulas de inglês. No Regular Bilíngue, ele mantém a matriz curricular em português e passa a ter uma aula adicional diária em inglês, com Science, Math, Global Perspectives, PBL e Speaking Lab. O CJA também oferece Semi-integral e Integral Bilíngue para famílias que buscam mais permanência e exposição. O atendimento deve destacar vocabulário, raciocínio, comunicação, projetos e uso do inglês com propósito conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental II",
+          "text": "Porque a proposta de percurso muda no 8º e 9º ano. Para 6º e 7º, a ampliação acontece pelo Integral Bilíngue. Para 8º e 9º, a trilha robusta passa a ser o High School Prep, que conecta o aluno ao início da trajetória internacional."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — trajetória internacional",
+          "text": "É a modalidade para 8º e 9º ano que combina Regular Bilíngue com início da trajetória High School, em parceria com a The Keystone School. Ela prepara o aluno para o Dual Diploma no Ensino Médio."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — materiais e diferenciais",
+          "text": "No Infantil, Ready, Set, Grow!. No Fundamental 1, Kid’s Box e frentes em inglês como Science, Math, Global Perspectives, PBL e Speaking Lab. No Fundamental 2, Prepare!, Cambridge Global Perspectives e componentes da trilha High School Prep conforme grade da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção é só curso de inglês",
+          "text": "Não é só curso de inglês. Curso trabalha principalmente a língua; Projeto Bilíngue trabalha a língua dentro da experiência escolar. O aluno desenvolve pensamento científico, matemático, comunicativo e cultural em inglês, participa de projetos, amplia repertório e usa materiais internacionais Cambridge como apoio à progressão quando previstos na oferta."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção já faz inglês fora",
+          "text": "Se o aluno já faz inglês fora, isso é positivo. A diferença é que, no bilíngue da escola, o inglês aparece aplicado à rotina acadêmica: investigar, argumentar, fazer projetos, desenvolver fala e ampliar repertório."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção vai ficar pesado",
+          "text": "A proposta é progressiva e organizada por segmento. O aluno amplia contato com inglês conforme idade, rotina e modalidade escolhida. O objetivo é aumentar repertório, confiança e familiaridade com inglês dentro de rotina planejada."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — WhatsApp resposta pronta",
+          "text": "O Projeto Bilíngue 2027 amplia a vivência em inglês dentro da rotina escolar. Além das aulas de inglês, o aluno passa a ter experiências e/ou disciplinas em inglês, projetos e práticas de comunicação, conforme o segmento e a modalidade disponível nesta unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — fechamento e convencimento",
+          "text": "Para família que compara com curso de inglês: aqui o inglês é vivido dentro da escola, em projetos, disciplinas e situações reais de aprendizagem. Para família que pensa no futuro: fortalece repertório acadêmico, comunicação e preparação para certificações e trajetórias internacionais conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — cuidados",
+          "text": "Não prometer produto que não aparece na oferta oficial da escola ou série. Não reduzir o projeto a mais aulas de inglês. Não afirmar carga ou disciplinas sem conferir segmento e modalidade. Não prometer fluência automática."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — quando chamar Coordenação Bilíngue",
+          "text": "Chamar Coordenação Bilíngue para dúvidas pedagógicas específicas, adaptação, inclusão, dificuldade de aprendizagem, comparação detalhada com outra escola, dúvidas aprofundadas sobre Cambridge, exames, proficiência, High School ou Dual Diploma, e resistência forte da família."
         }
       ],
       "faq": [
@@ -6736,6 +6826,90 @@
           "level": "page",
           "title": "grade embare 2027 modelo padronizado v2 texto ajustado — página 21",
           "text": "SCHEDULE REGULAR Y8/Y9 - EMBARÉ MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 7:00 - 7:50 Direito e Cidadania Língua Inglesa Matemática História Geografia 7:50 - 8:40 Língua Portuguesa Ciências LIV Lab. de Ciências História 8:40 - 9:30 Matemática Ciências Língua Portuguesa Ed. Física Ed. Financeira 9:30 - 9:50 Break Break Break Break Break 9:50 - 10:40 Matemática Língua Inglesa Língua Portuguesa Artes História 10:40 - 11:30 Língua Portuguesa Língua Portuguesa Ciências Artes Geografia 11:30 - 12:20 Espanhol Geografia Matemática Produção Textual"
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — produtos desta escola",
+          "text": "Oferta por segmento: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Regular Bilíngue e Integral Bilíngue; no Fundamental 2, Regular, Regular Bilíngue e Integral Bilíngue, com High School integrado ao Integral Bilíngue nos anos finais conforme apresentação da unidade. Nomes oficiais: Regular, Regular Bilíngue, Semi-integral Bilíngue, Integral Bilíngue e High School integrado ao Integral Bilíngue, conforme segmento e grade oficial."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — pitch rápido",
+          "text": "O Projeto Bilíngue 2027 amplia o inglês dentro da rotina escolar, com proposta mais completa que curso de idioma. O aluno usa inglês para aprender, investigar, criar projetos, desenvolver repertório cultural e se preparar para certificações internacionais, com apoio de materiais Cambridge e disciplinas em inglês conforme segmento."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Educação Infantil",
+          "text": "No Infantil do Embaré, o Regular Bilíngue acontece no período regular; o Semi-integral amplia parte da rotina; e o Integral amplia ainda mais a vivência, com maior exposição e mais experiências em inglês ao longo do dia. No Infantil, o inglês deve ser apresentado como vínculo, repertório, rotina e naturalidade com a língua desde cedo."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental I",
+          "text": "No Regular, o aluno tem aulas de inglês. No Regular Bilíngue, além da matriz curricular em português, há aulas em inglês como Science, Math, Global Perspectives, PBL e Speaking Lab. O Integral Bilíngue amplia a rotina com Full Time e mais vivências em inglês. O atendimento deve destacar vocabulário, raciocínio, comunicação, projetos e uso do inglês com propósito conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental II",
+          "text": "No Embaré, o Integral Bilíngue é a modalidade robusta do Fundamental 2: para 6º e 7º amplia vivências em inglês; para 8º e 9º pode integrar a trajetória High School conforme a oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — trajetória internacional",
+          "text": "No Embaré, a lógica de preparação internacional aparece integrada ao Integral Bilíngue dos anos finais, com parceria The Keystone School conforme a apresentação oficial. A equipe deve evitar chamar de produto separado se a nomenclatura da unidade for Integral Bilíngue com High School integrado."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — materiais e diferenciais",
+          "text": "No Infantil, Ready, Set, Grow!. No Fundamental 1, Kid’s Box e frentes em inglês como Science, Math, Global Perspectives, PBL e Speaking Lab. No Fundamental 2, Prepare!, Cambridge Global Perspectives e componentes da trajetória High School quando integrada ao Integral Bilíngue."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção é só curso de inglês",
+          "text": "Não é só curso de inglês. Curso trabalha principalmente a língua; Projeto Bilíngue trabalha a língua dentro da experiência escolar. O aluno desenvolve pensamento científico, matemático, comunicativo e cultural em inglês, participa de projetos, amplia repertório e usa materiais internacionais Cambridge como apoio à progressão quando previstos na oferta."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção já faz inglês fora",
+          "text": "Se o aluno já faz inglês fora, isso é positivo. A diferença é que, no bilíngue da escola, o inglês aparece aplicado à rotina acadêmica: investigar, argumentar, fazer projetos, desenvolver fala e ampliar repertório."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção vai ficar pesado",
+          "text": "A proposta é progressiva e organizada por segmento. O aluno amplia contato com inglês conforme idade, rotina e modalidade escolhida. O objetivo é aumentar repertório, confiança e familiaridade com inglês dentro de rotina planejada."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — WhatsApp resposta pronta",
+          "text": "O Projeto Bilíngue 2027 amplia a vivência em inglês dentro da rotina escolar. Além das aulas de inglês, o aluno passa a ter experiências e/ou disciplinas em inglês, projetos e práticas de comunicação, conforme o segmento e a modalidade disponível nesta unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — fechamento e convencimento",
+          "text": "Para família que compara com curso de inglês: aqui o inglês é vivido dentro da escola, em projetos, disciplinas e situações reais de aprendizagem. Para família que pensa no futuro: fortalece repertório acadêmico, comunicação e preparação para certificações e trajetórias internacionais conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — cuidados",
+          "text": "Não prometer produto que não aparece na oferta oficial da escola ou série. Não reduzir o projeto a mais aulas de inglês. Não afirmar carga ou disciplinas sem conferir segmento e modalidade. Não prometer fluência automática."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — quando chamar Coordenação Bilíngue",
+          "text": "Chamar Coordenação Bilíngue para dúvidas pedagógicas específicas, adaptação, inclusão, dificuldade de aprendizagem, comparação detalhada com outra escola, dúvidas aprofundadas sobre Cambridge, exames, proficiência, High School ou Dual Diploma, e resistência forte da família."
         }
       ],
       "faq": [
@@ -9167,6 +9341,90 @@
           "level": "page",
           "title": "grade ponta da praia 2027 modelo padronizado v1 — página 21",
           "text": "SCHEDULE REGULAR Y8/Y9 - PONTA DA PRAIA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 7:00 - 7:50 Direito e Cidadania Língua Inglesa Matemática História Geografia 7:50 - 8:40 Língua Portuguesa Ciências LIV Lab. de Ciências História 8:40 - 9:30 Matemática Ciências Língua Portuguesa Ed. Física Ed. Financeira 9:30 - 9:50 Break Break Break Break Break 9:50 - 10:40 Matemática Língua Inglesa Língua Portuguesa Artes História 10:40 - 11:30 Língua Portuguesa Língua Portuguesa Ciências Artes Geografia 11:30 - 12:20 Espanhol Geografia Matemática Produção Textual"
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — produtos desta escola",
+          "text": "Oferta por segmento: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Regular Bilíngue e Integral Bilíngue; no Fundamental 2, Regular, Regular Bilíngue e Integral Bilíngue com High School integrado a partir do 8º ano; no Ensino Médio, Regular, English Class e High School Dual Diploma. Nomes oficiais: Regular, Regular Bilíngue, Semi-integral Bilíngue, Integral Bilíngue, English Class e High School Dual Diploma, conforme o segmento. No Fundamental 2, a equipe deve explicar o High School como integrado ao Integral Bilíngue quando essa for a nomenclatura da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — pitch rápido",
+          "text": "O Projeto Bilíngue 2027 amplia o inglês dentro da rotina escolar, com proposta mais completa que curso de idioma. O aluno usa inglês para aprender, investigar, criar projetos, desenvolver repertório cultural e se preparar para certificações internacionais, com apoio de materiais Cambridge e disciplinas em inglês conforme segmento."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Educação Infantil",
+          "text": "No Infantil da Ponta da Praia, o Regular Bilíngue acontece no período regular; o Semi-integral amplia parte da rotina; e o Integral amplia ainda mais a vivência com Full Time e mais momentos em inglês. No Infantil, o inglês deve ser apresentado como vínculo, repertório, rotina e naturalidade com a língua desde cedo."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental I",
+          "text": "No Regular, o aluno tem aulas de inglês. No Regular Bilíngue, além da matriz curricular em português, há aulas em inglês como Science, Math, Global Perspectives, PBL e Speaking Lab. O Integral Bilíngue amplia a rotina com Full Time e vivências em inglês. O atendimento deve destacar vocabulário, raciocínio, comunicação, projetos e uso do inglês com propósito conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental II",
+          "text": "Na Ponta da Praia, o Integral Bilíngue é a modalidade mais robusta do Fundamental 2 e, a partir do 8º ano, pode integrar a trajetória High School em parceria com The Keystone School."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — trajetória internacional",
+          "text": "Na Ponta da Praia, a preparação/início da trajetória High School aparece integrada ao Integral Bilíngue nos anos finais, em parceria com The Keystone School. A equipe deve apresentar essa trilha usando a nomenclatura oficial da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — materiais e diferenciais",
+          "text": "No Infantil, Ready, Set, Grow!. No Fundamental 1, Kid’s Box, Cambridge Primary Science e Cambridge Primary Mathematics. No Fundamental 2, Prepare!, Cambridge Global Perspectives e componentes da trilha High School integrada ao Integral Bilíngue. No Ensino Médio, English Class pode apoiar preparação Cambridge e o High School segue a parceria Keystone."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção é só curso de inglês",
+          "text": "Não é só curso de inglês. Curso trabalha principalmente a língua; Projeto Bilíngue trabalha a língua dentro da experiência escolar. O aluno desenvolve pensamento científico, matemático, comunicativo e cultural em inglês, participa de projetos, amplia repertório e usa materiais internacionais Cambridge como apoio à progressão quando previstos na oferta."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção já faz inglês fora",
+          "text": "Se o aluno já faz inglês fora, isso é positivo. A diferença é que, no bilíngue da escola, o inglês aparece aplicado à rotina acadêmica: investigar, argumentar, fazer projetos, desenvolver fala e ampliar repertório."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção vai ficar pesado",
+          "text": "A proposta é progressiva e organizada por segmento. O aluno amplia contato com inglês conforme idade, rotina e modalidade escolhida. O objetivo é aumentar repertório, confiança e familiaridade com inglês dentro de rotina planejada."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — WhatsApp resposta pronta",
+          "text": "O Projeto Bilíngue 2027 amplia a vivência em inglês dentro da rotina escolar. Além das aulas de inglês, o aluno passa a ter experiências e/ou disciplinas em inglês, projetos e práticas de comunicação, conforme o segmento e a modalidade disponível nesta unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — fechamento e convencimento",
+          "text": "Para família que compara com curso de inglês: aqui o inglês é vivido dentro da escola, em projetos, disciplinas e situações reais de aprendizagem. Para família que pensa no futuro: fortalece repertório acadêmico, comunicação e preparação para certificações e trajetórias internacionais conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — cuidados",
+          "text": "Não prometer produto que não aparece na oferta oficial da escola ou série. Não reduzir o projeto a mais aulas de inglês. Não afirmar carga ou disciplinas sem conferir segmento e modalidade. Não prometer fluência automática."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — quando chamar Coordenação Bilíngue",
+          "text": "Chamar Coordenação Bilíngue para dúvidas pedagógicas específicas, adaptação, inclusão, dificuldade de aprendizagem, comparação detalhada com outra escola, dúvidas aprofundadas sobre Cambridge, exames, proficiência, High School ou Dual Diploma, e resistência forte da família."
         }
       ],
       "faq": [
@@ -11640,6 +11898,90 @@
           "level": "snippet",
           "title": "High School — grade marupiara infantil f1 f2 copia fiel praia grande v5 ajustada",
           "text": "SCHEDULE HIGH SCHOOL PREP YEAR 9 - MARUPIARA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 07:00 MATEMÁTICA LÍNGUA ESPANHOLA GEOGRAFIA QUÍMICA EDUCAÇÃO FÍSICA 07:50 GRAMÁTICA HISTÓRIA LITERATURA /REDAÇÃO LÍNGUA INGLESA ARTES DO CORPO E MOV. 08:40 MATEMÁTICA HISTÓRIA LIBRAS EDUCAÇÃO FÍSICA ARTES PLÁSTICAS 09:30 BREAK BREAK BREAK BREAK BREAK 10:00 LÍNGUA ESPANHOLA LÍNGUA INGLESA RODA DE LEITURA MATEMÁTICA QUÍMICA 10:50 HISTÓRIA LÍNGUA INGLESA GRAMÁTICA MATEMÁTICA /LIV GEOGRAFIA 11:40 - 12:30 GLOBAL PERSPECTIVES HISTORY AND GEOGRAPHY STEAM SPEAKING LAB FINANCIAL LITERACY 12:30 - 13:20 LUNCH LUNCH LUNCH LUNCH LUNCH 13:20 - 14:10 HIGH SCHOOL HIGH SCHOOL HIGH SCHOOL HIGH SCHOOL HIGH SCHOOL 14:10 - 15:00 HIGH SCHOOL HIGH SCHOOL HIGH SCHOOL HIGH SCHOOL HIGH SCHOOL 15:00 - 15:30 RECESS RECESS RECESS RECESS RECESS 15:30 - 16:20 HIGH SCHOOL HIGH SCHOOL HIGH SCHOOL HIGH SCHOOL HIGH SCHOOL 16:20 - 17:10 HIGH SCHOOL HIGH SCHOOL HIGH SCHOOL HIGH SCHOOL HIGH SCHOOL 17:10 - 18H HIGH SCHOOL HIGH SCHOOL HIGH SCHOOL HIGH SCHOOL HIGH SCHOOL"
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — produtos desta escola",
+          "text": "Oferta por segmento: no Infantil, Regular Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Regular Bilíngue e Integral Bilíngue; no Fundamental 2, Regular, Regular Bilíngue, Integral Bilíngue para 6º e 7º anos e High School Prep para 8º e 9º anos; no Ensino Médio, Regular, English Class e High School Dual Diploma. Nomes oficiais: Regular, Regular Bilíngue, Integral Bilíngue, English Class, High School Prep e High School Dual Diploma, conforme o segmento. Como o Marupiara não tem Semi-integral no Infantil/F1 na oferta descrita, esse nome não deve ser usado como produto disponível."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — pitch rápido",
+          "text": "O Projeto Bilíngue 2027 amplia o inglês dentro da rotina escolar, com proposta mais completa que curso de idioma. O aluno usa inglês para aprender, investigar, criar projetos, desenvolver repertório cultural e se preparar para certificações internacionais, com apoio de materiais Cambridge e disciplinas em inglês conforme segmento."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Educação Infantil",
+          "text": "No Infantil do Marupiara, a diferença principal é entre Regular Bilíngue e Integral Bilíngue: o Regular Bilíngue acontece no período regular; o Integral amplia a permanência, a rotina e a quantidade de experiências em inglês ao longo do dia. No Infantil, o inglês deve ser apresentado como vínculo, repertório, rotina e naturalidade com a língua desde cedo."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental I",
+          "text": "No Regular, o aluno tem aulas de inglês. No Regular Bilíngue, ele mantém a matriz curricular em português e passa a ter uma aula adicional diária em inglês, com Science, Math, Global Perspectives, PBL e Speaking Lab. O Integral Bilíngue amplia permanência e vivências em inglês. O atendimento deve destacar vocabulário, raciocínio, comunicação, projetos e uso do inglês com propósito conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental II",
+          "text": "Porque a proposta de percurso muda no 8º e 9º ano. Para 6º e 7º, a ampliação acontece pelo Integral Bilíngue. Para 8º e 9º, a trilha robusta passa a ser o High School Prep, que conecta o aluno ao início da trajetória internacional."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — trajetória internacional",
+          "text": "É a modalidade para 8º e 9º ano que combina Regular Bilíngue com início da trajetória High School/Keystone. Ela conecta o aluno ao currículo norte-americano e prepara para o Dual Diploma no Ensino Médio."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — materiais e diferenciais",
+          "text": "No Infantil, Ready, Set, Grow!. No Fundamental 1, Kid’s Box, Cambridge Primary Science e Cambridge Primary Mathematics. No Fundamental 2, Prepare!, Cambridge Global Perspectives e componentes da trilha High School Prep. No Ensino Médio Regular, a apresentação oficial do Marupiara indica material Cambridge; English Class e High School complementam a trajetória."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção é só curso de inglês",
+          "text": "Não é só curso de inglês. Curso trabalha principalmente a língua; Projeto Bilíngue trabalha a língua dentro da experiência escolar. O aluno desenvolve pensamento científico, matemático, comunicativo e cultural em inglês, participa de projetos, amplia repertório e usa materiais internacionais Cambridge como apoio à progressão quando previstos na oferta."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção já faz inglês fora",
+          "text": "Se o aluno já faz inglês fora, isso é positivo. A diferença é que, no bilíngue da escola, o inglês aparece aplicado à rotina acadêmica: investigar, argumentar, fazer projetos, desenvolver fala e ampliar repertório."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção vai ficar pesado",
+          "text": "A proposta é progressiva e organizada por segmento. O aluno amplia contato com inglês conforme idade, rotina e modalidade escolhida. O objetivo é aumentar repertório, confiança e familiaridade com inglês dentro de rotina planejada."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — WhatsApp resposta pronta",
+          "text": "O Projeto Bilíngue 2027 amplia a vivência em inglês dentro da rotina escolar. Além das aulas de inglês, o aluno passa a ter experiências e/ou disciplinas em inglês, projetos e práticas de comunicação, conforme o segmento e a modalidade disponível nesta unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — fechamento e convencimento",
+          "text": "Para família que compara com curso de inglês: aqui o inglês é vivido dentro da escola, em projetos, disciplinas e situações reais de aprendizagem. Para família que pensa no futuro: fortalece repertório acadêmico, comunicação e preparação para certificações e trajetórias internacionais conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — cuidados",
+          "text": "Não prometer produto que não aparece na oferta oficial da escola ou série. Não reduzir o projeto a mais aulas de inglês. Não afirmar carga ou disciplinas sem conferir segmento e modalidade. Não prometer fluência automática."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — quando chamar Coordenação Bilíngue",
+          "text": "Chamar Coordenação Bilíngue para dúvidas pedagógicas específicas, adaptação, inclusão, dificuldade de aprendizagem, comparação detalhada com outra escola, dúvidas aprofundadas sobre Cambridge, exames, proficiência, High School ou Dual Diploma, e resistência forte da família."
         }
       ],
       "faq": [
@@ -13957,6 +14299,90 @@
           "level": "snippet",
           "title": "Regular Bilíngue — grade ccpa 2027 modelo padronizado v1",
           "text": "SCHEDULE INTEGRAL BILÍNGUE FUNDAMENTAL 2 - CCPA REGULAR BILÍNGUE + +CCPA MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 1º HORÁRIO PORTUGUÊS GEOMETRIA GEOGRAFIA MATEMÁTICA REDAÇÃO 2º HORÁRIO FILOSOFIA E SOCIOLOGIA ESPANHOL PORTUGUÊS CIÊNCIAS LIV 3º HORÁRIO HISTÓRIA GEOGRAFIA STEAM HISTÓRIA ENGLISH 4º HORÁRIO MATEMÁTICA ARTES EDUCAÇÃO FÍSICA CIÊNCIAS ENGLISH 5º HORÁRIO CIÊNCIAS GEOGRAFIA PORTUGUÊS MATEMÁTICA REDAÇÃO 6º HORÁRIO MATEMÁTICA HISTÓRIA ENGLISH REDAÇÃO ORIENTAÇÃO 7º HORÁRIO GLOBAL PERSPECTIVES HISTORY AND GEOGRAPHY STEAM FINANCIAL LITERACY SPEAKING LAB 13:30 - 14:30 LUNCH LUNCH LUNCH LUNCH LUNCH 14:30 - 16:00 HOMEWORK / STUDY HOMEWORK / STUDY HOMEWORK / STUDY HOMEWORK / STUDY HOMEWORK / STUDY 16:00 - 16:20 BREAK BREAK BREAK BREAK BREAK 16:00 - 16:20 POTENCIALIZAÇÃO DE DISCIPLINA POTENCIALIZAÇÃO DE DISCIPLINA POTENCIALIZAÇÃO DE DISCIPLINA POTENCIALIZAÇÃO DE DISCIPLINA POTENCIALIZAÇÃO DE DISCIPLINA"
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — produtos desta escola",
+          "text": "Oferta por segmento: no Infantil, Regular Bilíngue, Regular Bilíngue Estendido e Integral Bilíngue; no Fundamental 1, Regular, Regular Bilíngue e Integral Bilíngue; no Fundamental 2, Regular, Regular Bilíngue, Semi-integral Bilíngue, Integral Bilíngue e High School Dual Diploma a partir do 8º ano; no Ensino Médio, Regular, English Class e High School Dual Diploma. Nomes oficiais: Regular, Regular Bilíngue, Regular Bilíngue Estendido, Semi-integral Bilíngue, Integral Bilíngue, English Class e High School Dual Diploma, conforme o segmento. No CCPA, é importante respeitar a nomenclatura +CCPA/contraturno quando aparecer na documentação oficial."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — pitch rápido",
+          "text": "O Projeto Bilíngue 2027 amplia o inglês dentro da rotina escolar, com proposta mais completa que curso de idioma. O aluno usa inglês para aprender, investigar, criar projetos, desenvolver repertório cultural e se preparar para certificações internacionais, com apoio de materiais Cambridge e disciplinas em inglês conforme segmento."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Educação Infantil",
+          "text": "No Infantil do CCPA, o Regular Bilíngue acontece no período regular; o Regular Bilíngue Estendido acrescenta mais exposição diária ao inglês; e o Integral Bilíngue amplia a permanência com +CCPA/contraturno e English Tutoring integrado à rotina. No Infantil, o inglês deve ser apresentado como vínculo, repertório, rotina e naturalidade com a língua desde cedo."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental I",
+          "text": "No Regular, o aluno tem aulas de inglês. No Regular Bilíngue, ele mantém a matriz curricular em português e passa a ter uma aula adicional diária em inglês, com Science, Math, Global Perspectives, PBL e Speaking Lab. O Integral Bilíngue amplia permanência com +CCPA/contraturno. O atendimento deve destacar vocabulário, raciocínio, comunicação, projetos e uso do inglês com propósito conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental II",
+          "text": "No CCPA, o Fundamental 2 tem uma escada própria: Regular, Regular Bilíngue, Semi-integral Bilíngue, Integral Bilíngue e High School Dual Diploma a partir do 8º ano. A equipe deve explicar cada opção pela intensidade, pela rotina e pelo objetivo da família."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — trajetória internacional",
+          "text": "No CCPA, a oferta descrita para a trajetória internacional é High School Dual Diploma a partir do 8º ano, como programa extracurricular em parceria com The Keystone School. A equipe não deve trocar essa nomenclatura por High School Prep se a documentação oficial da unidade usar Dual Diploma."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — materiais e diferenciais",
+          "text": "No Infantil, Ready, Set, Grow!. No Fundamental 1, Kid’s Box, Cambridge Primary Science e Cambridge Primary Mathematics. No Fundamental 2, Prepare!, Cambridge Global Perspectives e Think conforme a frente. No Ensino Médio Regular, o material indicado é SAE; English Class pode apoiar preparação Cambridge."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção é só curso de inglês",
+          "text": "Não é só curso de inglês. Curso trabalha principalmente a língua; Projeto Bilíngue trabalha a língua dentro da experiência escolar. O aluno desenvolve pensamento científico, matemático, comunicativo e cultural em inglês, participa de projetos, amplia repertório e usa materiais internacionais Cambridge como apoio à progressão quando previstos na oferta."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção já faz inglês fora",
+          "text": "Se o aluno já faz inglês fora, isso é positivo. A diferença é que, no bilíngue da escola, o inglês aparece aplicado à rotina acadêmica: investigar, argumentar, fazer projetos, desenvolver fala e ampliar repertório."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção vai ficar pesado",
+          "text": "A proposta é progressiva e organizada por segmento. O aluno amplia contato com inglês conforme idade, rotina e modalidade escolhida. O objetivo é aumentar repertório, confiança e familiaridade com inglês dentro de rotina planejada."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — WhatsApp resposta pronta",
+          "text": "O Projeto Bilíngue 2027 amplia a vivência em inglês dentro da rotina escolar. Além das aulas de inglês, o aluno passa a ter experiências e/ou disciplinas em inglês, projetos e práticas de comunicação, conforme o segmento e a modalidade disponível nesta unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — fechamento e convencimento",
+          "text": "Para família que compara com curso de inglês: aqui o inglês é vivido dentro da escola, em projetos, disciplinas e situações reais de aprendizagem. Para família que pensa no futuro: fortalece repertório acadêmico, comunicação e preparação para certificações e trajetórias internacionais conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — cuidados",
+          "text": "Não prometer produto que não aparece na oferta oficial da escola ou série. Não reduzir o projeto a mais aulas de inglês. Não afirmar carga ou disciplinas sem conferir segmento e modalidade. Não prometer fluência automática."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — quando chamar Coordenação Bilíngue",
+          "text": "Chamar Coordenação Bilíngue para dúvidas pedagógicas específicas, adaptação, inclusão, dificuldade de aprendizagem, comparação detalhada com outra escola, dúvidas aprofundadas sobre Cambridge, exames, proficiência, High School ou Dual Diploma, e resistência forte da família."
         }
       ],
       "faq": [
@@ -16388,6 +16814,90 @@
           "level": "page",
           "title": "Grade Horária   Produtos Bilíngues 2027   GUARUJÁ — página 21",
           "text": "SCHEDULE REGULAR Y8-Y9 - GUARUJÁ MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 7:20 - 8:10 Direito e Cidadania Língua Inglesa Matemática História Geografia 8:10 - 9:00 Língua Portuguesa Ciências LIV Lab. de Ciências História 9:00 - 9:50 Matemática Ciências Língua Portuguesa Ed. Física Ed. Financeira 9:50 - 10:20 Break Break Break Break Break 10:20 - 11:10 Matemática Língua Inglesa Língua Portuguesa Artes História 11:10 - 12:00 Língua Portuguesa Língua Portuguesa Ciências Artes Geografia 12:00 - 12:50 Espanhol Geografia Matemática Produção Textual"
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — produtos desta escola",
+          "text": "Oferta por segmento: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Regular Bilíngue e Integral Bilíngue; no Fundamental 2, Regular, Regular Bilíngue, Integral Bilíngue para 6º e 7º anos e High School Prep para 8º e 9º anos; no Ensino Médio, Regular, English Class e High School Dual Diploma. Nomes oficiais: Regular, Regular Bilíngue, Semi-integral Bilíngue, Integral Bilíngue, English Class, High School Prep e High School Dual Diploma, conforme o segmento."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — pitch rápido",
+          "text": "O Projeto Bilíngue 2027 amplia o inglês dentro da rotina escolar, com proposta mais completa que curso de idioma. O aluno usa inglês para aprender, investigar, criar projetos, desenvolver repertório cultural e se preparar para certificações internacionais, com apoio de materiais Cambridge e disciplinas em inglês conforme segmento."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Educação Infantil",
+          "text": "No Infantil do Guarujá, o Regular Bilíngue acontece no período regular; o Semi-integral amplia parte da rotina; e o Integral amplia ainda mais a vivência, com maior exposição e mais experiências em inglês ao longo do dia. No Infantil, o inglês deve ser apresentado como vínculo, repertório, rotina e naturalidade com a língua desde cedo."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental I",
+          "text": "No Regular, o aluno tem aulas de inglês. No Regular Bilíngue, além da matriz curricular em português, há aulas em inglês como Science, Math, Global Perspectives, PBL e Speaking Lab. O Integral Bilíngue amplia a rotina com mais vivências em inglês. O atendimento deve destacar vocabulário, raciocínio, comunicação, projetos e uso do inglês com propósito conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental II",
+          "text": "Porque a proposta de percurso muda no 8º e 9º ano. Para 6º e 7º, a ampliação acontece pelo Integral Bilíngue. Para 8º e 9º, a trilha robusta passa a ser o High School Prep, que conecta o aluno ao início da trajetória internacional."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — trajetória internacional",
+          "text": "É a modalidade para 8º e 9º ano que combina Regular Bilíngue com High School, em parceria com The Keystone School, com currículo brasileiro e norte-americano cursados simultaneamente."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — materiais e diferenciais",
+          "text": "No Infantil, Ready, Set, Grow!. No Fundamental 1, Kid’s Box, Cambridge Primary Science e Cambridge Primary Mathematics. No Fundamental 2, Prepare!, Cambridge Global Perspectives e componentes da trilha High School Prep. No Ensino Médio Regular, o material indicado é Sistema Objetivo; English Class pode apoiar preparação Cambridge."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção é só curso de inglês",
+          "text": "Não é só curso de inglês. Curso trabalha principalmente a língua; Projeto Bilíngue trabalha a língua dentro da experiência escolar. O aluno desenvolve pensamento científico, matemático, comunicativo e cultural em inglês, participa de projetos, amplia repertório e usa materiais internacionais Cambridge como apoio à progressão quando previstos na oferta."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção já faz inglês fora",
+          "text": "Se o aluno já faz inglês fora, isso é positivo. A diferença é que, no bilíngue da escola, o inglês aparece aplicado à rotina acadêmica: investigar, argumentar, fazer projetos, desenvolver fala e ampliar repertório."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção vai ficar pesado",
+          "text": "A proposta é progressiva e organizada por segmento. O aluno amplia contato com inglês conforme idade, rotina e modalidade escolhida. O objetivo é aumentar repertório, confiança e familiaridade com inglês dentro de rotina planejada."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — WhatsApp resposta pronta",
+          "text": "O Projeto Bilíngue 2027 amplia a vivência em inglês dentro da rotina escolar. Além das aulas de inglês, o aluno passa a ter experiências e/ou disciplinas em inglês, projetos e práticas de comunicação, conforme o segmento e a modalidade disponível nesta unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — fechamento e convencimento",
+          "text": "Para família que compara com curso de inglês: aqui o inglês é vivido dentro da escola, em projetos, disciplinas e situações reais de aprendizagem. Para família que pensa no futuro: fortalece repertório acadêmico, comunicação e preparação para certificações e trajetórias internacionais conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — cuidados",
+          "text": "Não prometer produto que não aparece na oferta oficial da escola ou série. Não reduzir o projeto a mais aulas de inglês. Não afirmar carga ou disciplinas sem conferir segmento e modalidade. Não prometer fluência automática."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — quando chamar Coordenação Bilíngue",
+          "text": "Chamar Coordenação Bilíngue para dúvidas pedagógicas específicas, adaptação, inclusão, dificuldade de aprendizagem, comparação detalhada com outra escola, dúvidas aprofundadas sobre Cambridge, exames, proficiência, High School ou Dual Diploma, e resistência forte da família."
         }
       ],
       "faq": [
@@ -18621,6 +19131,90 @@
           "level": "snippet",
           "title": "High School — grade sao jose dos campos 2027 modelo padronizado v1",
           "text": "SCHEDULE HIGH SCHOOL DUAL DIPLOMA ENSINO MÉDIO - SÃO JOSÉ DOS CAMPOS REGULAR + HIGH SCHOOL MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 7h às 7h50 Língua Portuguesa Física / Prática de Investigação Científica Projeto de Vida Química / Aprof. Reação em Cadeia Química / Aprof. Reação em Cadeia 7h50 às 8h40 Projeto de Vida Engenharia do corpo humano / Física Investigando as Reações da Vida / Arte Geografia / Mundo Contemporâneo Biologia / Aprof. XY da vida 8h40 às 9h Break Break Break Break Break 9h às 9h50 Projeto de Vida Língua Portuguesa Física / Prática de Investigação Científica Matemática Química / Aprof. Reação em Cadeia 9h50 às 10h40 Arte / Ateliê da Vida Língua Portuguesa Sociologia Educação Física Aprof. Causos da História 10h40 às 11h30 Língua Portuguesa História Filosofia Matemática Língua Portuguesa 11h30 às 11h50 Break Break Break Break Break 11h50 às 12h40 Matemática English English Matemática English 12h40 às 13h30 Matemática Língua Portuguesa Investigando as Reações da Vida / Arte Geografia / Mundo Contemporâneo Física / Prática de Investigação Científica 13h30 às 14h30 Lunch Lunch"
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — produtos desta escola",
+          "text": "Oferta por segmento: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Integral Bilíngue e English Class; no Fundamental 2, Regular, Integral Bilíngue, English Class e High School Dual Diploma a partir do 8º ano; no Ensino Médio, Regular, English Class e High School Dual Diploma. Nomes oficiais: Regular, Regular Bilíngue no Infantil, Semi-integral Bilíngue no Infantil, Integral Bilíngue, English Class e High School Dual Diploma, conforme o segmento. No Fundamental, não se deve prometer Regular Bilíngue se a oferta oficial da unidade for Regular, Integral Bilíngue e English Class."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — pitch rápido",
+          "text": "O Projeto Bilíngue 2027 amplia o inglês dentro da rotina escolar, com proposta mais completa que curso de idioma. O aluno usa inglês para aprender, investigar, criar projetos, desenvolver repertório cultural e se preparar para certificações internacionais, com apoio de materiais Cambridge e disciplinas em inglês conforme segmento."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Educação Infantil",
+          "text": "No Infantil do SJC, o Regular Bilíngue acontece na rotina regular; o Semi-integral amplia metade do Full Time; e o Integral Bilíngue amplia para Full Time, com mais permanência e mais exposição ao inglês. No Infantil, o inglês deve ser apresentado como vínculo, repertório, rotina e naturalidade com a língua desde cedo."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental I",
+          "text": "No Fundamental 1 do SJC, não se deve apresentar Regular Bilíngue como produto disponível se ele não constar na oferta oficial. O Regular mantém a matriz em português com inglês Cambridge Kid’s Box; o Integral Bilíngue amplia a permanência com Full Time e vivências em inglês; e o English Class intensifica fluência e preparação Cambridge como curso extracurricular. O atendimento deve destacar vocabulário, raciocínio, comunicação, projetos e uso do inglês com propósito conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental II",
+          "text": "No Fundamental 2 do SJC, o Regular mantém aulas DE inglês com Prepare!. O Integral Bilíngue amplia a exposição no Full Time com experiências práticas e projetos. O English Class intensifica proficiência e preparação Cambridge. A partir do 8º ano, o High School Dual Diploma inicia uma trajetória internacional com The Keystone School."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — trajetória internacional",
+          "text": "No SJC, a nomenclatura segura é High School Dual Diploma a partir do 8º ano, em parceria com The Keystone School. Não se deve apresentar High School Prep como produto separado se esse nome não estiver na documentação oficial da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — materiais e diferenciais",
+          "text": "No Infantil, Ready, Set, Grow! a partir do G3. No Fundamental 1, Kid’s Box no Regular, além das experiências do Integral Bilíngue/Full Time e English Class. No Fundamental 2, Prepare!, experiências do Integral Bilíngue/Full Time, English Class e High School Dual Diploma. No Ensino Médio Regular, o material indicado é Sistema Objetivo."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção é só curso de inglês",
+          "text": "Não é só curso de inglês. Curso trabalha principalmente a língua; Projeto Bilíngue trabalha a língua dentro da experiência escolar. O aluno desenvolve pensamento científico, matemático, comunicativo e cultural em inglês, participa de projetos, amplia repertório e usa materiais internacionais Cambridge como apoio à progressão quando previstos na oferta."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção já faz inglês fora",
+          "text": "Se o aluno já faz inglês fora, isso é positivo. A diferença é que, no bilíngue da escola, o inglês aparece aplicado à rotina acadêmica: investigar, argumentar, fazer projetos, desenvolver fala e ampliar repertório."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção vai ficar pesado",
+          "text": "A proposta é progressiva e organizada por segmento. O aluno amplia contato com inglês conforme idade, rotina e modalidade escolhida. O objetivo é aumentar repertório, confiança e familiaridade com inglês dentro de rotina planejada."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — WhatsApp resposta pronta",
+          "text": "O Projeto Bilíngue 2027 amplia a vivência em inglês dentro da rotina escolar. Além das aulas de inglês, o aluno passa a ter experiências e/ou disciplinas em inglês, projetos e práticas de comunicação, conforme o segmento e a modalidade disponível nesta unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — fechamento e convencimento",
+          "text": "Para família que compara com curso de inglês: aqui o inglês é vivido dentro da escola, em projetos, disciplinas e situações reais de aprendizagem. Para família que pensa no futuro: fortalece repertório acadêmico, comunicação e preparação para certificações e trajetórias internacionais conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — cuidados",
+          "text": "Não prometer produto que não aparece na oferta oficial da escola ou série. Não reduzir o projeto a mais aulas de inglês. Não afirmar carga ou disciplinas sem conferir segmento e modalidade. Não prometer fluência automática."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — quando chamar Coordenação Bilíngue",
+          "text": "Chamar Coordenação Bilíngue para dúvidas pedagógicas específicas, adaptação, inclusão, dificuldade de aprendizagem, comparação detalhada com outra escola, dúvidas aprofundadas sobre Cambridge, exames, proficiência, High School ou Dual Diploma, e resistência forte da família."
         }
       ],
       "faq": [
@@ -21403,6 +21997,90 @@
           "level": "snippet",
           "title": "English Class — HORÁRIOS   FUND II   SÃO VICENTE",
           "text": "SCHEDULE REGULAR + ENGLISH CLASS 7:00 - 7:50 7:50 - 8:40 8:40 - 9:30 9:30 - 10:00 10:00 - 10:50 11:40 - 12:30 ENGLISH MATEMÁTICA ENGLISH RECESS LÍNGUA PORTUGUESA LÍNGUA PORTUGUESA GEOGRAFIA MATEMÁTICA RECESS ARTES LIIV GEOGRAFIA LÍNGUA PORTUGUESA RECESS HISTÓRIA LÍNGUA PORTUGUESA HISTÓRIA MATEMÁTICA RECESS ED. FÍSICA CIÊNCIAS ENGLISH CIÊNCIAS RECESS LÍNGUA PORTUGUESA LÍNGUA PORTUGUESA 10:50 - 11:40 MATEMÁTICA MATEMÁTICA ARTES CIÊNCIAS LAB/ CIÊNCIAS MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY GEOGRAFIA HISTÓRIA MATEMÁTICA CIÊNCIAS 9° ANO - SÃO VICENTE 12:50 - 13:40 LUNCH LUNCH LUNCH LUNCH LUNCH 13:40 - 14:30 ENGLISH CLASS - POWER UP ENGLISH CLASS - POWER UP ENGLISH CLASS - POWER UP ENGLISH CLASS - POWER UP ENGLISH CLASS - POWER UP"
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — produtos desta escola",
+          "text": "Oferta por segmento: no Infantil, Regular, Integral Bilíngue e English Class; no Fundamental 1, Regular, Integral Bilíngue e English Class; no Fundamental 2, Regular, Semi-integral Bilíngue e English Class. A unidade não deve ser apresentada com Regular Bilíngue, High School Prep ou High School Dual Diploma se esses produtos não constarem na oferta oficial. Nomes oficiais: Regular, Integral Bilíngue, Semi-integral Bilíngue no Fundamental 2 e English Class, conforme o segmento. Em São Vicente, é essencial não prometer Regular Bilíngue, High School Prep ou High School Dual Diploma quando não constarem na oferta oficial."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — pitch rápido",
+          "text": "O Projeto Bilíngue 2027 amplia o inglês dentro da rotina escolar, com proposta mais completa que curso de idioma. O aluno usa inglês para aprender, investigar, criar projetos, desenvolver repertório cultural e se preparar para certificações internacionais, com apoio de materiais Cambridge e disciplinas em inglês conforme segmento."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Educação Infantil",
+          "text": "No Infantil de São Vicente, a comparação segura é entre Regular, Integral Bilíngue e English Class: o Regular oferece inglês com Ready, Set, Grow!; o Integral amplia a rotina com mais vivências em inglês; e o English Class intensifica contato, comunicação e preparação futura para certificações. No Infantil, o inglês deve ser apresentado como vínculo, repertório, rotina e naturalidade com a língua desde cedo."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental I",
+          "text": "No Fundamental 1 de São Vicente, não se deve apresentar Regular Bilíngue como produto disponível se ele não constar na oferta oficial. O Regular trabalha inglês com Kid’s Box; o Integral Bilíngue amplia a permanência com Full Time e vivências em inglês; e o English Class intensifica comunicação, projetos e preparação Cambridge. O atendimento deve destacar vocabulário, raciocínio, comunicação, projetos e uso do inglês com propósito conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — Fundamental II",
+          "text": "No Fundamental 2 de São Vicente, o Regular usa Prepare! nas aulas DE inglês. O Semi-integral Bilíngue amplia a carga em inglês com English Class/Power Up e frentes como Humanities, STEAM e Practical Math. O English Class intensifica comunicação, projetos e preparação Cambridge."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — trajetória internacional",
+          "text": "São Vicente não deve apresentar High School Prep como produto disponível se ele não constar na oferta oficial. Dúvidas sobre trajetória internacional devem ser encaminhadas à coordenação/liderança antes de qualquer promessa à família."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — materiais e diferenciais",
+          "text": "No Infantil, Ready, Set, Grow!. No Fundamental 1, Kid’s Box. No Fundamental 2, Prepare! e Power Up/English Class conforme a frente. O manual consultado não indica High School Prep ou High School Dual Diploma como oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção é só curso de inglês",
+          "text": "Não é só curso de inglês. Curso trabalha principalmente a língua; Projeto Bilíngue trabalha a língua dentro da experiência escolar. O aluno desenvolve pensamento científico, matemático, comunicativo e cultural em inglês, participa de projetos, amplia repertório e usa materiais internacionais Cambridge como apoio à progressão quando previstos na oferta."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção já faz inglês fora",
+          "text": "Se o aluno já faz inglês fora, isso é positivo. A diferença é que, no bilíngue da escola, o inglês aparece aplicado à rotina acadêmica: investigar, argumentar, fazer projetos, desenvolver fala e ampliar repertório."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — objeção vai ficar pesado",
+          "text": "A proposta é progressiva e organizada por segmento. O aluno amplia contato com inglês conforme idade, rotina e modalidade escolhida. O objetivo é aumentar repertório, confiança e familiaridade com inglês dentro de rotina planejada."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — WhatsApp resposta pronta",
+          "text": "O Projeto Bilíngue 2027 amplia a vivência em inglês dentro da rotina escolar. Além das aulas de inglês, o aluno passa a ter experiências e/ou disciplinas em inglês, projetos e práticas de comunicação, conforme o segmento e a modalidade disponível nesta unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — fechamento e convencimento",
+          "text": "Para família que compara com curso de inglês: aqui o inglês é vivido dentro da escola, em projetos, disciplinas e situações reais de aprendizagem. Para família que pensa no futuro: fortalece repertório acadêmico, comunicação e preparação para certificações e trajetórias internacionais conforme oferta da unidade."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — cuidados",
+          "text": "Não prometer produto que não aparece na oferta oficial da escola ou série. Não reduzir o projeto a mais aulas de inglês. Não afirmar carga ou disciplinas sem conferir segmento e modalidade. Não prometer fluência automática."
+        },
+        {
+          "source": "Modo Atendimento",
+          "level": "h3",
+          "title": "Modo Atendimento — quando chamar Coordenação Bilíngue",
+          "text": "Chamar Coordenação Bilíngue para dúvidas pedagógicas específicas, adaptação, inclusão, dificuldade de aprendizagem, comparação detalhada com outra escola, dúvidas aprofundadas sobre Cambridge, exames, proficiência, High School ou Dual Diploma, e resistência forte da família."
         }
       ],
       "faq": [
