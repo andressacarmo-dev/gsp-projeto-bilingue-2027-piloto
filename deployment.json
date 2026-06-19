@@ -1,0 +1,14 @@
+{
+  "owner": "andressacarmo-dev",
+  "repo": "gsp-projeto-bilingue-2027-piloto",
+  "repo_url": "https://github.com/andressacarmo-dev/gsp-projeto-bilingue-2027-piloto",
+  "public_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/",
+  "source_dir": "/data/.openclaw/workspace/projects/projeto-bilingue-2027/sites/portal-gsp-bilingue",
+  "files": [
+    "index.html",
+    "data.json",
+    "README.md",
+    ".nojekyll"
+  ],
+  "published_at_utc": "2026-06-19T14:29:36Z"
+}
