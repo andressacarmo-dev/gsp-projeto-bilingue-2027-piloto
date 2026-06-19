@@ -1,2 +1,5 @@
-# gsp-projeto-bilingue-2027-piloto
-Piloto interno do Portal Projeto Bilíngue 2027 — GSP (Praia Grande)
+# Portal Projeto Bilíngue 2027 — GSP
+
+Piloto interativo multi-escolas. Praia Grande ativa.
+
+Material interno de apoio às equipes — não compartilhar externamente.
