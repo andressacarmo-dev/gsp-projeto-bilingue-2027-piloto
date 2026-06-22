@@ -2156,7 +2156,17 @@
       "summary": "Central de consulta para a equipe do CJA sobre produtos, Q&A e grades horárias do Projeto Bilíngue 2027.",
       "materials": [
         {
-          "label": "Manual comercial-pedagógico robusto — atualizado após revisão da grade",
+          "label": "Manual comercial-pedagógico — versão navegável",
+          "url": "cja-manual.html",
+          "type": "html"
+        },
+        {
+          "label": "Grades horárias — visual por segmento",
+          "url": "cja-grades.html",
+          "type": "html"
+        },
+        {
+          "label": "Manual comercial-pedagógico robusto — PDF oficial",
           "url": "https://drive.google.com/file/d/1lvboNjfKo-0tLkhA5mbjJi5WgTww-Hg8/view?usp=drivesdk",
           "type": "manual"
         },
@@ -2171,7 +2181,7 @@
           "type": "qa"
         },
         {
-          "label": "Grade horária corrigida — CJA",
+          "label": "Grade horária corrigida — PDF oficial",
           "url": "https://drive.google.com/file/d/13a4HLnilhVIjOb2SxRn8VjMSxGj4qTN5/view?usp=drivesdk",
           "type": "grade"
         },
