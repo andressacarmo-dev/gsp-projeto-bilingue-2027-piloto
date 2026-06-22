@@ -2156,11 +2156,6 @@
       "summary": "Central de consulta para a equipe do CJA sobre produtos, Q&A e grades horárias do Projeto Bilíngue 2027.",
       "materials": [
         {
-          "label": "CJA em HTML — piloto de navegação",
-          "url": "cja-html.html",
-          "type": "html"
-        },
-        {
           "label": "Manual comercial-pedagógico robusto — atualizado após revisão da grade",
           "url": "https://drive.google.com/file/d/1lvboNjfKo-0tLkhA5mbjJi5WgTww-Hg8/view?usp=drivesdk",
           "type": "manual"
