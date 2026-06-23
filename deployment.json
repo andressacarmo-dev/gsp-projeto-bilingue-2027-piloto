@@ -303,7 +303,7 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T18:06:23Z",
-  "note": "Atualizado Marupiara com PDF completo de 33 páginas, incluindo Fundamental II Year 6 ao Year 9.",
+  "published_at_utc": "2026-06-23T18:13:49Z",
+  "note": "Republish para reacionar GitHub Pages após deploy travado do Marupiara completo.",
   "counter_endpoint": "https://gsp-portal-counter.andressa-carmo.workers.dev"
 }
