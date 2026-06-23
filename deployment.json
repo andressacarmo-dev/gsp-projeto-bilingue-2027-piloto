@@ -89,15 +89,17 @@
     "guaruja-grades.html",
     "guaruja-manual.html",
     "index.html",
+    "marupiara-grades.html",
     "marupiara-manual.html",
     "ponta-da-praia-grades.html",
     "ponta-da-praia-manual.html",
+    "praia-grande-grades.html",
     "praia-grande-manual.html",
     "sao-jose-dos-campos-grades.html",
     "sao-jose-dos-campos-manual.html",
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T11:43:26Z",
-  "note": "Portal atualizado para padronizar todas as escolas no formato navegável do CJA."
+  "published_at_utc": "2026-06-23T12:11:09Z",
+  "note": "Portal atualizado para incluir grades navegáveis de Praia Grande e Marupiara, além das demais unidades."
 }
