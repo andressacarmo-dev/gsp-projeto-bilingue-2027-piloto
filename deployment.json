@@ -290,6 +290,6 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T12:49:02Z",
-  "note": "UX clean-up: remove cabeçalhos dos cards de imagem das grades, reduzir textos e corrigir altura dos iframes sem espaços brancos."
+  "published_at_utc": "2026-06-23T12:52:26Z",
+  "note": "Ajuste fino de UX: iframe usa body.scrollHeight para remover sobras brancas abaixo das seções."
 }
