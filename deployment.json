@@ -291,6 +291,6 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T15:53:34Z",
-  "note": "Ajustado marcador pendente do contador embutido para manter o mesmo tamanho visual da frase principal."
+  "published_at_utc": "2026-06-23T15:55:32Z",
+  "note": "Republish para acionar GitHub Pages após ajuste visual do contador embutido."
 }
