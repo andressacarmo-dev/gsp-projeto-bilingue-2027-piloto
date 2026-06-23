@@ -290,6 +290,6 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T13:22:10Z",
-  "note": "Reposicionado o bloco Escolha por onde começar logo abaixo do Modo Atendimento e convertido em quatro cards equilibrados."
+  "published_at_utc": "2026-06-23T13:25:32Z",
+  "note": "Compactados os quatro cards de início para reduzir altura em telas médias."
 }
