@@ -263,6 +263,7 @@
     "assets/sao-vicente-grades/sao-vicente-grade-p37.jpg",
     "assets/sao-vicente-grades/sao-vicente-grade-p38.jpg",
     "auditoria-grades-miniaturas-2026-06-23.md",
+    "auditoria-padronizacao-praia-grande-base-2026-06-23.md",
     "cambridge-educational-partner.html",
     "cambridge-prep-centre.html",
     "ccpa-grades.html",
@@ -290,6 +291,6 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T14:04:04Z",
-  "note": "Bump de versão dos iframes após auditoria para garantir CJA padronizado contra Praia Grande sem cache antigo."
+  "published_at_utc": "2026-06-23T15:40:11Z",
+  "note": "Adicionado bloco estético no rodapé da página inicial para contador real de acessos, sem número fictício e pronto para endpoint futuro."
 }
