@@ -291,7 +291,7 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T17:52:11Z",
-  "note": "Corrigida segmentação de grades em Ponta da Praia, Guarujá, Marupiara e São José dos Campos.",
+  "published_at_utc": "2026-06-23T17:55:58Z",
+  "note": "Bump de versão dos iframes após correção de segmentação para limpar cache de Marupiara e São José dos Campos.",
   "counter_endpoint": "https://gsp-portal-counter.andressa-carmo.workers.dev"
 }
