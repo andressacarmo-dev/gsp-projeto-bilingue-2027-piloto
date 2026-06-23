@@ -291,7 +291,7 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T17:41:52Z",
-  "note": "Corrigida organização das grades do Embaré: Fundamental I explícito Year 1-5 / 1º-5º ano e Fundamental II Year 6-9 / 6º-9º ano com subdivisões Y6/Y7 e Y8/Y9.",
+  "published_at_utc": "2026-06-23T17:52:11Z",
+  "note": "Corrigida segmentação de grades em Ponta da Praia, Guarujá, Marupiara e São José dos Campos.",
   "counter_endpoint": "https://gsp-portal-counter.andressa-carmo.workers.dev"
 }
