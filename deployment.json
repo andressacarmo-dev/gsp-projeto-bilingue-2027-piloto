@@ -303,7 +303,7 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T18:30:42Z",
-  "note": "Ajuste final do contador: frase principal em uma linha no desktop, com quebra responsiva abaixo de 1100px.",
+  "published_at_utc": "2026-06-23T20:29:17Z",
+  "note": "Corrigidos blocos tabulares dos manuais navegáveis para tabelas responsivas e leitura comercial fluida.",
   "counter_endpoint": "https://gsp-portal-counter.andressa-carmo.workers.dev"
 }
