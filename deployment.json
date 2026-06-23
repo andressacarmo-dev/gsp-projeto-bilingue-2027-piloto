@@ -303,7 +303,7 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T18:23:35Z",
-  "note": "Ajustada frase do contador: removido rótulo, contador compacto e palavra vezes ao lado do número.",
+  "published_at_utc": "2026-06-23T18:28:11Z",
+  "note": "Ajuste fino do contador: número e palavra vezes no mesmo peso visual da frase.",
   "counter_endpoint": "https://gsp-portal-counter.andressa-carmo.workers.dev"
 }
