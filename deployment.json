@@ -303,7 +303,7 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T18:13:49Z",
-  "note": "Republish para reacionar GitHub Pages após deploy travado do Marupiara completo.",
+  "published_at_utc": "2026-06-23T18:23:35Z",
+  "note": "Ajustada frase do contador: removido rótulo, contador compacto e palavra vezes ao lado do número.",
   "counter_endpoint": "https://gsp-portal-counter.andressa-carmo.workers.dev"
 }
