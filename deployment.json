@@ -291,6 +291,6 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T15:40:11Z",
-  "note": "Adicionado bloco estético no rodapé da página inicial para contador real de acessos, sem número fictício e pronto para endpoint futuro."
+  "published_at_utc": "2026-06-23T15:43:21Z",
+  "note": "Corrigida inserção do bloco HTML do rodapé com contador de acessos preparado para endpoint real."
 }
