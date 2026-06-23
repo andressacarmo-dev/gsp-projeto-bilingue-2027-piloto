@@ -143,6 +143,18 @@
     "assets/marupiara-grades/marupiara-grade-p19.jpg",
     "assets/marupiara-grades/marupiara-grade-p20.jpg",
     "assets/marupiara-grades/marupiara-grade-p21.jpg",
+    "assets/marupiara-grades/marupiara-grade-p22.jpg",
+    "assets/marupiara-grades/marupiara-grade-p23.jpg",
+    "assets/marupiara-grades/marupiara-grade-p24.jpg",
+    "assets/marupiara-grades/marupiara-grade-p25.jpg",
+    "assets/marupiara-grades/marupiara-grade-p26.jpg",
+    "assets/marupiara-grades/marupiara-grade-p27.jpg",
+    "assets/marupiara-grades/marupiara-grade-p28.jpg",
+    "assets/marupiara-grades/marupiara-grade-p29.jpg",
+    "assets/marupiara-grades/marupiara-grade-p30.jpg",
+    "assets/marupiara-grades/marupiara-grade-p31.jpg",
+    "assets/marupiara-grades/marupiara-grade-p32.jpg",
+    "assets/marupiara-grades/marupiara-grade-p33.jpg",
     "assets/modo-atendimento-secretaria-headset.png",
     "assets/ponta-da-praia-grades/ponta-da-praia-grade-p01.jpg",
     "assets/ponta-da-praia-grades/ponta-da-praia-grade-p02.jpg",
@@ -291,7 +303,7 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T17:55:58Z",
-  "note": "Bump de versão dos iframes após correção de segmentação para limpar cache de Marupiara e São José dos Campos.",
+  "published_at_utc": "2026-06-23T18:06:23Z",
+  "note": "Atualizado Marupiara com PDF completo de 33 páginas, incluindo Fundamental II Year 6 ao Year 9.",
   "counter_endpoint": "https://gsp-portal-counter.andressa-carmo.workers.dev"
 }
