@@ -290,6 +290,6 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T13:56:05Z",
-  "note": "Auditoria de padronização: CJA ajustado de Produtos do CJA para Produtos da escola, seguindo Praia Grande como base."
+  "published_at_utc": "2026-06-23T14:04:04Z",
+  "note": "Bump de versão dos iframes após auditoria para garantir CJA padronizado contra Praia Grande sem cache antigo."
 }
