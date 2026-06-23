@@ -291,6 +291,6 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T15:49:54Z",
-  "note": "Ajustada frase do bloco de acessos: contador embutido em “Este portal já apoiou as escolas GSP ... vezes” e frase acolhedora como subtítulo."
+  "published_at_utc": "2026-06-23T15:53:34Z",
+  "note": "Ajustado marcador pendente do contador embutido para manter o mesmo tamanho visual da frase principal."
 }
