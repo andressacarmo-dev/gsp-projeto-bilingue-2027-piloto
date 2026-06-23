@@ -289,6 +289,6 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T12:23:12Z",
-  "note": "Grades horárias das escolas padronizadas no mesmo formato visual do CJA, com miniaturas das páginas."
+  "published_at_utc": "2026-06-23T12:36:38Z",
+  "note": "Auditoria e limpeza visual das grades: miniaturas por escola, iframe com resize robusto, títulos mais clean."
 }
