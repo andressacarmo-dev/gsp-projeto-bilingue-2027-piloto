@@ -303,7 +303,7 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T20:29:17Z",
-  "note": "Corrigidos blocos tabulares dos manuais navegáveis para tabelas responsivas e leitura comercial fluida.",
+  "published_at_utc": "2026-06-23T20:43:08Z",
+  "note": "Correção manual dos últimos blocos tabulares em Guarujá e São José dos Campos.",
   "counter_endpoint": "https://gsp-portal-counter.andressa-carmo.workers.dev"
 }
