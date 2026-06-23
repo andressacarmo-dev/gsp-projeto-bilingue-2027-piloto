@@ -303,7 +303,7 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T18:28:11Z",
-  "note": "Ajuste fino do contador: número e palavra vezes no mesmo peso visual da frase.",
+  "published_at_utc": "2026-06-23T18:30:42Z",
+  "note": "Ajuste final do contador: frase principal em uma linha no desktop, com quebra responsiva abaixo de 1100px.",
   "counter_endpoint": "https://gsp-portal-counter.andressa-carmo.workers.dev"
 }
