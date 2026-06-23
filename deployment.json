@@ -303,7 +303,7 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T20:43:08Z",
-  "note": "Correção manual dos últimos blocos tabulares em Guarujá e São José dos Campos.",
+  "published_at_utc": "2026-06-23T20:49:11Z",
+  "note": "Confirmação das grades do Fundamental II do Marupiara no portal; cache atualizado a partir do link enviado por Andressa.",
   "counter_endpoint": "https://gsp-portal-counter.andressa-carmo.workers.dev"
 }
