@@ -303,7 +303,9 @@
     "sao-vicente-grades.html",
     "sao-vicente-manual.html"
   ],
-  "published_at_utc": "2026-06-23T20:49:11Z",
+  "published_at_utc": "2026-06-24T16:21:22Z",
   "note": "Confirmação das grades do Fundamental II do Marupiara no portal; cache atualizado a partir do link enviado por Andressa.",
-  "counter_endpoint": "https://gsp-portal-counter.andressa-carmo.workers.dev"
+  "counter_endpoint": "https://gsp-portal-counter.andressa-carmo.workers.dev",
+  "last_embare_grade_update_trigger": "2026-06-24T16:12:00Z",
+  "last_embare_grade_update_version": "20260624-embare-grades-atualizadas-v2"
 }
