@@ -1,0 +1,15 @@
+schools=14 ids=['praia-grande', 'cja', 'embare', 'ponta-da-praia', 'marupiara', 'ccpa', 'guaruja', 'sao-jose-dos-campos', 'sao-vicente', 'santa-felicidade', 'barigui', 'ecoville', 'anjinho', 'champagnat']
+praia-grande | Praia Grande | materials=7 content=221 faq=151 | OK
+cja | CJA | materials=7 content=336 faq=151 | OK
+embare | Embaré | materials=5 content=268 faq=151 | OK
+ponta-da-praia | Ponta da Praia | materials=5 content=268 faq=151 | OK
+marupiara | Marupiara | materials=5 content=219 faq=151 | OK
+ccpa | CCPA | materials=5 content=249 faq=151 | OK
+guaruja | Guarujá | materials=5 content=264 faq=152 | OK
+sao-jose-dos-campos | São José dos Campos | materials=5 content=235 faq=151 | OK
+sao-vicente | São Vicente | materials=8 content=260 faq=151 | OK
+santa-felicidade | Santa Felicidade | materials=5 content=372 faq=33 | FAIL santa-felicidade-manual.html status 404; santa-felicidade-grades.html status 404
+barigui | Barigui | materials=5 content=495 faq=40 | FAIL barigui-manual.html status 404; barigui-grades.html status 404
+ecoville | Ecoville | materials=5 content=523 faq=42 | FAIL ecoville-manual.html status 404; ecoville-grades.html status 404
+anjinho | Anjinho | materials=5 content=300 faq=31 | FAIL anjinho-manual.html status 404; anjinho-grades.html status 404
+champagnat | Champagnat | materials=5 content=350 faq=32 | FAIL champagnat-manual.html status 404; champagnat-grades.html status 404
