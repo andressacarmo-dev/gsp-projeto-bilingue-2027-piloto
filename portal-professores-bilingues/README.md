@@ -23,3 +23,6 @@ Criar uma experiência navegável, gratuita e acessível para concentrar a rubri
 ## Status
 
 MVP estrutural criado para revisão de arquitetura e identidade visual.
+
+
+<!-- rebuild: 2026-07-01T13:26:29Z -->
