@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portal dos Professores Bilíngues · GSP</title>
+  <meta name="description" content="Rubrica pedagógica, planejamento, avaliação e evidências de aprendizagem para professores bilíngues da GSP." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="hero" id="inicio">
+    <nav class="topbar" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="Início do Portal dos Professores Bilíngues">
+        <span class="brand-mark">UK</span>
+        <span><strong>GSP</strong> Teacher Portal</span>
+      </a>
+      <div class="nav-links">
+        <a href="#rubrica">Rubrica</a>
+        <a href="#segmentos">Segmentos</a>
+        <a href="#avaliacao">Avaliação</a>
+        <a href="#relatorios">Relatórios</a>
+      </div>
+    </nav>
+
+    <div class="hero-grid">
+      <section class="hero-copy">
+        <p class="eyebrow">Projeto Bilíngue 2027 · uso interno GSP</p>
+        <h1 id="portal-title">Portal dos Professores Bilíngues</h1>
+        <p class="lead" id="portal-subtitle">Rubrica pedagógica, planejamento, avaliação e evidências de aprendizagem para o Projeto Bilíngue 2027.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#segmentos">Ver materiais por segmento</a>
+          <a class="btn ghost" href="#ciclo">Entender o ciclo pedagógico</a>
+        </div>
+      </section>
+      <aside class="hero-card" aria-label="Resumo do portal">
+        <figure class="hero-photo"><img src="assets/portal-professores-hero-teachers.png" alt="Grupo de professores jovens colaborando em um ambiente educacional bilíngue" /></figure>
+        <p class="status-pill" id="portal-status">MVP estrutural</p>
+        <h2>Central pedagógica operacional</h2>
+        <p id="portal-purpose">Um site para transformar materiais e rubricas em prática docente padronizada, acessível e navegável.</p>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats" id="stats" aria-label="Indicadores do MVP"></section>
+
+    <section class="section intro" id="ciclo">
+      <div class="section-heading">
+        <p class="eyebrow">Como o portal organiza a implementação</p>
+        <h2>Matriz → planejamento → aula → evidência → avaliação → relatório</h2>
+        <p>O portal nasce para reduzir improviso, apoiar professores e permitir que escolas diferentes trabalhem com um padrão pedagógico comum, sem perder a identidade de cada unidade.</p>
+      </div>
+      <div class="cycle" id="learning-cycle"></div>
+    </section>
+
+    <section class="section" id="rubrica">
+      <div class="section-heading compact">
+        <p class="eyebrow">Arquitetura pedagógica</p>
+        <h2>Seções principais do portal</h2>
+        <p>As áreas abaixo já ficam prontas no MVP para visualizarmos a divisão e alimentarmos cada uma com os materiais oficiais.</p>
+      </div>
+      <div class="section-cards" id="section-cards"></div>
+    </section>
+
+    <section class="section segment-section" id="segmentos">
+      <div class="section-heading">
+        <p class="eyebrow">Acervo-base</p>
+        <h2>Materiais por segmento</h2>
+        <p>As pastas de Educação Infantil, Fundamental 1 e Fundamental 2 entram como ponto de partida. O objetivo é converter os materiais essenciais em páginas HTML navegáveis, mantendo links de Drive como apoio.</p>
+      </div>
+      <div class="segment-tabs" role="tablist" aria-label="Segmentos" id="segment-tabs"></div>
+      <div class="segment-panels" id="segment-panels"></div>
+    </section>
+
+    <section class="section split" id="avaliacao">
+      <div class="section-heading compact">
+        <p class="eyebrow">Assessment design</p>
+        <h2>Avaliações e evidências</h2>
+        <p>Esta área fica preparada para receber modelos padronizados de avaliação e rubricas por disciplina/ano, com foco em evidências observáveis.</p>
+      </div>
+      <div class="assessment-grid" id="assessment-grid"></div>
+    </section>
+
+    <section class="section report" id="relatorios">
+      <div>
+        <p class="eyebrow">Próxima camada</p>
+        <h2>Relatórios individualizados de aprendizagem</h2>
+        <p>O portal já prevê uma área para transformar rubricas e evidências em comentários individualizados, organizados por habilidade, disciplina e nível de desenvolvimento.</p>
+      </div>
+      <div class="report-box">
+        <h3>Estrutura futura do relatório</h3>
+        <ul>
+          <li>Indicadores de desenvolvimento linguístico</li>
+          <li>Indicadores de desenvolvimento acadêmico</li>
+          <li>Evidências observadas em sala/projetos</li>
+          <li>Comentários-modelo ajustáveis pelo professor</li>
+          <li>Próximos passos de aprendizagem</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section next" id="proximos-passos">
+      <div class="section-heading compact">
+        <p class="eyebrow">Roadmap do MVP</p>
+        <h2>Próximos passos sugeridos</h2>
+      </div>
+      <ol class="next-list" id="next-list"></ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <strong>Portal dos Professores Bilíngues · GSP</strong>
+    <span>Versão estrutural inicial · Projeto Bilíngue 2027 · uso interno</span>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
