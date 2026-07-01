@@ -1,0 +1,258 @@
+{
+  "portal": {
+    "title": "Portal dos Professores Bilíngues",
+    "subtitle": "Rubrica pedagógica, planejamento, avaliação e evidências de aprendizagem para o Projeto Bilíngue 2027",
+    "status": "MVP estrutural — versão inicial para validação",
+    "updatedAt": "2026-07-01",
+    "purpose": "Centralizar materiais pedagógicos exclusivos para professores bilíngues da GSP, transformando a rubrica do currículo bilíngue em uma experiência navegável, padronizada e prática."
+  },
+  "quickStats": [
+    { "value": "3", "label": "segmentos iniciais" },
+    { "value": "6", "label": "frentes pedagógicas" },
+    { "value": "HTML", "label": "consulta navegável" },
+    { "value": "MVP", "label": "estrutura pronta para alimentar" }
+  ],
+  "learningCycle": [
+    {
+      "step": "1",
+      "title": "Matriz pedagógica",
+      "description": "Define objetivos, linguagem-alvo, habilidades e evidências esperadas."
+    },
+    {
+      "step": "2",
+      "title": "Planejamento",
+      "description": "Traduz a matriz em aulas, sequências, projetos e rotinas semanais."
+    },
+    {
+      "step": "3",
+      "title": "Prática de sala",
+      "description": "Apoia o professor em CLIL, scaffolding, classroom language e integração entre disciplinas."
+    },
+    {
+      "step": "4",
+      "title": "Evidências",
+      "description": "Orienta o que observar, registrar e guardar como prova de aprendizagem."
+    },
+    {
+      "step": "5",
+      "title": "Avaliação",
+      "description": "Padroniza critérios, rubricas, instrumentos diagnósticos, formativos e somativos."
+    },
+    {
+      "step": "6",
+      "title": "Relatórios",
+      "description": "Transforma evidências em comunicação clara e individualizada para famílias."
+    }
+  ],
+  "sections": [
+    {
+      "id": "rubrica",
+      "title": "Rubrica Pedagógica GSP",
+      "eyebrow": "Matriz central",
+      "description": "A base comum de qualidade pedagógica entre escolas: currículo, prática docente, evidências, avaliação e comunicação com famílias.",
+      "status": "Base conceitual existente — transformar em páginas navegáveis",
+      "items": [
+        "Propósito da rubrica",
+        "Competências macro do currículo bilíngue",
+        "Como usar a matriz no planejamento",
+        "Como gerar evidências e relatórios a partir da rubrica"
+      ]
+    },
+    {
+      "id": "segmentos",
+      "title": "Materiais por Segmento",
+      "eyebrow": "Acervo pedagógico",
+      "description": "Organização inicial dos materiais criados para Educação Infantil, Fundamental 1 e Fundamental 2.",
+      "status": "Pastas Drive recebidas; HTMLs locais já encontrados para várias disciplinas",
+      "items": [
+        "Educação Infantil",
+        "Fundamental 1",
+        "Fundamental 2"
+      ]
+    },
+    {
+      "id": "planejamento",
+      "title": "Planejamento Padronizado",
+      "eyebrow": "Teacher planning",
+      "description": "Modelos para transformar a matriz pedagógica em rotina de aula, sequência didática e projeto.",
+      "status": "Estrutura pronta para alimentar",
+      "items": [
+        "Modelo de planejamento semanal",
+        "Modelo de aula CLIL",
+        "Modelo de sequência didática",
+        "Checklist de preparação da aula"
+      ]
+    },
+    {
+      "id": "clil",
+      "title": "CLIL na Prática",
+      "eyebrow": "Teaching in English",
+      "description": "Orientações para ensinar conteúdo em inglês sem reduzir a aula a vocabulário ou tradução.",
+      "status": "Estrutura pronta para alimentar",
+      "items": [
+        "Scaffolding",
+        "Classroom language",
+        "Sentence frames",
+        "Como apoiar alunos com diferentes níveis de inglês"
+      ]
+    },
+    {
+      "id": "avaliacao",
+      "title": "Avaliações e Evidências",
+      "eyebrow": "Assessment",
+      "description": "Critérios comuns e instrumentos padronizados para observar, registrar e avaliar aprendizagem bilíngue.",
+      "status": "Arquitetura pronta; instrumentos serão criados a partir das matrizes",
+      "items": [
+        "Avaliação diagnóstica",
+        "Avaliação formativa",
+        "Avaliação somativa",
+        "Portfólio de evidências"
+      ]
+    },
+    {
+      "id": "relatorios",
+      "title": "Relatórios Individualizados",
+      "eyebrow": "Learning reports",
+      "description": "Base futura para transformar evidências de aprendizagem em relatórios claros, individualizados e comparáveis.",
+      "status": "Em construção",
+      "items": [
+        "Indicadores por habilidade",
+        "Banco de comentários",
+        "Escalas de progresso",
+        "Comunicação pedagógica para famílias"
+      ]
+    },
+    {
+      "id": "toolkit",
+      "title": "Teacher Toolkit",
+      "eyebrow": "Recursos práticos",
+      "description": "Banco de templates, checklists, frases, recursos visuais e materiais de apoio para o cotidiano do professor.",
+      "status": "Estrutura pronta para alimentar",
+      "items": [
+        "Templates editáveis",
+        "Vocabulary lists",
+        "Project cards",
+        "Flashcards e posters"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "infantil",
+      "name": "Educação Infantil",
+      "tagline": "Early Years · descoberta, oralidade, investigação e rotina bilíngue lúdica",
+      "driveUrl": "https://drive.google.com/drive/folders/1X7_omFKM7hn4lIIgS3OWW7ol1rL_rFn7?usp=sharing",
+      "status": "Acervo inicial disponível",
+      "disciplines": [
+        {
+          "name": "Ready, Set, Grow!",
+          "stage": "Guia existente; página pedagógica navegável a alimentar",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/ready-set-grow-infantil/guia-tecnico-comercial-ready-set-grow-infantil-gsp.html"
+        },
+        {
+          "name": "Let’s Explore",
+          "stage": "Matrizes EY1–EY3 existentes em HTML",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/lets-explore-infantil/lets-explore-ey1-matriz-professores.html"
+        },
+        {
+          "name": "Oralidade, rotina e cultura bilíngue",
+          "stage": "Placeholder para materiais de prática docente",
+          "localHtml": ""
+        }
+      ]
+    },
+    {
+      "id": "fund1",
+      "name": "Fundamental 1",
+      "tagline": "Primary · base curricular, linguagem acadêmica e primeiras evidências estruturadas",
+      "driveUrl": "https://drive.google.com/drive/folders/12x3R9OrhQIE7lOZt6JQwNriFSBSgdRRt?usp=sharing",
+      "status": "Maior acervo inicial encontrado",
+      "disciplines": [
+        {
+          "name": "Science",
+          "stage": "Matrizes Year 1–5 existentes; prioridade para virar HTML navegável do portal",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/year-1-science/year-1-science-matriz-pedagogica-professores-bilingues.docx"
+        },
+        {
+          "name": "Math",
+          "stage": "Matrizes Year 1–5 existentes em HTML",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/math-fundamental-1/year-1-math-matriz-professores.html"
+        },
+        {
+          "name": "Global Perspectives",
+          "stage": "Matrizes Year 1–5 existentes em HTML",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/global-perspectives-fundamental-1/global-perspectives-year-1-matriz-professores.html"
+        },
+        {
+          "name": "PBL",
+          "stage": "Matrizes Year 1–5 existentes em HTML",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/pbl-speaking-lab-fundamental-1/pbl-year-1-matriz-professores.html"
+        },
+        {
+          "name": "Speaking Lab",
+          "stage": "Matrizes Year 1–5 existentes em HTML",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/pbl-speaking-lab-fundamental-1/speaking-lab-year-1-matriz-professores.html"
+        }
+      ]
+    },
+    {
+      "id": "fund2",
+      "name": "Fundamental 2",
+      "tagline": "Lower Secondary · aprofundamento, autonomia, projetos e pensamento global",
+      "driveUrl": "https://drive.google.com/drive/folders/1djepYCvh-aaZCALMHemv2Jb5MPnG2s-D?usp=sharing",
+      "status": "Acervo inicial disponível",
+      "disciplines": [
+        {
+          "name": "Global Perspectives",
+          "stage": "Matrizes Year 6–9 existentes em HTML",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/global-perspectives-fundamental-2/global-perspectives-year-6-matriz-professores.html"
+        },
+        {
+          "name": "Financial Literacy",
+          "stage": "Matrizes Year 6–9 existentes em HTML",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/fund2-integrated-disciplines/financial-literacy-year-6-matriz-professores.html"
+        },
+        {
+          "name": "STEAM",
+          "stage": "Matrizes Year 6–9 existentes em HTML",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/fund2-integrated-disciplines/steam-year-6-matriz-professores.html"
+        },
+        {
+          "name": "History & Geography",
+          "stage": "Matrizes Year 6–9 existentes em HTML",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/history-geography-fundamental-2/history-geography-year-6-matriz-professores.html"
+        },
+        {
+          "name": "Speaking Lab",
+          "stage": "Matrizes Year 6–9 existentes em HTML",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/fund2-integrated-disciplines/speaking-lab-year-6-matriz-professores.html"
+        }
+      ]
+    }
+  ],
+  "assessment": [
+    {
+      "title": "Avaliação diagnóstica",
+      "description": "Mapear repertório linguístico, conhecimento prévio e segurança do aluno antes de uma unidade ou ciclo."
+    },
+    {
+      "title": "Avaliação formativa",
+      "description": "Acompanhar progresso durante aulas, projetos, interações orais, registros e resolução de problemas."
+    },
+    {
+      "title": "Avaliação somativa",
+      "description": "Verificar desempenho ao final de unidade, projeto ou trimestre com critérios comuns entre escolas."
+    },
+    {
+      "title": "Portfólio de evidências",
+      "description": "Reunir produções, observações, registros e rubricas para sustentar relatórios individualizados."
+    }
+  ],
+  "nextSteps": [
+    "Validar identidade visual e arquitetura das seções com Andressa.",
+    "Escolher uma disciplina-piloto para transformar integralmente em página HTML do portal.",
+    "Converter matrizes pedagógicas existentes para cards navegáveis por ano/disciplina.",
+    "Criar o primeiro modelo de avaliação padronizada a partir de uma matriz.",
+    "Criar o primeiro banco de comentários para relatório individualizado."
+  ]
+}
