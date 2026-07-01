@@ -9,10 +9,11 @@
     "portal-professores-bilingues/.nojekyll",
     "portal-professores-bilingues/README.md",
     "portal-professores-bilingues/assets/app.js",
+    "portal-professores-bilingues/assets/portal-professores-hero-teachers.png",
     "portal-professores-bilingues/assets/styles.css",
     "portal-professores-bilingues/data.json",
     "portal-professores-bilingues/index.html"
   ],
-  "published_at_utc": "2026-07-01T13:19:30Z",
+  "published_at_utc": "2026-07-01T13:25:30Z",
   "note": "MVP estrutural do Portal dos Professores Bilíngues publicado como subdiretório do portal principal."
 }
