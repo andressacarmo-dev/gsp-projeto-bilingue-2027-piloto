@@ -11,7 +11,7 @@
   --line: rgba(7, 27, 79, 0.12);
   --shadow: 0 24px 70px rgba(7, 27, 79, 0.16);
   --radius: 24px;
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Lexend", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -160,17 +160,26 @@ h3 { font-size: 22px; letter-spacing: -0.02em; }
   backdrop-filter: blur(18px);
 }
 
-.union-card {
-  height: 170px;
+.hero-photo {
+  margin: 0 0 18px;
+  height: 230px;
   border-radius: 20px;
-  margin-bottom: 18px;
-  background:
-    linear-gradient(135deg, transparent 39%, white 39% 45%, var(--red) 45% 53%, white 53% 59%, transparent 59%),
-    linear-gradient(45deg, transparent 39%, white 39% 45%, var(--red) 45% 53%, white 53% 59%, transparent 59%),
-    linear-gradient(90deg, transparent 40%, white 40% 46%, var(--red) 46% 54%, white 54% 60%, transparent 60%),
-    linear-gradient(0deg, transparent 40%, white 40% 46%, var(--red) 46% 54%, white 54% 60%, transparent 60%),
-    var(--royal);
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,.24);
+  overflow: hidden;
+  position: relative;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.24), 0 22px 54px rgba(0,0,0,.25);
+}
+.hero-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(7,27,79,.08), rgba(200,16,46,.2));
+  pointer-events: none;
+}
+.hero-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .status-pill {
