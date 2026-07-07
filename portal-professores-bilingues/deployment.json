@@ -12,8 +12,9 @@
     "portal-professores-bilingues/assets/portal-professores-hero-teachers.png",
     "portal-professores-bilingues/assets/styles.css",
     "portal-professores-bilingues/data.json",
-    "portal-professores-bilingues/index.html"
+    "portal-professores-bilingues/index.html",
+    "portal-professores-bilingues/pages/infantil-level-1-ey1.html"
   ],
-  "published_at_utc": "2026-07-01T13:25:30Z",
-  "note": "MVP estrutural do Portal dos Professores Bilíngues publicado como subdiretório do portal principal."
+  "published_at_utc": "2026-07-07T14:43:15Z",
+  "note": "Arquitetura pedagógica GSP reformulada: entrega esperada, progressão, avaliação global trimestral, estratégias docentes e relatórios individualizados."
 }
