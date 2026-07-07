@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Portal dos Professores Bilíngues · GSP</title>
-  <meta name="description" content="Rubrica pedagógica, planejamento, avaliação e evidências de aprendizagem para professores bilíngues da GSP." />
+  <meta name="description" content="Sistema pedagógico GSP para progressão, avaliação, evidências, estratégias docentes e relatórios individualizados no Projeto Bilíngue 2027." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -18,9 +18,9 @@
         <span><strong>GSP</strong> Teacher Portal</span>
       </a>
       <div class="nav-links">
-        <a href="#rubrica">Rubrica</a>
-        <a href="#segmentos">Segmentos</a>
-        <a href="#avaliacao">Avaliação</a>
+        <a href="#rubrica">Arquitetura</a>
+        <a href="#segmentos">Matrizes</a>
+        <a href="#avaliacao">Avaliação GSP</a>
         <a href="#relatorios">Relatórios</a>
       </div>
     </nav>
@@ -29,16 +29,16 @@
       <section class="hero-copy">
         <p class="eyebrow">Projeto Bilíngue 2027 · uso interno GSP</p>
         <h1 id="portal-title">Portal dos Professores Bilíngues</h1>
-        <p class="lead" id="portal-subtitle">Rubrica pedagógica, planejamento, avaliação e evidências de aprendizagem para o Projeto Bilíngue 2027.</p>
+        <p class="lead" id="portal-subtitle">Sistema pedagógico GSP para organizar entregas esperadas, progressão, avaliação trimestral, estratégias docentes e relatórios individualizados.</p>
         <div class="hero-actions">
-          <a class="btn primary" href="#segmentos">Ver materiais por segmento</a>
-          <a class="btn ghost" href="#ciclo">Entender o ciclo pedagógico</a>
+          <a class="btn primary" href="#segmentos">Ver matrizes por segmento</a>
+          <a class="btn ghost" href="#ciclo">Entender arquitetura GSP</a>
         </div>
       </section>
       <aside class="hero-card" aria-label="Resumo do portal">
         <figure class="hero-photo"><img src="assets/portal-professores-hero-teachers.png" alt="Grupo de professores jovens colaborando em um ambiente educacional bilíngue" /></figure>
         <p class="status-pill" id="portal-status">MVP estrutural</p>
-        <h2>Central pedagógica operacional</h2>
+        <h2>Camada pedagógica GSP</h2>
         <p id="portal-purpose">Um site para transformar materiais e rubricas em prática docente padronizada, acessível e navegável.</p>
       </aside>
     </div>
@@ -47,11 +47,20 @@
   <main>
     <section class="stats" id="stats" aria-label="Indicadores do MVP"></section>
 
+    <section class="section start-here" id="comece-aqui">
+      <div class="section-heading">
+        <p class="eyebrow">Da entrega ao relatório</p>
+        <h2 id="start-title">Comece aqui</h2>
+        <p id="start-description">Um caminho curto para transformar matriz pedagógica em aula, evidência, avaliação e relatório.</p>
+      </div>
+      <div class="start-grid" id="start-grid"></div>
+    </section>
+
     <section class="section intro" id="ciclo">
       <div class="section-heading">
-        <p class="eyebrow">Como o portal organiza a implementação</p>
-        <h2>Matriz → planejamento → aula → evidência → avaliação → relatório</h2>
-        <p>O portal nasce para reduzir improviso, apoiar professores e permitir que escolas diferentes trabalhem com um padrão pedagógico comum, sem perder a identidade de cada unidade.</p>
+        <p class="eyebrow">Arquitetura GSP sobre materiais Cambridge</p>
+        <h2>Entrega esperada → Cambridge → estratégia docente → evidência → avaliação GSP → plano de ação</h2>
+        <p>O portal não duplica recursos Cambridge. Ele define o que precisa ser entregue, quais marcos observar, como medir progresso e como apoiar professores com base em evidências.</p>
       </div>
       <div class="cycle" id="learning-cycle"></div>
     </section>
@@ -59,45 +68,55 @@
     <section class="section" id="rubrica">
       <div class="section-heading compact">
         <p class="eyebrow">Arquitetura pedagógica</p>
-        <h2>Seções principais do portal</h2>
-        <p>As áreas abaixo já ficam prontas no MVP para visualizarmos a divisão e alimentarmos cada uma com os materiais oficiais.</p>
+        <h2>Arquitetura pedagógica do portal</h2>
+        <p>As áreas abaixo mostram como o portal organiza a entrega pedagógica GSP por cima dos materiais Cambridge oficiais.</p>
       </div>
       <div class="section-cards" id="section-cards"></div>
     </section>
 
     <section class="section segment-section" id="segmentos">
       <div class="section-heading">
-        <p class="eyebrow">Acervo-base</p>
-        <h2>Materiais por segmento</h2>
-        <p>As pastas de Educação Infantil, Fundamental 1 e Fundamental 2 entram como ponto de partida. O objetivo é converter os materiais essenciais em páginas HTML navegáveis, mantendo links de Drive como apoio.</p>
+        <p class="eyebrow">Matrizes pedagógicas</p>
+        <h2>Matrizes por segmento</h2>
+        <p>Cada segmento terá páginas HTML com entrega esperada, progressão, avaliação, projetos, estratégias e evidências. Os links Cambridge/Drive ficam como apoio, não como centro da experiência.</p>
       </div>
       <div class="segment-tabs" role="tablist" aria-label="Segmentos" id="segment-tabs"></div>
       <div class="segment-panels" id="segment-panels"></div>
     </section>
 
+    <section class="section teacher-tasks" id="rotina-professor">
+      <div class="section-heading compact">
+        <p class="eyebrow">Apoio ao professor</p>
+        <h2>O que o portal precisa resolver para o professor</h2>
+        <p>O professor precisa saber o que entregar, como ensinar, como observar progresso e o que fazer quando a turma não atinge os marcos esperados.</p>
+      </div>
+      <div class="task-grid" id="teacher-tasks"></div>
+    </section>
+
     <section class="section split" id="avaliacao">
       <div class="section-heading compact">
-        <p class="eyebrow">Assessment design</p>
-        <h2>Avaliações e evidências</h2>
-        <p>Esta área fica preparada para receber modelos padronizados de avaliação e rubricas por disciplina/ano, com foco em evidências observáveis.</p>
+        <p class="eyebrow">Métrica GSP</p>
+        <h2>Avaliação Global GSP e evidências</h2>
+        <p>Área preparada para avaliações trimestrais padronizadas, Cambridge-like, aplicadas em todas as escolas para medir progresso, lacunas e necessidades de apoio.</p>
       </div>
       <div class="assessment-grid" id="assessment-grid"></div>
     </section>
 
     <section class="section report" id="relatorios">
       <div>
-        <p class="eyebrow">Próxima camada</p>
+        <p class="eyebrow">Relatórios e planos de ação</p>
         <h2>Relatórios individualizados de aprendizagem</h2>
-        <p>O portal já prevê uma área para transformar rubricas e evidências em comentários individualizados, organizados por habilidade, disciplina e nível de desenvolvimento.</p>
+        <p>O portal deve transformar avaliações e evidências em relatórios individualizados, planos de ação por turma e apoio direcionado a professores.</p>
       </div>
       <div class="report-box">
-        <h3>Estrutura futura do relatório</h3>
+        <h3>Estrutura futura de relatório e acompanhamento</h3>
         <ul>
           <li>Indicadores de desenvolvimento linguístico</li>
           <li>Indicadores de desenvolvimento acadêmico</li>
           <li>Evidências observadas em sala/projetos</li>
           <li>Comentários-modelo ajustáveis pelo professor</li>
           <li>Próximos passos de aprendizagem</li>
+          <li>Plano de ação quando os marcos não forem atingidos</li>
         </ul>
       </div>
     </section>
@@ -113,7 +132,7 @@
 
   <footer class="footer">
     <strong>Portal dos Professores Bilíngues · GSP</strong>
-    <span>Versão estrutural inicial · Projeto Bilíngue 2027 · uso interno</span>
+    <span>Arquitetura pedagógica GSP · Projeto Bilíngue 2027 · uso interno</span>
   </footer>
 
   <script src="assets/app.js"></script>
