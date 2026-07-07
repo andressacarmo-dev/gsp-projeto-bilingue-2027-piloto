@@ -1,138 +1,140 @@
 {
   "portal": {
     "title": "Portal dos Professores Bilíngues",
-    "subtitle": "Rubrica pedagógica, planejamento, avaliação e evidências de aprendizagem para o Projeto Bilíngue 2027",
-    "status": "MVP estrutural — versão inicial para validação",
-    "updatedAt": "2026-07-01",
-    "purpose": "Centralizar materiais pedagógicos exclusivos para professores bilíngues da GSP, transformando a rubrica do currículo bilíngue em uma experiência navegável, padronizada e prática."
+    "subtitle": "Sistema pedagógico GSP para organizar entregas esperadas, progressão de aprendizagem, avaliação trimestral, evidências e relatórios individualizados.",
+    "status": "MVP pedagógico — arquitetura GSP sobre materiais Cambridge",
+    "updatedAt": "2026-07-07",
+    "purpose": "Um portal para orientar o que precisa ser entregue pedagogicamente em cada nível, mês e trimestre, sem duplicar o portal Cambridge: marcos de desenvolvimento, estratégias docentes, avaliações padronizadas e relatórios de aprendizagem."
   },
   "quickStats": [
-    { "value": "3", "label": "segmentos iniciais" },
-    { "value": "6", "label": "frentes pedagógicas" },
-    { "value": "HTML", "label": "consulta navegável" },
-    { "value": "MVP", "label": "estrutura pronta para alimentar" }
+    {
+      "value": "3",
+      "label": "segmentos em arquitetura"
+    },
+    {
+      "value": "T1-T3",
+      "label": "avaliação global trimestral"
+    },
+    {
+      "value": "GSP",
+      "label": "progressão padronizada"
+    },
+    {
+      "value": "HTML",
+      "label": "consulta pedagógica"
+    }
   ],
   "learningCycle": [
     {
       "step": "1",
-      "title": "Matriz pedagógica",
-      "description": "Define objetivos, linguagem-alvo, habilidades e evidências esperadas."
+      "title": "Entrega esperada",
+      "description": "Define o que o aluno deve aprender, viver e demonstrar em cada nível, mês e unidade."
     },
     {
       "step": "2",
-      "title": "Planejamento",
-      "description": "Traduz a matriz em aulas, sequências, projetos e rotinas semanais."
+      "title": "Materiais Cambridge",
+      "description": "Indica quais unidades, páginas e recursos Cambridge devem apoiar a entrega, sem duplicar conteúdo proprietário."
     },
     {
       "step": "3",
-      "title": "Prática de sala",
-      "description": "Apoia o professor em CLIL, scaffolding, classroom language e integração entre disciplinas."
+      "title": "Estratégias docentes",
+      "description": "Orienta positive reinforcement, scaffolding, classroom language, trabalho por habilidade e adaptação pedagógica."
     },
     {
       "step": "4",
       "title": "Evidências",
-      "description": "Orienta o que observar, registrar e guardar como prova de aprendizagem."
+      "description": "Mostra o que observar e registrar para comprovar participação, linguagem, desenvolvimento e aprendizagem."
     },
     {
       "step": "5",
-      "title": "Avaliação",
-      "description": "Padroniza critérios, rubricas, instrumentos diagnósticos, formativos e somativos."
+      "title": "Avaliação Global GSP",
+      "description": "Padroniza uma verificação trimestral Cambridge-like aplicada em todas as escolas para medir progresso e lacunas."
     },
     {
       "step": "6",
-      "title": "Relatórios",
-      "description": "Transforma evidências em comunicação clara e individualizada para famílias."
+      "title": "Planos de ação e relatórios",
+      "description": "Transforma dados em apoio ao professor, plano de intervenção e relatório individualizado para famílias."
     }
   ],
   "sections": [
     {
-      "id": "rubrica",
-      "title": "Rubrica Pedagógica GSP",
-      "eyebrow": "Matriz central",
-      "description": "A base comum de qualidade pedagógica entre escolas: currículo, prática docente, evidências, avaliação e comunicação com famílias.",
-      "status": "Base conceitual existente — transformar em páginas navegáveis",
+      "id": "entregas",
+      "title": "Entregas pedagógicas esperadas",
+      "eyebrow": "O que precisa acontecer",
+      "description": "A camada GSP define marcos de aprendizagem e desenvolvimento por nível, unidade, mês e trimestre.",
+      "status": "Piloto iniciado no Level 1 / EY1",
       "items": [
-        "Propósito da rubrica",
-        "Competências macro do currículo bilíngue",
-        "Como usar a matriz no planejamento",
-        "Como gerar evidências e relatórios a partir da rubrica"
+        "Objetivos do mês",
+        "Marcos de desenvolvimento",
+        "Language frames essenciais",
+        "Habilidades e evidências esperadas"
       ]
     },
     {
-      "id": "segmentos",
-      "title": "Materiais por Segmento",
-      "eyebrow": "Acervo pedagógico",
-      "description": "Organização inicial dos materiais criados para Educação Infantil, Fundamental 1 e Fundamental 2.",
-      "status": "Pastas Drive recebidas; HTMLs locais já encontrados para várias disciplinas",
+      "id": "progressao",
+      "title": "Progressão de aprendizagem",
+      "eyebrow": "Do mês ao trimestre",
+      "description": "Organiza a evolução esperada dos alunos para permitir acompanhamento entre turmas e escolas.",
+      "status": "Estrutura trimestral em criação",
       "items": [
-        "Educação Infantil",
-        "Fundamental 1",
-        "Fundamental 2"
+        "Progressão T1, T2 e T3",
+        "Indicadores de autonomia",
+        "Crescimento em listening/speaking",
+        "Desenvolvimento socioemocional e investigativo"
       ]
     },
     {
-      "id": "planejamento",
-      "title": "Planejamento Padronizado",
-      "eyebrow": "Teacher planning",
-      "description": "Modelos para transformar a matriz pedagógica em rotina de aula, sequência didática e projeto.",
-      "status": "Estrutura pronta para alimentar",
+      "id": "cambridge",
+      "title": "Integração com Cambridge",
+      "eyebrow": "Sem duplicar recursos",
+      "description": "O portal GSP orienta o que buscar no portal Cambridge: livro digital, planejamento por página, flashcards, songs, stories, worksheets e recursos digitais.",
+      "status": "Modelo de referência, não repositório duplicado",
       "items": [
-        "Modelo de planejamento semanal",
-        "Modelo de aula CLIL",
-        "Modelo de sequência didática",
-        "Checklist de preparação da aula"
-      ]
-    },
-    {
-      "id": "clil",
-      "title": "CLIL na Prática",
-      "eyebrow": "Teaching in English",
-      "description": "Orientações para ensinar conteúdo em inglês sem reduzir a aula a vocabulário ou tradução.",
-      "status": "Estrutura pronta para alimentar",
-      "items": [
-        "Scaffolding",
-        "Classroom language",
-        "Sentence frames",
-        "Como apoiar alunos com diferentes níveis de inglês"
+        "Unidade/páginas sugeridas",
+        "Recursos Cambridge a consultar",
+        "Uso pedagógico esperado",
+        "Conexão com matriz GSP"
       ]
     },
     {
       "id": "avaliacao",
-      "title": "Avaliações e Evidências",
-      "eyebrow": "Assessment",
-      "description": "Critérios comuns e instrumentos padronizados para observar, registrar e avaliar aprendizagem bilíngue.",
-      "status": "Arquitetura pronta; instrumentos serão criados a partir das matrizes",
+      "title": "Avaliação Global GSP",
+      "eyebrow": "Cambridge-like",
+      "description": "Avaliações trimestrais padronizadas para identificar progresso, lacunas e necessidades de apoio docente.",
+      "status": "Arquitetura pronta para desenho dos instrumentos",
       "items": [
-        "Avaliação diagnóstica",
-        "Avaliação formativa",
-        "Avaliação somativa",
-        "Portfólio de evidências"
+        "Listening/responding",
+        "Vocabulary recognition",
+        "Speaking attempt",
+        "Task performance",
+        "Socioemotional engagement"
+      ]
+    },
+    {
+      "id": "estrategias",
+      "title": "Estratégias pedagógicas",
+      "eyebrow": "Teacher support",
+      "description": "Apoio prático para professores aplicarem os materiais com qualidade, consistência e segurança.",
+      "status": "Banco de estratégias em construção",
+      "items": [
+        "Positive reinforcement",
+        "Scaffolding",
+        "Como trabalhar cada habilidade",
+        "Classroom language",
+        "Adaptações por perfil de aluno"
       ]
     },
     {
       "id": "relatorios",
-      "title": "Relatórios Individualizados",
+      "title": "Relatórios individualizados",
       "eyebrow": "Learning reports",
-      "description": "Base futura para transformar evidências de aprendizagem em relatórios claros, individualizados e comparáveis.",
-      "status": "Em construção",
+      "description": "Base futura para transformar dados da avaliação e evidências em comentários individualizados de aprendizagem.",
+      "status": "Camada futura conectada à avaliação GSP",
       "items": [
-        "Indicadores por habilidade",
+        "Indicadores por aluno",
         "Banco de comentários",
-        "Escalas de progresso",
-        "Comunicação pedagógica para famílias"
-      ]
-    },
-    {
-      "id": "toolkit",
-      "title": "Teacher Toolkit",
-      "eyebrow": "Recursos práticos",
-      "description": "Banco de templates, checklists, frases, recursos visuais e materiais de apoio para o cotidiano do professor.",
-      "status": "Estrutura pronta para alimentar",
-      "items": [
-        "Templates editáveis",
-        "Vocabulary lists",
-        "Project cards",
-        "Flashcards e posters"
+        "Próximos passos",
+        "Planos de ação por turma/professor"
       ]
     }
   ],
@@ -140,24 +142,65 @@
     {
       "id": "infantil",
       "name": "Educação Infantil",
-      "tagline": "Early Years · descoberta, oralidade, investigação e rotina bilíngue lúdica",
+      "tagline": "Early Years · entregas esperadas, progressão, avaliação global e estratégias pedagógicas integradas aos materiais Cambridge",
       "driveUrl": "https://drive.google.com/drive/folders/1X7_omFKM7hn4lIIgS3OWW7ol1rL_rFn7?usp=sharing",
-      "status": "Acervo inicial disponível",
+      "status": "Piloto pedagógico em Level 1 / EY1 com matriz anual, progressão e avaliação trimestral",
       "disciplines": [
         {
-          "name": "Ready, Set, Grow!",
-          "stage": "Guia existente; página pedagógica navegável a alimentar",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/ready-set-grow-infantil/guia-tecnico-comercial-ready-set-grow-infantil-gsp.html"
+          "name": "Level 1 / EY1 — Matriz anual GSP",
+          "stage": "Piloto completo: entrega esperada mês a mês, progressão trimestral, avaliação global GSP, projetos complementares, estratégias pedagógicas e base para relatório individualizado.",
+          "localHtml": "pages/infantil-level-1-ey1.html",
+          "resources": [
+            {
+              "label": "Abrir matriz anual Level 1 / EY1",
+              "type": "HTML do portal",
+              "url": "pages/infantil-level-1-ey1.html"
+            },
+            {
+              "label": "Ready, Set, Grow! Level 1 — recursos oficiais",
+              "type": "Portal/Drive Cambridge",
+              "url": "https://drive.google.com/drive/folders/1wt6jFAnBjrKWW-EN_CfRQQueR6rtZalk"
+            },
+            {
+              "label": "Let’s Explore EY1 — matriz pedagógica",
+              "type": "Matriz de apoio",
+              "url": "https://drive.google.com/drive/folders/1BHawv8epW3R9Cx8F5b5QRHmu_mNz7S38"
+            }
+          ]
         },
         {
-          "name": "Let’s Explore",
-          "stage": "Matrizes EY1–EY3 existentes em HTML",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/lets-explore-infantil/lets-explore-ey1-matriz-professores.html"
+          "name": "Level 2 / EY2 — Próximo piloto",
+          "stage": "A replicar após validação do formato EY1: progressão, avaliação trimestral e estratégias para 4–5 anos.",
+          "localHtml": "",
+          "resources": [
+            {
+              "label": "Ready, Set, Grow! Level 2 — recursos oficiais",
+              "type": "Portal/Drive Cambridge",
+              "url": "https://drive.google.com/drive/folders/18LntRyXTb-iro4N1K4etg0IzZ2C7FdHP"
+            },
+            {
+              "label": "Let’s Explore EY2 — matriz pedagógica",
+              "type": "Matriz de apoio",
+              "url": "https://drive.google.com/drive/folders/1BHawv8epW3R9Cx8F5b5QRHmu_mNz7S38"
+            }
+          ]
         },
         {
-          "name": "Oralidade, rotina e cultura bilíngue",
-          "stage": "Placeholder para materiais de prática docente",
-          "localHtml": ""
+          "name": "Level 3 / EY3 — Próximo piloto",
+          "stage": "A replicar após validação do formato EY1: transição para Fundamental 1, autonomia, registros e comunicação de aprendizagem.",
+          "localHtml": "",
+          "resources": [
+            {
+              "label": "Ready, Set, Grow! Level 3 — recursos oficiais",
+              "type": "Portal/Drive Cambridge",
+              "url": "https://drive.google.com/drive/folders/1EB7_cpkKxKEeSyVzHxKhVUX6lVk50l0y"
+            },
+            {
+              "label": "Let’s Explore EY3 — matriz pedagógica",
+              "type": "Matriz de apoio",
+              "url": "https://drive.google.com/drive/folders/1BHawv8epW3R9Cx8F5b5QRHmu_mNz7S38"
+            }
+          ]
         }
       ]
     },
@@ -170,7 +213,7 @@
       "disciplines": [
         {
           "name": "Science",
-          "stage": "Matrizes Year 1–5 existentes; prioridade para virar HTML navegável do portal",
+          "stage": "Matrizes Year 1–5 existentes; base localizada; precisa ser integrada ao portal público",
           "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/year-1-science/year-1-science-matriz-pedagogica-professores-bilingues.docx"
         },
         {
@@ -232,27 +275,75 @@
   ],
   "assessment": [
     {
-      "title": "Avaliação diagnóstica",
-      "description": "Mapear repertório linguístico, conhecimento prévio e segurança do aluno antes de uma unidade ou ciclo."
+      "title": "Avaliação Global T1",
+      "description": "Verificação padronizada de adaptação, rotina, listening/responding, participação, vocabulário inicial e resposta por gesto/palavra."
     },
     {
-      "title": "Avaliação formativa",
-      "description": "Acompanhar progresso durante aulas, projetos, interações orais, registros e resolução de problemas."
+      "title": "Avaliação Global T2",
+      "description": "Acompanha ampliação de vocabulário, escolhas simples, interação guiada, participação em histórias/projetos e evidências de compreensão."
     },
     {
-      "title": "Avaliação somativa",
-      "description": "Verificar desempenho ao final de unidade, projeto ou trimestre com critérios comuns entre escolas."
+      "title": "Avaliação Global T3",
+      "description": "Observa autonomia progressiva, pequenas produções, frases apoiadas, retomada de temas e prontidão para a próxima etapa."
     },
     {
-      "title": "Portfólio de evidências",
-      "description": "Reunir produções, observações, registros e rubricas para sustentar relatórios individualizados."
+      "title": "Painel de lacunas e planos de ação",
+      "description": "Usa dados por escola/turma/professor para identificar pontos frágeis e orientar apoio pedagógico, formação e acompanhamento."
     }
   ],
   "nextSteps": [
-    "Validar identidade visual e arquitetura das seções com Andressa.",
-    "Escolher uma disciplina-piloto para transformar integralmente em página HTML do portal.",
-    "Converter matrizes pedagógicas existentes para cards navegáveis por ano/disciplina.",
-    "Criar o primeiro modelo de avaliação padronizada a partir de uma matriz.",
-    "Criar o primeiro banco de comentários para relatório individualizado."
+    "Validar a arquitetura completa no piloto Level 1 / EY1.",
+    "Desenhar o instrumento da Avaliação Global GSP T1 para EY1.",
+    "Criar o modelo de registro de evidências e matriz de resultados por turma.",
+    "Criar banco inicial de comentários para relatório individualizado EY1.",
+    "Replicar o padrão aprovado para Level 2 / EY2 e Level 3 / EY3."
+  ],
+  "startHere": {
+    "title": "Comece aqui",
+    "description": "Use este caminho para sair do material Cambridge e chegar à entrega pedagógica GSP: planejamento, evidência, avaliação, plano de ação e relatório.",
+    "cards": [
+      {
+        "title": "1. Veja a entrega esperada",
+        "description": "Identifique o que a criança deve aprender, viver e demonstrar no mês/trimestre.",
+        "action": "Ver matriz EY1",
+        "href": "pages/infantil-level-1-ey1.html"
+      },
+      {
+        "title": "2. Use Cambridge como recurso",
+        "description": "Consulte no portal Cambridge as páginas, histórias, músicas, flashcards e worksheets ligados à entrega.",
+        "action": "Ver integração",
+        "href": "#rubrica"
+      },
+      {
+        "title": "3. Registre evidências",
+        "description": "Observe participação, linguagem, interação, criação e desenvolvimento usando critérios comuns.",
+        "action": "Ver avaliação",
+        "href": "#avaliacao"
+      },
+      {
+        "title": "4. Aja sobre os dados",
+        "description": "Use a avaliação global para identificar lacunas, apoiar professores e gerar relatórios individualizados.",
+        "action": "Ver relatórios",
+        "href": "#relatorios"
+      }
+    ]
+  },
+  "teacherTasks": [
+    {
+      "title": "Entender a entrega do mês",
+      "description": "Saber quais marcos de aprendizagem e desenvolvimento precisam ser trabalhados antes de escolher atividades."
+    },
+    {
+      "title": "Planejar com Cambridge sem copiar Cambridge",
+      "description": "Usar livro digital, planejamento por página e recursos oficiais como apoio para cumprir a matriz GSP."
+    },
+    {
+      "title": "Aplicar estratégias pedagógicas",
+      "description": "Escolher positive reinforcement, scaffolding, classroom language e formas de trabalhar cada habilidade."
+    },
+    {
+      "title": "Registrar e medir progresso",
+      "description": "Coletar evidências, aplicar avaliação trimestral e transformar dados em plano de ação e relatório."
+    }
   ]
 }
