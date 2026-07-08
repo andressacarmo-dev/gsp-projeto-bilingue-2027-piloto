@@ -10020,7 +10020,7 @@
       "name": "Marupiara",
       "city": "Marupiara",
       "status": "ativo",
-      "summary": "Central de consulta para a equipe do Marupiara sobre produtos, Q&A e grades horárias do Projeto Bilíngue 2027.",
+      "summary": "Central de consulta para a equipe do Marupiara sobre produtos, Q&A e grades horárias do Projeto Bilíngue 2027, incluindo o novo Semi-integral Bilíngue no Infantil e no Fundamental 1.",
       "materials": [
         {
           "label": "Manual comercial-pedagógico robusto — atualizado após revisão da grade",
@@ -10028,13 +10028,13 @@
           "type": "manual"
         },
         {
-          "label": "Guia de encantamento — PDF",
-          "url": "https://drive.google.com/file/d/14cXjHUf5IpqUOaPVRedo3-tjL9Lprkm0/view?usp=drivesdk",
+          "label": "Guia de encantamento — PDF atualizado com Semi-integral Bilíngue",
+          "url": "https://drive.google.com/file/d/1f6kY2L-IZ1xRfIyxuBHscbR5_2G2qrvg/view?usp=drivesdk",
           "type": "guia"
         },
         {
-          "label": "Q&A completo — PDF",
-          "url": "https://drive.google.com/file/d/1rhFwl94K0Wf0P3neK_qqabPMhLzjLX0L/view?usp=drivesdk",
+          "label": "Q&A completo — PDF atualizado com Semi-integral Bilíngue",
+          "url": "https://drive.google.com/file/d/1JYRSqAm8I-c6xfK4tt40CMVowhwOxCXU/view?usp=drivesdk",
           "type": "qa"
         },
         {
@@ -10087,15 +10087,17 @@
           "title": "Materiais Cambridge oficiais — fonte atualizada",
           "type": "official-cambridge-materials",
           "source": "MATERIAIS CAMBRIDGE UTILIZADOS PELOS ALUNOS EM CADA UNIDADE",
-          "text": "Materiais Cambridge oficiais — Marupiara\nFonte oficial: arquivo “Materiais Cambridge utilizados pelos alunos em cada unidade, em cada segmento e em cada produto”.\nEducação Infantil:\n- REGULAR BILÍNGUE: Ready, Set, Grow\n- INTEGRAL BILÍNGUE: Ready, Set, Grow\nFundamental 1:\n- REGULAR: Kid’s Box\n- REGULAR BILÍNGUE: Kid’s Box, Science e Math\n- INTEGRAL BILÍNGUE: Kid’s Box, Science e Math\nFundamental 2:\n- REGULAR: Prepare\n- REGULAR BILÍNGUE: Prepare e Global Perspectives\n- INTEGRAL BILÍNGUE (6º E 7º ANO): Prepare e Global Perspectives\n- HIGH SCHOOL PREP (8º E 9º ANO): Prepare e Global Perspectives\nEnsino Médio:\n- REGULAR: Evolve\n- ENGLISH CLASS: Think\nUse esta seção como referência prioritária quando houver dúvida sobre livro/material por produto.",
+          "text": "Materiais Cambridge oficiais — Marupiara\nFonte oficial: arquivo “Materiais Cambridge utilizados pelos alunos em cada unidade, em cada segmento e em cada produto”, com atualização de 2026-07-08 para inclusão do Semi-integral Bilíngue no Infantil e no Fundamental 1.\nEducação Infantil:\n- REGULAR BILÍNGUE: Ready, Set, Grow\n- SEMI-INTEGRAL BILÍNGUE: Ready, Set, Grow\n- INTEGRAL BILÍNGUE: Ready, Set, Grow\nFundamental 1:\n- REGULAR: Kid’s Box\n- REGULAR BILÍNGUE: Kid’s Box, Science e Math\n- SEMI-INTEGRAL BILÍNGUE: Kid’s Box, Science e Math\n- INTEGRAL BILÍNGUE: Kid’s Box, Science e Math\nFundamental 2:\n- REGULAR: Prepare\n- REGULAR BILÍNGUE: Prepare e Global Perspectives\n- INTEGRAL BILÍNGUE (6º E 7º ANO): Prepare e Global Perspectives\n- HIGH SCHOOL PREP (8º E 9º ANO): Prepare e Global Perspectives\nEnsino Médio:\n- REGULAR: Evolve\n- ENGLISH CLASS: Think\nUse esta seção como referência prioritária quando houver dúvida sobre livro/material por produto.",
           "segments": {
             "Educação Infantil": {
               "REGULAR BILÍNGUE": "Ready, Set, Grow",
+              "SEMI-INTEGRAL BILÍNGUE": "Ready, Set, Grow",
               "INTEGRAL BILÍNGUE": "Ready, Set, Grow"
             },
             "Fundamental 1": {
               "REGULAR": "Kid’s Box",
               "REGULAR BILÍNGUE": "Kid’s Box, Science e Math",
+              "SEMI-INTEGRAL BILÍNGUE": "Kid’s Box, Science e Math",
               "INTEGRAL BILÍNGUE": "Kid’s Box, Science e Math"
             },
             "Fundamental 2": {
@@ -10192,13 +10194,13 @@
           "source": "Manual comercial-pedagógico",
           "level": "h2",
           "title": "Produtos do Marupiara — leitura comercial",
-          "text": "Segmento Produtos/ofertas Leitura comercial Infantil Regular Bilíngue; Integral Bilíngue A família escolhe entre vivência bilíngue no período regular ou rotina de dia completo com mais experiências em inglês. Fundamental 1 Regular; Regular Bilíngue; Integral Bilíngue A família escolhe entre base regular, currículo bilíngue ampliado ou vivência integral com maior exposição. Fundamental 2 Regular; Regular Bilíngue; Integral Bilíngue para 6º/7º; High School Prep para 8º/9º O segmento tem uma transição importante: 6º/7º com Integral Bilíngue; 8º/9º com High School Prep. Ensino Médio Regular; English Class; High School Dual Diploma Continuidade linguística, certificações e trajetória internacional. No Marupiara, a apresentação dos produtos precisa deixar clara a progressão: Infantil com vivência e rotina; Fundamental 1 com base acadêmica; Fundamental 2 com maturidade e High School Prep; Ensino Médio com continuidade e Dual Diploma. Projeto Bilíngue 2027 · Marupiara USO INTERNO GSP"
+          "text": "Segmento Produtos/ofertas Leitura comercial Infantil Regular Bilíngue; Semi-integral Bilíngue; Integral Bilíngue A família escolhe entre vivência bilíngue no período regular, uma opção intermediária com metade do Next ou rotina de dia completo com mais experiências em inglês. Fundamental 1 Regular; Regular Bilíngue; Semi-integral Bilíngue; Integral Bilíngue A família escolhe entre base regular, currículo bilíngue ampliado, opção intermediária com metade do Next ou vivência integral com maior exposição. Fundamental 2 Regular; Regular Bilíngue; Integral Bilíngue para 6º/7º; High School Prep para 8º/9º O segmento tem uma transição importante: 6º/7º com Integral Bilíngue; 8º/9º com High School Prep. Ensino Médio Regular; English Class; High School Dual Diploma Continuidade linguística, certificações e trajetória internacional. No Marupiara, a apresentação dos produtos precisa deixar clara a progressão: Infantil com vivência, rotina e opção semi-integral; Fundamental 1 com base acadêmica, semi-integral e integral; Fundamental 2 com maturidade e High School Prep; Ensino Médio com continuidade e Dual Diploma. Projeto Bilíngue 2027 · Marupiara USO INTERNO GSP"
         },
         {
           "source": "Manual comercial-pedagógico",
           "level": "h1",
           "title": "Infantil — onde o inglês vira afeto, rotina e descoberta",
-          "text": "K1 a K4 Ready, Set, Grow! Let’s Explore Regular Bilíngue · Integral Bilíngue No Infantil, o bilíngue precisa ser vendido com sensibilidade. A família não quer apenas “mais inglês”; ela quer saber se a criança estará segura, acolhida e aprendendo de forma adequada à idade. Proposta pedagógica: criar uma relação positiva com o inglês por meio de histórias, músicas, movimento, artes, brincadeiras, exploração do mundo, rotinas e interações afetivas. O aluno aprende porque participa, brinca, observa, imita, repete, escolhe, cria e se expressa."
+          "text": "K1 a K4 Ready, Set, Grow! Let’s Explore Regular Bilíngue · Semi-integral Bilíngue · Integral Bilíngue No Infantil, o bilíngue precisa ser vendido com sensibilidade. A família não quer apenas “mais inglês”; ela quer saber se a criança estará segura, acolhida e aprendendo de forma adequada à idade. Proposta pedagógica: criar uma relação positiva com o inglês por meio de histórias, músicas, movimento, artes, brincadeiras, exploração do mundo, rotinas e interações afetivas. O aluno aprende porque participa, brinca, observa, imita, repete, escolhe, cria e se expressa."
         },
         {
           "source": "Manual comercial-pedagógico",
@@ -10588,13 +10590,13 @@
           "source": "Q&A definitivo",
           "level": "qa",
           "title": "Quais produtos existem em Marupiara?",
-          "text": "A oferta contempla diferentes formatos por segmento: no Infantil, Regular Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Regular Bilíngue e Integral Bilíngue; no Fundamental 2, Regular, Regular Bilíngue, Integral Bilíngue para 6º e 7º anos e High School Prep para 8º e 9º anos; no Ensino Médio, Regular, English Class e High School Dual Diploma."
+          "text": "A oferta contempla diferentes formatos por segmento: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 2, Regular, Regular Bilíngue, Integral Bilíngue para 6º e 7º anos e High School Prep para 8º e 9º anos; no Ensino Médio, Regular, English Class e High School Dual Diploma."
         },
         {
           "source": "Q&A definitivo",
           "level": "qa",
           "title": "Por que é tão importante usar a nomenclatura correta?",
-          "text": "Porque os produtos são novos e a equipe precisa evitar ruídos. Usar nomes antigos, apelidos internos ou termos operacionais pode confundir famílias e gerar desalinhamento. A comunicação deve priorizar os nomes oficiais da unidade: Regular, Regular Bilíngue, Integral Bilíngue, English Class, High School Prep e High School Dual Diploma, conforme o segmento. Como o Marupiara não tem Semi-integral no Infantil/F1 na oferta descrita, esse nome não deve ser usado como produto disponível."
+          "text": "Porque os produtos são novos e a equipe precisa evitar ruídos. Usar nomes antigos, apelidos internos ou termos operacionais pode confundir famílias e gerar desalinhamento. A comunicação deve priorizar os nomes oficiais da unidade: Regular, Regular Bilíngue, Semi-integral Bilíngue, Integral Bilíngue, English Class, High School Prep e High School Dual Diploma, conforme o segmento. No Marupiara, o Semi-integral Bilíngue passa a ser produto disponível no Infantil e no Fundamental 1, seguindo a lógica de Regular Bilíngue + metade do Next."
         },
         {
           "source": "Q&A definitivo",
@@ -10618,7 +10620,7 @@
           "source": "Q&A definitivo",
           "level": "qa",
           "title": "Semi-integral Bilíngue é um meio-termo?",
-          "text": "No Marupiara, não se deve apresentar Semi-integral Bilíngue como produto disponível quando ele não constar na oferta oficial. A comparação segura é entre Regular Bilíngue e Integral Bilíngue."
+          "text": "Sim. No Marupiara, o Semi-integral Bilíngue passa a existir no Infantil e no Fundamental 1. Ele deve ser explicado como uma opção intermediária entre o Regular Bilíngue e o Integral Bilíngue, seguindo a lógica de Regular Bilíngue + metade do Next. A grade horária detalhada ainda será complementada após envio da coordenação."
         },
         {
           "source": "Q&A definitivo",
@@ -10630,7 +10632,7 @@
           "source": "Q&A definitivo",
           "level": "qa",
           "title": "Quando a equipe deve usar a grade horária?",
-          "text": "A grade deve ser usada em matrícula, rematrícula, visitas à unidade, reuniões com famílias e atendimentos em que seja necessário explicar a diferença entre as modalidades oficiais da unidade: Regular, Regular Bilíngue, Integral Bilíngue, English Class, High School Prep e High School Dual Diploma, conforme o segmento. Como o Marupiara não tem Semi-integral no Infantil/F1 na oferta descrita, esse nome não deve ser usado como produto disponível."
+          "text": "A grade deve ser usada em matrícula, rematrícula, visitas à unidade, reuniões com famílias e atendimentos em que seja necessário explicar a diferença entre as modalidades oficiais da unidade: Regular, Regular Bilíngue, Semi-integral Bilíngue, Integral Bilíngue, English Class, High School Prep e High School Dual Diploma, conforme o segmento. Para Infantil e Fundamental 1, incluir Semi-integral Bilíngue como produto disponível; para os demais segmentos, seguir a oferta oficial específica. A grade detalhada do novo produto será complementada quando a coordenação enviar a versão final."
         },
         {
           "source": "Q&A definitivo",
@@ -11428,7 +11430,7 @@
       "faq": [
         {
           "question": "Quais materiais Cambridge os alunos utilizam nesta unidade?",
-          "answer": "Materiais Cambridge oficiais — Marupiara\nFonte oficial: arquivo “Materiais Cambridge utilizados pelos alunos em cada unidade, em cada segmento e em cada produto”.\nEducação Infantil:\n- REGULAR BILÍNGUE: Ready, Set, Grow\n- INTEGRAL BILÍNGUE: Ready, Set, Grow\nFundamental 1:\n- REGULAR: Kid’s Box\n- REGULAR BILÍNGUE: Kid’s Box, Science e Math\n- INTEGRAL BILÍNGUE: Kid’s Box, Science e Math\nFundamental 2:\n- REGULAR: Prepare\n- REGULAR BILÍNGUE: Prepare e Global Perspectives\n- INTEGRAL BILÍNGUE (6º E 7º ANO): Prepare e Global Perspectives\n- HIGH SCHOOL PREP (8º E 9º ANO): Prepare e Global Perspectives\nEnsino Médio:\n- REGULAR: Evolve\n- ENGLISH CLASS: Think\nUse esta seção como referência prioritária quando houver dúvida sobre livro/material por produto."
+          "answer": "Materiais Cambridge oficiais — Marupiara\nFonte oficial: arquivo “Materiais Cambridge utilizados pelos alunos em cada unidade, em cada segmento e em cada produto”, com atualização de 2026-07-08 para inclusão do Semi-integral Bilíngue no Infantil e no Fundamental 1.\nEducação Infantil:\n- REGULAR BILÍNGUE: Ready, Set, Grow\n- SEMI-INTEGRAL BILÍNGUE: Ready, Set, Grow\n- INTEGRAL BILÍNGUE: Ready, Set, Grow\nFundamental 1:\n- REGULAR: Kid’s Box\n- REGULAR BILÍNGUE: Kid’s Box, Science e Math\n- SEMI-INTEGRAL BILÍNGUE: Kid’s Box, Science e Math\n- INTEGRAL BILÍNGUE: Kid’s Box, Science e Math\nFundamental 2:\n- REGULAR: Prepare\n- REGULAR BILÍNGUE: Prepare e Global Perspectives\n- INTEGRAL BILÍNGUE (6º E 7º ANO): Prepare e Global Perspectives\n- HIGH SCHOOL PREP (8º E 9º ANO): Prepare e Global Perspectives\nEnsino Médio:\n- REGULAR: Evolve\n- ENGLISH CLASS: Think\nUse esta seção como referência prioritária quando houver dúvida sobre livro/material por produto."
         },
         {
           "category": "1. Como usar este Q&A",
@@ -11493,12 +11495,12 @@
         {
           "category": "3. Produtos e nomenclatura oficial",
           "question": "Quais produtos existem em Marupiara?",
-          "answer": "A oferta contempla diferentes formatos por segmento: no Infantil, Regular Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Regular Bilíngue e Integral Bilíngue; no Fundamental 2, Regular, Regular Bilíngue, Integral Bilíngue para 6º e 7º anos e High School Prep para 8º e 9º anos; no Ensino Médio, Regular, English Class e High School Dual Diploma."
+          "answer": "A oferta contempla diferentes formatos por segmento: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 2, Regular, Regular Bilíngue, Integral Bilíngue para 6º e 7º anos e High School Prep para 8º e 9º anos; no Ensino Médio, Regular, English Class e High School Dual Diploma."
         },
         {
           "category": "3. Produtos e nomenclatura oficial",
           "question": "Por que é tão importante usar a nomenclatura correta?",
-          "answer": "Porque os produtos são novos e a equipe precisa evitar ruídos. Usar nomes antigos, apelidos internos ou termos operacionais pode confundir famílias e gerar desalinhamento. A comunicação deve priorizar os nomes oficiais da unidade: Regular, Regular Bilíngue, Integral Bilíngue, English Class, High School Prep e High School Dual Diploma, conforme o segmento. Como o Marupiara não tem Semi-integral no Infantil/F1 na oferta descrita, esse nome não deve ser usado como produto disponível."
+          "answer": "Porque os produtos são novos e a equipe precisa evitar ruídos. Usar nomes antigos, apelidos internos ou termos operacionais pode confundir famílias e gerar desalinhamento. A comunicação deve priorizar os nomes oficiais da unidade: Regular, Regular Bilíngue, Semi-integral Bilíngue, Integral Bilíngue, English Class, High School Prep e High School Dual Diploma, conforme o segmento. No Marupiara, o Semi-integral Bilíngue passa a ser produto disponível no Infantil e no Fundamental 1, seguindo a lógica de Regular Bilíngue + metade do Next."
         },
         {
           "category": "3. Produtos e nomenclatura oficial",
@@ -11518,7 +11520,7 @@
         {
           "category": "3. Produtos e nomenclatura oficial",
           "question": "Semi-integral Bilíngue é um meio-termo?",
-          "answer": "No Marupiara, não se deve apresentar Semi-integral Bilíngue como produto disponível quando ele não constar na oferta oficial. A comparação segura é entre Regular Bilíngue e Integral Bilíngue."
+          "answer": "Sim. No Marupiara, o Semi-integral Bilíngue passa a existir no Infantil e no Fundamental 1. Ele deve ser explicado como uma opção intermediária entre o Regular Bilíngue e o Integral Bilíngue, seguindo a lógica de Regular Bilíngue + metade do Next. A grade horária detalhada ainda será complementada após envio da coordenação."
         },
         {
           "category": "4. Grades horárias e uso no atendimento",
@@ -11528,7 +11530,7 @@
         {
           "category": "4. Grades horárias e uso no atendimento",
           "question": "Quando a equipe deve usar a grade horária?",
-          "answer": "A grade deve ser usada em matrícula, rematrícula, visitas à unidade, reuniões com famílias e atendimentos em que seja necessário explicar a diferença entre as modalidades oficiais da unidade: Regular, Regular Bilíngue, Integral Bilíngue, English Class, High School Prep e High School Dual Diploma, conforme o segmento. Como o Marupiara não tem Semi-integral no Infantil/F1 na oferta descrita, esse nome não deve ser usado como produto disponível."
+          "answer": "A grade deve ser usada em matrícula, rematrícula, visitas à unidade, reuniões com famílias e atendimentos em que seja necessário explicar a diferença entre as modalidades oficiais da unidade: Regular, Regular Bilíngue, Semi-integral Bilíngue, Integral Bilíngue, English Class, High School Prep e High School Dual Diploma, conforme o segmento. Para Infantil e Fundamental 1, incluir Semi-integral Bilíngue como produto disponível; para os demais segmentos, seguir a oferta oficial específica. A grade detalhada do novo produto será complementada quando a coordenação enviar a versão final."
         },
         {
           "category": "4. Grades horárias e uso no atendimento",
@@ -35279,6 +35281,6 @@
       ]
     }
   ],
-  "updatedAt": "2026-06-24",
-  "cacheVersion": "20260706-praia-grande-p39-sem-anotacao-v1"
+  "updatedAt": "2026-07-08",
+  "cacheVersion": "20260708-marupiara-semi-integral-v1"
 }
