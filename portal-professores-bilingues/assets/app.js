@@ -93,8 +93,8 @@ function renderSegments(segments) {
       <article class="discipline-card">
         <h3>${discipline.name}</h3>
         <p>${discipline.stage}</p>
-        ${renderResourceLinks(discipline)}
         ${discipline.localHtml && !discipline.localHtml.startsWith('../../') ? `<a href="${discipline.localHtml}" target="_blank" rel="noopener">Abrir material-base</a>` : `<span class="status">Material-base a integrar</span>`}
+        ${renderResourceLinks(discipline)}
       </article>
     `).join('');
 
