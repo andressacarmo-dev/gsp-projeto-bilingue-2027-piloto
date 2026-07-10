@@ -28,6 +28,7 @@ async function init() {
 
 function renderStats(stats) {
   const wrap = $('#stats');
+  if (!stats || !wrap) return;
   stats.forEach((item) => {
     wrap.appendChild(el('article', 'stat-card', `<strong>${item.value}</strong><span>${item.label}</span>`));
   });
