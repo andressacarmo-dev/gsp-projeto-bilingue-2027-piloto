@@ -58,7 +58,16 @@
     .assessment-columns { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:18px; }
     .assessment-columns article { background:white; border:1px solid var(--line); border-radius:22px; padding:20px; }
     .assessment-columns strong { display:inline-flex; color:var(--red); margin-bottom:8px; text-transform:uppercase; letter-spacing:.08em; font-size:12px; }
-    @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.matrix-grid,.routine-strip,.materials-grid,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns { grid-template-columns:1fr; } .month-top { grid-template-columns:1fr; } }
+    .brand-report-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; margin-top:18px; }
+    .brand-report-card { background:white; border:1px solid var(--line); border-radius:22px; padding:18px; min-height:150px; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 12px 30px rgba(7,27,79,.07); text-decoration:none; color:var(--ink); }
+    .brand-report-card strong { color:var(--navy); font-size:18px; margin-bottom:8px; }
+    .brand-report-card span { color:var(--muted); font-size:12px; }
+    .brand-report-card .status { display:inline-flex; align-self:flex-start; margin-top:14px; border-radius:999px; padding:7px 10px; background:#e7f7ef; color:#177451; font-size:10px; font-weight:900; text-transform:uppercase; letter-spacing:.08em; }
+    .brand-report-card.disabled { opacity:.66; cursor:not-allowed; background:#f8fafc; }
+    .brand-report-card.disabled .status { background:#eef2f7; color:var(--muted); }
+    .brand-report-card.active { border-top:6px solid var(--red); }
+    .brand-report-card.active:hover { transform:translateY(-2px); box-shadow:0 16px 38px rgba(7,27,79,.11); }
+    @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.matrix-grid,.routine-strip,.materials-grid,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.brand-report-grid { grid-template-columns:1fr; } .month-top { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -257,8 +266,29 @@
     </div>
     <div class="note-box" style="margin-top:22px;">
       <h2>Gerador digital do report card</h2>
-      <p>Use o piloto abaixo para preencher a ficha do aluno e gerar automaticamente o report card familiar em PDF, sem salvar dados sensíveis no portal.</p>
-      <a class="back-link" href="report-card-objetivo-level1-term1.html">Abrir piloto Objetivo · Level 1 · Term 1</a>
+      <p>Escolha a marca da sua escola para preencher a ficha digital e gerar o report card familiar em PDF. Nesta fase de MVP, apenas Objetivo está ativo; as demais marcas entram após inserirmos os logos e personalizações visuais.</p>
+      <div class="brand-report-grid" aria-label="Geradores de report card por marca">
+        <a class="brand-report-card active" href="report-card-objetivo-level1-term1.html">
+          <div><strong>Objetivo</strong><span>Level 1 · Kindergarten · Term 1</span></div>
+          <span class="status">Acessar gerador</span>
+        </a>
+        <div class="brand-report-card disabled" aria-disabled="true">
+          <div><strong>CJA</strong><span>Level 1 · Kindergarten · Term 1</span></div>
+          <span class="status">Em breve</span>
+        </div>
+        <div class="brand-report-card disabled" aria-disabled="true">
+          <div><strong>Marupiara</strong><span>Level 1 · Kindergarten · Term 1</span></div>
+          <span class="status">Em breve</span>
+        </div>
+        <div class="brand-report-card disabled" aria-disabled="true">
+          <div><strong>Santo Anjo</strong><span>Level 1 · Kindergarten · Term 1</span></div>
+          <span class="status">Em breve</span>
+        </div>
+        <div class="brand-report-card disabled" aria-disabled="true">
+          <div><strong>CCPA</strong><span>Level 1 · Kindergarten · Term 1</span></div>
+          <span class="status">Em breve</span>
+        </div>
+      </div>
     </div>
 
     <table class="rubric-table" style="margin-top:22px;"><thead><tr><th>Momento observado</th><th>Proposta prática</th><th>O professor observa se a criança...</th></tr></thead><tbody>
