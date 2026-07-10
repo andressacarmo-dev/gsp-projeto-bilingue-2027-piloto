@@ -397,10 +397,7 @@ ul { padding-left: 18px; color: var(--muted); }
 }
 
 .report {
-  display: grid;
-  grid-template-columns: 1fr minmax(300px, .72fr);
-  gap: 26px;
-  align-items: start;
+  display: block;
   background: linear-gradient(135deg, var(--navy), var(--royal));
   color: white;
   border-radius: 32px;
@@ -409,12 +406,12 @@ ul { padding-left: 18px; color: var(--muted); }
 .report .eyebrow { color: #ffccd4; }
 .report p, .report li { color: rgba(255,255,255,.82); }
 .report-box { background: rgba(255,255,255,.12); border-color: rgba(255,255,255,.2); box-shadow: none; }
-.report-generator-box { min-width: 0; }
+.report-generator-box { min-width: 0; margin-top: 28px; }
 .report-generator-box h3 { margin-bottom: 18px; }
-.report-link-groups { display: grid; gap: 18px; }
+.report-link-groups { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
 .report-link-group { display: grid; gap: 10px; }
 .report-link-group h4 { margin: 0; color: white; font-size: 15px; letter-spacing: .08em; text-transform: uppercase; }
-.report-link-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.report-link-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
 .report-link { display: flex; flex-direction: column; gap: 4px; min-height: 82px; justify-content: center; padding: 14px; border-radius: 18px; text-decoration: none; background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.22); color: white; }
 .report-link strong { font-size: 18px; }
 .report-link span { color: rgba(255,255,255,.78); font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; }
@@ -466,7 +463,8 @@ ul { padding-left: 18px; color: var(--muted); }
 .footer strong { color: white; }
 
 @media (max-width: 860px) {
-  .hero-grid, .report, .segment-head { grid-template-columns: 1fr; }
+  .hero-grid, .segment-head { grid-template-columns: 1fr; }
+  .report-link-groups { grid-template-columns: 1fr; }
   .stats, .cycle, .section-cards, .assessment-grid, .discipline-grid, .start-grid, .task-grid { grid-template-columns: 1fr; }
   .topbar { align-items: flex-start; flex-direction: column; }
   .hero { min-height: auto; }
