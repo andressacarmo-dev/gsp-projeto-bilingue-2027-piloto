@@ -162,6 +162,7 @@ function renderAssessment(items) {
 
 function renderNextSteps(items) {
   const wrap = $('#next-list');
+  if (!items || !wrap) return;
   items.forEach((item) => wrap.appendChild(el('li', '', item)));
 }
 
