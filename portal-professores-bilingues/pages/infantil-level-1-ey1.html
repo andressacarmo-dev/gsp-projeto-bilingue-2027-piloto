@@ -13,7 +13,8 @@
     body { background:#f8f5ef; }
     .matrix-hero { color:white; background: radial-gradient(circle at 82% 18%, rgba(255,255,255,.16), transparent 28%), linear-gradient(135deg, rgba(7,27,79,.98), rgba(30,85,179,.90)), repeating-linear-gradient(45deg, rgba(200,16,46,.38) 0 16px, transparent 16px 54px); padding:18px clamp(18px,4vw,64px) 54px; }
     .matrix-hero .topbar { max-width:1180px; margin:0 auto; }
-    .matrix-hero .brand-mark { width:auto; height:auto; border-radius:0; background:none; box-shadow:none; font-size:32px; line-height:1; }
+    .matrix-hero .brand-mark { width:42px; height:28px; border-radius:6px; background:none; box-shadow:0 8px 18px rgba(0,0,0,.18); overflow:hidden; display:inline-flex; }
+    .matrix-hero .brand-mark img { width:100%; height:100%; object-fit:cover; display:block; }
     .matrix-hero-grid { max-width:1180px; margin:48px auto 0; display:grid; grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr); gap:clamp(24px,5vw,60px); align-items:center; }
     .matrix-hero h1 { font-size:clamp(36px,6vw,72px); }
     .matrix-card { background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.24); border-radius:28px; padding:24px; box-shadow:var(--shadow); backdrop-filter:blur(16px); }
@@ -86,7 +87,7 @@
 <body>
 <header class="matrix-hero">
   <nav class="topbar" aria-label="Navegação da matriz EY1">
-    <a class="brand" href="../index.html" aria-label="Voltar ao Portal dos Professores Bilíngues"><span class="brand-mark" aria-hidden="true">🇬🇧</span><span><strong>GSP</strong> Teacher Portal</span></a>
+    <a class="brand" href="../index.html" aria-label="Voltar ao Portal dos Professores Bilíngues"><span class="brand-mark" aria-hidden="true"><img src="../assets/icons/uk-flag.svg" alt=""></span><span><strong>GSP</strong> Teacher Portal</span></a>
     <div class="nav-links"><a href="#matriz">Matriz</a><a href="#progressao">Progressão</a><a href="#avaliacao-global">Avaliação</a><a href="#estrategias">Estratégias</a></div>
   </nav>
   <div class="matrix-hero-grid">
