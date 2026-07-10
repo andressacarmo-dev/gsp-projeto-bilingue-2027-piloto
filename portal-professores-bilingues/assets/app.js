@@ -17,9 +17,11 @@ async function init() {
   $('#portal-purpose').textContent = data.portal.purpose;
 
   renderStats(data.quickStats);
+  renderStartHere(data.startHere);
   renderCycle(data.learningCycle);
   renderSections(data.sections);
   renderSegments(data.segments);
+  renderTeacherTasks(data.teacherTasks);
   renderAssessment(data.assessment);
   renderNextSteps(data.nextSteps);
 }
@@ -28,6 +30,22 @@ function renderStats(stats) {
   const wrap = $('#stats');
   stats.forEach((item) => {
     wrap.appendChild(el('article', 'stat-card', `<strong>${item.value}</strong><span>${item.label}</span>`));
+  });
+}
+
+function renderStartHere(startHere) {
+  const title = $('#start-title');
+  const description = $('#start-description');
+  const wrap = $('#start-grid');
+  if (!startHere || !title || !description || !wrap) return;
+  title.textContent = startHere.title;
+  description.textContent = startHere.description;
+  startHere.cards.forEach((card) => {
+    wrap.appendChild(el('article', 'start-card', `
+      <h3>${card.title}</h3>
+      <p>${card.description}</p>
+      <a href="${card.href}">${card.action}</a>
+    `));
   });
 }
 
@@ -74,6 +92,7 @@ function renderSegments(segments) {
       <article class="discipline-card">
         <h3>${discipline.name}</h3>
         <p>${discipline.stage}</p>
+        ${renderResourceLinks(discipline)}
         ${discipline.localHtml && !discipline.localHtml.startsWith('../../') ? `<a href="${discipline.localHtml}" target="_blank" rel="noopener">Abrir material-base</a>` : `<span class="status">Material-base a integrar</span>`}
       </article>
     `).join('');
@@ -94,6 +113,31 @@ function renderSegments(segments) {
     panel.setAttribute('aria-labelledby', `tab-${segment.id}`);
     panels.appendChild(panel);
   });
+}
+
+function renderTeacherTasks(tasks) {
+  if (!tasks) return;
+  const wrap = $('#teacher-tasks');
+  tasks.forEach((task) => {
+    wrap.appendChild(el('article', 'task-card', `
+      <h3>${task.title}</h3>
+      <p>${task.description}</p>
+    `));
+  });
+}
+
+function renderResourceLinks(discipline) {
+  const resources = discipline.resources || [];
+  if (!resources.length) return '';
+
+  const links = resources.map((resource) => {
+    if (!resource.url) {
+      return `<li><span>${resource.label}</span><small>${resource.type}</small></li>`;
+    }
+    return `<li><a href="${resource.url}" target="_blank" rel="noopener">${resource.label}</a><small>${resource.type}</small></li>`;
+  }).join('');
+
+  return `<ul class="resource-list">${links}</ul>`;
 }
 
 function selectSegment(id) {
