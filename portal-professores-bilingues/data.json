@@ -147,15 +147,10 @@
       "status": "Piloto pedagógico em Level 1 / EY1 com matriz anual, progressão e avaliação trimestral",
       "disciplines": [
         {
-          "name": "Level 1 / EY1 — Matriz anual GSP",
+          "name": "Cambridge Level 1 - Matriz anual GSP",
           "stage": "Piloto completo: entrega esperada mês a mês, progressão trimestral, avaliação global GSP, projetos complementares, estratégias pedagógicas e base para relatório individualizado.",
           "localHtml": "pages/infantil-level-1-ey1.html",
           "resources": [
-            {
-              "label": "Abrir matriz anual Level 1 / EY1",
-              "type": "HTML do portal",
-              "url": "pages/infantil-level-1-ey1.html"
-            },
             {
               "label": "Ready, Set, Grow! Level 1 — recursos oficiais",
               "type": "Portal/Drive Cambridge",
@@ -169,9 +164,9 @@
           ]
         },
         {
-          "name": "Level 2 / EY2 — Próximo piloto",
+          "name": "Cambridge Level 2 - Matriz anual GSP",
           "stage": "A replicar após validação do formato EY1: progressão, avaliação trimestral e estratégias para 4–5 anos.",
-          "localHtml": "",
+          "localHtml": "https://drive.google.com/drive/folders/18LntRyXTb-iro4N1K4etg0IzZ2C7FdHP",
           "resources": [
             {
               "label": "Ready, Set, Grow! Level 2 — recursos oficiais",
@@ -186,9 +181,9 @@
           ]
         },
         {
-          "name": "Level 3 / EY3 — Próximo piloto",
+          "name": "Cambridge Level 3 - Matriz anual GSP",
           "stage": "A replicar após validação do formato EY1: transição para Fundamental 1, autonomia, registros e comunicação de aprendizagem.",
-          "localHtml": "",
+          "localHtml": "https://drive.google.com/drive/folders/1EB7_cpkKxKEeSyVzHxKhVUX6lVk50l0y",
           "resources": [
             {
               "label": "Ready, Set, Grow! Level 3 — recursos oficiais",
