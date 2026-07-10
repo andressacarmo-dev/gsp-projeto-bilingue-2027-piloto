@@ -116,8 +116,8 @@ function renderSegments(segments) {
 }
 
 function renderTeacherTasks(tasks) {
-  if (!tasks) return;
   const wrap = $('#teacher-tasks');
+  if (!tasks || !wrap) return;
   tasks.forEach((task) => {
     wrap.appendChild(el('article', 'task-card', `
       <h3>${task.title}</h3>
