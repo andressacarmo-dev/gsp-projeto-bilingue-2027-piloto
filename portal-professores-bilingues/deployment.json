@@ -3,18 +3,15 @@
   "repo": "gsp-projeto-bilingue-2027-piloto",
   "repo_url": "https://github.com/andressacarmo-dev/gsp-projeto-bilingue-2027-piloto",
   "public_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-professores-bilingues/",
+  "level2_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-professores-bilingues/pages/infantil-level-2-ey2.html",
   "source_dir": "/data/.openclaw/workspace/projects/projeto-bilingue-2027/sites/portal-professores-bilingues",
   "dest_prefix": "portal-professores-bilingues",
   "files": [
-    "portal-professores-bilingues/.nojekyll",
-    "portal-professores-bilingues/README.md",
-    "portal-professores-bilingues/assets/app.js",
-    "portal-professores-bilingues/assets/portal-professores-hero-teachers.png",
-    "portal-professores-bilingues/assets/styles.css",
     "portal-professores-bilingues/data.json",
-    "portal-professores-bilingues/index.html",
-    "portal-professores-bilingues/pages/infantil-level-1-ey1.html"
+    "portal-professores-bilingues/pages/infantil-level-2-ey2.html",
+    "portal-professores-bilingues/fontes/level2/assessment-audit-summary.md",
+    "portal-professores-bilingues/assets/icons/uk-flag.svg"
   ],
-  "published_at_utc": "2026-07-07T14:43:15Z",
-  "note": "Arquitetura pedagógica GSP reformulada: entrega esperada, progressão, avaliação global trimestral, estratégias docentes e relatórios individualizados."
+  "published_at_utc": "2026-07-13T10:15:04Z",
+  "note": "Publicação direcionada do Infantil Level 2 / EY2: matriz anual GSP auditada e validada com materiais reais Cambridge, sem duplicar materiais proprietários pesados."
 }
