@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Infantil · Level 2 / EY2 · Matriz anual · Portal dos Professores Bilíngues</title>
+  <meta name="description" content="Matriz anual pedagógica auditada para professores bilíngues: Ready, Set, Grow! Level 2 e extensão GSP/Let’s Explore EY2." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/styles.css" />
+  <style>
+    body { background:#f8f5ef; }
+    .matrix-hero { color:white; background: radial-gradient(circle at 82% 18%, rgba(255,255,255,.16), transparent 28%), linear-gradient(135deg, rgba(7,27,79,.98), rgba(30,85,179,.90)), repeating-linear-gradient(45deg, rgba(200,16,46,.38) 0 16px, transparent 16px 54px); padding:18px clamp(18px,4vw,64px) 54px; }
+    .matrix-hero .topbar { max-width:1180px; margin:0 auto; }
+    .matrix-hero .brand-mark { width:42px; height:28px; border-radius:6px; background:none; box-shadow:0 8px 18px rgba(0,0,0,.18); overflow:hidden; display:inline-flex; }
+    .matrix-hero .brand-mark img { width:100%; height:100%; object-fit:cover; display:block; }
+    .matrix-hero-grid { max-width:1180px; margin:48px auto 0; display:grid; grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr); gap:clamp(24px,5vw,60px); align-items:center; }
+    .matrix-hero h1 { font-size:clamp(36px,6vw,72px); }
+    .matrix-card { background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.24); border-radius:28px; padding:24px; box-shadow:var(--shadow); backdrop-filter:blur(16px); }
+    .matrix-card li { margin:8px 0; color:rgba(255,255,255,.86); }
+    .breadcrumb { max-width:1180px; margin:28px auto 20px; color:var(--muted); font-size:14px; font-weight:700; }
+    .breadcrumb a { color:var(--royal); text-decoration:none; }
+    .anchor-months { max-width:1180px; margin:0 auto 32px; display:flex; flex-wrap:wrap; gap:8px; }
+    .anchor-months a { text-decoration:none; color:var(--navy); background:white; border:1px solid var(--line); padding:9px 12px; border-radius:999px; font-weight:800; font-size:13px; box-shadow:0 10px 24px rgba(7,27,79,.06); }
+    .teacher-note,.standard-box,.source-box { background:white; border:1px solid var(--line); border-radius:28px; padding:clamp(22px,4vw,36px); box-shadow:0 14px 38px rgba(7,27,79,.08); }
+    .standard-grid,.source-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; }
+    .standard-grid article,.source-grid article { border-radius:22px; padding:20px; background:#f7f9ff; border:1px solid rgba(30,85,179,.12); }
+    .standard-grid article:nth-child(2),.source-grid article:nth-child(2) { background:#fff8f2; border-color:rgba(200,16,46,.12); }
+    .month-list { display:grid; gap:22px; }
+    .month-card { background:white; border:1px solid var(--line); border-radius:30px; overflow:hidden; box-shadow:0 16px 44px rgba(7,27,79,.09); }
+    .month-top { display:grid; grid-template-columns:150px 1fr; gap:16px; align-items:center; background:linear-gradient(135deg,var(--navy),var(--royal)); color:white; padding:18px 22px; }
+    .month-top span { font-weight:900; font-size:22px; } .month-top strong { font-size:18px; }
+    .month-focus { margin:0; padding:20px 22px 0; color:var(--ink); font-weight:650; }
+    .matrix-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:12px; padding:20px 22px 24px; }
+    .matrix-grid div { background:#fbfcff; border:1px solid var(--line); border-radius:18px; padding:16px; }
+    .matrix-grid h4 { margin:0 0 8px; color:var(--red); text-transform:uppercase; letter-spacing:.08em; font-size:12px; }
+    .matrix-grid p { margin:0; color:var(--muted); }
+    .routine-strip { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; }
+    .routine-strip article { background:white; border:1px solid var(--line); border-top:5px solid var(--red); border-radius:20px; padding:18px; box-shadow:0 12px 30px rgba(7,27,79,.07); }
+    .rubric-table { width:100%; border-collapse:collapse; background:white; border-radius:24px; overflow:hidden; box-shadow:0 12px 34px rgba(7,27,79,.08); }
+    .rubric-table th { background:var(--navy); color:white; text-align:left; padding:15px; }
+    .rubric-table td { border-bottom:1px solid var(--line); padding:15px; vertical-align:top; }
+    .rubric-table tr:last-child td { border-bottom:0; }
+    .quarter-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.materials-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .materials-grid { grid-template-columns:repeat(2,1fr); }
+    .quarter-card,.project-card,.strategy-card,.report-card,.assessment-columns article,.material-card { background:white; border:1px solid var(--line); border-radius:24px; padding:22px; box-shadow:0 12px 34px rgba(7,27,79,.08); }
+    .quarter-card { border-top:6px solid var(--royal); } .project-card { border-top:6px solid var(--red); } .strategy-card { border-top:6px solid #f2b705; } .report-card { border-top:6px solid #2e9d78; }
+    .quarter-card ul,.project-card ul,.strategy-card ul,.report-card ul { margin:10px 0 0 18px; padding:0; color:var(--muted); }
+    .assessment-box { background:linear-gradient(135deg,#ffffff,#f1f5ff); border:1px solid var(--line); border-radius:30px; padding:clamp(22px,4vw,36px); box-shadow:0 16px 44px rgba(7,27,79,.08); }
+    .assessment-columns strong { display:inline-flex; color:var(--red); margin-bottom:8px; text-transform:uppercase; letter-spacing:.08em; font-size:12px; }
+    .material-card a { display:inline-flex; margin-top:10px; color:var(--royal); font-weight:900; text-decoration:none; }
+    .note-box { background:#fff8f2; border-left:6px solid var(--red); border-radius:22px; padding:22px; color:var(--ink); }
+    .brand-report-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; margin-top:18px; }
+    .brand-report-card { text-decoration:none; color:var(--ink); background:white; border:1px solid var(--line); border-radius:18px; padding:16px; min-height:110px; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 10px 24px rgba(7,27,79,.07); opacity:.72; }
+    .brand-report-card.active { opacity:1; border-color:rgba(30,85,179,.35); } .brand-report-card strong { display:block; } .brand-report-card span { color:var(--muted); font-size:13px; } .brand-report-card .status { color:var(--royal); font-weight:900; margin-top:12px; }
+    @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.source-grid,.matrix-grid,.routine-strip,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.materials-grid,.brand-report-grid { grid-template-columns:1fr; } .month-top { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+<header class="matrix-hero">
+  <nav class="topbar" aria-label="Navegação da matriz EY2">
+    <a class="brand" href="../index.html" aria-label="Voltar ao Portal dos Professores Bilíngues"><span class="brand-mark" aria-hidden="true"><img src="../assets/icons/uk-flag.svg" alt=""></span><span><strong>GSP</strong> Teacher Portal</span></a>
+    <div class="nav-links"><a href="#matriz">Matriz</a><a href="#progressao">Progressão</a><a href="#avaliacao-global">Avaliação</a><a href="#fontes">Fontes</a></div>
+  </nav>
+  <div class="matrix-hero-grid">
+    <section>
+      <p class="eyebrow">Educação Infantil · matriz anual</p>
+      <h1>Level 2</h1>
+      <p class="lead">Matriz anual EY2 construída a partir dos materiais reais auditados de Ready, Set, Grow! Level 2, com 9 unidades, vocabulário oficial, uso de recursos Cambridge e camada pedagógica GSP para evidências, rubrica e avaliação.</p>
+      <div class="hero-actions"><a class="btn primary" href="#matriz">Ver matriz mensal</a><a class="btn ghost" href="#uso">Como usar</a><a class="btn ghost" href="#materiais">Recursos</a></div>
+    </section>
+    <aside class="matrix-card">
+      <p class="status-pill">Auditoria pedagógica concluída · pronto para revisão</p>
+      <h2>4–5 anos</h2>
+      <ul><li>9 unidades Cambridge + Welcome Unit.</li><li>Song, Language, Story e Cross-curricular videos.</li><li>Games, Flashcards, Big Book, PP, TR, Sounds e Numbers.</li><li>Avaliação GSP prática, observável e formativa.</li></ul>
+    </aside>
+  </div>
+</header>
+<main>
+  <div class="breadcrumb"><a href="../index.html#segmentos">Portal dos Professores</a> · Educação Infantil · Level 2 / EY2 · Matriz anual</div>
+  <nav class="anchor-months" aria-label="Meses da matriz"><a href="#mes-1">Fevereiro</a><a href="#mes-2">Março</a><a href="#mes-3">Abril</a><a href="#mes-4">Maio</a><a href="#mes-5">Junho</a><a href="#mes-6">Agosto</a><a href="#mes-7">Setembro</a><a href="#mes-8">Outubro</a><a href="#mes-9">Novembro</a></nav>
+
+  <section class="section source-box" id="fontes">
+    <div class="section-heading compact"><p class="eyebrow">Fontes auditadas</p><h2>Base usada para refazer o Level 2</h2></div>
+    <div class="source-grid">
+      <article><h3>Verificado</h3><p>PDF de orientação de horas, Course Flashcards Level 2, Mini Word Cards Level 2, Home Practice Accessible Script, Assessment Teaching Notes, Assessment Worksheets Units 1–9, Assessment Recording Sheets e Observation Recording Sheets.</p></article>
+      <article><h3>Critério de segurança</h3><p>A página usa a estrutura e os critérios reais da Cambridge sem reproduzir atividades proprietárias. As worksheets foram auditadas por unidade e confirmam avaliação em Vocabulary, Language, Sounds, Numbers e School Readiness.</p></article>
+    </div>
+  </section>
+
+  <section class="section teacher-note" id="uso">
+    <div class="section-heading compact"><p class="eyebrow">Como usar esta matriz</p><h2>Da sequência Cambridge para a prática GSP</h2></div>
+    <p>Esta página organiza a entrega pedagógica do Level 2 sem duplicar conteúdo proprietário. O professor deve consultar os recursos oficiais Cambridge para páginas, vídeos, flashcards, jogos, worksheets e Teacher’s Resources.</p>
+    <p>A camada GSP define o que observar, como registrar evidências e como traduzir o percurso em avaliação formativa e comunicação pedagógica consistente entre escolas.</p>
+    <p><strong>Atualização de auditoria:</strong> as Assessment Worksheets do Level 2 seguem uma estrutura comum por unidade: Vocabulary — Say/Listen, Language — Listen/Say, Sounds — Color/Say, Numbers — Count/Say e School Readiness — Look/Draw, com self-assessment por smiley face e registro docente.</p>
+  </section>
+
+  <section class="section standard-box">
+    <div class="section-heading compact"><p class="eyebrow">Modelo GSP</p><h2>O que padroniza e o que adapta</h2></div>
+    <div class="standard-grid"><article><h3>Obrigatório seguir</h3><p>Sequência de unidades, vocabulário auditado, language frames, rotina de aula, evidências mínimas, progressão trimestral e rubrica comum.</p></article><article><h3>Adaptável pela escola</h3><p>Projetos locais, exemplos próximos à comunidade, ordem de algumas extensões, materiais concretos e tempo dedicado conforme carga horária disponível.</p></article></div>
+  </section>
+
+  <section class="section" id="rotina">
+    <div class="section-heading"><p class="eyebrow">Rotina base</p><h2>Arquitetura de aula recomendada</h2><p>O PDF Cambridge reforça rotinas previsíveis, equilíbrio entre momentos ativos/quietos e reciclagem frequente.</p></div>
+    <div class="routine-strip"><article><h3>1. 👋 Hello routine</h3><p>Hello song, feelings/weather, helper e combinados.</p></article><article><h3>2. 🎵 Present</h3><p>Song/video, flashcards, SB/WB e vocabulário novo.</p></article><article><h3>3. 🧩 Practise</h3><p>Language video, PP games, chants e prática guiada.</p></article><article><h3>4. 📖 Story / Explore</h3><p>Story, Big Book, cross-curricular e atividade concreta.</p></article><article><h3>5. 🌟 Review</h3><p>Share, craft, evidence, goodbye e retomada curta.</p></article></div>
+  </section>
+
+  <section class="section" id="rubrica">
+    <div class="section-heading"><p class="eyebrow">Rubrica pedagógica EY2</p><h2>Critérios comuns de observação</h2><p>O foco é verificar compreensão, tentativa comunicativa, participação e transferência do vocabulário para ações reais.</p></div>
+    <table class="rubric-table"><thead><tr><th>Dimensão</th><th>Observar se a criança...</th><th>Exemplos de evidência</th></tr></thead><tbody>
+      <tr><td>Listening & responding</td><td>Compreende comandos, perguntas yes/no, language chants e instruções de desenho, movimento ou localização.</td><td>Resposta a Is it...? / Where’s...? / Draw... / Color..., jogo de flashcards, ação motora.</td></tr>
+      <tr><td>Vocabulary & concepts</td><td>Reconhece e usa vocabulário de clima, família, lugares, formas, ações, casa, alimentos e animais.</td><td>Sorting, matching, nomeação, escolha de imagem, mini word cards ou produção visual.</td></tr>
+      <tr><td>Speaking attempt</td><td>Tenta usar frases curtas como It’s..., I can..., I can’t..., Let’s go..., Can I have..., please?</td><td>Áudio/fala registrada, participação em chant, resposta apoiada, mini apresentação.</td></tr>
+      <tr><td>Social-emotional learning</td><td>Participa, espera a vez, coopera, expressa preferência/necessidade e ganha confiança para tentar.</td><td>Checklist, foto em dupla/grupo, registro de turn-taking e participação.</td></tr>
+      <tr><td>Early literacy awareness</td><td>Começa a notar palavras/frases em word cards e speech bubbles, especialmente a partir da Unit 4.</td><td>Apontar word card, reconhecer palavra familiar, acompanhar frase visual com apoio.</td></tr>
+    </tbody></table>
+  </section>
+
+  <section class="section" id="progressao">
+    <div class="section-heading"><p class="eyebrow">Progressão esperada</p><h2>O que deve evoluir a cada trimestre</h2></div>
+    <div class="quarter-grid"><article class="quarter-card"><h3>T1 · Rotina, clima, família e lugares</h3><p>Welcome + Units 1–3.</p><ul><li>Responder a rotinas e perguntas simples.</li><li>Reconhecer clima, pessoas/família, emoções e lugares.</li><li>Usar yes/no, It’s..., This is... e Let’s go... com apoio.</li></ul></article><article class="quarter-card"><h3>T2 · Forma, ação e localização</h3><p>Units 4–6.</p><ul><li>Seguir instruções Draw/Color.</li><li>Usar I can/I can’t em jogos motores.</li><li>Responder Where’s...? com on/in/under e vocabulário de casa.</li></ul></article><article class="quarter-card"><h3>T3 · Comparação, necessidade e descrição</h3><p>Units 7–9.</p><ul><li>Comparar big/small/new/old.</li><li>Pedir comida/água com Can I have..., please?</li><li>Descrever animais com big/small/colorful/furry e revisar repertório.</li></ul></article></div>
+  </section>
+
+  <section class="section" id="projetos">
+    <div class="section-heading"><p class="eyebrow">Projetos complementares</p><h2>Como ampliar sem fugir da matriz</h2><p>Projetos devem reforçar a entrega esperada, gerar evidências e criar experiências significativas, sem substituir a progressão Cambridge/GSP.</p></div>
+    <div class="project-grid">
+      <article class="project-card"><h3>Weather station</h3><p>Painel vivo de clima com escolhas de roupa, brincadeira e rotina.</p><ul><li>Integra weather, hot/cold e linguagem de observação.</li><li>Gera foto, gráfico simples e fala curta.</li></ul></article>
+      <article class="project-card"><h3>My places map</h3><p>Mapa afetivo de lugares da escola, bairro ou cidade.</p><ul><li>Integra places, Let’s go to... e preferências.</li><li>Gera mapa visual, escolha individual e mini apresentação.</li></ul></article>
+      <article class="project-card"><h3>Animal features gallery</h3><p>Galeria de animais com características simples.</p><ul><li>Integra animals, colorful/furry e descrição.</li><li>Gera desenho, classificação e frase apoiada.</li></ul></article>
+    </div>
+  </section>
+
+  <section class="section" id="estrategias">
+    <div class="section-heading"><p class="eyebrow">Estratégias pedagógicas</p><h2>Apoio prático ao professor</h2></div>
+    <div class="strategy-grid"><article class="strategy-card"><h3>🔁 Repetition little and often</h3><p>Reciclar músicas, chants, flashcards e jogos em pequenas doses ao longo da semana.</p></article><article class="strategy-card"><h3>🎬 Vídeos com propósito</h3><p>Usar song, language, story e cross-curricular videos para introduzir, praticar e transferir linguagem.</p></article><article class="strategy-card"><h3>🧸 Concrete response</h3><p>Permitir resposta por gesto, movimento, desenho, escolha, classificação e fala curta.</p></article><article class="strategy-card"><h3>🗣️ Frames funcionais</h3><p>Modelar It’s..., I can..., Where’s..., Let’s go..., Can I have..., please?</p></article><article class="strategy-card"><h3>📖 Story recycling</h3><p>Revisitar histórias com Big Book, dramatização e speech bubbles a partir da Unit 4.</p></article><article class="strategy-card"><h3>📝 Evidência mínima</h3><p>Registrar uma evidência clara por unidade, vinculada ao objetivo observado.</p></article></div>
+  </section>
+
+  <section class="section" id="matriz">
+    <div class="section-heading"><p class="eyebrow">Matriz anual</p><h2>Infantil Level 2 mês a mês</h2><p>Distribuição pedagógica GSP considerando o calendário escolar brasileiro e a sequência real do Ready, Set, Grow! Level 2.</p></div>
+    <div class="month-list"><article class="month-card" id="mes-1">
+      <div class="month-top"><span>Fevereiro</span><strong>Welcome Unit · Our Friends</strong></div>
+      <p class="month-focus">Retomar vínculo, rotina e classroom language, preparando a turma para trabalhar com músicas, jogos, histórias e recursos visuais do Level 2.</p>
+      <div class="matrix-grid">
+        <div><h4>Language frames</h4><p>Hi! · Hello, friend! · This is my teacher · My turn / Your turn · Listen and say · Let’s play</p></div>
+        <div><h4>Vocabulário auditado</h4><p>hi, friend, teacher</p></div>
+        <div><h4>Ready, Set, Grow!</h4><p>Usar Welcome Unit com SB/WB para Vocabulary Presentation, Language Presentation e Language Practice. Quando houver mais tempo, acrescentar Flashcards, Presentation Plus, Teacher’s Resources e Routine Boards.</p></div>
+        <div><h4>Let’s Explore / extensão GSP</h4><p>Explorar identidade de grupo, combinados, saudações, amizade, papéis da sala e rotina de entrada/saída com objetos reais, música e brincadeiras.</p></div>
+        <div><h4>Evidências observáveis</h4><p>Participa das rotinas; cumprimenta; reconhece friend/teacher; responde a comandos previsíveis; aceita turn-taking.</p></div>
+        <div><h4>Registro mínimo</h4><p>Checklist de adaptação + foto/nota de participação na rotina.</p></div>
+      </div>
+    </article>
+<article class="month-card" id="mes-2">
+      <div class="month-top"><span>Março</span><strong>Unit 1 · Weather</strong></div>
+      <p class="month-focus">Observar e nomear condições climáticas, conectando linguagem oral, calendário, rotina e decisões simples de brincar/ficar em casa.</p>
+      <div class="matrix-grid">
+        <div><h4>Language frames</h4><p>Today, it’s... · Is it sunny/rainy/windy? · Yes, it is / No, it isn’t · Let’s go play · Let’s stay home</p></div>
+        <div><h4>Vocabulário auditado</h4><p>cloudy, cold, hot, rainy, snowy, sunny, windy</p></div>
+        <div><h4>Ready, Set, Grow!</h4><p>Priorizar Song Video, Vocabulary Practice, Language Video, Story Presentation e jogos de flashcards. Repetir pouco e frequentemente na rotina de calendário.</p></div>
+        <div><h4>Let’s Explore / extensão GSP</h4><p>Painel de weather, observação do céu, comparação hot/cold, dramatização de clima e escolhas de atividades conforme o tempo.</p></div>
+        <div><h4>Evidências observáveis</h4><p>Identifica clima por imagem; responde yes/no com apoio; participa do weather chart; relaciona clima a ação simples.</p></div>
+        <div><h4>Registro mínimo</h4><p>Weather chart semanal + observação individual de resposta oral/gestual.</p></div>
+      </div>
+    </article>
+<article class="month-card" id="mes-3">
+      <div class="month-top"><span>Abril</span><strong>Unit 2 · Family and Feelings</strong></div>
+      <p class="month-focus">Ampliar vocabulário de família e emoções, trabalhando reconhecimento de pessoas, estados emocionais e frases descritivas simples.</p>
+      <div class="matrix-grid">
+        <div><h4>Language frames</h4><p>This is my... · My aunt is happy/scared · My cousin isn’t sad · Look! · How do you feel?</p></div>
+        <div><h4>Vocabulário auditado</h4><p>aunt, baby, cousin, uncle, big sister, scared, surprised</p></div>
+        <div><h4>Ready, Set, Grow!</h4><p>Usar songs e language chants para associar família e emoção. Retomar story e Big Book para ampliar compreensão e participação.</p></div>
+        <div><h4>Let’s Explore / extensão GSP</h4><p>Jogo de emoções, fotos/desenhos de famílias diversas, role-play cuidadoso, cartões de sentimentos e roda de acolhimento.</p></div>
+        <div><h4>Evidências observáveis</h4><p>Reconhece membros da família; identifica scared/surprised; usa This is my... ou My... is... com apoio; respeita diferenças familiares.</p></div>
+        <div><h4>Registro mínimo</h4><p>Painel de sentimentos/família + frase observada ou escolha registrada.</p></div>
+      </div>
+    </article>
+<article class="month-card" id="mes-4">
+      <div class="month-top"><span>Maio</span><strong>Unit 3 · Places</strong></div>
+      <p class="month-focus">Nomear lugares da comunidade e da rotina infantil, usando linguagem de convite, preferência e localização funcional.</p>
+      <div class="matrix-grid">
+        <div><h4>Language frames</h4><p>Let’s go to the... · I like the... · It’s sunny/rainy · Where do you want to go?</p></div>
+        <div><h4>Vocabulário auditado</h4><p>beach, library, market, park, playground, pool, store/shop</p></div>
+        <div><h4>Ready, Set, Grow!</h4><p>Trabalhar Vocabulary Presentation, Song/Karaoke, Language Practice e Story para consolidar lugares antes de projetos e dramatizações.</p></div>
+        <div><h4>Let’s Explore / extensão GSP</h4><p>Mapa simples de lugares, trilhas de deslocamento, escolhas de destino, dramatização de passeio e comparação de lugares indoor/outdoor.</p></div>
+        <div><h4>Evidências observáveis</h4><p>Reconhece lugares; escolhe destino; usa Let’s go to... com apoio; conecta clima e lugar; participa de mapa/role-play.</p></div>
+        <div><h4>Registro mínimo</h4><p>Mapa visual coletivo + registro de preferência individual.</p></div>
+      </div>
+    </article>
+<article class="month-card" id="mes-5">
+      <div class="month-top"><span>Junho</span><strong>Unit 4 · Colours and Shapes</strong></div>
+      <p class="month-focus">Consolidar cores e formas do Level 2 com comandos de desenho, identificação visual e primeiras pistas de forma escrita nas histórias.</p>
+      <div class="matrix-grid">
+        <div><h4>Language frames</h4><p>Draw a... · Color the... · What color is it? · It is... · It’s a pink square</p></div>
+        <div><h4>Vocabulário auditado</h4><p>black, brown, pink, white, circle, square, triangle</p></div>
+        <div><h4>Ready, Set, Grow!</h4><p>Usar SB/WB, PP interactive activity, Flashcards e Story. A partir da Unit 4, observar speech bubbles nas histórias para reconhecimento inicial de frases.</p></div>
+        <div><h4>Let’s Explore / extensão GSP</h4><p>Classificação por cor/forma, desenho guiado, montagem de padrões, caça às formas na escola e produção artística.</p></div>
+        <div><h4>Evidências observáveis</h4><p>Segue comando draw/color; identifica cor e forma; combina cor+forma; começa a notar palavras/frases nos balões com apoio.</p></div>
+        <div><h4>Registro mínimo</h4><p>Produção visual guiada + anotação de comando compreendido.</p></div>
+      </div>
+    </article>
+<article class="month-card" id="mes-6">
+      <div class="month-top"><span>Agosto</span><strong>Unit 5 · Actions and Abilities</strong></div>
+      <p class="month-focus">Trabalhar ações corporais e habilidades, avançando para I can / I can’t em atividades com movimento e brincadeira.</p>
+      <div class="matrix-grid">
+        <div><h4>Language frames</h4><p>I can... · I can’t... · Let’s... · Can you...? · Sing with me!</p></div>
+        <div><h4>Vocabulário auditado</h4><p>catch, fly, jump, run, sing, swim, throw</p></div>
+        <div><h4>Ready, Set, Grow!</h4><p>Usar song, language video, story e jogos motores. Equilibrar períodos ativos e quietos conforme orientação Cambridge para pré-escola.</p></div>
+        <div><h4>Let’s Explore / extensão GSP</h4><p>Circuito motor, jogo de bola, charades, mímica de ações, classificação can/can’t e registro por desenho/foto.</p></div>
+        <div><h4>Evidências observáveis</h4><p>Executa ação a partir de comando; usa I can/I can’t com apoio; participa de jogos motores; respeita segurança e turn-taking.</p></div>
+        <div><h4>Registro mínimo</h4><p>Foto/vídeo curto de ação + checklist de compreensão/produção.</p></div>
+      </div>
+    </article>
+<article class="month-card" id="mes-7">
+      <div class="month-top"><span>Setembro</span><strong>Unit 6 · Home and Furniture</strong></div>
+      <p class="month-focus">Nomear móveis e objetos da casa/sala, trabalhando localização com preposições simples e perguntas Where’s...?</p>
+      <div class="matrix-grid">
+        <div><h4>Language frames</h4><p>I have a... · Where’s the...? · On the shelf · In the toy box · Under the bed</p></div>
+        <div><h4>Vocabulário auditado</h4><p>bed, chair, couch/sofa, floor, shelf, table, toy box</p></div>
+        <div><h4>Ready, Set, Grow!</h4><p>Explorar Language Video, Flashcards, Story e PP games para praticar localização. Repetir estruturas com objetos reais da sala.</p></div>
+        <div><h4>Let’s Explore / extensão GSP</h4><p>Montar cômodos com blocos, esconder objetos, organizar toy box/shelf, comparar sala e casa, desenhar um ambiente.</p></div>
+        <div><h4>Evidências observáveis</h4><p>Reconhece móveis; responde Where’s...? por gesto/palavra; usa on/in/under com apoio; organiza objetos seguindo instrução.</p></div>
+        <div><h4>Registro mínimo</h4><p>Foto de atividade de localização + frase/ação observada.</p></div>
+      </div>
+    </article>
+<article class="month-card" id="mes-8">
+      <div class="month-top"><span>Outubro</span><strong>Unit 7 · Homes and Nature</strong></div>
+      <p class="month-focus">Comparar tipos de moradia e elementos do entorno, usando adjetivos simples como big/small, new/old e vocabulário de natureza.</p>
+      <div class="matrix-grid">
+        <div><h4>Language frames</h4><p>This is a... · The tree is big · It isn’t small · The house is new · Look at our homes</p></div>
+        <div><h4>Vocabulário auditado</h4><p>apartment, house, pond, tree, yard/garden, new, old</p></div>
+        <div><h4>Ready, Set, Grow!</h4><p>Retomar song, language chant, story e cross-curricular video para conectar vocabulário de casa, natureza e comparação.</p></div>
+        <div><h4>Let’s Explore / extensão GSP</h4><p>Maquete de bairro, comparação de imagens, observação de árvores/pátio, classificação new/old e desenho de home/yard.</p></div>
+        <div><h4>Evidências observáveis</h4><p>Identifica house/apartment/pond/tree; usa big/small/new/old com apoio; compara imagens; participa de construção coletiva.</p></div>
+        <div><h4>Registro mínimo</h4><p>Maquete/desenho com legenda pedagógica + checklist de adjetivos reconhecidos.</p></div>
+      </div>
+    </article>
+<article class="month-card" id="mes-9">
+      <div class="month-top"><span>Novembro</span><strong>Units 8–9 · Food, Needs, Animals and Review</strong></div>
+      <p class="month-focus">Fechar o ano consolidando necessidades, alimentos, animais e características, com revisão integrada e portfólio de aprendizagem.</p>
+      <div class="matrix-grid">
+        <div><h4>Language frames</h4><p>I’m hungry/thirsty · Can I have..., please? · Do you like...? · It’s a... · It’s big/small/colorful/furry</p></div>
+        <div><h4>Vocabulário auditado</h4><p>beans, bread, grapes, pasta, water, hungry, thirsty, bee, elephant, monkey, parrot, snake, colorful, furry</p></div>
+        <div><h4>Ready, Set, Grow!</h4><p>Usar Units 8 e 9 com songs, language videos, story videos, cross-curricular videos e games; organizar revisão, evidências e celebração de aprendizagem.</p></div>
+        <div><h4>Let’s Explore / extensão GSP</h4><p>Gráfico de preferências alimentares, jogo Can I have...?, classificação de animais por característica, mini storytelling e portfólio.</p></div>
+        <div><h4>Evidências observáveis</h4><p>Expressa fome/sede; pede alimento com apoio; reconhece animais; descreve característica; revisa vocabulário do ano com mais confiança.</p></div>
+        <div><h4>Registro mínimo</h4><p>Portfólio com 4 evidências + comentário sobre linguagem, participação e prontidão para Level 3.</p></div>
+      </div>
+    </article></div>
+  </section>
+
+  <section class="section assessment-box" id="avaliacao-global">
+    <div class="section-heading compact"><p class="eyebrow">Avaliação Global GSP</p><h2>Verificação trimestral Cambridge-like</h2><p>A avaliação deve ser prática, observável e adequada à Educação Infantil. A auditoria das Assessment Worksheets e Teaching Notes confirmou cinco eixos formais: Vocabulary, Language, Sounds, Numbers e School Readiness, além de registros de assessment e observação contínua.</p></div>
+    <div class="assessment-columns"><article><strong>Vocabulary</strong><p>Say: produção de 4 itens da unidade. Listen: compreensão de 1 item adicional por circle/check.</p></article><article><strong>Language</strong><p>Listen como modelo e Say para produção de uma frase-alvo com apoio, prática prévia e observação docente.</p></article><article><strong>Sounds</strong><p>Color/Say para reconhecer forma da letra e produzir o som trabalhado; há versão lowercase e uppercase.</p></article><article><strong>Numbers</strong><p>Count/Say para contar elementos da imagem e dizer a sequência até o novo número.</p></article><article><strong>School Readiness</strong><p>Look/Draw para demonstrar compreensão da habilidade socioemocional/preparatória da unidade.</p></article><article><strong>Observation record</strong><p>Registro contínuo inclui vocabulary, language, sounds, numbers, story, cross-curricular topic, school readiness e foco próprio do professor.</p></article></div>
+  </section>
+
+  <section class="section assessment-box" id="avaliacao-t1">
+    <div class="section-heading compact"><p class="eyebrow">Modelo trimestral · Level 2 / EY2</p><h2>1º trimestre · Welcome + Units 1–3</h2><p>Modelo-piloto baseado na sequência auditada: rotina, clima, família/emoções e lugares.</p></div>
+    <table class="rubric-table"><thead><tr><th>Momento observado</th><th>Proposta prática</th><th>O professor observa se a criança...</th></tr></thead><tbody>
+      <tr><td>1. Hello/weather routine</td><td>Hello song, weather chart e perguntas Is it sunny/rainy/windy?</td><td>Responde à rotina, identifica clima e participa com gesto/palavra/frase apoiada.</td></tr>
+      <tr><td>2. Flashcard game</td><td>Jogo com cards de weather, family/feelings e places.</td><td>Reconhece, escolhe, agrupa ou nomeia vocabulário-chave.</td></tr>
+      <tr><td>3. Language chant</td><td>Chant curto com yes/no, This is my..., Let’s go to...</td><td>Acompanha ritmo, repete chunks e completa respostas com apoio.</td></tr>
+      <tr><td>4. Hands-on task</td><td>Montar mapa simples de lugares ou painel de clima/emoções.</td><td>Segue instruções, faz escolhas e comunica preferência/observação.</td></tr>
+      <tr><td>5. SEL</td><td>Observação transversal.</td><td>Espera a vez, coopera, pede ajuda e demonstra confiança para tentar.</td></tr>
+    </tbody></table>
+  </section>
+
+  <section class="section" id="relatorio-base">
+    <div class="section-heading"><p class="eyebrow">Base para relatório individualizado</p><h2>Como transformar evidências em comunicação</h2></div>
+    <div class="report-grid"><article class="report-card"><h3>O aluno já demonstra</h3><p>Compreensão de comandos, vocabulário reconhecido, participação em músicas/histórias e tentativa de frases curtas.</p></article><article class="report-card"><h3>Próximo passo</h3><p>Um frame, tema ou comportamento observável a fortalecer no próximo ciclo.</p></article><article class="report-card"><h3>Plano de apoio</h3><p>Retomada com flashcards, visual support, pequenos grupos, games e repetição frequente.</p></article></div>
+  </section>
+
+  <section class="section assessment-box" id="gerador-report-card">
+    <div class="note-box">
+      <h2>Gerador digital do report card</h2>
+      <p>O Level 2 já tem base pedagógica e critérios de avaliação alinhados. O gerador digital específico de EY2 deve ser criado depois, reaproveitando o modelo validado do Level 1 e adaptando descritores, unidades e evidências.</p>
+      <div class="brand-report-grid" aria-label="Geradores de report card por marca">
+        <div class="brand-report-card disabled" aria-disabled="true"><div><strong>Objetivo</strong><span>Level 2 · EY2 · Term 1</span></div><span class="status">Em breve</span></div>
+        <div class="brand-report-card disabled" aria-disabled="true"><div><strong>CJA</strong><span>Level 2 · EY2 · Term 1</span></div><span class="status">Em breve</span></div>
+        <div class="brand-report-card disabled" aria-disabled="true"><div><strong>Marupiara</strong><span>Level 2 · EY2 · Term 1</span></div><span class="status">Em breve</span></div>
+        <div class="brand-report-card disabled" aria-disabled="true"><div><strong>Santo Anjo</strong><span>Level 2 · EY2 · Term 1</span></div><span class="status">Em breve</span></div>
+        <div class="brand-report-card disabled" aria-disabled="true"><div><strong>CCPA</strong><span>Level 2 · EY2 · Term 1</span></div><span class="status">Em breve</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="materiais">
+    <div class="section-heading"><p class="eyebrow">Materiais-base</p><h2>Onde buscar os recursos</h2><p>Use as plataformas oficiais Cambridge e as pastas internas autorizadas. O portal aponta o uso pedagógico; não substitui os recursos oficiais.</p></div>
+    <div class="materials-grid"><article class="material-card"><h3>Ready, Set, Grow! Level 2</h3><p>Flashcards, mini word cards, home practice, learner resources, worksheets, Teacher’s Resources e orientações de carga horária.</p><a href="https://drive.google.com/drive/folders/18LntRyXTb-iro4N1K4etg0IzZ2C7FdHP" target="_blank" rel="noopener">Abrir pasta Level 2 no Drive</a></article><article class="material-card"><h3>Cambridge One / GO</h3><p>Plataformas oficiais para consulta dos recursos digitais, vídeos, jogos e componentes Cambridge disponíveis à escola.</p><a href="https://www.cambridgeone.org/" target="_blank" rel="noopener">Acessar Cambridge One</a></article></div>
+  </section>
+</main>
+<footer class="footer"><strong>Portal dos Professores Bilíngues · GSP</strong><span>Level 2 / EY2 · Matriz anual auditada e validada · Projeto Bilíngue 2027</span></footer>
+</body>
+</html>
