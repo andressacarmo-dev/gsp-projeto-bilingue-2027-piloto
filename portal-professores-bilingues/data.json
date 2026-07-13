@@ -144,7 +144,7 @@
       "name": "Educação Infantil",
       "tagline": "Early Years · entregas esperadas, progressão, avaliação global e estratégias pedagógicas integradas aos materiais Cambridge",
       "driveUrl": "https://drive.google.com/drive/folders/1X7_omFKM7hn4lIIgS3OWW7ol1rL_rFn7?usp=sharing",
-      "status": "Piloto pedagógico em Level 1 / EY1 com matriz anual, progressão e avaliação trimestral",
+      "status": "Piloto pedagógico em Level 1 completo; Level 2 com matriz anual auditada e validada a partir dos materiais reais Cambridge.",
       "disciplines": [
         {
           "name": "Cambridge Level 1 - Matriz anual GSP",
@@ -165,8 +165,8 @@
         },
         {
           "name": "Cambridge Level 2 - Matriz anual GSP",
-          "stage": "A replicar após validação do formato EY1: progressão, avaliação trimestral e estratégias para 4–5 anos.",
-          "localHtml": "https://drive.google.com/drive/folders/18LntRyXTb-iro4N1K4etg0IzZ2C7FdHP",
+          "stage": "Matriz anual GSP auditada e validada com materiais reais do Ready, Set, Grow! Level 2: orientação de horas, flashcards, mini word cards, home practice script, assessment worksheets Units 1–9, teaching notes, assessment recording sheets e observation records.",
+          "localHtml": "pages/infantil-level-2-ey2.html",
           "resources": [
             {
               "label": "Ready, Set, Grow! Level 2 — recursos oficiais",
