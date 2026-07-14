@@ -24,9 +24,12 @@
     .anchor-months { max-width:1180px; margin:0 auto 32px; display:flex; flex-wrap:wrap; gap:8px; }
     .anchor-months a { text-decoration:none; color:var(--navy); background:white; border:1px solid var(--line); padding:9px 12px; border-radius:999px; font-weight:800; font-size:13px; box-shadow:0 10px 24px rgba(7,27,79,.06); }
     .teacher-note,.standard-box,.source-box { background:white; border:1px solid var(--line); border-radius:28px; padding:clamp(22px,4vw,36px); box-shadow:0 14px 38px rgba(7,27,79,.08); }
-    .standard-grid,.source-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; }
+    .standard-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+    .source-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; }
     .standard-grid article,.source-grid article { border-radius:22px; padding:20px; background:#f7f9ff; border:1px solid rgba(30,85,179,.12); }
     .standard-grid article:nth-child(2),.source-grid article:nth-child(2) { background:#fff8f2; border-color:rgba(200,16,46,.12); }
+    .standard-grid article:nth-child(3) { background:#f4fbf5; border-color:rgba(46,157,120,.14); }
+    .standard-grid article:nth-child(4) { background:#fffaf0; border-color:rgba(242,183,5,.18); }
     .month-list { display:grid; gap:22px; }
     .month-card { background:white; border:1px solid var(--line); border-radius:30px; overflow:hidden; box-shadow:0 16px 44px rgba(7,27,79,.09); }
     .month-top { display:grid; grid-template-columns:150px 1fr; gap:16px; align-items:center; background:linear-gradient(135deg,var(--navy),var(--royal)); color:white; padding:18px 22px; }
@@ -106,7 +109,12 @@
 
   <section class="section standard-box">
     <div class="section-heading compact"><p class="eyebrow">Modelo GSP</p><h2>O que padroniza e o que adapta</h2></div>
-    <div class="standard-grid"><article><h3>Obrigatório seguir</h3><p>Sequência de unidades, vocabulário auditado, language frames, rotina de aula, evidências mínimas, progressão trimestral e rubrica comum.</p></article><article><h3>Adaptável pela escola</h3><p>Projetos locais, exemplos próximos à comunidade, ordem de algumas extensões, materiais concretos e tempo dedicado conforme carga horária disponível.</p></article></div>
+    <div class="standard-grid">
+      <article><h3>Obrigatório seguir</h3><p>Objetivos do mês, linguagem funcional, sequência pedagógica, evidências observáveis, rotina base e critérios da rubrica.</p></article>
+      <article><h3>Adaptável pela escola</h3><p>Exemplos locais, materiais concretos, projetos complementares, ordem de algumas atividades e conexões com eventos da unidade.</p></article>
+      <article><h3>Evidência mínima</h3><p>Registrar participação, compreensão, vocabulário reconhecido e tentativas de comunicação por meio de foto, checklist, fala observada ou produção da criança.</p></article>
+      <article><h3>Comunicação com famílias</h3><p>Traduzir o desenvolvimento em linguagem clara, afetiva e consistente, mantendo foco em repertório, participação e autonomia progressiva.</p></article>
+    </div>
   </section>
 
   <section class="section" id="rotina">
