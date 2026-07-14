@@ -89,14 +89,21 @@ function renderSegments(segments) {
     tab.addEventListener('click', () => selectSegment(segment.id));
     tabs.appendChild(tab);
 
-    const cards = segment.disciplines.map((discipline) => `
+    const cards = segment.disciplines.map((discipline) => {
+      const hasTitleLink = discipline.localHtml && !discipline.localHtml.startsWith('../../');
+      const title = hasTitleLink
+        ? `<a class="discipline-title-link" href="${discipline.localHtml}" target="_blank" rel="noopener">${discipline.name}</a>`
+        : discipline.name;
+
+      return `
       <article class="discipline-card">
-        <h3>${discipline.name}</h3>
+        <h3>${title}</h3>
         <p>${discipline.stage}</p>
-        ${discipline.localHtml && !discipline.localHtml.startsWith('../../') ? `<a href="${discipline.localHtml}" target="_blank" rel="noopener">Abrir material-base</a>` : `<span class="status">Material-base a integrar</span>`}
+        ${!hasTitleLink ? `<span class="status">Material-base a integrar</span>` : ''}
         ${renderResourceLinks(discipline)}
       </article>
-    `).join('');
+    `;
+    }).join('');
 
     const panel = el('article', `segment-panel ${index === 0 ? 'active' : ''}`, `
       <div class="segment-head">
