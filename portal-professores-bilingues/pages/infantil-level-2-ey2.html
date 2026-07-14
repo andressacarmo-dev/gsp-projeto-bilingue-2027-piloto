@@ -52,8 +52,26 @@
     .material-card a { display:inline-flex; margin-top:10px; color:var(--royal); font-weight:900; text-decoration:none; }
     .note-box { background:#fff8f2; border-left:6px solid var(--red); border-radius:22px; padding:22px; color:var(--ink); }
     .brand-report-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; margin-top:18px; }
-    .brand-report-card { text-decoration:none; color:var(--ink); background:white; border:1px solid var(--line); border-radius:18px; padding:16px; min-height:110px; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 10px 24px rgba(7,27,79,.07); opacity:.72; }
-    .brand-report-card.active { opacity:1; border-color:rgba(30,85,179,.35); } .brand-report-card strong { display:block; } .brand-report-card span { color:var(--muted); font-size:13px; } .brand-report-card .status { color:var(--royal); font-weight:900; margin-top:12px; }
+    .brand-report-card { background:white; border:1px solid var(--line); border-radius:22px; padding:18px; min-height:150px; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 12px 30px rgba(7,27,79,.07); text-decoration:none; color:var(--ink); }
+    .brand-report-card strong { display:block; color:var(--navy); font-size:18px; margin-bottom:8px; }
+    .brand-report-card span { display:block; color:var(--muted); font-size:12px; }
+    .brand-report-card .status { display:inline-flex; align-self:flex-start; margin-top:14px; border-radius:999px; padding:7px 10px; background:#e7f7ef; color:#177451; font-size:10px; font-weight:900; text-transform:uppercase; letter-spacing:.08em; }
+    .brand-report-card.disabled { opacity:.66; cursor:not-allowed; background:#f8fafc; }
+    .brand-report-card.disabled .status { background:#eef2f7; color:var(--muted); }
+    .brand-report-card.active { border-top:6px solid var(--red); }
+    .brand-report-card.active:hover { transform:translateY(-2px); box-shadow:0 16px 38px rgba(7,27,79,.11); }
+    #gerador-report-card { position:relative; overflow:hidden; background:radial-gradient(circle at 88% 18%, rgba(255,255,255,.34), transparent 24%), linear-gradient(135deg,#0f7f55,#23a06f 48%,#74c947); border:0; box-shadow:0 24px 60px rgba(15,127,85,.28); }
+    #gerador-report-card:before { content:""; position:absolute; inset:16px; border:2px dashed rgba(255,255,255,.38); border-radius:24px; pointer-events:none; }
+    #gerador-report-card:after { content:"PDF"; position:absolute; right:26px; top:20px; color:rgba(255,255,255,.20); font-size:72px; font-weight:900; letter-spacing:.04em; transform:rotate(8deg); }
+    #gerador-report-card .note-box { position:relative; z-index:1; background:rgba(255,255,255,.92); border-left:0; border:2px solid rgba(255,255,255,.80); box-shadow:0 18px 42px rgba(7,27,79,.16); }
+    #gerador-report-card .note-box h2 { display:flex; align-items:center; gap:10px; color:#0f6f4d; font-size:clamp(26px,3vw,36px); margin-bottom:8px; }
+    #gerador-report-card .note-box h2:before { content:"📄"; display:inline-flex; align-items:center; justify-content:center; width:46px; height:46px; border-radius:16px; background:#dff7df; box-shadow:inset 0 0 0 2px rgba(35,160,111,.20); font-size:25px; }
+    #gerador-report-card .note-box p { color:#31564a; font-weight:600; max-width:920px; }
+    #gerador-report-card .brand-report-card { border:2px solid rgba(35,160,111,.14); box-shadow:0 14px 30px rgba(15,127,85,.13); }
+    #gerador-report-card .brand-report-card.active { border-top:0; background:linear-gradient(180deg,#ffffff,#efffed); outline:3px solid rgba(255,255,255,.78); box-shadow:0 18px 38px rgba(15,127,85,.22); }
+    #gerador-report-card .brand-report-card.active strong { color:#0f6f4d; }
+    #gerador-report-card .brand-report-card.active .status { background:linear-gradient(135deg,#0f7f55,#32b77c); color:white; box-shadow:0 8px 18px rgba(15,127,85,.25); }
+    #gerador-report-card .brand-report-card.disabled { background:rgba(255,255,255,.72); }
     @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.source-grid,.matrix-grid,.routine-strip,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.materials-grid,.brand-report-grid { grid-template-columns:1fr; } .month-top { grid-template-columns:1fr; } }
   </style>
 </head>
@@ -263,13 +281,28 @@
   <section class="section assessment-box" id="gerador-report-card">
     <div class="note-box">
       <h2>Gerador digital do report card</h2>
-      <p>O gerador digital de Level 2 reaproveita o modelo validado do Level 1, com identidade visual ajustada para o Level 2 e descritores adaptados aos objetivos do Term 1.</p>
+      <p>Escolha a marca da sua escola para preencher a ficha digital e gerar o report card familiar em PDF. Nesta fase de MVP, apenas Objetivo está ativo; as demais marcas entram após inserirmos os logos e personalizações visuais.</p>
       <div class="brand-report-grid" aria-label="Geradores de report card por marca">
-        <a class="brand-report-card active" href="report-card-objetivo-level2-term1.html"><div><strong>Objetivo</strong><span>Level 2 · Term 1</span></div><span class="status">Disponível</span></a>
-        <div class="brand-report-card disabled" aria-disabled="true"><div><strong>CJA</strong><span>Level 2 · Term 1</span></div><span class="status">Em breve</span></div>
-        <div class="brand-report-card disabled" aria-disabled="true"><div><strong>Marupiara</strong><span>Level 2 · Term 1</span></div><span class="status">Em breve</span></div>
-        <div class="brand-report-card disabled" aria-disabled="true"><div><strong>Santo Anjo</strong><span>Level 2 · Term 1</span></div><span class="status">Em breve</span></div>
-        <div class="brand-report-card disabled" aria-disabled="true"><div><strong>CCPA</strong><span>Level 2 · Term 1</span></div><span class="status">Em breve</span></div>
+        <a class="brand-report-card active" href="report-card-objetivo-level2-term1.html">
+          <div><strong>Objetivo</strong><span>Level 2 · Kindergarten · Term 1</span></div>
+          <span class="status">Acessar gerador</span>
+        </a>
+        <div class="brand-report-card disabled" aria-disabled="true">
+          <div><strong>CJA</strong><span>Level 2 · Kindergarten · Term 1</span></div>
+          <span class="status">Em breve</span>
+        </div>
+        <div class="brand-report-card disabled" aria-disabled="true">
+          <div><strong>Marupiara</strong><span>Level 2 · Kindergarten · Term 1</span></div>
+          <span class="status">Em breve</span>
+        </div>
+        <div class="brand-report-card disabled" aria-disabled="true">
+          <div><strong>Santo Anjo</strong><span>Level 2 · Kindergarten · Term 1</span></div>
+          <span class="status">Em breve</span>
+        </div>
+        <div class="brand-report-card disabled" aria-disabled="true">
+          <div><strong>CCPA</strong><span>Level 2 · Kindergarten · Term 1</span></div>
+          <span class="status">Em breve</span>
+        </div>
       </div>
     </div>
   </section>
