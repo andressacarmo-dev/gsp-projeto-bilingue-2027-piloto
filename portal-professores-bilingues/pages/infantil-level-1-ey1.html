@@ -51,6 +51,8 @@
     .note-box { background:#fff8f2; border-left:6px solid var(--red); border-radius:22px; padding:22px; color:var(--ink); }
 
     .quarter-grid, .project-grid, .strategy-grid, .report-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .bimester-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:22px; }
+    .progression-group-title { margin:22px 0 12px; color:var(--navy); font-size:18px; }
     .quarter-card, .project-card, .strategy-card, .report-card { background:white; border:1px solid var(--line); border-radius:24px; padding:22px; box-shadow:0 12px 34px rgba(7,27,79,.08); }
     .quarter-card { border-top:6px solid var(--royal); }
     .project-card { border-top:6px solid var(--red); }
@@ -83,7 +85,7 @@
     #gerador-report-card .brand-report-card.active strong { color:#0f6f4d; }
     #gerador-report-card .brand-report-card.active .status { background:linear-gradient(135deg,#0f7f55,#32b77c); color:white; box-shadow:0 8px 18px rgba(15,127,85,.25); }
     #gerador-report-card .brand-report-card.disabled { background:rgba(255,255,255,.72); }
-    @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.matrix-grid,.routine-strip,.materials-grid,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.brand-report-grid { grid-template-columns:1fr; } .month-top { grid-template-columns:1fr; } }
+    @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.matrix-grid,.routine-strip,.materials-grid,.quarter-grid,.bimester-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.brand-report-grid { grid-template-columns:1fr; } .month-top { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -141,7 +143,15 @@
   </section>
 
 <section class="section" id="progressao">
-    <div class="section-heading"><p class="eyebrow">Progressão esperada</p><h2>O que deve evoluir a cada trimestre</h2><p>A progressão ajuda a GSP a enxergar se a criança está apenas “fazendo atividades” ou se está desenvolvendo participação, compreensão, linguagem e autonomia.</p></div>
+    <div class="section-heading"><p class="eyebrow">Progressão esperada</p><h2>O que deve evoluir a cada bimestre / trimestre</h2><p>A progressão ajuda a GSP a enxergar se a criança está apenas “fazendo atividades” ou se está desenvolvendo participação, compreensão, linguagem e autonomia. Use a linha correspondente ao calendário avaliativo da escola.</p></div>
+    <h3 class="progression-group-title">Escolas bimestrais · 4 termos</h3>
+    <div class="bimester-grid">
+      <article class="quarter-card"><h3>T1 · Adaptação</h3><p>Foco em segurança afetiva, vínculo com a rotina bilíngue e resposta inicial.</p><ul><li>Participa de músicas e momentos coletivos.</li><li>Responde com olhar, gesto ou movimento.</li><li>Começa a reconhecer combinados e classroom language.</li></ul></article>
+      <article class="quarter-card"><h3>T2 · Rotina</h3><p>Foco em previsibilidade, comandos simples e participação com mais familiaridade.</p><ul><li>Responde a comandos recorrentes com apoio.</li><li>Reconhece vocabulário de rotina, sala e temas iniciais.</li><li>Aceita mediação e começa a esperar a vez.</li></ul></article>
+      <article class="quarter-card"><h3>T3 · Ampliação e interação</h3><p>Foco em vocabulário, escolhas, interação guiada e primeiras tentativas comunicativas.</p><ul><li>Nomeia objetos/imagens com apoio.</li><li>Expressa preferência com gesto, palavra ou frase curta.</li><li>Participa de histórias, jogos e projetos sensoriais.</li></ul></article>
+      <article class="quarter-card"><h3>T4 · Consolidação e autonomia</h3><p>Foco em retomada, pequenas produções e comunicação com mais confiança.</p><ul><li>Reconhece vocabulário de diferentes temas.</li><li>Usa language frames curtos com apoio.</li><li>Demonstra prontidão para avançar ao próximo nível.</li></ul></article>
+    </div>
+    <h3 class="progression-group-title">Escolas trimestrais · 3 termos</h3>
     <div class="quarter-grid">
       <article class="quarter-card"><h3>T1 · Adaptação e rotina</h3><p>Foco em segurança afetiva, participação e resposta inicial.</p><ul><li>Participa de músicas e comandos simples.</li><li>Responde com olhar, gesto, movimento ou palavra.</li><li>Reconhece vocabulário de rotina e sala.</li><li>Aceita apoio do adulto e começa a esperar a vez.</li></ul></article>
       <article class="quarter-card"><h3>T2 · Ampliação e interação</h3><p>Foco em vocabulário, escolhas e interação guiada.</p><ul><li>Nomeia objetos/imagens com apoio.</li><li>Expressa preferência com gesto, palavra ou frase curta.</li><li>Participa de histórias, jogos e projetos sensoriais.</li><li>Começa a conectar inglês a experiências reais.</li></ul></article>
