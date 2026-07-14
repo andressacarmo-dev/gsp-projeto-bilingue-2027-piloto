@@ -434,6 +434,16 @@ ul { padding-left: 18px; color: var(--muted); }
   font-weight: 900;
   text-decoration: none;
 }
+.discipline-card h3 a.discipline-title-link {
+  display: inline;
+  margin-top: 0;
+  color: var(--navy);
+  text-decoration: none;
+}
+.discipline-card h3 a.discipline-title-link:hover {
+  color: var(--royal);
+  text-decoration: underline;
+}
 .resource-list {
   display: grid;
   gap: 8px;
