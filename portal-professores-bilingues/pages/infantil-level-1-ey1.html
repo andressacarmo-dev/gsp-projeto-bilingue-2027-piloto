@@ -68,7 +68,9 @@
     .assessment-columns { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:18px; }
     .assessment-columns article { background:white; border:1px solid var(--line); border-radius:22px; padding:20px; }
     .assessment-columns strong { display:inline-flex; color:var(--red); margin-bottom:8px; text-transform:uppercase; letter-spacing:.08em; font-size:12px; }
-    .brand-report-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; margin-top:18px; }
+    .school-report-group { margin-top:22px; }
+    .school-report-title { margin:0 0 12px; color:#0f6f4d; font-size:18px; font-weight:900; text-align:center; }
+    .brand-report-grid { display:grid; grid-template-columns:repeat(4,minmax(180px,1fr)); gap:12px; margin:0 auto; max-width:980px; justify-content:center; }
     .brand-report-card { background:white; border:1px solid var(--line); border-radius:22px; padding:18px; min-height:150px; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 12px 30px rgba(7,27,79,.07); text-decoration:none; color:var(--ink); }
     .brand-report-card strong { display:block; color:var(--navy); font-size:18px; margin-bottom:8px; }
     .brand-report-card span { display:block; color:var(--muted); font-size:12px; }
@@ -89,7 +91,7 @@
     #gerador-report-card .brand-report-card.active strong { color:#0f6f4d; }
     #gerador-report-card .brand-report-card.active .status { background:linear-gradient(135deg,#0f7f55,#32b77c); color:white; box-shadow:0 8px 18px rgba(15,127,85,.25); }
     #gerador-report-card .brand-report-card.disabled { background:rgba(255,255,255,.72); }
-    @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.matrix-grid,.routine-strip,.materials-grid,.quarter-grid,.bimester-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.brand-report-grid { grid-template-columns:1fr; } .month-top { grid-template-columns:1fr; } }
+    @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.matrix-grid,.routine-strip,.materials-grid,.quarter-grid,.bimester-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.brand-report-grid { grid-template-columns:1fr; } .brand-report-grid { max-width:520px; } .month-top { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -344,39 +346,47 @@
       <h2>Gerador digital do report card</h2>
       <p>Para escolas bimestrais, escolha a marca e o term correspondente para preencher a ficha digital e gerar o report card familiar em PDF. Cada gerador usa o mesmo layout visual, mas traz o logo da escola e conteúdo próprio do período trabalhado.</p>
       <h3>Escolas bimestrais · 4 terms</h3>
-      <div class="brand-report-grid" aria-label="Geradores de report card bimestrais por escola e term">
-        <a class="brand-report-card active" href="report-card-objetivo-level1-term1.html">
-          <div><strong>Objetivo · Term 1</strong><span>Welcome Unit + Unit 1 · identidade, rotina, família, corpo e sentidos</span></div>
-          <span class="status">Acessar gerador</span>
-        </a>
-        <a class="brand-report-card active" href="report-card-objetivo-level1-term2.html">
-          <div><strong>Objetivo · Term 2</strong><span>Units 2–3 · cores, formas, materiais, natureza, plantas e cuidado</span></div>
-          <span class="status">Acessar gerador</span>
-        </a>
-        <a class="brand-report-card active" href="report-card-objetivo-level1-term3.html">
-          <div><strong>Objetivo · Term 3</strong><span>Units 4–5 · animais, movimento, alimentação, hábitos saudáveis e bem-estar</span></div>
-          <span class="status">Acessar gerador</span>
-        </a>
-        <a class="brand-report-card active" href="report-card-objetivo-level1-term4.html">
-          <div><strong>Objetivo · Term 4</strong><span>Units 6–8 · comunidade, clima, revisão, portfólio e celebração</span></div>
-          <span class="status">Acessar gerador</span>
-        </a>
-        <a class="brand-report-card active" href="report-card-ccpa-level1-term1.html">
-          <div><strong>CCPA · Term 1</strong><span>Welcome Unit + Unit 1 · identidade, rotina, família, corpo e sentidos</span></div>
-          <span class="status">Acessar gerador</span>
-        </a>
-        <a class="brand-report-card active" href="report-card-ccpa-level1-term2.html">
-          <div><strong>CCPA · Term 2</strong><span>Units 2–3 · cores, formas, materiais, natureza, plantas e cuidado</span></div>
-          <span class="status">Acessar gerador</span>
-        </a>
-        <a class="brand-report-card active" href="report-card-ccpa-level1-term3.html">
-          <div><strong>CCPA · Term 3</strong><span>Units 4–5 · animais, movimento, alimentação, hábitos saudáveis e bem-estar</span></div>
-          <span class="status">Acessar gerador</span>
-        </a>
-        <a class="brand-report-card active" href="report-card-ccpa-level1-term4.html">
-          <div><strong>CCPA · Term 4</strong><span>Units 6–8 · comunidade, clima, revisão, portfólio e celebração</span></div>
-          <span class="status">Acessar gerador</span>
-        </a>
+      <div class="school-report-group">
+        <h4 class="school-report-title">Objetivo</h4>
+        <div class="brand-report-grid" aria-label="Geradores de report card do Objetivo por term">
+          <a class="brand-report-card active" href="report-card-objetivo-level1-term1.html">
+            <div><strong>Term 1</strong><span>Welcome Unit + Unit 1 · identidade, rotina, família, corpo e sentidos</span></div>
+            <span class="status">Acessar gerador</span>
+          </a>
+          <a class="brand-report-card active" href="report-card-objetivo-level1-term2.html">
+            <div><strong>Term 2</strong><span>Units 2–3 · cores, formas, materiais, natureza, plantas e cuidado</span></div>
+            <span class="status">Acessar gerador</span>
+          </a>
+          <a class="brand-report-card active" href="report-card-objetivo-level1-term3.html">
+            <div><strong>Term 3</strong><span>Units 4–5 · animais, movimento, alimentação, hábitos saudáveis e bem-estar</span></div>
+            <span class="status">Acessar gerador</span>
+          </a>
+          <a class="brand-report-card active" href="report-card-objetivo-level1-term4.html">
+            <div><strong>Term 4</strong><span>Units 6–8 · comunidade, clima, revisão, portfólio e celebração</span></div>
+            <span class="status">Acessar gerador</span>
+          </a>
+        </div>
+      </div>
+      <div class="school-report-group">
+        <h4 class="school-report-title">CCPA</h4>
+        <div class="brand-report-grid" aria-label="Geradores de report card do CCPA por term">
+          <a class="brand-report-card active" href="report-card-ccpa-level1-term1.html">
+            <div><strong>Term 1</strong><span>Welcome Unit + Unit 1 · identidade, rotina, família, corpo e sentidos</span></div>
+            <span class="status">Acessar gerador</span>
+          </a>
+          <a class="brand-report-card active" href="report-card-ccpa-level1-term2.html">
+            <div><strong>Term 2</strong><span>Units 2–3 · cores, formas, materiais, natureza, plantas e cuidado</span></div>
+            <span class="status">Acessar gerador</span>
+          </a>
+          <a class="brand-report-card active" href="report-card-ccpa-level1-term3.html">
+            <div><strong>Term 3</strong><span>Units 4–5 · animais, movimento, alimentação, hábitos saudáveis e bem-estar</span></div>
+            <span class="status">Acessar gerador</span>
+          </a>
+          <a class="brand-report-card active" href="report-card-ccpa-level1-term4.html">
+            <div><strong>Term 4</strong><span>Units 6–8 · comunidade, clima, revisão, portfólio e celebração</span></div>
+            <span class="status">Acessar gerador</span>
+          </a>
+        </div>
       </div>
     </div>
   </section>
