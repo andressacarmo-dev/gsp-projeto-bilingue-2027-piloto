@@ -73,11 +73,11 @@
     {
       "id": "progressao",
       "title": "Progressão de aprendizagem",
-      "eyebrow": "Do mês ao trimestre",
+      "eyebrow": "Do mês ao term",
       "description": "Organiza a evolução esperada dos alunos para permitir acompanhamento entre turmas e escolas.",
       "status": "Estrutura trimestral em criação",
       "items": [
-        "Progressão T1, T2 e T3",
+        "Progressão bimestral e trimestral",
         "Indicadores de autonomia",
         "Crescimento em listening/speaking",
         "Social-emotional learning e investigação"
