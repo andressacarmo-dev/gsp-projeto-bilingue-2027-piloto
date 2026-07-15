@@ -8,7 +8,7 @@ function el(tag, className, html) {
 }
 
 async function init() {
-  const response = await fetch('data.json?v=20260715-architecture-status-removed');
+  const response = await fetch('data.json?v=20260715-infantil-cards-simplified');
   const data = await response.json();
 
   $('#portal-title').textContent = data.portal.title;
@@ -98,7 +98,7 @@ function renderSegments(segments) {
       return `
       <article class="discipline-card">
         <h3>${title}</h3>
-        <p>${discipline.stage}</p>
+        ${discipline.stage ? `<p>${discipline.stage}</p>` : ''}
         ${!hasTitleLink ? `<span class="status">Material-base a integrar</span>` : ''}
         ${renderResourceLinks(discipline)}
       </article>
