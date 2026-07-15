@@ -8,7 +8,7 @@ function el(tag, className, html) {
 }
 
 async function init() {
-  const response = await fetch('data.json?v=20260715-infantil-cards-simplified');
+  const response = await fetch('data.json?v=20260715-level3-page');
   const data = await response.json();
 
   $('#portal-title').textContent = data.portal.title;
