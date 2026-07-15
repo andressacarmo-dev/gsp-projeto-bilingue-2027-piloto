@@ -97,20 +97,6 @@
       ]
     },
     {
-      "id": "avaliacao",
-      "title": "Avaliação Global GSP",
-      "eyebrow": "Cambridge-like",
-      "description": "Avaliações globais padronizadas para identificar progresso, lacunas e necessidades de apoio docente.",
-      "status": "Arquitetura pronta para desenho dos instrumentos",
-      "items": [
-        "Listening/responding",
-        "Vocabulary recognition",
-        "Speaking attempt",
-        "Task performance",
-        "Social-emotional learning"
-      ]
-    },
-    {
       "id": "estrategias",
       "title": "Estratégias pedagógicas",
       "eyebrow": "Teacher support",
