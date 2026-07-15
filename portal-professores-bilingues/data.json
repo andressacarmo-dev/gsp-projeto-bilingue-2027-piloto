@@ -1,7 +1,7 @@
 {
   "portal": {
     "title": "Portal dos Professores Bilíngues",
-    "subtitle": "Sistema pedagógico GSP para organizar entregas esperadas, progressão de aprendizagem, avaliação trimestral, evidências e relatórios individualizados.",
+    "subtitle": "Sistema pedagógico GSP para organizar entregas esperadas, progressão de aprendizagem, avaliação global, evidências e relatórios individualizados.",
     "status": "MVP pedagógico — arquitetura GSP sobre materiais Cambridge",
     "updatedAt": "2026-07-07",
     "purpose": "Um portal para orientar o que precisa ser entregue pedagogicamente em cada nível, mês e trimestre, sem duplicar o portal Cambridge: marcos de desenvolvimento, estratégias docentes, avaliações padronizadas e relatórios de aprendizagem."
@@ -338,7 +338,7 @@
     },
     {
       "title": "Registrar e medir progresso",
-      "description": "Coletar evidências, aplicar avaliação trimestral e transformar dados em plano de ação e relatório."
+      "description": "Coletar evidências, aplicar avaliação global e transformar dados em plano de ação e relatório."
     }
   ]
 }
