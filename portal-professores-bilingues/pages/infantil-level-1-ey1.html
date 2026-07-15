@@ -69,6 +69,8 @@
     .assessment-columns article { background:white; border:1px solid var(--line); border-radius:22px; padding:20px; }
     .assessment-columns strong { display:inline-flex; color:var(--red); margin-bottom:8px; text-transform:uppercase; letter-spacing:.08em; font-size:12px; }
     .school-report-group { margin-top:22px; }
+    .report-calendar-title { margin:34px 0 18px; color:var(--navy); }
+    .report-calendar-title:first-of-type { margin-top:18px; }
     .school-report-title { margin:0 0 12px; color:#0f6f4d; font-size:18px; font-weight:900; text-align:center; }
     .brand-report-grid { display:grid; grid-template-columns:repeat(4,minmax(180px,1fr)); gap:12px; margin:0 auto; max-width:980px; justify-content:center; }
     .brand-report-grid.term-3 { grid-template-columns:repeat(3,minmax(180px,1fr)); max-width:740px; }
@@ -346,7 +348,7 @@
     <div class="note-box">
       <h2>Gerador digital do report card</h2>
       <p>Para escolas bimestrais, escolha a marca e o term correspondente para preencher a ficha digital e gerar o report card familiar em PDF. Cada gerador usa o mesmo layout visual, mas traz o logo da escola e conteúdo próprio do período trabalhado.</p>
-      <h3>Escolas bimestrais · 4 terms</h3>
+      <h3 class="report-calendar-title">Escolas bimestrais · 4 terms</h3>
       <div class="school-report-group">
         <h4 class="school-report-title">Objetivo</h4>
         <div class="brand-report-grid" aria-label="Geradores de report card do Objetivo por term">
@@ -389,7 +391,7 @@
           </a>
         </div>
       </div>
-      <h3>Escolas trimestrais · 3 terms</h3>
+      <h3 class="report-calendar-title">Escolas trimestrais · 3 terms</h3>
       <div class="school-report-group">
         <h4 class="school-report-title">CJA</h4>
         <div class="brand-report-grid term-3" aria-label="Geradores de report card do CJA por term">
