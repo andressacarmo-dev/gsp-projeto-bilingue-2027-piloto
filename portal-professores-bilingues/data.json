@@ -129,54 +129,15 @@
       "disciplines": [
         {
           "name": "Cambridge Level 1 - Matriz anual GSP",
-          "stage": "Entrega pedagógica esperada mês a mês, progressão trimestral, avaliação global GSP, projetos complementares, estratégias de ensino e geração de relatório individualizado.",
-          "localHtml": "pages/infantil-level-1-ey1.html",
-          "resources": [
-            {
-              "label": "Ready, Set, Grow! Level 1 — recursos oficiais",
-              "type": "Portal/Drive Cambridge",
-              "url": "https://drive.google.com/drive/folders/1wt6jFAnBjrKWW-EN_CfRQQueR6rtZalk"
-            },
-            {
-              "label": "Let’s Explore EY1 — matriz pedagógica",
-              "type": "Matriz de apoio",
-              "url": "https://drive.google.com/drive/folders/1BHawv8epW3R9Cx8F5b5QRHmu_mNz7S38"
-            }
-          ]
+          "localHtml": "pages/infantil-level-1-ey1.html"
         },
         {
           "name": "Cambridge Level 2 - Matriz anual GSP",
-          "stage": "Entrega pedagógica esperada mês a mês, progressão trimestral, avaliação global GSP, projetos complementares, estratégias de ensino e geração de relatório individualizado.",
-          "localHtml": "pages/infantil-level-2-ey2.html",
-          "resources": [
-            {
-              "label": "Ready, Set, Grow! Level 2 — recursos oficiais",
-              "type": "Portal/Drive Cambridge",
-              "url": "https://drive.google.com/drive/folders/18LntRyXTb-iro4N1K4etg0IzZ2C7FdHP"
-            },
-            {
-              "label": "Let’s Explore Level 2 — matriz pedagógica",
-              "type": "Matriz de apoio",
-              "url": "https://drive.google.com/drive/folders/1BHawv8epW3R9Cx8F5b5QRHmu_mNz7S38"
-            }
-          ]
+          "localHtml": "pages/infantil-level-2-ey2.html"
         },
         {
           "name": "Cambridge Level 3 - Matriz anual GSP",
-          "stage": "A replicar após validação do formato EY1: transição para Fundamental 1, autonomia, registros e comunicação de aprendizagem.",
-          "localHtml": "https://drive.google.com/drive/folders/1EB7_cpkKxKEeSyVzHxKhVUX6lVk50l0y",
-          "resources": [
-            {
-              "label": "Ready, Set, Grow! Level 3 — recursos oficiais",
-              "type": "Portal/Drive Cambridge",
-              "url": "https://drive.google.com/drive/folders/1EB7_cpkKxKEeSyVzHxKhVUX6lVk50l0y"
-            },
-            {
-              "label": "Let’s Explore EY3 — matriz pedagógica",
-              "type": "Matriz de apoio",
-              "url": "https://drive.google.com/drive/folders/1BHawv8epW3R9Cx8F5b5QRHmu_mNz7S38"
-            }
-          ]
+          "localHtml": "https://drive.google.com/drive/folders/1EB7_cpkKxKEeSyVzHxKhVUX6lVk50l0y"
         }
       ]
     },
