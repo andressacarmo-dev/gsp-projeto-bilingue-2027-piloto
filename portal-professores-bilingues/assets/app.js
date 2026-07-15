@@ -159,6 +159,7 @@ function selectSegment(id) {
 
 function renderAssessment(items) {
   const wrap = $('#assessment-grid');
+  if (!items || !wrap) return;
   items.forEach((item) => {
     wrap.appendChild(el('article', 'assessment-card', `
       <h3>${item.title}</h3>
