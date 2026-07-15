@@ -70,7 +70,7 @@ function renderSections(sections) {
       <h3>${section.title}</h3>
       <p>${section.description}</p>
       <ul>${list}</ul>
-      <span class="status">${section.status}</span>
+      ${section.status ? `<span class="status">${section.status}</span>` : ''}
     `));
   });
 }
