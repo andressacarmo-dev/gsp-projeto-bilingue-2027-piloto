@@ -62,7 +62,6 @@
       "title": "Entregas pedagógicas esperadas",
       "eyebrow": "O que precisa acontecer",
       "description": "A camada GSP define marcos de aprendizagem e desenvolvimento por nível, unidade, mês e trimestre.",
-      "status": "Piloto iniciado no Level 1 / EY1",
       "items": [
         "Objetivos do mês",
         "Marcos de desenvolvimento",
@@ -75,7 +74,6 @@
       "title": "Progressão de aprendizagem",
       "eyebrow": "Do mês ao term",
       "description": "Organiza a evolução esperada dos alunos para permitir acompanhamento entre turmas e escolas.",
-      "status": "Estrutura trimestral em criação",
       "items": [
         "Progressão bimestral e trimestral",
         "Indicadores de autonomia",
@@ -88,7 +86,6 @@
       "title": "Integração com Cambridge",
       "eyebrow": "Sem duplicar recursos",
       "description": "O portal GSP orienta o que buscar no portal Cambridge: livro digital, planejamento por página, flashcards, songs, stories, worksheets e recursos digitais.",
-      "status": "Modelo de referência, não repositório duplicado",
       "items": [
         "Unidade/páginas sugeridas",
         "Recursos Cambridge a consultar",
@@ -101,7 +98,6 @@
       "title": "Estratégias pedagógicas",
       "eyebrow": "Teacher support",
       "description": "Apoio prático para professores aplicarem os materiais com qualidade, consistência e segurança.",
-      "status": "Banco de estratégias em construção",
       "items": [
         "Positive reinforcement",
         "Scaffolding",
@@ -115,7 +111,6 @@
       "title": "Relatórios individualizados",
       "eyebrow": "Learning reports",
       "description": "Base futura para transformar dados da avaliação e evidências em comentários individualizados de aprendizagem.",
-      "status": "Camada futura conectada à avaliação GSP",
       "items": [
         "Indicadores por aluno",
         "Banco de comentários",
