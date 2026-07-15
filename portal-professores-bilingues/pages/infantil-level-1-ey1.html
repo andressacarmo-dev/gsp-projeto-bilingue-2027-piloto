@@ -51,7 +51,7 @@
     .note-box { background:#fff8f2; border-left:6px solid var(--red); border-radius:22px; padding:22px; color:var(--ink); }
 
     .quarter-grid, .project-grid, .strategy-grid, .report-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
-    .bimester-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:22px; }
+    .bimester-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; margin-bottom:22px; }
     .progression-group-title { margin:22px 0 12px; color:var(--navy); font-size:18px; }
     .quarter-card, .project-card, .strategy-card, .report-card { background:white; border:1px solid var(--line); border-radius:24px; padding:22px; box-shadow:0 12px 34px rgba(7,27,79,.08); }
     .quarter-card { border-top:6px solid var(--royal); }
@@ -94,7 +94,8 @@
     #gerador-report-card .brand-report-card.active strong { color:#0f6f4d; }
     #gerador-report-card .brand-report-card.active .status { background:linear-gradient(135deg,#0f7f55,#32b77c); color:white; box-shadow:0 8px 18px rgba(15,127,85,.25); }
     #gerador-report-card .brand-report-card.disabled { background:rgba(255,255,255,.72); }
-    @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.matrix-grid,.routine-strip,.materials-grid,.quarter-grid,.bimester-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.brand-report-grid { grid-template-columns:1fr; } .brand-report-grid { max-width:520px; } .month-top { grid-template-columns:1fr; } }
+    @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.matrix-grid,.routine-strip,.materials-grid,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.brand-report-grid { grid-template-columns:1fr; } .brand-report-grid { max-width:520px; } .month-top { grid-template-columns:1fr; } }
+    @media (max-width:640px) { .bimester-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
   </style>
 </head>
 <body>
