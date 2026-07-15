@@ -144,34 +144,30 @@
     {
       "id": "fund1",
       "name": "Fundamental 1",
-      "tagline": "Primary · base curricular, linguagem acadêmica e primeiras evidências estruturadas",
+      "tagline": "Primary · matrizes anuais por Year, com disciplinas integradas e evidências para report card único",
       "driveUrl": "https://drive.google.com/drive/folders/12x3R9OrhQIE7lOZt6JQwNriFSBSgdRRt?usp=sharing",
-      "status": "Maior acervo inicial encontrado",
+      "status": "Year 1 em piloto · Math e Science validados",
       "disciplines": [
         {
-          "name": "Science",
-          "stage": "Matrizes Year 1–5 existentes; base localizada; precisa ser integrada ao portal público",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/year-1-science/year-1-science-matriz-pedagogica-professores-bilingues.docx"
+          "name": "Year 1 - Matriz anual GSP",
+          "stage": "Piloto criado: Math e Science completos; demais disciplinas estruturadas como pendentes de fonte validada.",
+          "localHtml": "pages/fundamental-1-year-1.html"
         },
         {
-          "name": "Math",
-          "stage": "Matrizes Year 1–5 existentes em HTML",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/math-fundamental-1/year-1-math-matriz-professores.html"
+          "name": "Year 2 - Matriz anual GSP",
+          "stage": "Próxima etapa após validação da arquitetura Year 1"
         },
         {
-          "name": "Global Perspectives",
-          "stage": "Matrizes Year 1–5 existentes em HTML",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/global-perspectives-fundamental-1/global-perspectives-year-1-matriz-professores.html"
+          "name": "Year 3 - Matriz anual GSP",
+          "stage": "Próxima etapa após validação da arquitetura Year 1"
         },
         {
-          "name": "PBL",
-          "stage": "Matrizes Year 1–5 existentes em HTML",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/pbl-speaking-lab-fundamental-1/pbl-year-1-matriz-professores.html"
+          "name": "Year 4 - Matriz anual GSP",
+          "stage": "Próxima etapa após validação da arquitetura Year 1"
         },
         {
-          "name": "Speaking Lab",
-          "stage": "Matrizes Year 1–5 existentes em HTML",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/pbl-speaking-lab-fundamental-1/speaking-lab-year-1-matriz-professores.html"
+          "name": "Year 5 - Matriz anual GSP",
+          "stage": "Próxima etapa após validação da arquitetura Year 1"
         }
       ]
     },
