@@ -27,32 +27,38 @@
     {
       "step": "1",
       "title": "Entrega esperada",
-      "description": "Define o que o aluno deve aprender, viver e demonstrar em cada nível, mês e unidade."
+      "description": "Define o que o aluno deve aprender, viver e demonstrar em cada nível, mês e unidade.",
+      "emoji": "🎯"
     },
     {
       "step": "2",
       "title": "Materiais Cambridge",
-      "description": "Indica quais unidades, páginas e recursos Cambridge devem apoiar a entrega, sem duplicar conteúdo proprietário."
+      "description": "Indica quais unidades, páginas e recursos Cambridge devem apoiar a entrega, sem duplicar conteúdo proprietário.",
+      "emoji": "📚"
     },
     {
       "step": "3",
       "title": "Estratégias docentes",
-      "description": "Orienta positive reinforcement, scaffolding, classroom language, trabalho por habilidade e adaptação pedagógica."
+      "description": "Orienta positive reinforcement, scaffolding, classroom language, trabalho por habilidade e adaptação pedagógica.",
+      "emoji": "🧩"
     },
     {
       "step": "4",
       "title": "Evidências",
-      "description": "Mostra o que observar e registrar para comprovar participação, linguagem, desenvolvimento e aprendizagem."
+      "description": "Mostra o que observar e registrar para comprovar participação, linguagem, desenvolvimento e aprendizagem.",
+      "emoji": "📝"
     },
     {
       "step": "5",
       "title": "Avaliação Global GSP",
-      "description": "Padroniza uma verificação global Cambridge-like aplicada em todas as escolas para medir progresso e lacunas."
+      "description": "Padroniza uma verificação global Cambridge-like aplicada em todas as escolas para medir progresso e lacunas.",
+      "emoji": "🌐"
     },
     {
       "step": "6",
       "title": "Planos de ação e relatórios",
-      "description": "Transforma dados em apoio ao professor, plano de intervenção e relatório individualizado para famílias."
+      "description": "Transforma dados em apoio ao professor, plano de intervenção e relatório individualizado para famílias.",
+      "emoji": "📊"
     }
   ],
   "sections": [
