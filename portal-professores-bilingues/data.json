@@ -3,7 +3,7 @@
     "title": "Portal dos Professores Bilíngues",
     "subtitle": "Sistema pedagógico GSP para organizar entregas esperadas, progressão de aprendizagem, avaliação global, evidências e relatórios individualizados.",
     "status": "MVP pedagógico — arquitetura GSP sobre materiais Cambridge",
-    "updatedAt": "2026-07-07",
+    "updatedAt": "2026-07-16",
     "purpose": "Um portal para orientar o que precisa ser entregue pedagogicamente em cada nível, mês e trimestre, sem duplicar o portal Cambridge: marcos de desenvolvimento, estratégias docentes, avaliações padronizadas e relatórios de aprendizagem."
   },
   "quickStats": [
@@ -146,11 +146,11 @@
       "name": "Fundamental 1",
       "tagline": "Primary · matrizes anuais por Year, com disciplinas integradas e evidências para report card único",
       "driveUrl": "https://drive.google.com/drive/folders/12x3R9OrhQIE7lOZt6JQwNriFSBSgdRRt?usp=sharing",
-      "status": "Year 1 em piloto · Math e Science validados",
+      "status": "Year 1 em piloto · Math, Science, English e Global Perspectives validados",
       "disciplines": [
         {
           "name": "Year 1 - Matriz anual GSP",
-          "stage": "Piloto criado: Math e Science completos; demais disciplinas estruturadas como pendentes de fonte validada.",
+          "stage": "Piloto Year 1 ativo: Math, Science, English/Kid’s Box e Global Perspectives completos; PBL e Speaking Lab mantidos como pendentes de fonte validada.",
           "localHtml": "pages/fundamental-1-year-1.html"
         },
         {
