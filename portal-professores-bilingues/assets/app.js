@@ -53,7 +53,10 @@ function renderCycle(items) {
   const wrap = $('#learning-cycle');
   items.forEach((item) => {
     wrap.appendChild(el('article', 'cycle-card', `
-      <span class="step">${item.step}</span>
+      <div class="cycle-icon-row">
+        <span class="step">${item.step}</span>
+        ${item.emoji ? `<span class="cycle-emoji" aria-hidden="true">${item.emoji}</span>` : ''}
+      </div>
       <h3>${item.title}</h3>
       <p>${item.description}</p>
     `));
