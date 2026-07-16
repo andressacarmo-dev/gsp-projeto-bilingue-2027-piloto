@@ -10082,17 +10082,17 @@
           "title": "Materiais Cambridge oficiais — fonte atualizada",
           "type": "official-cambridge-materials",
           "source": "MATERIAIS CAMBRIDGE UTILIZADOS PELOS ALUNOS EM CADA UNIDADE",
-          "text": "Materiais Cambridge oficiais — Marupiara\nFonte oficial: arquivo “Materiais Cambridge utilizados pelos alunos em cada unidade, em cada segmento e em cada produto”, com atualização de 2026-07-08 para inclusão do Semi-integral Bilíngue no Infantil e no Fundamental 1.\nEducação Infantil:\n- REGULAR BILÍNGUE: Ready, Set, Grow\n- SEMI-INTEGRAL BILÍNGUE: Ready, Set, Grow (mesmo material do Integral)\n- INTEGRAL BILÍNGUE: Ready, Set, Grow\nFundamental 1:\n- REGULAR: Kid’s Box\n- REGULAR BILÍNGUE: Kid’s Box, Science e Math\n- SEMI-INTEGRAL BILÍNGUE: Kid’s Box, Science e Math (mesmo material do Integral)\n- INTEGRAL BILÍNGUE: Kid’s Box, Science e Math\nFundamental 2:\n- REGULAR: Prepare\n- REGULAR BILÍNGUE: Prepare e Global Perspectives\n- INTEGRAL BILÍNGUE (6º E 7º ANO): Prepare e Global Perspectives\n- HIGH SCHOOL PREP (8º E 9º ANO): Prepare e Global Perspectives\nEnsino Médio:\n- REGULAR: Evolve\n- ENGLISH CLASS: Think\nUse esta seção como referência prioritária quando houver dúvida sobre livro/material por produto.",
+          "text": "Materiais Cambridge oficiais — Marupiara\nFonte oficial: arquivo “Materiais Cambridge utilizados pelos alunos em cada unidade, em cada segmento e em cada produto”, com atualização de 2026-07-08 para inclusão do Semi-integral Bilíngue no Infantil e no Fundamental 1.\nEducação Infantil:\n- REGULAR BILÍNGUE: Ready, Set, Grow\n- SEMI-INTEGRAL BILÍNGUE: Ready, Set, Grow\n- INTEGRAL BILÍNGUE: Ready, Set, Grow\nFundamental 1:\n- REGULAR: Kid’s Box\n- REGULAR BILÍNGUE: Kid’s Box, Science e Math\n- SEMI-INTEGRAL BILÍNGUE: Kid’s Box, Science e Math\n- INTEGRAL BILÍNGUE: Kid’s Box, Science e Math\nFundamental 2:\n- REGULAR: Prepare\n- REGULAR BILÍNGUE: Prepare e Global Perspectives\n- INTEGRAL BILÍNGUE (6º E 7º ANO): Prepare e Global Perspectives\n- HIGH SCHOOL PREP (8º E 9º ANO): Prepare e Global Perspectives\nEnsino Médio:\n- REGULAR: Evolve\n- ENGLISH CLASS: Think\nUse esta seção como referência prioritária quando houver dúvida sobre livro/material por produto.",
           "segments": {
             "Educação Infantil": {
               "REGULAR BILÍNGUE": "Ready, Set, Grow",
-              "SEMI-INTEGRAL BILÍNGUE": "Ready, Set, Grow (mesmo material do Integral)",
+              "SEMI-INTEGRAL BILÍNGUE": "Ready, Set, Grow",
               "INTEGRAL BILÍNGUE": "Ready, Set, Grow"
             },
             "Fundamental 1": {
               "REGULAR": "Kid’s Box",
               "REGULAR BILÍNGUE": "Kid’s Box, Science e Math",
-              "SEMI-INTEGRAL BILÍNGUE": "Kid’s Box, Science e Math (mesmo material do Integral)",
+              "SEMI-INTEGRAL BILÍNGUE": "Kid’s Box, Science e Math",
               "INTEGRAL BILÍNGUE": "Kid’s Box, Science e Math"
             },
             "Fundamental 2": {
@@ -11425,7 +11425,7 @@
       "faq": [
         {
           "question": "Quais materiais Cambridge os alunos utilizam nesta unidade?",
-          "answer": "Materiais Cambridge oficiais — Marupiara\nFonte oficial: arquivo “Materiais Cambridge utilizados pelos alunos em cada unidade, em cada segmento e em cada produto”, com atualização de 2026-07-08 para inclusão do Semi-integral Bilíngue no Infantil e no Fundamental 1.\nEducação Infantil:\n- REGULAR BILÍNGUE: Ready, Set, Grow\n- SEMI-INTEGRAL BILÍNGUE: Ready, Set, Grow (mesmo material do Integral)\n- INTEGRAL BILÍNGUE: Ready, Set, Grow\nFundamental 1:\n- REGULAR: Kid’s Box\n- REGULAR BILÍNGUE: Kid’s Box, Science e Math\n- SEMI-INTEGRAL BILÍNGUE: Kid’s Box, Science e Math (mesmo material do Integral)\n- INTEGRAL BILÍNGUE: Kid’s Box, Science e Math\nFundamental 2:\n- REGULAR: Prepare\n- REGULAR BILÍNGUE: Prepare e Global Perspectives\n- INTEGRAL BILÍNGUE (6º E 7º ANO): Prepare e Global Perspectives\n- HIGH SCHOOL PREP (8º E 9º ANO): Prepare e Global Perspectives\nEnsino Médio:\n- REGULAR: Evolve\n- ENGLISH CLASS: Think\nUse esta seção como referência prioritária quando houver dúvida sobre livro/material por produto."
+          "answer": "Materiais Cambridge oficiais — Marupiara\nFonte oficial: arquivo “Materiais Cambridge utilizados pelos alunos em cada unidade, em cada segmento e em cada produto”, com atualização de 2026-07-08 para inclusão do Semi-integral Bilíngue no Infantil e no Fundamental 1.\nEducação Infantil:\n- REGULAR BILÍNGUE: Ready, Set, Grow\n- SEMI-INTEGRAL BILÍNGUE: Ready, Set, Grow\n- INTEGRAL BILÍNGUE: Ready, Set, Grow\nFundamental 1:\n- REGULAR: Kid’s Box\n- REGULAR BILÍNGUE: Kid’s Box, Science e Math\n- SEMI-INTEGRAL BILÍNGUE: Kid’s Box, Science e Math\n- INTEGRAL BILÍNGUE: Kid’s Box, Science e Math\nFundamental 2:\n- REGULAR: Prepare\n- REGULAR BILÍNGUE: Prepare e Global Perspectives\n- INTEGRAL BILÍNGUE (6º E 7º ANO): Prepare e Global Perspectives\n- HIGH SCHOOL PREP (8º E 9º ANO): Prepare e Global Perspectives\nEnsino Médio:\n- REGULAR: Evolve\n- ENGLISH CLASS: Think\nUse esta seção como referência prioritária quando houver dúvida sobre livro/material por produto."
         },
         {
           "category": "1. Como usar este Q&A",
