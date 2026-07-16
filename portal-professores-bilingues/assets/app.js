@@ -8,7 +8,7 @@ function el(tag, className, html) {
 }
 
 async function init() {
-  const response = await fetch('data.json?v=20260715-year1-pilot');
+  const response = await fetch('data.json?v=20260716-home-year1-link');
   const data = await response.json();
 
   $('#portal-title').textContent = data.portal.title;
