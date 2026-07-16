@@ -17,6 +17,7 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
+  overflow-x: hidden;
   margin: 0;
   background: var(--paper);
   color: var(--ink);
@@ -26,8 +27,8 @@ body {
 a { color: inherit; }
 
 .hero {
-  min-height: 60vh;
-  padding: 18px clamp(18px, 4vw, 64px) 48px;
+  min-height: auto;
+  padding: 18px clamp(18px, 4vw, 64px) 34px;
   color: var(--white);
   background:
     radial-gradient(circle at 18% 24%, rgba(255,255,255,.18), transparent 28%),
@@ -127,7 +128,7 @@ a { color: inherit; }
   grid-template-columns: minmax(0, 1.35fr) minmax(300px, .65fr);
   gap: clamp(24px, 5vw, 70px);
   align-items: center;
-  padding-top: clamp(8px, 2vw, 22px);
+  padding-top: clamp(4px, 1.4vw, 16px);
 }
 
 .eyebrow {
@@ -198,7 +199,7 @@ h3 { font-size: 22px; letter-spacing: -0.02em; }
   display: block;
 }
 
-.status-pill {
+.portal-pill, .status-pill {
   display: inline-flex;
   width: fit-content;
   margin: 0 0 14px;
@@ -380,6 +381,87 @@ ul { padding-left: 18px; color: var(--muted); }
 .task-card { background: rgba(255,255,255,.10); border-color: rgba(255,255,255,.18); box-shadow: none; }
 .task-card p { color: rgba(255,255,255,.78); }
 
+
+/* Homepage heading hygiene */
+.section-heading { max-width: 100%; }
+.section-heading.compact { max-width: 100%; }
+.section-heading h2,
+.report h2 { max-width: 100%; text-wrap: balance; white-space: nowrap; line-height: 1.04; font-size: clamp(28px, 4vw, 46px); }
+.content-card h3,
+.cycle-card h3,
+.assessment-card h3,
+.report-generator-box h3,
+.report-link-group h4 { text-wrap: balance; }
+
+/* Segment matrix cards: all segments visible, compact level/year buttons */
+.segment-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.segment-overview-card {
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  padding: 22px;
+  background: linear-gradient(180deg, #ffffff, #fbfcff);
+  box-shadow: 0 14px 34px rgba(7,27,79,.08);
+}
+.segment-overview-card .segment-head {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  align-items: start;
+  margin-bottom: 18px;
+}
+.segment-overview-card .segment-head h3 {
+  font-size: 25px;
+  color: var(--navy);
+}
+.segment-overview-card .segment-head p:not(.eyebrow) {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1.35;
+}
+.level-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.level-card {
+  display: grid;
+  place-items: center;
+  min-height: 82px;
+  padding: 14px;
+  border-radius: 22px;
+  border: 1px solid var(--line);
+  background: #f8fbff;
+  color: var(--navy);
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(7,27,79,.06);
+}
+.level-card strong {
+  font-size: clamp(20px, 2.4vw, 28px);
+  letter-spacing: -.04em;
+}
+.level-card.active {
+  background: linear-gradient(135deg, #ffffff, #e9fff2);
+  border-color: rgba(46,157,120,.26);
+  box-shadow: 0 16px 34px rgba(7,27,79,.10);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.level-card.active:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 40px rgba(7,27,79,.14);
+}
+.level-card.coming {
+  background: linear-gradient(180deg, #fff, #f4f6fb);
+  color: rgba(7,27,79,.58);
+}
+.segment-overview-card:nth-child(1) .level-card.active { border-top: 5px solid var(--red); }
+.segment-overview-card:nth-child(2) .level-card.active { border-top: 5px solid var(--royal); }
+.segment-overview-card:nth-child(3) .level-card { border-top: 5px solid #f2b705; }
+
 .segment-section {
   background: #fff;
   padding: clamp(22px, 4vw, 42px);
@@ -493,7 +575,7 @@ ul { padding-left: 18px; color: var(--muted); }
 .report-link span { color: rgba(255,255,255,.78); font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; }
 .report-link.active { background: linear-gradient(135deg, #ffffff, #e9fff2); color: var(--navy); box-shadow: 0 16px 34px rgba(0,0,0,.18); border-color: rgba(255,255,255,.92); }
 .report-link.active span { color: #148154; }
-.report-link.disabled { opacity: .68; cursor: not-allowed; }
+.report-link.disabled { opacity: .72; cursor: not-allowed; min-height: 64px; }
 .report-link.disabled strong { color: rgba(255,255,255,.92); }
 .report-link.disabled span { color: rgba(255,255,255,.58); }
 
@@ -550,4 +632,21 @@ ul { padding-left: 18px; color: var(--muted); }
 
 @media (min-width: 861px) and (max-width: 1080px) {
   .cambridge-platform-grid, .start-grid, .task-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+
+@media (max-width: 1100px) {
+  .segment-overview-grid { grid-template-columns: 1fr; }
+  .level-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .drive-link { width: fit-content; }
+  .nav-links a { padding: 8px 10px; font-size: 12px; }
+  .hero-actions .btn { width: 100%; }
+  .section-heading h2,
+  .report h2 { font-size: clamp(13px, 3.45vw, 22px); letter-spacing: -.065em; }
+  .segment-overview-card .segment-head { grid-template-columns: 1fr; }
+  .level-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .level-card { min-height: 70px; }
+  .report-link-grid { flex-wrap: wrap; }
 }
