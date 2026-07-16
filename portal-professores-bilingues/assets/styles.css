@@ -839,3 +839,26 @@ ul { padding-left: 18px; color: var(--muted); }
   background: #eaf0ff !important;
   color: var(--royal) !important;
 }
+
+
+/* Final avatar size override: avatars are supporting references, buttons are primary */
+.segment-overview-card .segment-avatar {
+  height: 150px !important;
+  margin: -2px -2px 14px !important;
+  border-radius: 22px !important;
+  opacity: .92;
+}
+.segment-overview-card .level-card {
+  min-height: 94px;
+  padding: 16px;
+}
+.segment-overview-card .level-card strong {
+  font-size: clamp(22px, 2.8vw, 31px);
+}
+@media (max-width: 1100px) {
+  .segment-overview-card .segment-avatar { height: 180px !important; }
+}
+@media (max-width: 640px) {
+  .segment-overview-card .segment-avatar { height: 118px !important; margin-bottom: 12px !important; }
+  .segment-overview-card .level-card { min-height: 88px; }
+}
