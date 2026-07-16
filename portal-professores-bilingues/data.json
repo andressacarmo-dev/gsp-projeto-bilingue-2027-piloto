@@ -128,7 +128,7 @@
     {
       "id": "infantil",
       "name": "Educação Infantil",
-      "tagline": "Educação Infantil · matrizes anuais por Level",
+      "tagline": "Educação Infantil · matrizes anuais por nível",
       "driveUrl": "https://drive.google.com/drive/folders/1X7_omFKM7hn4lIIgS3OWW7ol1rL_rFn7?usp=sharing",
       "disciplines": [
         {
@@ -143,12 +143,13 @@
           "name": "Level 3",
           "localHtml": "pages/infantil-level-3-ey3.html"
         }
-      ]
+      ],
+      "avatar": "assets/avatars/avatar-infantil-growth.jpg"
     },
     {
       "id": "fund1",
       "name": "Fundamental 1",
-      "tagline": "Fundamental 1 · matrizes anuais por Year",
+      "tagline": "Fundamental 1 · matrizes anuais por ano",
       "driveUrl": "https://drive.google.com/drive/folders/12x3R9OrhQIE7lOZt6JQwNriFSBSgdRRt?usp=sharing",
       "disciplines": [
         {
@@ -168,12 +169,13 @@
         {
           "name": "Year 5"
         }
-      ]
+      ],
+      "avatar": "assets/avatars/avatar-fundamental-1-growth.jpg"
     },
     {
       "id": "fund2",
       "name": "Fundamental 2",
-      "tagline": "Fundamental 2 · matrizes anuais por Year",
+      "tagline": "Fundamental 2 · matrizes anuais por ano",
       "driveUrl": "https://drive.google.com/drive/folders/1djepYCvh-aaZCALMHemv2Jb5MPnG2s-D?usp=sharing",
       "disciplines": [
         {
@@ -188,7 +190,8 @@
         {
           "name": "Year 9"
         }
-      ]
+      ],
+      "avatar": "assets/avatars/avatar-fundamental-2-growth.jpg"
     }
   ],
   "assessment": [
