@@ -61,6 +61,27 @@
     .material-card a { display:inline-flex; margin-top:10px; color:var(--royal); font-weight:900; text-decoration:none; }
     .note-box { background:#fff8f2; border-left:6px solid var(--red); border-radius:22px; padding:22px; color:var(--ink); }
 
+
+    /* Heading hygiene: same compact title pattern used in Fundamental 1. */
+    .section-heading { max-width:100%; }
+    .section-heading.compact { max-width:100%; }
+    .section-heading h2,
+    #gerador-report-card .note-box h2 { max-width:100%; text-wrap:balance; line-height:1.04; font-size:clamp(26px,3.2vw,42px); }
+    .quarter-card h3,
+    .project-card h3,
+    .strategy-card h3,
+    .report-card h3,
+    .material-card h3,
+    .progression-group-title,
+    .report-calendar-title { text-wrap:balance; line-height:1.12; }
+    @media (max-width:640px) {
+      .section-heading h2,
+      #gerador-report-card .note-box h2 { font-size:clamp(24px,7vw,30px); letter-spacing:-.035em; }
+      .section-heading { margin-bottom:20px; }
+      .quarter-card h3,.project-card h3,.strategy-card h3,.report-card h3,.material-card h3 { font-size:19px; }
+      #gerador-report-card .note-box h2:before { width:34px; height:34px; border-radius:12px; }
+    }
+
     .quarter-grid, .project-grid, .strategy-grid, .report-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
     .bimester-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; margin-bottom:22px; }
     .progression-group-title { margin:22px 0 12px; color:var(--navy); font-size:18px; }
@@ -72,9 +93,6 @@
     .quarter-card h3, .project-card h3, .strategy-card h3, .report-card h3 { margin-bottom:10px; }
     .quarter-card ul, .project-card ul, .strategy-card ul, .report-card ul { margin:10px 0 0 18px; padding:0; color:var(--muted); }
 
-    .section-heading { max-width:1040px; }
-    .section-heading.compact { max-width:980px; }
-    .section-heading h2 { max-width:100%; font-size:clamp(26px,3.2vw,42px); text-wrap:pretty; }
     .assessment-box { background:linear-gradient(135deg,#ffffff,#f1f5ff); border:1px solid var(--line); border-radius:30px; padding:clamp(22px,4vw,36px); box-shadow:0 16px 44px rgba(7,27,79,.08); }
     .assessment-columns { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:18px; }
     .assessment-columns article { background:white; border:1px solid var(--line); border-radius:22px; padding:20px; }
@@ -146,11 +164,11 @@
 </div>
 </section>
 <section class="section" id="rotina">
-<div class="section-heading"><p class="eyebrow">Rotina base</p><h2>Uma arquitetura de aula repetível</h2><p>A rotina se mantém para dar segurança; temas, materiais e desafios variam mês a mês.</p></div>
+<div class="section-heading"><p class="eyebrow">Rotina base</p><h2>Arquitetura de aula</h2><p>A rotina se mantém para dar segurança; temas, materiais e desafios variam mês a mês.</p></div>
 <div class="routine-strip"><article><h3>1. 👋 Welcome</h3><p>Música, saudação, chamada visual e combinados.</p></article><article><h3>2. 🔎 Explore</h3><p>Objeto, imagem, história, movimento ou natureza.</p></article><article><h3>3. 🧸 Play</h3><p>Brincadeira guiada com linguagem-alvo.</p></article><article><h3>4. 🎨 Create</h3><p>Desenho, colagem, construção, drama ou música.</p></article><article><h3>5. 🌟 Share</h3><p>Mostrar, apontar, nomear, escolher e guardar evidência.</p></article></div>
 </section>
 <section class="section" id="rubrica">
-<div class="section-heading"><p class="eyebrow">Rubrica pedagógica Level 1</p><h2>Critérios comuns de observação</h2><p>Ao final de cada mês, observar a criança de forma formativa para acompanhar seu desenvolvimento com proximidade.</p></div>
+<div class="section-heading"><p class="eyebrow">Rubrica pedagógica Level 1</p><h2>Critérios de observação</h2><p>Ao final de cada mês, observar a criança de forma formativa para acompanhar seu desenvolvimento com proximidade.</p></div>
 <table class="rubric-table"><thead><tr><th>Dimensão</th><th>Observar se a criança...</th><th>Exemplos de evidência</th></tr></thead><tbody>
 <tr><td>Comunicação e linguagem</td><td>Escuta, responde, repete ou tenta usar palavras/frases simples em inglês.</td><td>Áudio curto, fala registrada, participação em música, resposta a comando.</td></tr>
 <tr><td>Exploração do mundo</td><td>Manipula, observa, compara, pergunta, demonstra curiosidade e cuidado.</td><td>Foto de investigação, desenho, construção, comentário espontâneo.</td></tr>
@@ -159,7 +177,7 @@
 </tbody></table>
 </section>
 <section class="section" id="progressao">
-<div class="section-heading"><p class="eyebrow">Progressão esperada</p><h2>Conteúdos e desenvolvimento por term</h2><p>Use a linha correspondente ao calendário avaliativo da escola. Cada term indica os conteúdos/unidades a ministrar, a linguagem prioritária e o tipo de evidência esperada para acompanhar desenvolvimento, participação e autonomia.</p></div>
+<div class="section-heading"><p class="eyebrow">Progressão esperada</p><h2>Conteúdos por term</h2><p>Use a linha correspondente ao calendário avaliativo da escola. Cada term indica os conteúdos/unidades a ministrar, a linguagem prioritária e o tipo de evidência esperada para acompanhar desenvolvimento, participação e autonomia.</p></div>
 <h3 class="progression-group-title">Escolas bimestrais · 4 terms</h3>
 <div class="bimester-grid">
 <article class="quarter-card"><h3>T1 · Adaptação, identidade e corpo</h3><p><strong>Conteúdos:</strong> Welcome Unit + Unit 1 · identidade, rotina, família, corpo e sentidos.</p><ul><li>Trabalhar cumprimentos, nomes, classroom language, pessoas próximas, partes do corpo e exploração sensorial.</li><li>Priorizar language frames como Hello / Goodbye, My name is..., I see..., This is my... e I like...</li><li>Observar participação na rotina, resposta por olhar/gesto/movimento, reconhecimento de comandos e primeiras tentativas de palavra.</li></ul></article>
@@ -175,7 +193,7 @@
 </div>
 </section>
 <section class="section" id="projetos">
-<div class="section-heading"><p class="eyebrow">Projetos complementares</p><h2>Como ampliar sem fugir da matriz</h2><p>Projetos devem reforçar a entrega esperada, gerar evidências e criar experiências significativas, sem substituir a progressão Cambridge/GSP.</p></div>
+<div class="section-heading"><p class="eyebrow">Projetos complementares</p><h2>Projetos complementares</h2><p>Projetos devem reforçar a entrega esperada, gerar evidências e criar experiências significativas, sem substituir a progressão Cambridge/GSP.</p></div>
 <div class="project-grid">
 <article class="project-card"><h3>My classroom museum</h3><p>Objetos da sala organizados por cor, forma ou uso.</p><ul><li>Integra vocabulário de sala, cores e formas.</li><li>Gera foto, fala curta e classificação.</li></ul></article>
 <article class="project-card"><h3>Little garden</h3><p>Plantio, cuidado e observação de uma semente/planta.</p><ul><li>Integra natureza, cuidado e sequência temporal.</li><li>Gera registro visual de antes/depois.</li></ul></article>
@@ -194,7 +212,7 @@
 </div>
 </section>
 <section class="section" id="matriz">
-<div class="section-heading"><p class="eyebrow">Matriz anual</p><h2>Ensino Infantil - Level 1 mês a mês</h2><p>Use estes blocos como guia de planejamento, acompanhamento e registro. A progressão é pedagógica: pode ser refinada após leitura completa dos recursos específicos adotados pela escola.</p></div><div class="accordion-help"><strong>Navegação por mês:</strong> clique no mês para abrir ou fechar os campos da rubrica mensal. Todos os meses ficam compactos inicialmente para facilitar a consulta dos professores.</div>
+<div class="section-heading"><p class="eyebrow">Matriz anual</p><h2>Level 1 mês a mês</h2><p>Use estes blocos como guia de planejamento, acompanhamento e registro. A progressão é pedagógica: pode ser refinada após leitura completa dos recursos específicos adotados pela escola.</p></div><div class="accordion-help"><strong>Navegação por mês:</strong> clique no mês para abrir ou fechar os campos da rubrica mensal. Todos os meses ficam compactos inicialmente para facilitar a consulta dos professores.</div>
 <div class="month-list"><article class="month-card accordion-month is-collapsed" id="mes-1">
 <div aria-controls="mes-1-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Fevereiro</span><strong>Welcome Unit · identidade, rotina e segurança afetiva</strong><span class="month-toggle">Abrir</span></div>
 <p class="month-focus">Chegada ao inglês como rotina da escola: cumprimentos, combinados, corpo, sala de aula, nomes e pertencimento.</p>
@@ -305,7 +323,7 @@
 </article></div>
 </section>
 <section class="section assessment-box" id="avaliacao-global">
-<div class="section-heading compact"><p class="eyebrow">Avaliação Global GSP</p><h2>Verificação Global Cambridge GSP</h2><p>Para Level 1, a avaliação deve ser prática, observável e adequada à Educação Infantil. Não é prova formal: é uma experiência padronizada para medir progresso entre escolas e identificar lacunas.</p></div>
+<div class="section-heading compact"><p class="eyebrow">Avaliação Global GSP</p><h2>Verificação global GSP</h2><p>Para Level 1, a avaliação deve ser prática, observável e adequada à Educação Infantil. Não é prova formal: é uma experiência padronizada para medir progresso entre escolas e identificar lacunas.</p></div>
 <div class="assessment-columns">
 <article><strong>Listening &amp; responding</strong><p>Comandos simples, escolha de imagem/objeto, reação a história, música ou rotina.</p></article>
 <article><strong>Vocabulary recognition</strong><p>Reconhecimento de vocabulário-chave do term por imagem, objeto, gesto ou jogo.</p></article>
@@ -316,14 +334,14 @@
 </div>
 </section>
 <section class="section assessment-box" id="avaliacao-t1">
-<div class="section-heading compact"><p class="eyebrow">Modelo bimestral / trimestral · Level 1</p><h2>Adaptação, rotina, resposta e desenvolvimento</h2><p>A avaliação deve acompanhar a evolução da criança ao longo do ano, considerando o calendário da escola. O foco não é aplicar uma prova formal, mas observar evidências progressivas de adaptação, participação, compreensão, resposta ao inglês e autonomia nas propostas.</p></div>
+<div class="section-heading compact"><p class="eyebrow">Modelo bimestral / trimestral · Level 1</p><h2>Rotina e desenvolvimento</h2><p>A avaliação deve acompanhar a evolução da criança ao longo do ano, considerando o calendário da escola. O foco não é aplicar uma prova formal, mas observar evidências progressivas de adaptação, participação, compreensão, resposta ao inglês e autonomia nas propostas.</p></div>
 <div class="assessment-columns">
 <article><strong>Adaptação</strong><p>Observar segurança afetiva, vínculo com professor e turma, disponibilidade para participar e entrada gradual na rotina bilíngue.</p></article>
 <article><strong>Rotina</strong><p>Observar reconhecimento dos momentos da aula, resposta a comandos recorrentes e participação em músicas, histórias, combinados e transições.</p></article>
 <article><strong>Resposta ao inglês</strong><p>Observar compreensão antes da fala: olhar, gesto, movimento, escolha, palavra isolada, frase curta ou reconhecimento de vocabulário em contexto.</p></article>
 <article><strong>Desenvolvimento</strong><p>Observar ampliação de repertório, autonomia nas propostas, confiança para interagir, mostrar produções e participar com mais intenção comunicativa.</p></article>
 </div>
-<div class="section-heading compact" style="margin-top:28px;"><p class="eyebrow">Escala de acompanhamento</p><h2>Sem nota, com evidência de desenvolvimento</h2></div>
+<div class="section-heading compact" style="margin-top:28px;"><p class="eyebrow">Escala de acompanhamento</p><h2>Evidência de desenvolvimento</h2></div>
 <table class="rubric-table"><thead><tr><th>Indicador</th><th>Descrição ao longo do ano</th></tr></thead><tbody>
 <tr><td>Emerging</td><td>A criança começa a demonstrar a habilidade com apoio intenso, principalmente por gesto, olhar, movimento, escolha ou mediação direta.</td></tr>
 <tr><td>Developing</td><td>A criança demonstra a habilidade em algumas situações, com apoio visual, repetição, rotina conhecida ou mediação do professor.</td></tr>
@@ -336,7 +354,7 @@
 </div>
 </section>
 <section class="section" id="relatorio-base">
-<div class="section-heading"><p class="eyebrow">Base para relatório individualizado</p><h2>Como transformar evidências em comunicação</h2><p>Após as avaliações trimestrais, os resultados poderão alimentar comentários individualizados e próximos passos de aprendizagem.</p></div>
+<div class="section-heading"><p class="eyebrow">Base para relatório individualizado</p><h2>Evidências em comunicação</h2><p>Após as avaliações trimestrais, os resultados poderão alimentar comentários individualizados e próximos passos de aprendizagem.</p></div>
 <div class="report-grid">
 <article class="report-card"><h3>O aluno já demonstra</h3><p>Participação, compreensão, vocabulário reconhecido, interação e autonomia observável.</p></article>
 <article class="report-card"><h3>Próximo passo</h3><p>Habilidade ou comportamento que precisa ser fortalecido no próximo ciclo.</p></article>
@@ -345,7 +363,7 @@
 </section>
 <section class="section assessment-box" id="gerador-report-card">
 <div class="note-box">
-<h2>Gerador digital do Report Card · Kinder - Level 1</h2>
+<h2>Report Card · Level 1</h2>
 <p>Escolha a marca e o term correspondente de sua escola para preencher a ficha digital e gerar o report card familiar em PDF.</p>
 <h3 class="report-calendar-title">Escolas bimestrais · 4 terms</h3>
 <div class="school-report-group">
