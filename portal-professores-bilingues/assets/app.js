@@ -8,12 +8,11 @@ function el(tag, className, html) {
 }
 
 async function init() {
-  const response = await fetch('data.json?v=20260716-home-year1-link');
+  const response = await fetch('data.json?v=20260716-home-clean-matrix-cards');
   const data = await response.json();
 
   $('#portal-title').textContent = data.portal.title;
   $('#portal-subtitle').textContent = data.portal.subtitle;
-  $('#portal-status').textContent = data.portal.status;
   $('#portal-purpose').textContent = data.portal.purpose;
 
   renderStats(data.quickStats);
@@ -70,7 +69,6 @@ function renderSections(sections) {
       <h3>${section.title}</h3>
       <p>${section.description}</p>
       <ul>${list}</ul>
-      ${section.status ? `<span class="status">${section.status}</span>` : ''}
     `));
   });
 }
@@ -78,47 +76,32 @@ function renderSections(sections) {
 function renderSegments(segments) {
   const tabs = $('#segment-tabs');
   const panels = $('#segment-panels');
+  if (!panels) return;
+  if (tabs) tabs.remove();
+  panels.className = 'segment-overview-grid';
 
-  segments.forEach((segment, index) => {
-    const tab = el('button', 'segment-tab', segment.name);
-    tab.type = 'button';
-    tab.setAttribute('role', 'tab');
-    tab.setAttribute('aria-selected', index === 0 ? 'true' : 'false');
-    tab.setAttribute('aria-controls', `panel-${segment.id}`);
-    tab.id = `tab-${segment.id}`;
-    tab.addEventListener('click', () => selectSegment(segment.id));
-    tabs.appendChild(tab);
-
+  segments.forEach((segment) => {
     const cards = segment.disciplines.map((discipline) => {
-      const hasTitleLink = discipline.localHtml && !discipline.localHtml.startsWith('../../');
-      const title = hasTitleLink
-        ? `<a class="discipline-title-link" href="${discipline.localHtml}" target="_blank" rel="noopener">${discipline.name}</a>`
-        : discipline.name;
-
-      return `
-      <article class="discipline-card">
-        <h3>${title}</h3>
-        ${discipline.stage ? `<p>${discipline.stage}</p>` : ''}
-        ${!hasTitleLink ? `<span class="status">Material-base a integrar</span>` : ''}
-        ${renderResourceLinks(discipline)}
-      </article>
-    `;
+      const hasLink = discipline.localHtml && !discipline.localHtml.startsWith('../../');
+      const tag = hasLink ? 'a' : 'article';
+      const href = hasLink ? ` href="${discipline.localHtml}"` : '';
+      const classes = `level-card ${hasLink ? 'active' : 'coming'}`;
+      return `<${tag} class="${classes}"${href}${hasLink ? ' target="_blank" rel="noopener"' : ''} aria-label="${discipline.name}">
+        <strong>${discipline.name}</strong>
+      </${tag}>`;
     }).join('');
 
-    const panel = el('article', `segment-panel ${index === 0 ? 'active' : ''}`, `
-      <div class="segment-head">
+    const panel = el('article', 'segment-overview-card', `
+      <div class="segment-head compact">
         <div>
-          <p class="eyebrow">${segment.status}</p>
+          <p class="eyebrow">${segment.name}</p>
           <h3>${segment.name}</h3>
-          <p>${segment.tagline}</p>
+          ${segment.tagline ? `<p>${segment.tagline}</p>` : ''}
         </div>
-        <a class="drive-link" href="${segment.driveUrl}" target="_blank" rel="noopener">Abrir pasta Drive</a>
+        <a class="drive-link" href="${segment.driveUrl}" target="_blank" rel="noopener">Drive</a>
       </div>
-      <div class="discipline-grid">${cards}</div>
+      <div class="level-grid">${cards}</div>
     `);
-    panel.id = `panel-${segment.id}`;
-    panel.setAttribute('role', 'tabpanel');
-    panel.setAttribute('aria-labelledby', `tab-${segment.id}`);
     panels.appendChild(panel);
   });
 }
@@ -164,7 +147,6 @@ function renderAssessment(items) {
     wrap.appendChild(el('article', 'assessment-card', `
       <h3>${item.title}</h3>
       <p>${item.description}</p>
-      <span class="status">modelo a construir</span>
     `));
   });
 }
