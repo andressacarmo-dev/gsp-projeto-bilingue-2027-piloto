@@ -629,5 +629,14 @@
   }
 })();
 </script>
+
+<script>
+  window.addEventListener('load', () => {
+    if (window.location.hash === '#gerador-report-card') {
+      const target = document.getElementById('gerador-report-card');
+      if (target) setTimeout(() => target.scrollIntoView({ block: 'start' }), 120);
+    }
+  });
+</script>
 </body>
 </html>
