@@ -1,15 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Infantil · Level 1 · Matriz anual · Portal dos Professores Bilíngues</title>
-  <meta name="description" content="Matriz anual pedagógica para professores bilíngues: Ready, Set, Grow! Level 1 e Let’s Explore Level 1." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../assets/styles.css" />
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Infantil · Level 1 · Matriz anual · Portal dos Professores Bilíngues</title>
+<meta content="Matriz anual pedagógica para professores bilíngues: Ready, Set, Grow! Level 1 e Let’s Explore Level 1." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="../assets/styles.css" rel="stylesheet"/>
+<style>
     body { background:#f8f5ef; }
     .matrix-hero { color:white; background: radial-gradient(circle at 82% 18%, rgba(255,255,255,.16), transparent 28%), linear-gradient(135deg, rgba(7,27,79,.98), rgba(30,85,179,.90)), repeating-linear-gradient(45deg, rgba(200,16,46,.38) 0 16px, transparent 16px 54px); padding:18px clamp(18px,4vw,64px) 54px; }
     .matrix-hero .topbar { max-width:1180px; margin:0 auto; }
@@ -31,6 +32,16 @@
     .standard-grid article:nth-child(4) { background:#fffaf0; border-color:rgba(242,183,5,.18); }
     .month-list { display:grid; gap:22px; }
     .month-card { background:white; border:1px solid var(--line); border-radius:30px; overflow:hidden; box-shadow:0 16px 44px rgba(7,27,79,.09); }
+
+    .month-card.accordion-month .month-top { cursor:pointer; position:relative; grid-template-columns:150px 1fr auto; }
+    .month-card.accordion-month .month-top:focus { outline:4px solid rgba(30,85,179,.28); outline-offset:-4px; }
+    .month-toggle { border:1px solid rgba(255,255,255,.50); background:rgba(255,255,255,.16); color:white; border-radius:999px; padding:9px 12px; font-weight:900; font-size:12px; text-transform:uppercase; letter-spacing:.08em; white-space:nowrap; }
+    .month-card.accordion-month.is-collapsed .month-focus,
+    .month-card.accordion-month.is-collapsed .matrix-grid { display:none; }
+    .month-card.accordion-month.is-collapsed { box-shadow:0 10px 26px rgba(7,27,79,.06); }
+    .month-card.accordion-month.is-collapsed .month-top { background:linear-gradient(135deg,var(--navy),var(--royal)); }
+    .accordion-help { max-width:1180px; margin:0 auto 22px; background:#fff8f2; border-left:6px solid var(--red); border-radius:20px; padding:16px 18px; color:var(--ink); box-shadow:0 10px 26px rgba(7,27,79,.06); }
+
     .month-top { display:grid; grid-template-columns:150px 1fr; gap:16px; align-items:center; background:linear-gradient(135deg,var(--navy),var(--royal)); color:white; padding:18px 22px; }
     .month-top span { font-weight:900; font-size:22px; }
     .month-top strong { font-size:18px; }
@@ -77,9 +88,7 @@
     .brand-report-card { background:white; border:1px solid var(--line); border-radius:22px; padding:18px; min-height:150px; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 12px 30px rgba(7,27,79,.07); text-decoration:none; color:var(--ink); }
     .brand-report-card strong { display:block; color:var(--navy); font-size:18px; margin-bottom:8px; }
     .brand-report-card span { display:block; color:var(--muted); font-size:12px; }
-    .brand-report-card .status { display:inline-flex; align-self:flex-start; margin-top:14px; border-radius:999px; padding:7px 10px; background:#e7f7ef; color:#177451; font-size:10px; font-weight:900; text-transform:uppercase; letter-spacing:.08em; }
     .brand-report-card.disabled { opacity:.66; cursor:not-allowed; background:#f8fafc; }
-    .brand-report-card.disabled .status { background:#eef2f7; color:var(--muted); }
     .brand-report-card.active { border-top:6px solid var(--red); }
     .brand-report-card.active:hover { transform:translateY(-2px); box-shadow:0 16px 38px rgba(7,27,79,.11); }
     #gerador-report-card { position:relative; overflow:hidden; background:radial-gradient(circle at 88% 18%, rgba(255,255,255,.34), transparent 24%), linear-gradient(135deg,#0f7f55,#23a06f 48%,#74c947); border:0; box-shadow:0 24px 60px rgba(15,127,85,.28); }
@@ -92,9 +101,8 @@
     #gerador-report-card .brand-report-card { border:2px solid rgba(35,160,111,.14); box-shadow:0 14px 30px rgba(15,127,85,.13); }
     #gerador-report-card .brand-report-card.active { border-top:0; background:linear-gradient(180deg,#ffffff,#efffed); outline:3px solid rgba(255,255,255,.78); box-shadow:0 18px 38px rgba(15,127,85,.22); }
     #gerador-report-card .brand-report-card.active strong { color:#0f6f4d; }
-    #gerador-report-card .brand-report-card.active .status { background:linear-gradient(135deg,#0f7f55,#32b77c); color:white; box-shadow:0 8px 18px rgba(15,127,85,.25); }
     #gerador-report-card .brand-report-card.disabled { background:rgba(255,255,255,.72); }
-    @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.matrix-grid,.routine-strip,.materials-grid,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.brand-report-grid { grid-template-columns:1fr; } .brand-report-grid { max-width:520px; } .month-top { grid-template-columns:1fr; } }
+    @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.matrix-grid,.routine-strip,.materials-grid,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.brand-report-grid { grid-template-columns:1fr; } .brand-report-grid { max-width:520px; } .month-card.accordion-month .month-top,.month-top { grid-template-columns:1fr; } .month-card.accordion-month .month-toggle { justify-self:flex-start; margin-top:4px; } }
     @media (max-width:640px) { .bimester-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     #avaliacao-t1 .assessment-columns { grid-template-columns:repeat(4,minmax(0,1fr)); }
     #avaliacao-t1 .assessment-columns article { padding:16px; }
@@ -103,364 +111,375 @@
 </head>
 <body>
 <header class="matrix-hero">
-  <nav class="topbar" aria-label="Navegação da matriz Level 1">
-    <a class="brand" href="../index.html" aria-label="Voltar ao Portal dos Professores Bilíngues"><span class="brand-mark" aria-hidden="true"><img src="../assets/icons/uk-flag.svg" alt=""></span><span><strong>GSP</strong> Teacher Portal</span></a>
-    <div class="nav-links"><a href="#matriz">Matriz</a><a href="#progressao">Progressão</a><a href="#avaliacao-global">Avaliação</a><a href="#estrategias">Estratégias</a></div>
-  </nav>
-  <div class="matrix-hero-grid">
-    <section>
-      <p class="eyebrow">Educação Infantil · matriz anual</p>
-      <h1>Level 1</h1>
-      <p class="lead">Sistema pedagógico Level 1 para orientar entregas esperadas, progressão bimestral e trimestral, estratégias docentes, avaliação global GSP, evidências e base futura para relatórios individualizados.</p>
-      <div class="hero-actions"><a class="btn primary" href="#matriz">Ver matriz mensal</a><a class="btn ghost" href="#uso">Como usar</a><a class="btn ghost" href="#gerador-report-card">Gerador de Report Card</a><a class="btn ghost" href="#materiais">Recursos e Materiais</a></div>
-    </section>
-    <aside class="matrix-card">
-      <h2>3–4 anos</h2>
-      <ul><li>Entrada lúdica e afetiva no inglês.</li><li>Rotinas previsíveis com variação de temas.</li><li>Exploração sensorial, oralidade inicial e pertencimento.</li><li>Evidências simples para avaliação global e relatórios.</li></ul>
-    </aside>
-  </div>
+<nav aria-label="Navegação da matriz Level 1" class="topbar">
+<a aria-label="Voltar ao Portal dos Professores Bilíngues" class="brand" href="../index.html"><span aria-hidden="true" class="brand-mark"><img alt="" src="../assets/icons/uk-flag.svg"/></span><span><strong>GSP</strong> Teacher Portal</span></a>
+<div class="nav-links"><a href="#matriz">Matriz</a><a href="#progressao">Progressão</a><a href="#avaliacao-global">Avaliação</a><a href="#estrategias">Estratégias</a></div>
+</nav>
+<div class="matrix-hero-grid">
+<section>
+<p class="eyebrow">Educação Infantil · matriz anual</p>
+<h1>Level 1</h1>
+<p class="lead">Sistema pedagógico Level 1 para orientar entregas esperadas, progressão bimestral e trimestral, estratégias docentes, avaliação global GSP, evidências e base futura para relatórios individualizados.</p>
+<div class="hero-actions"><a class="btn primary" href="#matriz">Ver matriz mensal</a><a class="btn ghost" href="#uso">Como usar</a><a class="btn ghost" href="#gerador-report-card">Gerador de Report Card</a><a class="btn ghost" href="#materiais">Recursos e Materiais</a></div>
+</section>
+<aside class="matrix-card">
+<h2>3–4 anos</h2>
+<ul><li>Entrada lúdica e afetiva no inglês.</li><li>Rotinas previsíveis com variação de temas.</li><li>Exploração sensorial, oralidade inicial e pertencimento.</li><li>Evidências simples para avaliação global e relatórios.</li></ul>
+</aside>
+</div>
 </header>
 <main>
-  <div class="breadcrumb"><a href="../index.html#segmentos">Portal dos Professores</a> · Educação Infantil · Level 1 · Matriz anual</div>
-  <nav class="anchor-months" aria-label="Meses da matriz"><a href="#mes-1">Fevereiro</a><a href="#mes-2">Março</a><a href="#mes-3">Abril</a><a href="#mes-4">Maio</a><a href="#mes-5">Junho</a><a href="#mes-6">Agosto</a><a href="#mes-7">Setembro</a><a href="#mes-8">Outubro</a><a href="#mes-9">Novembro</a></nav>
-
-  <section class="section teacher-note" id="uso">
-    <div class="section-heading compact"><p class="eyebrow">Como usar esta matriz</p><h2>Da rubrica para a aula</h2></div>
-    <p>Esta página não substitui o livro nem os recursos Cambridge. Ela organiza o padrão pedagógico GSP para que professores de diferentes escolas trabalhem com uma direção comum: mesma progressão, linguagem essencial, evidências mínimas e critérios de observação.</p>
-    <p>O professor deve usar a matriz mensal para planejar a rotina semanal, escolher recursos do material Cambridge, registrar evidências e comunicar desenvolvimento de forma consistente.</p>
-  </section>
-
-  <section class="section standard-box">
-    <div class="section-heading compact"><p class="eyebrow">Modelo GSP</p><h2>O que padroniza e o que adapta</h2></div>
-    <div class="standard-grid">
-      <article><h3>Obrigatório seguir</h3><p>Objetivos do mês, linguagem funcional, evidências observáveis, registro mínimo, rotina base e critérios da rubrica.</p></article>
-      <article><h3>Adaptável pela escola</h3><p>Exemplos locais, materiais concretos, projetos complementares, ordem de algumas atividades e conexões com eventos da unidade.</p></article>
-      <article><h3>Evidência mínima</h3><p>Registrar participação, compreensão e produção inicial por meio de foto, checklist, fala observada ou produção da criança.</p></article>
-      <article><h3>Comunicação com famílias</h3><p>Traduzir o desenvolvimento em linguagem clara, afetiva e consistente, sem transformar a experiência em nota ou prova formal.</p></article>
-    </div>
-  </section>
-
-  <section class="section" id="rotina">
-    <div class="section-heading"><p class="eyebrow">Rotina base</p><h2>Uma arquitetura de aula repetível</h2><p>A rotina se mantém para dar segurança; temas, materiais e desafios variam mês a mês.</p></div>
-    <div class="routine-strip"><article><h3>1. 👋 Welcome</h3><p>Música, saudação, chamada visual e combinados.</p></article><article><h3>2. 🔎 Explore</h3><p>Objeto, imagem, história, movimento ou natureza.</p></article><article><h3>3. 🧸 Play</h3><p>Brincadeira guiada com linguagem-alvo.</p></article><article><h3>4. 🎨 Create</h3><p>Desenho, colagem, construção, drama ou música.</p></article><article><h3>5. 🌟 Share</h3><p>Mostrar, apontar, nomear, escolher e guardar evidência.</p></article></div>
-  </section>
-
-  <section class="section" id="rubrica">
-    <div class="section-heading"><p class="eyebrow">Rubrica pedagógica Level 1</p><h2>Critérios comuns de observação</h2><p>Ao final de cada mês, observar a criança de forma formativa para acompanhar seu desenvolvimento com proximidade.</p></div>
-    <table class="rubric-table"><thead><tr><th>Dimensão</th><th>Observar se a criança...</th><th>Exemplos de evidência</th></tr></thead><tbody>
-      <tr><td>Comunicação e linguagem</td><td>Escuta, responde, repete ou tenta usar palavras/frases simples em inglês.</td><td>Áudio curto, fala registrada, participação em música, resposta a comando.</td></tr>
-      <tr><td>Exploração do mundo</td><td>Manipula, observa, compara, pergunta, demonstra curiosidade e cuidado.</td><td>Foto de investigação, desenho, construção, comentário espontâneo.</td></tr>
-      <tr><td>Social-emotional learning</td><td>Participa da rotina, espera a vez, aceita apoio e faz escolhas.</td><td>Checklist do professor, relato breve, foto em atividade colaborativa.</td></tr>
-      <tr><td>Corpo, movimento e criação</td><td>Usa corpo, gesto, arte, música e brincadeira para comunicar compreensão.</td><td>Vídeo curto, produção artística, dramatização, atividade motora.</td></tr>
-    </tbody></table>
-  </section>
-
+<div class="breadcrumb"><a href="../index.html#segmentos">Portal dos Professores</a> · Educação Infantil · Level 1 · Matriz anual</div>
+<nav aria-label="Meses da matriz" class="anchor-months"><a data-open-month="mes-1" href="#mes-1">Fevereiro</a><a data-open-month="mes-2" href="#mes-2">Março</a><a data-open-month="mes-3" href="#mes-3">Abril</a><a data-open-month="mes-4" href="#mes-4">Maio</a><a data-open-month="mes-5" href="#mes-5">Junho</a><a data-open-month="mes-6" href="#mes-6">Agosto</a><a data-open-month="mes-7" href="#mes-7">Setembro</a><a data-open-month="mes-8" href="#mes-8">Outubro</a><a data-open-month="mes-9" href="#mes-9">Novembro</a></nav>
+<section class="section teacher-note" id="uso">
+<div class="section-heading compact"><p class="eyebrow">Como usar esta matriz</p><h2>Da rubrica para a aula</h2></div>
+<p>Esta página não substitui o livro nem os recursos Cambridge. Ela organiza o padrão pedagógico GSP para que professores de diferentes escolas trabalhem com uma direção comum: mesma progressão, linguagem essencial, evidências mínimas e critérios de observação.</p>
+<p>O professor deve usar a matriz mensal para planejar a rotina semanal, escolher recursos do material Cambridge, registrar evidências e comunicar desenvolvimento de forma consistente.</p>
+</section>
+<section class="section standard-box">
+<div class="section-heading compact"><p class="eyebrow">Modelo GSP</p><h2>O que padroniza e o que adapta</h2></div>
+<div class="standard-grid">
+<article><h3>Obrigatório seguir</h3><p>Objetivos do mês, linguagem funcional, evidências observáveis, registro mínimo, rotina base e critérios da rubrica.</p></article>
+<article><h3>Adaptável pela escola</h3><p>Exemplos locais, materiais concretos, projetos complementares, ordem de algumas atividades e conexões com eventos da unidade.</p></article>
+<article><h3>Evidência mínima</h3><p>Registrar participação, compreensão e produção inicial por meio de foto, checklist, fala observada ou produção da criança.</p></article>
+<article><h3>Comunicação com famílias</h3><p>Traduzir o desenvolvimento em linguagem clara, afetiva e consistente, sem transformar a experiência em nota ou prova formal.</p></article>
+</div>
+</section>
+<section class="section" id="rotina">
+<div class="section-heading"><p class="eyebrow">Rotina base</p><h2>Uma arquitetura de aula repetível</h2><p>A rotina se mantém para dar segurança; temas, materiais e desafios variam mês a mês.</p></div>
+<div class="routine-strip"><article><h3>1. 👋 Welcome</h3><p>Música, saudação, chamada visual e combinados.</p></article><article><h3>2. 🔎 Explore</h3><p>Objeto, imagem, história, movimento ou natureza.</p></article><article><h3>3. 🧸 Play</h3><p>Brincadeira guiada com linguagem-alvo.</p></article><article><h3>4. 🎨 Create</h3><p>Desenho, colagem, construção, drama ou música.</p></article><article><h3>5. 🌟 Share</h3><p>Mostrar, apontar, nomear, escolher e guardar evidência.</p></article></div>
+</section>
+<section class="section" id="rubrica">
+<div class="section-heading"><p class="eyebrow">Rubrica pedagógica Level 1</p><h2>Critérios comuns de observação</h2><p>Ao final de cada mês, observar a criança de forma formativa para acompanhar seu desenvolvimento com proximidade.</p></div>
+<table class="rubric-table"><thead><tr><th>Dimensão</th><th>Observar se a criança...</th><th>Exemplos de evidência</th></tr></thead><tbody>
+<tr><td>Comunicação e linguagem</td><td>Escuta, responde, repete ou tenta usar palavras/frases simples em inglês.</td><td>Áudio curto, fala registrada, participação em música, resposta a comando.</td></tr>
+<tr><td>Exploração do mundo</td><td>Manipula, observa, compara, pergunta, demonstra curiosidade e cuidado.</td><td>Foto de investigação, desenho, construção, comentário espontâneo.</td></tr>
+<tr><td>Social-emotional learning</td><td>Participa da rotina, espera a vez, aceita apoio e faz escolhas.</td><td>Checklist do professor, relato breve, foto em atividade colaborativa.</td></tr>
+<tr><td>Corpo, movimento e criação</td><td>Usa corpo, gesto, arte, música e brincadeira para comunicar compreensão.</td><td>Vídeo curto, produção artística, dramatização, atividade motora.</td></tr>
+</tbody></table>
+</section>
 <section class="section" id="progressao">
-    <div class="section-heading"><p class="eyebrow">Progressão esperada</p><h2>Conteúdos e desenvolvimento por term</h2><p>Use a linha correspondente ao calendário avaliativo da escola. Cada term indica os conteúdos/unidades a ministrar, a linguagem prioritária e o tipo de evidência esperada para acompanhar desenvolvimento, participação e autonomia.</p></div>
-    <h3 class="progression-group-title">Escolas bimestrais · 4 terms</h3>
-    <div class="bimester-grid">
-      <article class="quarter-card"><h3>T1 · Adaptação, identidade e corpo</h3><p><strong>Conteúdos:</strong> Welcome Unit + Unit 1 · identidade, rotina, família, corpo e sentidos.</p><ul><li>Trabalhar cumprimentos, nomes, classroom language, pessoas próximas, partes do corpo e exploração sensorial.</li><li>Priorizar language frames como Hello / Goodbye, My name is..., I see..., This is my... e I like...</li><li>Observar participação na rotina, resposta por olhar/gesto/movimento, reconhecimento de comandos e primeiras tentativas de palavra.</li></ul></article>
-      <article class="quarter-card"><h3>T2 · Cores, formas, natureza e cuidado</h3><p><strong>Conteúdos:</strong> Units 2–3 · cores, formas, materiais, plantas, elementos naturais e cuidado.</p><ul><li>Trabalhar classificação por cor/forma, craft, blocos, pintura, plantio, água, sol, solo e crescimento.</li><li>Priorizar language frames como What colour is it?, It is..., I want..., Look at the plant, It needs... e I can help.</li><li>Observar manipulação, classificação, cuidado com plantas/objetos, curiosidade e registros por produção visual, foto ou fala observada.</li></ul></article>
-      <article class="quarter-card"><h3>T3 · Animais, movimento, alimentação e bem-estar</h3><p><strong>Conteúdos:</strong> Units 4–5 · animais, sons, movimentos, alimentos, hábitos saudáveis e rotina de cuidado.</p><ul><li>Trabalhar nomeação de animais, ações corporais, fast/slow, loud/quiet, alimentos, preferências, higiene e boas maneiras.</li><li>Priorizar language frames como It is a..., It can..., My favourite animal is..., I like / I don’t like..., Wash your hands e Please / Thank you.</li><li>Observar dramatização, resposta motora, expressão de preferência, participação em jogos e uso funcional de linguagem em momentos reais.</li></ul></article>
-      <article class="quarter-card"><h3>T4 · Comunidade, clima, revisão e celebração</h3><p><strong>Conteúdos:</strong> Units 6–8 · escola, comunidade, convivência, clima, roupas, revisão e portfólio.</p><ul><li>Trabalhar espaços da escola, papéis sociais, here/there, weather routine, roupas, sensações e retomada dos temas do ano.</li><li>Priorizar language frames como This is my school, We can..., Where is...?, It is sunny/rainy, I feel hot/cold, I can... e My favourite is...</li><li>Observar pertencimento, cooperação, reconhecimento de vocabulário acumulado, apresentação de produção e seleção de evidências para portfólio.</li></ul></article>
-    </div>
-    <h3 class="progression-group-title">Escolas trimestrais · 3 terms</h3>
-    <div class="quarter-grid">
-      <article class="quarter-card"><h3>T1 · Rotina, identidade, corpo, cores e formas</h3><p><strong>Conteúdos:</strong> Welcome Unit + Units 1–2 · rotina bilíngue, família, corpo, sentidos, cores, formas e materiais.</p><ul><li>Construir segurança afetiva e repertório inicial de sala, corpo, família, texturas, cores e formas.</li><li>Priorizar comandos de rotina, Hello / Goodbye, My name is..., I see..., I like..., What colour is it? e It is...</li><li>Observar adaptação, resposta a comandos, participação em músicas/crafts, exploração sensorial e primeiras evidências de reconhecimento vocabular.</li></ul></article>
-      <article class="quarter-card"><h3>T2 · Natureza, animais, movimento e bem-estar</h3><p><strong>Conteúdos:</strong> Units 3–5 · plantas, cuidado, animais, movimento, alimentos, hábitos saudáveis e preferências.</p><ul><li>Trabalhar experiências concretas de plantio, comparação, dramatização de animais, ações corporais, lanche, higiene e escolhas.</li><li>Priorizar language frames como It needs..., It grows, It is a..., It can..., My favourite animal is..., I like / I don’t like... e Wash your hands.</li><li>Observar cuidado, curiosidade, resposta motora, preferência, turn-taking, participação em jogos e uso de palavras/frases curtas com apoio.</li></ul></article>
-      <article class="quarter-card"><h3>T3 · Comunidade, clima, autonomia e consolidação</h3><p><strong>Conteúdos:</strong> Units 6–8 · escola, comunidade, clima, roupas, mudanças, revisão anual, criação e celebração de aprendizagem.</p><ul><li>Trabalhar espaços da escola, convivência, mapas simples, weather chart, roupas, hot/cold, portfólio e retomada dos temas do ano.</li><li>Priorizar language frames como This is my school, Let’s help, Where is...?, It is sunny/rainy, Put on..., I can..., I know... e Look at my work.</li><li>Observar cooperação, autonomia na rotina, reconhecimento de vocabulário de diferentes temas, apresentação de produção e prontidão para o próximo nível.</li></ul></article>
-    </div>
-  </section>
-
+<div class="section-heading"><p class="eyebrow">Progressão esperada</p><h2>Conteúdos e desenvolvimento por term</h2><p>Use a linha correspondente ao calendário avaliativo da escola. Cada term indica os conteúdos/unidades a ministrar, a linguagem prioritária e o tipo de evidência esperada para acompanhar desenvolvimento, participação e autonomia.</p></div>
+<h3 class="progression-group-title">Escolas bimestrais · 4 terms</h3>
+<div class="bimester-grid">
+<article class="quarter-card"><h3>T1 · Adaptação, identidade e corpo</h3><p><strong>Conteúdos:</strong> Welcome Unit + Unit 1 · identidade, rotina, família, corpo e sentidos.</p><ul><li>Trabalhar cumprimentos, nomes, classroom language, pessoas próximas, partes do corpo e exploração sensorial.</li><li>Priorizar language frames como Hello / Goodbye, My name is..., I see..., This is my... e I like...</li><li>Observar participação na rotina, resposta por olhar/gesto/movimento, reconhecimento de comandos e primeiras tentativas de palavra.</li></ul></article>
+<article class="quarter-card"><h3>T2 · Cores, formas, natureza e cuidado</h3><p><strong>Conteúdos:</strong> Units 2–3 · cores, formas, materiais, plantas, elementos naturais e cuidado.</p><ul><li>Trabalhar classificação por cor/forma, craft, blocos, pintura, plantio, água, sol, solo e crescimento.</li><li>Priorizar language frames como What colour is it?, It is..., I want..., Look at the plant, It needs... e I can help.</li><li>Observar manipulação, classificação, cuidado com plantas/objetos, curiosidade e registros por produção visual, foto ou fala observada.</li></ul></article>
+<article class="quarter-card"><h3>T3 · Animais, movimento, alimentação e bem-estar</h3><p><strong>Conteúdos:</strong> Units 4–5 · animais, sons, movimentos, alimentos, hábitos saudáveis e rotina de cuidado.</p><ul><li>Trabalhar nomeação de animais, ações corporais, fast/slow, loud/quiet, alimentos, preferências, higiene e boas maneiras.</li><li>Priorizar language frames como It is a..., It can..., My favourite animal is..., I like / I don’t like..., Wash your hands e Please / Thank you.</li><li>Observar dramatização, resposta motora, expressão de preferência, participação em jogos e uso funcional de linguagem em momentos reais.</li></ul></article>
+<article class="quarter-card"><h3>T4 · Comunidade, clima, revisão e celebração</h3><p><strong>Conteúdos:</strong> Units 6–8 · escola, comunidade, convivência, clima, roupas, revisão e portfólio.</p><ul><li>Trabalhar espaços da escola, papéis sociais, here/there, weather routine, roupas, sensações e retomada dos temas do ano.</li><li>Priorizar language frames como This is my school, We can..., Where is...?, It is sunny/rainy, I feel hot/cold, I can... e My favourite is...</li><li>Observar pertencimento, cooperação, reconhecimento de vocabulário acumulado, apresentação de produção e seleção de evidências para portfólio.</li></ul></article>
+</div>
+<h3 class="progression-group-title">Escolas trimestrais · 3 terms</h3>
+<div class="quarter-grid">
+<article class="quarter-card"><h3>T1 · Rotina, identidade, corpo, cores e formas</h3><p><strong>Conteúdos:</strong> Welcome Unit + Units 1–2 · rotina bilíngue, família, corpo, sentidos, cores, formas e materiais.</p><ul><li>Construir segurança afetiva e repertório inicial de sala, corpo, família, texturas, cores e formas.</li><li>Priorizar comandos de rotina, Hello / Goodbye, My name is..., I see..., I like..., What colour is it? e It is...</li><li>Observar adaptação, resposta a comandos, participação em músicas/crafts, exploração sensorial e primeiras evidências de reconhecimento vocabular.</li></ul></article>
+<article class="quarter-card"><h3>T2 · Natureza, animais, movimento e bem-estar</h3><p><strong>Conteúdos:</strong> Units 3–5 · plantas, cuidado, animais, movimento, alimentos, hábitos saudáveis e preferências.</p><ul><li>Trabalhar experiências concretas de plantio, comparação, dramatização de animais, ações corporais, lanche, higiene e escolhas.</li><li>Priorizar language frames como It needs..., It grows, It is a..., It can..., My favourite animal is..., I like / I don’t like... e Wash your hands.</li><li>Observar cuidado, curiosidade, resposta motora, preferência, turn-taking, participação em jogos e uso de palavras/frases curtas com apoio.</li></ul></article>
+<article class="quarter-card"><h3>T3 · Comunidade, clima, autonomia e consolidação</h3><p><strong>Conteúdos:</strong> Units 6–8 · escola, comunidade, clima, roupas, mudanças, revisão anual, criação e celebração de aprendizagem.</p><ul><li>Trabalhar espaços da escola, convivência, mapas simples, weather chart, roupas, hot/cold, portfólio e retomada dos temas do ano.</li><li>Priorizar language frames como This is my school, Let’s help, Where is...?, It is sunny/rainy, Put on..., I can..., I know... e Look at my work.</li><li>Observar cooperação, autonomia na rotina, reconhecimento de vocabulário de diferentes temas, apresentação de produção e prontidão para o próximo nível.</li></ul></article>
+</div>
+</section>
 <section class="section" id="projetos">
-    <div class="section-heading"><p class="eyebrow">Projetos complementares</p><h2>Como ampliar sem fugir da matriz</h2><p>Projetos devem reforçar a entrega esperada, gerar evidências e criar experiências significativas, sem substituir a progressão Cambridge/GSP.</p></div>
-    <div class="project-grid">
-      <article class="project-card"><h3>My classroom museum</h3><p>Objetos da sala organizados por cor, forma ou uso.</p><ul><li>Integra vocabulário de sala, cores e formas.</li><li>Gera foto, fala curta e classificação.</li></ul></article>
-      <article class="project-card"><h3>Little garden</h3><p>Plantio, cuidado e observação de uma semente/planta.</p><ul><li>Integra natureza, cuidado e sequência temporal.</li><li>Gera registro visual de antes/depois.</li></ul></article>
-      <article class="project-card"><h3>Animal movement day</h3><p>Movimento, sons, dramatização e preferência por animais.</p><ul><li>Integra corpo, escuta e vocabulário.</li><li>Gera vídeo curto ou foto comentada.</li></ul></article>
-    </div>
-  </section>
-
+<div class="section-heading"><p class="eyebrow">Projetos complementares</p><h2>Como ampliar sem fugir da matriz</h2><p>Projetos devem reforçar a entrega esperada, gerar evidências e criar experiências significativas, sem substituir a progressão Cambridge/GSP.</p></div>
+<div class="project-grid">
+<article class="project-card"><h3>My classroom museum</h3><p>Objetos da sala organizados por cor, forma ou uso.</p><ul><li>Integra vocabulário de sala, cores e formas.</li><li>Gera foto, fala curta e classificação.</li></ul></article>
+<article class="project-card"><h3>Little garden</h3><p>Plantio, cuidado e observação de uma semente/planta.</p><ul><li>Integra natureza, cuidado e sequência temporal.</li><li>Gera registro visual de antes/depois.</li></ul></article>
+<article class="project-card"><h3>Animal movement day</h3><p>Movimento, sons, dramatização e preferência por animais.</p><ul><li>Integra corpo, escuta e vocabulário.</li><li>Gera vídeo curto ou foto comentada.</li></ul></article>
+</div>
+</section>
 <section class="section" id="estrategias">
-    <div class="section-heading"><p class="eyebrow">Estratégias pedagógicas</p><h2>Apoio prático ao professor</h2><p>Essas estratégias ajudam a equipe docente a atingir os marcos, especialmente quando a turma tem pouca exposição prévia ao inglês.</p></div>
-    <div class="strategy-grid">
-      <article class="strategy-card"><h3>🌟 Positive reinforcement</h3><p>Reforçar tentativa, participação e coragem comunicativa, não apenas acerto.</p><ul><li>“Good trying!”</li><li>“I can see you listening.”</li><li>“Great pointing!”</li></ul></article>
-      <article class="strategy-card"><h3>🧩 Scaffolding</h3><p>Dar apoio visual, gestual e linguístico antes de pedir produção oral.</p><ul><li>Modelar primeiro.</li><li>Usar imagens/objetos.</li><li>Oferecer duas escolhas.</li></ul></article>
-      <article class="strategy-card"><h3>🗣️ Speaking sem pressão</h3><p>Permitir resposta por gesto, repetição, palavra isolada ou frase apoiada.</p><ul><li>Não forçar exposição.</li><li>Valorizar aproximações.</li><li>Repetir em rotina.</li></ul></article>
-      <article class="strategy-card"><h3>👂 Listening ativo</h3><p>Transformar escuta em ação corporal, escolha, apontar ou manipular.</p><ul><li>TPR.</li><li>Show me...</li><li>Touch the...</li></ul></article>
-      <article class="strategy-card"><h3>🔁 Vocabulary recycling</h3><p>Retomar pouco e sempre, em música, story time, chamada, brincadeira e transições.</p><ul><li>Daily review.</li><li>Flashcard games.</li><li>Same words, new contexts.</li></ul></article>
-      <article class="strategy-card"><h3>📝 Registro pedagógico</h3><p>Registrar evidências simples, mas consistentes, para avaliação e relatório.</p><ul><li>Foto + legenda.</li><li>Checklist mensal.</li><li>Fala observada.</li></ul></article>
-    </div>
-  </section>
-
+<div class="section-heading"><p class="eyebrow">Estratégias pedagógicas</p><h2>Apoio prático ao professor</h2><p>Essas estratégias ajudam a equipe docente a atingir os marcos, especialmente quando a turma tem pouca exposição prévia ao inglês.</p></div>
+<div class="strategy-grid">
+<article class="strategy-card"><h3>🌟 Positive reinforcement</h3><p>Reforçar tentativa, participação e coragem comunicativa, não apenas acerto.</p><ul><li>“Good trying!”</li><li>“I can see you listening.”</li><li>“Great pointing!”</li></ul></article>
+<article class="strategy-card"><h3>🧩 Scaffolding</h3><p>Dar apoio visual, gestual e linguístico antes de pedir produção oral.</p><ul><li>Modelar primeiro.</li><li>Usar imagens/objetos.</li><li>Oferecer duas escolhas.</li></ul></article>
+<article class="strategy-card"><h3>🗣️ Speaking sem pressão</h3><p>Permitir resposta por gesto, repetição, palavra isolada ou frase apoiada.</p><ul><li>Não forçar exposição.</li><li>Valorizar aproximações.</li><li>Repetir em rotina.</li></ul></article>
+<article class="strategy-card"><h3>👂 Listening ativo</h3><p>Transformar escuta em ação corporal, escolha, apontar ou manipular.</p><ul><li>TPR.</li><li>Show me...</li><li>Touch the...</li></ul></article>
+<article class="strategy-card"><h3>🔁 Vocabulary recycling</h3><p>Retomar pouco e sempre, em música, story time, chamada, brincadeira e transições.</p><ul><li>Daily review.</li><li>Flashcard games.</li><li>Same words, new contexts.</li></ul></article>
+<article class="strategy-card"><h3>📝 Registro pedagógico</h3><p>Registrar evidências simples, mas consistentes, para avaliação e relatório.</p><ul><li>Foto + legenda.</li><li>Checklist mensal.</li><li>Fala observada.</li></ul></article>
+</div>
+</section>
 <section class="section" id="matriz">
-    <div class="section-heading"><p class="eyebrow">Matriz anual</p><h2>Ensino Infantil - Level 1 mês a mês</h2><p>Use estes blocos como guia de planejamento, acompanhamento e registro. A progressão é pedagógica: pode ser refinada após leitura completa dos recursos específicos adotados pela escola.</p></div>
-    <div class="month-list"><article class="month-card" id="mes-1">
-      <div class="month-top"><span>Fevereiro</span><strong>Welcome Unit · identidade, rotina e segurança afetiva</strong></div>
-      <p class="month-focus">Chegada ao inglês como rotina da escola: cumprimentos, combinados, corpo, sala de aula, nomes e pertencimento.</p>
-      <div class="matrix-grid">
-        <div><h4>Language frames</h4><p>Hello / Goodbye · My name is... · Look! · Sit down · Stand up · My turn · Help, please</p></div>
-        <div><h4>Vocabulário-alvo</h4><p>name, teacher, friend, school, classroom, chair, table, book, crayon, bag, body, hands</p></div>
-        <div><h4>Ready, Set, Grow!</h4><p>Usar Welcome Unit para apresentar personagens, músicas de rotina, vocabulário inicial e comandos básicos.</p></div>
-        <div><h4>Let’s Explore</h4><p>Explorar sala de aula, corpo, sentidos e combinados por meio de objetos reais, música, movimento e brincadeira guiada.</p></div>
-        <div><h4>Evidências observáveis</h4><p>Participa da rotina; responde a hello/goodbye; reconhece comando com gesto; aceita apoio do adulto; começa a apontar/nomear objetos.</p></div>
-        <div><h4>Registro mínimo</h4><p>Foto de participação na rotina + anotação breve de resposta observada.</p></div>
-      </div>
-    </article>
-<article class="month-card" id="mes-2">
-      <div class="month-top"><span>Março</span><strong>Unit 1 · família, corpo e sentidos</strong></div>
-      <p class="month-focus">Reconhecer pessoas próximas, corpo e sentidos; expressar preferência por gesto, palavra ou escolha.</p>
-      <div class="matrix-grid">
-        <div><h4>Language frames</h4><p>I see... · It is... · I like... · This is my... · Big/small · Soft/rough</p></div>
-        <div><h4>Vocabulário-alvo</h4><p>family, mum, dad, baby, eyes, ears, nose, mouth, hands, feet, soft, rough, big, small</p></div>
-        <div><h4>Ready, Set, Grow!</h4><p>Priorizar música, flashcards, story time e vocabulary practice em ciclos curtos e repetidos.</p></div>
-        <div><h4>Let’s Explore</h4><p>Exploração sensorial com texturas, sons, imagens da família, espelho e jogos de apontar/nomear.</p></div>
-        <div><h4>Evidências observáveis</h4><p>Aponta partes do corpo; participa de música; repete palavra isolada; escolhe material; demonstra curiosidade sensorial.</p></div>
-        <div><h4>Registro mínimo</h4><p>Checklist individual simples: gesto, palavra, participação, curiosidade.</p></div>
-      </div>
-    </article>
-<article class="month-card" id="mes-3">
-      <div class="month-top"><span>Abril</span><strong>Unit 2 · cores, formas e materiais</strong></div>
-      <p class="month-focus">Observar, manipular e nomear cores, formas, tamanhos e materiais em atividades concretas.</p>
-      <div class="matrix-grid">
-        <div><h4>Language frames</h4><p>What colour is it? · It is red/blue... · Circle/square · I want... · More, please</p></div>
-        <div><h4>Vocabulário-alvo</h4><p>red, blue, yellow, green, circle, square, triangle, paint, paper, glue, blocks, more</p></div>
-        <div><h4>Ready, Set, Grow!</h4><p>Usar atividades de vocabulário, song/karaoke e worksheets como consolidação, sem transformar a aula em ficha.</p></div>
-        <div><h4>Let’s Explore</h4><p>Organizar estações de exploração com blocos, tinta, colagem, classificação livre e construção coletiva.</p></div>
-        <div><h4>Evidências observáveis</h4><p>Classifica por cor/forma com apoio; usa palavra isolada; participa de craft; segue instruções simples.</p></div>
-        <div><h4>Registro mínimo</h4><p>Guardar produção visual com legenda pedagógica curta.</p></div>
-      </div>
-    </article>
-<article class="month-card" id="mes-4">
-      <div class="month-top"><span>Maio</span><strong>Unit 3 · natureza, plantas e cuidado</strong></div>
-      <p class="month-focus">Explorar elementos naturais, cuidado com plantas/objetos e primeiras relações de causa e efeito.</p>
-      <div class="matrix-grid">
-        <div><h4>Language frames</h4><p>Look at the plant · It needs... · Water, please · It grows · I can help</p></div>
-        <div><h4>Vocabulário-alvo</h4><p>plant, flower, leaf, seed, water, sun, soil, grow, green, small, big</p></div>
-        <div><h4>Ready, Set, Grow!</h4><p>Retomar vocabulário e histórias para dar repertório linguístico antes da exploração prática.</p></div>
-        <div><h4>Let’s Explore</h4><p>Plantar, regar, observar folhas/sementes, comparar antes/depois e registrar por desenho ou foto.</p></div>
-        <div><h4>Evidências observáveis</h4><p>Demonstra cuidado; observa mudança; participa de rotina de regar; usa gesto/palavra ligada à natureza.</p></div>
-        <div><h4>Registro mínimo</h4><p>Sequência de fotos da planta + fala/gesto registrado pelo professor.</p></div>
-      </div>
-    </article>
-<article class="month-card" id="mes-5">
-      <div class="month-top"><span>Junho</span><strong>Unit 4 · animais, movimento e sons</strong></div>
-      <p class="month-focus">Nomear animais, imitar movimentos/sons, comparar características e participar de jogos corporais.</p>
-      <div class="matrix-grid">
-        <div><h4>Language frames</h4><p>It is a... · It can jump/run/fly · Fast/slow · Loud/quiet · My favourite animal is...</p></div>
-        <div><h4>Vocabulário-alvo</h4><p>dog, cat, bird, fish, rabbit, jump, run, fly, swim, fast, slow, loud, quiet</p></div>
-        <div><h4>Ready, Set, Grow!</h4><p>Usar story, song e flashcards para repetição lúdica e reconhecimento auditivo/visual.</p></div>
-        <div><h4>Let’s Explore</h4><p>Brincadeiras de movimento, trilhas de animais, sons, classificação e dramatização em pequenos grupos.</p></div>
-        <div><h4>Evidências observáveis</h4><p>Imita animal; reconhece imagem; segue comando motor; espera a vez; expressa preferência.</p></div>
-        <div><h4>Registro mínimo</h4><p>Vídeo curto ou foto de dramatização + rubrica de participação.</p></div>
-      </div>
-    </article>
-<article class="month-card" id="mes-6">
-      <div class="month-top"><span>Agosto</span><strong>Unit 5 · alimentação, hábitos e bem-estar</strong></div>
-      <p class="month-focus">Falar sobre alimentos, preferências, higiene e hábitos saudáveis dentro de uma rotina afetiva.</p>
-      <div class="matrix-grid">
-        <div><h4>Language frames</h4><p>I like... / I don’t like... · Yummy! · Wash your hands · Healthy food · Please / Thank you</p></div>
-        <div><h4>Vocabulário-alvo</h4><p>apple, banana, bread, milk, water, fruit, snack, wash, hands, clean, please, thank you</p></div>
-        <div><h4>Ready, Set, Grow!</h4><p>Valorizar well-being lesson, chants de rotina e linguagem funcional em momentos reais da escola.</p></div>
-        <div><h4>Let’s Explore</h4><p>Explorar lanche, frutas, cores, cheiros, escolhas e combinados de cuidado antes/depois de comer.</p></div>
-        <div><h4>Evidências observáveis</h4><p>Expressa preferência; usa please/thank you; participa de rotina de higiene; reconhece alimentos.</p></div>
-        <div><h4>Registro mínimo</h4><p>Registro de preferência alimentar ou gráfico visual simples da turma.</p></div>
-      </div>
-    </article>
-<article class="month-card" id="mes-7">
-      <div class="month-top"><span>Setembro</span><strong>Unit 6 · comunidade, escola e convivência</strong></div>
-      <p class="month-focus">Reconhecer pessoas, espaços e papéis da escola; fortalecer pertencimento e cooperação.</p>
-      <div class="matrix-grid">
-        <div><h4>Language frames</h4><p>This is my school · We can... · Let’s help · Where is...? · Here/there</p></div>
-        <div><h4>Vocabulário-alvo</h4><p>school, classroom, playground, teacher, friend, helper, door, garden, here, there</p></div>
-        <div><h4>Ready, Set, Grow!</h4><p>Repetir linguagem de rotina e turn-taking com apoio de personagens, músicas e cards.</p></div>
-        <div><h4>Let’s Explore</h4><p>Passeio guiado pela escola, mapas simples, fotos dos espaços e combinados de convivência.</p></div>
-        <div><h4>Evidências observáveis</h4><p>Reconhece espaços; segue rota simples; coopera; usa here/there com apoio; demonstra pertencimento.</p></div>
-        <div><h4>Registro mínimo</h4><p>Mapa visual coletivo da escola com fotos e palavras-chave.</p></div>
-      </div>
-    </article>
-<article class="month-card" id="mes-8">
-      <div class="month-top"><span>Outubro</span><strong>Unit 7 · clima, roupas e mudanças</strong></div>
-      <p class="month-focus">Observar clima, sensações, roupas e mudanças simples no ambiente.</p>
-      <div class="matrix-grid">
-        <div><h4>Language frames</h4><p>It is sunny/rainy · I feel hot/cold · Put on... · Take off... · Today is...</p></div>
-        <div><h4>Vocabulário-alvo</h4><p>sunny, rainy, cloudy, hot, cold, coat, hat, shoes, wet, dry, today</p></div>
-        <div><h4>Ready, Set, Grow!</h4><p>Usar músicas e vocabulário para calendar/weather routine, com repetição diária curta.</p></div>
-        <div><h4>Let’s Explore</h4><p>Observar céu, temperatura, roupas, água/sol/sombra e registrar clima em painel da turma.</p></div>
-        <div><h4>Evidências observáveis</h4><p>Identifica clima com imagem; participa do calendário; escolhe roupa adequada em jogo; usa hot/cold.</p></div>
-        <div><h4>Registro mínimo</h4><p>Painel semanal do clima + observação individual de linguagem.</p></div>
-      </div>
-    </article>
-<article class="month-card" id="mes-9">
-      <div class="month-top"><span>Novembro</span><strong>Unit 8 · revisão, criação e celebração de aprendizagem</strong></div>
-      <p class="month-focus">Consolidar vocabulário e rotinas; produzir mostra simples de aprendizagem com evidências do percurso.</p>
-      <div class="matrix-grid">
-        <div><h4>Language frames</h4><p>I can... · I know... · My favourite is... · Look at my work · Thank you</p></div>
-        <div><h4>Vocabulário-alvo</h4><p>review vocabulary from the year: colours, body, animals, food, school, nature, weather</p></div>
-        <div><h4>Ready, Set, Grow!</h4><p>Retomar músicas favoritas, histórias, personagens e jogos de revisão com foco em confiança.</p></div>
-        <div><h4>Let’s Explore</h4><p>Organizar portfólio, roda de apresentação, mostra sensorial e retomada das descobertas do ano.</p></div>
-        <div><h4>Evidências observáveis</h4><p>Reconhece vocabulário de diferentes temas; mostra produção; participa da celebração; comunica preferência.</p></div>
-        <div><h4>Registro mínimo</h4><p>Portfólio individual com 3 evidências + comentário pedagógico curto.</p></div>
-      </div>
-    </article></div>
-  </section>
-  <section class="section assessment-box" id="avaliacao-global">
-    <div class="section-heading compact"><p class="eyebrow">Avaliação Global GSP</p><h2>Verificação Global Cambridge GSP</h2><p>Para Level 1, a avaliação deve ser prática, observável e adequada à Educação Infantil. Não é prova formal: é uma experiência padronizada para medir progresso entre escolas e identificar lacunas.</p></div>
-    <div class="assessment-columns">
-      <article><strong>Listening & responding</strong><p>Comandos simples, escolha de imagem/objeto, reação a história, música ou rotina.</p></article>
-      <article><strong>Vocabulary recognition</strong><p>Reconhecimento de vocabulário-chave do term por imagem, objeto, gesto ou jogo.</p></article>
-      <article><strong>Speaking attempt</strong><p>Tentativa de repetir, nomear, escolher, completar frase curta ou responder com apoio.</p></article>
-      <article><strong>Task performance</strong><p>Realização de tarefa prática: classificar, apontar, construir, desenhar, dramatizar ou cuidar.</p></article>
-      <article><strong>Participation</strong><p>Engajamento em música, story time, turn-taking, brincadeira guiada e rotina coletiva.</p></article>
-      <article><strong>Social-emotional learning</strong><p>Segurança, colaboração, aceitação de apoio, espera da vez e confiança progressiva.</p></article>
-    </div>
-  </section>
-
-  <section class="section assessment-box" id="avaliacao-t1">
-    <div class="section-heading compact"><p class="eyebrow">Modelo bimestral&nbsp;/&nbsp;trimestral · Level 1</p><h2>Adaptação, rotina, resposta e desenvolvimento</h2><p>A avaliação deve acompanhar a evolução da criança ao longo do ano, considerando o calendário da escola. O foco não é aplicar uma prova formal, mas observar evidências progressivas de adaptação, participação, compreensão, resposta ao inglês e autonomia nas propostas.</p></div>
-    <div class="assessment-columns">
-      <article><strong>Adaptação</strong><p>Observar segurança afetiva, vínculo com professor e turma, disponibilidade para participar e entrada gradual na rotina bilíngue.</p></article>
-      <article><strong>Rotina</strong><p>Observar reconhecimento dos momentos da aula, resposta a comandos recorrentes e participação em músicas, histórias, combinados e transições.</p></article>
-      <article><strong>Resposta ao inglês</strong><p>Observar compreensão antes da fala: olhar, gesto, movimento, escolha, palavra isolada, frase curta ou reconhecimento de vocabulário em contexto.</p></article>
-      <article><strong>Desenvolvimento</strong><p>Observar ampliação de repertório, autonomia nas propostas, confiança para interagir, mostrar produções e participar com mais intenção comunicativa.</p></article>
-    </div>
-
-    <div class="section-heading compact" style="margin-top:28px;"><p class="eyebrow">Escala de acompanhamento</p><h2>Sem nota, com evidência de desenvolvimento</h2></div>
-    <table class="rubric-table"><thead><tr><th>Indicador</th><th>Descrição ao longo do ano</th></tr></thead><tbody>
-      <tr><td>Emerging</td><td>A criança começa a demonstrar a habilidade com apoio intenso, principalmente por gesto, olhar, movimento, escolha ou mediação direta.</td></tr>
-      <tr><td>Developing</td><td>A criança demonstra a habilidade em algumas situações, com apoio visual, repetição, rotina conhecida ou mediação do professor.</td></tr>
-      <tr><td>Consolidating</td><td>A criança demonstra a habilidade com mais frequência e segurança, podendo usar palavra isolada, gesto intencional, frase curta ou resposta mais autônoma.</td></tr>
-    </tbody></table>
-    <div class="assessment-columns" style="margin-top:22px;">
-      <article><strong>Escolas bimestrais</strong><p>Aplicar essa leitura nos 4 bimestres, observando avanço gradual em cada eixo e registrando evidências específicas do conteúdo trabalhado no período.</p></article>
-      <article><strong>Escolas trimestrais</strong><p>Aplicar essa leitura nos 3 trimestres, agrupando mais tempo de observação em cada ciclo e mantendo a mesma lógica de progressão.</p></article>
-      <article><strong>Uso pedagógico</strong><p>Os dados devem orientar retomada de vocabulário, apoio individual, agrupamentos, próximos passos e comunicação descritiva para as famílias.</p></article>
-    </div>
-
-  </section>
-
-  <section class="section" id="relatorio-base">
-    <div class="section-heading"><p class="eyebrow">Base para relatório individualizado</p><h2>Como transformar evidências em comunicação</h2><p>Após as avaliações trimestrais, os resultados poderão alimentar comentários individualizados e próximos passos de aprendizagem.</p></div>
-    <div class="report-grid">
-      <article class="report-card"><h3>O aluno já demonstra</h3><p>Participação, compreensão, vocabulário reconhecido, interação e autonomia observável.</p></article>
-      <article class="report-card"><h3>Próximo passo</h3><p>Habilidade ou comportamento que precisa ser fortalecido no próximo ciclo.</p></article>
-      <article class="report-card"><h3>Plano de apoio</h3><p>Estratégias para professor/turma quando marcos não forem atingidos.</p></article>
-    </div>
-  </section>
-
-  <section class="section assessment-box" id="gerador-report-card">
-    <div class="note-box">
-      <h2>Gerador digital do Report Card · Kinder - Level 1</h2>
-      <p>Escolha a marca e o term correspondente de sua escola para preencher a ficha digital e gerar o report card familiar em PDF.</p>
-      <h3 class="report-calendar-title">Escolas bimestrais · 4 terms</h3>
-      <div class="school-report-group">
-        <h4 class="school-report-title">Objetivo</h4>
-        <div class="brand-report-grid" aria-label="Geradores de report card do Objetivo por term">
-          <a class="brand-report-card active" href="report-card-objetivo-level1-term1.html">
-            <div><strong>Term 1</strong><span>Welcome Unit + Unit 1 · identidade, rotina, família, corpo e sentidos</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-          <a class="brand-report-card active" href="report-card-objetivo-level1-term2.html">
-            <div><strong>Term 2</strong><span>Units 2–3 · cores, formas, materiais, natureza, plantas e cuidado</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-          <a class="brand-report-card active" href="report-card-objetivo-level1-term3.html">
-            <div><strong>Term 3</strong><span>Units 4–5 · animais, movimento, alimentação, hábitos saudáveis e bem-estar</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-          <a class="brand-report-card active" href="report-card-objetivo-level1-term4.html">
-            <div><strong>Term 4</strong><span>Units 6–8 · comunidade, clima, revisão, portfólio e celebração</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-        </div>
-      </div>
-      <div class="school-report-group">
-        <h4 class="school-report-title">CCPA</h4>
-        <div class="brand-report-grid" aria-label="Geradores de report card do CCPA por term">
-          <a class="brand-report-card active" href="report-card-ccpa-level1-term1.html">
-            <div><strong>Term 1</strong><span>Welcome Unit + Unit 1 · identidade, rotina, família, corpo e sentidos</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-          <a class="brand-report-card active" href="report-card-ccpa-level1-term2.html">
-            <div><strong>Term 2</strong><span>Units 2–3 · cores, formas, materiais, natureza, plantas e cuidado</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-          <a class="brand-report-card active" href="report-card-ccpa-level1-term3.html">
-            <div><strong>Term 3</strong><span>Units 4–5 · animais, movimento, alimentação, hábitos saudáveis e bem-estar</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-          <a class="brand-report-card active" href="report-card-ccpa-level1-term4.html">
-            <div><strong>Term 4</strong><span>Units 6–8 · comunidade, clima, revisão, portfólio e celebração</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-        </div>
-      </div>
-      <h3 class="report-calendar-title">Escolas trimestrais · 3 terms</h3>
-      <div class="school-report-group">
-        <h4 class="school-report-title">CJA</h4>
-        <div class="brand-report-grid term-3" aria-label="Geradores de report card do CJA por term">
-          <a class="brand-report-card active" href="report-card-cja-level1-term1.html">
-            <div><strong>Term 1</strong><span>Welcome Unit + Units 1–2 · rotina, família, corpo, sentidos, cores, formas e materiais</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-          <a class="brand-report-card active" href="report-card-cja-level1-term2.html">
-            <div><strong>Term 2</strong><span>Units 3–5 · natureza, plantas, animais, movimento, alimentação e bem-estar</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-          <a class="brand-report-card active" href="report-card-cja-level1-term3.html">
-            <div><strong>Term 3</strong><span>Units 6–8 · comunidade, clima, revisão, portfólio e celebração</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-        </div>
-      </div>
-      <div class="school-report-group">
-        <h4 class="school-report-title">Santo Anjo</h4>
-        <div class="brand-report-grid term-3" aria-label="Geradores de report card do Santo Anjo por term">
-          <a class="brand-report-card active" href="report-card-santo-anjo-level1-term1.html">
-            <div><strong>Term 1</strong><span>Welcome Unit + Units 1–2 · rotina, família, corpo, sentidos, cores, formas e materiais</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-          <a class="brand-report-card active" href="report-card-santo-anjo-level1-term2.html">
-            <div><strong>Term 2</strong><span>Units 3–5 · natureza, plantas, animais, movimento, alimentação e bem-estar</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-          <a class="brand-report-card active" href="report-card-santo-anjo-level1-term3.html">
-            <div><strong>Term 3</strong><span>Units 6–8 · comunidade, clima, revisão, portfólio e celebração</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-        </div>
-      </div>
-      <div class="school-report-group">
-        <h4 class="school-report-title">Marupiara</h4>
-        <div class="brand-report-grid term-3" aria-label="Geradores de report card do Marupiara por term">
-          <a class="brand-report-card active" href="report-card-marupiara-level1-term1.html">
-            <div><strong>Term 1</strong><span>Welcome Unit + Units 1–2 · rotina, família, corpo, sentidos, cores, formas e materiais</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-          <a class="brand-report-card active" href="report-card-marupiara-level1-term2.html">
-            <div><strong>Term 2</strong><span>Units 3–5 · natureza, plantas, animais, movimento, alimentação e bem-estar</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-          <a class="brand-report-card active" href="report-card-marupiara-level1-term3.html">
-            <div><strong>Term 3</strong><span>Units 6–8 · comunidade, clima, revisão, portfólio e celebração</span></div>
-            <span class="status">Acessar gerador</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="materiais">
-    <div class="section-heading"><p class="eyebrow">Materiais-base</p><h2>Onde buscar os recursos</h2><p>Use as plataformas oficiais da Cambridge para acessar os materiais digitais correspondentes a cada frente do programa. As pastas no Drive reúnem materiais internos de apoio, organização e consulta rápida para planejamento.</p></div>
-    <div class="materials-grid">
-      <article class="material-card"><h3>Cambridge One</h3><p>Plataforma oficial para materiais Cambridge ELT, incluindo recursos digitais de apoio ao ensino de inglês.</p><a href="https://www.cambridgeone.org/" target="_blank" rel="noopener">Acessar Cambridge One</a></article>
-      <article class="material-card"><h3>Cambridge GO</h3><p>Plataforma oficial para materiais Cambridge International Curriculum e recursos digitais relacionados.</p><a href="https://www.cambridge.org/go/" target="_blank" rel="noopener">Acessar Cambridge GO</a></article>
-      <article class="material-card"><h3>Ready, Set, Grow! Level 1</h3><p>Guia de carga horária, certificado, learner resources e worksheets/resources organizados para consulta interna.</p><a href="https://drive.google.com/drive/folders/1wt6jFAnBjrKWW-EN_CfRQQueR6rtZalk" target="_blank" rel="noopener">Abrir pasta Level 1 no Drive</a></article>
-      <article class="material-card"><h3>Let’s Explore Level 1</h3><p>Matriz pedagógica e materiais de apoio para exploração lúdica, projetos e experiências integradas.</p><a href="https://drive.google.com/drive/folders/1BHawv8epW3R9Cx8F5b5QRHmu_mNz7S38" target="_blank" rel="noopener">Abrir pasta Let’s Explore no Drive</a></article>
-    </div>
-  </section>
-
+<div class="section-heading"><p class="eyebrow">Matriz anual</p><h2>Ensino Infantil - Level 1 mês a mês</h2><p>Use estes blocos como guia de planejamento, acompanhamento e registro. A progressão é pedagógica: pode ser refinada após leitura completa dos recursos específicos adotados pela escola.</p></div><div class="accordion-help"><strong>Navegação por mês:</strong> clique no mês para abrir ou fechar os campos da rubrica mensal. Todos os meses ficam compactos inicialmente para facilitar a consulta dos professores.</div>
+<div class="month-list"><article class="month-card accordion-month is-collapsed" id="mes-1">
+<div aria-controls="mes-1-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Fevereiro</span><strong>Welcome Unit · identidade, rotina e segurança afetiva</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Chegada ao inglês como rotina da escola: cumprimentos, combinados, corpo, sala de aula, nomes e pertencimento.</p>
+<div class="matrix-grid" id="mes-1-conteudo">
+<div><h4>Language frames</h4><p>Hello / Goodbye · My name is... · Look! · Sit down · Stand up · My turn · Help, please</p></div>
+<div><h4>Vocabulário-alvo</h4><p>name, teacher, friend, school, classroom, chair, table, book, crayon, bag, body, hands</p></div>
+<div><h4>Ready, Set, Grow!</h4><p>Usar Welcome Unit para apresentar personagens, músicas de rotina, vocabulário inicial e comandos básicos.</p></div>
+<div><h4>Let’s Explore</h4><p>Explorar sala de aula, corpo, sentidos e combinados por meio de objetos reais, música, movimento e brincadeira guiada.</p></div>
+<div><h4>Evidências observáveis</h4><p>Participa da rotina; responde a hello/goodbye; reconhece comando com gesto; aceita apoio do adulto; começa a apontar/nomear objetos.</p></div>
+<div><h4>Registro mínimo</h4><p>Foto de participação na rotina + anotação breve de resposta observada.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month is-collapsed" id="mes-2">
+<div aria-controls="mes-2-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Março</span><strong>Unit 1 · família, corpo e sentidos</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Reconhecer pessoas próximas, corpo e sentidos; expressar preferência por gesto, palavra ou escolha.</p>
+<div class="matrix-grid" id="mes-2-conteudo">
+<div><h4>Language frames</h4><p>I see... · It is... · I like... · This is my... · Big/small · Soft/rough</p></div>
+<div><h4>Vocabulário-alvo</h4><p>family, mum, dad, baby, eyes, ears, nose, mouth, hands, feet, soft, rough, big, small</p></div>
+<div><h4>Ready, Set, Grow!</h4><p>Priorizar música, flashcards, story time e vocabulary practice em ciclos curtos e repetidos.</p></div>
+<div><h4>Let’s Explore</h4><p>Exploração sensorial com texturas, sons, imagens da família, espelho e jogos de apontar/nomear.</p></div>
+<div><h4>Evidências observáveis</h4><p>Aponta partes do corpo; participa de música; repete palavra isolada; escolhe material; demonstra curiosidade sensorial.</p></div>
+<div><h4>Registro mínimo</h4><p>Checklist individual simples: gesto, palavra, participação, curiosidade.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month is-collapsed" id="mes-3">
+<div aria-controls="mes-3-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Abril</span><strong>Unit 2 · cores, formas e materiais</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Observar, manipular e nomear cores, formas, tamanhos e materiais em atividades concretas.</p>
+<div class="matrix-grid" id="mes-3-conteudo">
+<div><h4>Language frames</h4><p>What colour is it? · It is red/blue... · Circle/square · I want... · More, please</p></div>
+<div><h4>Vocabulário-alvo</h4><p>red, blue, yellow, green, circle, square, triangle, paint, paper, glue, blocks, more</p></div>
+<div><h4>Ready, Set, Grow!</h4><p>Usar atividades de vocabulário, song/karaoke e worksheets como consolidação, sem transformar a aula em ficha.</p></div>
+<div><h4>Let’s Explore</h4><p>Organizar estações de exploração com blocos, tinta, colagem, classificação livre e construção coletiva.</p></div>
+<div><h4>Evidências observáveis</h4><p>Classifica por cor/forma com apoio; usa palavra isolada; participa de craft; segue instruções simples.</p></div>
+<div><h4>Registro mínimo</h4><p>Guardar produção visual com legenda pedagógica curta.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month is-collapsed" id="mes-4">
+<div aria-controls="mes-4-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Maio</span><strong>Unit 3 · natureza, plantas e cuidado</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Explorar elementos naturais, cuidado com plantas/objetos e primeiras relações de causa e efeito.</p>
+<div class="matrix-grid" id="mes-4-conteudo">
+<div><h4>Language frames</h4><p>Look at the plant · It needs... · Water, please · It grows · I can help</p></div>
+<div><h4>Vocabulário-alvo</h4><p>plant, flower, leaf, seed, water, sun, soil, grow, green, small, big</p></div>
+<div><h4>Ready, Set, Grow!</h4><p>Retomar vocabulário e histórias para dar repertório linguístico antes da exploração prática.</p></div>
+<div><h4>Let’s Explore</h4><p>Plantar, regar, observar folhas/sementes, comparar antes/depois e registrar por desenho ou foto.</p></div>
+<div><h4>Evidências observáveis</h4><p>Demonstra cuidado; observa mudança; participa de rotina de regar; usa gesto/palavra ligada à natureza.</p></div>
+<div><h4>Registro mínimo</h4><p>Sequência de fotos da planta + fala/gesto registrado pelo professor.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month is-collapsed" id="mes-5">
+<div aria-controls="mes-5-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Junho</span><strong>Unit 4 · animais, movimento e sons</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Nomear animais, imitar movimentos/sons, comparar características e participar de jogos corporais.</p>
+<div class="matrix-grid" id="mes-5-conteudo">
+<div><h4>Language frames</h4><p>It is a... · It can jump/run/fly · Fast/slow · Loud/quiet · My favourite animal is...</p></div>
+<div><h4>Vocabulário-alvo</h4><p>dog, cat, bird, fish, rabbit, jump, run, fly, swim, fast, slow, loud, quiet</p></div>
+<div><h4>Ready, Set, Grow!</h4><p>Usar story, song e flashcards para repetição lúdica e reconhecimento auditivo/visual.</p></div>
+<div><h4>Let’s Explore</h4><p>Brincadeiras de movimento, trilhas de animais, sons, classificação e dramatização em pequenos grupos.</p></div>
+<div><h4>Evidências observáveis</h4><p>Imita animal; reconhece imagem; segue comando motor; espera a vez; expressa preferência.</p></div>
+<div><h4>Registro mínimo</h4><p>Vídeo curto ou foto de dramatização + rubrica de participação.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month is-collapsed" id="mes-6">
+<div aria-controls="mes-6-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Agosto</span><strong>Unit 5 · alimentação, hábitos e bem-estar</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Falar sobre alimentos, preferências, higiene e hábitos saudáveis dentro de uma rotina afetiva.</p>
+<div class="matrix-grid" id="mes-6-conteudo">
+<div><h4>Language frames</h4><p>I like... / I don’t like... · Yummy! · Wash your hands · Healthy food · Please / Thank you</p></div>
+<div><h4>Vocabulário-alvo</h4><p>apple, banana, bread, milk, water, fruit, snack, wash, hands, clean, please, thank you</p></div>
+<div><h4>Ready, Set, Grow!</h4><p>Valorizar well-being lesson, chants de rotina e linguagem funcional em momentos reais da escola.</p></div>
+<div><h4>Let’s Explore</h4><p>Explorar lanche, frutas, cores, cheiros, escolhas e combinados de cuidado antes/depois de comer.</p></div>
+<div><h4>Evidências observáveis</h4><p>Expressa preferência; usa please/thank you; participa de rotina de higiene; reconhece alimentos.</p></div>
+<div><h4>Registro mínimo</h4><p>Registro de preferência alimentar ou gráfico visual simples da turma.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month is-collapsed" id="mes-7">
+<div aria-controls="mes-7-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Setembro</span><strong>Unit 6 · comunidade, escola e convivência</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Reconhecer pessoas, espaços e papéis da escola; fortalecer pertencimento e cooperação.</p>
+<div class="matrix-grid" id="mes-7-conteudo">
+<div><h4>Language frames</h4><p>This is my school · We can... · Let’s help · Where is...? · Here/there</p></div>
+<div><h4>Vocabulário-alvo</h4><p>school, classroom, playground, teacher, friend, helper, door, garden, here, there</p></div>
+<div><h4>Ready, Set, Grow!</h4><p>Repetir linguagem de rotina e turn-taking com apoio de personagens, músicas e cards.</p></div>
+<div><h4>Let’s Explore</h4><p>Passeio guiado pela escola, mapas simples, fotos dos espaços e combinados de convivência.</p></div>
+<div><h4>Evidências observáveis</h4><p>Reconhece espaços; segue rota simples; coopera; usa here/there com apoio; demonstra pertencimento.</p></div>
+<div><h4>Registro mínimo</h4><p>Mapa visual coletivo da escola com fotos e palavras-chave.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month is-collapsed" id="mes-8">
+<div aria-controls="mes-8-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Outubro</span><strong>Unit 7 · clima, roupas e mudanças</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Observar clima, sensações, roupas e mudanças simples no ambiente.</p>
+<div class="matrix-grid" id="mes-8-conteudo">
+<div><h4>Language frames</h4><p>It is sunny/rainy · I feel hot/cold · Put on... · Take off... · Today is...</p></div>
+<div><h4>Vocabulário-alvo</h4><p>sunny, rainy, cloudy, hot, cold, coat, hat, shoes, wet, dry, today</p></div>
+<div><h4>Ready, Set, Grow!</h4><p>Usar músicas e vocabulário para calendar/weather routine, com repetição diária curta.</p></div>
+<div><h4>Let’s Explore</h4><p>Observar céu, temperatura, roupas, água/sol/sombra e registrar clima em painel da turma.</p></div>
+<div><h4>Evidências observáveis</h4><p>Identifica clima com imagem; participa do calendário; escolhe roupa adequada em jogo; usa hot/cold.</p></div>
+<div><h4>Registro mínimo</h4><p>Painel semanal do clima + observação individual de linguagem.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month is-collapsed" id="mes-9">
+<div aria-controls="mes-9-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Novembro</span><strong>Unit 8 · revisão, criação e celebração de aprendizagem</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Consolidar vocabulário e rotinas; produzir mostra simples de aprendizagem com evidências do percurso.</p>
+<div class="matrix-grid" id="mes-9-conteudo">
+<div><h4>Language frames</h4><p>I can... · I know... · My favourite is... · Look at my work · Thank you</p></div>
+<div><h4>Vocabulário-alvo</h4><p>review vocabulary from the year: colours, body, animals, food, school, nature, weather</p></div>
+<div><h4>Ready, Set, Grow!</h4><p>Retomar músicas favoritas, histórias, personagens e jogos de revisão com foco em confiança.</p></div>
+<div><h4>Let’s Explore</h4><p>Organizar portfólio, roda de apresentação, mostra sensorial e retomada das descobertas do ano.</p></div>
+<div><h4>Evidências observáveis</h4><p>Reconhece vocabulário de diferentes temas; mostra produção; participa da celebração; comunica preferência.</p></div>
+<div><h4>Registro mínimo</h4><p>Portfólio individual com 3 evidências + comentário pedagógico curto.</p></div>
+</div>
+</article></div>
+</section>
+<section class="section assessment-box" id="avaliacao-global">
+<div class="section-heading compact"><p class="eyebrow">Avaliação Global GSP</p><h2>Verificação Global Cambridge GSP</h2><p>Para Level 1, a avaliação deve ser prática, observável e adequada à Educação Infantil. Não é prova formal: é uma experiência padronizada para medir progresso entre escolas e identificar lacunas.</p></div>
+<div class="assessment-columns">
+<article><strong>Listening &amp; responding</strong><p>Comandos simples, escolha de imagem/objeto, reação a história, música ou rotina.</p></article>
+<article><strong>Vocabulary recognition</strong><p>Reconhecimento de vocabulário-chave do term por imagem, objeto, gesto ou jogo.</p></article>
+<article><strong>Speaking attempt</strong><p>Tentativa de repetir, nomear, escolher, completar frase curta ou responder com apoio.</p></article>
+<article><strong>Task performance</strong><p>Realização de tarefa prática: classificar, apontar, construir, desenhar, dramatizar ou cuidar.</p></article>
+<article><strong>Participation</strong><p>Engajamento em música, story time, turn-taking, brincadeira guiada e rotina coletiva.</p></article>
+<article><strong>Social-emotional learning</strong><p>Segurança, colaboração, aceitação de apoio, espera da vez e confiança progressiva.</p></article>
+</div>
+</section>
+<section class="section assessment-box" id="avaliacao-t1">
+<div class="section-heading compact"><p class="eyebrow">Modelo bimestral / trimestral · Level 1</p><h2>Adaptação, rotina, resposta e desenvolvimento</h2><p>A avaliação deve acompanhar a evolução da criança ao longo do ano, considerando o calendário da escola. O foco não é aplicar uma prova formal, mas observar evidências progressivas de adaptação, participação, compreensão, resposta ao inglês e autonomia nas propostas.</p></div>
+<div class="assessment-columns">
+<article><strong>Adaptação</strong><p>Observar segurança afetiva, vínculo com professor e turma, disponibilidade para participar e entrada gradual na rotina bilíngue.</p></article>
+<article><strong>Rotina</strong><p>Observar reconhecimento dos momentos da aula, resposta a comandos recorrentes e participação em músicas, histórias, combinados e transições.</p></article>
+<article><strong>Resposta ao inglês</strong><p>Observar compreensão antes da fala: olhar, gesto, movimento, escolha, palavra isolada, frase curta ou reconhecimento de vocabulário em contexto.</p></article>
+<article><strong>Desenvolvimento</strong><p>Observar ampliação de repertório, autonomia nas propostas, confiança para interagir, mostrar produções e participar com mais intenção comunicativa.</p></article>
+</div>
+<div class="section-heading compact" style="margin-top:28px;"><p class="eyebrow">Escala de acompanhamento</p><h2>Sem nota, com evidência de desenvolvimento</h2></div>
+<table class="rubric-table"><thead><tr><th>Indicador</th><th>Descrição ao longo do ano</th></tr></thead><tbody>
+<tr><td>Emerging</td><td>A criança começa a demonstrar a habilidade com apoio intenso, principalmente por gesto, olhar, movimento, escolha ou mediação direta.</td></tr>
+<tr><td>Developing</td><td>A criança demonstra a habilidade em algumas situações, com apoio visual, repetição, rotina conhecida ou mediação do professor.</td></tr>
+<tr><td>Consolidating</td><td>A criança demonstra a habilidade com mais frequência e segurança, podendo usar palavra isolada, gesto intencional, frase curta ou resposta mais autônoma.</td></tr>
+</tbody></table>
+<div class="assessment-columns" style="margin-top:22px;">
+<article><strong>Escolas bimestrais</strong><p>Aplicar essa leitura nos 4 bimestres, observando avanço gradual em cada eixo e registrando evidências específicas do conteúdo trabalhado no período.</p></article>
+<article><strong>Escolas trimestrais</strong><p>Aplicar essa leitura nos 3 trimestres, agrupando mais tempo de observação em cada ciclo e mantendo a mesma lógica de progressão.</p></article>
+<article><strong>Uso pedagógico</strong><p>Os dados devem orientar retomada de vocabulário, apoio individual, agrupamentos, próximos passos e comunicação descritiva para as famílias.</p></article>
+</div>
+</section>
+<section class="section" id="relatorio-base">
+<div class="section-heading"><p class="eyebrow">Base para relatório individualizado</p><h2>Como transformar evidências em comunicação</h2><p>Após as avaliações trimestrais, os resultados poderão alimentar comentários individualizados e próximos passos de aprendizagem.</p></div>
+<div class="report-grid">
+<article class="report-card"><h3>O aluno já demonstra</h3><p>Participação, compreensão, vocabulário reconhecido, interação e autonomia observável.</p></article>
+<article class="report-card"><h3>Próximo passo</h3><p>Habilidade ou comportamento que precisa ser fortalecido no próximo ciclo.</p></article>
+<article class="report-card"><h3>Plano de apoio</h3><p>Estratégias para professor/turma quando marcos não forem atingidos.</p></article>
+</div>
+</section>
+<section class="section assessment-box" id="gerador-report-card">
+<div class="note-box">
+<h2>Gerador digital do Report Card · Kinder - Level 1</h2>
+<p>Escolha a marca e o term correspondente de sua escola para preencher a ficha digital e gerar o report card familiar em PDF.</p>
+<h3 class="report-calendar-title">Escolas bimestrais · 4 terms</h3>
+<div class="school-report-group">
+<h4 class="school-report-title">Objetivo</h4>
+<div aria-label="Geradores de report card do Objetivo por term" class="brand-report-grid">
+<a class="brand-report-card active" href="report-card-objetivo-level1-term1.html">
+<div><strong>Term 1</strong><span>Welcome Unit + Unit 1 · identidade, rotina, família, corpo e sentidos</span></div>
+</a>
+<a class="brand-report-card active" href="report-card-objetivo-level1-term2.html">
+<div><strong>Term 2</strong><span>Units 2–3 · cores, formas, materiais, natureza, plantas e cuidado</span></div>
+</a>
+<a class="brand-report-card active" href="report-card-objetivo-level1-term3.html">
+<div><strong>Term 3</strong><span>Units 4–5 · animais, movimento, alimentação, hábitos saudáveis e bem-estar</span></div>
+</a>
+<a class="brand-report-card active" href="report-card-objetivo-level1-term4.html">
+<div><strong>Term 4</strong><span>Units 6–8 · comunidade, clima, revisão, portfólio e celebração</span></div>
+</a>
+</div>
+</div>
+<div class="school-report-group">
+<h4 class="school-report-title">CCPA</h4>
+<div aria-label="Geradores de report card do CCPA por term" class="brand-report-grid">
+<a class="brand-report-card active" href="report-card-ccpa-level1-term1.html">
+<div><strong>Term 1</strong><span>Welcome Unit + Unit 1 · identidade, rotina, família, corpo e sentidos</span></div>
+</a>
+<a class="brand-report-card active" href="report-card-ccpa-level1-term2.html">
+<div><strong>Term 2</strong><span>Units 2–3 · cores, formas, materiais, natureza, plantas e cuidado</span></div>
+</a>
+<a class="brand-report-card active" href="report-card-ccpa-level1-term3.html">
+<div><strong>Term 3</strong><span>Units 4–5 · animais, movimento, alimentação, hábitos saudáveis e bem-estar</span></div>
+</a>
+<a class="brand-report-card active" href="report-card-ccpa-level1-term4.html">
+<div><strong>Term 4</strong><span>Units 6–8 · comunidade, clima, revisão, portfólio e celebração</span></div>
+</a>
+</div>
+</div>
+<h3 class="report-calendar-title">Escolas trimestrais · 3 terms</h3>
+<div class="school-report-group">
+<h4 class="school-report-title">CJA</h4>
+<div aria-label="Geradores de report card do CJA por term" class="brand-report-grid term-3">
+<a class="brand-report-card active" href="report-card-cja-level1-term1.html">
+<div><strong>Term 1</strong><span>Welcome Unit + Units 1–2 · rotina, família, corpo, sentidos, cores, formas e materiais</span></div>
+</a>
+<a class="brand-report-card active" href="report-card-cja-level1-term2.html">
+<div><strong>Term 2</strong><span>Units 3–5 · natureza, plantas, animais, movimento, alimentação e bem-estar</span></div>
+</a>
+<a class="brand-report-card active" href="report-card-cja-level1-term3.html">
+<div><strong>Term 3</strong><span>Units 6–8 · comunidade, clima, revisão, portfólio e celebração</span></div>
+</a>
+</div>
+</div>
+<div class="school-report-group">
+<h4 class="school-report-title">Santo Anjo</h4>
+<div aria-label="Geradores de report card do Santo Anjo por term" class="brand-report-grid term-3">
+<a class="brand-report-card active" href="report-card-santo-anjo-level1-term1.html">
+<div><strong>Term 1</strong><span>Welcome Unit + Units 1–2 · rotina, família, corpo, sentidos, cores, formas e materiais</span></div>
+</a>
+<a class="brand-report-card active" href="report-card-santo-anjo-level1-term2.html">
+<div><strong>Term 2</strong><span>Units 3–5 · natureza, plantas, animais, movimento, alimentação e bem-estar</span></div>
+</a>
+<a class="brand-report-card active" href="report-card-santo-anjo-level1-term3.html">
+<div><strong>Term 3</strong><span>Units 6–8 · comunidade, clima, revisão, portfólio e celebração</span></div>
+</a>
+</div>
+</div>
+<div class="school-report-group">
+<h4 class="school-report-title">Marupiara</h4>
+<div aria-label="Geradores de report card do Marupiara por term" class="brand-report-grid term-3">
+<a class="brand-report-card active" href="report-card-marupiara-level1-term1.html">
+<div><strong>Term 1</strong><span>Welcome Unit + Units 1–2 · rotina, família, corpo, sentidos, cores, formas e materiais</span></div>
+</a>
+<a class="brand-report-card active" href="report-card-marupiara-level1-term2.html">
+<div><strong>Term 2</strong><span>Units 3–5 · natureza, plantas, animais, movimento, alimentação e bem-estar</span></div>
+</a>
+<a class="brand-report-card active" href="report-card-marupiara-level1-term3.html">
+<div><strong>Term 3</strong><span>Units 6–8 · comunidade, clima, revisão, portfólio e celebração</span></div>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class="section" id="materiais">
+<div class="section-heading"><p class="eyebrow">Materiais-base</p><h2>Onde buscar os recursos</h2><p>Use as plataformas oficiais da Cambridge para acessar os materiais digitais correspondentes a cada frente do programa. As pastas no Drive reúnem materiais internos de apoio, organização e consulta rápida para planejamento.</p></div>
+<div class="materials-grid">
+<article class="material-card"><h3>Cambridge One</h3><p>Plataforma oficial para materiais Cambridge ELT, incluindo recursos digitais de apoio ao ensino de inglês.</p><a href="https://www.cambridgeone.org/" rel="noopener" target="_blank">Acessar Cambridge One</a></article>
+<article class="material-card"><h3>Cambridge GO</h3><p>Plataforma oficial para materiais Cambridge International Curriculum e recursos digitais relacionados.</p><a href="https://www.cambridge.org/go/" rel="noopener" target="_blank">Acessar Cambridge GO</a></article>
+<article class="material-card"><h3>Ready, Set, Grow! Level 1</h3><p>Guia de carga horária, certificado, learner resources e worksheets/resources organizados para consulta interna.</p><a href="https://drive.google.com/drive/folders/1wt6jFAnBjrKWW-EN_CfRQQueR6rtZalk" rel="noopener" target="_blank">Abrir pasta Level 1 no Drive</a></article>
+<article class="material-card"><h3>Let’s Explore Level 1</h3><p>Matriz pedagógica e materiais de apoio para exploração lúdica, projetos e experiências integradas.</p><a href="https://drive.google.com/drive/folders/1BHawv8epW3R9Cx8F5b5QRHmu_mNz7S38" rel="noopener" target="_blank">Abrir pasta Let’s Explore no Drive</a></article>
+</div>
+</section>
 </main>
 <footer class="footer"><strong>Portal dos Professores Bilíngues · GSP</strong><span>Level 1 · Matriz anual · Projeto Bilíngue 2027</span></footer>
+<script>
+(function(){
+  function setMonth(card, open){
+    const top = card.querySelector('.month-top');
+    const toggle = card.querySelector('.month-toggle');
+    card.classList.toggle('is-collapsed', !open);
+    if (top) top.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (toggle) toggle.textContent = open ? 'Fechar' : 'Abrir';
+  }
+  function openMonthById(id){
+    const card = document.getElementById(id);
+    if (!card || !card.classList.contains('accordion-month')) return;
+    setMonth(card, true);
+    card.scrollIntoView({behavior:'smooth', block:'start'});
+  }
+  document.querySelectorAll('.accordion-month .month-top').forEach((top) => {
+    top.addEventListener('click', () => {
+      const card = top.closest('.accordion-month');
+      setMonth(card, card.classList.contains('is-collapsed'));
+    });
+    top.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        const card = top.closest('.accordion-month');
+        setMonth(card, card.classList.contains('is-collapsed'));
+      }
+    });
+  });
+  document.querySelectorAll('[data-open-month]').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      const id = link.getAttribute('data-open-month');
+      if (document.getElementById(id)) {
+        event.preventDefault();
+        openMonthById(id);
+        history.replaceState(null, '', '#' + id);
+      }
+    });
+  });
+  if (location.hash && document.querySelector(location.hash + '.accordion-month')) {
+    setTimeout(() => openMonthById(location.hash.slice(1)), 100);
+  }
+})();
+</script>
 </body>
 </html>
