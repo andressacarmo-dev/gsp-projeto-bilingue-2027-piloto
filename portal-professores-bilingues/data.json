@@ -146,11 +146,11 @@
       "name": "Fundamental 1",
       "tagline": "Primary · matrizes anuais por Year, com disciplinas integradas e evidências para report card único",
       "driveUrl": "https://drive.google.com/drive/folders/12x3R9OrhQIE7lOZt6JQwNriFSBSgdRRt?usp=sharing",
-      "status": "Year 1 em piloto · Math, Science, English e Global Perspectives validados",
+      "status": "Year 1 em piloto · todas as disciplinas preenchidas",
       "disciplines": [
         {
           "name": "Year 1 - Matriz anual GSP",
-          "stage": "Piloto Year 1 ativo: Math, Science, English/Kid’s Box e Global Perspectives completos; PBL e Speaking Lab mantidos como pendentes de fonte validada.",
+          "stage": "Piloto Year 1 ativo: Math, Science, English/Kid’s Box, Global Perspectives, PBL e Speaking Lab completos; PBL e Speaking Lab usam materiais-fonte autorais GSP.",
           "localHtml": "pages/fundamental-1-year-1.html"
         },
         {
