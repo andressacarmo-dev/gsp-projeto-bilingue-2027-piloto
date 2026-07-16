@@ -2,9 +2,8 @@
   "portal": {
     "title": "Portal dos Professores Bilíngues",
     "subtitle": "Sistema pedagógico GSP para organizar entregas esperadas, progressão de aprendizagem, avaliação global, evidências e relatórios individualizados.",
-    "status": "MVP pedagógico — arquitetura GSP sobre materiais Cambridge",
     "updatedAt": "2026-07-16",
-    "purpose": "Um portal para orientar o que precisa ser entregue pedagogicamente em cada nível, mês e trimestre, sem duplicar o portal Cambridge: marcos de desenvolvimento, estratégias docentes, avaliações padronizadas e relatórios de aprendizagem."
+    "purpose": "Referência pedagógica para consultar matrizes anuais, rubricas mensais, estratégias docentes, avaliação global e report cards por segmento."
   },
   "quickStats": [
     {
@@ -123,20 +122,19 @@
     {
       "id": "infantil",
       "name": "Educação Infantil",
-      "tagline": "",
+      "tagline": "Educação Infantil · matrizes anuais por Level",
       "driveUrl": "https://drive.google.com/drive/folders/1X7_omFKM7hn4lIIgS3OWW7ol1rL_rFn7?usp=sharing",
-      "status": "",
       "disciplines": [
         {
-          "name": "Cambridge Level 1 - Matriz anual GSP",
+          "name": "Level 1",
           "localHtml": "pages/infantil-level-1-ey1.html"
         },
         {
-          "name": "Cambridge Level 2 - Matriz anual GSP",
+          "name": "Level 2",
           "localHtml": "pages/infantil-level-2-ey2.html"
         },
         {
-          "name": "Cambridge Level 3 - Matriz anual GSP",
+          "name": "Level 3",
           "localHtml": "pages/infantil-level-3-ey3.html"
         }
       ]
@@ -144,65 +142,45 @@
     {
       "id": "fund1",
       "name": "Fundamental 1",
-      "tagline": "Primary · matrizes anuais por Year, com disciplinas integradas e evidências para report card único",
+      "tagline": "Fundamental 1 · matrizes anuais por Year",
       "driveUrl": "https://drive.google.com/drive/folders/12x3R9OrhQIE7lOZt6JQwNriFSBSgdRRt?usp=sharing",
-      "status": "Years 1–2 · Year 2 criado antes de avançar para Years 3/4",
       "disciplines": [
         {
-          "name": "Year 1 - Matriz anual GSP",
-          "stage": "Year 1 ativo: Math, Science, English/Kid’s Box, Global Perspectives, PBL e Speaking Lab completos; PBL e Speaking Lab usam materiais-fonte autorais GSP.",
+          "name": "Year 1",
           "localHtml": "pages/fundamental-1-year-1.html"
         },
         {
-          "name": "Year 2 - Matriz anual GSP",
-          "stage": "Year 2 criado: matriz mensal com Math, Science, English/Kid’s Box, Global Perspectives, PBL e Speaking Lab; materiais-fonte autorais GSP para PBL/Speaking Lab publicados no Drive.",
+          "name": "Year 2",
           "localHtml": "pages/fundamental-1-year-2.html"
         },
         {
-          "name": "Year 3 - Matriz anual GSP",
-          "stage": "Próxima etapa após validação da arquitetura Year 1"
+          "name": "Year 3"
         },
         {
-          "name": "Year 4 - Matriz anual GSP",
-          "stage": "Próxima etapa após validação da arquitetura Year 1"
+          "name": "Year 4"
         },
         {
-          "name": "Year 5 - Matriz anual GSP",
-          "stage": "Próxima etapa após validação da arquitetura Year 1"
+          "name": "Year 5"
         }
       ]
     },
     {
       "id": "fund2",
       "name": "Fundamental 2",
-      "tagline": "Lower Secondary · aprofundamento, autonomia, projetos e pensamento global",
+      "tagline": "Fundamental 2 · matrizes anuais por Year",
       "driveUrl": "https://drive.google.com/drive/folders/1djepYCvh-aaZCALMHemv2Jb5MPnG2s-D?usp=sharing",
-      "status": "Acervo inicial disponível",
       "disciplines": [
         {
-          "name": "Global Perspectives",
-          "stage": "Matrizes Year 6–9 existentes em HTML",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/global-perspectives-fundamental-2/global-perspectives-year-6-matriz-professores.html"
+          "name": "Year 6"
         },
         {
-          "name": "Financial Literacy",
-          "stage": "Matrizes Year 6–9 existentes em HTML",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/fund2-integrated-disciplines/financial-literacy-year-6-matriz-professores.html"
+          "name": "Year 7"
         },
         {
-          "name": "STEAM",
-          "stage": "Matrizes Year 6–9 existentes em HTML",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/fund2-integrated-disciplines/steam-year-6-matriz-professores.html"
+          "name": "Year 8"
         },
         {
-          "name": "History & Geography",
-          "stage": "Matrizes Year 6–9 existentes em HTML",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/history-geography-fundamental-2/history-geography-year-6-matriz-professores.html"
-        },
-        {
-          "name": "Speaking Lab",
-          "stage": "Matrizes Year 6–9 existentes em HTML",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/fund2-integrated-disciplines/speaking-lab-year-6-matriz-professores.html"
+          "name": "Year 9"
         }
       ]
     }
@@ -226,11 +204,11 @@
     }
   ],
   "nextSteps": [
-    "Validar a arquitetura completa no Level 1 / EY1.",
+    "Revisar continuamente as matrizes anuais publicadas.",
     "Desenhar o instrumento da Avaliação Global GSP T1 para EY1.",
     "Criar o modelo de registro de evidências e matriz de resultados por turma.",
     "Criar banco inicial de comentários para relatório individualizado EY1.",
-    "Replicar o padrão aprovado para Level 2 e Level 3."
+    "Manter o mesmo padrão visual e pedagógico nos próximos níveis."
   ],
   "startHere": {
     "title": "Comece aqui",
