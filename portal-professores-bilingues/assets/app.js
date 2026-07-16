@@ -1,5 +1,11 @@
 const $ = (selector) => document.querySelector(selector);
 
+const segmentTitleLabels = {
+  'Infantil': 'Kinder',
+  'Fundamental 1': 'Primary',
+  'Fundamental 2': 'Middle Years'
+};
+
 function el(tag, className, html) {
   const node = document.createElement(tag);
   if (className) node.className = className;
@@ -101,14 +107,16 @@ function renderSegments(segments) {
     ` : '';
 
     const panel = el('article', 'segment-overview-card', `
-      ${avatar}
-      <div class="segment-head compact">
-        <div>
-          <p class="eyebrow">${segment.name}</p>
-          <h3>${segment.name}</h3>
-          ${segment.tagline ? `<p>${segment.tagline}</p>` : ''}
+      <div class="segment-card-top">
+        <div class="segment-head compact">
+          <div>
+            <p class="eyebrow">${segment.name}</p>
+            <h3>${segmentTitleLabels[segment.name] || segment.name}</h3>
+            ${segment.tagline ? `<p>${segment.tagline}</p>` : ''}
+          </div>
+          <a class="drive-link" href="${segment.driveUrl}" target="_blank" rel="noopener">Drive</a>
         </div>
-        <a class="drive-link" href="${segment.driveUrl}" target="_blank" rel="noopener">Drive</a>
+        ${avatar}
       </div>
       <div class="level-grid">${cards}</div>
     `);
