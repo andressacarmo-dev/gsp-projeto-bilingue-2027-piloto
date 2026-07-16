@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Fundamental 1 · Year 2 · Matriz anual · Portal dos Professores Bilíngues</title>
+<meta content="Matriz anual pedagógica para Year 2 do Fundamental 1, com progressão mensal, rubrica, recursos-fonte e materiais autorais GSP para PBL e Speaking Lab." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link href="../assets/styles.css" rel="stylesheet"/>
+<style>
+    body { background:#f7f8f4; }
+    .year-hero { color:white; background: radial-gradient(circle at 82% 18%, rgba(255,255,255,.16), transparent 28%), linear-gradient(135deg,#245B52,#1E564F 58%,#3EA38E); padding:18px clamp(18px,4vw,64px) 54px; }
+    .year-hero .topbar { max-width:1180px; margin:0 auto; }
+    .year-hero .brand-mark { width:42px; height:28px; border-radius:6px; background:none; box-shadow:0 8px 18px rgba(0,0,0,.18); overflow:hidden; display:inline-flex; }
+    .year-hero .brand-mark img { width:100%; height:100%; object-fit:cover; display:block; }
+    .year-hero-grid { max-width:1180px; margin:48px auto 0; display:grid; grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr); gap:clamp(24px,5vw,60px); align-items:center; }
+    .year-hero h1 { font-size:clamp(38px,7vw,76px); }
+    .year-card,.teacher-note,.standard-box,.assessment-box { background:white; border:1px solid var(--line); border-radius:28px; padding:clamp(22px,4vw,36px); box-shadow:0 14px 38px rgba(7,27,79,.08); }
+    .year-card { background:rgba(255,255,255,.12); border-color:rgba(255,255,255,.24); backdrop-filter:blur(16px); }
+    .year-card li { color:rgba(255,255,255,.88); margin:8px 0; }
+    .breadcrumb { max-width:1180px; margin:28px auto 20px; color:var(--muted); font-size:14px; font-weight:700; }
+    .breadcrumb a { color:var(--royal); text-decoration:none; }
+    .anchor-months { max-width:1180px; margin:0 auto 32px; display:flex; flex-wrap:wrap; gap:8px; }
+    .anchor-months a { text-decoration:none; color:#245B52; background:white; border:1px solid var(--line); padding:9px 12px; border-radius:999px; font-weight:900; font-size:13px; box-shadow:0 10px 24px rgba(7,27,79,.06); }
+    #padrao-gsp .section-heading h2 { white-space:nowrap; font-size:clamp(26px,3vw,38px); }
+    #progressao .section-heading h2 { white-space:nowrap; font-size:clamp(26px,3.2vw,42px); }
+    .standard-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+    .standard-grid article { border-radius:22px; padding:20px; background:#f7f9ff; border:1px solid rgba(30,85,179,.12); }
+    .standard-grid article:nth-child(2) { background:#fff8f2; border-color:rgba(249,121,31,.18); }
+    .standard-grid article:nth-child(3) { background:#f4fbf5; border-color:rgba(46,157,120,.14); }
+    .standard-grid article:nth-child(4) { background:#fffaf0; border-color:rgba(242,183,5,.18); }
+    .routine-strip { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; }
+    .routine-strip article { background:white; border:1px solid var(--line); border-top:5px solid #F9791F; border-radius:20px; padding:18px; box-shadow:0 12px 30px rgba(7,27,79,.07); }
+    .rubric-table { width:100%; border-collapse:collapse; background:white; border-radius:24px; overflow:hidden; box-shadow:0 12px 34px rgba(7,27,79,.08); }
+    .rubric-table th { background:#245B52; color:white; text-align:left; padding:15px; }
+    .rubric-table td { border-bottom:1px solid var(--line); padding:15px; vertical-align:top; }
+    .rubric-table tr:last-child td { border-bottom:0; }
+    .quarter-grid,.project-grid,.strategy-grid,.report-grid,.materials-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .bimester-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; margin-bottom:22px; }
+    .progression-group-title { margin:22px 0 12px; color:#245B52; font-size:18px; }
+    .quarter-card,.project-card,.strategy-card,.report-card,.material-card { background:white; border:1px solid var(--line); border-radius:24px; padding:22px; box-shadow:0 12px 34px rgba(7,27,79,.08); }
+    .quarter-card { border-top:6px solid #3EA38E; }
+    .project-card { border-top:6px solid #F9791F; }
+    .strategy-card { border-top:6px solid #FFC21A; }
+    .report-card { border-top:6px solid #2e9d78; }
+    .material-card { border-top:6px solid #245B52; }
+    .quarter-card ul,.project-card ul,.strategy-card ul,.report-card ul { margin:10px 0 0 18px; padding:0; color:var(--muted); }
+    .material-card a { display:inline-flex; margin-top:10px; color:var(--royal); font-weight:900; text-decoration:none; }
+    .assessment-box { background:linear-gradient(135deg,#ffffff,#f1fff9); }
+    .assessment-columns { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:18px; }
+    .assessment-columns article { background:white; border:1px solid var(--line); border-radius:22px; padding:20px; }
+    .assessment-columns strong { display:inline-flex; color:#F9791F; margin-bottom:8px; text-transform:uppercase; letter-spacing:.08em; font-size:12px; }
+    #avaliacao-t1 .assessment-columns { grid-template-columns:repeat(4,minmax(0,1fr)); }
+    #avaliacao-t1 .assessment-columns article { padding:16px; }
+    #avaliacao-t1 .assessment-columns strong { font-size:11px; }
+    .note-box { background:#fff8f2; border-left:6px solid #F9791F; border-radius:22px; padding:22px; color:var(--ink); }
+    .month-list { display:grid; gap:26px; }
+    .month-card { background:white; border:1px solid var(--line); border-radius:30px; overflow:hidden; box-shadow:0 16px 44px rgba(7,27,79,.09); }
+    .month-card.accordion-month .month-top { cursor:pointer; position:relative; grid-template-columns:120px 190px 1fr auto; }
+    .month-card.accordion-month .month-top:focus { outline:4px solid rgba(62,163,142,.35); outline-offset:-4px; }
+    .month-toggle { border:1px solid rgba(255,255,255,.50); background:rgba(255,255,255,.16); color:white; border-radius:999px; padding:9px 12px; font-weight:900; font-size:12px; text-transform:uppercase; letter-spacing:.08em; white-space:nowrap; }
+    .month-card.accordion-month.is-collapsed .discipline-grid { display:none; }
+    .month-card.accordion-month.is-collapsed { box-shadow:0 10px 26px rgba(7,27,79,.06); }
+    .month-card.accordion-month.is-collapsed .month-top { background:linear-gradient(135deg,#245B52,#2d7b6d); }
+    .accordion-help { max-width:1180px; margin:0 auto 22px; background:#fff8f2; border-left:6px solid #F9791F; border-radius:20px; padding:16px 18px; color:var(--ink); box-shadow:0 10px 26px rgba(7,27,79,.06); }
+
+    .month-top { display:grid; grid-template-columns:120px 190px 1fr; gap:18px; align-items:center; background:linear-gradient(135deg,#245B52,#3EA38E); color:white; padding:18px 22px; }
+    .month-top span { font-weight:900; font-size:18px; } .month-top strong { font-size:22px; } .month-top p { margin:0; color:rgba(255,255,255,.88); font-weight:650; }
+    .discipline-grid { display:grid; grid-template-columns:1fr; gap:14px; padding:20px 22px 24px; }
+    .discipline-card { border:1px solid var(--line); border-radius:24px; padding:20px; background:#fff; box-shadow:0 8px 22px rgba(7,27,79,.05); }
+    .discipline-card.ready { border-left:7px solid #3EA38E; background:linear-gradient(180deg,#ffffff,#f7fffc); }
+    .discipline-head { display:flex; justify-content:space-between; gap:12px; align-items:center; margin-bottom:10px; }
+    .discipline-head span { color:#245B52; font-size:18px; font-weight:900; }
+    .discipline-head strong { background:#e9f4f1; color:#245B52; border-radius:999px; padding:7px 10px; font-size:11px; text-transform:uppercase; letter-spacing:.08em; }
+    .discipline-card h4 { margin:0 0 12px; color:#F9791F; font-size:16px; }
+    .rubric-fields { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+    .rubric-fields div { background:white; border:1px solid #e7ece8; border-radius:16px; padding:14px; }
+    .rubric-fields .wide { grid-column:1/-1; background:#f4faf8; }
+    .rubric-fields b { display:block; color:#245B52; margin-bottom:6px; }
+    .rubric-fields p,.discipline-card p { margin:0; color:var(--muted); }
+    .brand-report-grid { display:grid; grid-template-columns:repeat(4,minmax(180px,1fr)); gap:12px; margin:0 auto; max-width:980px; justify-content:center; }
+    .brand-report-grid.term-3 { grid-template-columns:repeat(3,minmax(180px,1fr)); max-width:740px; }
+    .brand-report-card { background:white; border:1px solid var(--line); border-radius:22px; padding:18px; min-height:130px; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 12px 30px rgba(7,27,79,.07); text-decoration:none; color:var(--ink); }
+    .brand-report-card strong { display:block; color:#245B52; font-size:18px; margin-bottom:8px; }
+    .brand-report-card span { display:block; color:var(--muted); font-size:12px; }
+    .brand-report-card .status { display:inline-flex; align-self:flex-start; margin-top:14px; border-radius:999px; padding:7px 10px; background:#eef2f7; color:var(--muted); font-size:10px; font-weight:900; text-transform:uppercase; letter-spacing:.08em; }
+    .brand-report-card.disabled { opacity:.78; cursor:not-allowed; background:#f8fafc; }
+
+    .school-report-group { margin-top:22px; }
+    .report-calendar-title { margin:34px 0 18px; color:#245B52; }
+    .report-calendar-title:first-of-type { margin-top:18px; }
+    .school-report-title { margin:0 0 12px; color:#0f6f4d; font-size:18px; font-weight:900; text-align:center; }
+    #gerador-report-card { position:relative; overflow:hidden; background:radial-gradient(circle at 88% 18%, rgba(255,255,255,.34), transparent 24%), linear-gradient(135deg,#0f7f55,#23a06f 48%,#74c947); border:0; box-shadow:0 24px 60px rgba(15,127,85,.28); }
+    #gerador-report-card:before { content:""; position:absolute; inset:16px; border:2px dashed rgba(255,255,255,.38); border-radius:24px; pointer-events:none; }
+    #gerador-report-card:after { content:"PDF"; position:absolute; right:26px; top:20px; color:rgba(255,255,255,.20); font-size:72px; font-weight:900; letter-spacing:.04em; transform:rotate(8deg); }
+    #gerador-report-card .note-box { position:relative; z-index:1; background:rgba(255,255,255,.92); border-left:0; border:2px solid rgba(255,255,255,.80); box-shadow:0 18px 42px rgba(7,27,79,.16); }
+    #gerador-report-card .note-box h2 { display:flex; align-items:center; gap:10px; color:#0f6f4d; font-size:clamp(26px,3vw,36px); margin-bottom:8px; }
+    #gerador-report-card .note-box h2:before { content:""; display:inline-flex; align-items:center; justify-content:center; width:46px; height:46px; border-radius:16px; background:#dff7df; box-shadow:inset 0 0 0 2px rgba(35,160,111,.20); font-size:25px; flex:0 0 auto; }
+    #gerador-report-card .note-box p { color:#31564a; font-weight:600; max-width:920px; }
+    #gerador-report-card .brand-report-card { border:2px solid rgba(35,160,111,.14); box-shadow:0 14px 30px rgba(15,127,85,.13); min-height:150px; }
+    #gerador-report-card .brand-report-card.disabled { background:rgba(255,255,255,.72); opacity:.72; cursor:not-allowed; }
+    #gerador-report-card .brand-report-card.active { border-top:0; background:linear-gradient(180deg,#ffffff,#efffed); outline:3px solid rgba(255,255,255,.78); box-shadow:0 18px 38px rgba(15,127,85,.22); }
+    #gerador-report-card .brand-report-card.active strong { color:#0f6f4d; }
+    #gerador-report-card .brand-report-card.active .status { background:linear-gradient(135deg,#0f7f55,#32b77c); color:white; box-shadow:0 8px 18px rgba(15,127,85,.25); }
+    #gerador-report-card .brand-report-card.active:hover { transform:translateY(-2px); }
+
+    #gerador-report-card .brand-report-card.disabled strong { color:#0f6f4d; }
+    #gerador-report-card .brand-report-card.disabled .status { background:#eef2f7; color:var(--muted); }
+    @media (max-width:900px) { .year-hero-grid,.standard-grid,.routine-strip,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.materials-grid,.assessment-columns,.brand-report-grid,.month-top,.rubric-fields { grid-template-columns:1fr; } .brand-report-grid { max-width:520px; } }
+    @media (max-width:640px) { .bimester-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+
+.discipline-card.partial { border-top-color:#F2B705; }
+.source-caveat { background:#fffaf0; border:1px solid rgba(242,183,5,.35); border-radius:22px; padding:18px 20px; color:#56430a; font-weight:650; margin-top:16px; }
+</style>
+</head>
+<body>
+<header class="year-hero"><div class="topbar"><a class="brand" href="../index.html"><span class="brand-mark flag-mark"><img alt="" src="../assets/icons/uk-flag.svg"/></span><span>Portal dos Professores Bilíngues</span></a><div class="nav-links"><a href="../index.html#segmentos">Segmentos</a><a href="#matriz">Matriz mensal</a><a href="#materiais">Materiais</a></div></div><div class="year-hero-grid"><section><p class="eyebrow">Fundamental 1 · matriz anual piloto</p><h1>Year 2</h1><p class="lead">Sistema pedagógico Year 2 para orientar entregas mensais, arquitetura de aula, progressão por term, estratégias docentes, avaliação global GSP, evidências e base futura para report cards individualizados.</p><div class="hero-actions"><a class="btn primary" href="#matriz">Ver matriz mensal</a><a class="btn ghost" href="#uso">Como usar</a><a class="btn ghost" href="#gerador-report-card">Report Card</a><a class="btn ghost" href="#materiais">Recursos e Materiais</a></div></section><aside class="year-card"><h2>7–8 anos · 2º ano</h2><ul><li>Consolidação de rotina acadêmica bilíngue com maior autonomia.</li><li>Expansão de vocabulário funcional para investigação, descrição, comparação e apresentação.</li><li>Integração de English, Math, Science, Global Perspectives, PBL e Speaking Lab.</li><li>Evidências mensais para acompanhar conteúdo, linguagem, colaboração, investigação e reflexão.</li></ul></aside></div></header>
+<main>
+<div class="breadcrumb"><a href="../index.html#segmentos">Portal dos Professores</a> · Fundamental 1 · Year 2 · Matriz anual piloto</div>
+<nav aria-label="Meses da matriz" class="anchor-months"><a data-open-month="mes-1" href="#mes-1">Fevereiro</a><a data-open-month="mes-2" href="#mes-2">Março</a><a data-open-month="mes-3" href="#mes-3">Abril</a><a data-open-month="mes-4" href="#mes-4">Maio</a><a data-open-month="mes-5" href="#mes-5">Junho</a><a data-open-month="mes-6" href="#mes-6">Agosto</a><a data-open-month="mes-7" href="#mes-7">Setembro</a><a data-open-month="mes-8" href="#mes-8">Outubro</a><a data-open-month="mes-9" href="#mes-9">Novembro</a></nav>
+<section class="section teacher-note" id="uso"><div class="section-heading compact"><p class="eyebrow">Como usar esta matriz</p><h2>Da rubrica para a aula</h2></div><p>Esta página segue o padrão consolidado do Year 1: organiza a progressão mensal, explicita objetivos, linguagem-alvo, evidências e conexões para report cards. Ela não substitui os materiais Cambridge nem os materiais-fonte autorais GSP; serve como matriz pedagógica comum para que diferentes escolas trabalhem com a mesma direção.</p><p>No Year 2, os alunos já podem sustentar mais comparação, registro e explicação. Ainda assim, a produção em inglês deve ser apoiada por imagens, modelos de frase, ensaio oral e manipulação concreta antes da formalização escrita.</p><div class="source-caveat"><strong>Nota de fonte:</strong> English/Kid’s Box Year 2 foi construído a partir da pasta Drive “YEAR 2 - KIDS BOX 1” e dos worksheets Level 1 disponíveis. A pasta não exibiu Teacher’s Book na verificação atual; por isso, English fica marcado como fonte validada parcialmente até essa peça ser adicionada ou confirmada.</div></section>
+<section class="section standard-box" id="padrao-gsp"><div class="section-heading compact"><p class="eyebrow">Modelo GSP</p><h2>O que padroniza e o que adapta</h2></div><div class="standard-grid"><article><h3>Obrigatório seguir</h3><p>Objetivos do mês, disciplinas-fonte, language frames essenciais, evidências observáveis, rotina base e critérios da rubrica.</p></article><article><h3>Adaptável pela escola</h3><p>Exemplos locais, materiais concretos, projetos complementares, ritmo semanal, agrupamentos e conexões com eventos da unidade.</p></article><article><h3>Evidência mínima</h3><p>Registrar participação, compreensão de conteúdo, tentativa oral, produto ou performance por meio de foto, checklist, fala observada, página de portfolio ou produção final.</p></article><article><h3>Comunicação com famílias</h3><p>Traduzir progresso acadêmico e linguístico em linguagem clara, descritiva e segura, sem reduzir o bilíngue a nota isolada de inglês.</p></article></div></section>
+<section class="section" id="rotina"><div class="section-heading"><p class="eyebrow">Rotina base</p><h2>Uma arquitetura de aula repetível</h2><p>A rotina se mantém para dar segurança; temas, perguntas, materiais e produtos variam mês a mês.</p></div><div class="routine-strip"><article><h3>1. Welcome</h3><p>Saudação, agenda visual, retomada de vocabulário e objetivo da aula.</p></article><article><h3>2. Activate</h3><p>Imagem, objeto, problema, pergunta ou mini input conectado às disciplinas do mês.</p></article><article><h3>3. Practice</h3><p>Prática guiada de conteúdo e linguagem com pares, manipulativos ou visual support.</p></article><article><h3>4. Apply/Create</h3><p>Produto, investigação, tarefa oral, registro, projeto ou resolução de problema.</p></article><article><h3>5. Share & Evidence</h3><p>Compartilhar resposta/produto, registrar evidência e fazer reflexão simples.</p></article></div></section>
+<section class="section" id="rubrica"><div class="section-heading"><p class="eyebrow">Rubrica pedagógica Year 2</p><h2>Critérios comuns de observação</h2><p>Ao final de cada mês, observar o aluno de forma formativa para acompanhar conteúdo, linguagem, investigação e participação no contexto bilíngue.</p></div><table class="rubric-table"><thead><tr><th>Dimensão</th><th>Observar se o aluno...</th><th>Exemplos de evidência</th></tr></thead><tbody><tr><td>Comunicação e linguagem acadêmica</td><td>Compreende comandos e perguntas, usa vocabulário do mês, começa a explicar escolhas, resultados e preferências com sentence frames.</td><td>Áudio/vídeo curto, fala registrada, pair talk, apresentação de PBL/Speaking Lab, resposta oral em Math/Science/GP.</td></tr><tr><td>Compreensão de conteúdo</td><td>Aplica conceitos de Math, Science, English e Global Perspectives em classificações, registros, problemas, investigações e produtos.</td><td>Worksheet, tabela, desenho rotulado, mapa, gráfico simples, investigação, produto de projeto.</td></tr><tr><td>Investigação, dados e pensamento</td><td>Formula perguntas simples, coleta informação, compara, interpreta dados básicos e justifica ideias com apoio.</td><td>Tally chart, survey, Carroll diagram, entrevista, foto de investigação, evidence wall, reflection card.</td></tr><tr><td>Colaboração, autonomia e postura bilíngue</td><td>Assume papéis, escuta colegas, usa inglês funcional, revisa tentativa, cuida de materiais e ganha confiança para apresentar.</td><td>Checklist mensal, registro de grupo, produto final, autoavaliação simples, fala observada.</td></tr></tbody></table></section>
+<section class="section" id="progressao"><div class="section-heading"><p class="eyebrow">Progressão esperada</p><h2>Conteúdos e desenvolvimento por term</h2><p>Use a linha correspondente ao calendário avaliativo da escola. Cada term indica conteúdos, linguagem e evidências prioritárias.</p></div><h3 class="progression-group-title">Escolas bimestrais · 4 terms</h3><div class="bimester-grid"><article class="quarter-card"><h3>T1 · Rotina, escola, ambiente e primeiras pesquisas</h3><p><strong>Conteúdos:</strong> Fevereiro–Março · greetings, school objects, numbers to 100, geometry/measures, habitats, forces, food sources and waste.</p><ul><li>Consolidar rotina bilíngue, perguntas simples e registros de observação.</li><li>Observar uso de vocabulário de sala, comparação, medidas e participação em investigação.</li></ul></article><article class="quarter-card"><h3>T2 · Preferências, materiais, dados, saúde e acolhimento</h3><p><strong>Conteúdos:</strong> Abril–Junho · toys, family, pets, face, materials, operations, money/time, healthy routines and new child advice.</p><ul><li>Aprofundar descrição, coleta de dados, justificativa e cuidado com o outro.</li><li>Observar surveys, registros, explicações de estratégia e produtos de PBL.</li></ul></article><article class="quarter-card"><h3>T3 · Animais, luz, energia, direção e segurança</h3><p><strong>Conteúdos:</strong> Agosto–Setembro · wild animals, clothes, fun time, light, electricity, mass/capacity, fractions, position and safe routes.</p><ul><li>Fortalecer vocabulário acadêmico para descrever, orientar, comparar e explicar segurança.</li><li>Observar apresentação oral, mapas, investigação e uso de can/can’t/instructions.</li></ul></article><article class="quarter-card"><h3>T4 · Ação, revisão, portfolio e exposição</h3><p><strong>Conteúdos:</strong> Outubro–Novembro · funfair, house, party time, problem solving, science review, GP synthesis, portfolio and exhibition.</p><ul><li>Consolidar repertório anual e transformar evidências em comunicação clara.</li><li>Observar autonomia, seleção de portfolio, apresentação e reflexão sobre próximo passo.</li></ul></article></div><h3 class="progression-group-title">Escolas trimestrais · 3 terms</h3><div class="quarter-grid"><article class="quarter-card"><h3>T1 · Rotina, escola, ambiente, dados e saúde</h3><p><strong>Conteúdos:</strong> Fevereiro–Abril · school language, numbers, geometry, habitats, forces, waste, toys/family, materials, data and healthy habits.</p><ul><li>Observar adaptação, investigação guiada, coleta de dados e fala descritiva.</li></ul></article><article class="quarter-card"><h3>T2 · Cuidado, acolhimento, animais, luz e medidas</h3><p><strong>Conteúdos:</strong> Maio–Agosto · pets, face, health, welcome guide, wild animals, light, mass/capacity and fractions.</p><ul><li>Observar justificativa, empatia, projeto visual, apresentação curta e registro científico/matemático.</li></ul></article><article class="quarter-card"><h3>T3 · Segurança, ação, revisão e exhibition</h3><p><strong>Conteúdos:</strong> Setembro–Novembro · clothes, abilities, electricity, position/direction, house, party time, action fair, portfolios and exhibition.</p><ul><li>Observar comunicação de aprendizagem, autonomia progressiva, síntese e prontidão para Year 3.</li></ul></article></div></section>
+<section class="section" id="projetos"><div class="section-heading"><p class="eyebrow">Projetos complementares</p><h2>Como ampliar sem fugir da matriz</h2><p>Projetos reforçam a entrega esperada, geram evidências e integram disciplinas sem substituir a progressão dos materiais-fonte.</p></div><div class="project-grid"><article class="project-card"><h3>Food Journey Map</h3><p>Mapa do caminho de um alimento, integrando English, GP, Science, Math e Speaking Lab.</p><ul><li>Gera pesquisa, labels, mapa, dados simples e fala curta.</li></ul></article><article class="project-card"><h3>Welcome and Well-being Guide</h3><p>Guia de acolhimento para uma criança nova na escola, com rotina, segurança e conselhos.</p><ul><li>Integra saúde, pertencimento, calendário, lugares e linguagem social.</li></ul></article><article class="project-card"><h3>Year 2 Learning Exhibition</h3><p>Mostra final com produtos, registros, falas e portfolio do ano.</p><ul><li>Integra todas as disciplinas do piloto e gera evidência para report card.</li></ul></article></div></section>
+<section class="section" id="estrategias"><div class="section-heading"><p class="eyebrow">Estratégias pedagógicas</p><h2>Apoio prático ao professor</h2><p>Estratégias para manter rigor de conteúdo sem transformar a barreira linguística em barreira de aprendizagem.</p></div><div class="strategy-grid"><article class="strategy-card"><h3>Positive reinforcement</h3><p>Reforçar tentativa, estratégia, colaboração, coragem comunicativa e uso de evidência.</p><ul><li>“Good thinking!”</li><li>“Show me your evidence.”</li><li>“Thank you for trying in English.”</li></ul></article><article class="strategy-card"><h3>Scaffolding</h3><p>Dar apoio visual, gestual, linguístico e organizacional antes da produção autônoma.</p><ul><li>Modelar primeiro.</li><li>Usar word banks.</li><li>Oferecer sentence frames.</li></ul></article><article class="strategy-card"><h3>Speaking com propósito</h3><p>Falar para perguntar, responder, explicar, orientar, apresentar e refletir.</p><ul><li>Pair talk.</li><li>Rehearsal.</li><li>Q&A simples.</li></ul></article><article class="strategy-card"><h3>Dados e evidências</h3><p>Transformar survey, tally, gráfico, mapa e investigação em linguagem de aprendizagem.</p><ul><li>“The chart shows...”</li><li>“We found...”</li><li>“I know because...”</li></ul></article><article class="strategy-card"><h3>Vocabulary recycling</h3><p>Retomar vocabulário em diferentes disciplinas para construir repertório acadêmico real.</p><ul><li>Same word, new context.</li><li>Word wall mensal.</li><li>Quick review.</li></ul></article><article class="strategy-card"><h3>Registro pedagógico</h3><p>Registrar evidências consistentes para avaliação, intervenção e relatório.</p><ul><li>Foto + legenda.</li><li>Checklist mensal.</li><li>Produto + fala observada.</li></ul></article></div></section>
+<section class="section" id="matriz"><div class="section-heading"><p class="eyebrow">Matriz anual</p><h2>Fundamental 1 · Year 2 mês a mês</h2><p>Use estes blocos como guia de planejamento, acompanhamento e registro. A matriz integra Math, Science, English/Kid’s Box, Global Perspectives, PBL e Speaking Lab.</p></div><div class="accordion-help"><strong>Navegação por mês:</strong> clique no mês para abrir ou fechar as disciplinas correspondentes. Todos os meses ficam compactos inicialmente para reduzir a rolagem e facilitar a consulta dos professores.</div><div class="month-list"><article class="month-card accordion-month is-collapsed" id="mes-1"><div aria-controls="mes-1-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 1</span><strong>Fevereiro</strong><p>Rotina acadêmica, cores, números até 100, habitats e pesquisa sobre alimentos</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-1-conteudo"><article class="discipline-card partial"><div class="discipline-head"><span>English / Kid’s Box</span><strong>Fonte validada parcialmente</strong></div><h4>Unit 1 — Hello!</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Kid’s Box Level 1 Unit 1; greetings; revisão de cores e números; personagens e rotinas de sala.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Entrar na rotina Year 2, cumprimentar, responder a perguntas pessoais simples e usar cores/números com mais precisão.</p></div>
+<div><b>Vocabulário-chave</b><p>hello, goodbye, colour, rainbow, red, yellow, green, blue, purple, number, star</p></div>
+<div><b>Language frames</b><p>Hello! / What’s your name? / I’m... / What colour is it? / It is... / How many?</p></div>
+<div><b>Habilidades observáveis</b><p>Cumprimenta colegas, identifica cores/números, segue comandos e participa de chant/song com mais autonomia.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Greeting survey, rainbow song, number-colour dictation, pair questions and classroom routine rehearsal.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia adaptação ao Year 2, escuta ativa, resposta oral e retomada de repertório essencial.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Science</span><strong>Fonte validada</strong></div><h4>Unit 1 — Habitats and local environment</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Habitats locais; plantas e animais em diferentes habitats; rochas no ambiente; cuidado com o meio ambiente.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Observar ambientes próximos, identificar seres vivos e não vivos em habitats e discutir formas simples de cuidado ambiental.</p></div>
+<div><b>Vocabulário-chave</b><p>habitat, environment, plant, animal, rock, local, care, alive, grow, protect</p></div>
+<div><b>Language frames</b><p>This is a habitat. / I can see... / It lives in... / We can care for...</p></div>
+<div><b>Habilidades observáveis</b><p>Observa, classifica e descreve animais/plantas em ambientes; registra achados por desenho, tabela simples ou fala guiada.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Habitat walk, local environment photo sort, plant/animal matching, care poster.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Mostra compreensão científica inicial e participação em investigação ambiental.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Math</span><strong>Fonte validada</strong></div><h4>Numbers to 100</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Leitura, escrita, comparação, ordenação e estimativa de números até 100; dezenas e unidades.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Consolidar number sense até 100, representar dezenas/unidades e explicar comparações com manipulativos.</p></div>
+<div><b>Vocabulário-chave</b><p>number, tens, ones, compare, order, estimate, greater, smaller, between</p></div>
+<div><b>Language frames</b><p>I counted... / There are... tens and... ones. / ... is greater than... / I know because...</p></div>
+<div><b>Habilidades observáveis</b><p>Representa números, compara quantidades, ordena sequências e explica estratégia com apoio visual.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Base-ten blocks, number line, estimate jar, compare and order cards.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Alimenta indicadores de raciocínio matemático, linguagem de comparação e registro organizado.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span><strong>Fonte validada</strong></div><h4>Unit 1 — Where does food come from?</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Origem dos alimentos; fontes de informação; perguntas sobre comida, cultivo, transporte e consumo.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Formular perguntas simples, usar fontes adequadas à idade e conectar alimentação a família, comércio e comunidade.</p></div>
+<div><b>Vocabulário-chave</b><p>food, potato, grow, farm, shop, label, source, question, find out</p></div>
+<div><b>Language frames</b><p>Where does it come from? / We can ask... / We found... / It grows...</p></div>
+<div><b>Habilidades observáveis</b><p>Faz perguntas, observa pistas, entrevista ou consulta fonte simples e compartilha achados com apoio.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Food-source inquiry, label hunt, ask a grown-up, class food map.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia Research, Communication e conexão entre experiência cotidiana e investigação.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span><strong>Fonte autoral GSP</strong></div><h4>Project 1 — Food Journey Map</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Projeto transdisciplinar sobre o caminho de um alimento: origem, transporte, compra, preparo e cuidado ambiental.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Criar mapa visual do percurso de um alimento, integrando pesquisa, vocabulário, números e ambiente.</p></div>
+<div><b>Vocabulário-chave</b><p>map, journey, farm, shop, transport, grow, local, far, care</p></div>
+<div><b>Language frames</b><p>Our food comes from... / It goes to... / We asked... / We can reduce waste by...</p></div>
+<div><b>Habilidades observáveis</b><p>Trabalha em grupo, organiza etapas, seleciona evidências e apresenta produto visual com frases-modelo.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Choose one food; draw the journey; add labels; present one finding and one care action.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de colaboração, pesquisa, comunicação e integração de áreas.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span><strong>Fonte autoral GSP</strong></div><h4>Speaking 1 — Food and classroom interview</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Perguntas e respostas sobre comida, cores, números, preferências e fontes de informação.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Aumentar confiança oral por meio de entrevistas curtas e apresentação de achados do projeto.</p></div>
+<div><b>Vocabulário-chave</b><p>ask, answer, food, like, colour, number, source, partner</p></div>
+<div><b>Language frames</b><p>Do you like...? / Where is it from? / I found... / My partner said...</p></div>
+<div><b>Habilidades observáveis</b><p>Pergunta, responde, escuta o colega e reporta uma informação simples para o grupo.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Pair interview, food flashcards, sentence-frame rehearsal, mini report.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Registra interação oral funcional e confiança inicial no Year 2.</p></div>
+</div></article></div></article><article class="month-card accordion-month is-collapsed" id="mes-2"><div aria-controls="mes-2-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 2</span><strong>Março</strong><p>Escola, formas, medidas, forças e problema do desperdício</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-2-conteudo"><article class="discipline-card partial"><div class="discipline-head"><span>English / Kid’s Box</span><strong>Fonte validada parcialmente</strong></div><h4>Unit 2 — My school</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Objetos escolares, cores, contagem e linguagem funcional de sala.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Nomear objetos da escola, usar cores/números em descrições e seguir instruções com autonomia crescente.</p></div>
+<div><b>Vocabulário-chave</b><p>school, chair, table, book, pen, pencil, eraser, classroom, colour</p></div>
+<div><b>Language frames</b><p>What’s this? / It’s a... / How many...? / I have... / Point to...</p></div>
+<div><b>Habilidades observáveis</b><p>Identifica objetos, completa pareamentos, responde a comandos e descreve materiais da sala.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Classroom object hunt, colour vote, count and match, pair naming game.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia repertório de sala, escuta e participação em rotina acadêmica.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Science</span><strong>Fonte validada</strong></div><h4>Unit 2 — Forces around us</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Pushes and pulls; mudança de forma, velocidade e direção; investigações simples com objetos.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Identificar forças como empurrar/puxar e observar como elas mudam movimento, forma, velocidade ou direção.</p></div>
+<div><b>Vocabulário-chave</b><p>force, push, pull, move, stop, shape, speed, direction, faster, slower</p></div>
+<div><b>Language frames</b><p>I push/pull... / It moves... / It gets faster/slower. / The shape changes.</p></div>
+<div><b>Habilidades observáveis</b><p>Realiza investigação guiada, compara resultados e usa vocabulário de força e movimento.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Paper rockets, ball ramp, shape-change test, movement direction game.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Mostra compreensão de causa e efeito, previsão e registro de observações.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Math</span><strong>Fonte validada</strong></div><h4>Geometry and measuring lines</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Formas 2D/3D, simetria, quarters, comprimento e medição com centímetros/metres.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Reconhecer propriedades de formas, explorar simetria/quartos e medir linhas/objetos com unidades adequadas.</p></div>
+<div><b>Vocabulário-chave</b><p>shape, side, corner, symmetry, quarter, centimetre, metre, length, measure</p></div>
+<div><b>Language frames</b><p>This shape has... / It is symmetrical. / It is... cm long. / I measured...</p></div>
+<div><b>Habilidades observáveis</b><p>Classifica formas, identifica simetria, mede e registra comprimento com apoio.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Shape sort, symmetry mirror, quarter folding, measure classroom lines.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia geometria, medição, precisão linguística e registro visual.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span><strong>Fonte validada</strong></div><h4>Unit 2 — Why is waste a problem?</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Tempo de decomposição, fontes sobre reduzir/reusar/reciclar, tally chart e trabalho em grupo.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Compreender por que o lixo é um problema, comparar informações de fontes e propor ações simples.</p></div>
+<div><b>Vocabulário-chave</b><p>waste, recycle, reuse, reduce, plastic, paper, metal, compost, tally</p></div>
+<div><b>Language frames</b><p>Waste is a problem because... / We can... / Some people... / Our tally shows...</p></div>
+<div><b>Habilidades observáveis</b><p>Lê informações simples, coleta dados da turma e participa da criação de uma ação/cartaz.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Decomposition timeline, waste sorting, class tally, reduce-reuse-recycle poster.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia Analysis, Collaboration e uso de dados simples para comunicar ação.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span><strong>Fonte autoral GSP</strong></div><h4>Project 2 — Better classroom, less waste</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Projeto para investigar lixo/uso de materiais na sala e criar combinados de redução.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Mapear hábitos da turma, usar tally chart e propor melhoria concreta para a sala.</p></div>
+<div><b>Vocabulário-chave</b><p>waste, bin, paper, reuse, recycle, tally, classroom, rule</p></div>
+<div><b>Language frames</b><p>We counted... / We can reuse... / Our rule is... / Let’s...</p></div>
+<div><b>Habilidades observáveis</b><p>Coleta dados, organiza informação, decide em grupo e apresenta regra/acordo visual.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Classroom waste audit, tally chart, poster with rules, peer presentation.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de cidadania, matemática aplicada e comunicação de solução.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span><strong>Fonte autoral GSP</strong></div><h4>Speaking 2 — Classroom problem solvers</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Oralidade para nomear objetos, explicar problema e sugerir ação ambiental.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Praticar pedidos, sugestões e justificativas simples em contexto de sala.</p></div>
+<div><b>Vocabulário-chave</b><p>problem, solution, recycle, classroom, object, help, can</p></div>
+<div><b>Language frames</b><p>Can I have...? / We need... / The problem is... / We can... because...</p></div>
+<div><b>Habilidades observáveis</b><p>Participa de role-play, usa sugestão com can e explica escolha com apoio.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Role-play monitor/recycler, problem-solution cards, poster talk.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia fala com propósito, colaboração e linguagem de solução.</p></div>
+</div></article></div></article><article class="month-card accordion-month is-collapsed" id="mes-3"><div aria-controls="mes-3-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 3</span><strong>Abril</strong><p>Brinquedos, família, materiais, dados e saúde inicial</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-3-conteudo"><article class="discipline-card partial"><div class="discipline-head"><span>English / Kid’s Box</span><strong>Fonte validada parcialmente</strong></div><h4>Units 3–4 — Favourite toys and My family</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Vocabulário de brinquedos, cores, números e membros da família; descrições e preferências.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Descrever brinquedos, identificar familiares e fazer perguntas/respostas simples sobre pessoas e objetos.</p></div>
+<div><b>Vocabulário-chave</b><p>toy, ball, doll, car, kite, family, mother, father, sister, brother, favourite</p></div>
+<div><b>Language frames</b><p>This is my... / My favourite toy is... / Who’s that? / It’s my...</p></div>
+<div><b>Habilidades observáveis</b><p>Nomeia brinquedos/família, descreve por cor/número e participa de pair talk.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Toy colour dictation, favourite toy survey, family tree, memory cards.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia vocabulário pessoal/social e interação oral guiada.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Science</span><strong>Fonte validada</strong></div><h4>Unit 3 — Materials</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Materiais naturais e feitos pelo ser humano; propriedades, usos, testes e mudanças em materiais.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Classificar materiais, relacionar propriedade e uso, testar resistência/impermeabilidade e registrar resultados.</p></div>
+<div><b>Vocabulário-chave</b><p>material, natural, made, wood, plastic, metal, fabric, waterproof, strong, change</p></div>
+<div><b>Language frames</b><p>It is made of... / It is strong/flexible. / We tested... / The best material is...</p></div>
+<div><b>Habilidades observáveis</b><p>Classifica, testa, compara e justifica escolha de material com evidência.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Material hunt, waterproof test, paper strength test, block graph.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Mostra investigação, comparação e justificativa científica.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Math</span><strong>Fonte validada</strong></div><h4>Statistics: Carroll diagrams and tally charts</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Organização de dados em tally charts e Carroll diagrams; leitura de semelhanças/diferenças.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Coletar, organizar e interpretar dados simples, conectando classificação matemática a perguntas reais.</p></div>
+<div><b>Vocabulário-chave</b><p>data, tally, chart, diagram, same, different, more, fewer, total</p></div>
+<div><b>Language frames</b><p>The chart shows... / More children chose... / It is the same/different because...</p></div>
+<div><b>Habilidades observáveis</b><p>Coleta respostas, organiza em tally/diagram e interpreta resultado com apoio.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Favourite toy survey, material sort diagram, class data talk.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Alimenta indicadores de estatística, explicação e registro.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span><strong>Fonte validada</strong></div><h4>Unit 3 — What helps us stay healthy?</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Atividade física, sono, alimentação, brincadeiras e diário de hábitos saudáveis.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Comparar hábitos, registrar rotina ativa e reconhecer fatores que ajudam o corpo e o bem-estar.</p></div>
+<div><b>Vocabulário-chave</b><p>healthy, active, sleep, food, play, diary, exercise, safe</p></div>
+<div><b>Language frames</b><p>I stay healthy when... / I can... / My diary shows... / It helps because...</p></div>
+<div><b>Habilidades observáveis</b><p>Completa diário simples, compara hábitos e compartilha uma escolha saudável.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Active diary, healthy habit cards, class discussion, simple graph.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia reflexão, comunicação e conexão com cuidado pessoal.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span><strong>Fonte autoral GSP</strong></div><h4>Project 3 — Healthy Toy and Movement Fair</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Feira de brincadeiras saudáveis conectando brinquedos, materiais, movimento e dados da turma.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Criar uma estação de brincadeira segura, explicar regras e registrar preferências da turma.</p></div>
+<div><b>Vocabulário-chave</b><p>game, toy, move, safe, healthy, rule, data, material</p></div>
+<div><b>Language frames</b><p>Our game is... / You need... / It is safe because... / The data shows...</p></div>
+<div><b>Habilidades observáveis</b><p>Planeja jogo, testa materiais, explica regra e coleta preferência dos colegas.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Design a game, test materials, run station, tally favourites.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de design, oralidade, saúde e dados.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span><strong>Fonte autoral GSP</strong></div><h4>Speaking 3 — Favourite things and healthy choices</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Falas sobre brinquedos, família, hábitos saudáveis e resultados de survey.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Desenvolver descrição, preferência e apresentação curta com apoio visual.</p></div>
+<div><b>Vocabulário-chave</b><p>favourite, because, healthy, active, family, toy, survey</p></div>
+<div><b>Language frames</b><p>My favourite... is... / I like it because... / I stay healthy when... / Our survey shows...</p></div>
+<div><b>Habilidades observáveis</b><p>Descreve preferência, escuta colega, reporta dado e apresenta frase curta.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Show and tell, favourite survey, healthy habit mini-talk.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia clareza oral, vocabulário temático e confiança progressiva.</p></div>
+</div></article></div></article><article class="month-card accordion-month is-collapsed" id="mes-4"><div aria-controls="mes-4-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 4</span><strong>Maio</strong><p>Pets, operações, materiais e comunidade saudável</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-4-conteudo"><article class="discipline-card partial"><div class="discipline-head"><span>English / Kid’s Box</span><strong>Fonte validada parcialmente</strong></div><h4>Unit 5 — Our pets</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Animais de estimação, adjetivos descritivos e preferências simples.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Nomear pets, descrever tamanho/estado e expressar preferência com frase curta.</p></div>
+<div><b>Vocabulário-chave</b><p>pet, mouse, cat, fish, horse, dog, bird, big, small, long, short, clean, dirty</p></div>
+<div><b>Language frames</b><p>I have a... / It is big/small. / My favourite pet is... / I like...</p></div>
+<div><b>Habilidades observáveis</b><p>Nomeia animais, copia/usa palavras descritivas e participa de survey.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Pet word tracing, favourite pet survey, describe the animal, air spelling.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia vocabulário animal, descrição e preferência.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Science</span><strong>Fonte validada</strong></div><h4>Unit 3 — Testing and changing materials</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Continuação de materiais: testes, gráficos, mudanças observáveis e escolha de material adequado.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Aprofundar investigação de propriedades e comunicar por que um material serve para determinado uso.</p></div>
+<div><b>Vocabulário-chave</b><p>test, result, waterproof, strong, weak, change, block graph, property</p></div>
+<div><b>Language frames</b><p>We tested... / It changed. / It did not change. / The graph shows...</p></div>
+<div><b>Habilidades observáveis</b><p>Executa teste, compara resultado e registra em gráfico/desenho/tabela.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Waterproof fabric test, paper strength challenge, material-use matching.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Mostra uso de evidência para justificar escolha e conclusão.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Math</span><strong>Fonte validada</strong></div><h4>Addition, subtraction, multiplication and division to 100</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Operações até 100; agrupamentos, arrays, compartilhamento e estratégias.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Resolver problemas com adição/subtração e iniciar multiplicação/divisão como agrupamento e arrays.</p></div>
+<div><b>Vocabulário-chave</b><p>add, subtract, total, difference, array, groups, share, multiply, divide</p></div>
+<div><b>Language frames</b><p>I added/subtracted... / I made groups of... / There are... rows. / I shared equally.</p></div>
+<div><b>Habilidades observáveis</b><p>Escolhe estratégia, representa operação com manipulativos e explica raciocínio.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Array building, equal sharing, number story problems, strategy talk.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Alimenta indicadores de resolução de problemas e explicação de estratégia.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span><strong>Fonte validada</strong></div><h4>Unit 3 — Active routines and community health</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Rotina de atividade, brincadeira, alimentação e segurança no entorno próximo.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Relacionar escolhas individuais e espaços da comunidade à saúde e bem-estar das crianças.</p></div>
+<div><b>Vocabulário-chave</b><p>routine, community, park, safe, active, healthy, choice</p></div>
+<div><b>Language frames</b><p>We can play... / It is safe because... / Children need... / I think...</p></div>
+<div><b>Habilidades observáveis</b><p>Compara espaços, identifica escolhas saudáveis e comunica opinião com apoio.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Community space photo talk, active routine chart, safe/unsafe sort.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia análise simples e comunicação de ponto de vista.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span><strong>Fonte autoral GSP</strong></div><h4>Project 4 — Pet Care and Materials Challenge</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Projeto sobre cuidado com animais usando escolha de materiais, dados e linguagem de responsabilidade.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Criar protótipo simples ou guia visual para cuidado com pet, justificando materiais e cuidados.</p></div>
+<div><b>Vocabulário-chave</b><p>pet, care, shelter, water, food, clean, material, strong</p></div>
+<div><b>Language frames</b><p>Pets need... / We chose... because... / It is made of... / We care by...</p></div>
+<div><b>Habilidades observáveis</b><p>Planeja produto, escolhe material, justifica e apresenta instruções de cuidado.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Pet care poster, mini shelter model, material choice explanation.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de responsabilidade, design e integração Science-English.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span><strong>Fonte autoral GSP</strong></div><h4>Speaking 4 — Care and explain</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Oralidade para descrever animais, explicar escolhas e dar instruções simples.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Praticar descrição, instrução e justificativa em contexto de cuidado e projeto.</p></div>
+<div><b>Vocabulário-chave</b><p>care, need, give, clean, safe, because, material</p></div>
+<div><b>Language frames</b><p>It needs... / Give it... / Keep it... / I chose... because...</p></div>
+<div><b>Habilidades observáveis</b><p>Usa frases de necessidade/cuidado, explica material e responde pergunta simples.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Pet care role-play, prototype pitch, peer Q&amp;A.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia fala explicativa e vocabulário transdisciplinar.</p></div>
+</div></article></div></article><article class="month-card accordion-month is-collapsed" id="mes-5"><div aria-controls="mes-5-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 5</span><strong>Junho</strong><p>Face, corpo, dinheiro, tempo, saúde e escola acolhedora</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-5-conteudo"><article class="discipline-card partial"><div class="discipline-head"><span>English / Kid’s Box</span><strong>Fonte validada parcialmente</strong></div><h4>Unit 6 — My face</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Partes do rosto, comandos corporais, descrições e ações.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Nomear partes do rosto/corpo, seguir comandos e descrever características com apoio.</p></div>
+<div><b>Vocabulário-chave</b><p>face, eye, ear, nose, mouth, teeth, hair, touch, listen, look</p></div>
+<div><b>Language frames</b><p>Touch your... / This is my... / I have... / He/She has...</p></div>
+<div><b>Habilidades observáveis</b><p>Identifica partes do rosto, responde a comandos e participa de Simon says/pair talk.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Face labelling, Simon says, colour instruction, describe a character.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia escuta, resposta física e vocabulário corporal.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Science</span><strong>Fonte validada</strong></div><h4>Unit 4 — Comparing animals and growing</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Comparação de animais, crescimento, características herdadas, saúde e dentes.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Comparar características de animais/humanos e reconhecer crescimento, herança observável e hábitos de saúde.</p></div>
+<div><b>Vocabulário-chave</b><p>animal, grow, young, parent, inherit, healthy, teeth, diet, exercise</p></div>
+<div><b>Language frames</b><p>It has... / It grows... / It is like its parent. / To be healthy, we need...</p></div>
+<div><b>Habilidades observáveis</b><p>Compara animais, registra semelhanças/diferenças e relaciona saúde a alimentação/higiene/exercício.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Animal comparison, baby/adult matching, healthy habits sort, teeth observation.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Mostra comparação científica e vocabulário de saúde/crescimento.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Math</span><strong>Fonte validada</strong></div><h4>Money, units of time and calendar</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Dinheiro, leitura de calendário, unidades de tempo, sequência de dias/meses e resolução de problemas.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Usar dinheiro e calendário em situações concretas, interpretando tempo e valores com apoio.</p></div>
+<div><b>Vocabulário-chave</b><p>money, coin, price, cost, day, week, month, calendar, today, tomorrow</p></div>
+<div><b>Language frames</b><p>It costs... / I have... / Today is... / The date is... / Next week...</p></div>
+<div><b>Habilidades observáveis</b><p>Resolve situações simples de compra, lê calendário e usa vocabulário temporal.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Class shop, calendar routine, price matching, event planning.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia matemática funcional e linguagem de tempo/valor.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span><strong>Fonte validada</strong></div><h4>Unit 4 — What do children need in a new place?</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Necessidades de crianças em novo lugar; pertencimento, segurança, saúde, aprendizagem e opinião.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Identificar necessidades de crianças, escutar perspectivas e pensar em acolhimento na escola.</p></div>
+<div><b>Vocabulário-chave</b><p>need, new, place, belong, safe, healthy, learn, opinion, advice</p></div>
+<div><b>Language frames</b><p>Children need... / It is important to... / I feel... / You could...</p></div>
+<div><b>Habilidades observáveis</b><p>Escuta cenário, identifica necessidades e contribui com conselho ou ideia de apoio.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Needs card sort, belonging discussion, advice sentence, welcome idea.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia empatia, comunicação e reflexão.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span><strong>Fonte autoral GSP</strong></div><h4>Project 5 — Welcome and Well-being Guide</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Guia visual para acolher uma criança nova, conectando saúde, segurança, tempo e rotina escolar.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Criar guia de boas-vindas com rotinas, lugares, pessoas e conselhos simples em inglês.</p></div>
+<div><b>Vocabulário-chave</b><p>welcome, safe, healthy, routine, calendar, help, friend, place</p></div>
+<div><b>Language frames</b><p>Welcome to... / You can... / It is important to... / Ask... for help.</p></div>
+<div><b>Habilidades observáveis</b><p>Organiza informações úteis, escreve/desenha conselhos e apresenta guia ao grupo.</p></div>
+<div><b>Sugestões de prática / produção</b><p>School map, welcome cards, routine timeline, advice booklet.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de empatia, organização e comunicação para audiência real.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span><strong>Fonte autoral GSP</strong></div><h4>Speaking 5 — Welcome talk</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Falas de acolhimento, instruções de rotina, conselhos e apresentação do guia.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Praticar linguagem para receber, orientar e tranquilizar um colega novo.</p></div>
+<div><b>Vocabulário-chave</b><p>welcome, help, go, ask, safe, friend, classroom</p></div>
+<div><b>Language frames</b><p>Welcome! / This is... / You can ask... / Don’t worry. / We can help.</p></div>
+<div><b>Habilidades observáveis</b><p>Apresenta lugar/rotina, oferece ajuda e responde pergunta simples em role-play.</p></div>
+<div><b>Sugestões de prática / produção</b><p>New student role-play, guide presentation, pair rehearsal.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia comunicação social, empatia e segurança oral.</p></div>
+</div></article></div></article><article class="month-card accordion-month is-collapsed" id="mes-6"><div aria-controls="mes-6-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 6</span><strong>Agosto</strong><p>Animais selvagens, massa/capacidade, luz e pertencimento</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-6-conteudo"><article class="discipline-card partial"><div class="discipline-head"><span>English / Kid’s Box</span><strong>Fonte validada parcialmente</strong></div><h4>Unit 7 — Wild animals</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Animais selvagens, informações simples e habilidades de soletração/descrição.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Nomear animais selvagens, compreender informações curtas e descrever características.</p></div>
+<div><b>Vocabulário-chave</b><p>giraffe, elephant, tiger, hippo, monkey, crocodile, snake, wild, fast, big</p></div>
+<div><b>Language frames</b><p>It is a... / It has... / It can... / It lives... / Spell...</p></div>
+<div><b>Habilidades observáveis</b><p>Nomeia animais, associa informações, soletra palavras e descreve com apoio.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Animal information boards, spell and guess, describe the animal, habitat match.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia vocabulário animal, leitura curta e fala descritiva.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Science</span><strong>Fonte validada</strong></div><h4>Unit 5 — Light sources and darkness</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Fontes de luz, escuridão, sol aparente e observações sobre luz.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Identificar fontes de luz, compreender que precisamos de luz para ver e observar mudanças de luz/sombra.</p></div>
+<div><b>Vocabulário-chave</b><p>light, dark, source, Sun, shadow, bright, see, night</p></div>
+<div><b>Language frames</b><p>It is a light source. / We can see because... / It is bright/dark.</p></div>
+<div><b>Habilidades observáveis</b><p>Classifica fontes de luz, observa escuridão/sombra e registra resultado.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Light source sort, dark box observation, shadow drawing, brightness comparison.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Mostra observação científica e vocabulário de luz.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Math</span><strong>Fonte validada</strong></div><h4>Mass, capacity and fractions of quantities</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Massa, capacidade, comparação de medidas e frações de quantidades.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Medir/comparar massa e capacidade e representar frações simples de coleções.</p></div>
+<div><b>Vocabulário-chave</b><p>mass, capacity, heavy, light, full, empty, half, quarter, quantity</p></div>
+<div><b>Language frames</b><p>It is heavier/lighter. / The container is full. / Half of... / A quarter of...</p></div>
+<div><b>Habilidades observáveis</b><p>Compara medidas, registra resultado e representa fração de quantidade com materiais.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Balance scale, container comparison, fraction sharing, measure station.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia medição, comparação e representação.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span><strong>Fonte validada</strong></div><h4>Unit 4 — Belonging and safe school</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Pertencimento, segurança, saúde e ideias de crianças sobre uma escola acolhedora.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Coletar ideias de colegas sobre o que ajuda a se sentir seguro, saudável e pertencente.</p></div>
+<div><b>Vocabulário-chave</b><p>belong, safe, happy, healthy, opinion, listen, school</p></div>
+<div><b>Language frames</b><p>What makes you feel...? / I feel... when... / We found... / Our idea is...</p></div>
+<div><b>Habilidades observáveis</b><p>Faz pergunta de survey, escuta resposta e contribui para síntese da turma.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Belonging survey, safe school drawing, advice wall.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia escuta, pesquisa e reflexão social.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span><strong>Fonte autoral GSP</strong></div><h4>Project 6 — Animal Light and Habitat Museum</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Museu de animais e ambientes, conectando animais selvagens, luz, habitats e medidas.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Criar exposição visual com animal, habitat, necessidade de luz/ambiente e dado de medida.</p></div>
+<div><b>Vocabulário-chave</b><p>museum, animal, habitat, light, measure, display, label</p></div>
+<div><b>Language frames</b><p>This animal lives in... / It needs... / Our display shows...</p></div>
+<div><b>Habilidades observáveis</b><p>Pesquisa/seleciona informação, constrói display e apresenta etiqueta/fala curta.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Animal habitat display, shadow/light station, measurement label, gallery walk.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de produto multimodal e apresentação.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span><strong>Fonte autoral GSP</strong></div><h4>Speaking 6 — Museum guide</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Oralidade para guiar visitantes pela exposição e responder perguntas.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Praticar apresentação curta, descrição e resposta simples sobre animal/ambiente.</p></div>
+<div><b>Vocabulário-chave</b><p>welcome, museum, animal, habitat, light, question</p></div>
+<div><b>Language frames</b><p>Welcome to our museum. / This is a... / It lives... / Any questions?</p></div>
+<div><b>Habilidades observáveis</b><p>Apresenta display, usa vocabulário e responde pergunta com apoio.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Museum rehearsal, guide cards, peer visitor questions.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia apresentação oral e comunicação para audiência.</p></div>
+</div></article></div></article><article class="month-card accordion-month is-collapsed" id="mes-7"><div aria-controls="mes-7-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 7</span><strong>Setembro</strong><p>Roupas, habilidades, direção, movimento e eletricidade segura</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-7-conteudo"><article class="discipline-card partial"><div class="discipline-head"><span>English / Kid’s Box</span><strong>Fonte validada parcialmente</strong></div><h4>Units 8–9 — My clothes and Fun time</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Roupas, cores, habilidades com can/can’t, esportes e atividades de lazer.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Descrever roupas, falar sobre habilidades e compreender frases com can/can’t.</p></div>
+<div><b>Vocabulário-chave</b><p>clothes, jacket, skirt, shoes, trousers, T-shirt, socks, can, can’t, play, ride, swim</p></div>
+<div><b>Language frames</b><p>I’m wearing... / He/She is wearing... / I can... / I can’t...</p></div>
+<div><b>Habilidades observáveis</b><p>Nomeia roupas, descreve personagem e fala sobre habilidades próprias/de personagens.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Clothes memory, colour dictation, ability cards, can/can’t survey.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia descrição, preferência/habilidade e interação oral.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Science</span><strong>Fonte validada</strong></div><h4>Unit 6 — Electricity and safety</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Uso de eletricidade, segurança, células, fios, lâmpadas e circuitos simples.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Reconhecer onde usamos eletricidade, discutir segurança e explorar circuitos simples com supervisão.</p></div>
+<div><b>Vocabulário-chave</b><p>electricity, appliance, safe, dangerous, cell, wire, lamp, circuit, switch</p></div>
+<div><b>Language frames</b><p>We use electricity for... / It is safe/dangerous. / The lamp lights up.</p></div>
+<div><b>Habilidades observáveis</b><p>Identifica aparelhos, diferencia práticas seguras e observa circuito simples.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Appliance sort, safety poster, teacher-led circuit demo, label components.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Mostra vocabulário científico e consciência de segurança.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Math</span><strong>Fonte validada</strong></div><h4>Position, direction and movement</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Posição, direção, movimento, trajetos e linguagem espacial.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Usar linguagem de posição/direção para descrever trajetos e movimento em mapas simples.</p></div>
+<div><b>Vocabulário-chave</b><p>position, direction, left, right, forward, backward, turn, map, route</p></div>
+<div><b>Language frames</b><p>Go forward. / Turn left/right. / It is next to... / The route is...</p></div>
+<div><b>Habilidades observáveis</b><p>Segue/dá instruções, registra rota e conecta movimento a mapa.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Grid path, classroom route, robot commands, movement game.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia linguagem espacial e raciocínio sequencial.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span><strong>Fonte validada</strong></div><h4>Unit 4 — Advice for a new child</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Conselhos para criança nova; perguntas de segurança, aprendizagem, bem-estar e relaxamento.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Transformar ideias coletadas em conselhos úteis e respeitosos para acolhimento.</p></div>
+<div><b>Vocabulário-chave</b><p>advice, new child, help, relax, learn, safe, question</p></div>
+<div><b>Language frames</b><p>It’s a good idea to... / You could... / Ask... / It is important to...</p></div>
+<div><b>Habilidades observáveis</b><p>Escreve/desenha conselho, justifica ideia e apresenta ao grupo.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Advice letter, FAQ for new child, peer feedback.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia Communication, Reflection e empatia aplicada.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span><strong>Fonte autoral GSP</strong></div><h4>Project 7 — Safe Routes and Smart Energy</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Projeto sobre trajetos seguros na escola e uso seguro/responsável de energia.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Criar mapa de rota segura e campanha simples de segurança/energia para a turma.</p></div>
+<div><b>Vocabulário-chave</b><p>route, safe, energy, electricity, switch, left, right, map</p></div>
+<div><b>Language frames</b><p>Turn off... / Follow the route. / It is safe because... / Go left/right.</p></div>
+<div><b>Habilidades observáveis</b><p>Desenha mapa, usa instruções, identifica risco e comunica regra de segurança.</p></div>
+<div><b>Sugestões de prática / produção</b><p>School route map, safety icons, energy-saving pledge, guided tour.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de matemática espacial, ciência aplicada e cidadania.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span><strong>Fonte autoral GSP</strong></div><h4>Speaking 7 — Directions and safety talk</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Dar instruções de rota, explicar regras de segurança e falar habilidades com can/can’t.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Praticar comandos, instruções e recomendações com clareza e apoio visual.</p></div>
+<div><b>Vocabulário-chave</b><p>go, turn, stop, safe, dangerous, can, can’t</p></div>
+<div><b>Language frames</b><p>Go straight. / Turn left. / Don’t touch... / You can... / You can’t...</p></div>
+<div><b>Habilidades observáveis</b><p>Dá/segue instruções, participa de role-play e explica uma regra.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Direction maze, safety role-play, can/can’t classroom rules.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia precisão de comandos e fala funcional.</p></div>
+</div></article></div></article><article class="month-card accordion-month is-collapsed" id="mes-8"><div aria-controls="mes-8-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 8</span><strong>Outubro</strong><p>Funfair, casa, alimentos, problemas matemáticos e ação responsável</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-8-conteudo"><article class="discipline-card partial"><div class="discipline-head"><span>English / Kid’s Box</span><strong>Fonte validada parcialmente</strong></div><h4>Units 10–11 — At the funfair and Our house</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Transporte/brinquedos de parque, ações em progresso, cômodos da casa e atividades.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Nomear meios/atrações, usar frases de ação e descrever cômodos/atividades em casa.</p></div>
+<div><b>Vocabulário-chave</b><p>lorry, helicopter, bus, motorbike, plane, house, kitchen, bedroom, bathroom, reading, eating</p></div>
+<div><b>Language frames</b><p>I’m riding... / He is... / Where’s...? / In the... / You’re reading...</p></div>
+<div><b>Habilidades observáveis</b><p>Completa frases, descreve ação/local e participa de mímica/perguntas.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Action mime, room wordsearch, where is it?, funfair transport spell.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia ação, localização e vocabulário de casa/transporte.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Science</span><strong>Fonte validada</strong></div><h4>Science review — Environment, forces, materials, animals, light and electricity</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Retomada investigativa das unidades 1–6 com foco em conexões e linguagem científica.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Consolidar conceitos do ano por estações de revisão e investigação curta.</p></div>
+<div><b>Vocabulário-chave</b><p>habitat, force, material, animal, light, electricity, safe, result</p></div>
+<div><b>Language frames</b><p>I observed... / The result was... / It is similar/different because...</p></div>
+<div><b>Habilidades observáveis</b><p>Revisa conceitos, compara evidências e explica uma descoberta favorita.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Science stations, concept sort, mini investigation portfolio.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia consolidação científica e prontidão para síntese final.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Math</span><strong>Fonte validada</strong></div><h4>Problem solving and data interpretation</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Resolução de problemas envolvendo números, medidas, dados, tempo, dinheiro, posição e operações.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Resolver problemas contextualizados, escolher estratégia e interpretar dados simples.</p></div>
+<div><b>Vocabulário-chave</b><p>problem, strategy, data, total, difference, route, chart, answer</p></div>
+<div><b>Language frames</b><p>My strategy was... / I know because... / The data shows... / The answer is...</p></div>
+<div><b>Habilidades observáveis</b><p>Escolhe representação, resolve, verifica e comunica raciocínio.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Math challenge stations, data interpretation, route-price problem.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia autonomia matemática e comunicação de estratégia.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span><strong>Fonte validada</strong></div><h4>Global Perspectives synthesis — From research to action</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Síntese dos challenges: alimento, desperdício, saúde, pertencimento e acolhimento.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Retomar pesquisa, análise, comunicação, colaboração e reflexão em uma ação final.</p></div>
+<div><b>Vocabulário-chave</b><p>research, action, improve, evidence, reflect, community</p></div>
+<div><b>Language frames</b><p>We researched... / We found... / We can improve... / Next time...</p></div>
+<div><b>Habilidades observáveis</b><p>Seleciona evidências, participa de ação e reflete sobre aprendizagem.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Class improvement action, evidence wall, reflection circle.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia ciclo completo de investigação e ação.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span><strong>Fonte autoral GSP</strong></div><h4>Project 8 — Home, Community and Action Fair</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Feira de soluções para casa/escola/comunidade: economia, segurança, saúde e redução de desperdício.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Desenvolver proposta de ação responsável conectando casa, escola e comunidade.</p></div>
+<div><b>Vocabulário-chave</b><p>home, community, action, problem, solution, fair, evidence</p></div>
+<div><b>Language frames</b><p>Our problem is... / Our solution is... / At home/school, we can...</p></div>
+<div><b>Habilidades observáveis</b><p>Planeja solução, organiza evidência e apresenta para colegas.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Action fair booth, poster, demo, peer questions.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de síntese transdisciplinar e comunicação.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span><strong>Fonte autoral GSP</strong></div><h4>Speaking 8 — Action fair presentation</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Apresentação de solução, perguntas/respostas e reflexão sobre ação.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Praticar fala organizada em começo–meio–fim, com frase de problema, solução e evidência.</p></div>
+<div><b>Vocabulário-chave</b><p>present, problem, solution, evidence, question, answer</p></div>
+<div><b>Language frames</b><p>Today we present... / The problem is... / Our solution is... / Any questions?</p></div>
+<div><b>Habilidades observáveis</b><p>Apresenta em grupo, usa visual, responde pergunta e escuta feedback.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Presentation rehearsal, booth script, Q&amp;A circle.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia apresentação oral, colaboração e clareza comunicativa.</p></div>
+</div></article></div></article><article class="month-card accordion-month is-collapsed" id="mes-9"><div aria-controls="mes-9-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 9</span><strong>Novembro</strong><p>Party time, portfolio e Learning Exhibition Year 2</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-9-conteudo"><article class="discipline-card partial"><div class="discipline-head"><span>English / Kid’s Box</span><strong>Fonte validada parcialmente</strong></div><h4>Unit 12 and annual review — Party time!</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Alimentos, likes/don’t like, revisão de Units 1–12, preferências e celebração de aprendizagem.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Consolidar vocabulário anual, expressar preferências e apresentar aprendizagem favorita.</p></div>
+<div><b>Vocabulário-chave</b><p>cake, banana, burger, apple, chocolate, ice cream, like, don’t like, review, party</p></div>
+<div><b>Language frames</b><p>I like... / I don’t like... / My favourite unit is... / I learned...</p></div>
+<div><b>Habilidades observáveis</b><p>Usa repertório acumulado, fala preferência e participa de revisão/celebração.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Food preference survey, vocabulary review games, learning celebration talk.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia consolidação de vocabulário, preferência e confiança oral.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Science</span><strong>Fonte validada</strong></div><h4>Science portfolio — My investigations</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Portfólio de investigações: habitats, forças, materiais, animais, luz e eletricidade.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Selecionar evidências científicas, explicar uma investigação e identificar próximo passo.</p></div>
+<div><b>Vocabulário-chave</b><p>investigation, evidence, observe, predict, result, conclusion, portfolio</p></div>
+<div><b>Language frames</b><p>I investigated... / I observed... / My result was... / Next, I want to...</p></div>
+<div><b>Habilidades observáveis</b><p>Escolhe evidência, explica resultado e usa vocabulário científico essencial.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Portfolio selection, favourite investigation talk, science reflection.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia comunicação científica e metacognição.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Math</span><strong>Fonte validada</strong></div><h4>Math portfolio — Strategies and data</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Revisão de números até 100, operações, dados, medidas, tempo, dinheiro, frações e posição.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Selecionar estratégias matemáticas do ano e explicar raciocínio com apoio.</p></div>
+<div><b>Vocabulário-chave</b><p>strategy, number, operation, measure, data, graph, problem, explain</p></div>
+<div><b>Language frames</b><p>I solved it by... / My strategy was... / The graph shows... / I checked...</p></div>
+<div><b>Habilidades observáveis</b><p>Apresenta problema resolvido, explica estratégia e interpreta evidência.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Best math work selection, strategy talk, data review, peer explanation.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia raciocínio, registro e linguagem matemática.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span><strong>Fonte validada</strong></div><h4>Global Perspectives portfolio — What we found and changed</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Portfólio de pesquisas e ações: comida, lixo, saúde e acolhimento.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Comunicar uma descoberta, uma ação e uma reflexão sobre colaboração/aprendizagem.</p></div>
+<div><b>Vocabulário-chave</b><p>found, changed, action, helped, learned, reflect, evidence</p></div>
+<div><b>Language frames</b><p>We found... / We changed... / I helped by... / I learned that...</p></div>
+<div><b>Habilidades observáveis</b><p>Seleciona evidência, comunica achado e reflete sobre colaboração.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Evidence gallery, reflection card, group share.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia Research, Communication, Collaboration e Reflection.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span><strong>Fonte autoral GSP</strong></div><h4>Year 2 Learning Exhibition</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Mostra final com produtos dos projetos Year 2 e integração de áreas.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Organizar exposição final, revisar produtos e apresentar aprendizagem para audiência.</p></div>
+<div><b>Vocabulário-chave</b><p>exhibition, project, product, evidence, proud, improve</p></div>
+<div><b>Language frames</b><p>This is our project. / We learned... / We are proud because...</p></div>
+<div><b>Habilidades observáveis</b><p>Seleciona produto, apresenta em grupo e reflete sobre avanço.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Learning exhibition, gallery walk, project labels, reflection note.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência final para report card e comunicação com famílias.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span><strong>Fonte autoral GSP</strong></div><h4>Year 2 Speaker Portfolio</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Portfólio oral: entrevistas, apresentações, instruções, conselhos e exposição final.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Aumentar tempo de fala e consolidar repertório de apresentação e reflexão.</p></div>
+<div><b>Vocabulário-chave</b><p>speak, listen, present, ask, answer, explain, reflect</p></div>
+<div><b>Language frames</b><p>I can speak about... / I learned... / My next step is...</p></div>
+<div><b>Habilidades observáveis</b><p>Apresenta evidência oral, responde pergunta simples e identifica próximo passo.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Choose best speaking moment, rehearse, record/present, peer applause.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia confiança, clareza e progressão de oralidade.</p></div>
+</div></article></div></article></div></section>
+<section class="section assessment-box" id="avaliacao-global"><div class="section-heading"><p class="eyebrow">Avaliação Global GSP</p><h2>Verificação global para Year 2</h2><p>A avaliação global deve observar aprendizagem de conteúdo e desenvolvimento linguístico de forma integrada. Não é uma prova de inglês isolada: é uma leitura formativa da participação bilíngue do aluno.</p></div><table class="rubric-table"><thead><tr><th>Nível</th><th>Descrição pedagógica</th></tr></thead><tbody><tr><td>Emerging</td><td>O aluno começa a demonstrar a habilidade com apoio intenso, principalmente por escolha, repetição, resposta curta ou mediação direta.</td></tr><tr><td>Developing</td><td>O aluno demonstra a habilidade em situações conhecidas, com apoio visual, sentence frames, manipulativos ou mediação do professor.</td></tr><tr><td>Consolidating</td><td>O aluno demonstra a habilidade com mais frequência e segurança, podendo explicar estratégia, apresentar produto ou usar frases curtas em contexto acadêmico.</td></tr></tbody></table><div class="assessment-columns"><article><strong>Escolas bimestrais</strong><p>Aplicar essa leitura nos 4 bimestres, conectando evidências mensais às disciplinas e projetos trabalhados no período.</p></article><article><strong>Escolas trimestrais</strong><p>Aplicar essa leitura nos 3 trimestres, agrupando evidências de conteúdo, linguagem, participação e portfolio.</p></article><article><strong>Uso pedagógico</strong><p>Os dados devem orientar retomada de vocabulário, apoio individual, agrupamentos, próximos passos e comunicação descritiva para famílias.</p></article></div></section>
+<section class="section" id="avaliacao-t1"><div class="section-heading"><p class="eyebrow">Instrumento avaliativo</p><h2>Investigação, linguagem acadêmica e autonomia progressiva</h2><p>Para Year 2, o primeiro ciclo deve medir se o aluno consegue sustentar rotina, responder a perguntas, registrar dados simples e explicar escolhas com apoio.</p></div><div class="assessment-columns"><article><strong>Listening & responding</strong><p>Segue comandos, responde a perguntas e age a partir de instruções em inglês.</p></article><article><strong>Content vocabulary</strong><p>Reconhece e usa vocabulário de escola, números, habitats, força, alimentos e desperdício.</p></article><article><strong>Speaking attempt</strong><p>Tenta explicar escolhas, resultados ou preferências com sentence frames.</p></article><article><strong>Task performance</strong><p>Realiza registro, comparação, medição, gráfico, projeto ou investigação simples.</p></article></div></section>
+<section class="section" id="relatorio-base"><div class="section-heading"><p class="eyebrow">Base para relatório individualizado</p><h2>Como transformar evidências em comunicação</h2><p>Após as avaliações, os resultados poderão alimentar comentários individualizados e próximos passos de aprendizagem.</p></div><div class="report-grid"><article class="report-card"><h3>O aluno já demonstra</h3><p>Participação, compreensão de conteúdo, vocabulário reconhecido/produzido, interação, investigação e autonomia observável.</p></article><article class="report-card"><h3>Próximo passo</h3><p>Habilidade acadêmica, linguística ou socioemocional que precisa ser fortalecida no próximo ciclo.</p></article><article class="report-card"><h3>Plano de apoio</h3><p>Estratégias para professor/turma quando marcos de conteúdo, linguagem ou participação ainda não forem atingidos.</p></article></div></section>
+<section class="section assessment-box" id="gerador-report-card"><div class="note-box"><h2>Gerador digital do Report Card · Fundamental 1 - Year 2</h2><p>Escolha a marca e o term correspondente de sua escola. Nesta etapa, os botões ficam preparados visualmente no mesmo padrão do Year 1; os geradores serão ativados após validação da matriz Year 2 e da divisão por calendário.</p><h3 class="report-calendar-title">Escolas bimestrais · 4 terms</h3><div class="school-report-group"><h4 class="school-report-title">Objetivo</h4><div class="brand-report-grid"><a class="brand-report-card"><div><strong>Term 1</strong><span>Rotina, escola, ambiente, números, geometria, forças, alimentos e desperdício</span></div><span class="status">Em preparação</span></a><a class="brand-report-card"><div><strong>Term 2</strong><span>Preferências, materiais, dados, saúde, pets, corpo, dinheiro, tempo e acolhimento</span></div><span class="status">Em preparação</span></a><a class="brand-report-card"><div><strong>Term 3</strong><span>Animais, luz, energia, direção, movimento, segurança e pertencimento</span></div><span class="status">Em preparação</span></a><a class="brand-report-card"><div><strong>Term 4</strong><span>Ação, revisão, portfolio e Learning Exhibition Year 2</span></div><span class="status">Em preparação</span></a></div></div><div class="school-report-group"><h4 class="school-report-title">CCPA</h4><div class="brand-report-grid"><a class="brand-report-card"><div><strong>Term 1</strong><span>Rotina, escola, ambiente, números, geometria, forças, alimentos e desperdício</span></div><span class="status">Em preparação</span></a><a class="brand-report-card"><div><strong>Term 2</strong><span>Preferências, materiais, dados, saúde, pets, corpo, dinheiro, tempo e acolhimento</span></div><span class="status">Em preparação</span></a><a class="brand-report-card"><div><strong>Term 3</strong><span>Animais, luz, energia, direção, movimento, segurança e pertencimento</span></div><span class="status">Em preparação</span></a><a class="brand-report-card"><div><strong>Term 4</strong><span>Ação, revisão, portfolio e Learning Exhibition Year 2</span></div><span class="status">Em preparação</span></a></div></div><h3 class="report-calendar-title">Escolas trimestrais · 3 terms</h3><div class="school-report-group"><h4 class="school-report-title">CJA</h4><div class="brand-report-grid term-3"><a class="brand-report-card"><div><strong>Term 1</strong><span>Rotina, escola, ambiente, dados, materiais e saúde</span></div><span class="status">Em preparação</span></a><a class="brand-report-card"><div><strong>Term 2</strong><span>Cuidado, acolhimento, animais, luz, medidas e portfolio parcial</span></div><span class="status">Em preparação</span></a><a class="brand-report-card"><div><strong>Term 3</strong><span>Segurança, ação, revisão e exhibition Year 2</span></div><span class="status">Em preparação</span></a></div></div><div class="school-report-group"><h4 class="school-report-title">Santo Anjo</h4><div class="brand-report-grid term-3"><a class="brand-report-card"><div><strong>Term 1</strong><span>Rotina, escola, ambiente, dados, materiais e saúde</span></div><span class="status">Em preparação</span></a><a class="brand-report-card"><div><strong>Term 2</strong><span>Cuidado, acolhimento, animais, luz, medidas e portfolio parcial</span></div><span class="status">Em preparação</span></a><a class="brand-report-card"><div><strong>Term 3</strong><span>Segurança, ação, revisão e exhibition Year 2</span></div><span class="status">Em preparação</span></a></div></div><div class="school-report-group"><h4 class="school-report-title">Marupiara</h4><div class="brand-report-grid term-3"><a class="brand-report-card"><div><strong>Term 1</strong><span>Rotina, escola, ambiente, dados, materiais e saúde</span></div><span class="status">Em preparação</span></a><a class="brand-report-card"><div><strong>Term 2</strong><span>Cuidado, acolhimento, animais, luz, medidas e portfolio parcial</span></div><span class="status">Em preparação</span></a><a class="brand-report-card"><div><strong>Term 3</strong><span>Segurança, ação, revisão e exhibition Year 2</span></div><span class="status">Em preparação</span></a></div></div></div></section>
+<section class="section" id="materiais"><div class="section-heading"><p class="eyebrow">Materiais-base</p><h2>Onde buscar os recursos</h2><p>Use as plataformas oficiais Cambridge e os materiais-fonte internos GSP para planejar a entrega mensal. PBL e Speaking Lab usam documentos autorais criados a partir das disciplinas com livro.</p></div><div class="materials-grid"><article class="material-card"><h3>Cambridge One</h3><p>Plataforma oficial para materiais Cambridge ELT, incluindo Kid’s Box e recursos digitais de inglês.</p><a href="https://www.cambridgeone.org/" rel="noopener" target="_blank">Acessar Cambridge One</a></article><article class="material-card"><h3>Cambridge GO</h3><p>Plataforma oficial para materiais Cambridge International Curriculum, incluindo Math, Science e Global Perspectives quando disponíveis.</p><a href="https://www.cambridge.org/go/" rel="noopener" target="_blank">Acessar Cambridge GO</a></article><article class="material-card"><h3>Drive · Math Fundamental 1</h3><p>Pasta de materiais Cambridge Math do Fundamental 1, incluindo a matriz Year 2.</p><a href="https://drive.google.com/drive/folders/19jYHuFvF_E7frB2NknJu0UeuXsZn5nn-" rel="noopener" target="_blank">Abrir pasta no Drive</a></article><article class="material-card"><h3>Drive · Science Fundamental 1</h3><p>Pasta de materiais Cambridge Science do Fundamental 1, incluindo Science Year 2 e Teacher Resource.</p><a href="https://drive.google.com/drive/folders/15nHOR4zFK6b4mwi1s_ZtA4d7M0xg4KSf" rel="noopener" target="_blank">Abrir pasta no Drive</a></article><article class="material-card"><h3>Drive · English/Kid’s Box Year 2</h3><p>Pasta Year 2 - Kids Box 1, com worksheets Level 1 analisados para esta matriz.</p><a href="https://drive.google.com/drive/folders/1jK3wRwl0SsypQgi4J0_-AnEMv6SsOoxg" rel="noopener" target="_blank">Abrir pasta no Drive</a></article><article class="material-card"><h3>Drive · Global Perspectives Year 2</h3><p>Teacher resources, worksheets e materiais de apoio de Global Perspectives Year 2.</p><a href="https://drive.google.com/drive/folders/1SGhTnF2yZK7uhJDLO06ctiAEvkBtRYsy" rel="noopener" target="_blank">Abrir pasta no Drive</a></article><article class="material-card"><h3>PBL Year 2 · Material-fonte GSP</h3><p>Projetos mensais transdisciplinares para apoiar professores em aulas sem livro didático próprio.</p><a href="https://docs.google.com/document/d/1r1ZNPat44Ady2NcE_wvHF-n22HTpZa9qfSv9wuNIlfE/edit?usp=drivesdk" rel="noopener" target="_blank">Abrir material PBL</a></article><article class="material-card"><h3>Speaking Lab Year 2 · Material-fonte GSP</h3><p>Oralidade mensal transdisciplinar alinhada a English, Math, Science, Global Perspectives e PBL.</p><a href="https://docs.google.com/document/d/14qp-zdCs4hTd4Dlsr7LVs53dWAMA8UjXTIhqZktvgiQ/edit?usp=drivesdk" rel="noopener" target="_blank">Abrir material Speaking Lab</a></article></div></section>
+</main>
+<footer class="footer"><strong>Portal dos Professores Bilíngues · GSP</strong><span>Year 2 · Matriz anual · Projeto Bilíngue 2027</span></footer>
+<script>
+(function(){
+  function setMonth(card, open){
+    const top = card.querySelector('.month-top');
+    const toggle = card.querySelector('.month-toggle');
+    card.classList.toggle('is-collapsed', !open);
+    if (top) top.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (toggle) toggle.textContent = open ? 'Fechar' : 'Abrir';
+  }
+  function openMonthById(id){
+    const card = document.getElementById(id);
+    if (!card || !card.classList.contains('accordion-month')) return;
+    setMonth(card, true);
+    card.scrollIntoView({behavior:'smooth', block:'start'});
+  }
+  document.querySelectorAll('.accordion-month .month-top').forEach((top) => {
+    top.addEventListener('click', () => {
+      const card = top.closest('.accordion-month');
+      setMonth(card, card.classList.contains('is-collapsed'));
+    });
+    top.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        const card = top.closest('.accordion-month');
+        setMonth(card, card.classList.contains('is-collapsed'));
+      }
+    });
+  });
+  document.querySelectorAll('[data-open-month]').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      const id = link.getAttribute('data-open-month');
+      if (document.getElementById(id)) {
+        event.preventDefault();
+        openMonthById(id);
+        history.replaceState(null, '', '#' + id);
+      }
+    });
+  });
+  if (location.hash && document.querySelector(location.hash + '.accordion-month')) {
+    setTimeout(() => openMonthById(location.hash.slice(1)), 100);
+  }
+})();
+</script>
+</body>
+</html>
