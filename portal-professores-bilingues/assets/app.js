@@ -8,7 +8,7 @@ function el(tag, className, html) {
 }
 
 async function init() {
-  const response = await fetch('data.json?v=20260716-home-clean-matrix-cards');
+  const response = await fetch('data.json?v=20260716-home-segment-avatars');
   const data = await response.json();
 
   $('#portal-title').textContent = data.portal.title;
@@ -94,7 +94,14 @@ function renderSegments(segments) {
       </${tag}>`;
     }).join('');
 
+    const avatar = segment.avatar ? `
+      <figure class="segment-avatar" aria-hidden="true">
+        <img src="${segment.avatar}" alt="" loading="lazy">
+      </figure>
+    ` : '';
+
     const panel = el('article', 'segment-overview-card', `
+      ${avatar}
       <div class="segment-head compact">
         <div>
           <p class="eyebrow">${segment.name}</p>
