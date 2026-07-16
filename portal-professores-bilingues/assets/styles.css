@@ -822,3 +822,20 @@ ul { padding-left: 18px; color: var(--muted); }
   .report-link-group h4,
   .segment-overview-card .segment-head h3 { font-size: 23px; }
 }
+
+
+/* Final matrix card hierarchy: Drive is secondary, Level/Year buttons are primary */
+.segment-overview-card .drive-link,
+.segment-overview-card a.drive-link {
+  background: #f6f8ff !important;
+  color: var(--navy) !important;
+  border: 1px solid rgba(7,27,79,.14) !important;
+  box-shadow: none !important;
+  padding: 8px 12px;
+  font-size: 13px;
+}
+.segment-overview-card .drive-link:hover,
+.segment-overview-card a.drive-link:hover {
+  background: #eaf0ff !important;
+  color: var(--royal) !important;
+}
