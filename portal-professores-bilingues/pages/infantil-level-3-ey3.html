@@ -67,6 +67,27 @@
     .assessment-columns strong { display:inline-flex; color:var(--red); margin-bottom:8px; text-transform:uppercase; letter-spacing:.08em; font-size:12px; }
     .material-card a { display:inline-flex; margin-top:10px; color:var(--royal); font-weight:900; text-decoration:none; }
     .note-box { background:#fff8f2; border-left:6px solid var(--red); border-radius:22px; padding:22px; color:var(--ink); }
+
+
+    /* Heading hygiene: same compact title pattern used in Fundamental 1. */
+    .section-heading { max-width:100%; }
+    .section-heading.compact { max-width:100%; }
+    .section-heading h2,
+    #gerador-report-card .note-box h2 { max-width:100%; text-wrap:balance; line-height:1.04; font-size:clamp(26px,3.2vw,42px); }
+    .quarter-card h3,
+    .project-card h3,
+    .strategy-card h3,
+    .report-card h3,
+    .material-card h3,
+    .progression-group-title,
+    .report-calendar-title { text-wrap:balance; line-height:1.12; }
+    @media (max-width:640px) {
+      .section-heading h2,
+      #gerador-report-card .note-box h2 { font-size:clamp(24px,7vw,30px); letter-spacing:-.035em; }
+      .section-heading { margin-bottom:20px; }
+      .quarter-card h3,.project-card h3,.strategy-card h3,.report-card h3,.material-card h3 { font-size:19px; }
+      #gerador-report-card .note-box h2:before { width:34px; height:34px; border-radius:12px; }
+    }
     .school-report-group { margin-top:22px; }
     .report-calendar-title { margin:34px 0 18px; color:var(--navy); }
     .report-calendar-title:first-of-type { margin-top:18px; }
@@ -134,11 +155,11 @@
 </div>
 </section>
 <section class="section" id="rotina">
-<div class="section-heading"><p class="eyebrow">Rotina base</p><h2>Uma arquitetura de aula repetível</h2><p>A rotina se mantém para dar segurança; no Level 3, ela incorpora mais autonomia, word cards, explicação de escolhas, registro e compartilhamento.</p></div>
+<div class="section-heading"><p class="eyebrow">Rotina base</p><h2>Arquitetura de aula</h2><p>A rotina se mantém para dar segurança; no Level 3, ela incorpora mais autonomia, word cards, explicação de escolhas, registro e compartilhamento.</p></div>
 <div class="routine-strip"><article><h3>1. 👋 Hello routine</h3><p>Hello song, helper, calendar, numbers e combinados.</p></article><article><h3>2. 🎵 Present</h3><p>Song/video, flashcards, word cards, SB/WB e vocabulário novo.</p></article><article><h3>3. 🧩 Practise</h3><p>Language video, PP games, chants, matching e prática guiada.</p></article><article><h3>4. 📖 Story / Explore</h3><p>Story, Big Book, cross-curricular, Let’s Explore e atividade concreta.</p></article><article><h3>5. 🌟 Share</h3><p>Share, craft, portfolio evidence, goodbye e retomada curta.</p></article></div>
 </section>
 <section class="section" id="rubrica">
-<div class="section-heading"><p class="eyebrow">Rubrica pedagógica Level 3</p><h2>Critérios comuns de observação</h2><p>O foco é verificar compreensão, comunicação funcional, participação, autonomia, pré-letramento e prontidão para transição ao Fundamental 1.</p></div>
+<div class="section-heading"><p class="eyebrow">Rubrica pedagógica Level 3</p><h2>Critérios de observação</h2><p>O foco é verificar compreensão, comunicação funcional, participação, autonomia, pré-letramento e prontidão para transição ao Fundamental 1.</p></div>
 <table class="rubric-table"><thead><tr><th>Dimensão</th><th>Observar se a criança...</th><th>Exemplos de evidência</th></tr></thead><tbody>
 <tr><td>Listening &amp; responding</td><td>Compreende comandos, rotinas, histórias, perguntas simples, sequências e instruções com materiais.</td><td>Resposta a Can I...? / Do you like...? / What are you wearing? / Let’s..., ação motora, escolha ou registro.</td></tr>
 <tr><td>Vocabulary &amp; concepts</td><td>Reconhece e usa vocabulário de rotina diária, alimentação, brincadeiras, rosto, animais, roupas, escola, festas, playground e números.</td><td>Matching, sorting, word cards, escolha de imagem, produção visual, fala observada ou portfolio.</td></tr>
@@ -149,7 +170,7 @@
 </tbody></table>
 </section>
 <section class="section" id="progressao">
-<div class="section-heading"><p class="eyebrow">Progressão esperada</p><h2>Conteúdos e desenvolvimento por term</h2><p>Use a linha correspondente ao calendário avaliativo da escola. Cada term indica conteúdos/unidades, linguagem prioritária e evidências esperadas para acompanhar desenvolvimento, participação, autonomia e prontidão.</p></div>
+<div class="section-heading"><p class="eyebrow">Progressão esperada</p><h2>Conteúdos por term</h2><p>Use a linha correspondente ao calendário avaliativo da escola. Cada term indica conteúdos/unidades, linguagem prioritária e evidências esperadas para acompanhar desenvolvimento, participação, autonomia e prontidão.</p></div>
 <h3 class="progression-group-title">Escolas bimestrais · 4 terms</h3>
 <div class="bimester-grid">
 <article class="quarter-card"><h3>T1 · Rotina diária e alimentação</h3><p><strong>Conteúdos:</strong> Hello Again! + Units 1–2 · pedidos funcionais, rotina diária, hábitos, refeições e alimentos.</p><ul><li>Trabalhar go outside, have a drink/snack, daily routine, meals e food vocabulary.</li><li>Priorizar Can I...?, I get up/go to school, I have breakfast/lunch/dinner, Do you like...? e Can I have..., please?</li><li>Observar pedidos reais, sequência de rotina, preferências, autonomia e participação em jogos de vocabulário.</li></ul></article>
@@ -165,7 +186,7 @@
 </div>
 </section>
 <section class="section" id="projetos">
-<div class="section-heading"><p class="eyebrow">Projetos complementares</p><h2>Como ampliar sem fugir da matriz</h2><p>Projetos devem reforçar a entrega esperada, gerar evidências e criar experiências significativas, sem substituir a progressão Cambridge/GSP.</p></div>
+<div class="section-heading"><p class="eyebrow">Projetos complementares</p><h2>Projetos complementares</h2><p>Projetos devem reforçar a entrega esperada, gerar evidências e criar experiências significativas, sem substituir a progressão Cambridge/GSP.</p></div>
 <div class="project-grid"><article class="project-card"><h3>My day timeline</h3><p>Linha do tempo com rotina da criança e hábitos de cuidado.</p><ul><li>Integra daily routine, meals e sequencing.</li><li>Gera fala curta, desenho e ordenação.</li></ul></article><article class="project-card"><h3>Friends play stations</h3><p>Estações de brincadeira para convite, turn-taking e cooperação.</p><ul><li>Integra actions, play vocabulary e SEL.</li><li>Gera foto, checklist e frase funcional.</li></ul></article><article class="project-card"><h3>Playground map</h3><p>Mapa simples do playground com percurso, preferências e números.</p><ul><li>Integra playground vocabulary, movement e numeracy.</li><li>Gera mapa, apresentação e portfolio final.</li></ul></article></div>
 </section>
 <section class="section" id="estrategias">
@@ -173,7 +194,7 @@
 <div class="strategy-grid"><article class="strategy-card"><h3>🔁 Spiral review</h3><p>Retomar vocabulário anterior em música, cards, rotina, jogos e portfolio.</p></article><article class="strategy-card"><h3>🔤 Word cards com propósito</h3><p>Usar mini word cards para matching, memória, escolha e relação imagem-palavra.</p></article><article class="strategy-card"><h3>🗣️ Functional classroom English</h3><p>Modelar pedidos reais: Can I have...? Can I go...? Can you help?</p></article><article class="strategy-card"><h3>🧩 Sequencing</h3><p>Organizar rotina e histórias com first, then, after that, one more e one less.</p></article><article class="strategy-card"><h3>🤝 Collaboration</h3><p>Planejar tarefas que exijam help, share, clean up, make e present.</p></article><article class="strategy-card"><h3>📁 Portfolio evidence</h3><p>Selecionar evidências curtas, claras e ligadas aos objetivos de cada term.</p></article></div>
 </section>
 <section class="section" id="matriz">
-<div class="section-heading"><p class="eyebrow">Matriz anual</p><h2>Ensino Infantil - Level 3 mês a mês</h2><p>Use estes blocos como guia de planejamento, acompanhamento e registro. A progressão segue a sequência do Ready, Set, Grow! Level 3 e integra a extensão GSP/Let’s Explore EY3 para experiências, projetos e evidências.</p></div><div class="accordion-help"><strong>Navegação por mês:</strong> clique no mês para abrir ou fechar os campos da rubrica mensal. Todos os meses ficam compactos inicialmente para facilitar a consulta dos professores.</div>
+<div class="section-heading"><p class="eyebrow">Matriz anual</p><h2>Level 3 mês a mês</h2><p>Use estes blocos como guia de planejamento, acompanhamento e registro. A progressão segue a sequência do Ready, Set, Grow! Level 3 e integra a extensão GSP/Let’s Explore EY3 para experiências, projetos e evidências.</p></div><div class="accordion-help"><strong>Navegação por mês:</strong> clique no mês para abrir ou fechar os campos da rubrica mensal. Todos os meses ficam compactos inicialmente para facilitar a consulta dos professores.</div>
 <div class="month-list"><article class="month-card accordion-month is-collapsed" id="mes-1">
 <div aria-controls="mes-1-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Fevereiro</span><strong>Hello Again! · classroom autonomy and routines</strong><span class="month-toggle">Abrir</span></div>
 <p class="month-focus">Retomar a rotina bilíngue com mais autonomia, ampliando pedidos funcionais, combinados, participação e transições de aula.</p>
@@ -284,16 +305,16 @@
 </article></div>
 </section>
 <section class="section assessment-box" id="avaliacao-global">
-<div class="section-heading"><p class="eyebrow">Avaliação Global GSP</p><h2>Verificação Global Cambridge GSP</h2><p>A verificação deve ser formativa, observável e adequada à Educação Infantil: a criança demonstra compreensão e participação por ação, escolha, fala apoiada, produção, jogo ou interação.</p></div>
+<div class="section-heading"><p class="eyebrow">Avaliação Global GSP</p><h2>Verificação global GSP</h2><p>A verificação deve ser formativa, observável e adequada à Educação Infantil: a criança demonstra compreensão e participação por ação, escolha, fala apoiada, produção, jogo ou interação.</p></div>
 <div class="assessment-columns"><article><strong>Listening</strong><p>Compreende comandos, histórias, perguntas e sequências de rotina.</p></article><article><strong>Vocabulary</strong><p>Reconhece e usa repertório Level 3 em imagens, objetos, word cards e situações reais.</p></article><article><strong>Speaking</strong><p>Tenta frases funcionais para pedir, escolher, descrever e apresentar.</p></article><article><strong>Task</strong><p>Executa atividades com materiais, sequência, colaboração e autonomia.</p></article><article><strong>SEL</strong><p>Compartilha, espera a vez, pede ajuda, coopera e respeita diferenças.</p></article><article><strong>Early literacy</strong><p>Relaciona imagem-palavra, reconhece números e participa de registros simples.</p></article></div>
 </section>
 <section class="section" id="relatorio-base">
-<div class="section-heading"><p class="eyebrow">Base para relatório individualizado</p><h2>Como transformar evidências em comunicação</h2><p>Após as avaliações bimestrais ou trimestrais, os resultados poderão alimentar comentários individualizados e próximos passos de aprendizagem.</p></div>
+<div class="section-heading"><p class="eyebrow">Base para relatório individualizado</p><h2>Evidências em comunicação</h2><p>Após as avaliações bimestrais ou trimestrais, os resultados poderão alimentar comentários individualizados e próximos passos de aprendizagem.</p></div>
 <div class="report-grid"><article class="report-card"><h3>O aluno já demonstra</h3><p>Compreensão de comandos, vocabulário reconhecido, participação em histórias/jogos, tentativa de frases funcionais e autonomia crescente.</p></article><article class="report-card"><h3>Próximo passo</h3><p>Um frame, tema, word card, comportamento colaborativo ou habilidade de pré-letramento a fortalecer no próximo ciclo.</p></article><article class="report-card"><h3>Plano de apoio</h3><p>Retomada com flashcards, mini word cards, visual support, pequenos grupos, games, rotina e evidência de portfolio.</p></article></div>
 </section>
 <section class="section assessment-box" id="gerador-report-card">
 <div class="note-box">
-<h2>Gerador digital do Report Card · Kinder - Level 3</h2>
+<h2>Report Card · Level 3</h2>
 <p>Escolha a marca e o term correspondente de sua escola para preencher a ficha digital e gerar o report card familiar em PDF. Os geradores específicos do Level 3 já estão organizados por calendário escolar, com conteúdos, vocabulário e encaminhamentos alinhados ao term correspondente.</p>
 <h3 class="report-calendar-title">Escolas bimestrais · 4 terms</h3>
 <div class="school-report-group">
