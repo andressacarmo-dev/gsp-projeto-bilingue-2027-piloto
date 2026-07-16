@@ -146,16 +146,16 @@
       "name": "Fundamental 1",
       "tagline": "Primary · matrizes anuais por Year, com disciplinas integradas e evidências para report card único",
       "driveUrl": "https://drive.google.com/drive/folders/12x3R9OrhQIE7lOZt6JQwNriFSBSgdRRt?usp=sharing",
-      "status": "Years 1–2 em piloto · Year 2 criado para validação antes de avançar para Years 3/4",
+      "status": "Years 1–2 · Year 2 criado antes de avançar para Years 3/4",
       "disciplines": [
         {
           "name": "Year 1 - Matriz anual GSP",
-          "stage": "Piloto Year 1 ativo: Math, Science, English/Kid’s Box, Global Perspectives, PBL e Speaking Lab completos; PBL e Speaking Lab usam materiais-fonte autorais GSP.",
+          "stage": "Year 1 ativo: Math, Science, English/Kid’s Box, Global Perspectives, PBL e Speaking Lab completos; PBL e Speaking Lab usam materiais-fonte autorais GSP.",
           "localHtml": "pages/fundamental-1-year-1.html"
         },
         {
           "name": "Year 2 - Matriz anual GSP",
-          "stage": "Piloto Year 2 criado: matriz mensal com Math, Science, English/Kid’s Box, Global Perspectives, PBL e Speaking Lab; materiais-fonte autorais GSP para PBL/Speaking Lab publicados no Drive.",
+          "stage": "Year 2 criado: matriz mensal com Math, Science, English/Kid’s Box, Global Perspectives, PBL e Speaking Lab; materiais-fonte autorais GSP para PBL/Speaking Lab publicados no Drive.",
           "localHtml": "pages/fundamental-1-year-2.html"
         },
         {
@@ -226,7 +226,7 @@
     }
   ],
   "nextSteps": [
-    "Validar a arquitetura completa no piloto Level 1 / EY1.",
+    "Validar a arquitetura completa no Level 1 / EY1.",
     "Desenhar o instrumento da Avaliação Global GSP T1 para EY1.",
     "Criar o modelo de registro de evidências e matriz de resultados por turma.",
     "Criar banco inicial de comentários para relatório individualizado EY1.",
