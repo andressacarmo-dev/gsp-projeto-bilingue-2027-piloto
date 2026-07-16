@@ -601,6 +601,29 @@ ul { padding-left: 18px; color: var(--muted); }
 .report-link.disabled span { color: rgba(255,255,255,.58); }
 
 
+
+
+/* Segment avatars: growth journey from Infantil to Fundamental 2 */
+.segment-avatar {
+  margin: -4px -4px 18px;
+  height: 255px;
+  border-radius: 24px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #eef4ff, #ffffff);
+  border: 1px solid rgba(7,27,79,.10);
+  box-shadow: inset 0 -24px 40px rgba(7,27,79,.05);
+}
+.segment-avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+}
+.segment-overview-card:nth-child(1) .segment-avatar { background: linear-gradient(180deg, #fff3f5, #ffffff); }
+.segment-overview-card:nth-child(2) .segment-avatar { background: linear-gradient(180deg, #eef4ff, #ffffff); }
+.segment-overview-card:nth-child(3) .segment-avatar { background: linear-gradient(180deg, #fff8dc, #ffffff); }
+
 /* Report section aligned with Segment matrix cards */
 .report {
   display: block;
@@ -768,10 +791,13 @@ ul { padding-left: 18px; color: var(--muted); }
 
 @media (max-width: 1100px) {
   .segment-overview-grid, .report-link-groups { grid-template-columns: 1fr; }
+  .segment-avatar { height: 320px; }
   .level-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 @media (max-width: 640px) {
   .drive-link { width: fit-content; }
+
+  .segment-avatar { height: 300px; margin-bottom: 16px; }
   .nav-links a { padding: 8px 10px; font-size: 12px; }
   .hero-actions .btn { width: 100%; }
   .section-heading h2,
