@@ -935,3 +935,7 @@ ul { padding-left: 18px; color: var(--muted); }
   .segment-overview-card .segment-avatar,
   .segment-avatar { height: 164px !important; }
 }
+/* Approved final crop: full-width images with complete faces visible */
+.segment-overview-card:nth-child(1) .segment-avatar img { object-position: center 18% !important; }
+.segment-overview-card:nth-child(2) .segment-avatar img { object-position: center 0% !important; }
+.segment-overview-card:nth-child(3) .segment-avatar img { object-position: center 0% !important; }
