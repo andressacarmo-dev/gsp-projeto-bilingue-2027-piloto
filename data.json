@@ -16486,7 +16486,7 @@
           "source": "Manual comercial-pedagógico",
           "level": "h2",
           "title": "Ensino Médio — oferta objetiva",
-          "text": "Ensino Médio — oferta objetiva — São José dos Campos\nOferta disponível: Regular; English Class; High School como atividade extracurricular contratada à parte.\nOrientação: o Ensino Médio não faz parte da implementação do Projeto Bilíngue 2027. Para este segmento, a equipe deve apenas informar a oferta disponível e usar a nomenclatura oficial do playbook.\nRegular = ensino regular padrão, com aulas de inglês no currículo como as demais disciplinas.\nIntegrado = Regular + aulas de tutoria duas vezes por semana no contraturno.\nHigh School Integrado = Regular + Integrado + High School.\nQuando o playbook indicar High School como complemento, apresentar como atividade extracurricular contratada à parte."
+          "text": "Ensino Médio — oferta objetiva — São José dos Campos\nOferta disponível: Regular; English Class; Integrado; High School Integrado.\nOrientação: o Ensino Médio não faz parte da implementação do Projeto Bilíngue 2027. Para este segmento, a equipe deve apenas informar a oferta disponível e usar a nomenclatura oficial do playbook.\nRegular = ensino regular padrão, com aulas de inglês no currículo como as demais disciplinas.\nIntegrado = Regular + aulas de tutoria duas vezes por semana no contraturno.\nHigh School Integrado = Regular + Integrado + High School.\nEm São José dos Campos, usar High School Integrado no Ensino Médio; não apresentar como High School complementar avulso/contratado à parte para este segmento.\nObservação operacional: Disciplinas e horários específicos do Ensino Médio devem ser confirmados com as coordenações bilíngues/liderança antes de qualquer detalhamento."
         },
         {
           "source": "Manual comercial-pedagógico",
@@ -16792,7 +16792,7 @@
           "source": "Q&A definitivo",
           "level": "qa",
           "title": "Quais produtos existem em São José dos Campos?",
-          "text": "A oferta contempla diferentes formatos por segmento: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Integral Bilíngue e English Class; no Fundamental 2, Regular, Integral Bilíngue, English Class e High School como atividade extracurricular contratada à parte a partir do 8º ano; no Ensino Médio, Regular, English Class e High School como atividade extracurricular contratada à parte."
+          "text": "A oferta contempla diferentes formatos por segmento: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Integral Bilíngue e English Class; no Fundamental 2, Regular, Integral Bilíngue, English Class e High School como atividade extracurricular contratada à parte a partir do 8º ano; no Ensino Médio, Regular, English Class, Integrado e High School Integrado."
         },
         {
           "source": "Q&A definitivo",
@@ -17026,7 +17026,7 @@
           "source": "Q&A definitivo",
           "level": "qa",
           "title": "O SJC oferece High School Prep?",
-          "text": "No SJC, a nomenclatura segura é High School como atividade extracurricular contratada à parte a partir do 8º ano, em parceria com The Keystone School. Não se deve apresentar High School Prep como produto do SJC."
+          "text": "No SJC, para o Fundamental 2, a nomenclatura segura continua sendo High School como atividade extracurricular contratada à parte a partir do 8º ano, em parceria com The Keystone School. Para o Ensino Médio, a oferta atualizada do playbook é High School Integrado. Não se deve apresentar High School Prep como produto do SJC."
         },
         {
           "source": "Q&A definitivo",
@@ -17776,13 +17776,13 @@
           "source": "Grades horárias",
           "level": "page",
           "title": "grade sao jose dos campos 2027 modelo padronizado v1 — página 18",
-          "text": "SCHEDULE HIGH SCHOOL DUAL DIPLOMA ENSINO MÉDIO - SÃO JOSÉ DOS CAMPOS REGULAR + HIGH SCHOOL MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 7h às 7h50 Língua Portuguesa Física / Prática de Investigação Científica Projeto de Vida Química / Aprof. Reação em Cadeia Química / Aprof. Reação em Cadeia 7h50 às 8h40 Projeto de Vida Engenharia do corpo humano / Física Investigando as Reações da Vida / Arte Geografia / Mundo Contemporâneo Biologia / Aprof. XY da vida 8h40 às 9h Break Break Break Break Break 9h às 9h50 Projeto de Vida Língua Portuguesa Física / Prática de Investigação Científica Matemática Química / Aprof. Reação em Cadeia 9h50 às 10h40 Arte / Ateliê da Vida Língua Portuguesa Sociologia Educação Física Aprof. Causos da História 10h40 às 11h30 Língua Portuguesa História Filosofia Matemática Língua Portuguesa 11h30 às 11h50 Break Break Break Break Break 11h50 às 12h40 Matemática English English Matemática English 12h40 às 13h30 Matemática Língua Portuguesa Investigando as Reações da Vida / Arte Geografia / Mundo Contemporâneo Física / Prática de Investigação Científica 13h30 às 14h30 Lunch Lunch Lunch Lunch Lunch 14h40 - 15h30 High School High School High School High School High School 15h30 - 15h50 High School High School High School High School High School 15h50 - 16h40 High School High School High School High School High School 16h40 - 17h30 High School High School High School High School High School"
+          "text": "SCHEDULE HIGH SCHOOL INTEGRADO ENSINO MÉDIO - SÃO JOSÉ DOS CAMPOS REGULAR + INTEGRADO + HIGH SCHOOL MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 7h às 7h50 Língua Portuguesa Física / Prática de Investigação Científica Projeto de Vida Química / Aprof. Reação em Cadeia Química / Aprof. Reação em Cadeia 7h50 às 8h40 Projeto de Vida Engenharia do corpo humano / Física Investigando as Reações da Vida / Arte Geografia / Mundo Contemporâneo Biologia / Aprof. XY da vida 8h40 às 9h Break Break Break Break Break 9h às 9h50 Projeto de Vida Língua Portuguesa Física / Prática de Investigação Científica Matemática Química / Aprof. Reação em Cadeia 9h50 às 10h40 Arte / Ateliê da Vida Língua Portuguesa Sociologia Educação Física Aprof. Causos da História 10h40 às 11h30 Língua Portuguesa História Filosofia Matemática Língua Portuguesa 11h30 às 11h50 Break Break Break Break Break 11h50 às 12h40 Matemática English English Matemática English 12h40 às 13h30 Matemática Língua Portuguesa Investigando as Reações da Vida / Arte Geografia / Mundo Contemporâneo Física / Prática de Investigação Científica 13h30 às 14h30 Lunch Lunch Lunch Lunch Lunch 14h40 - 15h30 High School High School High School High School High School 15h30 - 15h50 High School High School High School High School High School 15h50 - 16h40 High School High School High School High School High School 16h40 - 17h30 High School High School High School High School High School"
         },
         {
           "source": "Grades horárias",
           "level": "snippet",
-          "title": "High School — grade sao jose dos campos 2027 modelo padronizado v1",
-          "text": "SCHEDULE HIGH SCHOOL DUAL DIPLOMA ENSINO MÉDIO - SÃO JOSÉ DOS CAMPOS REGULAR + HIGH SCHOOL MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 7h às 7h50 Língua Portuguesa Física / Prática de Investigação Científica Projeto de Vida Química / Aprof. Reação em Cadeia Química / Aprof. Reação em Cadeia 7h50 às 8h40 Projeto de Vida Engenharia do corpo humano / Física Investigando as Reações da Vida / Arte Geografia / Mundo Contemporâneo Biologia / Aprof. XY da vida 8h40 às 9h Break Break Break Break Break 9h às 9h50 Projeto de Vida Língua Portuguesa Física / Prática de Investigação Científica Matemática Química / Aprof. Reação em Cadeia 9h50 às 10h40 Arte / Ateliê da Vida Língua Portuguesa Sociologia Educação Física Aprof. Causos da História 10h40 às 11h30 Língua Portuguesa História Filosofia Matemática Língua Portuguesa 11h30 às 11h50 Break Break Break Break Break 11h50 às 12h40 Matemática English English Matemática English 12h40 às 13h30 Matemática Língua Portuguesa Investigando as Reações da Vida / Arte Geografia / Mundo Contemporâneo Física / Prática de Investigação Científica 13h30 às 14h30 Lunch Lunch"
+          "title": "High School Integrado — grade sao jose dos campos 2027 modelo padronizado v1",
+          "text": "SCHEDULE HIGH SCHOOL INTEGRADO ENSINO MÉDIO - SÃO JOSÉ DOS CAMPOS REGULAR + INTEGRADO + HIGH SCHOOL MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 7h às 7h50 Língua Portuguesa Física / Prática de Investigação Científica Projeto de Vida Química / Aprof. Reação em Cadeia Química / Aprof. Reação em Cadeia 7h50 às 8h40 Projeto de Vida Engenharia do corpo humano / Física Investigando as Reações da Vida / Arte Geografia / Mundo Contemporâneo Biologia / Aprof. XY da vida 8h40 às 9h Break Break Break Break Break 9h às 9h50 Projeto de Vida Língua Portuguesa Física / Prática de Investigação Científica Matemática Química / Aprof. Reação em Cadeia 9h50 às 10h40 Arte / Ateliê da Vida Língua Portuguesa Sociologia Educação Física Aprof. Causos da História 10h40 às 11h30 Língua Portuguesa História Filosofia Matemática Língua Portuguesa 11h30 às 11h50 Break Break Break Break Break 11h50 às 12h40 Matemática English English Matemática English 12h40 às 13h30 Matemática Língua Portuguesa Investigando as Reações da Vida / Arte Geografia / Mundo Contemporâneo Física / Prática de Investigação Científica 13h30 às 14h30 Lunch Lunch"
         }
       ],
       "faq": [
@@ -17790,7 +17790,7 @@
           "source": "Q&A definitivo",
           "level": "qa",
           "title": "Quais produtos existem no Ensino Médio em São José dos Campos?",
-          "text": "Ensino Médio — oferta objetiva — São José dos Campos\nOferta disponível: Regular; English Class; High School como atividade extracurricular contratada à parte.\nOrientação: o Ensino Médio não faz parte da implementação do Projeto Bilíngue 2027. Para este segmento, a equipe deve apenas informar a oferta disponível e usar a nomenclatura oficial do playbook.\nRegular = ensino regular padrão, com aulas de inglês no currículo como as demais disciplinas.\nIntegrado = Regular + aulas de tutoria duas vezes por semana no contraturno.\nHigh School Integrado = Regular + Integrado + High School.\nQuando o playbook indicar High School como complemento, apresentar como atividade extracurricular contratada à parte."
+          "text": "Ensino Médio — oferta objetiva — São José dos Campos\nOferta disponível: Regular; English Class; Integrado; High School Integrado.\nOrientação: o Ensino Médio não faz parte da implementação do Projeto Bilíngue 2027. Para este segmento, a equipe deve apenas informar a oferta disponível e usar a nomenclatura oficial do playbook.\nRegular = ensino regular padrão, com aulas de inglês no currículo como as demais disciplinas.\nIntegrado = Regular + aulas de tutoria duas vezes por semana no contraturno.\nHigh School Integrado = Regular + Integrado + High School.\nEm São José dos Campos, usar High School Integrado no Ensino Médio; não apresentar como High School complementar avulso/contratado à parte para este segmento.\nObservação operacional: Disciplinas e horários específicos do Ensino Médio devem ser confirmados com as coordenações bilíngues/liderança antes de qualquer detalhamento."
         },
         {
           "question": "Quais materiais Cambridge os alunos utilizam nesta unidade?",
@@ -17859,7 +17859,7 @@
         {
           "category": "3. Produtos e nomenclatura oficial",
           "question": "Quais produtos existem em São José dos Campos?",
-          "answer": "A oferta contempla diferentes formatos por segmento: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Integral Bilíngue e English Class; no Fundamental 2, Regular, Integral Bilíngue, English Class e High School como atividade extracurricular contratada à parte a partir do 8º ano; no Ensino Médio, Regular, English Class e High School como atividade extracurricular contratada à parte."
+          "answer": "A oferta contempla diferentes formatos por segmento: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Integral Bilíngue e English Class; no Fundamental 2, Regular, Integral Bilíngue, English Class e High School como atividade extracurricular contratada à parte a partir do 8º ano; no Ensino Médio, Regular, English Class, Integrado e High School Integrado."
         },
         {
           "category": "3. Produtos e nomenclatura oficial",
@@ -18054,12 +18054,12 @@
         {
           "category": "7. Fundamental 2 — dúvidas comuns",
           "question": "O SJC oferece High School Prep?",
-          "answer": "No SJC, a nomenclatura segura é High School como atividade extracurricular contratada à parte a partir do 8º ano, em parceria com The Keystone School. Não se deve apresentar High School Prep como produto do SJC."
+          "answer": "No SJC, para o Fundamental 2, a nomenclatura segura continua sendo High School como atividade extracurricular contratada à parte a partir do 8º ano, em parceria com The Keystone School. Para o Ensino Médio, a oferta atualizada do playbook é High School Integrado. Não se deve apresentar High School Prep como produto do SJC."
         },
         {
           "category": "7. Fundamental 2 — dúvidas comuns",
-          "question": "High School como atividade extracurricular é a mesma coisa que dupla diplomação?",
-          "answer": "No SJC, a nomenclatura segura é High School como atividade extracurricular contratada à parte a partir do 8º ano, em parceria com The Keystone School. Não se deve apresentar High School Prep como produto do SJC. Quando houver continuidade para dupla diplomação, explique a diferença entre início da trajetória e conclusão no Ensino Médio, sempre usando a nomenclatura oficial da unidade."
+          "question": "High School no Fundamental 2 e High School Integrado no Ensino Médio são a mesma coisa que dupla diplomação?",
+          "answer": "No SJC, para o Fundamental 2, a nomenclatura segura continua sendo High School como atividade extracurricular contratada à parte a partir do 8º ano, em parceria com The Keystone School. Para o Ensino Médio, a oferta atualizada do playbook é High School Integrado. Não se deve apresentar High School Prep como produto do SJC. Quando houver continuidade para dupla diplomação, explique a diferença entre início da trajetória e conclusão no Ensino Médio, sempre usando a nomenclatura oficial da unidade."
         },
         {
           "category": "7. Fundamental 2 — dúvidas comuns",
@@ -18174,7 +18174,7 @@
         {
           "category": "10. Cambridge e materiais didáticos",
           "question": "Quais materiais aparecem em São José dos Campos?",
-          "answer": "No Infantil, Ready, Set, Grow! a partir do G3. No Fundamental 1, Kid’s Box no Regular, além das experiências do Integral Bilíngue/Full Time e English Class. No Fundamental 2, Prepare!, experiências do Integral Bilíngue/Full Time, English Class e High School como atividade extracurricular contratada à parte. No Ensino Médio Regular, o material indicado é Sistema Objetivo."
+          "answer": "No Infantil, Ready, Set, Grow! a partir do G3. No Fundamental 1, Kid’s Box no Regular, além das experiências do Integral Bilíngue/Full Time e English Class. No Fundamental 2, Prepare!, experiências do Integral Bilíngue/Full Time, English Class e High School como atividade extracurricular contratada à parte. No Ensino Médio, informar objetivamente as ofertas Regular, English Class, Integrado e High School Integrado; materiais, disciplinas e horários específicos devem ser confirmados com a liderança/coordenações bilíngues antes de detalhamento."
         },
         {
           "category": "10. Cambridge e materiais didáticos",
@@ -18444,7 +18444,7 @@
         {
           "category": "15. Dúvidas comerciais e de matrícula",
           "question": "Qual produto devo indicar para uma família indecisa?",
-          "answer": "Depende do segmento, rotina, orçamento, objetivo e perfil do aluno. A equipe deve apresentar a escada de valor da própria unidade, sem copiar produtos de outras escolas: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Integral Bilíngue e English Class; no Fundamental 2, Regular, Integral Bilíngue, English Class e High School como atividade extracurricular contratada à parte a partir do 8º ano; no Ensino Médio, Regular, English Class e High School como atividade extracurricular contratada à parte."
+          "answer": "Depende do segmento, rotina, orçamento, objetivo e perfil do aluno. A equipe deve apresentar a escada de valor da própria unidade, sem copiar produtos de outras escolas: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Integral Bilíngue e English Class; no Fundamental 2, Regular, Integral Bilíngue, English Class e High School como atividade extracurricular contratada à parte a partir do 8º ano; no Ensino Médio, Regular, English Class, Integrado e High School Integrado."
         },
         {
           "category": "15. Dúvidas comerciais e de matrícula",
@@ -33982,5 +33982,5 @@
     }
   ],
   "updatedAt": "2026-07-22",
-  "cacheVersion": "20260722-em-ofertas-v2"
+  "cacheVersion": "20260722-sjc-em-integrado-v1"
 }
