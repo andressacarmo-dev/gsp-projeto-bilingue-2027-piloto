@@ -75,9 +75,9 @@
     "portal-professores-bilingues/pages/report-card-santo-anjo-year1-term2.html",
     "portal-professores-bilingues/pages/report-card-santo-anjo-year1-term3.html"
   ],
-  "published_at_utc": "2026-07-23T14:13:16Z",
+  "published_at_utc": "2026-07-23T14:24:00Z",
   "note": "Publicação direcionada dos 68 geradores de report card com layout padronizado em 3 páginas: página 1 capa/legenda, página 2 Dear family/What we explored/Observed areas, página 3 narrative/checklist/next steps/assinaturas.",
-  "last_change": "Corrige imagens quebradas dos report cards Objetivo Year 2 apontando para personagens Kid’s Box publicados.",
-  "last_trigger": "2026-07-23-objetivo-year2-images-fix",
+  "last_change": "Padroniza o nome sugerido Cecilia no preview dos report cards Objetivo Year 2.",
+  "last_trigger": "2026-07-23-objetivo-year2-preview-cecilia",
   "last_objetivo_year2_report_cards": "terms-1-4"
 }
