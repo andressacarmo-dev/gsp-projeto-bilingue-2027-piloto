@@ -75,9 +75,10 @@
     "portal-professores-bilingues/pages/report-card-santo-anjo-year1-term2.html",
     "portal-professores-bilingues/pages/report-card-santo-anjo-year1-term3.html"
   ],
-  "published_at_utc": "2026-07-23T14:24:00Z",
+  "published_at_utc": "2026-07-23T14:29:44Z",
   "note": "Publicação direcionada dos 68 geradores de report card com layout padronizado em 3 páginas: página 1 capa/legenda, página 2 Dear family/What we explored/Observed areas, página 3 narrative/checklist/next steps/assinaturas.",
-  "last_change": "Padroniza o nome sugerido Cecilia no preview dos report cards Objetivo Year 2.",
-  "last_trigger": "2026-07-23-objetivo-year2-preview-cecilia",
-  "last_objetivo_year2_report_cards": "terms-1-4"
+  "last_change": "Replica geradores de report card Year 2 para CCPA, CJA, Santo Anjo e Marupiara; mantém Objetivo e ativa todos os botões na matriz Year 2.",
+  "last_trigger": "2026-07-23-year2-report-cards-all-schools",
+  "last_objetivo_year2_report_cards": "terms-1-4",
+  "last_year2_report_cards": "Objetivo/CCPA 4 terms; CJA/Santo Anjo/Marupiara 3 terms"
 }
