@@ -2,7 +2,7 @@
   "meta": {
     "title": "Portal Projeto Bilíngue 2027 — GSP",
     "notice": "Material interno de apoio às equipes — não compartilhar externamente.",
-    "updatedAt": "2026-07-22",
+    "updatedAt": "2026-07-23",
     "telegramUrl": "https://t.me/projetobilingue2027",
     "telegramLabel": "Entrar no grupo do Projeto Bilíngue 2027"
   },
@@ -23406,7 +23406,7 @@
       "name": "Barigui",
       "city": "Curitiba",
       "status": "ativo",
-      "summary": "Central de consulta da unidade Barigui — materiais comerciais e pedagógicos para a oferta bilíngue 2027, com atenção ao Fundamental 1, experiências em inglês e trajetória Hudson/High School.",
+      "summary": "Central de consulta da unidade Barigui — produtos oficiais 2027 no Fundamental 1, Fundamental 2 e Ensino Médio, conforme playbook atualizado, com Regular, Regular Bilíngue, Integral, Integral Bilíngue, Integral Bilíngue Plus, English Class e trajetória High School conforme o segmento.",
       "materials": [
         {
           "label": "Grade horária — Barigui",
@@ -23438,6 +23438,10 @@
         {
           "label": "Materiais Cambridge oficiais",
           "query": "materiais Cambridge oficiais livros por segmento produto"
+        },
+        {
+          "label": "Produtos oficiais — playbook atualizado",
+          "query": "F1: Regular · Regular Bilíngue · Integral · Integral Bilíngue · Integral Bilíngue Plus · English Class. F2: Regular · Regular Bilíngue · Integral · Integral Bilíngue · Integral Bilíngue Plus · English Class · High School Complemento. EM: Regular · English Class · High School Integrado."
         },
         {
           "label": "Comece por aqui",
@@ -23497,10 +23501,16 @@
           }
         },
         {
+          "source": "Playbook de Implementação — Comparativo de Produtos Escola",
+          "level": "official",
+          "title": "Produtos oficiais por segmento — playbook atualizado",
+          "text": "Produtos oficiais — Barigui, conforme Playbook de Implementação, aba Comparativo de Produtos Escola. Fundamental 1: Regular; Regular Bilíngue; Integral; Integral Bilíngue; Integral Bilíngue Plus; English Class. Fundamental 2: Regular; Regular Bilíngue; Integral; Integral Bilíngue; Integral Bilíngue Plus; English Class; High School Complemento. Ensino Médio: Regular; English Class; High School Integrado. Educação Infantil: sem oferta registrada para Barigui no comparativo. Use esta lista como fonte de referência para atendimento; antes de responder uma família, confirme sempre a série e o segmento."
+        },
+        {
           "source": "Manual comercial-pedagógico",
           "level": "h2",
           "title": "Ensino Médio — oferta objetiva",
-          "text": "Ensino Médio — oferta objetiva — Barigui\nOferta disponível: Regular; English Class; High School como atividade extracurricular contratada à parte.\nOrientação: o Ensino Médio não faz parte da implementação do Projeto Bilíngue 2027. Para este segmento, a equipe deve apenas informar a oferta disponível e usar a nomenclatura oficial do playbook.\nRegular = ensino regular padrão, com aulas de inglês no currículo como as demais disciplinas.\nIntegrado = Regular + aulas de tutoria duas vezes por semana no contraturno.\nHigh School Integrado = Regular + Integrado + High School.\nQuando o playbook indicar High School como complemento, apresentar como atividade extracurricular contratada à parte."
+          "text": "Ensino Médio — oferta objetiva — Barigui. Oferta disponível conforme playbook atualizado: Regular; English Class; High School Integrado. Orientação: o Ensino Médio entra no portal apenas para orientar equipes sobre oferta e nomenclatura da unidade; não tratar como escopo de implementação bilíngue. Use a nomenclatura High School Integrado para Barigui no Ensino Médio."
         },
         {
           "source": "Grades horárias",
@@ -33981,6 +33991,6 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-22",
-  "cacheVersion": "20260722-f2-pbl-nomenclatura-v1"
+  "updatedAt": "2026-07-23",
+  "cacheVersion": "20260723-barigui-em-high-school-integrado-v1"
 }
