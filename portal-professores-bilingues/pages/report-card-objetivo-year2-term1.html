@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Objetivo · Report Card Generator · Year 2 Term 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--turq:#16afd0;--turq2:#0b8fbd;--deep:#075f8e;--navy:#143d73;--yellow:#ffe04b;--gold:#f8bf18;--pink:#e62d57;--red:#d82646;--blue:#4f6fba;--paper:#fffef8;--cream:#fff4c4;--ink:#173150;--muted:#5d6978;--line:#dceaf0}*{box-sizing:border-box}body{margin:0;background:#e8f8fb;font-family:Lexend,Arial,sans-serif;color:var(--ink);font-size:12.8px;line-height:1.42}.builder{max-width:1180px;margin:0 auto 28px;padding:24px}.builder-hero{background:#fff;border:1px solid var(--line);border-radius:28px;padding:22px;box-shadow:0 14px 32px rgba(7,95,142,.12)}.builder-hero h1{margin:0 0 6px;color:var(--deep);font-size:28px}.builder-hero p{margin:0;color:var(--muted)}.form-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.field{display:grid;gap:6px}.field label{font-weight:900;color:var(--deep);font-size:12px}.field input,.field select,.field textarea{font:inherit;border:1px solid var(--line);border-radius:14px;padding:11px;background:#fff}.field textarea{min-height:78px;resize:vertical}.wide{grid-column:span 3}.checks{display:grid;grid-template-columns:1fr 220px;gap:10px;margin-top:14px}.check-row{display:contents}.check-row label{background:#fff;border:1px solid var(--line);border-radius:14px;padding:11px;font-weight:700}.check-row select{font:inherit;border:1px solid var(--line);border-radius:14px;padding:11px;background:#fff}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.btn{border:0;border-radius:999px;padding:12px 18px;font-weight:900;cursor:pointer}.btn.primary{background:var(--pink);color:#fff}.btn.secondary{background:var(--deep);color:#fff}.btn.ghost{background:#fff;color:var(--deep);border:1px solid var(--line)}.hint{margin-top:12px;color:var(--muted);font-size:12px}.page{width:960px;margin:0 auto 30px;background:var(--paper);box-shadow:0 20px 70px rgba(7,95,142,.18);overflow:hidden}.cover{position:relative;min-height:585px;padding:24px 40px 28px;background:radial-gradient(circle at 88% 12%,rgba(255,255,255,.5) 0 80px,transparent 82px),radial-gradient(circle at 8% 18%,rgba(255,255,255,.44) 0 48px,transparent 50px),linear-gradient(160deg,#12b8d7 0%,#0aa6ce 45%,#087fb4 100%);border-bottom:12px solid var(--yellow);overflow:hidden}.cover:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.11) 0 18%,transparent 18% 34%,rgba(255,255,255,.09) 34% 52%,transparent 52%);clip-path:polygon(0 0,100% 0,100% 70%,0 100%)}.cover:after{content:"";position:absolute;left:28px;right:28px;top:22px;bottom:22px;border:4px dashed rgba(255,255,255,.32);border-radius:36px;pointer-events:none}.topbar{display:grid;grid-template-columns:170px 1fr;gap:18px;align-items:start;position:relative;z-index:2}.school-logo{height:84px;background:#fff;border:3px solid #fff;border-radius:28px;padding:12px;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 0 rgba(255,224,75,.55),0 16px 28px rgba(7,95,142,.12)}.school-logo img{max-width:100%;max-height:100%;object-fit:contain}.seal-panel{background:#fff;border:3px solid #fff;border-radius:28px;padding:12px 14px;box-shadow:0 10px 0 rgba(255,224,75,.55),0 16px 28px rgba(7,95,142,.12)}.seal-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:center}.seal{height:82px;width:100%;object-fit:contain;object-position:center;background:#fff;border:1px solid #edf1f8;border-radius:18px;padding:8px}.seal-educational{padding:3px}.title-area{position:relative;z-index:2;margin:34px auto 0;max-width:730px;text-align:center}.label{display:inline-flex;background:var(--pink);color:#fff;border-radius:999px;padding:9px 17px;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.08em;box-shadow:0 6px 0 rgba(20,61,115,.28)}.title-area h1{font-size:42px;line-height:1.08;margin:14px auto 10px;color:#fff;background:rgba(20,61,115,.16);border-radius:34px;padding:16px 22px;text-shadow:0 2px 0 rgba(20,61,115,.18);font-weight:900}.title-area h1 span{display:block}.title-area p{font-size:13.5px;color:#173150;margin:0 auto;max-width:670px;background:rgba(255,255,255,.82);border-radius:22px;padding:10px 14px}.meta{display:grid;grid-template-columns:1.35fr 1fr 1fr 1fr;gap:8px;margin:20px auto 0;position:relative;z-index:2;max-width:740px}.meta div{background:#fff;border:2px solid #fff;border-radius:20px;padding:10px;box-shadow:0 8px 0 rgba(255,224,75,.30),0 12px 22px rgba(7,95,142,.08)}.meta strong{display:block;color:var(--pink);font-size:10px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}.meta span{font-weight:800;color:var(--deep)}.character-stage{position:relative;z-index:2;margin:28px auto 0;width:650px;background:rgba(255,255,255,.88);border:4px solid #fff;border-radius:34px;box-shadow:0 10px 0 rgba(230,45,87,.18),0 16px 34px rgba(7,95,142,.13);padding:14px;text-align:center}.character-stage strong{display:block;color:var(--pink);font-size:12px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}.character-stage span{display:block;color:var(--muted);font-size:12px}.character-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:10px auto}.char-frame{height:145px;border-radius:24px;background:linear-gradient(180deg,#fff,#e9fbff);border:2px solid #c8f5ff;display:flex;align-items:center;justify-content:center;overflow:hidden}.char-frame img{width:96%;height:96%;object-fit:contain;filter:drop-shadow(0 5px 4px rgba(7,95,142,.18))}.star{position:absolute;color:var(--yellow);font-size:46px;text-shadow:0 3px 0 rgba(20,61,115,.22);z-index:1}.st1{left:78px;top:150px}.st2{right:92px;top:284px;font-size:34px}.st3{left:206px;bottom:48px;font-size:30px}.dots{position:absolute;right:58px;top:98px;width:120px;height:92px;background:radial-gradient(circle,var(--yellow) 2px,transparent 3px);background-size:18px 18px;opacity:.48;z-index:1}.content{padding:30px 40px 34px;background:linear-gradient(180deg,#fffef8,#eafaff)}.section{margin:0 0 11px}.section-head{margin-bottom:14px}.section-head h2{margin:0;color:var(--deep);font-size:21px}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}.grid-6{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.term-highlights .grid-6{grid-template-columns:repeat(3,1fr)}.card,.letter,.family-tip{background:#fff;border:2px solid #dceaf0;border-radius:28px;padding:14px;box-shadow:0 8px 0 rgba(22,175,208,.10),0 14px 28px rgba(7,95,142,.06);break-inside:avoid}.card h3{margin:0 0 6px;color:var(--deep);font-size:14px}.card p,.letter p,.family-tip p{margin:0;color:var(--muted);font-size:12.35px;line-height:1.42}.letter{position:relative;overflow:hidden;padding:16px;background:linear-gradient(180deg,#fff,#f7fdff)}.letter:before{content:"";position:absolute;left:0;top:0;bottom:0;width:12px;background:linear-gradient(var(--turq),var(--yellow),var(--pink),var(--blue))}.letter p{margin:0 0 7px;font-size:12.2px;line-height:1.38}.level{display:inline-flex;border-radius:999px;padding:6px 10px;margin-bottom:10px;font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}.emerging{background:#fff1a8;color:#8a6500}.developing{background:#dff4ff;color:#075f8e}.consolidating{background:#e9f2ff;color:#284f9b}.stage-icon{width:72px;height:72px;margin-bottom:10px;border-radius:22px;display:flex;align-items:center;justify-content:center;background:#eafaff;box-shadow:inset 0 0 0 2px rgba(255,255,255,.72),0 8px 16px rgba(7,95,142,.08);font-size:38px}.legend .card{min-height:185px;padding:22px 18px}.observed-section .grid-2{gap:16px}.observed-section .card{padding:18px 18px;border-radius:24px;min-height:128px}.observed-section .card h3{font-size:15px;margin-bottom:7px}.observed-section .card p{font-size:11.8px;line-height:1.42}.narrative-section{margin-top:42px;margin-bottom:20px}.narrative-section .section-head h2{font-size:25px}.narrative-section .letter{padding:24px 28px}.table{width:100%;border-collapse:separate;border-spacing:0;background:#fff;border:2px solid #dceaf0;border-radius:24px;overflow:hidden;box-shadow:0 12px 28px rgba(7,95,142,.06)}.table th{background:var(--deep);color:#fff;text-align:left;padding:9px;font-size:11px}.table td{border-top:1px solid var(--line);padding:12px 14px;vertical-align:top;font-size:12.35px}.pill{display:inline-flex;border-radius:999px;padding:7px 12px;font-size:10.5px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}.family-tip{background:linear-gradient(135deg,#e9fbff,#fff7cf);padding:14px;margin-bottom:72px}.family-tip h2{margin:0 0 5px;color:var(--deep);font-size:20px}.decor{display:flex;gap:7px;margin-top:7px}.dot{width:14px;height:14px;border-radius:50%;background:var(--turq)}.dot:nth-child(2){background:var(--yellow)}.dot:nth-child(3){background:var(--pink)}.dot:nth-child(4){background:var(--blue)}.signatures{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:112px;margin-bottom:18px}.sig{border-top:1px solid #bfc9dc;padding-top:18px;color:var(--muted);font-size:13.5px;text-align:center}.footer{display:flex;justify-content:space-between;color:var(--muted);font-size:10px;border-top:1px solid var(--line);padding:10px 40px 14px;background:#fff;margin-top:10px}.char-mini{float:right;width:84px;height:84px;margin:0 0 8px 12px;border-radius:22px;background:#fff;border:1px solid var(--line);box-shadow:0 8px 18px rgba(7,95,142,.08);padding:5px;object-fit:contain}.page-start{break-before:page;page-break-before:always}.keep-together{break-inside:avoid;page-break-inside:avoid}.dear-section{margin-top:58px;margin-bottom:26px}.dear-section .section-head h2{font-size:27px}.dear-section .letter{min-height:300px;padding:25px 30px}.dear-section .letter p{font-size:13.2px;line-height:1.55;margin-bottom:12px}.dear-section .char-mini{width:100px;height:100px;margin:0 0 12px 18px;border-radius:26px;padding:6px}.subject-tag{display:inline-flex;border-radius:999px;background:#eafaff;color:var(--deep);padding:5px 8px;font-weight:900;font-size:9.5px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:7px}.subject-card{min-height:132px}.subject-card:nth-child(2n){background:#fffdf1}.subject-card:nth-child(3n){background:#fff7fb}
+/* Year 2 print balancing: keeps the approved 3-page distribution with denser Year 2 text */
+.dear-section{margin-top:34px!important;margin-bottom:18px!important}
+.dear-section .letter{min-height:315px!important;padding:24px 28px!important}
+.dear-section .letter p{font-size:12.85px!important;line-height:1.48!important;margin-bottom:10px!important}
+.dear-section .char-mini{width:82px!important;height:82px!important;margin:0 0 10px 14px!important}
+.explored-section .grid-2{gap:9px!important}
+.explored-section .card{min-height:112px!important;padding:12px 11px!important}
+.explored-section .card h3{font-size:11.4px!important;line-height:1.12!important;margin-bottom:4px!important}
+.explored-section .card p{font-size:9.55px!important;line-height:1.18!important}
+.explored-section .family-tip{padding:13px!important;margin-top:10px!important;margin-bottom:8px!important}
+.explored-section .family-tip h2{font-size:18px!important;margin-bottom:4px!important}
+.explored-section .family-tip p{font-size:10.7px!important;line-height:1.28!important}
+.observed-section .grid-2{gap:10px!important}
+.observed-section .card{min-height:112px!important;padding:13px 14px!important}
+.observed-section .card h3{font-size:13px!important;margin-bottom:5px!important}
+.observed-section .card p{font-size:10.3px!important;line-height:1.26!important}
+.observed-section .level{margin-bottom:6px!important;padding:5px 9px!important;font-size:9.3px!important}
+.narrative-section{margin-top:42px!important;margin-bottom:18px!important}
+.narrative-section .letter{padding:22px 26px!important}
+.narrative-section .letter p{font-size:12.35px!important;line-height:1.42!important;margin-bottom:9px!important}
+.table th{padding:11px 12px!important;font-size:11.2px!important}
+.table td{padding:10px 12px!important;font-size:11.5px!important}
+/* Print/PDF fidelity patch: preserve the on-screen report card geometry */
+@media print {
+  html, body {
+    width: 960px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+  }
+  *, *::before, *::after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  .builder { display: none !important; }
+  .page {
+    width: 960px !important;
+    max-width: 960px !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+    background: var(--paper) !important;
+  }
+  .cover,
+  .content,
+  .footer,
+  .card,
+  .letter,
+  .family-tip,
+  .school-logo,
+  .seal-panel,
+  .character-stage,
+  .char-frame,
+  .stage-icon,
+  .meta div {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  .section,
+  .card,
+  .letter,
+  .family-tip,
+  .keep-together,
+  .school-report-group,
+  .brand-report-card {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+  .section-head,
+  .section-head h2,
+  h2, h3, h4 {
+    break-after: avoid !important;
+    page-break-after: avoid !important;
+  }
+  .narrative-section,
+  .observed-section,
+  .dear-section,
+  .explored-section,
+  .legend {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+  .narrative-section .letter,
+  .dear-section .letter {
+    orphans: 3;
+    widows: 3;
+  }
+  .page-start {
+    break-before: page !important;
+    page-break-before: always !important;
+  }
+  @page { size: 960px 1358px; margin: 0; }
+}
+</style>
+</head>
+<body>
+<section class="builder">
+  <div class="builder-hero">
+    <h1>Gerador de Report Card · Objetivo · Year 2 · Term 1</h1>
+    <p>Preencha os dados do aluno e marque os indicadores por disciplina. O report card será atualizado automaticamente. Para salvar, clique em <strong>Salvar / Imprimir PDF</strong> e escolha “Salvar como PDF”.</p>
+    <div class="form-grid">
+      <div class="field"><label for="studentName">Nome completo do aluno</label><input id="studentName" value="Nome do aluno"></div>
+      <div class="field"><label for="className">Turma</label><input id="className" value="Year 2"></div>
+      <div class="field"><label for="schoolName">Escola / unidade</label><input id="schoolName" value="Objetivo"></div>
+      <div class="field"><label for="teacherTitle">Tratamento</label><select id="teacherTitle"><option>Miss</option><option>Mister</option><option>Teacher</option></select></div>
+      <div class="field"><label for="teacherName">Nome do professor</label><input id="teacherName" value=""></div>
+      <div class="field"><label for="termName">Período</label><input id="termName" value="Term 1" readonly></div>
+      <div class="wide"><h2 style="margin:8px 0 0;color:var(--deep);font-size:18px">Indicadores observados · Term 1</h2></div>
+    </div>
+    <div class="checks" id="checks"></div>
+    <div class="form-grid"><div class="field wide"><label for="optionalNote">Observação complementar do professor (opcional)</label><textarea id="optionalNote" placeholder="Use apenas se quiser acrescentar uma observação específica do aluno."></textarea></div></div>
+    <div class="actions"><button class="btn primary" id="updateBtn" type="button">Atualizar preview</button><button class="btn secondary" id="printBtn" type="button">Salvar / Imprimir PDF</button><button class="btn ghost" id="resetBtn" type="button">Limpar observação opcional</button></div>
+    <p class="hint"><strong>Antes de salvar:</strong> selecione “Salvar como PDF”, marque “gráficos/fundos da página” e desmarque “cabeçalhos e rodapés”.<br>Sugestão de nome do arquivo: <strong id="fileNameHint">Objetivo_Year2_Term1_Cecilia-Franco_Report-Card.pdf</strong></p>
+  </div>
+</section>
+<div class="page" id="reportCard">
+<section class="cover"><div class="star st1">★</div><div class="star st2">★</div><div class="star st3">★</div><div class="dots"></div>
+  <div class="topbar"><div class="school-logo"><img src="../assets/logos/objetivo-logo-public-ref.png" alt="Objetivo"></div><div class="seal-panel"><div class="seal-row"><img class="seal seal-educational" src="../assets/logos/cambridge-educational-partner-flat-cropped-large.png" alt="Cambridge Educational Partner"><img class="seal" src="../assets/logos/cambridge-preparation-centre.png" alt="Cambridge Preparation Centre"></div></div></div>
+  <div class="title-area"><span class="label">Fundamental 1 · Year 2</span><h1><span>Bilingual Learning</span><span>Report Card</span></h1><p>Term 1 — um retrato cuidadoso da adaptação acadêmica bilíngue, participação, conteúdo, oralidade e desenvolvimento transdisciplinar.</p></div>
+  <div class="meta"><div><strong>Student</strong><span data-field="studentName">Nome do aluno</span></div><div><strong>Class</strong><span data-field="className">Year 2</span></div><div><strong>School</strong><span data-field="schoolName">Objetivo</span></div><div><strong>Teacher</strong><span data-field="teacherFull">Miss </span></div></div>
+  <aside class="character-stage"><strong>Learning in Year 2</strong><span>English · Science · Math · Global Perspectives · PBL · Speaking Lab</span><div class="character-row"><div class="char-frame"><img src="../assets/characters/kids-box-year2/kids-box-character-blonde-girl-transparent.png" alt="Year 2 blonde girl character"></div><div class="char-frame"><img src="../assets/characters/kids-box-year2/kids-box-character-girl-small-transparent.png" alt="Year 2 girl character"></div><div class="char-frame"><img src="../assets/characters/kids-box-year2/kids-box-character-boy-transparent.png" alt="Year 2 boy character"></div></div><span>Term 1 · February + March</span></aside>
+</section>
+<main class="content">
+  <section class="section legend keep-together"><div class="section-head"><h2>Como ler este report</h2></div><div class="grid-3"><article class="card"><div class="stage-icon">🌱</div><span class="level emerging">Emerging</span><h3>Começando a demonstrar</h3><p>O aluno inicia a habilidade com apoio, modelagem, repetição, recursos visuais e mediação direta.</p></article><article class="card"><div class="stage-icon">🧩</div><span class="level developing">Developing</span><h3>Em desenvolvimento</h3><p>O aluno demonstra a habilidade em situações conhecidas, com apoio visual, sentence frames ou orientação do professor.</p></article><article class="card"><div class="stage-icon">⭐</div><span class="level consolidating">Consolidating</span><h3>Consistente</h3><p>O aluno demonstra a habilidade com mais frequência, confiança e autonomia dentro das propostas do Term 1.</p></article></div></section>
+  <section class="section keep-together dear-section"><div class="section-head"><h2>Dear family,</h2></div><div class="letter"><img class="char-mini" src="../assets/characters/kids-box-year2/kids-box-character-mouse-transparent.png" alt="Year 2 character"><p id="dearP1"></p><p id="dearP2"></p><p id="introSummary"></p></div></section>
+  <section class="section keep-together term-highlights"><div class="section-head"><h2>What we explored this term</h2></div><div class="grid-6" id="termHighlights"></div><div class="family-tip" style="margin-top:12px;margin-bottom:10px"><h2>Como as famílias podem apoiar em casa</h2><p id="homeConnectionText"></p></div></section>
+  <section class="section keep-together observed-section"><div class="section-head"><h2>Observed areas</h2></div><div class="grid-2" id="observedCards"></div></section>
+  <section class="section page-start narrative-section"><div class="section-head"><h2>Term 1 learning narrative</h2></div><div class="letter" id="narrativeText"></div></section>
+  <section class="section"><div class="section-head"><h2>Checklist registered by teacher</h2></div><table class="table"><thead><tr><th>Observed area</th><th>Selected development stage</th></tr></thead><tbody id="checklistBody"></tbody></table></section>
+  <section class="section"><div class="family-tip"><img class="char-mini" src="../assets/characters/kids-box-year2/kids-box-characters-group-transparent.png" alt="Year 2 characters"><h2>Next steps</h2><p id="nextStepsText"></p><p id="optionalNoteOut" style="margin-top:8px;display:none"></p><div class="decor"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div></div><div class="signatures"><div class="sig">Teacher signature</div><div class="sig">School coordination</div></div></section>
+</main><footer class="footer"><span>Projeto Bilíngue 2027 · <span data-field="schoolName">Objetivo</span></span><span>Year 2 · Fundamental 1 · Term 1</span></footer></div>
+<script>
+const skills=[
+ {id:'english',subject:'English',label:'Understands and uses Year 2 classroom language, Kid’s Box vocabulary and sentence frames to participate in routines and short interactions',title:'English',sample:'Developing'},
+ {id:'science',subject:'Science',label:'Observes habitats, materials, forces, light/electricity and living things, using evidence to describe simple investigations',title:'Science',sample:'Developing'},
+ {id:'math',subject:'Math',label:'Works with numbers to 100, geometry, measures, operations, money, time, fractions and data with support',title:'Math',sample:'Consolidating'},
+ {id:'gp',subject:'Global Perspectives',label:'Asks questions, uses simple sources, compares information and connects learning to food, health, community, safety and responsibility',title:'Global Perspectives',sample:'Developing'},
+ {id:'pbl',subject:'PBL',label:'Participates in Year 2 projects, producing maps, guides, posters, portfolios or exhibition pieces with collaboration and evidence',title:'PBL',sample:'Developing'},
+ {id:'speaking',subject:'Speaking Lab',label:'Uses sentence frames to explain choices, describe observations, share results and present short learning products',title:'Speaking Lab',sample:'Emerging'},
+ {id:'autonomy',subject:'General development',label:'Follows bilingual routines, organizes materials, collaborates, revises attempts and builds confidence as a Year 2 learner',title:'Autonomy and participation',sample:'Developing'}
+];
+const stages={Emerging:{cls:'emerging',display:'Emerging'},Developing:{cls:'developing',display:'Developing'},Consolidating:{cls:'consolidating',display:'Consolidating'}};
+const textBank={
+ english:{Emerging:'{name} começa a reconhecer classroom language, vocabulário do Kid’s Box e perguntas simples do Year 2 com apoio visual, repetição e modelagem.',Developing:'{name} compreende comandos e perguntas em situações conhecidas, usa vocabulário de rotina, escola, preferências e temas do term, e participa de interações curtas com sentence frames.',Consolidating:'{name} usa classroom language e repertório do Year 2 com mais segurança, respondendo, perguntando e conectando vocabulário a tarefas acadêmicas e projetos.'},
+ science:{Emerging:'{name} começa a observar fenômenos, habitats, materiais ou seres vivos com apoio concreto, registrando por desenho, escolha ou fala curta.',Developing:'{name} observa, classifica, compara e registra evidências em investigações de Science, usando vocabulário científico simples com apoio visual.',Consolidating:'{name} aplica conceitos científicos do term com mais autonomia, explica observações e usa evidências simples para justificar ideias.'},
+ math:{Emerging:'{name} começa a resolver tarefas de Math com manipulativos, modelos visuais e mediação, especialmente em contagem, comparação, medidas ou dados.',Developing:'{name} representa, compara, calcula ou organiza dados em situações conhecidas, explicando estratégias com apoio de imagens, manipulativos e sentence frames.',Consolidating:'{name} demonstra compreensão matemática consistente para o Year 2, usando estratégias, registros e linguagem de comparação/medida com mais independência.'},
+ gp:{Emerging:'{name} começa a formular perguntas, compartilhar experiências e reconhecer informações com apoio do professor e de fontes adequadas à idade.',Developing:'{name} faz conexões entre temas globais e sua realidade, coleta ou compara informações simples e participa de conversas sobre cuidado, comunidade e responsabilidade.',Consolidating:'{name} comunica ideias de Global Perspectives com clareza crescente, usando perguntas, evidências e comparações para explicar o que aprendeu.'},
+ pbl:{Emerging:'{name} começa a participar dos projetos do Year 2 contribuindo por escolha, desenho, registro, colagem, fala curta ou apoio em grupo.',Developing:'{name} participa de projetos integrados, contribuindo com pesquisa, registro, produto visual, colaboração e apresentação guiada.',Consolidating:'{name} contribui com segurança para projetos transdisciplinares, conectando conteúdo, linguagem, evidências e comunicação de aprendizagem.'},
+ speaking:{Emerging:'{name} começa a tentar falar em inglês por repetição, palavra isolada ou frase curta com bastante apoio visual e oral.',Developing:'{name} participa de Speaking Lab usando sentence frames para descrever, comparar, explicar escolhas, compartilhar resultados ou apresentar produtos curtos.',Consolidating:'{name} demonstra confiança crescente para falar em inglês em pair talk, apresentações breves e explicações acadêmicas simples.'},
+ autonomy:{Emerging:'{name} está construindo segurança para seguir rotinas, organizar materiais, escutar colegas, esperar a vez e aceitar apoio.',Developing:'{name} segue rotinas conhecidas, colabora em pares/grupos, revisa tentativas e demonstra autonomia progressiva como estudante bilíngue do Year 2.',Consolidating:'{name} participa com segurança, cuida dos materiais, colabora, revisa e demonstra autonomia consistente nas propostas do term.'}
+};
+const termConfig={term:'Term 1',introStrong:'rotina acadêmica, classroom language, school objects, numbers to 100, geometry, measures, habitats, forces, food sources and waste',next:'No próximo term, continuaremos ampliando o repertório de {name} com toys, family, pets, face, materials, operations, money, time, healthy routines and new child advice, fortalecendo descrição, coleta de dados, justificativa e cuidado com o outro.',dear1:'Neste primeiro term, {name} iniciou sua jornada no Year 2 do programa bilíngue com foco em rotina acadêmica, repertório de sala, primeiras pesquisas, números até 100, geometria, medidas, habitats, forças, origem dos alimentos e desperdício.',dear2:'O objetivo deste report card é compartilhar como {name} vem construindo conteúdo, linguagem, investigação, participação e autonomia a partir das experiências de Fevereiro e Março.',homeConnection:'Em casa, a família pode apoiar conversando sobre objetos e rotinas da escola, contando e comparando números até 100, observando alimentos e sua origem, reconhecendo habitats próximos e valorizando tentativas de explicar ideias em inglês com calma.',highlights:[['English','greetings, school objects, classroom language, What’s your name?, Where is...?, I can see...'],['Math','numbers to 100, tens, ones, compare, order, estimate, shapes, measures'],['Science','habitat, local environment, plant, animal, rock, force, push, pull, observe'],['Global Perspectives','food, source, question, find out, farm, shop, waste, care'],['PBL','food journey, school routines, evidence, map, poster, create, share'],['Speaking Lab','I counted..., It lives in..., It comes from..., I think... because...']]};
+function firstName(){return (document.getElementById('studentName').value.trim().split(/\s+/)[0]||'O aluno')}
+function fullName(){return document.getElementById('studentName').value.trim()||'Nome do aluno'}
+function stageFor(id){return document.getElementById('stage_'+id).value}
+function renderChecks(){document.getElementById('checks').innerHTML=skills.map(s=>`<div class="check-row"><label for="stage_${s.id}"><strong>${s.subject}</strong> · ${s.label}</label><select id="stage_${s.id}"><option>Emerging</option><option>Developing</option><option>Consolidating</option></select></div>`).join('');skills.forEach(s=>document.getElementById('stage_'+s.id).value=s.sample)}
+function apply(){const name=firstName(), student=fullName(), teacher=(document.getElementById('teacherTitle').value+' '+document.getElementById('teacherName').value.trim()).trim();document.querySelectorAll('[data-field="studentName"]').forEach(e=>e.textContent=student);document.querySelectorAll('[data-field="className"]').forEach(e=>e.textContent=document.getElementById('className').value||'Year 2');document.querySelectorAll('[data-field="schoolName"]').forEach(e=>e.textContent=document.getElementById('schoolName').value||'Objetivo');document.querySelectorAll('[data-field="teacherFull"]').forEach(e=>e.textContent=teacher||'Miss/Mister');
+ document.getElementById('dearP1').textContent=termConfig.dear1.replaceAll('{name}',name);document.getElementById('dearP2').textContent=termConfig.dear2.replaceAll('{name}',name);
+ const values=skills.map(s=>stageFor(s.id));const cons=values.filter(v=>v==='Consolidating').length;document.getElementById('introSummary').textContent= cons>=3 ? `De forma geral, ${name} apresentou participação consistente nas propostas do ${termConfig.term}, especialmente em ${termConfig.introStrong}. Seguiremos ampliando repertório e oportunidades de comunicação para que a aprendizagem continue acontecendo com naturalidade.` : `De forma geral, ${name} está construindo gradualmente segurança e familiaridade com as propostas do ${termConfig.term}, especialmente em ${termConfig.introStrong}. Seguiremos oferecendo oportunidades frequentes, visuais e estruturadas para fortalecer participação, compreensão e repertório em inglês.`;
+ document.getElementById('termHighlights').innerHTML=termConfig.highlights.map(([title,words])=>`<article class="card subject-card"><span class="subject-tag">${title}</span><h3>${title}</h3><p>${words}</p></article>`).join('');document.getElementById('homeConnectionText').textContent=termConfig.homeConnection;
+ document.getElementById('observedCards').innerHTML=skills.map(s=>{const st=stageFor(s.id),meta=stages[st];return `<article class="card"><span class="level ${meta.cls}">${meta.display}</span><h3>${s.title}</h3><p>${textBank[s.id][st].replaceAll('{name}',name)}</p></article>`}).join('');
+ document.getElementById('checklistBody').innerHTML=skills.map(s=>{const st=stageFor(s.id),meta=stages[st];return `<tr><td><strong>${s.subject}</strong><br>${s.label}</td><td><span class="pill ${meta.cls}">${meta.display}</span></td></tr>`}).join('');
+ document.getElementById('narrativeText').innerHTML=`<p>Ao longo do ${termConfig.term}, ${name} iniciou sua jornada no Year 2 participando de experiências que conectaram rotina acadêmica, linguagem de sala, investigação, pensamento matemático, observação científica e comunicação oral. Fevereiro e Março foram importantes para consolidar segurança na rotina bilíngue e ampliar o repertório esperado para uma criança de 7–8 anos.</p><p>Nesse primeiro ciclo, ${name} foi convidado(a) a observar habitats, reconhecer origem dos alimentos, comparar números, registrar medidas, explorar forças e participar de pequenas pesquisas com apoio. As propostas partiram de situações próximas — escola, objetos, alimentos, ambiente local e convivência — para que o conteúdo ganhasse sentido e pudesse ser comunicado com recursos visuais, registros e sentence frames.</p><p>A leitura deste report valoriza progresso em conteúdo, linguagem, investigação e autonomia. Para o Year 2, o foco é avançar da participação inicial para explicações simples, registros mais organizados e uso mais intencional do inglês em tarefas acadêmicas.</p>`;
+ document.getElementById('nextStepsText').textContent=termConfig.next.replaceAll('{name}',name);const note=document.getElementById('optionalNote').value.trim();const out=document.getElementById('optionalNoteOut');out.style.display=note?'block':'none';out.innerHTML=note?`<strong>Observação complementar:</strong> ${note}`:'';document.getElementById('fileNameHint').textContent=`${(document.getElementById('schoolName').value||'Objetivo').replaceAll(' ','-')}_Year2_${termConfig.term.replaceAll(' ','')}_${student.replaceAll(' ','-')}_Report-Card.pdf`}
+renderChecks();apply();document.getElementById('updateBtn').onclick=apply;document.getElementById('printBtn').onclick=()=>{apply();window.print()};document.getElementById('resetBtn').onclick=()=>{document.getElementById('optionalNote').value='';apply()};document.querySelectorAll('input,select,textarea').forEach(el=>el.addEventListener('input',apply));
+</script>
+</body>
+</html>
