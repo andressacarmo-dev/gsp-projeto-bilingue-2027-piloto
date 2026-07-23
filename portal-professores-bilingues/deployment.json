@@ -75,6 +75,9 @@
     "portal-professores-bilingues/pages/report-card-santo-anjo-year1-term2.html",
     "portal-professores-bilingues/pages/report-card-santo-anjo-year1-term3.html"
   ],
-  "published_at_utc": "2026-07-17T17:00:10Z",
-  "note": "Publicação direcionada dos 68 geradores de report card com layout padronizado em 3 páginas: página 1 capa/legenda, página 2 Dear family/What we explored/Observed areas, página 3 narrative/checklist/next steps/assinaturas."
+  "published_at_utc": "2026-07-23T14:08:59Z",
+  "note": "Publicação direcionada dos 68 geradores de report card com layout padronizado em 3 páginas: página 1 capa/legenda, página 2 Dear family/What we explored/Observed areas, página 3 narrative/checklist/next steps/assinaturas.",
+  "last_change": "Adiciona piloto de geradores de report card do Objetivo Year 2 Terms 1-4 e ativa botões na página Year 2.",
+  "last_trigger": "2026-07-23-objetivo-year2-report-cards-piloto",
+  "last_objetivo_year2_report_cards": "terms-1-4"
 }
