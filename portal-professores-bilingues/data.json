@@ -1,9 +1,10 @@
 {
   "portal": {
     "title": "Portal dos Professores Bilíngues",
-    "subtitle": "Sistema pedagógico GSP para organizar entregas esperadas, progressão de aprendizagem, avaliação global, evidências e relatórios individualizados.",
-    "updatedAt": "2026-07-16",
-    "purpose": "Referência pedagógica para consultar matrizes anuais, rubricas mensais, estratégias docentes, avaliação global e report cards por segmento."
+    "subtitle": "Sistema pedagógico GSP para organizar entregas esperadas, progressão de aprendizagem, avaliação trimestral, evidências e relatórios individualizados.",
+    "status": "MVP pedagógico — arquitetura GSP sobre materiais Cambridge",
+    "updatedAt": "2026-07-07",
+    "purpose": "Um portal para orientar o que precisa ser entregue pedagogicamente em cada nível, mês e trimestre, sem duplicar o portal Cambridge: marcos de desenvolvimento, estratégias docentes, avaliações padronizadas e relatórios de aprendizagem."
   },
   "quickStats": [
     {
@@ -27,38 +28,32 @@
     {
       "step": "1",
       "title": "Entrega esperada",
-      "description": "Define o que o aluno deve aprender, viver e demonstrar em cada nível, mês e unidade.",
-      "emoji": "🎯"
+      "description": "Define o que o aluno deve aprender, viver e demonstrar em cada nível, mês e unidade."
     },
     {
       "step": "2",
       "title": "Materiais Cambridge",
-      "description": "Indica quais unidades, páginas e recursos Cambridge devem apoiar a entrega, sem duplicar conteúdo proprietário.",
-      "emoji": "📚"
+      "description": "Indica quais unidades, páginas e recursos Cambridge devem apoiar a entrega, sem duplicar conteúdo proprietário."
     },
     {
       "step": "3",
       "title": "Estratégias docentes",
-      "description": "Orienta positive reinforcement, scaffolding, classroom language, trabalho por habilidade e adaptação pedagógica.",
-      "emoji": "🧩"
+      "description": "Orienta positive reinforcement, scaffolding, classroom language, trabalho por habilidade e adaptação pedagógica."
     },
     {
       "step": "4",
       "title": "Evidências",
-      "description": "Mostra o que observar e registrar para comprovar participação, linguagem, desenvolvimento e aprendizagem.",
-      "emoji": "📝"
+      "description": "Mostra o que observar e registrar para comprovar participação, linguagem, desenvolvimento e aprendizagem."
     },
     {
       "step": "5",
       "title": "Avaliação Global GSP",
-      "description": "Padroniza uma verificação global Cambridge-like aplicada em todas as escolas para medir progresso e lacunas.",
-      "emoji": "🌐"
+      "description": "Padroniza uma verificação trimestral Cambridge-like aplicada em todas as escolas para medir progresso e lacunas."
     },
     {
       "step": "6",
       "title": "Planos de ação e relatórios",
-      "description": "Transforma dados em apoio ao professor, plano de intervenção e relatório individualizado para famílias.",
-      "emoji": "📊"
+      "description": "Transforma dados em apoio ao professor, plano de intervenção e relatório individualizado para famílias."
     }
   ],
   "sections": [
@@ -67,6 +62,7 @@
       "title": "Entregas pedagógicas esperadas",
       "eyebrow": "O que precisa acontecer",
       "description": "A camada GSP define marcos de aprendizagem e desenvolvimento por nível, unidade, mês e trimestre.",
+      "status": "Piloto iniciado no Level 1 / EY1",
       "items": [
         "Objetivos do mês",
         "Marcos de desenvolvimento",
@@ -77,13 +73,14 @@
     {
       "id": "progressao",
       "title": "Progressão de aprendizagem",
-      "eyebrow": "Do mês ao term",
+      "eyebrow": "Do mês ao trimestre",
       "description": "Organiza a evolução esperada dos alunos para permitir acompanhamento entre turmas e escolas.",
+      "status": "Estrutura trimestral em criação",
       "items": [
-        "Progressão bimestral e trimestral",
+        "Progressão T1, T2 e T3",
         "Indicadores de autonomia",
         "Crescimento em listening/speaking",
-        "Social-emotional learning e investigação"
+        "Desenvolvimento socioemocional e investigativo"
       ]
     },
     {
@@ -91,6 +88,7 @@
       "title": "Integração com Cambridge",
       "eyebrow": "Sem duplicar recursos",
       "description": "O portal GSP orienta o que buscar no portal Cambridge: livro digital, planejamento por página, flashcards, songs, stories, worksheets e recursos digitais.",
+      "status": "Modelo de referência, não repositório duplicado",
       "items": [
         "Unidade/páginas sugeridas",
         "Recursos Cambridge a consultar",
@@ -99,10 +97,25 @@
       ]
     },
     {
+      "id": "avaliacao",
+      "title": "Avaliação Global GSP",
+      "eyebrow": "Cambridge-like",
+      "description": "Avaliações trimestrais padronizadas para identificar progresso, lacunas e necessidades de apoio docente.",
+      "status": "Arquitetura pronta para desenho dos instrumentos",
+      "items": [
+        "Listening/responding",
+        "Vocabulary recognition",
+        "Speaking attempt",
+        "Task performance",
+        "Socioemotional engagement"
+      ]
+    },
+    {
       "id": "estrategias",
       "title": "Estratégias pedagógicas",
       "eyebrow": "Teacher support",
       "description": "Apoio prático para professores aplicarem os materiais com qualidade, consistência e segurança.",
+      "status": "Banco de estratégias em construção",
       "items": [
         "Positive reinforcement",
         "Scaffolding",
@@ -116,6 +129,7 @@
       "title": "Relatórios individualizados",
       "eyebrow": "Learning reports",
       "description": "Base futura para transformar dados da avaliação e evidências em comentários individualizados de aprendizagem.",
+      "status": "Camada futura conectada à avaliação GSP",
       "items": [
         "Indicadores por aluno",
         "Banco de comentários",
@@ -127,30 +141,75 @@
   "segments": [
     {
       "id": "infantil",
-      "name": "Infantil",
-      "tagline": "MATRIZES ANUAIS POR SÉRIE",
+      "name": "Educação Infantil",
+      "tagline": "Early Years · entregas esperadas, progressão, avaliação global e estratégias pedagógicas integradas aos materiais Cambridge",
       "driveUrl": "https://drive.google.com/drive/folders/1X7_omFKM7hn4lIIgS3OWW7ol1rL_rFn7?usp=sharing",
+      "status": "Piloto pedagógico em Level 1 / EY1 com matriz anual, progressão e avaliação trimestral",
       "disciplines": [
         {
-          "name": "Level 1",
-          "localHtml": "pages/infantil-level-1-ey1.html"
+          "name": "Level 1 / EY1 — Matriz anual GSP",
+          "stage": "Piloto completo: entrega esperada mês a mês, progressão trimestral, avaliação global GSP, projetos complementares, estratégias pedagógicas e base para relatório individualizado.",
+          "localHtml": "pages/infantil-level-1-ey1.html",
+          "resources": [
+            {
+              "label": "Abrir matriz anual Level 1 / EY1",
+              "type": "HTML do portal",
+              "url": "pages/infantil-level-1-ey1.html"
+            },
+            {
+              "label": "Ready, Set, Grow! Level 1 — recursos oficiais",
+              "type": "Portal/Drive Cambridge",
+              "url": "https://drive.google.com/drive/folders/1wt6jFAnBjrKWW-EN_CfRQQueR6rtZalk"
+            },
+            {
+              "label": "Let’s Explore EY1 — matriz pedagógica",
+              "type": "Matriz de apoio",
+              "url": "https://drive.google.com/drive/folders/1BHawv8epW3R9Cx8F5b5QRHmu_mNz7S38"
+            }
+          ]
         },
         {
-          "name": "Level 2",
-          "localHtml": "pages/infantil-level-2-ey2.html"
+          "name": "Level 2 / EY2 — Próximo piloto",
+          "stage": "A replicar após validação do formato EY1: progressão, avaliação trimestral e estratégias para 4–5 anos.",
+          "localHtml": "",
+          "resources": [
+            {
+              "label": "Ready, Set, Grow! Level 2 — recursos oficiais",
+              "type": "Portal/Drive Cambridge",
+              "url": "https://drive.google.com/drive/folders/18LntRyXTb-iro4N1K4etg0IzZ2C7FdHP"
+            },
+            {
+              "label": "Let’s Explore EY2 — matriz pedagógica",
+              "type": "Matriz de apoio",
+              "url": "https://drive.google.com/drive/folders/1BHawv8epW3R9Cx8F5b5QRHmu_mNz7S38"
+            }
+          ]
         },
         {
-          "name": "Level 3",
-          "localHtml": "pages/infantil-level-3-ey3.html"
+          "name": "Level 3 / EY3 — Próximo piloto",
+          "stage": "A replicar após validação do formato EY1: transição para Fundamental 1, autonomia, registros e comunicação de aprendizagem.",
+          "localHtml": "",
+          "resources": [
+            {
+              "label": "Ready, Set, Grow! Level 3 — recursos oficiais",
+              "type": "Portal/Drive Cambridge",
+              "url": "https://drive.google.com/drive/folders/1EB7_cpkKxKEeSyVzHxKhVUX6lVk50l0y"
+            },
+            {
+              "label": "Let’s Explore EY3 — matriz pedagógica",
+              "type": "Matriz de apoio",
+              "url": "https://drive.google.com/drive/folders/1BHawv8epW3R9Cx8F5b5QRHmu_mNz7S38"
+            }
+          ]
         }
-      ],
-      "avatar": "assets/avatars/avatar-infantil-growth.jpg"
+      ]
     },
     {
       "id": "fund1",
       "name": "Fundamental 1",
       "tagline": "MATRIZES ANUAIS POR SÉRIE",
       "driveUrl": "https://drive.google.com/drive/folders/12x3R9OrhQIE7lOZt6JQwNriFSBSgdRRt?usp=sharing",
+      "status": "Maior acervo inicial encontrado",
       "disciplines": [
         {
           "name": "Year 1",
@@ -161,7 +220,8 @@
           "localHtml": "pages/fundamental-1-year-2.html"
         },
         {
-          "name": "Year 3"
+          "name": "Year 3",
+          "localHtml": "pages/fundamental-1-year-3.html"
         },
         {
           "name": "Year 4"
@@ -169,29 +229,41 @@
         {
           "name": "Year 5"
         }
-      ],
-      "avatar": "assets/avatars/avatar-fundamental-1-growth.jpg"
+      ]
     },
     {
       "id": "fund2",
       "name": "Fundamental 2",
-      "tagline": "MATRIZES ANUAIS POR SÉRIE",
+      "tagline": "Lower Secondary · aprofundamento, autonomia, projetos e pensamento global",
       "driveUrl": "https://drive.google.com/drive/folders/1djepYCvh-aaZCALMHemv2Jb5MPnG2s-D?usp=sharing",
+      "status": "Acervo inicial disponível",
       "disciplines": [
         {
-          "name": "Year 6"
+          "name": "Global Perspectives",
+          "stage": "Matrizes Year 6–9 existentes em HTML",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/global-perspectives-fundamental-2/global-perspectives-year-6-matriz-professores.html"
         },
         {
-          "name": "Year 7"
+          "name": "Financial Literacy",
+          "stage": "Matrizes Year 6–9 existentes em HTML",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/fund2-integrated-disciplines/financial-literacy-year-6-matriz-professores.html"
         },
         {
-          "name": "Year 8"
+          "name": "STEAM",
+          "stage": "Matrizes Year 6–9 existentes em HTML",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/fund2-integrated-disciplines/steam-year-6-matriz-professores.html"
         },
         {
-          "name": "Year 9"
+          "name": "History & Geography",
+          "stage": "Matrizes Year 6–9 existentes em HTML",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/history-geography-fundamental-2/history-geography-year-6-matriz-professores.html"
+        },
+        {
+          "name": "Speaking Lab",
+          "stage": "Matrizes Year 6–9 existentes em HTML",
+          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/fund2-integrated-disciplines/speaking-lab-year-6-matriz-professores.html"
         }
-      ],
-      "avatar": "assets/avatars/avatar-fundamental-2-growth.jpg"
+      ]
     }
   ],
   "assessment": [
@@ -213,11 +285,11 @@
     }
   ],
   "nextSteps": [
-    "Revisar continuamente as matrizes anuais publicadas.",
+    "Validar a arquitetura completa no piloto Level 1 / EY1.",
     "Desenhar o instrumento da Avaliação Global GSP T1 para EY1.",
     "Criar o modelo de registro de evidências e matriz de resultados por turma.",
     "Criar banco inicial de comentários para relatório individualizado EY1.",
-    "Manter o mesmo padrão visual e pedagógico nos próximos níveis."
+    "Replicar o padrão aprovado para Level 2 / EY2 e Level 3 / EY3."
   ],
   "startHere": {
     "title": "Comece aqui",
@@ -264,7 +336,7 @@
     },
     {
       "title": "Registrar e medir progresso",
-      "description": "Coletar evidências, aplicar avaliação global e transformar dados em plano de ação e relatório."
+      "description": "Coletar evidências, aplicar avaliação trimestral e transformar dados em plano de ação e relatório."
     }
   ]
 }
