@@ -18632,23 +18632,23 @@
           "query": "Cambridge exames CEFR simulado"
         },
         {
-          "label": "Ensino Médio e Integrado",
-          "query": "Ensino Médio Integrado Regular English Class São Vicente"
+          "label": "High School e futuro internacional",
+          "query": "High School intercâmbio counseling"
         },
         {
           "label": "Grades horárias",
-          "query": "Grade horária horários Infantil Fundamental Integral Semi-integral English Class Integrado São Vicente"
+          "query": "Grade horária horários Infantil Fundamental Integral Regular Bilíngue High School Prep"
         }
       ],
       "content": [
         {
-          "title": "Materiais e referências oficiais — São Vicente",
-          "type": "official-products-materials",
-          "source": "COMPARATIVO PRODUTOS ESCOLA + MATERIAIS CAMBRIDGE UTILIZADOS PELOS ALUNOS EM CADA UNIDADE",
-          "text": "Materiais e referências oficiais — São Vicente\nFonte: aba COMPARATIVO PRODUTOS ESCOLA do playbook e tabela oficial de materiais Cambridge.\nEducação Infantil:\n- REGULAR (G1 a G4): Ready, Set, Grow\n- INTEGRAL BILÍNGUE: Ready, Set, Grow\n- ENGLISH CLASS: Greenman\nFundamental 1:\n- REGULAR: Kid’s Box\n- INTEGRAL BILÍNGUE: Kid’s Box\n- ENGLISH CLASS: Power Up\nFundamental 2:\n- REGULAR: Prepare\n- SEMI-INTEGRAL BILÍNGUE: Prepare e Think\n- ENGLISH CLASS: Think\nEnsino Médio:\n- REGULAR: Sistema Objetivo — sem material Cambridge indicado na tabela oficial\n- ENGLISH CLASS: Think\n- INTEGRADO: Regular + tutoria no contraturno — sem material Cambridge específico indicado\nOrientação de uso: conferir sempre segmento, série/ano e produto oficial antes de citar material, carga horária ou complemento. Em São Vicente, não apresentar Regular Bilíngue, High School Prep, High School Complemento ou High School Integrado como produtos da unidade.",
+          "title": "Materiais Cambridge oficiais — fonte atualizada",
+          "type": "official-cambridge-materials",
+          "source": "MATERIAIS CAMBRIDGE UTILIZADOS PELOS ALUNOS EM CADA UNIDADE",
+          "text": "Materiais e referências oficiais — São Vicente\nFonte oficial: arquivo “Materiais Cambridge utilizados pelos alunos em cada unidade, em cada segmento e em cada produto”.\nEducação Infantil:\n- REGULAR: Ready, Set, Grow\n- INTEGRAL BILÍNGUE: Ready, Set, Grow\n- ENGLISH CLASS: Greenman\nFundamental 1:\n- REGULAR: Kid’s Box\n- INTEGRAL BILÍNGUE: Kid’s Box\n- ENGLISH CLASS: Power Up\nFundamental 2:\n- REGULAR: Prepare\n- SEMI-INTEGRAL BILÍNGUE: Prepare e Think\n- ENGLISH CLASS: Think\nEnsino Médio:\n- ENGLISH CLASS: Think\nUse esta seção como referência prioritária quando houver dúvida sobre livro/material por produto.",
           "segments": {
             "Educação Infantil": {
-              "REGULAR (G1 a G4)": "Ready, Set, Grow",
+              "REGULAR": "Ready, Set, Grow",
               "INTEGRAL BILÍNGUE": "Ready, Set, Grow",
               "ENGLISH CLASS": "Greenman"
             },
@@ -18663,9 +18663,7 @@
               "ENGLISH CLASS": "Think"
             },
             "Ensino Médio": {
-              "REGULAR": "Sistema Objetivo — sem material Cambridge indicado na tabela oficial",
-              "ENGLISH CLASS": "Think",
-              "INTEGRADO": "Regular + tutoria no contraturno — sem material Cambridge específico indicado"
+              "ENGLISH CLASS": "Think"
             }
           }
         },
@@ -20157,11 +20155,11 @@
           "source": "Q&A definitivo",
           "level": "qa",
           "title": "Quais produtos existem no Ensino Médio em São Vicente?",
-          "text": "Ensino Médio — oferta objetiva — São Vicente\nOferta disponível: Regular; English Class; Integrado.\nOrientação: o Ensino Médio não faz parte da implementação do Projeto Bilíngue 2027. Para este segmento, a equipe deve apenas informar a oferta disponível e usar a nomenclatura oficial do playbook.\nRegular = ensino regular padrão, com aulas de inglês no currículo como as demais disciplinas.\nIntegrado = Regular + aulas de tutoria duas vezes por semana no contraturno.\nHigh School Integrado = Regular + Integrado + High School.\nQuando o playbook indicar High School como complemento, apresentar como atividade extracurricular contratada à parte.\nNesta unidade, não apresentar High School no Ensino Médio se não constar no playbook oficial."
+          "text": "Ensino Médio — oferta objetiva — São Vicente\nOferta disponível: Regular; English Class; Integrado.\nOrientação: o Ensino Médio não faz parte da implementação do Projeto Bilíngue 2027. Para este segmento, a equipe deve apenas informar a oferta disponível e usar a nomenclatura oficial do playbook.\nRegular = ensino regular padrão, com aulas de inglês no currículo como as demais disciplinas.\nEnglish Class = intensificação do inglês com material Think.\nIntegrado = Regular + aulas de tutoria duas vezes por semana no contraturno.\nHigh School Integrado e High School Complemento não constam como produtos de São Vicente no playbook oficial. Nesta unidade, não apresentar High School no Ensino Médio."
         },
         {
           "question": "Quais materiais Cambridge os alunos utilizam nesta unidade?",
-          "answer": "Materiais Cambridge oficiais — São Vicente\nFonte oficial: arquivo “Materiais Cambridge utilizados pelos alunos em cada unidade, em cada segmento e em cada produto”.\nEducação Infantil:\n- REGULAR: Ready, Set, Grow\n- INTEGRAL BILÍNGUE: Ready, Set, Grow\n- ENGLISH CLASS: Greenman\nFundamental 1:\n- REGULAR: Kid’s Box\n- INTEGRAL BILÍNGUE: Kid’s Box\n- ENGLISH CLASS: Power Up\nFundamental 2:\n- REGULAR: Prepare\n- SEMI-INTEGRAL BILÍNGUE: Prepare e Think\n- ENGLISH CLASS: Think\nEnsino Médio:\n- ENGLISH CLASS: Think\nUse esta seção como referência prioritária quando houver dúvida sobre livro/material por produto."
+          "answer": "Materiais e referências oficiais — São Vicente\nFonte oficial: arquivo “Materiais Cambridge utilizados pelos alunos em cada unidade, em cada segmento e em cada produto”.\nEducação Infantil:\n- REGULAR: Ready, Set, Grow\n- INTEGRAL BILÍNGUE: Ready, Set, Grow\n- ENGLISH CLASS: Greenman\nFundamental 1:\n- REGULAR: Kid’s Box\n- INTEGRAL BILÍNGUE: Kid’s Box\n- ENGLISH CLASS: Power Up\nFundamental 2:\n- REGULAR: Prepare\n- SEMI-INTEGRAL BILÍNGUE: Prepare e Think\n- ENGLISH CLASS: Think\nEnsino Médio:\n- ENGLISH CLASS: Think\nUse esta seção como referência prioritária quando houver dúvida sobre livro/material por produto."
         },
         {
           "category": "1. Como usar este Q&A",
