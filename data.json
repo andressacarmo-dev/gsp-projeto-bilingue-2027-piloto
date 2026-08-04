@@ -2,7 +2,7 @@
   "meta": {
     "title": "Portal Projeto Bilíngue 2027 — GSP",
     "notice": "Material interno de apoio às equipes — não compartilhar externamente.",
-    "updatedAt": "2026-07-23",
+    "updatedAt": "2026-08-04",
     "telegramUrl": "https://t.me/projetobilingue2027",
     "telegramLabel": "Entrar no grupo do Projeto Bilíngue 2027"
   },
@@ -16457,10 +16457,40 @@
       ],
       "content": [
         {
+          "title": "Produtos oficiais — São José dos Campos",
+          "type": "official-products-playbook",
+          "source": "COMPARATIVO PRODUTOS ESCOLA",
+          "text": "Produtos oficiais — São José dos Campos\nFonte: aba COMPARATIVO PRODUTOS ESCOLA do playbook.\nEducação Infantil: Regular Bilíngue (K1 a K4); Semi-integral Bilíngue; Integral Bilíngue.\nFundamental 1: Regular; Integral Bilíngue; English Class. Não apresentar Regular Bilíngue no F1 de São José.\nFundamental 2: Regular; Integral Bilíngue; English Class; High School Complemento a partir do 8º ano. Não apresentar Regular Bilíngue nem High School Prep no F2 de São José.\nEnsino Médio: Regular; English Class; Integrado; High School Integrado. Não apresentar High School Complemento como produto do Ensino Médio de SJC.\nRegra de uso: a tabela de materiais Cambridge não substitui a tabela de produtos; ela mostra apenas materiais associados aos produtos.",
+          "segments": {
+            "Educação Infantil": [
+              "Regular Bilíngue (K1 a K4)",
+              "Semi-integral Bilíngue",
+              "Integral Bilíngue"
+            ],
+            "Fundamental 1": [
+              "Regular",
+              "Integral Bilíngue",
+              "English Class"
+            ],
+            "Fundamental 2": [
+              "Regular",
+              "Integral Bilíngue",
+              "English Class",
+              "High School Complemento a partir do 8º ano"
+            ],
+            "Ensino Médio": [
+              "Regular",
+              "English Class",
+              "Integrado",
+              "High School Integrado"
+            ]
+          }
+        },
+        {
           "title": "Materiais Cambridge oficiais — fonte atualizada",
           "type": "official-cambridge-materials",
           "source": "MATERIAIS CAMBRIDGE UTILIZADOS PELOS ALUNOS EM CADA UNIDADE",
-          "text": "Materiais Cambridge oficiais — São José dos Campos\nFonte oficial: arquivo “Materiais Cambridge utilizados pelos alunos em cada unidade, em cada segmento e em cada produto”.\nEducação Infantil:\n- REGULAR BILÍNGUE: Ready, Set, Grow\n- SEMI-INTEGRAL BILÍNGUE: Ready, Set, Grow\n- INTEGRAL BILÍNGUE: Ready, Set, Grow\nFundamental 1:\n- REGULAR: Kid’s Box\n- INTEGRAL BILÍNGUE: Kid’s Box\n- ENGLISH CLASS: Power Up\nFundamental 2:\n- REGULAR: Prepare\n- INTEGRAL BILÍNGUE: Prepare\n- ENGLISH CLASS: Think\nEnsino Médio:\n- ENGLISH CLASS: Think\nUse esta seção como referência prioritária quando houver dúvida sobre livro/material por produto.",
+          "text": "Materiais Cambridge oficiais — São José dos Campos\nFonte oficial: arquivo “Materiais Cambridge utilizados pelos alunos em cada unidade, em cada segmento e em cada produto”.\nEducação Infantil:\n- REGULAR BILÍNGUE: Ready, Set, Grow\n- SEMI-INTEGRAL BILÍNGUE: Ready, Set, Grow\n- INTEGRAL BILÍNGUE: Ready, Set, Grow\nFundamental 1:\n- REGULAR: Kid’s Box\n- INTEGRAL BILÍNGUE: Kid’s Box\n- ENGLISH CLASS: Power Up\nFundamental 2:\n- REGULAR: Prepare\n- INTEGRAL BILÍNGUE: Prepare\n- ENGLISH CLASS: Think\nEnsino Médio:\n- ENGLISH CLASS: Think\nUse esta seção apenas como referência de livro/material Cambridge por produto. Para conferir a oferta completa de São José, use a tabela Produtos oficiais — São José dos Campos, baseada na aba COMPARATIVO PRODUTOS ESCOLA do playbook. No Ensino Médio, Regular, Integrado e High School Integrado também são ofertados, mas não aparecem nesta tabela porque a referência Cambridge listada aqui se aplica ao English Class.",
           "segments": {
             "Educação Infantil": {
               "REGULAR BILÍNGUE": "Ready, Set, Grow",
@@ -16792,7 +16822,7 @@
           "source": "Q&A definitivo",
           "level": "qa",
           "title": "Quais produtos existem em São José dos Campos?",
-          "text": "A oferta contempla diferentes formatos por segmento: no Infantil, Regular Bilíngue, Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Integral Bilíngue e English Class; no Fundamental 2, Regular, Integral Bilíngue, English Class e High School Complemento a partir do 8º ano; no Ensino Médio, Regular, English Class, Integrado e High School Integrado."
+          "text": "A oferta contempla diferentes formatos por segmento: no Infantil, Regular Bilíngue (K1 a K4), Semi-integral Bilíngue e Integral Bilíngue; no Fundamental 1, Regular, Integral Bilíngue e English Class; no Fundamental 2, Regular, Integral Bilíngue, English Class e High School Complemento a partir do 8º ano; no Ensino Médio, Regular, English Class, Integrado e High School Integrado."
         },
         {
           "source": "Q&A definitivo",
@@ -17026,7 +17056,7 @@
           "source": "Q&A definitivo",
           "level": "qa",
           "title": "O SJC oferece High School Complemento no F2?",
-          "text": "No SJC, para o Fundamental 2, a nomenclatura segura continua sendo High School Complemento a partir do 8º ano, em parceria com The Keystone School. Para o Ensino Médio, a oferta atualizada do playbook é High School Integrado. Não se deve apresentar High School Prep como produto do SJC; use High School Complemento no F2 e High School Integrado no Ensino Médio."
+          "text": "Sim. Para o Fundamental 2, a nomenclatura segura é High School Complemento a partir do 8º ano, em parceria com The Keystone School. Para o Ensino Médio, a oferta atualizada do playbook é High School Integrado. Não apresentar High School Prep como produto do SJC; use High School Complemento no F2 e High School Integrado no Ensino Médio."
         },
         {
           "source": "Q&A definitivo",
