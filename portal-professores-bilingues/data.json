@@ -147,7 +147,7 @@
       "status": "Matrizes anuais Level 1, Level 2 e Level 3 finalizadas",
       "disciplines": [
         {
-          "name": "Level 1 / EY1 — Matriz anual GSP",
+          "name": "Level 1",
           "stage": "Finalizado: matriz anual, progressão, avaliação global GSP, estratégias pedagógicas e geradores de report card.",
           "localHtml": "pages/infantil-level-1-ey1.html",
           "resources": [
@@ -169,7 +169,7 @@
           ]
         },
         {
-          "name": "Level 2 / EY2 — Matriz anual GSP",
+          "name": "Level 2",
           "stage": "Finalizado: matriz anual, progressão, avaliação global GSP, estratégias pedagógicas e geradores de report card.",
           "localHtml": "pages/infantil-level-2-ey2.html",
           "resources": [
@@ -191,7 +191,7 @@
           ]
         },
         {
-          "name": "Level 3 / EY3 — Matriz anual GSP",
+          "name": "Level 3",
           "stage": "Finalizado: matriz anual, progressão, avaliação global GSP, estratégias pedagógicas e geradores de report card.",
           "localHtml": "pages/infantil-level-3-ey3.html",
           "resources": [
