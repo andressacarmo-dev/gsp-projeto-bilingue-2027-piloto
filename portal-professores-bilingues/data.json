@@ -142,18 +142,18 @@
     {
       "id": "infantil",
       "name": "Educação Infantil",
-      "tagline": "Early Years · entregas esperadas, progressão, avaliação global e estratégias pedagógicas integradas aos materiais Cambridge",
+      "tagline": "Early Years · matrizes anuais Level 1, Level 2 e Level 3",
       "driveUrl": "https://drive.google.com/drive/folders/1X7_omFKM7hn4lIIgS3OWW7ol1rL_rFn7?usp=sharing",
-      "status": "Piloto pedagógico em Level 1 / EY1 com matriz anual, progressão e avaliação trimestral",
+      "status": "Matrizes anuais Level 1, Level 2 e Level 3 finalizadas",
       "disciplines": [
         {
           "name": "Level 1 / EY1 — Matriz anual GSP",
-          "stage": "Piloto completo: entrega esperada mês a mês, progressão trimestral, avaliação global GSP, projetos complementares, estratégias pedagógicas e base para relatório individualizado.",
+          "stage": "Finalizado: matriz anual, progressão, avaliação global GSP, estratégias pedagógicas e geradores de report card.",
           "localHtml": "pages/infantil-level-1-ey1.html",
           "resources": [
             {
+              "type": "Página do portal",
               "label": "Abrir matriz anual Level 1 / EY1",
-              "type": "HTML do portal",
               "url": "pages/infantil-level-1-ey1.html"
             },
             {
@@ -169,10 +169,15 @@
           ]
         },
         {
-          "name": "Level 2 / EY2 — Próximo piloto",
-          "stage": "A replicar após validação do formato EY1: progressão, avaliação trimestral e estratégias para 4–5 anos.",
-          "localHtml": "",
+          "name": "Level 2 / EY2 — Matriz anual GSP",
+          "stage": "Finalizado: matriz anual, progressão, avaliação global GSP, estratégias pedagógicas e geradores de report card.",
+          "localHtml": "pages/infantil-level-2-ey2.html",
           "resources": [
+            {
+              "type": "Página do portal",
+              "label": "Abrir matriz anual Level 2 / EY2",
+              "url": "pages/infantil-level-2-ey2.html"
+            },
             {
               "label": "Ready, Set, Grow! Level 2 — recursos oficiais",
               "type": "Portal/Drive Cambridge",
@@ -186,10 +191,15 @@
           ]
         },
         {
-          "name": "Level 3 / EY3 — Próximo piloto",
-          "stage": "A replicar após validação do formato EY1: transição para Fundamental 1, autonomia, registros e comunicação de aprendizagem.",
-          "localHtml": "",
+          "name": "Level 3 / EY3 — Matriz anual GSP",
+          "stage": "Finalizado: matriz anual, progressão, avaliação global GSP, estratégias pedagógicas e geradores de report card.",
+          "localHtml": "pages/infantil-level-3-ey3.html",
           "resources": [
+            {
+              "type": "Página do portal",
+              "label": "Abrir matriz anual Level 3 / EY3",
+              "url": "pages/infantil-level-3-ey3.html"
+            },
             {
               "label": "Ready, Set, Grow! Level 3 — recursos oficiais",
               "type": "Portal/Drive Cambridge",
@@ -234,34 +244,21 @@
     {
       "id": "fund2",
       "name": "Fundamental 2",
-      "tagline": "Lower Secondary · aprofundamento, autonomia, projetos e pensamento global",
+      "tagline": "MATRIZES ANUAIS POR SÉRIE",
       "driveUrl": "https://drive.google.com/drive/folders/1djepYCvh-aaZCALMHemv2Jb5MPnG2s-D?usp=sharing",
-      "status": "Acervo inicial disponível",
+      "status": "Estrutura por Year 6–9 preservada; páginas serão conectadas conforme finalização",
       "disciplines": [
         {
-          "name": "Global Perspectives",
-          "stage": "Matrizes Year 6–9 existentes em HTML",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/global-perspectives-fundamental-2/global-perspectives-year-6-matriz-professores.html"
+          "name": "Year 6"
         },
         {
-          "name": "Financial Literacy",
-          "stage": "Matrizes Year 6–9 existentes em HTML",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/fund2-integrated-disciplines/financial-literacy-year-6-matriz-professores.html"
+          "name": "Year 7"
         },
         {
-          "name": "STEAM",
-          "stage": "Matrizes Year 6–9 existentes em HTML",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/fund2-integrated-disciplines/steam-year-6-matriz-professores.html"
+          "name": "Year 8"
         },
         {
-          "name": "History & Geography",
-          "stage": "Matrizes Year 6–9 existentes em HTML",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/history-geography-fundamental-2/history-geography-year-6-matriz-professores.html"
-        },
-        {
-          "name": "Speaking Lab",
-          "stage": "Matrizes Year 6–9 existentes em HTML",
-          "localHtml": "../../rubrica-curriculo-bilingue/entregas-drive/fund2-integrated-disciplines/speaking-lab-year-6-matriz-professores.html"
+          "name": "Year 9"
         }
       ]
     }
