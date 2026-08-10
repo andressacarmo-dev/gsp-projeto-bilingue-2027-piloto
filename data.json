@@ -14059,7 +14059,7 @@
           "type": "qa"
         },
         {
-          "label": "Grade horária — Guarujá (atualizada F1)",
+          "label": "Grade horária — Guarujá (atualizada F1 + High School Integrado no portal)",
           "url": "https://drive.google.com/file/d/1WP_WFZaFTLypVUW7z2jCjTWQVigSG7XR/view?usp=drivesdk",
           "type": "grade"
         },
@@ -14100,7 +14100,7 @@
         },
         {
           "label": "Grades horárias",
-          "query": "Grade horária horários Infantil Fundamental Integral Regular Bilíngue High School Prep"
+          "query": "Grade horária horários Infantil Fundamental Integral Regular Bilíngue High School Prep Ensino Médio High School Integrado"
         }
       ],
       "content": [
@@ -15612,6 +15612,16 @@
           "level": "page",
           "title": "Grade Horária   Produtos Bilíngues 2027   GUARUJÁ — página 21",
           "text": "SCHEDULE REGULAR Y8-Y9 - GUARUJÁ MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY 7:20 - 8:10 Direito e Cidadania Língua Inglesa Matemática História Geografia 8:10 - 9:00 Língua Portuguesa Ciências LIV Lab. de Ciências História 9:00 - 9:50 Matemática Ciências Língua Portuguesa Ed. Física Ed. Financeira 9:50 - 10:20 Break Break Break Break Break 10:20 - 11:10 Matemática Língua Inglesa Língua Portuguesa Artes História 11:10 - 12:00 Língua Portuguesa Língua Portuguesa Ciências Artes Geografia 12:00 - 12:50 Espanhol Geografia Matemática Produção Textual"
+        },
+        {
+          "source": "Grades horárias",
+          "title": "Grade Horária Produtos Bilíngues 2027 GUARUJÁ — Ensino Médio — High School Integrado — página 22",
+          "text": "SCHEDULE HIGH SCHOOL INTEGRADO ENSINO MÉDIO - OBJETIVO GUARUJÁ\nMONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY\n7:00 - 7:45 Matemática 2 | Geografia 2 | História | Língua Estrangeira | Geografia 2\n7:45 - 8:30 Química | Biologia | Geografia | Matemática 2 | Literatura\n8:30 - 9:15 História 2 | Química 2 | Filosofia | Física | Literatura\n9:15 - 9:35 Intervalo\n9:35 - 10:20 Sociologia | Artes | Projeto de Vida | Português | Matemática\n10:20 - 11:05 Física 2 | Matemática | Biologia | Física | Física 2\n11:05 - 11:25 Intervalo\n11:25 - 12:10 Matemática 2 | Português | Química 2 | Redação | Biologia 2\n12:10 - 12:55 Química | Matemática Básica | História | Redação | Biologia 2\n12:55 - 14:30 Lunch\n14:30 - 15:30 Monitoria\n15:30 - 17:30 High School: Practical Math na segunda e quarta; Physical Science na terça e quinta; Electives na sexta."
+        },
+        {
+          "source": "Grades horárias",
+          "title": "High School Integrado — Grade Horária Produtos Bilíngues 2027 GUARUJÁ",
+          "text": "SCHEDULE HIGH SCHOOL INTEGRADO ENSINO MÉDIO - OBJETIVO GUARUJÁ\nMONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY\n7:00 - 7:45 Matemática 2 | Geografia 2 | História | Língua Estrangeira | Geografia 2\n7:45 - 8:30 Química | Biologia | Geografia | Matemática 2 | Literatura\n8:30 - 9:15 História 2 | Química 2 | Filosofia | Física | Literatura\n9:15 - 9:35 Intervalo\n9:35 - 10:20 Sociologia | Artes | Projeto de Vida | Português | Matemática\n10:20 - 11:05 Física 2 | Matemática | Biologia | Física | Física 2\n11:05 - 11:25 Intervalo\n11:25 - 12:10 Matemática 2 | Português | Química 2 | Redação | Biologia 2\n12:10 - 12:55 Química | Matemática Básica | História | Redação | Biologia 2\n12:55 - 14:30 Lunch\n14:30 - 15:30 Monitoria\n15:30 - 17:30 High School: Practical Math na segunda e quarta; Physical Science na terça e quinta; Electives na sexta."
         }
       ],
       "faq": [
@@ -16386,7 +16396,7 @@
           "answer": "O Projeto Bilíngue 2027 não é apenas uma mudança de produto. É uma transformação de proposta educacional. Para que funcione, todos precisam estudar, usar os materiais, alinhar discurso e tratar o bilinguismo como parte da experiência da escola."
         }
       ],
-      "updatedAt": "2026-07-22"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "sao-jose-dos-campos",
@@ -34010,7 +34020,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-23",
-  "cacheVersion": "20260723-barigui-em-high-school-integrado-v2",
+  "updatedAt": "2026-08-10",
+  "cacheVersion": "20260810-guaruja-highschool-integrado-v1",
   "_last_sjc_playbook_audit_utc": "2026-07-28T20:20:56Z"
 }
