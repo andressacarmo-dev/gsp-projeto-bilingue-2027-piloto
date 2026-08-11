@@ -234,7 +234,8 @@
           "localHtml": "pages/fundamental-1-year-3.html"
         },
         {
-          "name": "Year 4"
+          "name": "Year 4",
+          "localHtml": "pages/fundamental-1-year-4.html"
         },
         {
           "name": "Year 5"
