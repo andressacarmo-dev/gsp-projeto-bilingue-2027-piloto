@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Fundamental 2 · Year 6 · Matriz anual · Portal dos Professores Bilíngues</title>
+<meta content="Matriz anual pedagógica para Year 6 do Fundamental 2, integrando Prepare 1, Global Perspectives, PBL, Financial Literacy, STEAM e Speaking Lab." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="../assets/styles.css" rel="stylesheet"/>
+<style>
+    body { background:#f7f8f4; }
+    .year-hero { color:white; background: radial-gradient(circle at 82% 18%, rgba(255,255,255,.16), transparent 28%), linear-gradient(135deg,#245B52,#1E564F 58%,#3EA38E); padding:18px clamp(18px,4vw,64px) 54px; }
+    .year-hero .topbar { max-width:1180px; margin:0 auto; }
+    .year-hero .brand-mark { width:42px; height:28px; border-radius:6px; background:none; box-shadow:0 8px 18px rgba(0,0,0,.18); overflow:hidden; display:inline-flex; }
+    .year-hero .brand-mark img { width:100%; height:100%; object-fit:cover; display:block; }
+    .year-hero-grid { max-width:1180px; margin:48px auto 0; display:grid; grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr); gap:clamp(24px,5vw,60px); align-items:center; }
+    .year-hero h1 { font-size:clamp(38px,7vw,76px); }
+    .year-card,.teacher-note,.standard-box,.assessment-box { background:white; border:1px solid var(--line); border-radius:28px; padding:clamp(22px,4vw,36px); box-shadow:0 14px 38px rgba(7,27,79,.08); }
+    .year-card { background:rgba(255,255,255,.12); border-color:rgba(255,255,255,.24); backdrop-filter:blur(16px); }
+    .year-card li { color:rgba(255,255,255,.88); margin:8px 0; }
+    .breadcrumb { max-width:1180px; margin:28px auto 20px; color:var(--muted); font-size:14px; font-weight:700; }
+    .breadcrumb a { color:var(--royal); text-decoration:none; }
+    .anchor-months { max-width:1180px; margin:0 auto 32px; display:flex; flex-wrap:wrap; gap:8px; }
+    .anchor-months a { text-decoration:none; color:#245B52; background:white; border:1px solid var(--line); padding:9px 12px; border-radius:999px; font-weight:900; font-size:13px; box-shadow:0 10px 24px rgba(7,27,79,.06); }
+
+    /* Heading hygiene: keep section titles compact and readable across desktop/mobile. */
+    .section-heading { max-width:100%; }
+    .section-heading.compact { max-width:100%; }
+    .section-heading h2,
+    #gerador-report-card .note-box h2 { max-width:100%; text-wrap:balance; line-height:1.04; font-size:clamp(26px,3.2vw,42px); }
+    #padrao-gsp .section-heading h2,
+    #progressao .section-heading h2 { white-space:normal; font-size:clamp(26px,3.2vw,42px); }
+    .quarter-card h3,
+    .project-card h3,
+    .strategy-card h3,
+    .report-card h3,
+    .material-card h3,
+    .progression-group-title,
+    .report-calendar-title { text-wrap:balance; line-height:1.12; }
+    @media (max-width:640px) {
+      .section-heading h2,
+      #gerador-report-card .note-box h2,
+      #padrao-gsp .section-heading h2,
+      #progressao .section-heading h2 { font-size:clamp(24px,7vw,30px); letter-spacing:-.035em; }
+      .section-heading { margin-bottom:20px; }
+      .quarter-card h3,.project-card h3,.strategy-card h3,.report-card h3,.material-card h3 { font-size:19px; }
+      #gerador-report-card .note-box h2:before { width:34px; height:34px; border-radius:12px; }
+    }
+    .standard-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+    .standard-grid article { border-radius:22px; padding:20px; background:#f7f9ff; border:1px solid rgba(30,85,179,.12); }
+    .standard-grid article:nth-child(2) { background:#fff8f2; border-color:rgba(249,121,31,.18); }
+    .standard-grid article:nth-child(3) { background:#f4fbf5; border-color:rgba(46,157,120,.14); }
+    .standard-grid article:nth-child(4) { background:#fffaf0; border-color:rgba(242,183,5,.18); }
+    .routine-strip { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; }
+    .routine-strip article { background:white; border:1px solid var(--line); border-top:5px solid #F9791F; border-radius:20px; padding:18px; box-shadow:0 12px 30px rgba(7,27,79,.07); }
+    .rubric-table { width:100%; border-collapse:collapse; background:white; border-radius:24px; overflow:hidden; box-shadow:0 12px 34px rgba(7,27,79,.08); }
+    .rubric-table th { background:#245B52; color:white; text-align:left; padding:15px; }
+    .rubric-table td { border-bottom:1px solid var(--line); padding:15px; vertical-align:top; }
+    .rubric-table tr:last-child td { border-bottom:0; }
+    .quarter-grid,.project-grid,.strategy-grid,.report-grid,.materials-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .bimester-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; margin-bottom:22px; }
+    .progression-group-title { margin:22px 0 12px; color:#245B52; font-size:18px; }
+    .quarter-card,.project-card,.strategy-card,.report-card,.material-card { background:white; border:1px solid var(--line); border-radius:24px; padding:22px; box-shadow:0 12px 34px rgba(7,27,79,.08); }
+    .quarter-card { border-top:6px solid #3EA38E; }
+    .project-card { border-top:6px solid #F9791F; }
+    .strategy-card { border-top:6px solid #FFC21A; }
+    .report-card { border-top:6px solid #2e9d78; }
+    .material-card { border-top:6px solid #245B52; }
+    .quarter-card ul,.project-card ul,.strategy-card ul,.report-card ul { margin:10px 0 0 18px; padding:0; color:var(--muted); }
+    .material-card a { display:inline-flex; margin-top:10px; color:var(--royal); font-weight:900; text-decoration:none; }
+    .assessment-box { background:linear-gradient(135deg,#ffffff,#f1fff9); }
+    .assessment-columns { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:18px; }
+    .assessment-columns article { background:white; border:1px solid var(--line); border-radius:22px; padding:20px; }
+    .assessment-columns strong { display:inline-flex; color:#F9791F; margin-bottom:8px; text-transform:uppercase; letter-spacing:.08em; font-size:12px; }
+    #avaliacao-t1 .assessment-columns { grid-template-columns:repeat(4,minmax(0,1fr)); }
+    #avaliacao-t1 .assessment-columns article { padding:16px; }
+    #avaliacao-t1 .assessment-columns strong { font-size:11px; }
+    .note-box { background:#fff8f2; border-left:6px solid #F9791F; border-radius:22px; padding:22px; color:var(--ink); }
+    .month-list { display:grid; gap:26px; }
+    .month-card { background:white; border:1px solid var(--line); border-radius:30px; overflow:hidden; box-shadow:0 16px 44px rgba(7,27,79,.09); }
+    .month-card.accordion-month .month-top { cursor:pointer; position:relative; grid-template-columns:120px 190px 1fr auto; }
+    .month-card.accordion-month .month-top:focus { outline:4px solid rgba(62,163,142,.35); outline-offset:-4px; }
+    .month-toggle { border:1px solid rgba(255,255,255,.50); background:rgba(255,255,255,.16); color:white; border-radius:999px; padding:9px 12px; font-weight:900; font-size:12px; text-transform:uppercase; letter-spacing:.08em; white-space:nowrap; }
+    .month-card.accordion-month.is-collapsed .discipline-grid { display:none; }
+    .month-card.accordion-month.is-collapsed { box-shadow:0 10px 26px rgba(7,27,79,.06); }
+    .month-card.accordion-month.is-collapsed .month-top { background:linear-gradient(135deg,#245B52,#2d7b6d); }
+    .accordion-help { max-width:1180px; margin:0 auto 22px; background:#fff8f2; border-left:6px solid #F9791F; border-radius:20px; padding:16px 18px; color:var(--ink); box-shadow:0 10px 26px rgba(7,27,79,.06); }
+
+    .month-top { display:grid; grid-template-columns:120px 190px 1fr; gap:18px; align-items:center; background:linear-gradient(135deg,#245B52,#3EA38E); color:white; padding:18px 22px; }
+    .month-top span { font-weight:900; font-size:18px; } .month-top strong { font-size:22px; } .month-top p { margin:0; color:rgba(255,255,255,.88); font-weight:650; }
+    .discipline-grid { display:grid; grid-template-columns:1fr; gap:14px; padding:20px 22px 24px; }
+    .discipline-card { border:1px solid var(--line); border-radius:24px; padding:20px; background:#fff; box-shadow:0 8px 22px rgba(7,27,79,.05); }
+    .discipline-card.ready { border-left:7px solid #3EA38E; background:linear-gradient(180deg,#ffffff,#f7fffc); }
+    .discipline-head { display:flex; justify-content:space-between; gap:12px; align-items:center; margin-bottom:10px; }
+    .discipline-head span { color:#245B52; font-size:18px; font-weight:900; }
+    .discipline-head strong { background:#e9f4f1; color:#245B52; border-radius:999px; padding:7px 10px; font-size:11px; text-transform:uppercase; letter-spacing:.08em; }
+    .discipline-card h4 { margin:0 0 12px; color:#F9791F; font-size:16px; }
+    .rubric-fields { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+    .rubric-fields div { background:white; border:1px solid #e7ece8; border-radius:16px; padding:14px; }
+    .rubric-fields .wide { grid-column:1/-1; background:#f4faf8; }
+    .rubric-fields b { display:block; color:#245B52; margin-bottom:6px; }
+    .rubric-fields p,.discipline-card p { margin:0; color:var(--muted); }
+    .brand-report-grid { display:grid; grid-template-columns:repeat(4,minmax(180px,1fr)); gap:12px; margin:0 auto; max-width:980px; justify-content:center; }
+    .brand-report-grid.term-3 { grid-template-columns:repeat(3,minmax(180px,1fr)); max-width:740px; }
+    .brand-report-card { background:white; border:1px solid var(--line); border-radius:22px; padding:18px; min-height:130px; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 12px 30px rgba(7,27,79,.07); text-decoration:none; color:var(--ink); }
+    .brand-report-card strong { display:block; color:#245B52; font-size:18px; margin-bottom:8px; }
+    .brand-report-card span { display:block; color:var(--muted); font-size:12px; }
+    .brand-report-card.disabled { opacity:.78; cursor:not-allowed; background:#f8fafc; }
+
+    .school-report-group { margin-top:22px; }
+    .report-calendar-title { margin:34px 0 18px; color:#245B52; }
+    .report-calendar-title:first-of-type { margin-top:18px; }
+    .school-report-title { margin:0 0 12px; color:#0f6f4d; font-size:18px; font-weight:900; text-align:center; }
+    #gerador-report-card { position:relative; overflow:hidden; background:radial-gradient(circle at 88% 18%, rgba(255,255,255,.34), transparent 24%), linear-gradient(135deg,#0f7f55,#23a06f 48%,#74c947); border:0; box-shadow:0 24px 60px rgba(15,127,85,.28); }
+    #gerador-report-card:before { content:""; position:absolute; inset:16px; border:2px dashed rgba(255,255,255,.38); border-radius:24px; pointer-events:none; }
+    #gerador-report-card:after { content:"PDF"; position:absolute; right:26px; top:20px; color:rgba(255,255,255,.20); font-size:72px; font-weight:900; letter-spacing:.04em; transform:rotate(8deg); }
+    #gerador-report-card .note-box { position:relative; z-index:1; background:rgba(255,255,255,.92); border-left:0; border:2px solid rgba(255,255,255,.80); box-shadow:0 18px 42px rgba(7,27,79,.16); }
+    #gerador-report-card .note-box h2 { display:flex; align-items:center; gap:10px; color:#0f6f4d; font-size:clamp(26px,3vw,36px); margin-bottom:8px; }
+    #gerador-report-card .note-box h2:before { content:""; display:inline-flex; align-items:center; justify-content:center; width:46px; height:46px; border-radius:16px; background:#dff7df; box-shadow:inset 0 0 0 2px rgba(35,160,111,.20); font-size:25px; flex:0 0 auto; }
+    #gerador-report-card .note-box p { color:#31564a; font-weight:600; max-width:920px; }
+    #gerador-report-card .brand-report-card { border:2px solid rgba(35,160,111,.14); box-shadow:0 14px 30px rgba(15,127,85,.13); min-height:150px; }
+    #gerador-report-card .brand-report-card.disabled { background:rgba(255,255,255,.72); opacity:.72; cursor:not-allowed; }
+    #gerador-report-card .brand-report-card.active { border-top:0; background:linear-gradient(180deg,#ffffff,#efffed); outline:3px solid rgba(255,255,255,.78); box-shadow:0 18px 38px rgba(15,127,85,.22); }
+    #gerador-report-card .brand-report-card.active strong { color:#0f6f4d; }
+    #gerador-report-card .brand-report-card.active:hover { transform:translateY(-2px); }
+
+    #gerador-report-card .brand-report-card.disabled strong { color:#0f6f4d; }
+    @media (max-width:900px) { .year-hero-grid,.standard-grid,.routine-strip,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.materials-grid,.assessment-columns,.brand-report-grid,.month-top,.rubric-fields { grid-template-columns:1fr; } .brand-report-grid { max-width:520px; } }
+    @media (max-width:640px) { .bimester-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+
+</style>
+</head>
+<body>
+<header class="year-hero"><div class="topbar"><a class="brand" href="../index.html"><span class="brand-mark flag-mark"><img alt="" src="../assets/icons/uk-flag.svg"/></span><span>Portal dos Professores Bilíngues</span></a><div class="nav-links"><a href="../index.html#segmentos">Segmentos</a><a href="#matriz">Matriz mensal</a><a href="#materiais">Materiais</a></div></div><div class="year-hero-grid"><section><p class="eyebrow">Fundamental 2 · matriz anual</p><h1>Year 6</h1><p class="lead">Matriz integrada para o início do Middle Years, articulando English/Prepare 1 com Global Perspectives, PBL, Financial Literacy, STEAM e Speaking Lab. A progressão combina unidades de língua, competências investigativas, projetos aplicados, decisões responsáveis, soluções STEAM e comunicação acadêmica.</p><div class="hero-actions"><a class="btn primary" href="#matriz">Ver matriz mensal</a><a class="btn ghost" href="#uso">Como usar</a><a class="btn ghost" href="#progressao">Progressão</a><a class="btn ghost" href="#materiais">Recursos e Materiais</a></div></section><aside class="year-card"><h2>11–12 anos · 6º ano</h2><ul><li>Entrada no Fundamental 2 com mais autonomia, organização, responsabilidade e linguagem acadêmica inicial.</li><li>English segue a coleção Prepare 1; Global Perspectives estrutura a progressão por competências investigativas.</li><li>PBL, Financial Literacy, STEAM e Speaking Lab derivam das habilidades de Global Perspectives e transformam pesquisa em projeto, decisão, solução e apresentação.</li><li>Evidências mensais apoiam report cards por bimestre ou trimestre, conforme calendário de cada escola.</li></ul></aside></div></header>
+<main>
+<div class="breadcrumb"><a href="../index.html#segmentos">Portal dos Professores</a> · Fundamental 2 · Year 6 · Matriz anual</div>
+<nav aria-label="Meses da matriz" class="anchor-months"><a data-open-month="mes-1" href="#mes-1">Fevereiro</a><a data-open-month="mes-2" href="#mes-2">Março</a><a data-open-month="mes-3" href="#mes-3">Abril</a><a data-open-month="mes-4" href="#mes-4">Maio</a><a data-open-month="mes-5" href="#mes-5">Junho</a><a data-open-month="mes-6" href="#mes-6">Agosto</a><a data-open-month="mes-7" href="#mes-7">Setembro</a><a data-open-month="mes-8" href="#mes-8">Outubro</a><a data-open-month="mes-9" href="#mes-9">Novembro</a></nav>
+<section class="section teacher-note" id="uso"><div class="section-heading compact"><p class="eyebrow">Como usar esta matriz</p><h2>Do Primary ao Middle Years</h2></div><p>Esta matriz mantém o calendário mensal usado no Year 5, mas adapta a arquitetura para adolescentes do Fundamental 2. O professor deve ler cada mês como um bloco integrado: English desenvolve repertório linguístico pela coleção Prepare 1; Global Perspectives organiza a competência investigativa; PBL, Financial Literacy, STEAM e Speaking Lab aplicam essa competência em projeto, tomada de decisão, solução prática e comunicação oral.</p><p>O objetivo não é criar disciplinas soltas. O eixo do Fundamental 2 é construir um aluno que pesquisa, analisa, avalia, reflete, colabora e comunica em inglês com apoio progressivo.</p></section>
+<section class="section standard-box" id="padrao-gsp"><div class="section-heading compact"><p class="eyebrow">Modelo GSP</p><h2>O que padroniza e o que adapta</h2></div><div class="standard-grid"><article><h3>Obrigatório seguir</h3><p>Calendário mensal, unidades do Prepare, competências de Global Perspectives, conexões entre disciplinas, language frames e evidências observáveis.</p></article><article><h3>Adaptável pela escola</h3><p>Problemas locais, exemplos da comunidade, produtos de PBL, materiais de prototipagem, dados coletados e ritmo semanal.</p></article><article><h3>Evidência mínima</h3><p>Registrar pergunta, evidência, análise, decisão, produto, fala observada, colaboração, feedback e reflexão mensal.</p></article><article><h3>Comunicação com famílias</h3><p>Report cards devem mostrar progresso acadêmico, investigativo, linguístico e socioemocional adequado a adolescentes.</p></article></div></section>
+<section class="section" id="rotina"><div class="section-heading"><p class="eyebrow">Rotina base</p><h2>Arquitetura de aula Middle Years</h2><p>A rotina preserva segurança pedagógica, mas aumenta autonomia, análise, colaboração e comunicação pública.</p></div><div class="routine-strip"><article><h3>1. 🔎 Inquiry</h3><p>Ativar pergunta, problema, dado, imagem, texto ou situação real.</p></article><article><h3>2. 📚 Input</h3><p>Trabalhar repertório linguístico/conceitual com modelos, vocabulário e fontes.</p></article><article><h3>3. 🧠 Process</h3><p>Pesquisar, analisar, avaliar, comparar ou refletir com apoio estruturado.</p></article><article><h3>4. 🛠️ Produce</h3><p>Criar projeto, solução, orçamento, protótipo, texto, fala ou evidência.</p></article><article><h3>5. 🎤 Communicate</h3><p>Apresentar, responder perguntas, receber feedback e registrar reflexão.</p></article></div></section>
+<section class="section" id="rubrica"><div class="section-heading"><p class="eyebrow">Rubrica pedagógica Year 6</p><h2>Critérios de observação</h2><p>Observar o aluno como aprendiz de Middle Years: mais autônomo, investigativo, colaborativo e capaz de justificar decisões em inglês.</p></div><table class="rubric-table"><thead><tr><th>Dimensão</th><th>Observar se o aluno...</th><th>Exemplos de evidência</th></tr></thead><tbody><tr><td>Comunicação acadêmica em inglês</td><td>Usa vocabulário de Prepare e language frames para perguntar, descrever, comparar, justificar, apresentar e refletir.</td><td>Pair talk, apresentação, Q&amp;A, áudio, roteiro, participação em discussão.</td></tr><tr><td>Investigação e pensamento crítico</td><td>Formula perguntas, seleciona evidências, analisa dados, avalia fontes e tira conclusões com apoio.</td><td>Research log, evidence board, fonte avaliada, tabela, gráfico, reflection card.</td></tr><tr><td>Projeto, decisão e solução</td><td>Transforma investigação em projeto, orçamento simples, decisão responsável, protótipo, campanha ou ação local.</td><td>PBL brief, budget, prototype, campaign, action plan, test log.</td></tr><tr><td>Colaboração, autonomia e reflexão</td><td>Assume papéis, escuta, negocia, usa feedback, revisa produto e reconhece o próprio progresso.</td><td>Checklist de grupo, peer feedback, versão revisada, autoavaliação, portfolio.</td></tr></tbody></table></section>
+<section class="section" id="progressao"><div class="section-heading"><p class="eyebrow">Progressão esperada</p><h2>Conteúdos por term</h2><p>Use a linha correspondente ao calendário avaliativo da escola. A divisão segue a mesma lógica do Fundamental 1.</p></div><h3 class="progression-group-title">Escolas bimestrais · 4 terms</h3><div class="bimester-grid"><article class="quarter-card"><h3>T1 · Entrada, identidade, pesquisa e evidência</h3><p><strong>Conteúdos:</strong> Fevereiro–Março · Prepare 1 Units 0–4; Global Perspectives Research; PBL research dossier; needs/wants; dados iniciais.</p><ul><li>Observar adaptação ao F2, rotina em inglês, perguntas investigáveis e registro de evidências.</li></ul></article><article class="quarter-card"><h3>T2 · Análise, plano de ação e avaliação de fontes</h3><p><strong>Conteúdos:</strong> Abril–Junho · Prepare 1 Units 5–10; Global Perspectives Analysis/Evaluation; orçamento, critérios, protótipo e opinião com evidência.</p><ul><li>Observar análise de dados, causa/consequência, decisões justificadas e revisão de projeto.</li></ul></article><article class="quarter-card"><h3>T3 · Reflexão, vida digital, espaços e colaboração</h3><p><strong>Conteúdos:</strong> Agosto–Setembro · Prepare 1 Units 11–14; Reflection/Collaboration; segurança digital, recursos comunitários, design de espaços.</p><ul><li>Observar uso de feedback, colaboração, responsabilidade digital e planejamento de solução.</li></ul></article><article class="quarter-card"><h3>T4 · Consumo, comunicação final e exhibition</h3><p><strong>Conteúdos:</strong> Outubro–Novembro · Prepare 1 Units 15–20; Communication; consumo responsável, protótipo final, apresentação e portfolio.</p><ul><li>Observar comunicação pública, Q&amp;A, síntese de evidências, autonomia e prontidão para Year 7.</li></ul></article></div><h3 class="progression-group-title">Escolas trimestrais · 3 terms</h3><div class="quarter-grid"><article class="quarter-card"><h3>T1 · Identidade, pesquisa, rotina escolar e análise inicial</h3><p><strong>Conteúdos:</strong> Fevereiro–Abril · Prepare 1 Units 0–6; Research/Analysis; projeto investigativo e primeiros dados.</p><ul><li>Observar participação, perguntas, evidências, descrição, causa/consequência e colaboração inicial.</li></ul></article><article class="quarter-card"><h3>T2 · Análise, avaliação, vida digital e reflexão</h3><p><strong>Conteúdos:</strong> Maio–Agosto · Prepare 1 Units 7–12; Analysis/Evaluation/Reflection; estudo, saúde, tecnologia, fontes, decisão e feedback.</p><ul><li>Observar avaliação de fontes, decisões responsáveis, reflexão sobre aprendizagem e revisão de produto.</li></ul></article><article class="quarter-card"><h3>T3 · Colaboração, consumo, natureza e comunicação final</h3><p><strong>Conteúdos:</strong> Setembro–Novembro · Prepare 1 Units 13–20; Collaboration/Communication; espaços, consumo, sustentabilidade, apresentação e exhibition.</p><ul><li>Observar colaboração madura, comunicação oral, síntese, portfolio e prontidão para Year 7.</li></ul></article></div></section>
+<section class="section" id="matriz"><div class="section-heading"><p class="eyebrow">Matriz anual</p><h2>Year 6 mês a mês</h2><p>Use estes blocos como guia de planejamento, acompanhamento e registro. A matriz integra English/Prepare 1, Global Perspectives, PBL, Financial Literacy, STEAM e Speaking Lab.</p></div><div class="accordion-help"><strong>Navegação por mês:</strong> clique no mês para abrir ou fechar as disciplinas correspondentes. Todos os meses ficam compactos inicialmente para facilitar a consulta.</div><div class="month-list"><article class="month-card accordion-month is-collapsed" id="mes-1"><div aria-controls="mes-1-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 1</span><strong>Fevereiro</strong><p>Entrada no Middle Years, identidade, sala de aula e pesquisa inicial</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-1-conteudo"><article class="discipline-card ready"><div class="discipline-head"><span>English / Prepare 1</span></div><h4>Unit 0–1 — In the classroom / All about me</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Alfabeto, números, dias, meses, objetos e pessoas, países e nacionalidades; determiners e be singular/plural.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Reativar rotina em inglês, apresentar-se, fazer perguntas pessoais e organizar linguagem de sala.</p></div>
+<div><b>Vocabulário-chave</b><p>alphabet, classroom, months, objects, countries, nationalities, personal details</p></div>
+<div><b>Language frames</b><p>My name is... / I am from... / This is... / These are... / I can ask...</p></div>
+<div><b>Habilidades observáveis</b><p>Participa da rotina, responde perguntas pessoais e usa inglês funcional de sala.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Classroom language routine, profile card, peer interview.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia adaptação ao F2, autonomia inicial e participação em English.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span></div><h4>Session 1 — Research: starting research skills</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Introdução à pesquisa: curiosidade, perguntas investigáveis, fontes simples, registro de evidências e organização inicial.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Compreender que investigar é formular perguntas, buscar evidências e registrar informações de forma clara.</p></div>
+<div><b>Vocabulário-chave</b><p>research, question, source, evidence, information, reliable, record</p></div>
+<div><b>Language frames</b><p>My research question is... / I found evidence in... / This source shows...</p></div>
+<div><b>Habilidades observáveis</b><p>Formula perguntas simples, identifica fontes e registra evidências com apoio.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Research question wall, source sorting, evidence notebook.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia início de Research, curiosidade e organização de aprendizagem.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span></div><h4>Project launch — From question to project</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Transformação de uma pergunta de Global Perspectives em projeto aplicado sobre escola/comunidade.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Escolher um problema observável e planejar uma investigação/produto inicial em grupo.</p></div>
+<div><b>Vocabulário-chave</b><p>project, problem, community, investigate, plan, role, product</p></div>
+<div><b>Language frames</b><p>Our project is about... / The problem we noticed is... / My role is...</p></div>
+<div><b>Habilidades observáveis</b><p>Participa da escolha do problema, assume papel e contribui com ideias.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Project brief, group roles, problem map.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de colaboração, planejamento e aplicação da pesquisa.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Financial Literacy</span></div><h4>Needs, wants and resources</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Necessidades, desejos, recursos disponíveis e escolhas responsáveis conectadas a problemas da escola/comunidade.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Diferenciar necessidade e desejo e reconhecer que recursos são limitados em decisões reais.</p></div>
+<div><b>Vocabulário-chave</b><p>need, want, resource, choice, cost, save, waste</p></div>
+<div><b>Language frames</b><p>This is a need because... / This is a want because... / We need resources to...</p></div>
+<div><b>Habilidades observáveis</b><p>Classifica necessidades/desejos e justifica escolhas com exemplos.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Needs/wants sort, simple resource list for project.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia tomada de decisão inicial e vocabulário financeiro básico.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>STEAM</span></div><h4>Observe, measure and record</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Observação, registro simples, categorias, contagem e dados iniciais para investigar um problema.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Coletar dados simples e representar informações para apoiar uma investigação.</p></div>
+<div><b>Vocabulário-chave</b><p>observe, count, data, category, table, pattern, measure</p></div>
+<div><b>Language frames</b><p>We observed... / We counted... / The data shows...</p></div>
+<div><b>Habilidades observáveis</b><p>Coleta dados, organiza em tabela simples e percebe padrões iniciais.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Observation walk, tally chart, classroom data board.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia uso de dados e pensamento investigativo aplicado.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span></div><h4>Personal information and research questions</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Oralidade para apresentação pessoal, perguntas de entrevista e formulação de research questions.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Fazer e responder perguntas pessoais e apresentar uma pergunta investigativa com clareza.</p></div>
+<div><b>Vocabulário-chave</b><p>question, answer, interview, opinion, because, evidence</p></div>
+<div><b>Language frames</b><p>Can I ask you...? / My question is... / I think... because...</p></div>
+<div><b>Habilidades observáveis</b><p>Participa de entrevista em pares e apresenta pergunta curta ao grupo.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Pair interview, question rehearsal, audio note.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia confiança oral inicial e uso funcional do inglês.</p></div>
+</div></article></div></article>
+<article class="month-card accordion-month is-collapsed" id="mes-2"><div aria-controls="mes-2-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 2</span><strong>Março</strong><p>Família, casa, pertences, criatividade e pesquisa com evidências</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-2-conteudo"><article class="discipline-card ready"><div class="discipline-head"><span>English / Prepare 1</span></div><h4>Units 2–4 — My family / My home / My things</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Família, sentimentos, cômodos, objetos pessoais e mochila escolar; possessive's, there is/are, have got.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Descrever família, casa e pertences; ampliar frases com posse, localização e descrição.</p></div>
+<div><b>Vocabulário-chave</b><p>family, feelings, rooms, things, school bag, adjectives</p></div>
+<div><b>Language frames</b><p>There is/are... / I have got... / My family has... / It belongs to...</p></div>
+<div><b>Habilidades observáveis</b><p>Descreve pessoas, espaços e objetos com apoio de vocabulário visual.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Family web page draft, bedroom list, school bag questionnaire.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia repertório pessoal e precisão em descrições simples.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span></div><h4>Session 1 — Research: developing research skills</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Busca de informações, perguntas melhores, registro de dados e comparação de evidências iniciais.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Aprimorar perguntas e selecionar evidências úteis para responder a uma investigação.</p></div>
+<div><b>Vocabulário-chave</b><p>better question, useful evidence, compare, notes, survey</p></div>
+<div><b>Language frames</b><p>This evidence is useful because... / We can ask... / We need to find out...</p></div>
+<div><b>Habilidades observáveis</b><p>Melhora perguntas, registra dados e começa a explicar escolha de evidências.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Mini survey, evidence cards, research log.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia progressão em Research e seleção de evidências.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span></div><h4>Project 1 — School/community research dossier</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Dossiê de pesquisa sobre um problema próximo, com pergunta, dados iniciais, evidências e público afetado.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Construir um pequeno dossiê de investigação que possa orientar um projeto real.</p></div>
+<div><b>Vocabulário-chave</b><p>dossier, stakeholder, evidence, school, community, affected</p></div>
+<div><b>Language frames</b><p>Our evidence suggests... / This affects... / We need more information about...</p></div>
+<div><b>Habilidades observáveis</b><p>Organiza evidências em grupo e identifica quem é afetado pelo problema.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Research dossier, stakeholder map, evidence board.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de pesquisa aplicada e colaboração.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Financial Literacy</span></div><h4>Cost of choices and waste</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Custo de escolhas, desperdício de recursos, reaproveitamento e impacto de pequenas decisões.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Relacionar escolhas cotidianas a custo, desperdício e uso responsável de recursos.</p></div>
+<div><b>Vocabulário-chave</b><p>cost, waste, reuse, spend, save, impact</p></div>
+<div><b>Language frames</b><p>It costs... / We can save by... / This choice creates waste because...</p></div>
+<div><b>Habilidades observáveis</b><p>Reconhece desperdício e propõe alternativas simples com justificativa.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Waste-cost chart, resource-saving ideas.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia raciocínio financeiro aplicado a contexto real.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>STEAM</span></div><h4>Data display and simple patterns</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Tabelas, contagem, categorias visuais e padrões para comunicar dados de pesquisa.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Transformar dados simples em representação visual compreensível.</p></div>
+<div><b>Vocabulário-chave</b><p>table, chart, result, pattern, category, display</p></div>
+<div><b>Language frames</b><p>The most common answer is... / The chart shows... / We noticed a pattern...</p></div>
+<div><b>Habilidades observáveis</b><p>Representa dados e explica o que observou.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Class chart, pictogram, data explanation card.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia leitura e comunicação inicial de dados.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span></div><h4>Describing people, places and evidence</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Oralidade para descrever pessoas/espaços, explicar evidências e relatar achados iniciais.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Usar frases curtas para descrever contexto, problema e evidência coletada.</p></div>
+<div><b>Vocabulário-chave</b><p>describe, place, people, evidence, result, because</p></div>
+<div><b>Language frames</b><p>In our school/community... / We found... / This is important because...</p></div>
+<div><b>Habilidades observáveis</b><p>Apresenta achados iniciais com apoio visual e responde perguntas simples.</p></div>
+<div><b>Sugestões de prática / produção</b><p>One-minute research update, group share.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia fala informativa e uso de evidence language.</p></div>
+</div></article></div></article>
+<article class="month-card accordion-month is-collapsed" id="mes-3"><div aria-controls="mes-3-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 3</span><strong>Abril</strong><p>Habilidades, celebrações, rotinas e análise de informações</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-3-conteudo"><article class="discipline-card ready"><div class="discipline-head"><span>English / Prepare 1</span></div><h4>Units 5–6 — What can you do? / Party time!</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Atividades, habilidades, partes do corpo, comida e bebida, horas; can/can’t, countable/uncountable, some/any/lots of.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Falar sobre habilidades, convites, alimentação e quantidades em interações sociais.</p></div>
+<div><b>Vocabulário-chave</b><p>activities, skills, body, food, drinks, time, party</p></div>
+<div><b>Language frames</b><p>I can/can’t... / Can you...? / There is some... / There are lots of...</p></div>
+<div><b>Habilidades observáveis</b><p>Pergunta e responde sobre habilidades; usa quantidades e vocabulário social.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Class club meeting, party invitation, can/can’t interview.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia interação oral, vocabulário social e estruturas de habilidade.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span></div><h4>Session 2 — Analysis: starting analysis skills</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Análise inicial: organizar informações, identificar semelhanças/diferenças, causas e consequências simples.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Começar a interpretar evidências, não apenas coletá-las.</p></div>
+<div><b>Vocabulário-chave</b><p>analysis, cause, consequence, similar, different, pattern</p></div>
+<div><b>Language frames</b><p>One cause is... / One consequence is... / These examples are similar because...</p></div>
+<div><b>Habilidades observáveis</b><p>Agrupa informações, identifica padrões e explica causa/consequência com apoio.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Cause-consequence cards, comparison table.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia Analysis inicial e interpretação guiada.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span></div><h4>Project 2 — Problem analysis map</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Mapa de análise do problema investigado: causas, consequências, pessoas envolvidas e oportunidades de ação.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Transformar dados de pesquisa em entendimento do problema antes de propor solução.</p></div>
+<div><b>Vocabulário-chave</b><p>cause, consequence, stakeholder, opportunity, solution</p></div>
+<div><b>Language frames</b><p>The cause may be... / This consequence affects... / We can act by...</p></div>
+<div><b>Habilidades observáveis</b><p>Constrói mapa de problema e justifica prioridades do projeto.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Problem tree, stakeholder chart, group discussion.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de análise e pensamento crítico aplicado.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Financial Literacy</span></div><h4>Planning a simple budget</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Orçamento simples para uma ação/projeto: itens necessários, estimativa de custos e priorização.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Planejar recursos de um projeto considerando custo, necessidade e prioridade.</p></div>
+<div><b>Vocabulário-chave</b><p>budget, price, item, priority, affordable, estimate</p></div>
+<div><b>Language frames</b><p>We need to buy... / It costs about... / Our priority is...</p></div>
+<div><b>Habilidades observáveis</b><p>Lista itens, estima custos e justifica prioridades.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Mini project budget, priority list.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia noção de orçamento e decisão justificada.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>STEAM</span></div><h4>Testing ideas with criteria</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Critérios para comparar soluções, testar ideias simples e escolher alternativas.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Usar critérios e dados para analisar qual solução parece mais viável.</p></div>
+<div><b>Vocabulário-chave</b><p>criteria, test, option, compare, improve, design</p></div>
+<div><b>Language frames</b><p>Option A is better because... / Our criteria are... / We tested...</p></div>
+<div><b>Habilidades observáveis</b><p>Compara opções e justifica escolha com critérios.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Solution comparison chart, quick prototype test.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia análise, design thinking e uso de critérios.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span></div><h4>Explaining causes and consequences</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Oralidade para explicar causa/consequência e comparar alternativas.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Usar linguagem de análise para explicar problema, dados e possíveis soluções.</p></div>
+<div><b>Vocabulário-chave</b><p>because, so, cause, consequence, option, better</p></div>
+<div><b>Language frames</b><p>This happens because... / As a result... / Option... is better because...</p></div>
+<div><b>Habilidades observáveis</b><p>Explica relação simples entre causa e consequência com apoio.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Cause-consequence mini presentation, peer Q&A.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia comunicação analítica em inglês.</p></div>
+</div></article></div></article>
+<article class="month-card accordion-month is-collapsed" id="mes-4"><div aria-controls="mes-4-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 4</span><strong>Maio</strong><p>Rotina escolar, estudo, clubes e análise mais precisa</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-4-conteudo"><article class="discipline-card ready"><div class="discipline-head"><span>English / Prepare 1</span></div><h4>Units 7–8 — My day / At school</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Rotina diária, horários, disciplinas escolares e palavras com dois sentidos; present simple, adverbs, Wh- questions.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Descrever rotina, escola e hábitos de estudo; fazer perguntas sobre vida escolar.</p></div>
+<div><b>Vocabulário-chave</b><p>daily routine, time, school subjects, timetable, study skills</p></div>
+<div><b>Language frames</b><p>I usually... / What time do you...? / My favourite subject is... because...</p></div>
+<div><b>Habilidades observáveis</b><p>Descreve rotina e formula perguntas sobre escola e hábitos.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Daily routine talk, school life interview, timetable comparison.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia autonomia de estudo e repertório escolar.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span></div><h4>Session 2 — Analysis: developing analysis skills</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Análise de informações em diferentes formatos; comparação de perspectivas e identificação de padrões.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Analisar dados simples e explicar o que eles revelam sobre um problema.</p></div>
+<div><b>Vocabulário-chave</b><p>data, perspective, pattern, compare, evidence, result</p></div>
+<div><b>Language frames</b><p>The data suggests... / From another perspective... / A pattern is...</p></div>
+<div><b>Habilidades observáveis</b><p>Interpreta dados e compara perspectivas com sentence frames.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Data talk, perspective sort, evidence discussion.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia análise mais consistente de dados/perspectivas.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span></div><h4>Project 2 — From analysis to action plan</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Plano de ação baseado no mapa do problema e nas evidências analisadas.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Definir uma ação viável, público-alvo, etapas e evidências de sucesso.</p></div>
+<div><b>Vocabulário-chave</b><p>action plan, step, target audience, evidence, success</p></div>
+<div><b>Language frames</b><p>Our action plan has... / The target audience is... / Success means...</p></div>
+<div><b>Habilidades observáveis</b><p>Propõe plano de ação coerente com evidências coletadas.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Action plan template, project timeline.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de planejamento, colaboração e propósito.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Financial Literacy</span></div><h4>Priorities and trade-offs</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Prioridades, escolhas possíveis e trade-offs em projetos com recursos limitados.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Reconhecer que toda escolha envolve renúncia, custo e impacto.</p></div>
+<div><b>Vocabulário-chave</b><p>priority, trade-off, limited resources, benefit, risk</p></div>
+<div><b>Language frames</b><p>If we choose..., we can’t... / The benefit is... / The risk is...</p></div>
+<div><b>Habilidades observáveis</b><p>Compara alternativas considerando benefícios e limitações.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Trade-off cards, budget revision.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia tomada de decisão mais madura.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>STEAM</span></div><h4>Prototype planning</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Planejamento de protótipo/solução: materiais, função, usuários e melhoria esperada.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Planejar um protótipo simples conectado ao problema investigado.</p></div>
+<div><b>Vocabulário-chave</b><p>prototype, material, user, function, design, improve</p></div>
+<div><b>Language frames</b><p>Our prototype will... / It is for... / We need these materials...</p></div>
+<div><b>Habilidades observáveis</b><p>Planeja solução considerando usuário, função e materiais.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Prototype sketch, material list, feedback checklist.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia aplicação prática e planejamento STEAM.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span></div><h4>Discussing routines, data and action plans</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Oralidade para explicar rotinas, comparar dados e apresentar plano de ação em grupo.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Sustentar fala curta com sequência lógica: problema, evidência e plano.</p></div>
+<div><b>Vocabulário-chave</b><p>first, then, finally, data, action, improve</p></div>
+<div><b>Language frames</b><p>First, we found... / Then, we decided... / Finally, we will...</p></div>
+<div><b>Habilidades observáveis</b><p>Apresenta plano com sequência e responde perguntas simples.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Group action pitch, rehearsal with feedback.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia fala organizada e colaboração oral.</p></div>
+</div></article></div></article>
+<article class="month-card accordion-month is-collapsed" id="mes-5"><div aria-controls="mes-5-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 5</span><strong>Junho</strong><p>Saúde, atividades, vida digital e avaliação de fontes/decisões</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-5-conteudo"><article class="discipline-card ready"><div class="discipline-head"><span>English / Prepare 1</span></div><h4>Units 9–10 — Feeling good / Things we do</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Esportes, saúde, after-school activities, jobs around the house; like + -ing, present continuous.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Falar sobre saúde, preferências, atividades do fim de semana e ações em progresso.</p></div>
+<div><b>Vocabulário-chave</b><p>sports, health, activities, chores, weekend, feel</p></div>
+<div><b>Language frames</b><p>I like ...ing / I am ...ing / I feel... because...</p></div>
+<div><b>Habilidades observáveis</b><p>Discute preferências, saúde e ações com present continuous.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Weekend blog, health advice role-play.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia expressão de preferências, bem-estar e ações.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span></div><h4>Session 3 — Evaluation: starting evaluation skills</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Avaliação de fontes, confiabilidade, relevância e força de uma evidência.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Começar a julgar se uma informação ajuda de fato a responder à pergunta.</p></div>
+<div><b>Vocabulário-chave</b><p>evaluate, reliable, relevant, useful, strong evidence, limitation</p></div>
+<div><b>Language frames</b><p>This source is reliable because... / A limitation is... / This evidence is relevant because...</p></div>
+<div><b>Habilidades observáveis</b><p>Julga fontes com critérios simples e reconhece limitações.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Source reliability traffic light, evidence ranking.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia Evaluation inicial e uso de critérios.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span></div><h4>Project 3 — Evidence-based decision</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Revisão do projeto a partir da avaliação de evidências, fontes e critérios de sucesso.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Tomar decisões de projeto com base em evidências mais fortes.</p></div>
+<div><b>Vocabulário-chave</b><p>decision, criteria, reliable, relevant, revise, justify</p></div>
+<div><b>Language frames</b><p>We changed our idea because... / The strongest evidence is...</p></div>
+<div><b>Habilidades observáveis</b><p>Revisa proposta e justifica decisão usando critérios.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Project revision log, evidence ranking board.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de revisão crítica e decisão justificada.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Financial Literacy</span></div><h4>Value, price and responsible choices</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Preço, valor, benefício, risco e decisão responsável em consumo/projeto.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Diferenciar preço e valor e justificar escolhas responsáveis.</p></div>
+<div><b>Vocabulário-chave</b><p>price, value, benefit, risk, responsible choice</p></div>
+<div><b>Language frames</b><p>The price is... but the value is... / This is responsible because...</p></div>
+<div><b>Habilidades observáveis</b><p>Avalia escolhas considerando custo, benefício e impacto.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Value vs price comparison, decision card.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia julgamento financeiro e responsabilidade.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>STEAM</span></div><h4>Evaluate solutions and improve</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Avaliação de soluções/protótipos por critérios: eficiência, custo, impacto e viabilidade.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Testar uma solução e propor melhorias com base em evidências.</p></div>
+<div><b>Vocabulário-chave</b><p>efficient, viable, impact, improve, feedback, test result</p></div>
+<div><b>Language frames</b><p>It worked because... / We need to improve... / The test showed...</p></div>
+<div><b>Habilidades observáveis</b><p>Avalia resultado de teste e sugere melhoria.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Prototype test log, improvement plan.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia avaliação técnica e iteração.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span></div><h4>Giving opinions with evidence</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Oralidade para opinar, avaliar fonte/solução e justificar com evidência.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Usar linguagem para justificar opinião e discordar respeitosamente.</p></div>
+<div><b>Vocabulário-chave</b><p>opinion, evidence, reliable, agree, disagree, improve</p></div>
+<div><b>Language frames</b><p>I agree because... / I disagree because... / My evidence is...</p></div>
+<div><b>Habilidades observáveis</b><p>Participa de discussão curta usando evidência.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Evidence discussion circle, opinion cards.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia argumentação inicial e escuta ativa.</p></div>
+</div></article></div></article>
+<article class="month-card accordion-month is-collapsed" id="mes-6"><div aria-controls="mes-6-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 6</span><strong>Agosto</strong><p>Vida digital, trabalho, internet segura e reflexão sobre aprendizagem</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-6-conteudo"><article class="discipline-card ready"><div class="discipline-head"><span>English / Prepare 1</span></div><h4>Units 11–12 — My digital life / Working life</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Entretenimento, tecnologia, profissões e café; adverbs of frequency, How much/many, present simple/continuous.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Falar sobre vida digital, frequência, tecnologia, trabalho e situações de atendimento.</p></div>
+<div><b>Vocabulário-chave</b><p>technology, entertainment, jobs, café, frequency, online</p></div>
+<div><b>Language frames</b><p>I always/sometimes/never... / How much...? / How many...? / I am working on...</p></div>
+<div><b>Habilidades observáveis</b><p>Descreve hábitos digitais e situações de trabalho/serviço.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Digital habits survey, café role-play, menu task.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia vocabulário digital, trabalho e interação funcional.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span></div><h4>Session 4 — Reflection: starting reflection skills</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Reflexão sobre o que se pensava antes, o que mudou após investigar e como feedback melhora o trabalho.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Reconhecer mudança de pensamento, aprendizagem e próximos passos.</p></div>
+<div><b>Vocabulário-chave</b><p>reflection, feedback, before, now, improve, next step</p></div>
+<div><b>Language frames</b><p>Before, I thought... Now, I think... / Feedback helped me to...</p></div>
+<div><b>Habilidades observáveis</b><p>Explica mudança de perspectiva e identifica melhoria.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Before/now reflection, feedback journal.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia Reflection inicial e metacognição.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span></div><h4>Project 4 — Reflect and redesign</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Reflexão sobre processo do projeto, feedback recebido e redesenho de produto/ação.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Usar feedback para melhorar projeto e explicar escolhas de revisão.</p></div>
+<div><b>Vocabulário-chave</b><p>redesign, feedback, process, improve, version, learning</p></div>
+<div><b>Language frames</b><p>We improved... because... / Our first idea was... Now...</p></div>
+<div><b>Habilidades observáveis</b><p>Revisa produto/ação e explica melhoria feita.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Project version 2, feedback-to-action chart.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de processo, revisão e autonomia.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Financial Literacy</span></div><h4>Digital choices and online responsibility</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Escolhas digitais, consumo online, segurança, dados pessoais e responsabilidade.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Relacionar vida digital a decisões responsáveis, privacidade e riscos.</p></div>
+<div><b>Vocabulário-chave</b><p>online, privacy, data, safe, risk, choice, advertisement</p></div>
+<div><b>Language frames</b><p>We should be careful because... / Personal data is... / The risk is...</p></div>
+<div><b>Habilidades observáveis</b><p>Identifica riscos digitais e recomenda escolhas seguras.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Online safety checklist, responsible choice poster.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia letramento financeiro/digital e responsabilidade.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>STEAM</span></div><h4>Digital data and user needs</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Dados digitais, usuário, necessidade, solução e melhoria de experiência.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Pensar em solução digital simples com foco em usuário e segurança.</p></div>
+<div><b>Vocabulário-chave</b><p>user, need, digital tool, data, privacy, design</p></div>
+<div><b>Language frames</b><p>The user needs... / This tool helps by... / It protects data by...</p></div>
+<div><b>Habilidades observáveis</b><p>Relaciona necessidade de usuário a solução digital segura.</p></div>
+<div><b>Sugestões de prática / produção</b><p>User persona, digital solution sketch.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia pensamento de design e segurança digital.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span></div><h4>Reflecting on learning and digital habits</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Oralidade para refletir sobre hábitos digitais, feedback e aprendizagem.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Falar sobre frequência, hábitos, mudanças e próximos passos.</p></div>
+<div><b>Vocabulário-chave</b><p>always, sometimes, never, feedback, improve, next</p></div>
+<div><b>Language frames</b><p>I used to think... / Now I can... / My next step is...</p></div>
+<div><b>Habilidades observáveis</b><p>Produz reflexão oral curta sobre aprendizagem/hábitos.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Reflection audio, digital habits discussion.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia consciência de aprendizagem e fluência funcional.</p></div>
+</div></article></div></article>
+<article class="month-card accordion-month is-collapsed" id="mes-7"><div aria-controls="mes-7-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 7</span><strong>Setembro</strong><p>Lugares, mobilidade, espaços e colaboração</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-7-conteudo"><article class="discipline-card ready"><div class="discipline-head"><span>English / Prepare 1</span></div><h4>Units 13–14 — Places / Out and about</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Lugares na cidade, adjetivos, transporte e planos; there is/are, prepositions, because/and/but/or, shall we.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Perguntar e responder sobre lugares, transporte e planos de fim de semana.</p></div>
+<div><b>Vocabulário-chave</b><p>places, town, transport, inside, outside, above, below, near</p></div>
+<div><b>Language frames</b><p>Is there a...? / Are there any...? / Shall we...? / Let’s...</p></div>
+<div><b>Habilidades observáveis</b><p>Descreve lugares, dá ideias de passeio e usa preposições.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Town map Q&A, weekend plan email.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia comunicação sobre espaço, mobilidade e escolhas.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span></div><h4>Session 4–5 — Reflection to Collaboration</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Reflexão avançada e início de colaboração: papéis, escuta, negociação e responsabilidade compartilhada.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Usar reflexão para melhorar trabalho em grupo e colaborar com papéis mais claros.</p></div>
+<div><b>Vocabulário-chave</b><p>collaboration, role, listen, negotiate, responsibility, improve</p></div>
+<div><b>Language frames</b><p>My role is... / I listened to... / We agreed to...</p></div>
+<div><b>Habilidades observáveis</b><p>Assume papel, escuta colegas e contribui para decisão coletiva.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Group contract, role reflection, peer feedback.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia colaboração consciente e responsabilidade.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span></div><h4>Project 5 — Collaborative community solution</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Projeto colaborativo conectado a espaço, mobilidade ou uso de recursos na escola/comunidade.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Desenvolver solução em grupo com papéis definidos e critérios de impacto.</p></div>
+<div><b>Vocabulário-chave</b><p>community, mobility, space, solution, role, impact</p></div>
+<div><b>Language frames</b><p>Our solution helps... / My responsibility is... / We decided together...</p></div>
+<div><b>Habilidades observáveis</b><p>Colabora com função clara e contribui para produto coletivo.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Collaborative project board, role checklist.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de colaboração e aplicação local.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Financial Literacy</span></div><h4>Community resources and shared decisions</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Recursos comunitários, decisões compartilhadas, custo coletivo e impacto de escolhas.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Analisar como decisões sobre recursos afetam grupos diferentes.</p></div>
+<div><b>Vocabulário-chave</b><p>community resource, shared cost, benefit, group decision</p></div>
+<div><b>Language frames</b><p>This benefits... / The shared cost is... / We chose this because...</p></div>
+<div><b>Habilidades observáveis</b><p>Explica benefício/custo de decisão compartilhada.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Community resource scenario, group decision task.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia decisão colaborativa e consciência de impacto.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>STEAM</span></div><h4>Design for places and movement</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Design de solução para espaço/mobilidade: mapa, fluxo, acessibilidade e melhoria.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Criar proposta visual/protótipo para melhorar uso de um espaço ou deslocamento.</p></div>
+<div><b>Vocabulário-chave</b><p>map, route, access, flow, model, improve</p></div>
+<div><b>Language frames</b><p>The route goes... / This design improves... / Users can...</p></div>
+<div><b>Habilidades observáveis</b><p>Cria modelo/mapa e explica função da solução.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Route map, space redesign prototype.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia design aplicado e comunicação espacial.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span></div><h4>Negotiating and deciding together</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Oralidade para sugerir, concordar, discordar e negociar decisões de grupo.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Usar linguagem colaborativa para tomar decisões e resolver impasses.</p></div>
+<div><b>Vocabulário-chave</b><p>suggest, agree, disagree, decide, role, reason</p></div>
+<div><b>Language frames</b><p>I suggest... / I agree because... / Can we decide...?</p></div>
+<div><b>Habilidades observáveis</b><p>Participa de negociação guiada e justifica posição.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Group decision role-play, project meeting.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia colaboração oral e escuta.</p></div>
+</div></article></div></article>
+<article class="month-card accordion-month is-collapsed" id="mes-8"><div aria-controls="mes-8-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 8</span><strong>Outubro</strong><p>Consumo, roupas, sustentabilidade e comunicação de soluções</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-8-conteudo"><article class="discipline-card ready"><div class="discipline-head"><span>English / Prepare 1</span></div><h4>Units 15–16 — What shall I wear? / Buy it!</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Roupas, compras, dinheiro e preços; plurals, describing people, need/want to.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Descrever roupas/pessoas e participar de conversas de compra com necessidade e preço.</p></div>
+<div><b>Vocabulário-chave</b><p>clothes, shopping, money, prices, need, want, buy</p></div>
+<div><b>Language frames</b><p>I need to... / I want to... / How much is it? / It costs...</p></div>
+<div><b>Habilidades observáveis</b><p>Descreve itens, expressa necessidade/desejo e simula compra.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Shopping conversation, carnival clothes description.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia vocabulário de consumo e interação social.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span></div><h4>Session 5–6 — Collaboration to Communication</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Colaboração final e comunicação: organizar mensagem, adaptar ao público e apresentar conclusão.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Preparar comunicação clara de processo, evidência, solução e impacto.</p></div>
+<div><b>Vocabulário-chave</b><p>audience, message, conclusion, presentation, impact</p></div>
+<div><b>Language frames</b><p>Our message is... / Our conclusion is... / This matters because...</p></div>
+<div><b>Habilidades observáveis</b><p>Organiza apresentação e adapta linguagem ao público.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Presentation storyboard, audience checklist.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia transição para Communication e síntese.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span></div><h4>Project 6 — Campaign/prototype finalisation</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Finalização de campanha, produto ou protótipo com foco em público, impacto e clareza visual.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Finalizar produto de PBL e preparar apresentação pública.</p></div>
+<div><b>Vocabulário-chave</b><p>campaign, prototype, audience, impact, final product</p></div>
+<div><b>Language frames</b><p>Our final product is... / It helps by... / The impact is...</p></div>
+<div><b>Habilidades observáveis</b><p>Finaliza produto e explica relação com evidências.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Campaign poster, prototype display, project script.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência de produto final e comunicação de impacto.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Financial Literacy</span></div><h4>Responsible consumption and social impact</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Consumo responsável, necessidade x desejo, preço, valor, impacto social/ambiental.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Conectar decisões de compra a responsabilidade e impacto.</p></div>
+<div><b>Vocabulário-chave</b><p>responsible consumption, price, value, impact, need, want</p></div>
+<div><b>Language frames</b><p>I need... but I want... / This choice has an impact because...</p></div>
+<div><b>Habilidades observáveis</b><p>Justifica escolhas de consumo com critérios de impacto.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Responsible shopping task, impact label.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia maturidade em consumo e decisão.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>STEAM</span></div><h4>Improve and communicate a solution</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Melhoria final de solução, comunicação visual, dados e instruções de uso.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Aprimorar solução/protótipo e comunicar como funciona.</p></div>
+<div><b>Vocabulário-chave</b><p>improve, solution, instruction, visual, data, test</p></div>
+<div><b>Language frames</b><p>To use it, you... / We improved... / The data helped us...</p></div>
+<div><b>Habilidades observáveis</b><p>Explica funcionamento de solução com apoio visual.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Final prototype, instruction card, test evidence.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia comunicação técnica e melhoria baseada em dados.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span></div><h4>Presenting solutions to an audience</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Oralidade para apresentar solução, explicar evidência e responder perguntas.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Ensaiar apresentação com abertura, evidência, impacto e Q&A.</p></div>
+<div><b>Vocabulário-chave</b><p>presentation, audience, evidence, impact, question</p></div>
+<div><b>Language frames</b><p>Today we will present... / Our evidence shows... / Any questions?</p></div>
+<div><b>Habilidades observáveis</b><p>Apresenta solução em grupo e responde a perguntas com apoio.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Presentation rehearsal, Q&A practice.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia comunicação pública e confiança.</p></div>
+</div></article></div></article>
+<article class="month-card accordion-month is-collapsed" id="mes-9"><div aria-controls="mes-9-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Mês 9</span><strong>Novembro</strong><p>Clima, natureza, animais, comunicação final e portfolio</p><span class="month-toggle">Abrir</span></div><div class="discipline-grid" id="mes-9-conteudo"><article class="discipline-card ready"><div class="discipline-head"><span>English / Prepare 1</span></div><h4>Units 17–20 — Different places / The weather / A fantastic concert / Animals</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Natureza, clima, férias, música, animais e passado; comparatives, if, prepositions, past simple.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Consolidar descrição, comparação, passado simples e produção final sobre experiências/natureza.</p></div>
+<div><b>Vocabulário-chave</b><p>natural world, weather, holidays, concert, animals, past simple</p></div>
+<div><b>Language frames</b><p>It was... / I went... / If it rains... / ... is bigger than...</p></div>
+<div><b>Habilidades observáveis</b><p>Relata experiências, compara lugares/animais e usa passado simples.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Postcard, past/present Q&A, school year review.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia consolidação linguística anual e comunicação narrativa.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Global Perspectives</span></div><h4>Session 6 — Communication: getting better at communication skills</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Comunicação final: síntese de investigação, evidências, perspectivas, reflexão e recomendação.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Apresentar conclusões de forma clara, usando evidências e respondendo ao público.</p></div>
+<div><b>Vocabulário-chave</b><p>communicate, conclusion, recommendation, reflect, audience</p></div>
+<div><b>Language frames</b><p>In conclusion... / We recommend... / We learned that...</p></div>
+<div><b>Habilidades observáveis</b><p>Comunica processo e conclusão com evidência e reflexão.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Final presentation, portfolio reflection.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia Communication, síntese e prontidão para Year 7.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>PBL</span></div><h4>Year 6 Learning Exhibition</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Exposição final do projeto: problema, pesquisa, análise, decisão, protótipo/campanha e impacto.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Comunicar aprendizagem integrada e selecionar evidências para portfolio/report card.</p></div>
+<div><b>Vocabulário-chave</b><p>exhibition, portfolio, process, evidence, impact, reflection</p></div>
+<div><b>Language frames</b><p>Our project started with... / We changed... / We are proud of...</p></div>
+<div><b>Habilidades observáveis</b><p>Apresenta percurso completo e reflete sobre contribuição individual.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Learning exhibition, portfolio selection, reflection card.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Gera evidência final de PBL, autonomia e comunicação.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Financial Literacy</span></div><h4>Final impact and sustainability reflection</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Reflexão sobre impacto, sustentabilidade, custo/benefício e escolhas futuras.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Avaliar se a solução/projeto é sustentável e que decisões futuras seriam necessárias.</p></div>
+<div><b>Vocabulário-chave</b><p>sustainable, impact, cost-benefit, future choice, responsibility</p></div>
+<div><b>Language frames</b><p>It is sustainable because... / The benefit is... / In the future, we should...</p></div>
+<div><b>Habilidades observáveis</b><p>Avalia impacto e propõe próximos passos responsáveis.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Impact reflection, cost-benefit note.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia pensamento financeiro aplicado e reflexão.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>STEAM</span></div><h4>Final test, improvement and showcase</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Teste final, ajustes, demonstração e explicação técnica do produto/solução.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Demonstrar solução, explicar dados/testes e indicar melhorias futuras.</p></div>
+<div><b>Vocabulário-chave</b><p>showcase, final test, result, improvement, future version</p></div>
+<div><b>Language frames</b><p>Our final test showed... / Next time, we would improve...</p></div>
+<div><b>Habilidades observáveis</b><p>Apresenta solução e explica resultado/teste com clareza.</p></div>
+<div><b>Sugestões de prática / produção</b><p>STEAM showcase, final test sheet.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia ciclo de design, teste e melhoria.</p></div>
+</div></article><article class="discipline-card ready"><div class="discipline-head"><span>Speaking Lab</span></div><h4>Final presentation and reflective Q&A</h4><div class="rubric-fields">
+<div><b>Conteúdos / unidade</b><p>Apresentação final, perguntas do público, reflexão sobre aprendizagem e autoavaliação oral.</p></div>
+<div><b>Objetivos de aprendizagem</b><p>Comunicar trajetória do ano com fluência, evidência e postura adequada ao público.</p></div>
+<div><b>Vocabulário-chave</b><p>presentation, Q&A, reflection, confidence, evidence</p></div>
+<div><b>Language frames</b><p>I learned... / My strongest evidence is... / I can improve by...</p></div>
+<div><b>Habilidades observáveis</b><p>Apresenta, responde perguntas e reflete sobre progresso.</p></div>
+<div><b>Sugestões de prática / produção</b><p>Final oral presentation, Q&A, self-assessment audio.</p></div>
+<div class="wide"><b>Conexão com report card</b><p>Evidencia comunicação final, autonomia e maturidade oral.</p></div>
+</div></article></div></article></div></section>
+<section class="section" id="materiais"><div class="section-heading"><p class="eyebrow">Materiais-base</p><h2>Onde buscar os recursos</h2><p>Use Cambridge GO e as pastas oficiais para consulta ao material-fonte. Esta página organiza a matriz pedagógica comum, sem substituir os livros e documentos oficiais.</p></div><div class="materials-grid"><article class="material-card"><h3>Cambridge GO · Global Perspectives Year 6</h3><p>Student’s Book / Learner’s Skills Book 6 usado como eixo de competências investigativas.</p><a href="https://www.cambridge.org/go/ereader/read/9781009325738/?groupId=0&amp;bookid=3748&amp;root=anon#book/3748" target="_blank" rel="noopener">Abrir Cambridge GO</a></article><article class="material-card"><h3>Drive · Global Perspectives Year 6</h3><p>Guias e matriz pedagógica do Year 6.</p><a href="https://drive.google.com/drive/folders/1scalajgwsSkwoZ5OSsdwLEIHWeCH9AbI" target="_blank" rel="noopener">Abrir pasta</a></article><article class="material-card"><h3>Drive · Prepare 1</h3><p>Materiais de English / Prepare 1 para o Year 6.</p><a href="https://drive.google.com/drive/folders/1LC5Gz6WQo1sD1YGmDN3ug9FY2CZY74iI" target="_blank" rel="noopener">Abrir pasta</a></article></div></section>
+</main>
+<footer class="footer"><span>GSP Teacher Portal</span><span>Fundamental 2 · Year 6 · matriz anual · uso interno</span></footer>
+<script>
+document.querySelectorAll('.accordion-month .month-top').forEach((top) => {
+  const card = top.closest('.accordion-month');
+  const toggle = () => {
+    const collapsed = card.classList.toggle('is-collapsed');
+    top.setAttribute('aria-expanded', String(!collapsed));
+    const label = top.querySelector('.month-toggle');
+    if (label) label.textContent = collapsed ? 'Abrir' : 'Fechar';
+  };
+  top.addEventListener('click', toggle);
+  top.addEventListener('keydown', (event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); toggle(); } });
+});
+document.querySelectorAll('[data-open-month]').forEach((link) => {
+  link.addEventListener('click', () => {
+    const card = document.getElementById(link.dataset.openMonth);
+    if (card && card.classList.contains('is-collapsed')) card.querySelector('.month-top').click();
+  });
+});
+</script>
+</body>
+</html>
