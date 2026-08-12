@@ -251,7 +251,8 @@
       "status": "Estrutura por Year 6–9 preservada; páginas serão conectadas conforme finalização",
       "disciplines": [
         {
-          "name": "Year 6"
+          "name": "Year 6",
+          "localHtml": "pages/fundamental-2-year-6.html"
         },
         {
           "name": "Year 7"
