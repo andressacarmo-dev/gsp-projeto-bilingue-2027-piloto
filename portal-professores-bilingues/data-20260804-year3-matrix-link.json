@@ -238,7 +238,8 @@
           "localHtml": "pages/fundamental-1-year-4.html"
         },
         {
-          "name": "Year 5"
+          "name": "Year 5",
+          "localHtml": "pages/fundamental-1-year-5.html"
         }
       ]
     },
