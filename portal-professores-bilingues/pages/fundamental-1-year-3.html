@@ -586,6 +586,50 @@
 </main>
 <footer class="footer"><strong>Portal dos Professores Bilíngues · GSP</strong><span>Year 3 · Matriz anual · Projeto Bilíngue 2027</span></footer>
 <script>
+(function(){
+  function setMonth(card, open){
+    const top = card.querySelector('.month-top');
+    const toggle = card.querySelector('.month-toggle');
+    card.classList.toggle('is-collapsed', !open);
+    if (top) top.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (toggle) toggle.textContent = open ? 'Fechar' : 'Abrir';
+  }
+  function openMonthById(id){
+    const card = document.getElementById(id);
+    if (!card || !card.classList.contains('accordion-month')) return;
+    setMonth(card, true);
+    card.scrollIntoView({behavior:'smooth', block:'start'});
+  }
+  document.querySelectorAll('.accordion-month .month-top').forEach((top) => {
+    top.addEventListener('click', () => {
+      const card = top.closest('.accordion-month');
+      setMonth(card, card.classList.contains('is-collapsed'));
+    });
+    top.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        const card = top.closest('.accordion-month');
+        setMonth(card, card.classList.contains('is-collapsed'));
+      }
+    });
+  });
+  document.querySelectorAll('[data-open-month]').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      const id = link.getAttribute('data-open-month');
+      if (document.getElementById(id)) {
+        event.preventDefault();
+        openMonthById(id);
+        history.replaceState(null, '', '#' + id);
+      }
+    });
+  });
+  if (location.hash && document.querySelector(location.hash + '.accordion-month')) {
+    setTimeout(() => openMonthById(location.hash.slice(1)), 100);
+  }
+})();
+</script>
+
+<script>
   window.addEventListener('load', () => {
     if (window.location.hash === '#gerador-report-card') {
       const target = document.getElementById('gerador-report-card');
