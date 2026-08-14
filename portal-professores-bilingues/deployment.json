@@ -77,8 +77,11 @@
     "portal-professores-bilingues/pages/fundamental-2-year-6.html",
     "portal-professores-bilingues/pages/report-card-objetivo-year6-term1.html",
     "portal-professores-bilingues/assets/prepare/prepare-a1-level1-reference.jpg",
-    "portal-professores-bilingues/pages/report-card-objetivo-year6-term1-v2.html"
+    "portal-professores-bilingues/pages/report-card-objetivo-year6-term1-v2.html",
+    "portal-professores-bilingues/pages/report-card-objetivo-year6-term2.html",
+    "portal-professores-bilingues/pages/report-card-objetivo-year6-term3.html",
+    "portal-professores-bilingues/pages/report-card-objetivo-year6-term4.html"
   ],
-  "published_at_utc": "2026-08-14T12:54:33Z",
-  "note": "Publicação de URL v2 do piloto Report Card Objetivo Year 6 Term 1 para contornar cache e exibir legenda com 4 cards e emojis."
+  "published_at_utc": "2026-08-14T14:44:37Z",
+  "note": "Publicação dos geradores de Report Card Objetivo Year 6 Terms 2, 3 e 4, mantendo layout do Term 1 e conteúdo alinhado à matriz anual."
 }
