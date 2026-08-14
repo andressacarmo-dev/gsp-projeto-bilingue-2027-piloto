@@ -80,8 +80,21 @@
     "portal-professores-bilingues/pages/report-card-objetivo-year6-term1-v2.html",
     "portal-professores-bilingues/pages/report-card-objetivo-year6-term2.html",
     "portal-professores-bilingues/pages/report-card-objetivo-year6-term3.html",
-    "portal-professores-bilingues/pages/report-card-objetivo-year6-term4.html"
+    "portal-professores-bilingues/pages/report-card-objetivo-year6-term4.html",
+    "portal-professores-bilingues/pages/report-card-ccpa-year6-term1.html",
+    "portal-professores-bilingues/pages/report-card-ccpa-year6-term2.html",
+    "portal-professores-bilingues/pages/report-card-ccpa-year6-term3.html",
+    "portal-professores-bilingues/pages/report-card-ccpa-year6-term4.html",
+    "portal-professores-bilingues/pages/report-card-cja-year6-term1.html",
+    "portal-professores-bilingues/pages/report-card-cja-year6-term2.html",
+    "portal-professores-bilingues/pages/report-card-cja-year6-term3.html",
+    "portal-professores-bilingues/pages/report-card-santo-anjo-year6-term1.html",
+    "portal-professores-bilingues/pages/report-card-santo-anjo-year6-term2.html",
+    "portal-professores-bilingues/pages/report-card-santo-anjo-year6-term3.html",
+    "portal-professores-bilingues/pages/report-card-marupiara-year6-term1.html",
+    "portal-professores-bilingues/pages/report-card-marupiara-year6-term2.html",
+    "portal-professores-bilingues/pages/report-card-marupiara-year6-term3.html"
   ],
-  "published_at_utc": "2026-08-14T14:44:37Z",
-  "note": "Publicação dos geradores de Report Card Objetivo Year 6 Terms 2, 3 e 4, mantendo layout do Term 1 e conteúdo alinhado à matriz anual."
+  "published_at_utc": "2026-08-14T17:27:02Z",
+  "note": "Publicação dos geradores de Report Card Year 6 para CCPA, CJA, Santo Anjo e Marupiara, com logos corretos e divisão trimestral para escolas de 3 terms."
 }
