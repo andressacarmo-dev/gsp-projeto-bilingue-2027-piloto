@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>English Quest · Year 6 · Prepare A1 · Piloto</title>
+  <meta name="description" content="Piloto de avaliação online gamificada Year 6 Prepare 1 A1 para coordenadores bilíngues testarem." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --teal:#00968A; --teal-dark:#006f67; --orange:#E8522D; --yellow:#FFC20E; --lime:#B1E252;
+      --ink:#25313b; --muted:#64717a; --line:#dfe9ef; --bg:#f5f7f4; --card:#ffffff;
+      --soft:#eef7f5; --danger:#c2412d; --ok:#0a7f5a; --shadow:0 24px 70px rgba(0,80,74,.16);
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;padding-top:70px;background:var(--bg);color:var(--ink);font-family:Lexend,Arial,sans-serif;}
+    a{color:inherit}.topbar{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(255,255,255,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .wrap{max-width:1180px;margin:auto;padding:0 22px}.nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:900;color:var(--teal-dark);text-decoration:none}.flag{width:34px;height:34px;border-radius:11px;background:linear-gradient(135deg,var(--teal),var(--lime));display:grid;place-items:center;color:white;box-shadow:0 10px 24px rgba(0,150,138,.25)}
+    .navlinks{display:flex;gap:10px;flex-wrap:wrap}.navlinks a{font-size:13px;font-weight:700;text-decoration:none;padding:10px 12px;border-radius:999px;background:#f0f5f3;color:#37525a}.navlinks a:hover{background:var(--teal);color:white}
+    .hero{position:relative;overflow:hidden;background:radial-gradient(circle at 80% 5%,rgba(255,255,255,.20),transparent 30%),linear-gradient(135deg,var(--teal-dark),var(--teal));color:white}.hero .wrap{padding:38px 22px 34px;display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}
+    .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-size:12px;font-weight:900;opacity:.85}.hero h1{font-size:clamp(36px,5vw,64px);line-height:.95;margin:14px 0 18px;font-weight:900}.lead{font-size:18px;line-height:1.6;max-width:760px}.heroActions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.btn{border:0;border-radius:999px;padding:14px 18px;font:800 14px Lexend;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px}.btn.primary{background:var(--yellow);color:#342a00}.btn.ghost{background:rgba(255,255,255,.16);color:white;border:1px solid rgba(255,255,255,.35)}.btn.secondary{background:var(--teal);color:white}.btn.light{background:#eef7f5;color:var(--teal-dark)}.btn:disabled{opacity:.45;cursor:not-allowed}
+    .alexCard{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.30);border-radius:34px;padding:22px;box-shadow:var(--shadow)}.alexVisual{min-height:280px;border-radius:28px;background:linear-gradient(150deg,#e9fffb,#fff7d1);display:grid;place-items:center;position:relative;overflow:hidden;color:var(--ink)}
+    .alexVisual:before{content:"";position:absolute;inset:auto -30px -55px auto;width:210px;height:210px;border-radius:50%;background:var(--lime);opacity:.85}.alexVisual:after{content:"";position:absolute;inset:22px auto auto 22px;width:96px;height:96px;border-radius:28px;background:var(--orange);opacity:.88;transform:rotate(-8deg)}
+    .avatar{position:relative;z-index:1;width:150px;height:188px}.head{width:116px;height:116px;border-radius:48% 48% 44% 44%;background:#f1bf8f;margin:auto;position:relative;box-shadow:inset 0 -7px 0 rgba(0,0,0,.06)}.hair{position:absolute;left:15px;top:-8px;width:86px;height:44px;border-radius:44px 44px 20px 18px;background:#57331f;transform:rotate(-4deg)}.eye{position:absolute;top:57px;width:10px;height:10px;border-radius:50%;background:#1d2930}.eye.l{left:36px}.eye.r{right:36px}.smile{position:absolute;left:45px;top:79px;width:26px;height:14px;border-bottom:4px solid #9b4a3a;border-radius:0 0 28px 28px}.body{width:150px;height:100px;margin:-2px auto 0;border-radius:34px 34px 18px 18px;background:linear-gradient(135deg,var(--teal),#0d6a90);position:relative}.body:before{content:"CANADA";position:absolute;left:37px;top:28px;font-size:13px;font-weight:900;color:white}.tag{position:absolute;right:18px;bottom:18px;z-index:2;background:white;border-radius:16px;padding:12px 14px;box-shadow:0 10px 30px rgba(0,0,0,.12);font-size:13px}.tag strong{display:block;color:var(--teal-dark)}
+    main{padding:36px 0 80px}.panel{background:var(--card);border:1px solid var(--line);border-radius:30px;padding:26px;box-shadow:0 18px 50px rgba(20,40,50,.07);margin:22px 0}.sectionTitle{font-size:28px;margin:0 0 8px}.muted{color:var(--muted);line-height:1.6}.grid{display:grid;gap:18px}.grid.cols3{grid-template-columns:repeat(3,1fr)}.grid.cols2{grid-template-columns:repeat(2,1fr)}.mini{background:#f7faf8;border:1px solid var(--line);border-radius:22px;padding:18px}.mini strong{color:var(--teal-dark)}
+    .progressBox{display:grid;gap:12px;margin:20px 0}.progressMeta{display:flex;justify-content:space-between;font-size:13px;font-weight:800;color:var(--muted)}.bar{height:13px;background:#e7efec;border-radius:999px;overflow:hidden}.bar span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--teal),var(--lime));transition:.25s}
+    .mission{display:none}.mission.active{display:block}.missionHead{display:flex;gap:18px;align-items:center;margin-bottom:20px}.badge{min-width:58px;height:58px;border-radius:20px;background:var(--teal);color:white;display:grid;place-items:center;font-size:24px;font-weight:900}.mission h2{font-size:30px;margin:0}.story{background:linear-gradient(135deg,#f0fbf9,#fff9df);border:1px solid #dbeee7;border-radius:24px;padding:18px;margin:16px 0;color:#304047;line-height:1.6}.question{border:1px solid var(--line);border-radius:24px;background:white;margin:16px 0;padding:18px}.qtop{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.qtitle{font-weight:900;margin-bottom:12px}.skill{font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:900;color:var(--teal);background:#e9f8f5;border-radius:999px;padding:6px 9px;white-space:nowrap}.options{display:grid;gap:10px}.option{display:flex;gap:10px;align-items:flex-start;border:1px solid #dfe9ef;border-radius:16px;padding:12px;background:#fbfdfc;cursor:pointer}.option:hover{border-color:var(--teal)}.option input{margin-top:3px}.option.correct{border-color:rgba(10,127,90,.35);background:#effaf5}.option.wrong{border-color:rgba(194,65,45,.35);background:#fff1ed}.table{border-collapse:separate;border-spacing:0;width:100%;overflow:hidden;border-radius:18px;border:1px solid var(--line);font-size:14px}.table th{background:#e9f8f5;color:var(--teal-dark)}.table th,.table td{padding:10px;border-bottom:1px solid var(--line);text-align:left}.table tr:last-child td{border-bottom:0}.visualPrompt{border:2px dashed #cde5df;border-radius:20px;min-height:120px;display:flex;align-items:center;justify-content:center;background:#f8fcfa;color:var(--muted);font-weight:800;text-align:center;padding:14px;margin:10px 0}.writing textarea{width:100%;min-height:160px;border:1px solid var(--line);border-radius:18px;padding:16px;font:500 16px Lexend;resize:vertical}.help{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.pill{background:#f0f5f3;color:#40555c;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:800}.actions{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:24px}.result{display:none}.scoreHero{display:grid;grid-template-columns:220px 1fr;gap:24px;align-items:center}.scoreCircle{width:190px;height:190px;border-radius:50%;background:conic-gradient(var(--teal) var(--pct),#e7efec 0);display:grid;place-items:center;margin:auto}.scoreInner{width:142px;height:142px;border-radius:50%;background:white;display:grid;place-items:center;text-align:center;box-shadow:inset 0 0 0 1px var(--line)}.scoreInner strong{font-size:38px;color:var(--teal-dark)}.skillRows{display:grid;gap:10px;margin-top:18px}.skillRow{display:grid;grid-template-columns:150px 1fr 58px;gap:12px;align-items:center}.smallbar{height:10px;background:#e7efec;border-radius:999px;overflow:hidden}.smallbar span{display:block;height:100%;background:linear-gradient(90deg,var(--orange),var(--yellow),var(--teal));}.reportText{white-space:pre-wrap;background:#f7faf8;border:1px solid var(--line);border-radius:22px;padding:18px;line-height:1.6}.notice{border-left:6px solid var(--orange);background:#fff7ef;border-radius:18px;padding:14px 16px;color:#5b3926;font-size:14px}.feedback{background:#edf8f6;border:1px solid #cce7e3;border-radius:24px;padding:18px}.hidden{display:none!important}
+    @media (max-width:860px){.hero .wrap,.scoreHero,.grid.cols2,.grid.cols3{grid-template-columns:1fr}.nav{height:auto;padding:14px 0;align-items:flex-start}.navlinks{justify-content:flex-end}.missionHead{align-items:flex-start}.skillRow{grid-template-columns:1fr}.alexVisual{min-height:260px}.panel{padding:18px;border-radius:22px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="../index.html"><span class="flag">🌙</span><span>GSP Teacher Portal</span></a>
+      <nav class="navlinks">
+        <a href="#overview">Visão geral</a><a href="#quest">Começar</a><a href="#report">Relatório</a><a href="../index.html">Voltar ao portal</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Piloto interno · Year 6 · Prepare 1 · A1</p>
+        <h1>English Quest</h1>
+        <p class="lead">Uma jornada gamificada para testar recortes do primeiro semestre do Prepare 1 em contexto escolar real: receber um estudante internacional e ajudá-lo a se sentir bem-vindo.</p>
+        <div class="heroActions">
+          <a class="btn primary" href="#quest">Começar piloto</a>
+          <a class="btn ghost" href="#overview">Ver estrutura</a>
+        </div>
+      </div>
+      <aside class="alexCard" aria-label="Perfil do personagem Alex">
+        <div class="alexVisual">
+          <div class="avatar" aria-hidden="true"><div class="head"><div class="hair"></div><div class="eye l"></div><div class="eye r"></div><div class="smile"></div></div><div class="body"></div></div>
+          <div class="tag"><strong>Alex Miller</strong>12 · Toronto, Canada<br/>friendly · curious · nervous</div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <section class="panel" id="overview">
+      <p class="eyebrow">Para coordenadores</p>
+      <h2 class="sectionTitle">O que este piloto testa</h2>
+      <p class="muted">Esta versão é um protótipo navegável. Ela ainda não usa IA real no backend; simula score, classificação e relatório para validarmos experiência, nível, linguagem, tempo e utilidade pedagógica antes da implementação completa.</p>
+      <div class="grid cols3">
+        <div class="mini"><strong>Conteúdo</strong><br/>Prepare 1 · Units 0–10, por recortes conectados.</div>
+        <div class="mini"><strong>Nível</strong><br/>A1, com frases curtas, leitura simples e writing guiado.</div>
+        <div class="mini"><strong>Relatório</strong><br/>Resultado individual para coordenação, com trilha sugerida.</div>
+      </div>
+      <p class="notice"><strong>Importante:</strong> o objetivo não é testar tudo do semestre. A jornada usa conteúdos selecionados que fazem sentido dentro da narrativa.</p>
+    </section>
+
+    <section class="panel" id="quest">
+      <div class="progressBox">
+        <div class="progressMeta"><span id="progressLabel">Mission 1 de 5</span><span id="answeredLabel">0 respostas</span></div>
+        <div class="bar"><span id="progressBar"></span></div>
+      </div>
+
+      <form id="questForm">
+        <section class="mission active" data-mission="1">
+          <div class="missionHead"><div class="badge">1</div><div><p class="eyebrow">Mission 1</p><h2>Welcome, Alex!</h2><p class="muted">Entender informações pessoais básicas e revisar apresentação pessoal.</p></div></div>
+          <div class="story">Alex is a new exchange student from Canada. Read his profile and help him start his first day at school.</div>
+          <div class="question" data-skill="Reading" data-answer="B"><div class="qtop"><div class="qtitle">1. Read Alex's profile. Where is Alex from?</div><span class="skill">Reading</span></div><p><strong>Name:</strong> Alex Miller · <strong>Age:</strong> 12 · <strong>Country:</strong> Canada · <strong>City:</strong> Toronto</p><div class="options"><label class="option"><input type="radio" name="q1" value="A">Brazil</label><label class="option"><input type="radio" name="q1" value="B">Canada</label><label class="option"><input type="radio" name="q1" value="C">England</label><label class="option"><input type="radio" name="q1" value="D">Spain</label></div></div>
+          <div class="question" data-skill="Grammar" data-answer="C"><div class="qtop"><div class="qtitle">2. Choose the correct sentence.</div><span class="skill">Grammar</span></div><div class="options"><label class="option"><input type="radio" name="q2" value="A">Alex am from Canada.</label><label class="option"><input type="radio" name="q2" value="B">Alex are from Canada.</label><label class="option"><input type="radio" name="q2" value="C">Alex is from Canada.</label><label class="option"><input type="radio" name="q2" value="D">Alex be from Canada.</label></div></div>
+          <div class="question" data-skill="Vocabulary" data-answer="A"><div class="qtop"><div class="qtitle">3. Alex is from Canada. He is...</div><span class="skill">Vocabulary</span></div><div class="options"><label class="option"><input type="radio" name="q3" value="A">Canadian</label><label class="option"><input type="radio" name="q3" value="B">Brazilian</label><label class="option"><input type="radio" name="q3" value="C">Spanish</label><label class="option"><input type="radio" name="q3" value="D">French</label></div></div>
+          <div class="question" data-skill="Vocabulary" data-answer="B"><div class="qtop"><div class="qtitle">4. Alex does not understand the teacher. What can he say?</div><span class="skill">Functional language</span></div><div class="options"><label class="option"><input type="radio" name="q4" value="A">I am twelve.</label><label class="option"><input type="radio" name="q4" value="B">Can you repeat, please?</label><label class="option"><input type="radio" name="q4" value="C">This is my pencil.</label><label class="option"><input type="radio" name="q4" value="D">I like pizza.</label></div></div>
+          <div class="question" data-skill="Grammar" data-answer="C"><div class="qtop"><div class="qtitle">5. Look at the school bag. Choose the correct sentence.</div><span class="skill">Grammar</span></div><div class="visualPrompt">Imagem futura: mochila com 1 notebook e 2 livros</div><div class="options"><label class="option"><input type="radio" name="q5" value="A">This are my notebook.</label><label class="option"><input type="radio" name="q5" value="B">These is my books.</label><label class="option"><input type="radio" name="q5" value="C">This is my notebook.</label><label class="option"><input type="radio" name="q5" value="D">This my notebook is.</label></div></div>
+        </section>
+
+        <section class="mission" data-mission="2">
+          <div class="missionHead"><div class="badge">2</div><div><p class="eyebrow">Mission 2</p><h2>Show Alex Around</h2><p class="muted">Ajudar Alex a entender a escola, espaços, rotina e horários.</p></div></div>
+          <div class="story">Alex wants to know your school. Show him important places, subjects and his first timetable.</div>
+          <div class="question" data-skill="Vocabulary" data-answer="A"><div class="qtop"><div class="qtitle">6. Alex wants to read a book. Where can he go?</div><span class="skill">Vocabulary</span></div><div class="options"><label class="option"><input type="radio" name="q6" value="A">The library</label><label class="option"><input type="radio" name="q6" value="B">The cafeteria</label><label class="option"><input type="radio" name="q6" value="C">The bathroom</label><label class="option"><input type="radio" name="q6" value="D">The playground</label></div></div>
+          <div class="question" data-skill="Grammar" data-answer="B"><div class="qtop"><div class="qtitle">7. Look at the library. Choose the correct sentence.</div><span class="skill">Grammar</span></div><div class="visualPrompt">Imagem futura: biblioteca com uma mesa e muitos livros</div><div class="options"><label class="option"><input type="radio" name="q7" value="A">There is many books.</label><label class="option"><input type="radio" name="q7" value="B">There are many books.</label><label class="option"><input type="radio" name="q7" value="C">There are a table.</label><label class="option"><input type="radio" name="q7" value="D">There is students.</label></div></div>
+          <div class="question" data-skill="Reading" data-answer="B"><div class="qtop"><div class="qtitle">8. What class is at 9:00?</div><span class="skill">Reading</span></div><table class="table"><tr><th>Time</th><th>Class</th></tr><tr><td>8:00</td><td>English</td></tr><tr><td>9:00</td><td>Science</td></tr><tr><td>10:00</td><td>Break</td></tr><tr><td>10:30</td><td>Math</td></tr></table><div class="options"><label class="option"><input type="radio" name="q8" value="A">English</label><label class="option"><input type="radio" name="q8" value="B">Science</label><label class="option"><input type="radio" name="q8" value="C">Break</label><label class="option"><input type="radio" name="q8" value="D">Math</label></div></div>
+          <div class="question" data-skill="Grammar" data-answer="B"><div class="qtop"><div class="qtitle">9. Alex says: "English is at 8:00." Choose the best question.</div><span class="skill">Grammar</span></div><div class="options"><label class="option"><input type="radio" name="q9" value="A">Where is English?</label><label class="option"><input type="radio" name="q9" value="B">What time is English?</label><label class="option"><input type="radio" name="q9" value="C">Who is English?</label><label class="option"><input type="radio" name="q9" value="D">How many English?</label></div></div>
+          <div class="question" data-skill="Grammar" data-answer="A"><div class="qtop"><div class="qtitle">10. Choose the correct sentence.</div><span class="skill">Grammar</span></div><div class="options"><label class="option"><input type="radio" name="q10" value="A">I study English on Monday.</label><label class="option"><input type="radio" name="q10" value="B">I studies English on Monday.</label><label class="option"><input type="radio" name="q10" value="C">I studying English on Monday.</label><label class="option"><input type="radio" name="q10" value="D">I am study English on Monday.</label></div></div>
+        </section>
+
+        <section class="mission" data-mission="3">
+          <div class="missionHead"><div class="badge">3</div><div><p class="eyebrow">Mission 3</p><h2>Plan the Welcome Day</h2><p class="muted">Planejar atividades, horário e lanche com base nas preferências de Alex.</p></div></div>
+          <div class="story">Alex sends a voice message. Listen and choose good activities for Welcome Day.</div>
+          <div class="question" data-skill="Listening" data-answer="B"><div class="qtop"><div class="qtitle">11. Listen: What can Alex do?</div><span class="skill">Listening</span></div><button class="btn light speak" type="button" data-text="Hi! I'm Alex. I can play basketball and I can draw. I can't swim. I like music and games. I don't like orange juice. My favourite snack is a sandwich.">▶ Ouvir mensagem de Alex</button><div class="options"><label class="option"><input type="radio" name="q11" value="A">He can swim.</label><label class="option"><input type="radio" name="q11" value="B">He can play basketball.</label><label class="option"><input type="radio" name="q11" value="C">He can cook.</label><label class="option"><input type="radio" name="q11" value="D">He can dance.</label></div></div>
+          <div class="question" data-skill="Listening" data-answer="B"><div class="qtop"><div class="qtitle">12. Listen again: What snack does Alex like?</div><span class="skill">Listening</span></div><button class="btn light speak" type="button" data-text="Hi! I'm Alex. I can play basketball and I can draw. I can't swim. I like music and games. I don't like orange juice. My favourite snack is a sandwich.">▶ Ouvir novamente</button><div class="options"><label class="option"><input type="radio" name="q12" value="A">Orange juice</label><label class="option"><input type="radio" name="q12" value="B">A sandwich</label><label class="option"><input type="radio" name="q12" value="C">Fish</label><label class="option"><input type="radio" name="q12" value="D">Cake</label></div></div>
+          <div class="question" data-skill="Grammar" data-answer="C"><div class="qtop"><div class="qtitle">13. Choose the correct sentence.</div><span class="skill">Grammar</span></div><div class="options"><label class="option"><input type="radio" name="q13" value="A">Alex can to play basketball.</label><label class="option"><input type="radio" name="q13" value="B">Alex cans play basketball.</label><label class="option"><input type="radio" name="q13" value="C">Alex can play basketball.</label><label class="option"><input type="radio" name="q13" value="D">Alex can plays basketball.</label></div></div>
+          <div class="question" data-skill="Grammar" data-answer="A"><div class="qtop"><div class="qtitle">14. Choose the correct sentence for the Welcome Day table.</div><span class="skill">Grammar</span></div><div class="options"><label class="option"><input type="radio" name="q14" value="A">There are some sandwiches.</label><label class="option"><input type="radio" name="q14" value="B">There is any sandwiches.</label><label class="option"><input type="radio" name="q14" value="C">There aren't some juice.</label><label class="option"><input type="radio" name="q14" value="D">There are any sandwich.</label></div></div>
+          <div class="question" data-skill="Reading" data-answer="B"><div class="qtop"><div class="qtitle">15. What time is Art club?</div><span class="skill">Reading</span></div><p><strong>Welcome Day Plan:</strong> Basketball: 2:00 · Art club: 3:00 · Snack time: 4:00</p><div class="options"><label class="option"><input type="radio" name="q15" value="A">Two o'clock</label><label class="option"><input type="radio" name="q15" value="B">Three o'clock</label><label class="option"><input type="radio" name="q15" value="C">Four o'clock</label><label class="option"><input type="radio" name="q15" value="D">Five o'clock</label></div></div>
+        </section>
+
+        <section class="mission" data-mission="4">
+          <div class="missionHead"><div class="badge">4</div><div><p class="eyebrow">Mission 4</p><h2>Help Alex Feel Good</h2><p class="muted">Interpretar sentimentos, saúde, preferências e ações em andamento.</p></div></div>
+          <div class="story">Alex sends you a message: “Hi! Today I feel tired. I like playing basketball, but now I am sitting in the classroom. I want to drink water. I am a little nervous about the Welcome Day.”</div>
+          <div class="question" data-skill="Reading" data-answer="A"><div class="qtop"><div class="qtitle">16. How does Alex feel today?</div><span class="skill">Reading</span></div><div class="options"><label class="option"><input type="radio" name="q16" value="A">Tired and a little nervous</label><label class="option"><input type="radio" name="q16" value="B">Angry and hungry</label><label class="option"><input type="radio" name="q16" value="C">Happy and sleepy only</label><label class="option"><input type="radio" name="q16" value="D">Sick and cold</label></div></div>
+          <div class="question" data-skill="Grammar" data-answer="C"><div class="qtop"><div class="qtitle">17. Choose the correct sentence.</div><span class="skill">Grammar</span></div><div class="options"><label class="option"><input type="radio" name="q17" value="A">Alex likes play basketball.</label><label class="option"><input type="radio" name="q17" value="B">Alex like playing basketball.</label><label class="option"><input type="radio" name="q17" value="C">Alex likes playing basketball.</label><label class="option"><input type="radio" name="q17" value="D">Alex liking basketball.</label></div></div>
+          <div class="question" data-skill="Grammar" data-answer="A"><div class="qtop"><div class="qtitle">18. What is Alex doing now?</div><span class="skill">Grammar</span></div><div class="options"><label class="option"><input type="radio" name="q18" value="A">He is sitting in the classroom.</label><label class="option"><input type="radio" name="q18" value="B">He sits every day.</label><label class="option"><input type="radio" name="q18" value="C">He sitting in the classroom.</label><label class="option"><input type="radio" name="q18" value="D">He is sit in the classroom.</label></div></div>
+          <div class="question" data-skill="Vocabulary" data-answer="A"><div class="qtop"><div class="qtitle">19. Alex wants to drink water. What can you say?</div><span class="skill">Functional language</span></div><div class="options"><label class="option"><input type="radio" name="q19" value="A">You can drink water.</label><label class="option"><input type="radio" name="q19" value="B">You can play water.</label><label class="option"><input type="radio" name="q19" value="C">You can't drink.</label><label class="option"><input type="radio" name="q19" value="D">You are water.</label></div></div>
+          <div class="question" data-skill="Reading" data-answer="B"><div class="qtop"><div class="qtitle">20. Choose the best reply to Alex.</div><span class="skill">Reading</span></div><div class="options"><label class="option"><input type="radio" name="q20" value="A">Go away, Alex.</label><label class="option"><input type="radio" name="q20" value="B">You can drink water. Welcome Day will be fun!</label><label class="option"><input type="radio" name="q20" value="C">I don't know your name.</label><label class="option"><input type="radio" name="q20" value="D">There are many pencils.</label></div></div>
+        </section>
+
+        <section class="mission writing" data-mission="5">
+          <div class="missionHead"><div class="badge">5</div><div><p class="eyebrow">Final Challenge</p><h2>Write a Message to Alex</h2><p class="muted">Escrever uma mensagem curta de boas-vindas com informações úteis.</p></div></div>
+          <div class="story">Write a short message to Alex. Welcome Alex to your school. Say your name, say one thing about your school, say one activity for Welcome Day, and give one tip.</div>
+          <div class="question"><div class="qtop"><div class="qtitle">21. Your message — 40 to 70 words if you can.</div><span class="skill">Writing</span></div><textarea id="writing" placeholder="Hi, Alex! My name is..."></textarea><div class="help"><span class="pill">Hi, Alex!</span><span class="pill">My name is...</span><span class="pill">There is / There are...</span><span class="pill">We can...</span><span class="pill">You can...</span><span class="pill">Welcome to our school!</span></div><p class="muted">Nesta versão piloto, a correção do writing é simulada por critérios locais. Na versão final, entra a IA com rubrica completa.</p></div>
+        </section>
+
+        <div class="actions"><button class="btn light" id="prevBtn" type="button">← Voltar</button><button class="btn secondary" id="nextBtn" type="button">Próxima missão →</button><button class="btn primary hidden" id="finishBtn" type="button">Gerar relatório piloto</button></div>
+      </form>
+    </section>
+
+    <section class="panel result" id="report">
+      <p class="eyebrow">Relatório individual · simulação</p>
+      <h2 class="sectionTitle">Resultado do piloto</h2>
+      <div class="scoreHero"><div class="scoreCircle" id="scoreCircle" style="--pct:0%"><div class="scoreInner"><div><strong id="scoreNum">0</strong><br/><span id="scoreLevel">A1</span></div></div></div><div><h3 id="levelTitle">Nível estimado</h3><p class="muted" id="summaryText"></p><div class="skillRows" id="skillRows"></div></div></div>
+      <h3>Relatório para coordenação</h3><div class="reportText" id="reportText"></div>
+      <div class="actions"><button class="btn light" id="copyReport" type="button">Copiar relatório</button><button class="btn secondary" id="restart" type="button">Refazer quest</button></div>
+    </section>
+
+    <section class="panel feedback">
+      <p class="eyebrow">Feedback dos coordenadores</p>
+      <h2 class="sectionTitle">O que observar no teste</h2>
+      <div class="grid cols2"><div class="mini"><strong>Experiência</strong><br/>A jornada parece atrativa para Year 6? O Alex funciona como personagem?</div><div class="mini"><strong>Nível</strong><br/>As questões estão A1 ou parecem fáceis/difíceis demais?</div><div class="mini"><strong>Conteúdo</strong><br/>Os recortes do Prepare fazem sentido para o primeiro semestre?</div><div class="mini"><strong>Relatório</strong><br/>A devolutiva ajuda a coordenação a orientar próximos passos?</div></div>
+    </section>
+  </main>
+
+<script>
+(function(){
+  const missions=[...document.querySelectorAll('.mission')]; let current=0;
+  const prev=document.getElementById('prevBtn'), next=document.getElementById('nextBtn'), finish=document.getElementById('finishBtn');
+  const progressBar=document.getElementById('progressBar'), progressLabel=document.getElementById('progressLabel'), answeredLabel=document.getElementById('answeredLabel');
+  const objectiveQuestions=[...document.querySelectorAll('.question[data-answer]')];
+  const maxObjective=objectiveQuestions.length; const maxWriting=10; const maxScore=maxObjective+maxWriting;
+  const skillMap={Vocabulary:{score:0,total:0},Grammar:{score:0,total:0},Reading:{score:0,total:0},Listening:{score:0,total:0},Writing:{score:0,total:10}};
+  function show(){missions.forEach((m,i)=>m.classList.toggle('active',i===current)); prev.disabled=current===0; next.classList.toggle('hidden',current===missions.length-1); finish.classList.toggle('hidden',current!==missions.length-1); progressLabel.textContent=`Mission ${current+1} de ${missions.length}`; progressBar.style.width=((current)/(missions.length-1)*100)+'%'; updateAnswered(); document.getElementById('quest').scrollIntoView({behavior:'smooth',block:'start'});}
+  function updateAnswered(){const answered=new Set([...document.querySelectorAll('input[type=radio]:checked')].map(i=>i.name)); const w=document.getElementById('writing').value.trim(); answeredLabel.textContent=`${answered.size}${w?' + writing':''} respostas`;}
+  document.addEventListener('change',e=>{if(e.target.matches('input[type=radio]')) updateAnswered();}); document.getElementById('writing').addEventListener('input',updateAnswered);
+  prev.onclick=()=>{if(current>0){current--;show();}}; next.onclick=()=>{if(current<missions.length-1){current++;show();}};
+  document.querySelectorAll('.speak').forEach(btn=>btn.addEventListener('click',()=>{ if(!('speechSynthesis' in window)){alert('Seu navegador não ativou áudio por fala automática.');return;} speechSynthesis.cancel(); const u=new SpeechSynthesisUtterance(btn.dataset.text); u.lang='en-US'; u.rate=.82; speechSynthesis.speak(u); }));
+  function writingScore(text){
+    text=(text||'').trim(); if(!text) return {score:0,notes:['Writing em branco.']};
+    const lower=text.toLowerCase(); const words=text.split(/\s+/).filter(Boolean).length; let score=0; let notes=[];
+    const checks=[/hi|hello|dear/.test(lower), /my name is|i am|i'm/.test(lower), /school|classroom|library|teacher|student|english/.test(lower), /basketball|music|art|welcome day|play|listen|draw/.test(lower), /you can|drink water|welcome|friends|feel|tip/.test(lower)];
+    const task=checks.filter(Boolean).length; score+= task>=4?2: task>=2?1:0; if(task<4) notes.push('Pode incluir mais elementos pedidos no prompt.');
+    score+= words>=35?2: words>=18?1:0; if(words<35) notes.push('Mensagem curta; pode desenvolver um pouco mais.');
+    const vocab=['welcome','school','class','library','basketball','music','water','friends','alex','can','there'].filter(w=>lower.includes(w)).length; score+=vocab>=5?2:vocab>=2?1:0;
+    const grammar=[/there is|there are/.test(lower), /we can|you can|i can/.test(lower), /my name is|i am|i'm/.test(lower), /i like|he likes|alex likes/.test(lower)].filter(Boolean).length; score+=grammar>=3?2:grammar>=1?1:0;
+    score+= /[.!?]/.test(text) && words>=20 ?2:1;
+    return {score:Math.min(10,score),notes};
+  }
+  function classify(total){const pct=total/maxScore; if(pct<.45) return ['A1 em consolidação','O aluno demonstra repertório inicial, mas ainda precisa de bastante apoio para compreender e produzir linguagem em contextos familiares.']; if(pct<.75) return ['A1 funcional','O aluno compreende e usa estruturas simples em contextos familiares, com pontos específicos para fortalecer.']; return ['A1+ / em transição para A2','O aluno usa repertório A1 com boa autonomia e começa a conectar informações em tarefas simples.'];}
+  function trail(skills){const sorted=Object.entries(skills).filter(([k,v])=>v.total>0).map(([k,v])=>[k, v.score/v.total]).sort((a,b)=>a[1]-b[1]); const low=sorted[0]?.[0]||'Vocabulary'; const map={Vocabulary:'Build Your Basics',Grammar:'My School Routine',Reading:'My School Routine',Listening:'Listen and Understand',Writing:'Write a Better Message'}; return map[low]||'Build Your Basics';}
+  finish.onclick=()=>{
+    Object.keys(skillMap).forEach(k=>{skillMap[k].score=0;if(k!=='Writing')skillMap[k].total=0;}); let objScore=0;
+    objectiveQuestions.forEach(q=>{const ans=q.dataset.answer; const skill=q.dataset.skill; const name=q.querySelector('input')?.name; const picked=document.querySelector(`input[name="${name}"]:checked`); const ok=picked && picked.value===ans; const key=skill==='Functional language'?'Vocabulary':skill; skillMap[key].total++; if(ok){objScore++; skillMap[key].score++;} q.querySelectorAll('.option').forEach(o=>{const inp=o.querySelector('input'); o.classList.toggle('correct', inp.value===ans); o.classList.toggle('wrong', picked && inp.checked && inp.value!==ans);}); });
+    const w=writingScore(document.getElementById('writing').value); skillMap.Writing.score=w.score; const total=objScore+w.score; const pct=Math.round(total/maxScore*100); const [level,summary]=classify(total); const recommended=trail(skillMap);
+    document.getElementById('scoreCircle').style.setProperty('--pct',pct+'%'); document.getElementById('scoreNum').textContent=total+'/'+maxScore; document.getElementById('scoreLevel').textContent=pct+'%'; document.getElementById('levelTitle').textContent=level; document.getElementById('summaryText').textContent=summary;
+    const rows=document.getElementById('skillRows'); rows.innerHTML=''; Object.entries(skillMap).forEach(([k,v])=>{const sp=Math.round((v.score/v.total)*100)||0; const label={Vocabulary:'Vocabulary',Grammar:'Grammar in use',Reading:'Reading',Listening:'Listening',Writing:'Writing'}[k]; rows.insertAdjacentHTML('beforeend',`<div class="skillRow"><strong>${label}</strong><div class="smallbar"><span style="width:${sp}%"></span></div><span>${v.score}/${v.total}</span></div>`);});
+    const strengths=[]; const points=[]; Object.entries(skillMap).forEach(([k,v])=>{const ratio=v.score/v.total; const label={Vocabulary:'vocabulário em contexto',Grammar:'gramática em uso',Reading:'leitura',Listening:'listening',Writing:'writing'}[k]; if(ratio>=.7) strengths.push(`bom desempenho em ${label}`); if(ratio<.55) points.push(`fortalecer ${label}`);});
+    const report=`Student: [nome do aluno]\nQuest: English Quest · Year 6 · Prepare 1 · First Semester\nEstimated level: ${level}\nOverall score: ${total}/${maxScore} (${pct}%)\n\n1. Comentário geral\n${summary}\n\n2. Pontos fortes\n- ${(strengths.length?strengths:['participação na jornada e resposta às tarefas objetivas']).slice(0,3).join('\n- ')}\n\n3. Pontos de atenção\n- ${(points.length?points:['manter prática regular para consolidar repertório A1']).slice(0,3).join('\n- ')}\n\n4. Trilha recomendada\n${recommended}\n\n5. Próximos passos sugeridos\n- Retomar os itens com menor desempenho em atividades curtas e contextualizadas.\n- Propor prática de vocabulário e estruturas em situações de escola/rotina.\n- Reaplicar uma miniatividade em 2 a 3 semanas para observar evolução.\n\nObservação de piloto: este relatório é uma simulação local. Na versão final, a análise de writing e o comentário individualizado serão gerados por IA com rubrica pedagógica.`;
+    document.getElementById('reportText').textContent=report; document.getElementById('report').style.display='block'; document.getElementById('report').scrollIntoView({behavior:'smooth'});
+  };
+  document.getElementById('copyReport').onclick=()=>navigator.clipboard.writeText(document.getElementById('reportText').textContent).then(()=>alert('Relatório copiado.'));
+  document.getElementById('restart').onclick=()=>{document.getElementById('questForm').reset(); document.querySelectorAll('.option').forEach(o=>o.classList.remove('correct','wrong')); document.getElementById('report').style.display='none'; current=0; show();};
+  show();
+})();
+</script>
+</body>
+</html>
