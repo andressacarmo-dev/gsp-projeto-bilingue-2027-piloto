@@ -100,6 +100,34 @@
   .topbar,.hero,#quest,#coordinationReportCard,#report>.eyebrow,#report>.sectionTitle,#report>.scoreHero,.printActions,.printHint{display:none!important}
 }
 
+
+/* Print must preserve the on-screen family report layout */
+@media print{
+  @page{size:A4;margin:10mm}
+  html,body{width:auto!important;min-height:auto!important;margin:0!important;padding:0!important;background:#fff!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important;color-adjust:exact!important}
+  *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important;color-adjust:exact!important}
+  body *{visibility:hidden!important}
+  #studentReportCardPage,#studentReportCardPage *{visibility:visible!important}
+  .topbar,.hero,#quest,#coordinationReportCard,#report>.eyebrow,#report>.sectionTitle,#report>.scoreHero,.printActions,.printHint{display:none!important}
+  main.wrap,.wrap,#report,.reportGrid,#familyVisualReportCard{display:block!important;width:100%!important;max-width:none!important;margin:0!important;padding:0!important;border:0!important;background:transparent!important;box-shadow:none!important}
+  #studentReportCardPage{position:static!important;left:auto!important;top:auto!important;width:100%!important;max-width:960px!important;margin:0 auto!important;border:1px solid #dce8f5!important;border-radius:28px!important;box-shadow:0 18px 44px rgba(24,57,105,.12)!important;background:#f7fbff!important;overflow:hidden!important}
+  #familyVisualReportCard .frCover,#studentReportCardPage .frCover{min-height:360px!important;background:linear-gradient(135deg,#0f2f66 0%,#146f83 55%,#f4a12a 100%)!important;padding:28px 34px!important;border-bottom:0!important;border-radius:0!important}
+  #familyVisualReportCard .frTopbar,#studentReportCardPage .frTopbar{display:grid!important;grid-template-columns:170px 1fr!important;gap:18px!important;align-items:start!important}
+  #familyVisualReportCard .frSealRow,#studentReportCardPage .frSealRow{display:grid!important;grid-template-columns:1fr 1fr!important;gap:12px!important;align-items:center!important}
+  #familyVisualReportCard .frTitleArea,#studentReportCardPage .frTitleArea{margin:26px 0 0!important;text-align:left!important;max-width:760px!important}
+  #familyVisualReportCard .frTitleArea h1,#studentReportCardPage .frTitleArea h1{font-size:38px!important;line-height:1.02!important;background:transparent!important;padding:0!important;color:#fff!important;text-shadow:none!important;border-radius:0!important;margin:14px 0 10px!important}
+  #familyVisualReportCard .frTitleArea p,#studentReportCardPage .frTitleArea p{background:rgba(255,255,255,.15)!important;color:#eefaff!important;border:1px solid rgba(255,255,255,.18)!important;max-width:680px!important;margin:12px 0 0!important;border-radius:22px!important;padding:10px 14px!important}
+  #familyVisualReportCard .frLabel,#studentReportCardPage .frLabel{background:#fff!important;color:#0f4c6b!important;box-shadow:none!important}
+  #familyVisualReportCard .frMeta,#studentReportCardPage .frMeta{display:grid!important;grid-template-columns:1.2fr .8fr 1fr 1fr!important;gap:8px!important;max-width:none!important;margin-top:24px!important}
+  #familyVisualReportCard .frMiddlePanel,#studentReportCardPage .frMiddlePanel{position:relative!important;margin:24px 0 0!important;width:auto!important;background:#fff!important;border-radius:22px!important;box-shadow:none!important;border:1px solid #e4edf7!important;text-align:left!important;padding:18px!important}
+  #familyVisualReportCard .frContent,#studentReportCardPage .frContent{background:#f7fbff!important;padding:28px 34px 32px!important}
+  #familyVisualReportCard .frGrid6,#studentReportCardPage .frGrid6{display:grid!important;grid-template-columns:repeat(5,1fr)!important;gap:12px!important;align-items:stretch!important}
+  #familyVisualReportCard .frGrid2,#studentReportCardPage .frGrid2{display:grid!important;grid-template-columns:1fr 1fr!important;gap:14px!important}
+  #familyVisualReportCard .frSupportGrid,#studentReportCardPage .frSupportGrid{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important}
+  #familyVisualReportCard .frSignatures,#studentReportCardPage .frSignatures{display:grid!important;grid-template-columns:1fr 1fr!important;gap:18px!important;margin-top:48px!important}
+  #familyVisualReportCard .frFooter,#studentReportCardPage .frFooter{display:flex!important;justify-content:space-between!important;background:#fff!important;color:#60747b!important;border-top:1px solid #d8e8e5!important;padding:10px 34px 14px!important}
+}
+
 </style>
 </head>
 <body>
