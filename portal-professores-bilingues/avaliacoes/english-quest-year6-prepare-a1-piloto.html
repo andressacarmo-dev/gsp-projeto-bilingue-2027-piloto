@@ -128,6 +128,17 @@
   #familyVisualReportCard .frFooter,#studentReportCardPage .frFooter{display:flex!important;justify-content:space-between!important;background:#fff!important;color:#60747b!important;border-top:1px solid #d8e8e5!important;padding:10px 34px 14px!important}
 }
 
+
+/* Keep support-spheres section intact in printed PDF */
+#familyVisualReportCard .frSupportSection{break-inside:avoid;page-break-inside:avoid}
+#familyVisualReportCard .frSupportCard{break-inside:avoid;page-break-inside:avoid}
+@media print{
+  #studentReportCardPage .frSupportSection{break-before:page!important;page-break-before:always!important;break-inside:avoid!important;page-break-inside:avoid!important;margin-top:0!important}
+  #studentReportCardPage .frSupportGrid{break-inside:avoid!important;page-break-inside:avoid!important;align-items:stretch!important}
+  #studentReportCardPage .frSupportCard{break-inside:avoid!important;page-break-inside:avoid!important;display:block!important}
+  #studentReportCardPage .frSignatures,#studentReportCardPage .frFooter{break-inside:avoid!important;page-break-inside:avoid!important}
+}
+
 </style>
 </head>
 <body>
@@ -261,7 +272,7 @@
               <section class="frSection frKeepTogether"><div class="frSectionHead"><h2>Leitura por habilidade</h2><p>O que cada resultado sugere para o acompanhamento do percurso A1.</p></div><div class="frGrid2" id="frObservedCards"></div></section>
               <section class="frSection frPageStart"><div class="frSectionHead"><h2>Leitura do nível A1</h2></div><div class="frInsight" id="frNarrative"></div></section>
               <section class="frSection"><div class="frSectionHead"><h2>Checklist da avaliação</h2></div><table class="frTable"><thead><tr><th>Área observada</th><th>Momento de desenvolvimento</th></tr></thead><tbody id="frChecklistBody"></tbody></table></section>
-              <section class="frSection"><div class="frSectionHead"><h2>Próximos passos por esfera de apoio</h2><p>O resultado vira encaminhamento prático quando escola, aluno e família entendem seus papéis.</p></div><div class="frSupportGrid"><article class="frSupportCard school"><h3>Como a escola pode apoiar</h3><div id="frSchoolSupport"></div></article><article class="frSupportCard student"><h3>Como o aluno pode praticar</h3><div id="frStudentPractice"></div></article><article class="frSupportCard family"><h3>Como a família pode apoiar</h3><div id="frHomeSupport"></div></article></div><div class="frSignatures"><div class="frSig">Assinatura do(a) professor(a)</div><div class="frSig">Coordenação pedagógica</div></div></section>
+              <section class="frSection frSupportSection"><div class="frSectionHead"><h2>Próximos passos por esfera de apoio</h2><p>O resultado vira encaminhamento prático quando escola, aluno e família entendem seus papéis.</p></div><div class="frSupportGrid"><article class="frSupportCard school"><h3>Como a escola pode apoiar</h3><div id="frSchoolSupport"></div></article><article class="frSupportCard student"><h3>Como o aluno pode praticar</h3><div id="frStudentPractice"></div></article><article class="frSupportCard family"><h3>Como a família pode apoiar</h3><div id="frHomeSupport"></div></article></div><div class="frSignatures"><div class="frSig">Assinatura do(a) professor(a)</div><div class="frSig">Coordenação pedagógica</div></div></section>
             </main>
             <footer class="frFooter"><span>Projeto Bilíngue 2027 · Objetivo Praia Grande</span><span>Year 6 · Middle Years · Prepare A1</span></footer>
           </div>
