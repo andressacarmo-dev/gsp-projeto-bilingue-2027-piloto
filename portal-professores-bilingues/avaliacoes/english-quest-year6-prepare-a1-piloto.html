@@ -296,7 +296,8 @@
     const stageDisplay = pct<45 ? 'Developing' : pct<75 ? 'Progressing' : 'Consolidating';
     const familyIntro = `Nesta avaliação, ${first} alcançou ${scoreLine}. O resultado indica como ${first} está usando repertório de nível A1 em tarefas de vocabulário, gramática em uso, leitura, listening e escrita conectadas à rotina escolar.`;
     const familyIntro2 = `A leitura abaixo mostra as áreas em que ${first} demonstrou mais segurança e os pontos que ainda precisam de prática orientada. O objetivo é transformar o resultado em próximos passos concretos, sem reduzir o desenvolvimento do aluno a uma nota única.`;
-    const schoolSupportItems = [`Retomar ${pointsList.join(', ')} em atividades curtas e contextualizadas.`, 'Usar miniatividades de listening, leitura e gramática em uso conectadas à rotina escolar.', 'Acompanhar evolução em 2 a 3 semanas com uma nova evidência breve.'];
+    const schoolFocus = pointsList.map(p=>p.replace(/^fortalecer\s+/,'')).join(', ');
+    const schoolSupportItems = [`Retomar e fortalecer ${schoolFocus} em atividades curtas e contextualizadas.`, 'Usar miniatividades de listening, leitura e gramática em uso conectadas à rotina escolar.', 'Acompanhar evolução em 2 a 3 semanas com uma nova evidência breve.'];
     const studentPracticeItems = ['Revisar vocabulário essencial de escola, rotina, sentimentos e atividades.', 'Ouvir mensagens curtas mais de uma vez: primeiro para entender a ideia geral, depois para encontrar detalhes.', 'Escrever pequenas mensagens com checklist: saudação, informação principal, dica ou convite e fechamento.'];
     const familySupportItems = ['Valorizar as tentativas de comunicação em inglês, mesmo quando houver erros.', 'Perguntar quais palavras ou expressões novas apareceram nas aulas da semana.', 'Incentivar pequenos contatos positivos com inglês, como vídeos curtos, músicas ou jogos simples, sem transformar o momento em cobrança.'];
     const highlights=[
