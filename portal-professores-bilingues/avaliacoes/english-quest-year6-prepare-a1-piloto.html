@@ -330,6 +330,32 @@
     document.getElementById('frNarrative').innerHTML = `<p>No nível A1, espera-se que o estudante compreenda e produza mensagens simples em contextos familiares, com apoio de repertório conhecido. Oscilações são esperadas, especialmente quando a tarefa envolve listening e writing.</p><p>Nesta English Quest, os pontos de maior segurança apareceram em: ${strengthsList.join(', ')}. Os principais focos para avanço são: ${pointsList.join(', ')}.</p><p>Com retomadas curtas, exposição frequente e prática guiada, ${first} pode consolidar mais vocabulário, precisão e confiança para usar o inglês em situações simples.</p>`;
     document.getElementById('frChecklistBody').innerHTML = Object.entries(skillMap).map(([k,v])=>{const ratio=v.score/v.total; const [cls,st]=stageByRatio(ratio); return `<tr><td><strong>${skillLabelsPt[k]}</strong><br>${skillDescriptions[k]}</td><td><span class="frPill ${cls}">${st}</span></td></tr>`}).join('');
     
+    const coordinationSummary=`English Quest · Coordination dashboard
+Escola: ${data.school}
+Turma: ${data.klass}
+Aluno(a): ${student}
+Professor(a): ${data.teacher}
+Resultado geral: ${scoreLine}
+Leitura A1: ${learningMoment}
+
+Pontos fortes observados
+- ${strengthsList.join('\n- ')}
+
+Pontos de atenção
+- ${pointsList.join('\n- ')}
+
+Encaminhamentos sugeridos
+- ${coordinationActions.join('\n- ')}
+
+Observação técnica
+Dashboard por habilidade: ${Object.entries(skillMap).map(([k,v])=>`${skillLabelsPt[k]} ${v.score}/${v.total}`).join(' · ')}`;
+    document.getElementById('coordinationReportBlocks').innerHTML = [
+      blockHtml('Resultado geral', `<p>${scoreLine} · ${learningMoment}</p>`),
+      blockHtml('Pontos fortes', listHtml(strengthsList)),
+      blockHtml('Pontos de atenção', listHtml(pointsList)),
+      blockHtml('Encaminhamentos para coordenação', listHtml(coordinationActions))
+    ].join('');
+
     const familyReport=`Relatório de Desempenho · English Quest
 Escola: ${data.school}
 Turma: ${data.klass}
@@ -360,7 +386,7 @@ Pontos de atenção
 - ${pointsList.join('\n- ')}
 
 Este relatório mostra uma fotografia específica da English Quest e ajuda família e coordenação a enxergarem próximos passos concretos no percurso A1 de ${first}.`;
-    document.getElementById('reportText').textContent=report; document.getElementById('familyReportText').textContent=familyReport; document.getElementById('report').style.display='block'; document.getElementById('report').scrollIntoView({behavior:'smooth'});
+    document.getElementById('reportText').textContent=coordinationSummary; document.getElementById('familyReportText').textContent=familyReport; document.getElementById('report').style.display='block'; document.getElementById('report').scrollIntoView({behavior:'smooth'});
   };
   document.getElementById('copyReport').onclick=()=>navigator.clipboard.writeText(document.getElementById('reportText').textContent).then(()=>alert('Learning summary copiado.'));
   document.getElementById('copyFamilyReport').onclick=()=>navigator.clipboard.writeText(document.getElementById('familyReportText').textContent).then(()=>alert('Relatório de desempenho copiado.'));
