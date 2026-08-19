@@ -80,6 +80,26 @@
 #familyVisualReportCard .frSupportCard.family{background:linear-gradient(135deg,#ffffff,#f2f0ff)}
 @media(max-width:860px){#familyVisualReportCard .frSupportGrid{grid-template-columns:1fr}}
 
+
+/* Family delivery mode: after finishing, show/print only the final family report */
+#report > .eyebrow,#report > .sectionTitle,#report > .scoreHero,#coordinationReportCard{display:none!important}
+#report{background:transparent;border:0;box-shadow:none;padding:0}
+#report .reportGrid{margin-top:0}
+#familyVisualReportCard{width:100%}
+#report .printActions{justify-content:center;margin:18px auto 0}
+@media print{
+  @page{size:A4;margin:0}
+  html,body{width:210mm;min-height:297mm;margin:0!important;padding:0!important;background:#fff!important}
+  body *{visibility:hidden!important}
+  #studentReportCardPage,#studentReportCardPage *{visibility:visible!important}
+  #studentReportCardPage{position:absolute!important;left:0!important;top:0!important;width:210mm!important;max-width:none!important;margin:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;background:#f7fbff!important;overflow:visible!important}
+  #studentReportCardPage .frCover{border-radius:0!important}
+  #studentReportCardPage .frContent{padding:24px 28px 28px!important}
+  #studentReportCardPage .frFooter{padding:10px 28px!important}
+  #familyVisualReportCard,#report,.reportGrid,.wrap,main{display:block!important;margin:0!important;padding:0!important;max-width:none!important;border:0!important;box-shadow:none!important;background:#fff!important}
+  .topbar,.hero,#quest,#coordinationReportCard,#report>.eyebrow,#report>.sectionTitle,#report>.scoreHero,.printActions,.printHint{display:none!important}
+}
+
 </style>
 </head>
 <body>
@@ -217,11 +237,10 @@
             </main>
             <footer class="frFooter"><span>Projeto Bilíngue 2027 · Objetivo Praia Grande</span><span>Year 6 · Middle Years · Prepare A1</span></footer>
           </div>
-          <h3>Texto para copiar · família</h3><div class="reportText compact" id="familyReportText"></div>
         </article>
       </div>
 
-      <div class="actions printActions"><button class="btn light" id="copyReport" type="button">Copiar relatório da coordenação</button><button class="btn light" id="copyFamilyReport" type="button">Copiar relatório de desempenho</button><button class="btn light" id="printReport" type="button">Imprimir / salvar PDF</button><button class="btn secondary" id="restart" type="button">Try again</button></div>
+      <div class="actions printActions"><button class="btn light" id="printReport" type="button">Imprimir / salvar PDF</button><button class="btn secondary" id="restart" type="button">Refazer teste</button></div>
       <p class="printHint">Dica: o botão “Imprimir / salvar PDF” permite gerar um PDF do relatório individual deste aluno direto pelo navegador.</p>
     </section>
 
@@ -387,10 +406,8 @@ Pontos de atenção
 - ${pointsList.join('\n- ')}
 
 Este relatório mostra uma fotografia específica da English Quest e ajuda família e coordenação a enxergarem próximos passos concretos no percurso A1 de ${first}.`;
-    document.getElementById('reportText').textContent=coordinationSummary; document.getElementById('familyReportText').textContent=familyReport; document.getElementById('report').style.display='block'; document.getElementById('report').scrollIntoView({behavior:'smooth'});
+    document.getElementById('reportText').textContent=coordinationSummary; document.getElementById('report').style.display='block'; document.getElementById('report').scrollIntoView({behavior:'smooth'});
   };
-  document.getElementById('copyReport').onclick=()=>navigator.clipboard.writeText(document.getElementById('reportText').textContent).then(()=>alert('Learning summary copiado.'));
-  document.getElementById('copyFamilyReport').onclick=()=>navigator.clipboard.writeText(document.getElementById('familyReportText').textContent).then(()=>alert('Relatório de desempenho copiado.'));
   document.getElementById('printReport').onclick=()=>window.print();
   document.getElementById('restart').onclick=()=>{document.getElementById('questForm').reset(); document.querySelectorAll('.option,.choiceCell,.placeCard').forEach(o=>o.classList.remove('correct','wrong','selected')); document.querySelectorAll('.blankSelect').forEach(sel=>sel.classList.remove('correct','wrong')); document.querySelectorAll('.checkItem').forEach(i=>i.classList.remove('done')); document.getElementById('report').style.display='none'; current=0; show();};
   show();
