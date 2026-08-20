@@ -102,6 +102,12 @@
     .project-actions a.secondary { background:white; color:var(--navy); border:1px solid var(--line); }
     .pbl-project { background:white; border:1px solid var(--line); border-radius:32px; padding:clamp(22px,4vw,38px); box-shadow:0 18px 52px rgba(7,27,79,.10); }
     .pbl-hero { background:radial-gradient(circle at 92% 12%,rgba(255,255,255,.24),transparent 26%), linear-gradient(135deg,#0f6f4d,#2e9d78 58%,#74c947); color:white; border-radius:28px; padding:clamp(22px,4vw,36px); margin-bottom:22px; }
+    .accordion-project .pbl-hero { cursor:pointer; position:relative; }
+    .accordion-project .pbl-hero:focus { outline:4px solid rgba(46,157,120,.26); outline-offset:4px; }
+    .project-toggle { display:inline-flex; align-items:center; justify-content:center; margin-top:14px; padding:9px 13px; border-radius:999px; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.42); color:white; font-weight:900; font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
+    .accordion-project.is-collapsed .pbl-hero { margin-bottom:0; }
+    .accordion-project.is-collapsed .pbl-grid,
+    .accordion-project.is-collapsed > .pbl-card { display:none; }
     .pbl-hero h2 { color:white; font-size:clamp(28px,4vw,46px); margin:6px 0 10px; }
     .pbl-hero p { color:rgba(255,255,255,.88); max-width:920px; }
     .pbl-meta { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin-top:18px; }
@@ -247,8 +253,8 @@
 <article class="project-card"><h3>Animal movement day</h3><p>Movimento, sons, dramatização e preferência por animais.</p><ul><li>Integra corpo, escuta, vocabulário e expressão de preferência.</li><li>Gera vídeo curto, foto comentada ou apresentação corporal.</li></ul><div class="project-actions"><a class="secondary" href="#projetos">Modelo em construção</a></div></article>
 </div>
 </section>
-<section class="section pbl-project" id="projeto-classroom-museum">
-<div class="pbl-hero">
+<section class="section pbl-project accordion-project is-collapsed" id="projeto-classroom-museum">
+<div class="pbl-hero" role="button" tabindex="0" aria-expanded="false">
 <p class="eyebrow">Projeto PBL trimestral · Level 1 · Kindergarten · T1</p>
 <h2>My Classroom Museum</h2>
 <p>Projeto trimestral de adaptação, pertencimento, exploração e classificação para crianças de 3 anos. Ao longo de 12 semanas, a turma investiga a própria sala de aula, descobre objetos, cores, formas, materiais, usos e rotinas, e transforma esse percurso em um pequeno museu para compartilhar com famílias e comunidade escolar.</p>
@@ -259,6 +265,7 @@
 <div><strong>Culminância</strong><span>My Classroom Museum Exhibition + home museum hunt</span></div>
 </div>
 <div class="project-actions" style="margin-top:18px;"><a href="#licoes-classroom-museum">Ver reflexão pós-projeto</a><a class="secondary" href="#projetos">Voltar aos projetos</a></div>
+<span class="project-toggle">Abrir projeto completo</span>
 </div>
 <div class="pbl-grid">
 <article class="pbl-card"><h3>Intencionalidade pedagógica</h3><p>O primeiro trimestre é um período de adaptação, vínculo e construção de segurança. Por isso, o projeto transforma a sala de aula em objeto de investigação: as crianças observam o espaço, reconhecem pessoas, manipulam materiais, classificam objetos, fazem escolhas, nomeiam com apoio e começam a entender que a sala também conta a história do grupo.</p><p>Para crianças de 3 anos, o museu não é uma exposição formal. É uma forma concreta de organizar descobertas: objetos, fotos, desenhos, labels, cores, formas, texturas, partes do corpo, rotina e preferências.</p></article>
@@ -342,8 +349,8 @@
 <article class="pbl-card"><h3>Discussão com pares e coordenação</h3><ul><li>Compartilhar uma evidência concreta, não apenas percepção geral.</li><li>Comparar estratégias que funcionaram em turmas diferentes.</li><li>Identificar adaptações necessárias sem perder o mínimo obrigatório.</li><li>Definir um compromisso pedagógico para o próximo projeto.</li><li>Registrar aprendizados úteis para alimentar o portal e futuras formações.</li></ul></article>
 </div>
 </section>
-<section class="section pbl-project" id="projeto-little-garden">
-<div class="pbl-hero">
+<section class="section pbl-project accordion-project is-collapsed" id="projeto-little-garden">
+<div class="pbl-hero" role="button" tabindex="0" aria-expanded="false">
 <p class="eyebrow">Projeto PBL trimestral · Level 1 · Kindergarten</p>
 <h2>Little Garden</h2>
 <p>Projeto trimestral de investigação, cuidado, criação e comunicação para crianças de 3 anos. Ao longo de 12 semanas, a turma constrói um pequeno jardim, observa mudanças reais, usa inglês em situações significativas e materializa a aprendizagem em registros, produções, música, movimento, portfólio e uma exposição para famílias.</p>
@@ -354,6 +361,7 @@
 <div><strong>Culminância</strong><span>Little Garden Exhibition + take-home seed kit</span></div>
 </div>
 <div class="project-actions" style="margin-top:18px;"><a href="#licoes-little-garden">Ver reflexão pós-projeto</a><a class="secondary" href="#projetos">Voltar aos projetos</a></div>
+<span class="project-toggle">Abrir projeto completo</span>
 </div>
 <div class="pbl-grid">
 <article class="pbl-card"><h3>Intencionalidade pedagógica</h3><p>As crianças vão investigar, com apoio do professor, como uma planta nasce, cresce e precisa de cuidado. Para crianças de 3 anos, o PBL acontece por experiências concretas e repetidas: tocar, cheirar, observar, regar, comparar, cantar, dramatizar, desenhar, cuidar, mostrar e tentar comunicar descobertas em inglês.</p><p>O foco não é produzir explicações formais, mas construir sentido: “eu plantei”, “eu cuidei”, “a planta mudou”, “ela precisa de água, sol, terra e cuidado”.</p></article>
@@ -741,8 +749,53 @@
       }
     });
   });
+  function setProject(project, open){
+    const hero = project.querySelector('.pbl-hero');
+    const toggle = project.querySelector('.project-toggle');
+    project.classList.toggle('is-collapsed', !open);
+    if (hero) hero.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (toggle) toggle.textContent = open ? 'Fechar projeto' : 'Abrir projeto completo';
+  }
+  function openProjectById(id){
+    const project = document.getElementById(id);
+    if (!project || !project.classList.contains('accordion-project')) return false;
+    setProject(project, true);
+    project.scrollIntoView({behavior:'smooth', block:'start'});
+    return true;
+  }
+  document.querySelectorAll('.accordion-project .pbl-hero').forEach((hero) => {
+    hero.addEventListener('click', (event) => {
+      if (event.target.closest('a')) return;
+      const project = hero.closest('.accordion-project');
+      setProject(project, project.classList.contains('is-collapsed'));
+    });
+    hero.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        const project = hero.closest('.accordion-project');
+        setProject(project, project.classList.contains('is-collapsed'));
+      }
+    });
+  });
+  document.querySelectorAll('a[href^="#projeto-"]').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      const id = link.getAttribute('href').slice(1);
+      if (openProjectById(id)) {
+        event.preventDefault();
+        history.replaceState(null, '', '#' + id);
+      }
+    });
+  });
+  document.querySelectorAll('a[href^="#licoes-"]').forEach((link) => {
+    link.addEventListener('click', () => {
+      const project = link.closest('.accordion-project');
+      if (project) setProject(project, true);
+    });
+  });
   if (location.hash && document.querySelector(location.hash + '.accordion-month')) {
     setTimeout(() => openMonthById(location.hash.slice(1)), 100);
+  } else if (location.hash && document.querySelector(location.hash + '.accordion-project')) {
+    setTimeout(() => openProjectById(location.hash.slice(1)), 100);
   }
 })();
 </script>
