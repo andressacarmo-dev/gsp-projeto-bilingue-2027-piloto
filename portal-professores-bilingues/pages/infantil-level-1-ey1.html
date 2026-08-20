@@ -100,6 +100,8 @@
     .project-actions { margin-top:16px; display:flex; flex-wrap:wrap; gap:10px; }
     .project-actions a { display:inline-flex; align-items:center; justify-content:center; padding:10px 14px; border-radius:999px; background:var(--navy); color:white; text-decoration:none; font-weight:900; font-size:13px; }
     .project-actions a.secondary { background:white; color:var(--navy); border:1px solid var(--line); }
+    .project-end-actions { justify-content:center; margin-top:22px; padding-top:18px; border-top:1px solid var(--line); }
+    .project-end-actions a { background:var(--red); }
     .pbl-project { background:white; border:1px solid var(--line); border-radius:32px; padding:clamp(22px,4vw,38px); box-shadow:0 18px 52px rgba(7,27,79,.10); }
     .pbl-hero { background:radial-gradient(circle at 92% 12%,rgba(255,255,255,.24),transparent 26%), linear-gradient(135deg,#0f6f4d,#2e9d78 58%,#74c947); color:white; border-radius:28px; padding:clamp(22px,4vw,36px); margin-bottom:22px; }
     .accordion-project .pbl-hero { cursor:pointer; position:relative; }
@@ -348,6 +350,7 @@
 <article class="pbl-card"><h3>Registro individual do professor</h3><ul><li>3 práticas que deram certo e devem ser mantidas.</li><li>2 evidências fortes de adaptação/desenvolvimento das crianças.</li><li>1 dificuldade principal de implementação.</li><li>1 ajuste necessário para o próximo projeto.</li><li>1 criança ou grupo que precisará de apoio mais intencional no próximo trimestre.</li></ul></article>
 <article class="pbl-card"><h3>Discussão com pares e coordenação</h3><ul><li>Compartilhar uma evidência concreta, não apenas percepção geral.</li><li>Comparar estratégias que funcionaram em turmas diferentes.</li><li>Identificar adaptações necessárias sem perder o mínimo obrigatório.</li><li>Definir um compromisso pedagógico para o próximo projeto.</li><li>Registrar aprendizados úteis para alimentar o portal e futuras formações.</li></ul></article>
 </div>
+<div class="project-actions project-end-actions"><a href="#projetos" data-close-project>Fechar projeto e voltar ao menu</a></div>
 </section>
 <section class="section pbl-project accordion-project is-collapsed" id="projeto-little-garden">
 <div class="pbl-hero" role="button" tabindex="0" aria-expanded="false">
@@ -445,6 +448,7 @@
 <article class="pbl-card"><h3>Registro individual do professor</h3><p>Antes da conversa com pares/coordenador, o professor deve registrar uma síntese breve:</p><ul><li>3 práticas que deram certo e devem ser mantidas.</li><li>2 evidências fortes de desenvolvimento das crianças.</li><li>1 dificuldade principal de implementação.</li><li>1 ajuste necessário para o próximo projeto.</li><li>1 criança ou grupo que precisará de apoio mais intencional no próximo trimestre.</li></ul></article>
 <article class="pbl-card"><h3>Discussão com pares e coordenação</h3><p>Na reunião pedagógica, a equipe pode usar as respostas para construir repertório comum e manter o padrão GSP entre turmas/escolas.</p><ul><li>Compartilhar uma evidência concreta, não apenas percepção geral.</li><li>Comparar estratégias que funcionaram em turmas diferentes.</li><li>Identificar adaptações necessárias sem perder o mínimo obrigatório.</li><li>Definir um compromisso pedagógico para o próximo projeto.</li><li>Registrar aprendizados úteis para alimentar o portal e futuras formações.</li></ul></article>
 </div>
+<div class="project-actions project-end-actions"><a href="#projetos" data-close-project>Fechar projeto e voltar ao menu</a></div>
 </section>
 <section class="section" id="estrategias">
 <div class="section-heading"><p class="eyebrow">Estratégias pedagógicas</p><h2>Apoio prático ao professor</h2><p>Essas estratégias ajudam a equipe docente a atingir os marcos, especialmente quando a turma tem pouca exposição prévia ao inglês.</p></div>
@@ -750,6 +754,11 @@
     });
   });
   function setProject(project, open){
+    if (open) {
+      document.querySelectorAll('.accordion-project').forEach((other) => {
+        if (other !== project) setProject(other, false);
+      });
+    }
     const hero = project.querySelector('.pbl-hero');
     const toggle = project.querySelector('.project-toggle');
     project.classList.toggle('is-collapsed', !open);
@@ -790,6 +799,18 @@
     link.addEventListener('click', () => {
       const project = link.closest('.accordion-project');
       if (project) setProject(project, true);
+    });
+  });
+  document.querySelectorAll('[data-close-project]').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      const project = link.closest('.accordion-project');
+      if (project) setProject(project, false);
+      const menu = document.getElementById('projetos');
+      if (menu) {
+        event.preventDefault();
+        menu.scrollIntoView({behavior:'smooth', block:'start'});
+        history.replaceState(null, '', '#projetos');
+      }
     });
   });
   if (location.hash && document.querySelector(location.hash + '.accordion-month')) {
