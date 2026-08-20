@@ -92,6 +92,32 @@
     .report-card { border-top:6px solid #2e9d78; }
     .quarter-card h3, .project-card h3, .strategy-card h3, .report-card h3 { margin-bottom:10px; }
     .quarter-card ul, .project-card ul, .strategy-card ul, .report-card ul { margin:10px 0 0 18px; padding:0; color:var(--muted); }
+    .deeper-box { background:linear-gradient(135deg,#ffffff,#f4fbf5); border:1px solid var(--line); border-radius:30px; padding:clamp(22px,4vw,36px); box-shadow:0 16px 44px rgba(7,27,79,.08); }
+    .deeper-principles { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:18px; }
+    .deeper-principles article { background:white; border:1px solid var(--line); border-top:6px solid #2e9d78; border-radius:22px; padding:20px; box-shadow:0 12px 30px rgba(7,27,79,.06); }
+    .project-card.featured { border-top-color:#2e9d78; background:linear-gradient(180deg,#ffffff,#f4fbf5); }
+    .project-status { display:inline-flex; margin-bottom:10px; padding:6px 10px; border-radius:999px; background:#e8f7ef; color:#0f6f4d; font-size:11px; font-weight:900; text-transform:uppercase; letter-spacing:.08em; }
+    .project-actions { margin-top:16px; display:flex; flex-wrap:wrap; gap:10px; }
+    .project-actions a { display:inline-flex; align-items:center; justify-content:center; padding:10px 14px; border-radius:999px; background:var(--navy); color:white; text-decoration:none; font-weight:900; font-size:13px; }
+    .project-actions a.secondary { background:white; color:var(--navy); border:1px solid var(--line); }
+    .pbl-project { background:white; border:1px solid var(--line); border-radius:32px; padding:clamp(22px,4vw,38px); box-shadow:0 18px 52px rgba(7,27,79,.10); }
+    .pbl-hero { background:radial-gradient(circle at 92% 12%,rgba(255,255,255,.24),transparent 26%), linear-gradient(135deg,#0f6f4d,#2e9d78 58%,#74c947); color:white; border-radius:28px; padding:clamp(22px,4vw,36px); margin-bottom:22px; }
+    .pbl-hero h2 { color:white; font-size:clamp(28px,4vw,46px); margin:6px 0 10px; }
+    .pbl-hero p { color:rgba(255,255,255,.88); max-width:920px; }
+    .pbl-meta { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin-top:18px; }
+    .pbl-meta div { background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.24); border-radius:18px; padding:14px; }
+    .pbl-meta strong { display:block; color:white; font-size:12px; text-transform:uppercase; letter-spacing:.08em; margin-bottom:4px; }
+    .pbl-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+    .pbl-card { background:#fbfcff; border:1px solid var(--line); border-radius:24px; padding:22px; }
+    .pbl-card h3 { color:var(--navy); margin-bottom:10px; }
+    .pbl-card ul, .pbl-card ol { margin:10px 0 0 20px; padding:0; color:var(--muted); }
+    .pbl-card li { margin:6px 0; }
+    .pbl-week { border-left:6px solid #2e9d78; background:#f4fbf5; }
+    .pbl-rubric { width:100%; border-collapse:collapse; margin-top:10px; background:white; border-radius:18px; overflow:hidden; }
+    .pbl-rubric th { background:#0f6f4d; color:white; text-align:left; padding:12px; }
+    .pbl-rubric td { border-bottom:1px solid var(--line); padding:12px; vertical-align:top; }
+    .pbl-rubric tr:last-child td { border-bottom:0; }
+    @media (max-width:900px) { .deeper-principles,.pbl-meta,.pbl-grid { grid-template-columns:1fr; } }
 
     .assessment-box { background:linear-gradient(135deg,#ffffff,#f1f5ff); border:1px solid var(--line); border-radius:30px; padding:clamp(22px,4vw,36px); box-shadow:0 16px 44px rgba(7,27,79,.08); }
     .assessment-columns { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:18px; }
@@ -131,7 +157,7 @@
 <header class="matrix-hero">
 <nav aria-label="Navegação da matriz Level 1" class="topbar">
 <a aria-label="Voltar ao Portal dos Professores Bilíngues" class="brand" href="../index.html"><span aria-hidden="true" class="brand-mark"><img alt="" src="../assets/icons/uk-flag.svg"/></span><span><strong>GSP</strong> Teacher Portal</span></a>
-<div class="nav-links"><a href="#matriz">Matriz</a><a href="#progressao">Progressão</a><a href="#avaliacao-global">Avaliação</a><a href="#estrategias">Estratégias</a></div>
+<div class="nav-links"><a href="#deeper-learning">Deeper Learning</a><a href="#conduzir-deeper-learning">Apoio docente</a><a href="#projetos">Projetos</a><a href="#matriz">Matriz</a><a href="#progressao">Progressão</a><a href="#avaliacao-global">Avaliação</a><a href="#estrategias">Estratégias</a></div>
 </nav>
 <div class="matrix-hero-grid">
 <section>
@@ -163,6 +189,26 @@
 <article><h3>Comunicação com famílias</h3><p>Traduzir o desenvolvimento em linguagem clara, afetiva e consistente, sem transformar a experiência em nota ou prova formal.</p></article>
 </div>
 </section>
+<section class="section deeper-box" id="deeper-learning">
+<div class="section-heading compact"><p class="eyebrow">Deeper Learning no Level 1</p><h2>Explorar, criar e comunicar descobertas</h2></div>
+<p>No Level 1, Deeper Learning acontece quando a criança explora o mundo com o corpo, os sentidos, a brincadeira e a linguagem inicial em inglês. A profundidade não está na complexidade do produto, mas na qualidade da observação, da curiosidade, da escolha, da interação e da tentativa de comunicar descobertas.</p>
+<div class="deeper-principles">
+<article><h3>1. Investigar com concretude</h3><p>Partir de objetos reais, natureza, histórias, imagens, movimento e experiências sensoriais para que a criança observe, compare, escolha e formule pequenas hipóteses com apoio.</p></article>
+<article><h3>2. Usar inglês com sentido</h3><p>Repetir vocabulário e language frames em situações reais: apontar, cuidar, pedir ajuda, escolher, mostrar, nomear, cantar, dramatizar e compartilhar com o grupo.</p></article>
+<article><h3>3. Materializar aprendizagem</h3><p>Gerar evidências simples e visíveis: painel, plantio, foto comentada, desenho, construção, mini exposição, portfólio ou fala observada pelo professor.</p></article>
+</div>
+</section>
+<section class="section" id="conduzir-deeper-learning">
+<div class="section-heading"><p class="eyebrow">Apoio docente</p><h2>Como conduzir Deeper Learning no Level 1</h2><p>Para crianças de 3–4 anos, o professor não precisa transformar a aula em um projeto complexo. Ele precisa criar experiências concretas, repetir linguagem funcional, observar evidências pequenas e ajudar a criança a comunicar descobertas com segurança.</p></div>
+<div class="strategy-grid">
+<article class="strategy-card"><h3>1. Comece pelo concreto</h3><p>Use objetos reais, natureza, imagens, corpo, música, história e materiais manipuláveis antes de pedir qualquer produção oral.</p><ul><li>“Look.”</li><li>“Touch.”</li><li>“What do you see?”</li></ul></article>
+<article class="strategy-card"><h3>2. Faça boas perguntas simples</h3><p>Perguntas curtas ajudam a criança observar e comparar sem exigir abstração adulta.</p><ul><li>Big or small?</li><li>What colour?</li><li>What changed?</li></ul></article>
+<article class="strategy-card"><h3>3. Modele antes de esperar resposta</h3><p>Mostre a ação, fale a frase, repita com gestos e ofereça opções. A criança pode responder por olhar, gesto, escolha, palavra ou frase curta.</p><ul><li>Teacher: “It needs water.”</li><li>Child: aponta water.</li><li>Group: repete junto.</li></ul></article>
+<article class="strategy-card"><h3>4. Use inglês em função real</h3><p>O inglês deve aparecer para cuidar, pedir, escolher, mostrar, nomear, cantar, brincar e compartilhar — não apenas para repetir vocabulário fora de contexto.</p><ul><li>“Help, please.”</li><li>“I want...”</li><li>“Look at my work.”</li></ul></article>
+<article class="strategy-card"><h3>5. Registre evidências pequenas</h3><p>Uma evidência boa pode ser uma foto, um gesto, uma escolha, uma fala observada, um desenho ou uma contribuição para o painel coletivo.</p><ul><li>Foto + legenda pedagógica.</li><li>Checklist de observação.</li><li>Fala espontânea anotada.</li></ul></article>
+<article class="strategy-card"><h3>6. Evite transformar projeto em ficha</h3><p>Worksheets podem consolidar, mas não devem substituir investigação, brincadeira, criação, cuidado, movimento e interação real.</p><ul><li>Primeiro explorar.</li><li>Depois registrar.</li><li>Por fim compartilhar.</li></ul></article>
+</div>
+</section>
 <section class="section" id="rotina">
 <div class="section-heading"><p class="eyebrow">Rotina base</p><h2>Arquitetura de aula</h2><p>A rotina se mantém para dar segurança; temas, materiais e desafios variam mês a mês.</p></div>
 <div class="routine-strip"><article><h3>1. 👋 Welcome</h3><p>Música, saudação, chamada visual e combinados.</p></article><article><h3>2. 🔎 Explore</h3><p>Objeto, imagem, história, movimento ou natureza.</p></article><article><h3>3. 🧸 Play</h3><p>Brincadeira guiada com linguagem-alvo.</p></article><article><h3>4. 🎨 Create</h3><p>Desenho, colagem, construção, drama ou música.</p></article><article><h3>5. 🌟 Share</h3><p>Mostrar, apontar, nomear, escolher e guardar evidência.</p></article></div>
@@ -170,10 +216,11 @@
 <section class="section" id="rubrica">
 <div class="section-heading"><p class="eyebrow">Rubrica pedagógica Level 1</p><h2>Critérios de observação</h2><p>Ao final de cada mês, observar a criança de forma formativa para acompanhar seu desenvolvimento com proximidade.</p></div>
 <table class="rubric-table"><thead><tr><th>Dimensão</th><th>Observar se a criança...</th><th>Exemplos de evidência</th></tr></thead><tbody>
-<tr><td>Comunicação e linguagem</td><td>Escuta, responde, repete ou tenta usar palavras/frases simples em inglês.</td><td>Áudio curto, fala registrada, participação em música, resposta a comando.</td></tr>
-<tr><td>Exploração do mundo</td><td>Manipula, observa, compara, pergunta, demonstra curiosidade e cuidado.</td><td>Foto de investigação, desenho, construção, comentário espontâneo.</td></tr>
-<tr><td>Social-emotional learning</td><td>Participa da rotina, espera a vez, aceita apoio e faz escolhas.</td><td>Checklist do professor, relato breve, foto em atividade colaborativa.</td></tr>
-<tr><td>Corpo, movimento e criação</td><td>Usa corpo, gesto, arte, música e brincadeira para comunicar compreensão.</td><td>Vídeo curto, produção artística, dramatização, atividade motora.</td></tr>
+<tr><td>Comunicação em inglês com apoio</td><td>Escuta, responde, repete ou tenta usar palavras/frases simples em inglês em situações reais da rotina e dos projetos.</td><td>Áudio curto, fala registrada, participação em música, resposta a comando, tentativa de nomear ou escolher.</td></tr>
+<tr><td>Exploração, curiosidade e investigação</td><td>Manipula, observa, compara, pergunta, testa possibilidades, percebe mudanças e demonstra curiosidade diante de objetos, natureza, corpo, histórias ou materiais concretos.</td><td>Foto de investigação, sequência antes/depois, desenho, construção, comentário espontâneo, escolha justificada por gesto ou palavra.</td></tr>
+<tr><td>Criação, representação e autoria</td><td>Contribui para produções coletivas ou individuais, faz escolhas, representa descobertas por desenho, colagem, construção, movimento, dramatização ou fala apoiada.</td><td>Produção artística, painel, mini exposição, portfólio, etiqueta individual, vídeo curto ou foto comentada.</td></tr>
+<tr><td>Interação, cuidado e colaboração</td><td>Participa da rotina, espera a vez, aceita apoio, ajuda o grupo, cuida de materiais/seres vivos e começa a assumir pequenos papéis no projeto.</td><td>Checklist do professor, relato breve, foto em atividade colaborativa, registro de helper ou rotina de cuidado.</td></tr>
+<tr><td>Participação na rotina bilíngue</td><td>Reconhece momentos da aula, responde a comandos recorrentes, participa de músicas, histórias, brincadeiras e transições com segurança progressiva.</td><td>Observação mensal, foto de rotina, resposta corporal, participação em circle time ou story time.</td></tr>
 </tbody></table>
 </section>
 <section class="section" id="progressao">
@@ -193,11 +240,54 @@
 </div>
 </section>
 <section class="section" id="projetos">
-<div class="section-heading"><p class="eyebrow">Projetos complementares</p><h2>Projetos complementares</h2><p>Projetos devem reforçar a entrega esperada, gerar evidências e criar experiências significativas, sem substituir a progressão Cambridge/GSP.</p></div>
+<div class="section-heading"><p class="eyebrow">Projetos bimestrais/trimestrais</p><h2>Deeper Learning em ação</h2><p>Os projetos são momentos de integração entre conteúdo, linguagem, exploração, criação e comunicação com famílias. Eles não substituem a progressão Cambridge/GSP: materializam a proposta bilíngue em experiências visíveis para a comunidade escolar.</p></div>
 <div class="project-grid">
-<article class="project-card"><h3>My classroom museum</h3><p>Objetos da sala organizados por cor, forma ou uso.</p><ul><li>Integra vocabulário de sala, cores e formas.</li><li>Gera foto, fala curta e classificação.</li></ul></article>
-<article class="project-card"><h3>Little garden</h3><p>Plantio, cuidado e observação de uma semente/planta.</p><ul><li>Integra natureza, cuidado e sequência temporal.</li><li>Gera registro visual de antes/depois.</li></ul></article>
-<article class="project-card"><h3>Animal movement day</h3><p>Movimento, sons, dramatização e preferência por animais.</p><ul><li>Integra corpo, escuta e vocabulário.</li><li>Gera vídeo curto ou foto comentada.</li></ul></article>
+<article class="project-card"><h3>My classroom museum</h3><p>Objetos da sala organizados por cor, forma ou uso.</p><ul><li>Integra vocabulário de sala, cores e formas.</li><li>Gera foto, fala curta, classificação e mini exposição.</li></ul><div class="project-actions"><a class="secondary" href="#projetos">Modelo em construção</a></div></article>
+<article class="project-card featured"><span class="project-status">Projeto-piloto completo</span><h3>Little Garden</h3><p>Plantio, cuidado e observação de uma semente/planta ao longo do term.</p><ul><li>Integra natureza, cuidado, sequência temporal e linguagem funcional.</li><li>Gera portfólio visual, painel coletivo e apresentação simples das descobertas.</li></ul><div class="project-actions"><a href="#projeto-little-garden">Abrir projeto pronto</a></div></article>
+<article class="project-card"><h3>Animal movement day</h3><p>Movimento, sons, dramatização e preferência por animais.</p><ul><li>Integra corpo, escuta, vocabulário e expressão de preferência.</li><li>Gera vídeo curto, foto comentada ou apresentação corporal.</li></ul><div class="project-actions"><a class="secondary" href="#projetos">Modelo em construção</a></div></article>
+</div>
+</section>
+<section class="section pbl-project" id="projeto-little-garden">
+<div class="pbl-hero">
+<p class="eyebrow">Projeto PBL · Level 1 · Kindergarten</p>
+<h2>Little Garden</h2>
+<p>Projeto de exploração, cuidado e observação de uma semente/planta para que as crianças percebam mudanças ao longo do tempo, usem inglês em situações reais e materializem a aprendizagem em um jardim/painel da turma.</p>
+<div class="pbl-meta">
+<div><strong>Duração</strong><span>4 semanas ou adaptação para 6–8 semanas</span></div>
+<div><strong>Unidades</strong><span>Units 2–3 · cores, formas, natureza, plantas e cuidado</span></div>
+<div><strong>Pergunta norteadora</strong><span>What does a plant need to grow?</span></div>
+<div><strong>Produto final</strong><span>Little Garden Exhibition + portfólio visual</span></div>
+</div>
+</div>
+<div class="pbl-grid">
+<article class="pbl-card"><h3>Intencionalidade pedagógica</h3><p>As crianças vão investigar, com apoio do professor, o que uma planta precisa para crescer. A aprendizagem profunda aparece na observação de mudanças reais, no cuidado cotidiano, na comparação antes/depois e na comunicação das descobertas por gesto, palavra, desenho, foto ou fala curta.</p></article>
+<article class="pbl-card"><h3>Conexão com Deeper Learning</h3><ul><li><strong>Domínio:</strong> reconhecer necessidades básicas da planta: water, sun, soil, care.</li><li><strong>Identidade:</strong> assumir o papel de cuidador do jardim da turma.</li><li><strong>Criação:</strong> construir registros visuais e uma pequena exposição coletiva.</li><li><strong>Transferência:</strong> relacionar cuidado com plantas a cuidado com seres vivos e rotina da escola.</li></ul></article>
+<article class="pbl-card"><h3>Linguagem essencial</h3><ul><li>Look at the plant.</li><li>It needs water / sun / soil.</li><li>It grows.</li><li>I can help.</li><li>It is green / small / big.</li><li>My plant is growing.</li></ul></article>
+<article class="pbl-card"><h3>Recursos necessários</h3><ul><li>Sementes de crescimento rápido, algodão/terra, copos transparentes ou vasos pequenos.</li><li>Água, borrifador, etiquetas com nomes, palitos, cartolina ou painel.</li><li>Flashcards: seed, plant, water, sun, soil, grow, green, small, big.</li><li>Materiais de arte: lápis, tinta, colagem, papel colorido.</li><li>Celular/tablet da escola para fotos semanais.</li></ul></article>
+</div>
+<div class="pbl-grid" style="margin-top:16px;">
+<article class="pbl-card pbl-week"><h3>Semana 1 · Launch e provocação</h3><ol><li>Apresentar a pergunta: <strong>What does a plant need to grow?</strong></li><li>Mostrar sementes reais e convidar as crianças a tocar, observar e comparar.</li><li>Modelar vocabulário: seed, soil, water, sun.</li><li>Plantar a semente da turma ou sementes individuais.</li><li>Registrar foto do plantio + fala observada da criança.</li></ol><p><strong>Evidência mínima:</strong> foto da criança participando do plantio + checklist de resposta por olhar, gesto, escolha ou palavra.</p></article>
+<article class="pbl-card pbl-week"><h3>Semana 2 · Investigation e cuidado</h3><ol><li>Retomar a pergunta com imagens/objetos: water, sun, soil.</li><li>Criar rotina de cuidado: escolher ajudantes para regar e observar.</li><li>Comparar: dry/wet, small/big, no plant/plant.</li><li>Fazer desenho simples: “My seed”.</li><li>Usar frases com apoio: <strong>It needs water.</strong> / <strong>I can help.</strong></li></ol><p><strong>Evidência mínima:</strong> desenho ou foto + anotação de linguagem usada ou resposta observada.</p></article>
+<article class="pbl-card pbl-week"><h3>Semana 3 · Creation e registro</h3><ol><li>Observar mudanças reais: raiz, broto, caule ou folhas, quando houver.</li><li>Montar painel “Our Little Garden” com fotos antes/depois.</li><li>Classificar imagens: seed / plant; small / big; water / sun / soil.</li><li>Criar uma etiqueta individual: “My plant”.</li><li>Ensaiar apresentação curta com gesto, palavra ou frase apoiada.</li></ol><p><strong>Evidência mínima:</strong> contribuição no painel + tentativa de nomear ou apontar uma necessidade da planta.</p></article>
+<article class="pbl-card pbl-week"><h3>Semana 4 · Share e celebração</h3><ol><li>Organizar a Little Garden Exhibition na sala ou corredor.</li><li>Cada criança mostra sua planta, foto ou desenho com apoio do professor.</li><li>Usar uma fala possível: <strong>Look! My plant.</strong> / <strong>It needs water.</strong></li><li>Registrar vídeo curto ou foto comentada para portfólio/família.</li><li>Fechar com roda: What did we do? We planted. We helped. It grows.</li></ol><p><strong>Evidência mínima:</strong> registro da apresentação + seleção de 1 evidência para portfólio individual.</p></article>
+</div>
+<div class="pbl-grid" style="margin-top:16px;">
+<article class="pbl-card"><h3>Atividades concretas para o professor</h3><ul><li><strong>Seed discovery:</strong> crianças exploram sementes com lupa, potes e bandejas; professor pergunta “big or small?” e “what do you see?”.</li><li><strong>Water helper routine:</strong> ajudante do dia rega a planta e repete com apoio “I can help”.</li><li><strong>Plant needs sorting:</strong> crianças separam cartões do que a planta precisa e não precisa.</li><li><strong>Before/after board:</strong> painel com fotos semanais para perceber mudança no tempo.</li><li><strong>Garden walk:</strong> caminhada curta pela escola para observar plantas reais.</li></ul></article>
+<article class="pbl-card"><h3>Adaptações possíveis</h3><ul><li>Se não houver espaço externo, usar copos transparentes com algodão na sala.</li><li>Se a turma tiver pouca oralidade, aceitar gesto, escolha, apontar e repetição coletiva.</li><li>Se a escola quiser ampliar, convidar famílias a enviar foto de uma planta de casa.</li><li>Se a semente não germinar, transformar em investigação: “What happened?” e comparar com outra tentativa.</li></ul></article>
+</div>
+<div class="pbl-card" style="margin-top:16px;">
+<h3>Avaliação formativa do projeto</h3>
+<table class="pbl-rubric"><thead><tr><th>Dimensão</th><th>O que observar</th><th>Evidência possível</th></tr></thead><tbody>
+<tr><td>Exploração e curiosidade</td><td>Observa, toca, compara, aponta mudanças e demonstra interesse pela planta.</td><td>Foto de investigação, fala observada, desenho antes/depois.</td></tr>
+<tr><td>Comunicação em inglês</td><td>Responde por gesto, escolha, palavra isolada ou frase apoiada relacionada ao projeto.</td><td>Áudio/vídeo curto, anotação do professor, participação em rotina.</td></tr>
+<tr><td>Cuidado e colaboração</td><td>Participa da rotina de cuidado, espera a vez e ajuda o grupo.</td><td>Checklist, foto do water helper, relato breve.</td></tr>
+<tr><td>Criação e autoria</td><td>Contribui para painel, desenho, etiqueta, exposição ou portfólio.</td><td>Produção visual, foto do painel, portfólio individual.</td></tr>
+<tr><td>Compartilhamento</td><td>Mostra sua planta/produção e comunica uma descoberta com apoio.</td><td>Foto/vídeo da Little Garden Exhibition.</td></tr>
+</tbody></table>
+</div>
+<div class="pbl-grid" style="margin-top:16px;">
+<article class="pbl-card"><h3>Comunicação com famílias</h3><p><strong>Mensagem sugerida:</strong> Neste projeto, as crianças investigaram o que uma planta precisa para crescer. Por meio de observação, cuidado diário, registros visuais e linguagem inicial em inglês, elas acompanharam mudanças reais e compartilharam descobertas sobre natureza e cuidado.</p><p><strong>Legenda para foto:</strong> Today we observed our Little Garden. The children cared for the plants, noticed changes and used words such as water, sun, soil and grow.</p></article>
+<article class="pbl-card"><h3>Mínimo GSP obrigatório</h3><ul><li>Realizar plantio ou observação concreta de planta real.</li><li>Manter registro visual de pelo menos 3 momentos do processo.</li><li>Usar linguagem funcional do projeto em rotina, não apenas em aula isolada.</li><li>Produzir painel, portfólio ou mini exposição final.</li><li>Avaliar por evidências observáveis, sem prova formal.</li></ul></article>
 </div>
 </section>
 <section class="section" id="estrategias">
@@ -223,6 +313,7 @@
 <div><h4>Let’s Explore</h4><p>Explorar sala de aula, corpo, sentidos e combinados por meio de objetos reais, música, movimento e brincadeira guiada.</p></div>
 <div><h4>Evidências observáveis</h4><p>Participa da rotina; responde a hello/goodbye; reconhece comando com gesto; aceita apoio do adulto; começa a apontar/nomear objetos.</p></div>
 <div><h4>Registro mínimo</h4><p>Foto de participação na rotina + anotação breve de resposta observada.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>A rotina inicial já é uma investigação sobre pertencimento: a criança descobre quem faz parte do grupo, como a sala funciona e como o inglês ajuda a participar com segurança.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-2">
@@ -235,6 +326,7 @@
 <div><h4>Let’s Explore</h4><p>Exploração sensorial com texturas, sons, imagens da família, espelho e jogos de apontar/nomear.</p></div>
 <div><h4>Evidências observáveis</h4><p>Aponta partes do corpo; participa de música; repete palavra isolada; escolhe material; demonstra curiosidade sensorial.</p></div>
 <div><h4>Registro mínimo</h4><p>Checklist individual simples: gesto, palavra, participação, curiosidade.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>A criança investiga o próprio corpo, sentidos e vínculos próximos, usando inglês para observar, apontar, escolher e comunicar preferências com apoio.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-3">
@@ -247,6 +339,7 @@
 <div><h4>Let’s Explore</h4><p>Organizar estações de exploração com blocos, tinta, colagem, classificação livre e construção coletiva.</p></div>
 <div><h4>Evidências observáveis</h4><p>Classifica por cor/forma com apoio; usa palavra isolada; participa de craft; segue instruções simples.</p></div>
 <div><h4>Registro mínimo</h4><p>Guardar produção visual com legenda pedagógica curta.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Cores, formas e materiais viram critérios de observação e classificação: a criança compara, escolhe, constrói e representa descobertas por meio de brincadeira e criação.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-4">
@@ -259,6 +352,7 @@
 <div><h4>Let’s Explore</h4><p>Plantar, regar, observar folhas/sementes, comparar antes/depois e registrar por desenho ou foto.</p></div>
 <div><h4>Evidências observáveis</h4><p>Demonstra cuidado; observa mudança; participa de rotina de regar; usa gesto/palavra ligada à natureza.</p></div>
 <div><h4>Registro mínimo</h4><p>Sequência de fotos da planta + fala/gesto registrado pelo professor.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>A natureza permite observar mudança real ao longo do tempo. Plantar, cuidar e comparar antes/depois ajuda a criança perceber causa e efeito de forma concreta.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-5">
@@ -271,6 +365,7 @@
 <div><h4>Let’s Explore</h4><p>Brincadeiras de movimento, trilhas de animais, sons, classificação e dramatização em pequenos grupos.</p></div>
 <div><h4>Evidências observáveis</h4><p>Imita animal; reconhece imagem; segue comando motor; espera a vez; expressa preferência.</p></div>
 <div><h4>Registro mínimo</h4><p>Vídeo curto ou foto de dramatização + rubrica de participação.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Animais conectam conhecimento, corpo e imaginação: a criança observa características, imita movimentos, compara sons e comunica preferências por gesto, palavra ou dramatização.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-6">
@@ -283,6 +378,7 @@
 <div><h4>Let’s Explore</h4><p>Explorar lanche, frutas, cores, cheiros, escolhas e combinados de cuidado antes/depois de comer.</p></div>
 <div><h4>Evidências observáveis</h4><p>Expressa preferência; usa please/thank you; participa de rotina de higiene; reconhece alimentos.</p></div>
 <div><h4>Registro mínimo</h4><p>Registro de preferência alimentar ou gráfico visual simples da turma.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Alimentação e bem-estar aproximam o inglês da rotina real da criança: escolher, pedir, agradecer, cuidar do corpo e expressar preferências com linguagem funcional.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-7">
@@ -295,6 +391,7 @@
 <div><h4>Let’s Explore</h4><p>Passeio guiado pela escola, mapas simples, fotos dos espaços e combinados de convivência.</p></div>
 <div><h4>Evidências observáveis</h4><p>Reconhece espaços; segue rota simples; coopera; usa here/there com apoio; demonstra pertencimento.</p></div>
 <div><h4>Registro mínimo</h4><p>Mapa visual coletivo da escola com fotos e palavras-chave.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>A escola vira objeto de investigação: a criança reconhece espaços, papéis e formas de convivência, fortalecendo pertencimento e colaboração.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-8">
@@ -307,6 +404,7 @@
 <div><h4>Let’s Explore</h4><p>Observar céu, temperatura, roupas, água/sol/sombra e registrar clima em painel da turma.</p></div>
 <div><h4>Evidências observáveis</h4><p>Identifica clima com imagem; participa do calendário; escolhe roupa adequada em jogo; usa hot/cold.</p></div>
 <div><h4>Registro mínimo</h4><p>Painel semanal do clima + observação individual de linguagem.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>O clima favorece observação diária e comparação de mudanças: a criança relaciona weather, roupas, sensações e escolhas concretas da rotina.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-9">
@@ -319,6 +417,7 @@
 <div><h4>Let’s Explore</h4><p>Organizar portfólio, roda de apresentação, mostra sensorial e retomada das descobertas do ano.</p></div>
 <div><h4>Evidências observáveis</h4><p>Reconhece vocabulário de diferentes temas; mostra produção; participa da celebração; comunica preferência.</p></div>
 <div><h4>Registro mínimo</h4><p>Portfólio individual com 3 evidências + comentário pedagógico curto.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>A celebração anual transforma o percurso em autoria: a criança seleciona evidências, mostra produções e comunica o que reconhece, prefere e consegue fazer.</p></div>
 </div>
 </article></div>
 </section>
