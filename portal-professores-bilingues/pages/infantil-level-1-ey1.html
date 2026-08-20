@@ -107,9 +107,17 @@
     .accordion-project .pbl-hero { cursor:pointer; position:relative; }
     .accordion-project .pbl-hero:focus { outline:4px solid rgba(46,157,120,.26); outline-offset:4px; }
     .project-toggle { display:inline-flex; align-items:center; justify-content:center; margin-top:14px; padding:9px 13px; border-radius:999px; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.42); color:white; font-weight:900; font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
-    .accordion-project.is-collapsed .pbl-hero { margin-bottom:0; }
+    .accordion-project.is-collapsed .pbl-hero { margin-bottom:0; padding:18px 22px; display:grid; grid-template-columns:1fr auto; gap:12px; align-items:center; }
+    .accordion-project.is-collapsed .pbl-hero p:not(.eyebrow),
+    .accordion-project.is-collapsed .pbl-meta,
+    .accordion-project.is-collapsed .project-actions { display:none; }
+    .accordion-project.is-collapsed .pbl-hero h2 { margin:0; font-size:clamp(22px,3vw,34px); }
+    .accordion-project.is-collapsed .pbl-hero .eyebrow { margin:0 0 4px; }
+    .accordion-project.is-collapsed .project-toggle { margin-top:0; justify-self:end; }
     .accordion-project.is-collapsed .pbl-grid,
     .accordion-project.is-collapsed > .pbl-card { display:none; }
+    .project-menu-card p, .project-menu-card ul { display:none; }
+    @media (max-width:900px) { .accordion-project.is-collapsed .pbl-hero { grid-template-columns:1fr; } .accordion-project.is-collapsed .project-toggle { justify-self:start; } }
     .pbl-hero h2 { color:white; font-size:clamp(28px,4vw,46px); margin:6px 0 10px; }
     .pbl-hero p { color:rgba(255,255,255,.88); max-width:920px; }
     .pbl-meta { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin-top:18px; }
@@ -250,9 +258,9 @@
 <section class="section" id="projetos">
 <div class="section-heading"><p class="eyebrow">Projetos bimestrais/trimestrais</p><h2>Deeper Learning em ação</h2><p>Os projetos são momentos de integração entre conteúdo, linguagem, exploração, criação e comunicação com famílias. Eles não substituem a progressão Cambridge/GSP: materializam a proposta bilíngue em experiências visíveis para a comunidade escolar.</p></div>
 <div class="project-grid">
-<article class="project-card featured"><span class="project-status">Projeto completo · T1</span><h3>My Classroom Museum</h3><p>Investigação da sala de aula como espaço de pertencimento, identidade, rotina, cores, formas, materiais e escolhas.</p><ul><li>Integra adaptação, classroom language, corpo/sentidos, cores, formas e classificação.</li><li>Gera museu da sala, labels, fotos de investigação, produções, apresentação e conexão com famílias.</li></ul><div class="project-actions"><a href="#projeto-classroom-museum">Abrir projeto pronto</a></div></article>
-<article class="project-card featured"><span class="project-status">Projeto completo · T2</span><h3>Little Garden</h3><p>Plantio, cuidado e observação de uma semente/planta ao longo do term.</p><ul><li>Integra natureza, cuidado, sequência temporal e linguagem funcional.</li><li>Gera portfólio visual, painel coletivo e apresentação simples das descobertas.</li></ul><div class="project-actions"><a href="#projeto-little-garden">Abrir projeto pronto</a></div></article>
-<article class="project-card"><h3>Animal movement day</h3><p>Movimento, sons, dramatização e preferência por animais.</p><ul><li>Integra corpo, escuta, vocabulário e expressão de preferência.</li><li>Gera vídeo curto, foto comentada ou apresentação corporal.</li></ul><div class="project-actions"><a class="secondary" href="#projetos">Modelo em construção</a></div></article>
+<article class="project-card featured project-menu-card"><span class="project-status">Projeto completo · T1</span><h3>My Classroom Museum</h3><div class="project-actions"><a href="#projeto-classroom-museum">Abrir</a></div></article>
+<article class="project-card featured project-menu-card"><span class="project-status">Projeto completo · T2</span><h3>Little Garden</h3><div class="project-actions"><a href="#projeto-little-garden">Abrir</a></div></article>
+<article class="project-card project-menu-card"><span class="project-status">Em construção · T3</span><h3>Animal Movement Day</h3><div class="project-actions"><a class="secondary" href="#projetos">Em breve</a></div></article>
 </div>
 </section>
 <section class="section pbl-project accordion-project is-collapsed" id="projeto-classroom-museum">
@@ -267,7 +275,7 @@
 <div><strong>Culminância</strong><span>My Classroom Museum Exhibition + home museum hunt</span></div>
 </div>
 <div class="project-actions" style="margin-top:18px;"><a href="#licoes-classroom-museum">Ver reflexão pós-projeto</a><a class="secondary" href="#projetos">Voltar aos projetos</a></div>
-<span class="project-toggle">Abrir projeto completo</span>
+<span class="project-toggle">Abrir</span>
 </div>
 <div class="pbl-grid">
 <article class="pbl-card"><h3>Intencionalidade pedagógica</h3><p>O primeiro trimestre é um período de adaptação, vínculo e construção de segurança. Por isso, o projeto transforma a sala de aula em objeto de investigação: as crianças observam o espaço, reconhecem pessoas, manipulam materiais, classificam objetos, fazem escolhas, nomeiam com apoio e começam a entender que a sala também conta a história do grupo.</p><p>Para crianças de 3 anos, o museu não é uma exposição formal. É uma forma concreta de organizar descobertas: objetos, fotos, desenhos, labels, cores, formas, texturas, partes do corpo, rotina e preferências.</p></article>
@@ -364,7 +372,7 @@
 <div><strong>Culminância</strong><span>Little Garden Exhibition + take-home seed kit</span></div>
 </div>
 <div class="project-actions" style="margin-top:18px;"><a href="#licoes-little-garden">Ver reflexão pós-projeto</a><a class="secondary" href="#projetos">Voltar aos projetos</a></div>
-<span class="project-toggle">Abrir projeto completo</span>
+<span class="project-toggle">Abrir</span>
 </div>
 <div class="pbl-grid">
 <article class="pbl-card"><h3>Intencionalidade pedagógica</h3><p>As crianças vão investigar, com apoio do professor, como uma planta nasce, cresce e precisa de cuidado. Para crianças de 3 anos, o PBL acontece por experiências concretas e repetidas: tocar, cheirar, observar, regar, comparar, cantar, dramatizar, desenhar, cuidar, mostrar e tentar comunicar descobertas em inglês.</p><p>O foco não é produzir explicações formais, mas construir sentido: “eu plantei”, “eu cuidei”, “a planta mudou”, “ela precisa de água, sol, terra e cuidado”.</p></article>
@@ -763,7 +771,7 @@
     const toggle = project.querySelector('.project-toggle');
     project.classList.toggle('is-collapsed', !open);
     if (hero) hero.setAttribute('aria-expanded', open ? 'true' : 'false');
-    if (toggle) toggle.textContent = open ? 'Fechar projeto' : 'Abrir projeto completo';
+    if (toggle) toggle.textContent = open ? 'Fechar' : 'Abrir';
   }
   function openProjectById(id){
     const project = document.getElementById(id);
