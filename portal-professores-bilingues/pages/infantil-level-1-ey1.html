@@ -107,6 +107,7 @@
     .accordion-project .pbl-hero { cursor:pointer; position:relative; }
     .accordion-project .pbl-hero:focus { outline:4px solid rgba(46,157,120,.26); outline-offset:4px; }
     .project-toggle { display:inline-flex; align-items:center; justify-content:center; margin-top:14px; padding:9px 13px; border-radius:999px; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.42); color:white; font-weight:900; font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
+    .accordion-project.is-collapsed { display:none; }
     .accordion-project.is-collapsed .pbl-hero { margin-bottom:0; padding:18px 22px; display:grid; grid-template-columns:1fr auto; gap:12px; align-items:center; }
     .accordion-project.is-collapsed .pbl-hero p:not(.eyebrow),
     .accordion-project.is-collapsed .pbl-meta,
@@ -116,7 +117,6 @@
     .accordion-project.is-collapsed .project-toggle { margin-top:0; justify-self:end; }
     .accordion-project.is-collapsed .pbl-grid,
     .accordion-project.is-collapsed > .pbl-card { display:none; }
-    .project-menu-card p, .project-menu-card ul { display:none; }
     @media (max-width:900px) { .accordion-project.is-collapsed .pbl-hero { grid-template-columns:1fr; } .accordion-project.is-collapsed .project-toggle { justify-self:start; } }
     .pbl-hero h2 { color:white; font-size:clamp(28px,4vw,46px); margin:6px 0 10px; }
     .pbl-hero p { color:rgba(255,255,255,.88); max-width:920px; }
@@ -258,9 +258,9 @@
 <section class="section" id="projetos">
 <div class="section-heading"><p class="eyebrow">Projetos bimestrais/trimestrais</p><h2>Deeper Learning em ação</h2><p>Os projetos são momentos de integração entre conteúdo, linguagem, exploração, criação e comunicação com famílias. Eles não substituem a progressão Cambridge/GSP: materializam a proposta bilíngue em experiências visíveis para a comunidade escolar.</p></div>
 <div class="project-grid">
-<article class="project-card featured project-menu-card"><span class="project-status">Projeto completo · T1</span><h3>My Classroom Museum</h3><div class="project-actions"><a href="#projeto-classroom-museum">Abrir</a></div></article>
-<article class="project-card featured project-menu-card"><span class="project-status">Projeto completo · T2</span><h3>Little Garden</h3><div class="project-actions"><a href="#projeto-little-garden">Abrir</a></div></article>
-<article class="project-card project-menu-card"><span class="project-status">Em construção · T3</span><h3>Animal Movement Day</h3><div class="project-actions"><a class="secondary" href="#projetos">Em breve</a></div></article>
+<article class="project-card featured project-menu-card"><span class="project-status">Projeto completo · T1</span><h3>My Classroom Museum</h3><p>As crianças investigam a própria sala como espaço de pertencimento, rotina, objetos, cores, formas e materiais. Desenvolve Deeper Learning ao transformar adaptação em exploração, classificação, autoria e comunicação inicial em inglês.</p><div class="project-actions"><a href="#projeto-classroom-museum">Abrir projeto</a></div></article>
+<article class="project-card featured project-menu-card"><span class="project-status">Projeto completo · T2</span><h3>Little Garden</h3><p>As crianças cuidam de um pequeno jardim, observam mudanças reais e comunicam descobertas. Desenvolve Deeper Learning por meio de investigação concreta, cuidado, criação, linguagem funcional e conexão com as famílias.</p><div class="project-actions"><a href="#projeto-little-garden">Abrir projeto</a></div></article>
+<article class="project-card project-menu-card"><span class="project-status">Em construção · T3</span><h3>Animal Movement Day</h3><p>Projeto previsto para explorar animais, corpo, movimento, sons e preferências, conectando vocabulário, dramatização, escuta ativa e expressão corporal.</p><div class="project-actions"><a class="secondary" href="#projetos">Em breve</a></div></article>
 </div>
 </section>
 <section class="section pbl-project accordion-project is-collapsed" id="projeto-classroom-museum">
