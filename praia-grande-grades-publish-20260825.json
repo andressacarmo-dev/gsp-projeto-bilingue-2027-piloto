@@ -1,0 +1,8 @@
+{
+  "school": "praia-grande",
+  "segment": "fundamental-1",
+  "version": "20260825-praia-grande-fund1-atualizado-v1",
+  "source": "Telegram ZIP from Andressa, 15 PNG files",
+  "updated_cards": ["p13", "p14", "p15", "p16", "p17", "p18", "p19", "p20", "p21", "p22", "p23", "p24", "p25", "p26", "p27"],
+  "mapping_note": "Incoming files were ordered Regular, Regular Bilingue, Integral Bilingue for each Year; portal cards remain ordered Integral Bilingue, Regular Bilingue, Regular."
+}
