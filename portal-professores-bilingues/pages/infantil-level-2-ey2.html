@@ -63,6 +63,47 @@
     .quarter-card,.project-card,.strategy-card,.report-card,.assessment-columns article,.material-card { background:white; border:1px solid var(--line); border-radius:24px; padding:22px; box-shadow:0 12px 34px rgba(7,27,79,.08); }
     .quarter-card { border-top:6px solid var(--royal); } .project-card { border-top:6px solid var(--red); } .strategy-card { border-top:6px solid #f2b705; } .report-card { border-top:6px solid #2e9d78; }
     .quarter-card ul,.project-card ul,.strategy-card ul,.report-card ul { margin:10px 0 0 18px; padding:0; color:var(--muted); }
+    .deeper-box { background:linear-gradient(135deg,#ffffff,#f4fbf5); border:1px solid var(--line); border-radius:30px; padding:clamp(22px,4vw,36px); box-shadow:0 16px 44px rgba(7,27,79,.08); }
+    .deeper-principles { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:18px; }
+    .deeper-principles article { background:white; border:1px solid var(--line); border-top:6px solid #2e9d78; border-radius:22px; padding:20px; box-shadow:0 12px 30px rgba(7,27,79,.06); }
+    .project-card.featured { border-top-color:#2e9d78; background:linear-gradient(180deg,#ffffff,#f4fbf5); }
+    .project-status { display:inline-flex; margin-bottom:10px; padding:6px 10px; border-radius:999px; background:#e8f7ef; color:#0f6f4d; font-size:11px; font-weight:900; text-transform:uppercase; letter-spacing:.08em; }
+    .project-actions { margin-top:16px; display:flex; flex-wrap:wrap; gap:10px; }
+    .project-actions a { display:inline-flex; align-items:center; justify-content:center; padding:10px 14px; border-radius:999px; background:var(--navy); color:white; text-decoration:none; font-weight:900; font-size:13px; }
+    .project-actions a.secondary { background:white; color:var(--navy); border:1px solid var(--line); }
+    .project-end-actions { justify-content:center; margin-top:22px; padding-top:18px; border-top:1px solid var(--line); }
+    .project-end-actions a { background:var(--red); }
+    .pbl-project { background:white; border:1px solid var(--line); border-radius:32px; padding:clamp(22px,4vw,38px); box-shadow:0 18px 52px rgba(7,27,79,.10); }
+    .pbl-hero { background:radial-gradient(circle at 92% 12%,rgba(255,255,255,.24),transparent 26%), linear-gradient(135deg,#0f6f4d,#2e9d78 58%,#74c947); color:white; border-radius:28px; padding:clamp(22px,4vw,36px); margin-bottom:22px; }
+    .accordion-project .pbl-hero { cursor:pointer; position:relative; }
+    .accordion-project .pbl-hero:focus { outline:4px solid rgba(46,157,120,.26); outline-offset:4px; }
+    .project-toggle { display:inline-flex; align-items:center; justify-content:center; margin-top:14px; padding:9px 13px; border-radius:999px; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.42); color:white; font-weight:900; font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
+    .accordion-project.is-collapsed .pbl-hero { margin-bottom:0; padding:18px 22px; display:grid; grid-template-columns:1fr auto; gap:12px; align-items:center; }
+    .accordion-project.is-collapsed .pbl-hero p:not(.eyebrow),
+    .accordion-project.is-collapsed .pbl-meta,
+    .accordion-project.is-collapsed .project-actions { display:none; }
+    .accordion-project.is-collapsed .pbl-hero h2 { margin:0; font-size:clamp(22px,3vw,34px); }
+    .accordion-project.is-collapsed .pbl-hero .eyebrow { margin:0 0 4px; }
+    .accordion-project.is-collapsed .project-toggle { margin-top:0; justify-self:end; }
+    .accordion-project.is-collapsed .pbl-grid,
+    .accordion-project.is-collapsed > .pbl-card { display:none; }
+    @media (max-width:900px) { .accordion-project.is-collapsed .pbl-hero { grid-template-columns:1fr; } .accordion-project.is-collapsed .project-toggle { justify-self:start; } }
+    .pbl-hero h2 { color:white; font-size:clamp(28px,4vw,46px); margin:6px 0 10px; }
+    .pbl-hero p { color:rgba(255,255,255,.88); max-width:920px; }
+    .pbl-meta { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin-top:18px; }
+    .pbl-meta div { background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.24); border-radius:18px; padding:14px; }
+    .pbl-meta strong { display:block; color:white; font-size:12px; text-transform:uppercase; letter-spacing:.08em; margin-bottom:4px; }
+    .pbl-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+    .pbl-card { background:#fbfcff; border:1px solid var(--line); border-radius:24px; padding:22px; }
+    .pbl-card h3 { color:var(--navy); margin-bottom:10px; }
+    .pbl-card ul, .pbl-card ol { margin:10px 0 0 20px; padding:0; color:var(--muted); }
+    .pbl-card li { margin:6px 0; }
+    .pbl-week { border-left:6px solid #2e9d78; background:#f4fbf5; }
+    .pbl-rubric { width:100%; border-collapse:collapse; margin-top:10px; background:white; border-radius:18px; overflow:hidden; }
+    .pbl-rubric th { background:#0f6f4d; color:white; text-align:left; padding:12px; }
+    .pbl-rubric td { border-bottom:1px solid var(--line); padding:12px; vertical-align:top; }
+    .pbl-rubric tr:last-child td { border-bottom:0; }
+    @media (max-width:900px) { .deeper-principles,.pbl-meta,.pbl-grid { grid-template-columns:1fr; } }
     .assessment-box { background:linear-gradient(135deg,#ffffff,#f1f5ff); border:1px solid var(--line); border-radius:30px; padding:clamp(22px,4vw,36px); box-shadow:0 16px 44px rgba(7,27,79,.08); }
     .assessment-columns strong { display:inline-flex; color:var(--red); margin-bottom:8px; text-transform:uppercase; letter-spacing:.08em; font-size:12px; }
     .material-card a { display:inline-flex; margin-top:10px; color:var(--royal); font-weight:900; text-decoration:none; }
@@ -122,7 +163,7 @@
 <header class="matrix-hero">
 <nav aria-label="Navegação da matriz Level 2" class="topbar">
 <a aria-label="Voltar ao Portal dos Professores Bilíngues" class="brand" href="../index.html"><span aria-hidden="true" class="brand-mark"><img alt="" src="../assets/icons/uk-flag.svg"/></span><span><strong>GSP</strong> Teacher Portal</span></a>
-<div class="nav-links"><a href="#matriz">Matriz</a><a href="#progressao">Progressão</a><a href="#avaliacao-global">Avaliação</a><a href="#estrategias">Estratégias</a></div>
+<div class="nav-links"><a href="#deeper-learning">Deeper Learning</a><a href="#conduzir-deeper-learning">Apoio docente</a><a href="#projetos">Projetos</a><a href="#matriz">Matriz</a><a href="#progressao">Progressão</a><a href="#avaliacao-global">Avaliação</a><a href="#estrategias">Estratégias</a></div>
 </nav>
 <div class="matrix-hero-grid">
 <section>
@@ -152,6 +193,26 @@
 <article><h3>Adaptável pela escola</h3><p>Exemplos locais, materiais concretos, projetos complementares, ordem de algumas atividades e conexões com eventos da unidade.</p></article>
 <article><h3>Evidência mínima</h3><p>Registrar participação, compreensão, vocabulário reconhecido e tentativas de comunicação por meio de foto, checklist, fala observada ou produção da criança.</p></article>
 <article><h3>Comunicação com famílias</h3><p>Traduzir o desenvolvimento em linguagem clara, afetiva e consistente, mantendo foco em repertório, participação e autonomia progressiva.</p></article>
+</div>
+</section>
+<section class="section deeper-box" id="deeper-learning">
+<div class="section-heading compact"><p class="eyebrow">Deeper Learning no Level 2</p><h2>Observar, escolher e explicar descobertas</h2></div>
+<p>No Level 2, Deeper Learning acontece quando a criança amplia sua investigação do mundo com mais intenção: observa clima, pessoas, lugares, formas, ações, objetos, moradias, alimentos e animais; faz escolhas; compara características; tenta explicar descobertas com frases curtas em inglês e transforma a aprendizagem em registros visíveis para a turma e para as famílias.</p>
+<div class="deeper-principles">
+<article><h3>1. Investigar relações</h3><p>Partir de experiências concretas para que a criança perceba relações simples: clima e escolhas, lugares e funções, ações e habilidades, objetos e localização, animais e características.</p></article>
+<article><h3>2. Usar inglês para agir</h3><p>O inglês aparece para observar, perguntar, convidar, pedir, localizar, comparar e descrever: Today it’s..., Let’s go to..., I can..., Where’s...?, Can I have...?, It’s...</p></article>
+<article><h3>3. Comunicar com autoria</h3><p>A criança começa a mostrar mais intenção comunicativa por meio de mapas, gráficos, maquetes, galerias, dramatizações, portfólio, speech bubbles e frases apoiadas.</p></article>
+</div>
+</section>
+<section class="section" id="conduzir-deeper-learning">
+<div class="section-heading"><p class="eyebrow">Apoio docente</p><h2>Como conduzir Deeper Learning no Level 2</h2><p>Para crianças de 4–5 anos, a profundidade vem de conectar linguagem, experiência e pensamento. O professor mantém uma rotina segura, mas aumenta gradualmente as oportunidades de escolha, comparação, localização, descrição e explicação com apoio visual.</p></div>
+<div class="strategy-grid">
+<article class="strategy-card"><h3>1. Faça a pergunta virar ação</h3><p>Perguntas simples precisam levar a uma escolha concreta, movimento, desenho, classificação ou construção.</p><ul><li>Is it sunny?</li><li>Where do you want to go?</li><li>Can you jump?</li></ul></article>
+<article class="strategy-card"><h3>2. Conecte temas entre si</h3><p>Ajude a criança a perceber relações: clima influencia brincadeiras; lugares têm funções; objetos ocupam posições; animais têm características.</p><ul><li>Weather + places.</li><li>Actions + abilities.</li><li>Homes + nature.</li></ul></article>
+<article class="strategy-card"><h3>3. Modele frases curtas</h3><p>Antes de esperar produção oral, ofereça frames repetidos, cartões visuais e respostas por escolha.</p><ul><li>“It’s rainy.”</li><li>“I can run.”</li><li>“It’s under the table.”</li></ul></article>
+<article class="strategy-card"><h3>4. Valorize tentativa, não perfeição</h3><p>A criança pode responder com gesto, palavra, eco, frase incompleta, desenho ou escolha. O professor reformula e amplia com naturalidade.</p><ul><li>Child: “sunny.”</li><li>Teacher: “Yes, today it’s sunny.”</li><li>Group repeats.</li></ul></article>
+<article class="strategy-card"><h3>5. Use evidências com função</h3><p>Cada evidência deve mostrar uma aprendizagem: gráfico de clima, mapa de lugares, circuito de ações, atividade de localização, maquete ou galeria.</p><ul><li>Foto + legenda.</li><li>Registro de fala.</li><li>Produção comentada.</li></ul></article>
+<article class="strategy-card"><h3>6. Feche com compartilhamento</h3><p>Ao final de cada ciclo, a criança precisa mostrar algo: apontar, nomear, escolher, comparar, repetir uma frase ou apresentar com apoio.</p><ul><li>“Look at my map.”</li><li>“This is my house.”</li><li>“I like the monkey.”</li></ul></article>
 </div>
 </section>
 <section class="section" id="rotina">
@@ -185,12 +246,27 @@
 </div>
 </section>
 <section class="section" id="projetos">
-<div class="section-heading"><p class="eyebrow">Projetos complementares</p><h2>Projetos complementares</h2><p>Projetos devem reforçar a entrega esperada, gerar evidências e criar experiências significativas, sem substituir a progressão Cambridge/GSP.</p></div>
+<div class="section-heading"><p class="eyebrow">Projetos bimestrais/trimestrais</p><h2>Deeper Learning em ação</h2><p>Os projetos integram conteúdo, linguagem, exploração, criação e comunicação com famílias. Eles não substituem a progressão Cambridge/GSP: tornam visível o que as crianças investigam, escolhem, constroem e começam a explicar em inglês.</p></div>
 <div class="project-grid">
-<article class="project-card"><h3>Weather station</h3><p>Painel vivo de clima com escolhas de roupa, brincadeira e rotina.</p><ul><li>Integra weather, hot/cold e linguagem de observação.</li><li>Gera foto, gráfico simples e fala curta.</li></ul></article>
-<article class="project-card"><h3>My places map</h3><p>Mapa afetivo de lugares da escola, bairro ou cidade.</p><ul><li>Integra places, Let’s go to... e preferências.</li><li>Gera mapa visual, escolha individual e mini apresentação.</li></ul></article>
-<article class="project-card"><h3>Animal features gallery</h3><p>Galeria de animais com características simples.</p><ul><li>Integra animals, colorful/furry e descrição.</li><li>Gera desenho, classificação e frase apoiada.</li></ul></article>
+<article class="project-card featured project-menu-card"><span class="project-status">Projeto completo · T1</span><h3>Our Weather and Places Map</h3><p>As crianças investigam clima, sentimentos, família e lugares para criar um mapa afetivo da turma. Desenvolve Deeper Learning ao conectar observação diária, escolhas, preferências e linguagem funcional.</p><div class="project-actions"><a href="#projeto-weather-places-map">Abrir projeto</a></div></article>
+<article class="project-card featured project-menu-card"><span class="project-status">Projeto completo · T2</span><h3>I Can Build It!</h3><p>As crianças exploram cores, formas, ações, habilidades e localização para construir um espaço/brinquedo coletivo. Desenvolve Deeper Learning por meio de design, movimento, resolução de problemas e comunicação apoiada.</p><div class="project-actions"><a href="#projeto-i-can-build-it">Abrir projeto</a></div></article>
+<article class="project-card featured project-menu-card"><span class="project-status">Projeto completo · T3</span><h3>Little Habitat Gallery</h3><p>As crianças investigam moradias, natureza, necessidades, alimentos e animais para montar uma galeria de habitats. Desenvolve Deeper Learning ao comparar ambientes, cuidar, pedir, descrever e apresentar descobertas.</p><div class="project-actions"><a href="#projeto-habitat-gallery">Abrir projeto</a></div></article>
 </div>
+</section>
+<section class="section pbl-project accordion-project is-collapsed" id="projeto-weather-places-map">
+<div class="pbl-hero" role="button" tabindex="0" aria-expanded="false"><p class="eyebrow">Projeto PBL trimestral · Level 2 · Kindergarten · T1</p><h2>Our Weather and Places Map</h2><p>Projeto de investigação sobre clima, família, sentimentos e lugares. A turma observa o tempo, conversa sobre como se sente, escolhe lugares importantes e constrói um mapa afetivo para comunicar preferências e rotinas em inglês.</p><div class="pbl-meta"><div><strong>Duração</strong><span>10–12 semanas · 1º trimestre</span></div><div><strong>Unidades</strong><span>Welcome Unit + Units 1–3 · friends, weather, family, feelings and places</span></div><div><strong>Pergunta norteadora</strong><span>Where can we go and what can we do today?</span></div><div><strong>Culminância</strong><span>Weather & Places Map Walk + family place hunt</span></div></div><div class="project-actions" style="margin-top:18px;"><a href="#licoes-weather-places-map">Ver reflexão pós-projeto</a><a class="secondary" href="#projetos">Voltar aos projetos</a></div><span class="project-toggle">Abrir</span></div>
+<div class="pbl-grid"><article class="pbl-card"><h3>Intencionalidade pedagógica</h3><p>O Level 2 começa retomando segurança, amizade e rotina, mas já pode ampliar a investigação para o entorno. O projeto transforma o weather chart, os sentimentos e os lugares em uma experiência de escolha: se está sunny, rainy, hot ou cold, para onde podemos ir? Como nos sentimos? Quem pode ir conosco?</p><p>O mapa não é geográfico formal. É uma representação afetiva e funcional de lugares que fazem sentido para a criança: school, playground, park, library, market, store/shop, beach, pool e lugares da própria escola.</p></article><article class="pbl-card"><h3>Conexão com Deeper Learning</h3><ul><li><strong>Domínio:</strong> reconhecer clima, família, emoções e lugares.</li><li><strong>Identidade:</strong> expressar preferências, sentimentos e vínculos com espaços.</li><li><strong>Criação:</strong> construir weather chart, cartões de sentimentos, mapa coletivo e labels.</li><li><strong>Transferência:</strong> observar clima e lugares também em casa/com a família.</li><li><strong>Comunicação:</strong> usar Today it’s..., I feel..., This is my..., Let’s go to... e I like...</li></ul></article><article class="pbl-card"><h3>O que as famílias devem conseguir ver</h3><p>Famílias devem perceber que a criança não está apenas memorizando palavras. Ela observa o clima, faz escolhas, reconhece lugares, expressa sentimentos e tenta usar inglês para participar de uma rotina real.</p></article><article class="pbl-card"><h3>Linguagem essencial do projeto</h3><ul><li>Today it’s sunny/rainy/cloudy/windy/hot/cold.</li><li>I feel happy/scared/surprised.</li><li>This is my family / friend / teacher.</li><li>Let’s go to the park/library/playground.</li><li>I like the...</li></ul></article><article class="pbl-card"><h3>Estrutura trimestral do projeto</h3><ol><li><strong>Weeks 1–3:</strong> friendship, hello routine, weather observation and feelings.</li><li><strong>Weeks 4–6:</strong> family, emotions and places vocabulary.</li><li><strong>Weeks 7–9:</strong> map construction, routes, choices and role-play.</li><li><strong>Weeks 10–12:</strong> rehearsal, sharing, family connection and portfolio evidence.</li></ol></article><article class="pbl-card"><h3>Recursos necessários</h3><ul><li>Weather cards, feelings cards, family/places flashcards.</li><li>Cartolina grande ou painel digital impresso.</li><li>Fotos/desenhos de lugares da escola/comunidade.</li><li>Ícones de sol, chuva, vento, quente/frio.</li><li>Labels com palavras-chave e setas de percurso.</li></ul></article><article class="pbl-card"><h3>Rotina fixa semanal</h3><ol><li>Weather check: Today it’s...</li><li>Question of the week.</li><li>Explore with cards, objects, story or movement.</li><li>Create/add something to the map.</li><li>Share: point, choose, name or repeat a frame.</li></ol></article><article class="pbl-card"><h3>Evidências recomendadas</h3><ul><li>Foto da criança usando weather chart.</li><li>Registro de escolha: “Let’s go to the...”</li><li>Produção individual de lugar favorito.</li><li>Participação no mapa coletivo.</li><li>Comentário/fala observada pelo professor.</li></ul></article><article class="pbl-card pbl-week"><h3>Semanas 1–2 · Hello, friends!</h3><p>Retomar saudações, friend/teacher, turn-taking e combinados. Evidência: participação na rotina e resposta a hello/goodbye.</p></article><article class="pbl-card pbl-week"><h3>Semanas 3–4 · What’s the weather?</h3><p>Observar clima diariamente, comparar hot/cold, sunny/rainy e registrar no painel. Evidência: escolha ou resposta yes/no.</p></article><article class="pbl-card pbl-week"><h3>Semanas 5–6 · Family and feelings</h3><p>Conectar pessoas e emoções em cartões/desenhos. Evidência: This is my... / My... is happy/scared com apoio.</p></article><article class="pbl-card pbl-week"><h3>Semanas 7–8 · Places we know</h3><p>Explorar lugares e funções por imagens, brincadeiras e role-play. Evidência: reconhecimento de lugar e preferência.</p></article><article class="pbl-card pbl-week"><h3>Semanas 9–10 · Let’s build the map</h3><p>Construir mapa coletivo com labels e rotas. Evidência: criança adiciona/posiciona um lugar e tenta nomeá-lo.</p></article><article class="pbl-card pbl-week"><h3>Semanas 11–12 · Map walk</h3><p>Compartilhar o mapa com outra turma ou famílias. Evidência: apontar, nomear ou repetir frase curta durante apresentação.</p></article></div>
+<article class="pbl-card" id="licoes-weather-places-map"><h3>Reflexão pós-projeto</h3><table class="pbl-rubric"><thead><tr><th>Aspecto</th><th>O professor observa</th></tr></thead><tbody><tr><td>Investigação</td><td>A criança observa clima, identifica lugares e relaciona escolhas à rotina.</td></tr><tr><td>Linguagem</td><td>Usa ou tenta usar Today it’s..., I feel..., Let’s go to... e I like...</td></tr><tr><td>Autoria</td><td>Contribui com escolhas, desenhos, labels ou participação no mapa.</td></tr><tr><td>Transferência</td><td>Comenta/observa clima e lugares fora da aula com apoio da família.</td></tr></tbody></table><div class="project-actions project-end-actions"><a data-close-project href="#projetos">Fechar projeto</a></div></article>
+</section>
+<section class="section pbl-project accordion-project is-collapsed" id="projeto-i-can-build-it">
+<div class="pbl-hero" role="button" tabindex="0" aria-expanded="false"><p class="eyebrow">Projeto PBL trimestral · Level 2 · Kindergarten · T2</p><h2>I Can Build It!</h2><p>Projeto de criação e resolução de problemas em que a turma usa cores, formas, ações, habilidades, móveis e localização para construir um espaço/brinquedo coletivo e explicar onde as coisas ficam.</p><div class="pbl-meta"><div><strong>Duração</strong><span>10–12 semanas · 2º trimestre</span></div><div><strong>Unidades</strong><span>Units 4–6 · colours, shapes, actions, abilities, home and furniture</span></div><div><strong>Pergunta norteadora</strong><span>What can we build and where does it go?</span></div><div><strong>Culminância</strong><span>Classroom Build Expo + action challenge</span></div></div><div class="project-actions" style="margin-top:18px;"><a href="#licoes-i-can-build-it">Ver reflexão pós-projeto</a><a class="secondary" href="#projetos">Voltar aos projetos</a></div><span class="project-toggle">Abrir</span></div>
+<div class="pbl-grid"><article class="pbl-card"><h3>Intencionalidade pedagógica</h3><p>O segundo ciclo combina atributos visuais, comandos de criação, movimento e noções espaciais. A criança desenha, colore, constrói, testa ações e organiza objetos usando inglês para seguir instruções e comunicar decisões.</p><p>O produto final pode ser uma maquete simples de casa/sala, um playground de blocos, um percurso motor ou uma instalação coletiva com objetos localizados em on/in/under.</p></article><article class="pbl-card"><h3>Conexão com Deeper Learning</h3><ul><li><strong>Domínio:</strong> reconhecer cores, formas, ações, habilidades, móveis e preposições.</li><li><strong>Identidade:</strong> perceber o que consegue fazer e comunicar preferências de criação.</li><li><strong>Criação:</strong> desenhar, construir, organizar, testar e melhorar uma produção coletiva.</li><li><strong>Transferência:</strong> localizar objetos em casa/sala usando on, in e under.</li><li><strong>Comunicação:</strong> usar Draw..., Color..., I can..., I can’t..., Where’s...? e It’s on/in/under...</li></ul></article><article class="pbl-card"><h3>O que as famílias devem conseguir ver</h3><p>Famílias devem ver a criança usando inglês para agir: seguir comandos, nomear cores/formas, mostrar habilidades, procurar objetos e explicar posições simples dentro de uma construção significativa.</p></article><article class="pbl-card"><h3>Linguagem essencial do projeto</h3><ul><li>Draw a circle/square/triangle.</li><li>Color it pink/brown/black/white.</li><li>I can jump/run/sing/swim.</li><li>Where’s the toy?</li><li>It’s on the shelf / in the toy box / under the bed.</li></ul></article><article class="pbl-card"><h3>Estrutura trimestral do projeto</h3><ol><li><strong>Weeks 1–3:</strong> colours, shapes, drawing and guided commands.</li><li><strong>Weeks 4–5:</strong> actions, abilities and movement challenges.</li><li><strong>Weeks 6–8:</strong> home/furniture vocabulary and object-location games.</li><li><strong>Weeks 9–12:</strong> build, test, label, rehearse and share.</li></ol></article><article class="pbl-card"><h3>Recursos necessários</h3><ul><li>Blocos, caixas, papel colorido, cola, tintas e formas recortadas.</li><li>Flashcards de ações, móveis e preposições.</li><li>Objetos pequenos para esconder/localizar.</li><li>Labels e speech bubbles com frases curtas.</li></ul></article><article class="pbl-card"><h3>Rotina fixa semanal</h3><ol><li>Show the challenge.</li><li>Model the frame.</li><li>Build/move/search with support.</li><li>Record one evidence.</li><li>Share: “Look! It’s...”</li></ol></article><article class="pbl-card"><h3>Evidências recomendadas</h3><ul><li>Produção visual guiada por cor/forma.</li><li>Foto/vídeo curto de ação: I can...</li><li>Registro de localização com on/in/under.</li><li>Imagem da construção coletiva com labels.</li><li>Fala observada em apresentação curta.</li></ul></article><article class="pbl-card pbl-week"><h3>Semanas 1–2 · Shape designers</h3><p>Explorar circle, square, triangle e cores. Evidência: seguir comando Draw/Color com apoio.</p></article><article class="pbl-card pbl-week"><h3>Semanas 3–4 · Patterns and choices</h3><p>Criar padrões e escolher atributos. Evidência: combinação cor + forma em produção visual.</p></article><article class="pbl-card pbl-week"><h3>Semanas 5–6 · I can move</h3><p>Testar ações em circuito motor. Evidência: resposta corporal e tentativa de I can/I can’t.</p></article><article class="pbl-card pbl-week"><h3>Semanas 7–8 · Where’s the toy?</h3><p>Localizar objetos em móveis/caixas. Evidência: resposta a Where’s...? por gesto, palavra ou frase curta.</p></article><article class="pbl-card pbl-week"><h3>Semanas 9–10 · Build and organize</h3><p>Construir o espaço coletivo e posicionar objetos. Evidência: contribuição individual para a construção.</p></article><article class="pbl-card pbl-week"><h3>Semanas 11–12 · Build Expo</h3><p>Apresentar a construção com frases apoiadas. Evidência: Look at my... / It’s on/in/under...</p></article></div>
+<article class="pbl-card" id="licoes-i-can-build-it"><h3>Reflexão pós-projeto</h3><table class="pbl-rubric"><thead><tr><th>Aspecto</th><th>O professor observa</th></tr></thead><tbody><tr><td>Investigação</td><td>A criança testa materiais, ações e posições para resolver desafios concretos.</td></tr><tr><td>Linguagem</td><td>Compreende comandos e tenta usar I can/I can’t, Where’s...? e on/in/under.</td></tr><tr><td>Autoria</td><td>Faz escolhas de cor, forma, construção e organização.</td></tr><tr><td>Colaboração</td><td>Participa do build coletivo, espera a vez e cuida dos materiais.</td></tr></tbody></table><div class="project-actions project-end-actions"><a data-close-project href="#projetos">Fechar projeto</a></div></article>
+</section>
+<section class="section pbl-project accordion-project is-collapsed" id="projeto-habitat-gallery">
+<div class="pbl-hero" role="button" tabindex="0" aria-expanded="false"><p class="eyebrow">Projeto PBL trimestral · Level 2 · Kindergarten · T3</p><h2>Little Habitat Gallery</h2><p>Projeto de consolidação em que a turma investiga casas, natureza, necessidades, alimentos e animais para criar uma galeria de habitats com descrições simples e pedidos funcionais.</p><div class="pbl-meta"><div><strong>Duração</strong><span>10–12 semanas · 3º trimestre</span></div><div><strong>Unidades</strong><span>Units 7–9 · homes, nature, needs, food, animals and review</span></div><div><strong>Pergunta norteadora</strong><span>What do living things need and where do they live?</span></div><div><strong>Culminância</strong><span>Little Habitat Gallery + portfolio celebration</span></div></div><div class="project-actions" style="margin-top:18px;"><a href="#licoes-habitat-gallery">Ver reflexão pós-projeto</a><a class="secondary" href="#projetos">Voltar aos projetos</a></div><span class="project-toggle">Abrir</span></div>
+<div class="pbl-grid"><article class="pbl-card"><h3>Intencionalidade pedagógica</h3><p>O fechamento do Level 2 deve consolidar repertório e ampliar a capacidade de comparar e descrever. A criança observa diferentes moradias e elementos naturais, expressa necessidades como hungry/thirsty, pede alimentos com polidez e descreve animais com características simples.</p><p>A galeria de habitats organiza essas descobertas em produções visuais, maquetes, labels e pequenas falas apoiadas, preparando a transição para o Level 3.</p></article><article class="pbl-card"><h3>Conexão com Deeper Learning</h3><ul><li><strong>Domínio:</strong> reconhecer homes, nature, food, needs, animals and features.</li><li><strong>Identidade:</strong> expressar preferências e necessidades com mais autonomia.</li><li><strong>Criação:</strong> construir habitats, desenhos, labels, gráficos e portfólio.</li><li><strong>Transferência:</strong> observar animais, alimentos e moradias em livros, casa e comunidade.</li><li><strong>Comunicação:</strong> usar This is a..., I’m hungry/thirsty, Can I have..., Do you like...? e It’s colorful/furry.</li></ul></article><article class="pbl-card"><h3>O que as famílias devem conseguir ver</h3><p>Famílias devem perceber que a criança consegue mobilizar vocabulário acumulado para comparar ambientes, falar de necessidades, pedir com educação e descrever animais ou elementos da natureza com apoio.</p></article><article class="pbl-card"><h3>Linguagem essencial do projeto</h3><ul><li>This is a house/apartment/tree/pond.</li><li>It’s big/small/new/old.</li><li>I’m hungry/thirsty.</li><li>Can I have water/bread/grapes, please?</li><li>It’s a monkey/parrot/snake. It’s colorful/furry.</li></ul></article><article class="pbl-card"><h3>Estrutura trimestral do projeto</h3><ol><li><strong>Weeks 1–3:</strong> homes, yard/garden, tree, pond and comparisons.</li><li><strong>Weeks 4–5:</strong> needs, food, polite requests and preference graph.</li><li><strong>Weeks 6–8:</strong> animals, features, classification and habitat choices.</li><li><strong>Weeks 9–12:</strong> gallery production, portfolio selection and celebration.</li></ol></article><article class="pbl-card"><h3>Recursos necessários</h3><ul><li>Imagens de casas, apartamentos, árvores, jardins e lagoas.</li><li>Flashcards de alimentos, necessidades e animais.</li><li>Materiais para maquete/desenho/galeria.</li><li>Labels e sentence starters.</li><li>Portfólio individual de evidências do ano.</li></ul></article><article class="pbl-card"><h3>Rotina fixa semanal</h3><ol><li>Observe and compare.</li><li>Model the useful frame.</li><li>Create or classify.</li><li>Choose one evidence.</li><li>Share with a word, gesture or short sentence.</li></ol></article><article class="pbl-card"><h3>Evidências recomendadas</h3><ul><li>Desenho/maquete de home/nature.</li><li>Gráfico de preferência alimentar.</li><li>Registro de pedido: Can I have..., please?</li><li>Classificação de animais por característica.</li><li>Portfólio final com evidência escolhida pela criança.</li></ul></article><article class="pbl-card pbl-week"><h3>Semanas 1–2 · Homes around us</h3><p>Comparar house/apartment, new/old e big/small. Evidência: desenho ou escolha comentada.</p></article><article class="pbl-card pbl-week"><h3>Semanas 3–4 · Nature near home</h3><p>Explorar tree, pond, yard/garden e elementos naturais. Evidência: classificação ou registro visual.</p></article><article class="pbl-card pbl-week"><h3>Semanas 5–6 · I’m hungry/thirsty</h3><p>Trabalhar necessidades e pedidos funcionais. Evidência: tentativa de Can I have..., please?</p></article><article class="pbl-card pbl-week"><h3>Semanas 7–8 · Animal features</h3><p>Comparar bee, elephant, monkey, parrot, snake e características. Evidência: descrição colorful/furry/big/small.</p></article><article class="pbl-card pbl-week"><h3>Semanas 9–10 · Build the gallery</h3><p>Montar habitats com labels, animais e alimentos. Evidência: contribuição individual e frase apoiada.</p></article><article class="pbl-card pbl-week"><h3>Semanas 11–12 · Portfolio celebration</h3><p>Escolher evidências do ano e apresentar a galeria. Evidência: “Look at my habitat/animal.”</p></article></div>
+<article class="pbl-card" id="licoes-habitat-gallery"><h3>Reflexão pós-projeto</h3><table class="pbl-rubric"><thead><tr><th>Aspecto</th><th>O professor observa</th></tr></thead><tbody><tr><td>Investigação</td><td>A criança compara moradias, natureza, alimentos e animais com critérios simples.</td></tr><tr><td>Linguagem</td><td>Usa ou tenta usar pedidos, preferências, descrições e frases de apresentação.</td></tr><tr><td>Autoria</td><td>Seleciona evidências, cria habitat/animal e participa da galeria.</td></tr><tr><td>Consolidação</td><td>Retoma vocabulário do ano com mais segurança e prontidão para Level 3.</td></tr></tbody></table><div class="project-actions project-end-actions"><a data-close-project href="#projetos">Fechar projeto</a></div></article>
 </section>
 <section class="section" id="estrategias">
 <div class="section-heading"><p class="eyebrow">Estratégias pedagógicas</p><h2>Apoio prático ao professor</h2><p>Essas estratégias ajudam a equipe docente a atingir os marcos, especialmente quando a turma tem pouca exposição prévia ao inglês.</p></div>
@@ -208,6 +284,7 @@
 <div><h4>Let’s Explore / extensão GSP</h4><p>Explorar identidade de grupo, combinados, saudações, amizade, papéis da sala e rotina de entrada/saída com objetos reais, música e brincadeiras.</p></div>
 <div><h4>Evidências observáveis</h4><p>Participa das rotinas; cumprimenta; reconhece friend/teacher; responde a comandos previsíveis; aceita turn-taking.</p></div>
 <div><h4>Registro mínimo</h4><p>Checklist de adaptação + foto/nota de participação na rotina.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>A rotina inicial vira investigação sobre amizade e participação: a criança percebe papéis da sala, combina turn-taking e usa inglês para entrar no grupo com mais autonomia.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-2">
@@ -220,6 +297,7 @@
 <div><h4>Let’s Explore / extensão GSP</h4><p>Painel de weather, observação do céu, comparação hot/cold, dramatização de clima e escolhas de atividades conforme o tempo.</p></div>
 <div><h4>Evidências observáveis</h4><p>Identifica clima por imagem; responde yes/no com apoio; participa do weather chart; relaciona clima a ação simples.</p></div>
 <div><h4>Registro mínimo</h4><p>Weather chart semanal + observação individual de resposta oral/gestual.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>O clima deixa de ser vocabulário isolado e vira observação diária: a criança compara dias, relaciona weather a escolhas e comunica pequenas conclusões.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-3">
@@ -232,6 +310,7 @@
 <div><h4>Let’s Explore / extensão GSP</h4><p>Jogo de emoções, fotos/desenhos de famílias diversas, role-play cuidadoso, cartões de sentimentos e roda de acolhimento.</p></div>
 <div><h4>Evidências observáveis</h4><p>Reconhece membros da família; identifica scared/surprised; usa This is my... ou My... is... com apoio; respeita diferenças familiares.</p></div>
 <div><h4>Registro mínimo</h4><p>Painel de sentimentos/família + frase observada ou escolha registrada.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Família e sentimentos ajudam a criança conectar identidade, empatia e linguagem: ela reconhece pessoas, expressa emoções e descreve relações com apoio.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-4">
@@ -244,6 +323,7 @@
 <div><h4>Let’s Explore / extensão GSP</h4><p>Mapa simples de lugares, trilhas de deslocamento, escolhas de destino, dramatização de passeio e comparação de lugares indoor/outdoor.</p></div>
 <div><h4>Evidências observáveis</h4><p>Reconhece lugares; escolhe destino; usa Let’s go to... com apoio; conecta clima e lugar; participa de mapa/role-play.</p></div>
 <div><h4>Registro mínimo</h4><p>Mapa visual coletivo + registro de preferência individual.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Lugares viram uma investigação sobre função e preferência: a criança escolhe destinos, explica onde quer ir e conecta clima, rotina e comunidade.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-5">
@@ -256,6 +336,7 @@
 <div><h4>Let’s Explore / extensão GSP</h4><p>Classificação por cor/forma, desenho guiado, montagem de padrões, caça às formas na escola e produção artística.</p></div>
 <div><h4>Evidências observáveis</h4><p>Segue comando draw/color; identifica cor e forma; combina cor+forma; começa a notar palavras/frases nos balões com apoio.</p></div>
 <div><h4>Registro mínimo</h4><p>Produção visual guiada + anotação de comando compreendido.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Cores e formas se tornam critérios para observar, classificar e criar: a criança segue comandos, combina atributos e percebe que a forma escrita pode apoiar sentido.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-6">
@@ -268,6 +349,7 @@
 <div><h4>Let’s Explore / extensão GSP</h4><p>Circuito motor, jogo de bola, charades, mímica de ações, classificação can/can’t e registro por desenho/foto.</p></div>
 <div><h4>Evidências observáveis</h4><p>Executa ação a partir de comando; usa I can/I can’t com apoio; participa de jogos motores; respeita segurança e turn-taking.</p></div>
 <div><h4>Registro mínimo</h4><p>Foto/vídeo curto de ação + checklist de compreensão/produção.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Ações e habilidades conectam corpo, linguagem e autoconhecimento: a criança testa o que consegue fazer, respeita limites e comunica I can/I can’t.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-7">
@@ -280,6 +362,7 @@
 <div><h4>Let’s Explore / extensão GSP</h4><p>Montar cômodos com blocos, esconder objetos, organizar toy box/shelf, comparar sala e casa, desenhar um ambiente.</p></div>
 <div><h4>Evidências observáveis</h4><p>Reconhece móveis; responde Where’s...? por gesto/palavra; usa on/in/under com apoio; organiza objetos seguindo instrução.</p></div>
 <div><h4>Registro mínimo</h4><p>Foto de atividade de localização + frase/ação observada.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Casa e móveis permitem investigar espaço e posição: a criança esconde, procura, organiza, descreve localização e usa linguagem para resolver um desafio concreto.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-8">
@@ -292,6 +375,7 @@
 <div><h4>Let’s Explore / extensão GSP</h4><p>Maquete de bairro, comparação de imagens, observação de árvores/pátio, classificação new/old e desenho de home/yard.</p></div>
 <div><h4>Evidências observáveis</h4><p>Identifica house/apartment/pond/tree; usa big/small/new/old com apoio; compara imagens; participa de construção coletiva.</p></div>
 <div><h4>Registro mínimo</h4><p>Maquete/desenho com legenda pedagógica + checklist de adjetivos reconhecidos.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Moradias e natureza convidam à comparação: a criança observa diferenças, constrói representações e usa adjetivos simples para descrever o entorno.</p></div>
 </div>
 </article>
 <article class="month-card accordion-month is-collapsed" id="mes-9">
@@ -304,6 +388,7 @@
 <div><h4>Let’s Explore / extensão GSP</h4><p>Gráfico de preferências alimentares, jogo Can I have...?, classificação de animais por característica, mini storytelling e portfólio.</p></div>
 <div><h4>Evidências observáveis</h4><p>Expressa fome/sede; pede alimento com apoio; reconhece animais; descreve característica; revisa vocabulário do ano com mais confiança.</p></div>
 <div><h4>Registro mínimo</h4><p>Portfólio com 4 evidências + comentário sobre linguagem, participação e prontidão para Level 3.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Alimentos, necessidades e animais consolidam repertório funcional: a criança pede, expressa preferência, descreve características e seleciona evidências do próprio percurso.</p></div>
 </div>
 </article></div>
 </section>
@@ -441,8 +526,70 @@
       }
     });
   });
+  function setProject(project, open){
+    if (open) {
+      document.querySelectorAll('.accordion-project').forEach((other) => {
+        if (other !== project) setProject(other, false);
+      });
+    }
+    const hero = project.querySelector('.pbl-hero');
+    const toggle = project.querySelector('.project-toggle');
+    project.classList.toggle('is-collapsed', !open);
+    if (hero) hero.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (toggle) toggle.textContent = open ? 'Fechar' : 'Abrir';
+  }
+  function openProjectById(id){
+    const project = document.getElementById(id);
+    if (!project || !project.classList.contains('accordion-project')) return false;
+    setProject(project, true);
+    project.scrollIntoView({behavior:'smooth', block:'start'});
+    return true;
+  }
+  document.querySelectorAll('.accordion-project .pbl-hero').forEach((hero) => {
+    hero.addEventListener('click', (event) => {
+      if (event.target.closest('a')) return;
+      const project = hero.closest('.accordion-project');
+      setProject(project, project.classList.contains('is-collapsed'));
+    });
+    hero.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        const project = hero.closest('.accordion-project');
+        setProject(project, project.classList.contains('is-collapsed'));
+      }
+    });
+  });
+  document.querySelectorAll('a[href^="#projeto-"]').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      const id = link.getAttribute('href').slice(1);
+      if (openProjectById(id)) {
+        event.preventDefault();
+        history.replaceState(null, '', '#' + id);
+      }
+    });
+  });
+  document.querySelectorAll('a[href^="#licoes-"]').forEach((link) => {
+    link.addEventListener('click', () => {
+      const project = link.closest('.accordion-project');
+      if (project) setProject(project, true);
+    });
+  });
+  document.querySelectorAll('[data-close-project]').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      const project = link.closest('.accordion-project');
+      if (project) setProject(project, false);
+      const menu = document.getElementById('projetos');
+      if (menu) {
+        event.preventDefault();
+        menu.scrollIntoView({behavior:'smooth', block:'start'});
+        history.replaceState(null, '', '#projetos');
+      }
+    });
+  });
   if (location.hash && document.querySelector(location.hash + '.accordion-month')) {
     setTimeout(() => openMonthById(location.hash.slice(1)), 100);
+  } else if (location.hash && document.querySelector(location.hash + '.accordion-project')) {
+    setTimeout(() => openProjectById(location.hash.slice(1)), 100);
   }
 })();
 </script>
