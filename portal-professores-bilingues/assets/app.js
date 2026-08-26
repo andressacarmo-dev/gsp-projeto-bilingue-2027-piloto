@@ -57,6 +57,7 @@ function renderStartHere(startHere) {
 
 function renderCycle(items) {
   const wrap = $('#learning-cycle');
+  if (!items || !wrap) return;
   items.forEach((item) => {
     wrap.appendChild(el('article', 'cycle-card', `
       <div class="cycle-icon-row">
