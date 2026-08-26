@@ -101,6 +101,12 @@
     .pbl-card li { margin:6px 0; }
     .pbl-week { border-left:6px solid #2e9d78; background:#f4fbf5; }
     .pbl-rubric { width:100%; border-collapse:collapse; margin-top:10px; background:white; border-radius:18px; overflow:hidden; }
+    .pbl-card { min-width:0; overflow:hidden; }
+    .pbl-card table { max-width:100%; }
+    .pbl-rubric { table-layout:fixed; }
+    .pbl-rubric th, .pbl-rubric td { overflow-wrap:anywhere; word-break:normal; hyphens:auto; }
+    @media (max-width:700px) { .pbl-rubric { font-size:13px; } .pbl-rubric th, .pbl-rubric td { padding:10px 8px; } }
+
     .pbl-rubric th { background:#0f6f4d; color:white; text-align:left; padding:12px; }
     .pbl-rubric td { border-bottom:1px solid var(--line); padding:12px; vertical-align:top; }
     .pbl-rubric tr:last-child td { border-bottom:0; }
