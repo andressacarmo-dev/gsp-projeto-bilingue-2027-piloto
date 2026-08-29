@@ -248,7 +248,7 @@
       "name": "Fundamental 2",
       "tagline": "MATRIZES ANUAIS POR SÉRIE",
       "driveUrl": "https://drive.google.com/drive/folders/1djepYCvh-aaZCALMHemv2Jb5MPnG2s-D?usp=sharing",
-      "status": "Year 6 e Year 7 conectados; próximas páginas serão conectadas conforme finalização",
+      "status": "Years 6, 7, 8 e 9 conectados ao portal",
       "disciplines": [
         {
           "name": "Year 6",
@@ -259,10 +259,12 @@
           "localHtml": "pages/fundamental-2-year-7.html"
         },
         {
-          "name": "Year 8"
+          "name": "Year 8",
+          "localHtml": "pages/fundamental-2-year-8.html"
         },
         {
-          "name": "Year 9"
+          "name": "Year 9",
+          "localHtml": "pages/fundamental-2-year-9.html"
         }
       ]
     }
