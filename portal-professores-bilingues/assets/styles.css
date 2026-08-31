@@ -1154,3 +1154,12 @@ ul { padding-left: 18px; color: var(--muted); }
 @media (max-width: 640px) {
   #relatorios .report-segment-avatar { height: 100% !important; max-width: none !important; }
 }
+
+
+/* Report card segment visuals — dedicated face crop images 2026-08-31 */
+#relatorios .report-segment-avatar,
+#relatorios .report-kinder .report-segment-avatar,
+#relatorios .report-primary .report-segment-avatar,
+#relatorios .report-middle .report-segment-avatar {
+  object-position: 50% 50% !important;
+}
