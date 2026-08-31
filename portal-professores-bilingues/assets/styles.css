@@ -1075,3 +1075,41 @@ ul { padding-left: 18px; color: var(--muted); }
 #relatorios .badge { right: 28px; bottom: 24px; width: 70px; height: 30px; border-radius: 999px; background: #20b486; color: white; display: grid; place-items: center; font-size: 15px; font-weight: 950; letter-spacing: .08em; transform: rotate(-7deg); }
 @media (max-width: 980px) { #relatorios .report-link-groups { grid-template-columns: 1fr !important; } }
 @media (max-width: 640px) { #relatorios .report-segment-visual { height: 150px; } }
+
+/* Report card segment visuals — avatar update 2026-08-31 */
+#relatorios .report-segment-visual {
+  background: linear-gradient(135deg, #e8fff6 0%, #fff8df 54%, #eaf2ff 100%) !important;
+}
+#relatorios .report-segment-visual::before {
+  background: radial-gradient(circle at 14% 18%, rgba(255,255,255,.82) 0 8%, transparent 8.5%),
+              radial-gradient(circle at 86% 12%, rgba(255,255,255,.52) 0 7%, transparent 7.5%),
+              linear-gradient(135deg, rgba(32,180,134,.16), rgba(255,194,26,.20), rgba(249,121,31,.12)) !important;
+}
+#relatorios .report-segment-avatar {
+  position: absolute;
+  z-index: 2;
+  right: 10px;
+  bottom: -8px;
+  height: 172px;
+  width: auto;
+  max-width: 58%;
+  object-fit: contain;
+  filter: drop-shadow(0 16px 22px rgba(7,27,79,.18));
+}
+#relatorios .report-kinder .report-segment-avatar { right: 18px; height: 170px; }
+#relatorios .report-primary .report-segment-avatar { right: 12px; height: 176px; }
+#relatorios .report-middle .report-segment-avatar { right: 8px; height: 178px; }
+#relatorios .report-word {
+  z-index: 4 !important;
+  align-self: end;
+  justify-self: start;
+  margin: 0 0 20px 18px;
+  max-width: 58%;
+  text-align: left !important;
+  color: #07305f !important;
+  text-shadow: 0 3px 0 rgba(255,255,255,.78), 0 12px 20px rgba(255,255,255,.55) !important;
+}
+@media (max-width: 640px) {
+  #relatorios .report-segment-avatar { height: 154px; max-width: 54%; }
+  #relatorios .report-word { margin-left: 16px; margin-bottom: 18px; font-size: clamp(25px, 8vw, 34px); }
+}
