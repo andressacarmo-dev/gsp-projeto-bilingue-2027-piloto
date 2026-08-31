@@ -1113,3 +1113,44 @@ ul { padding-left: 18px; color: var(--muted); }
   #relatorios .report-segment-avatar { height: 154px; max-width: 54%; }
   #relatorios .report-word { margin-left: 16px; margin-bottom: 18px; font-size: clamp(25px, 8vw, 34px); }
 }
+
+
+/* Report card segment visuals — face crop update 2026-08-31 */
+#relatorios .report-segment-visual {
+  background: #e9fff2 !important;
+}
+#relatorios .report-segment-visual::before,
+#relatorios .report-word {
+  display: none !important;
+}
+#relatorios .report-segment-avatar {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 1 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  object-fit: cover !important;
+  filter: none !important;
+}
+#relatorios .report-kinder .report-segment-avatar {
+  height: 100% !important;
+  right: auto !important;
+  bottom: auto !important;
+  object-position: 50% 34% !important;
+}
+#relatorios .report-primary .report-segment-avatar {
+  height: 100% !important;
+  right: auto !important;
+  bottom: auto !important;
+  object-position: 50% 18% !important;
+}
+#relatorios .report-middle .report-segment-avatar {
+  height: 100% !important;
+  right: auto !important;
+  bottom: auto !important;
+  object-position: 50% 14% !important;
+}
+@media (max-width: 640px) {
+  #relatorios .report-segment-avatar { height: 100% !important; max-width: none !important; }
+}
