@@ -34,6 +34,18 @@
     .month-list { display:grid; gap:22px; }
     .month-card { background:white; border:1px solid var(--line); border-radius:30px; overflow:hidden; box-shadow:0 16px 44px rgba(7,27,79,.09); }
 
+    .matrix-subheading { max-width:1180px; margin:30px auto 16px; background:white; border:1px solid var(--line); border-radius:24px; padding:22px; box-shadow:0 12px 34px rgba(7,27,79,.06); }
+    .matrix-subheading h3 { margin:0 0 8px; color:var(--navy); font-size:clamp(22px,3vw,32px); line-height:1.08; text-wrap:balance; }
+    .matrix-subheading p { margin:0; color:var(--muted); }
+    .matrix-subheading .school-tag { display:inline-flex; margin-bottom:10px; padding:6px 10px; border-radius:999px; background:#eef4ff; color:var(--royal); font-size:11px; font-weight:900; text-transform:uppercase; letter-spacing:.08em; }
+    .matrix-subheading.santo-anjo .school-tag { background:#fff3df; color:#9a4d00; }
+    .anchor-months.santo-anjo a { background:#fff8f0; border-color:rgba(226,124,18,.24); color:#8a4300; }
+    .month-card.santo-anjo { border-color:rgba(226,124,18,.22); }
+    .month-card.santo-anjo .month-top,
+    .month-card.santo-anjo.accordion-month.is-collapsed .month-top { background:linear-gradient(135deg,#8a4300,#e27c12); }
+    .month-card.santo-anjo .matrix-grid h4 { color:#c45f00; }
+    .month-card.santo-anjo .matrix-grid div { background:#fffaf4; border-color:rgba(226,124,18,.16); }
+
     .month-card.accordion-month .month-top { cursor:pointer; position:relative; grid-template-columns:150px 1fr auto; }
     .month-card.accordion-month .month-top:focus { outline:4px solid rgba(30,85,179,.28); outline-offset:-4px; }
     .month-toggle { border:1px solid rgba(255,255,255,.50); background:rgba(255,255,255,.16); color:white; border-radius:999px; padding:9px 12px; font-weight:900; font-size:12px; text-transform:uppercase; letter-spacing:.08em; white-space:nowrap; }
@@ -304,6 +316,7 @@
 </section>
 <section class="section" id="matriz">
 <div class="section-heading"><p class="eyebrow">Matriz anual</p><h2>Level 3 mês a mês</h2><p>Use estes blocos como guia de planejamento, acompanhamento e registro. A progressão segue a sequência do Ready, Set, Grow! Level 3 e integra a extensão GSP/Let’s Explore EY3 para experiências, projetos e evidências.</p></div><div class="accordion-help"><strong>Navegação por mês:</strong> clique no mês para abrir ou fechar os campos da rubrica mensal. Todos os meses ficam compactos inicialmente para facilitar a consulta dos professores.</div>
+<div class="matrix-subheading"><span class="school-tag">CJA, Marupiara, Objetivo e CCPA</span><h3>Matriz anual mês a mês — CJA, Marupiara, Objetivo e CCPA</h3><p>Esta é a matriz base do Level 3, organizada a partir da progressão Ready, Set, Grow! + Let’s Explore para as escolas que utilizam esse conjunto de materiais.</p></div>
 <div class="month-list"><article class="month-card accordion-month is-collapsed" id="mes-1">
 <div aria-controls="mes-1-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Fevereiro</span><strong>Hello Again! · classroom autonomy and routines</strong><span class="month-toggle">Abrir</span></div>
 <p class="month-focus">Retomar a rotina bilíngue com mais autonomia, ampliando pedidos funcionais, combinados, participação e transições de aula.</p>
@@ -421,6 +434,127 @@
 <div><h4>Conexão Deeper Learning</h4><p>Festa, playground e revisão consolidam o percurso: a criança seleciona evidências, apresenta preferências, usa números e mostra prontidão para o Fundamental 1.</p></div>
 </div>
 </article></div>
+<div class="matrix-subheading santo-anjo" id="matriz-santo-anjo"><span class="school-tag">Santo Anjo</span><h3>Matriz anual mês a mês — Santo Anjo</h3><p>Use esta matriz para o Kinder Level 3 do Santo Anjo. Ela segue a organização curricular específica de Cambridge Early Years / Let’s Explore, sem Kids Box ou Ready, Set, Grow!, mantendo a mesma estrutura de consulta da matriz base.</p></div>
+<nav aria-label="Meses da matriz Santo Anjo" class="anchor-months santo-anjo"><a data-open-month="sa-mes-1" href="#sa-mes-1">Fevereiro</a><a data-open-month="sa-mes-2" href="#sa-mes-2">Março</a><a data-open-month="sa-mes-3" href="#sa-mes-3">Abril</a><a data-open-month="sa-mes-4" href="#sa-mes-4">Maio</a><a data-open-month="sa-mes-5" href="#sa-mes-5">Junho</a><a data-open-month="sa-mes-6" href="#sa-mes-6">Agosto</a><a data-open-month="sa-mes-7" href="#sa-mes-7">Setembro</a><a data-open-month="sa-mes-8" href="#sa-mes-8">Outubro</a><a data-open-month="sa-mes-9" href="#sa-mes-9">Novembro</a></nav>
+<div class="month-list santo-anjo">
+<article class="month-card accordion-month santo-anjo is-collapsed" id="sa-mes-1">
+<div aria-controls="sa-mes-1-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Fevereiro</span><strong>Block 1 · Places near and far</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Retomar a rotina bilíngue com comunidades, pertencimento, mapas simples, escola local e comparação com lugares distantes.</p>
+<div class="matrix-grid" id="sa-mes-1-conteudo">
+<div><h4>Language frames</h4><p>In my community... · This is our school · Near / far · I noticed... · Where is...? · We found...</p></div>
+<div><h4>Vocabulário-alvo</h4><p>community, school, family, flag, map, country, near, far, place, password, safe, zero–twenty, forwards, backwards</p></div>
+<div><h4>Cambridge Early Years</h4><p>Iniciar Block 1 · Places near and far com comunidade da escola, outras comunidades, mapas interativos, segurança digital, contagem 0–20 e pertencimento cultural/social.</p></div>
+<div><h4>Let’s Explore</h4><p>Mapa da comunidade escolar, criação de flag da turma, comparação entre escola local e escola em outro país, conversa sobre comunidades da família e combinados de password/safety.</p></div>
+<div><h4>Evidências observáveis</h4><p>Reconhece a própria comunidade; localiza elementos em mapa com apoio; compara near/far; participa de criação coletiva; conta para frente/trás com apoio.</p></div>
+<div><h4>Registro mínimo</h4><p>Foto da flag/mapa coletivo + anotação de participação, vocabulário espacial e comentário relevante da criança.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>A criança amplia identidade ao perceber que pertence a diferentes comunidades e usa mapas, símbolos e fala para explicar lugar e pertencimento.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month santo-anjo is-collapsed" id="sa-mes-2">
+<div aria-controls="sa-mes-2-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Março</span><strong>Block 1 · Culture, music and communication</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Aprofundar lugares próximos e distantes por meio de música tradicional, instrumentos, comunicação, perguntas e comparação de experiências.</p>
+<div class="matrix-grid" id="sa-mes-2-conteudo">
+<div><h4>Language frames</h4><p>I can hear... · It sounds... · I agree · My idea is... · It is the same/different · How does it work?</p></div>
+<div><h4>Vocabulário-alvo</h4><p>music, song, rhythm, pulse, instrument, sound, loud, quiet, same, different, question, idea, culture, celebration</p></div>
+<div><h4>Cambridge Early Years</h4><p>Concluir Block 1 conectando música, instrumentos, histórias, discussão em grupo, descrição de sons, comunidades culturais e primeiras comparações entre experiências.</p></div>
+<div><h4>Let’s Explore</h4><p>Roda de músicas tradicionais, visita/registro de guest musician quando possível, identificação de instrumentos, resposta corporal ao ritmo e desenho/registro de sons favoritos.</p></div>
+<div><h4>Evidências observáveis</h4><p>Escuta com atenção; responde a música por movimento; identifica som/instrumento; faz comentário simples; respeita contribuições de colegas.</p></div>
+<div><h4>Registro mínimo</h4><p>Checklist de escuta e participação + registro visual de música/instrumento ou fala ditada.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Música e cultura favorecem comunicação com sentido: a criança compara, comenta, escuta o outro e começa a justificar preferências.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month santo-anjo is-collapsed" id="sa-mes-3">
+<div aria-controls="sa-mes-3-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Abril</span><strong>Block 2 · Farms and being outside</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Investigar plantas, fazenda, ambiente externo, crescimento, partes das plantas e alimentos que vêm da terra.</p>
+<div class="matrix-grid" id="sa-mes-3-conteudo">
+<div><h4>Language frames</h4><p>The plant has... · It grows above/under ground · It needs... · I noticed... · Before / after · We can plant...</p></div>
+<div><h4>Vocabulário-alvo</h4><p>farm, seed, plant, stem, leaf, flower, roots, fruit, vegetable, soil, water, light, above, under, grow, harvest</p></div>
+<div><h4>Cambridge Early Years</h4><p>Iniciar Block 2 com farm plants, plantio de sementes, partes da planta, alimentos que crescem acima/abaixo da terra, observação externa e comparação de características.</p></div>
+<div><h4>Let’s Explore</h4><p>Plant scavenger hunt, plantio e cuidado de sementes, observação de frutas/vegetais, desenho das partes da planta e registros before/after do crescimento.</p></div>
+<div><h4>Evidências observáveis</h4><p>Nomeia partes da planta; observa mudanças; relaciona alimento à planta; usa above/under com apoio; registra descoberta por desenho/fala.</p></div>
+<div><h4>Registro mínimo</h4><p>Diário visual da planta ou foto da investigação + comentário sobre observação e vocabulário usado.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Ao plantar e acompanhar mudanças, a criança trabalha causa e consequência, responsabilidade e registro de evidências ao longo do tempo.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month santo-anjo is-collapsed" id="sa-mes-4">
+<div aria-controls="sa-mes-4-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Maio</span><strong>Block 2 · Outdoors, animals and healthy food</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Ampliar fazenda e ambiente externo com animais, cuidado, classificação, frutas/vegetais, alimentação saudável e investigação sensorial.</p>
+<div class="matrix-grid" id="sa-mes-4-conteudo">
+<div><h4>Language frames</h4><p>This food comes from... · It is healthy · I like it because... · Same / different · It has... · We take care of...</p></div>
+<div><h4>Vocabulário-alvo</h4><p>farm animal, cow, chicken, egg, milk, leaf, root, carrot, beetroot, lettuce, fruit kebab, rainbow, healthy, taste, texture</p></div>
+<div><h4>Cambridge Early Years</h4><p>Concluir Block 2 com alimentos de fazenda, partes comestíveis das plantas, semelhanças/diferenças entre frutas, healthy eating, sensory exploration e cuidado com seres vivos.</p></div>
+<div><h4>Let’s Explore</h4><p>Classificação de alimentos por parte da planta, tasting seguro, fruit kebabs, “eat a rainbow”, comparação de frutas, observação de animais de fazenda e role-play de cuidado.</p></div>
+<div><h4>Evidências observáveis</h4><p>Classifica alimentos; descreve taste/texture; explica preferência com because; reconhece cuidado com plantas/animais; participa com segurança alimentar.</p></div>
+<div><h4>Registro mínimo</h4><p>Foto de classificação/tasting + nota sobre comparação, linguagem de preferência e cuidado.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Fazenda e alimentação conectam investigação concreta à vida diária: a criança observa origem, compara características e justifica escolhas saudáveis.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month santo-anjo is-collapsed" id="sa-mes-5">
+<div aria-controls="sa-mes-5-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Junho</span><strong>Block 3 · Caring for ourselves</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Cuidar do corpo, fazer escolhas alimentares, acompanhar hidratação, praticar exercícios e fortalecer autorregulação.</p>
+<div class="matrix-grid" id="sa-mes-5-conteudo">
+<div><h4>Language frames</h4><p>I take care of my body · I need water · This is healthy/less healthy · I can exercise · I feel... · We found out...</p></div>
+<div><h4>Vocabulário-alvo</h4><p>body, water, drink, healthy, less healthy, exercise, strong, heart, breathe, chart, compare, more, less, choice</p></div>
+<div><h4>Cambridge Early Years</h4><p>Iniciar Block 3 · Caring for ourselves and the world com escolhas saudáveis, water chart, exercícios, coordenação motora ampla, comparação de quantidades e cuidado pessoal.</p></div>
+<div><h4>Let’s Explore</h4><p>Water tracking chart, classificação de alimentos, estações de exercício, conversa sobre bem-estar, comparação de registros e roda sobre escolhas que ajudam o corpo.</p></div>
+<div><h4>Evidências observáveis</h4><p>Diferencia healthy/less healthy; acompanha hidratação; participa de exercícios; compara more/less; comunica necessidade ou sensação com apoio.</p></div>
+<div><h4>Registro mínimo</h4><p>Water chart ou checklist de escolhas saudáveis + observação de linguagem e participação motora.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Cuidar de si exige observar dados simples, comparar escolhas e transformar rotina em responsabilidade progressiva.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month santo-anjo is-collapsed" id="sa-mes-6">
+<div aria-controls="sa-mes-6-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Agosto</span><strong>Blocks 3–4 · Our world, then and now</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Fechar cuidado com o mundo e iniciar tempo histórico: planeta, mapas/globos, land/water, passado, presente, futuro e mudanças pessoais.</p>
+<div class="matrix-grid" id="sa-mes-6-conteudo">
+<div><h4>Language frames</h4><p>This is land/water · The world has... · In the past... · Now... · In the future... · It changed because...</p></div>
+<div><h4>Vocabulário-alvo</h4><p>world, globe, land, sea, river, lake, planet, past, present, future, baby, child, grandparent, old, new, change</p></div>
+<div><h4>Cambridge Early Years</h4><p>Conectar fim do Block 3 ao Block 4: globos, features do planeta, música sobre o mundo, fotos antigas, infância de familiares, noções de passado/presente/futuro e mudança.</p></div>
+<div><h4>Let’s Explore</h4><p>Papier-mâché globe, identificação de land/water, We’ve Got the Whole World, linha do tempo com fotos, conversa com avós/família e comparação baby/now.</p></div>
+<div><h4>Evidências observáveis</h4><p>Identifica land/water; usa vocabulário temporal; compara fotos/objetos; comenta mudança; participa de registro coletivo sobre mundo e tempo.</p></div>
+<div><h4>Registro mínimo</h4><p>Foto do globo/linha do tempo + fala ditada usando before/after, past/now/future ou change.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Mundo e tempo ajudam a criança a conectar experiência pessoal a contextos maiores, observando mudanças e explicando relações simples.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month santo-anjo is-collapsed" id="sa-mes-7">
+<div aria-controls="sa-mes-7-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Setembro</span><strong>Block 4 · Then and now</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Aprofundar passado e presente com objetos, brincadeiras tradicionais, histórias familiares, estratégia, resiliência e comparação de modos de vida.</p>
+<div class="matrix-grid" id="sa-mes-7-conteudo">
+<div><h4>Language frames</h4><p>Before, people used... · Now we use... · It was different · I remember... · I agree/disagree · My strategy is...</p></div>
+<div><h4>Vocabulário-alvo</h4><p>past, now, future, photo, toy, game, board game, playground game, old, new, strategy, win, lose, resilient, memory</p></div>
+<div><h4>Cambridge Early Years</h4><p>Concluir Block 4 com fotos antigas, relatos de familiares, jogos do passado, comparação de objetos/brinquedos, coordenação, regras, estratégia e resiliência em jogos.</p></div>
+<div><h4>Let’s Explore</h4><p>Show and tell de fotos/objetos, old/new sorting, traditional playground games, board games, conversa sobre infância dos familiares e registro before/now/future.</p></div>
+<div><h4>Evidências observáveis</h4><p>Compara passado/presente; explica diferença; segue regras; demonstra resiliência ao ganhar/perder; contribui em discussão de grupo.</p></div>
+<div><h4>Registro mínimo</h4><p>Registro before/now ou foto de jogo tradicional + comentário sobre comparação, estratégia e autorregulação.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Ao comparar tempos e jogar com regras, a criança aprende a argumentar, ouvir histórias, ajustar estratégias e lidar com desafios.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month santo-anjo is-collapsed" id="sa-mes-8">
+<div aria-controls="sa-mes-8-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Outubro</span><strong>Block 5 · How things work</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Investigar forças, movimento, materiais, propriedades, magnetismo, objetos elétricos e solução de problemas.</p>
+<div class="matrix-grid" id="sa-mes-8-conteudo">
+<div><h4>Language frames</h4><p>Push / pull · It moves fast/slow · It is magnetic/non-magnetic · It is made of... · How does it work? · My idea is...</p></div>
+<div><h4>Vocabulário-alvo</h4><p>push, pull, force, motion, hard, soft, strong, weak, material, wood, metal, plastic, magnet, magnetic, non-magnetic, electric, machine</p></div>
+<div><h4>Cambridge Early Years</h4><p>Trabalhar Block 5 com experiências hands-on sobre push/pull, movimento, materiais e propriedades, sorting magnetic/non-magnetic, electrical items e segurança.</p></div>
+<div><h4>Let’s Explore</h4><p>Tug of War/Bowling, ramp experiments, material hunt, magnet fishing, mover veículos com ímã, classificação de objetos e discussão de segurança com itens elétricos.</p></div>
+<div><h4>Evidências observáveis</h4><p>Testa força e movimento; classifica materiais; prevê/observa magnetismo; usa linguagem de propriedade; propõe solução simples para problema.</p></div>
+<div><h4>Registro mínimo</h4><p>Registro de investigação com desenho/foto + hipótese ou fala ditada sobre como algo funciona.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Investigar funcionamento desenvolve pensamento causal: a criança testa, compara resultados, reformula ideia e comunica descobertas com evidência.</p></div>
+</div>
+</article>
+<article class="month-card accordion-month santo-anjo is-collapsed" id="sa-mes-9">
+<div aria-controls="sa-mes-9-conteudo" aria-expanded="false" class="month-top" role="button" tabindex="0"><span>Novembro</span><strong>Block 6 · Space, future and transition</strong><span class="month-toggle">Abrir</span></div>
+<p class="month-focus">Encerrar Early Years com espaço, Sol, planetas, estrelas, futuro, desafios superados, assembleia final e prontidão para o Fundamental 1.</p>
+<div class="matrix-grid" id="sa-mes-9-conteudo">
+<div><h4>Language frames</h4><p>Earth is our planet · The Sun gives heat/light · I can see stars · In the future... · I overcame... · I am ready</p></div>
+<div><h4>Vocabulário-alvo</h4><p>Earth, Sun, planet, star, sky, heat, light, space, rocket, future, challenge, ready, achievement, assembly, celebrate, portfolio</p></div>
+<div><h4>Cambridge Early Years</h4><p>Concluir Block 6 · Space and the future com Terra, Sol, planetas, estrelas, colaboração em mobile, sentimentos sobre o novo ano, desafios superados, revisão e celebração final.</p></div>
+<div><h4>Let’s Explore</h4><p>Observação do céu, mobile de planetas, música sobre estrelas, desenho do futuro, roda sobre desafios, seleção de portfólio e end-of-year assembly.</p></div>
+<div><h4>Evidências observáveis</h4><p>Reconhece Terra/Sol/planetas; explica heat/light com apoio; fala sobre futuro; seleciona evidências; participa da celebração e demonstra prontidão progressiva.</p></div>
+<div><h4>Registro mínimo</h4><p>Portfólio final com 4 evidências + comentário sobre investigação, linguagem, autonomia e transição para Fundamental 1.</p></div>
+<div><h4>Conexão Deeper Learning</h4><p>Espaço e futuro fecham o percurso com autoria: a criança olha para o mundo, reconhece conquistas e comunica como está se preparando para a próxima etapa.</p></div>
+</div>
+</article></div>
+
 </section>
 <section class="section assessment-box" id="avaliacao-global">
 <div class="section-heading"><p class="eyebrow">Avaliação Global GSP</p><h2>Verificação global GSP</h2><p>A verificação deve ser formativa, observável e adequada à Educação Infantil: a criança demonstra compreensão e participação por ação, escolha, fala apoiada, produção, jogo ou interação.</p></div>
