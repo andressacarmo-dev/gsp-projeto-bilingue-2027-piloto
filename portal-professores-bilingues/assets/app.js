@@ -14,7 +14,7 @@ function el(tag, className, html) {
 }
 
 async function init() {
-  const response = await fetch('data-20260804-year3-matrix-link.json?v=20260812-year6-active');
+  const response = await fetch('data.json?v=20260904-year789-links');
   const data = await response.json();
 
   $('#portal-title').textContent = data.portal.title;
