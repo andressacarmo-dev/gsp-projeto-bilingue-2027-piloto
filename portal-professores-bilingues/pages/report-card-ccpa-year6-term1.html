@@ -49,27 +49,135 @@
 </main><footer class="footer"><span>Projeto Bilíngue 2027 · <span data-field="schoolName">CCPA</span></span><span>Year 6 · Middle Years · Term 1</span></footer></div>
 <script>
 const skills=[
- {id:'english',subject:'English / Prepare 1',label:'Uses Term 1 language to talk about classroom routines, personal information, family, home, belongings and school life',title:'English language use',sample:'Progressing'},
- {id:'listening',subject:'Listening & understanding',label:'Understands instructions, classroom language, short exchanges and guided input connected to Prepare 1 and integrated lessons',title:'Listening and understanding',sample:'Progressing'},
- {id:'speaking',subject:'Speaking Lab',label:'Participates in pair/group interaction, personal presentations, interviews, research questions and short explanations with support',title:'Speaking and interaction',sample:'Developing'},
- {id:'reading',subject:'Reading & vocabulary',label:'Recognizes key vocabulary, short texts, visual information, research prompts and academic words from the Term 1 units',title:'Reading and vocabulary',sample:'Progressing'},
- {id:'writing',subject:'Writing & language organization',label:'Produces short profiles, notes, research questions, evidence records and guided sentences with increasing organization',title:'Writing and language organization',sample:'Developing'},
- {id:'research',subject:'Global Perspectives',label:'Formulates research questions, identifies sources, selects simple evidence and records information with support',title:'Research and evidence',sample:'Progressing'},
- {id:'project',subject:'PBL / STEM / Financial Literacy',label:'Connects research to a school/community issue, resources, needs/wants, data collection and initial project decisions',title:'Project work and applied thinking',sample:'Progressing'},
- {id:'autonomy',subject:'General development',label:'Organizes materials, follows Middle Years routines, collaborates, uses feedback and builds responsibility as a Year 6 learner',title:'Autonomy and participation',sample:'Progressing'}
+ {
+  "id": "english",
+  "subject": "English / Prepare 1",
+  "label": "Works with Prepare 1 Units 0–3 and uses language to participate in the term project and academic routines",
+  "title": "English / Prepare 1",
+  "sample": "Progressing"
+ },
+ {
+  "id": "global",
+  "subject": "Global Perspectives",
+  "label": "Develops Research: perguntas investigáveis, fontes simples, survey/entrevista e registro de evidências connected to Identity and Community Research Dossier",
+  "title": "Global Perspectives",
+  "sample": "Progressing"
+ },
+ {
+  "id": "financial",
+  "subject": "Financial Literacy",
+  "label": "Applies needs/wants, escolhas iniciais e recursos da rotina escolar to real decisions, resources and impact in the term project",
+  "title": "Financial Literacy",
+  "sample": "Progressing"
+ },
+ {
+  "id": "stem",
+  "subject": "STEM",
+  "label": "Uses observação, tabela, dados simples e visualização inicial to observe, test, model or improve solutions connected to the project",
+  "title": "STEM",
+  "sample": "Progressing"
+ },
+ {
+  "id": "pbl",
+  "subject": "PBL",
+  "label": "Develops the project Identity and Community Research Dossier through research, production, feedback and evidence",
+  "title": "PBL project development",
+  "sample": "Progressing"
+ },
+ {
+  "id": "speaking",
+  "subject": "Speaking Lab",
+  "label": "Practices oral interaction: apresentação pessoal, entrevista, data talk e explicação curta de evidências, connected to Identity and Community Research Dossier",
+  "title": "Speaking Lab",
+  "sample": "Progressing"
+ },
+ {
+  "id": "autonomy",
+  "subject": "General development",
+  "label": "Organizes routines, collaborates responsibly and uses feedback with growing Middle Years autonomy",
+  "title": "Autonomy and participation",
+  "sample": "Progressing"
+ }
 ];
 const stages={Developing:{cls:'developing',display:'Developing'},Progressing:{cls:'progressing',display:'Progressing'},Consolidating:{cls:'consolidating',display:'Consolidating'},Extending:{cls:'extending',display:'Extending'}};
 const textBank={
- english:{Developing:'{name} está construindo repertório para usar inglês em rotinas de sala, apresentações pessoais e descrições simples, ainda com apoio de modelos e vocabulário visual.',Progressing:'{name} usa linguagem do Prepare 1 para falar sobre si, família, casa, objetos e rotina escolar em situações conhecidas, com apoio de sentence frames quando necessário.',Consolidating:'{name} utiliza o repertório do Term 1 com mais segurança, conectando vocabulário e estruturas a interações, registros e tarefas acadêmicas simples.',Extending:'{name} amplia o repertório do Term 1 com autonomia crescente, fazendo conexões e reformulando ideias em inglês além dos modelos iniciais.'},
- listening:{Developing:'{name} compreende instruções curtas e partes do input oral quando há repetição, gesto, imagem ou apoio do professor.',Progressing:'{name} acompanha instruções, perguntas e interações curtas em inglês em contextos familiares, demonstrando compreensão por respostas, ações e registros.',Consolidating:'{name} compreende comandos, explicações breves e interações do Term 1 com consistência, usando pistas linguísticas e contextuais para seguir as propostas.',Extending:'{name} compreende interações e instruções com autonomia crescente, ajudando colegas e fazendo perguntas de confirmação quando necessário.'},
- speaking:{Developing:'{name} começa a participar oralmente por palavras, frases curtas ou leitura de modelos, ganhando segurança para se expor em inglês.',Progressing:'{name} participa de pair talk, entrevistas e apresentações curtas usando frames para perguntar, responder, descrever e justificar ideias simples.',Consolidating:'{name} interage com mais confiança, organiza pequenas falas e responde a perguntas simples sobre si, sua pesquisa e as atividades do grupo.',Extending:'{name} demonstra iniciativa oral, adapta frases, sustenta interações curtas e contribui para a comunicação do grupo com autonomia.'},
- reading:{Developing:'{name} reconhece vocabulário-chave e informações explícitas em textos curtos com apoio visual e mediação.',Progressing:'{name} identifica palavras, ideias principais e informações simples em textos, prompts e materiais visuais ligados ao Term 1.',Consolidating:'{name} lê textos curtos e materiais de pesquisa com mais independência, conectando vocabulário, contexto e evidência.',Extending:'{name} interpreta textos e prompts com autonomia crescente, usando informações lidas para justificar respostas e decisões.'},
- writing:{Developing:'{name} registra palavras, frases curtas, respostas guiadas e notas de pesquisa com apoio de modelos.',Progressing:'{name} produz perfis, perguntas, registros de evidência e frases organizadas com apoio de sentence frames e revisão do professor.',Consolidating:'{name} organiza registros escritos com clareza crescente, usando vocabulário do Term 1 para comunicar informações pessoais e acadêmicas simples.',Extending:'{name} escreve com autonomia crescente, revisando escolhas linguísticas e ampliando respostas para explicar ideias com mais precisão.'},
- research:{Developing:'{name} começa a formular perguntas e reconhecer evidências com apoio direto do professor.',Progressing:'{name} formula perguntas investigativas simples, identifica fontes e registra evidências iniciais para compreender um problema.',Consolidating:'{name} seleciona evidências relevantes, explica por que são úteis e organiza informações para apoiar conclusões iniciais.',Extending:'{name} refina perguntas, compara evidências e começa a reconhecer limitações ou novas necessidades de investigação.'},
- project:{Developing:'{name} participa do projeto com apoio, contribuindo em tarefas específicas como registro, observação ou organização visual.',Progressing:'{name} conecta pesquisa a problemas reais, participa de decisões sobre recursos, coleta dados simples e contribui para o planejamento do grupo.',Consolidating:'{name} contribui de forma consistente para decisões, organização de dados, ideias de solução e comunicação do projeto.',Extending:'{name} propõe caminhos, justifica escolhas com evidências e ajuda o grupo a revisar decisões e produtos iniciais.'},
- autonomy:{Developing:'{name} está se adaptando às rotinas do Middle Years e ainda precisa de apoio para organizar materiais, tempo e participação.',Progressing:'{name} segue rotinas conhecidas, colabora com colegas, usa feedback e demonstra responsabilidade crescente nas atividades do Year 6.',Consolidating:'{name} demonstra autonomia consistente para organizar materiais, participar, colaborar e revisar tentativas durante o Term 1.',Extending:'{name} assume responsabilidade pelo próprio processo, antecipa combinados, apoia o grupo e usa feedback com maturidade.'}
+ "english": {
+  "Developing": "{name} está construindo repertório de English / Prepare 1 para participar das propostas do term com apoio de modelos.",
+  "Progressing": "{name} usa o repertório de English / Prepare 1 em situações conhecidas do term, com apoio de sentence frames quando necessário.",
+  "Consolidating": "{name} utiliza o repertório de English / Prepare 1 com segurança crescente para compreender, registrar e comunicar ideias do term.",
+  "Extending": "{name} amplia o uso de English / Prepare 1 com autonomia, conectando linguagem a investigação, projeto e comunicação acadêmica."
+ },
+ "global": {
+  "Developing": "{name} começa a formular perguntas e reconhecer evidências em Global Perspectives com apoio direto.",
+  "Progressing": "{name} formula perguntas, identifica fontes e registra evidências ligadas ao foco de Global Perspectives do term.",
+  "Consolidating": "{name} seleciona e organiza evidências relevantes, explicando relações iniciais entre informação, critério e conclusão.",
+  "Extending": "{name} compara evidências, reconhece limitações e usa Global Perspectives para sustentar conclusões com autonomia crescente."
+ },
+ "financial": {
+  "Developing": "{name} começa a compreender escolhas, necessidades, recursos e decisões financeiras simples com apoio.",
+  "Progressing": "{name} aplica conceitos de Financial Literacy a escolhas reais do projeto, considerando necessidade, recurso, valor e impacto.",
+  "Consolidating": "{name} justifica decisões financeiras simples com critérios, dados ou comparação de alternativas.",
+  "Extending": "{name} propõe decisões financeiras responsáveis com autonomia crescente, conectando custo-benefício, impacto e evidência."
+ },
+ "stem": {
+  "Developing": "{name} começa a observar, registrar dados e participar de testes/modelos STEM com apoio.",
+  "Progressing": "{name} usa observação, dados, critérios e protótipos simples para investigar e melhorar soluções do projeto.",
+  "Consolidating": "{name} organiza evidências STEM, explica resultados e revisa soluções com base em teste ou feedback.",
+  "Extending": "{name} formula hipóteses, reconhece limites de teste e comunica soluções STEM com evidência e autonomia crescente."
+ },
+ "pbl": {
+  "Developing": "{name} participa do projeto trimestral com apoio em tarefas específicas de registro, organização ou produção.",
+  "Progressing": "{name} contribui para o desenvolvimento do projeto trimestral, conectando pesquisa, produto, colaboração e evidências.",
+  "Consolidating": "{name} assume papel consistente no PBL, revisa produto/processo e explica escolhas do grupo com clareza.",
+  "Extending": "{name} lidera ou qualifica etapas do projeto, justificando decisões, incorporando feedback e apoiando a comunicação final."
+ },
+ "speaking": {
+  "Developing": "{name} começa a participar oralmente em Speaking Lab por palavras, frases curtas ou leitura de modelos.",
+  "Progressing": "{name} participa de pair talk, entrevistas, apresentações curtas e Q&A usando frames conectados ao projeto.",
+  "Consolidating": "{name} organiza falas com mais confiança, explica evidências e responde perguntas simples sobre o projeto.",
+  "Extending": "{name} demonstra iniciativa oral, adapta frases, sustenta interação e contribui para apresentações com autonomia crescente."
+ },
+ "autonomy": {
+  "Developing": "{name} ainda precisa de apoio para organizar materiais, tempo, papéis e participação no Middle Years.",
+  "Progressing": "{name} segue rotinas conhecidas, colabora com colegas e usa feedback em atividades do Year 6.",
+  "Consolidating": "{name} demonstra autonomia consistente para participar, registrar, colaborar e revisar tentativas durante o term.",
+  "Extending": "{name} assume responsabilidade pelo próprio processo, antecipa combinados, apoia o grupo e usa feedback com maturidade."
+ }
 };
-const termConfig={term:'Term 1',introStrong:'Prepare 1 Units 0–4, classroom language, personal identity, family, home, belongings, research questions, evidence, needs/wants, resources and initial data collection',next:'No próximo term, continuaremos ampliando o repertório de {name} para análise, avaliação de fontes, vida escolar, hábitos de estudo, tomada de decisão, orçamento simples, protótipos iniciais e comunicação de argumentos com evidências.',dear1:'Neste primeiro term, {name} iniciou sua jornada no Year 6, uma etapa de transição para o Middle Years. O foco foi construir segurança para participar em inglês, compreender rotinas acadêmicas, organizar registros e começar a usar o idioma como ferramenta de investigação e comunicação.',dear2:'O objetivo deste report card é apresentar um retrato do desenvolvimento de {name} em linguagem, participação, pesquisa, colaboração e autonomia. A leitura considera o ponto de partida do estudante e os avanços observados nas experiências de Fevereiro e Março.',homeConnection:'Em casa, a família pode apoiar perguntando sobre os temas investigados, incentivando organização de rotina e materiais, valorizando tentativas de comunicação em inglês e convidando o estudante a explicar, em português ou inglês, o que descobriu, quais evidências usou e como participou do grupo.',highlights:[['Prepare 1','Units 0–4: classroom language, personal information, family, home and personal belongings'],['Global Perspectives','research questions, sources, evidence, records and first inquiry routines'],['PBL','school/community issue, group roles, project brief and research dossier'],['Financial Literacy','needs, wants, resources, cost of choices and responsible decisions'],['STEM','observation, categories, simple data, tables, patterns and evidence display'],['Speaking Lab','pair interview, personal presentation, research questions and short explanations']]};
+const termConfig={
+ "term": "Term 1",
+ "introStrong": "Prepare 1 Units 0–3; Research: perguntas investigáveis, fontes simples, survey/entrevista e registro de evidências; needs/wants, escolhas iniciais e recursos da rotina escolar; observação, tabela, dados simples e visualização inicial; PBL project Identity and Community Research Dossier; Speaking Lab: apresentação pessoal, entrevista, data talk e explicação curta de evidências",
+ "next": "No próximo term, continuaremos ampliando o repertório de {name} para investigar, tomar decisões responsáveis, desenvolver projeto, comunicar evidências e ganhar autonomia no Year 6.",
+ "dear1": "Neste Term 1, {name} trabalhou no currículo base do Year 6 durante Fevereiro–Março, integrando English / Prepare 1, Global Perspectives, Financial Literacy, STEM, PBL e Speaking Lab.",
+ "dear2": "As experiências do term conectaram Prepare 1 Units 0–3, Research: perguntas investigáveis, fontes simples, survey/entrevista e registro de evidências, needs/wants, escolhas iniciais e recursos da rotina escolar, observação, tabela, dados simples e visualização inicial, o projeto Identity and Community Research Dossier e práticas orais de Speaking Lab voltadas à comunicação de evidências.",
+ "homeConnection": "Em casa, a família pode apoiar perguntando sobre o projeto do term, incentivando organização de rotina e convidando o estudante a explicar evidências, escolhas e próximos passos em linguagem simples.",
+ "highlights": [
+  [
+   "English / Prepare 1",
+   "Prepare 1 Units 0–3"
+  ],
+  [
+   "Global Perspectives",
+   "Research: perguntas investigáveis, fontes simples, survey/entrevista e registro de evidências"
+  ],
+  [
+   "Financial Literacy",
+   "needs/wants, escolhas iniciais e recursos da rotina escolar"
+  ],
+  [
+   "STEM",
+   "observação, tabela, dados simples e visualização inicial"
+  ],
+  [
+   "PBL",
+   "Identity and Community Research Dossier"
+  ],
+  [
+   "Speaking Lab",
+   "apresentação pessoal, entrevista, data talk e explicação curta de evidências"
+  ]
+ ]
+};
 function firstName(){return (document.getElementById('studentName').value.trim().split(/\s+/)[0]||'O estudante')}
 function fullName(){return document.getElementById('studentName').value.trim()||'Nome do aluno'}
 function stageFor(id){return document.getElementById('stage_'+id).value}
@@ -80,7 +188,7 @@ function apply(){const name=firstName(), student=fullName(), teacher=(document.g
  document.getElementById('termHighlights').innerHTML=termConfig.highlights.map(([title,words])=>`<article class="card subject-card"><span class="subject-tag">${title}</span><h3>${title}</h3><p>${words}</p></article>`).join('');document.getElementById('homeConnectionText').textContent=termConfig.homeConnection;
  document.getElementById('observedCards').innerHTML=skills.map(s=>{const st=stageFor(s.id),meta=stages[st];return `<article class="card"><span class="level ${meta.cls}">${meta.display}</span><h3>${s.title}</h3><p>${textBank[s.id][st].replaceAll('{name}',name)}</p></article>`}).join('');
  document.getElementById('checklistBody').innerHTML=skills.map(s=>{const st=stageFor(s.id),meta=stages[st];return `<tr><td><strong>${s.subject}</strong><br>${s.label}</td><td><span class="pill ${meta.cls}">${meta.display}</span></td></tr>`}).join('');
- document.getElementById('narrativeText').innerHTML=`<p>Ao longo do ${termConfig.term}, ${name} participou de experiências que marcaram a entrada no Middle Years. As propostas combinaram linguagem do Prepare 1, rotinas de investigação, primeiros registros de evidência, colaboração em projeto, decisões sobre recursos e comunicação oral guiada.</p><p>Nesse ciclo, ${name} foi convidado(a) a trabalhar com ${termConfig.introStrong}. O objetivo foi desenvolver repertório linguístico sem infantilizar a comunicação: o inglês aparece como ferramenta para perguntar, compreender, registrar, explicar e participar de tarefas acadêmicas.</p><p>A leitura deste report valoriza progresso em linguagem, investigação, autonomia e participação. No Year 6, esperamos que o estudante avance da participação guiada para maior organização, uso de estratégias, escuta ativa, colaboração responsável e comunicação de ideias com evidências.</p>`;
+ document.getElementById('narrativeText').innerHTML=`<p>Ao longo do ${termConfig.term}, ${name} participou das experiências previstas para o currículo base do Year 6. As propostas combinaram English / Prepare 1, Global Perspectives, Financial Literacy, STEM, PBL e Speaking Lab para transformar conteúdo em investigação, decisão, produção e comunicação.</p><p>Nesse ciclo, ${name} foi convidado(a) a trabalhar com ${termConfig.introStrong}. O objetivo foi desenvolver repertório linguístico e acadêmico sem separar as disciplinas do projeto: o inglês aparece como ferramenta para perguntar, compreender, registrar, calcular, testar, justificar, revisar e apresentar evidências.</p><p>A leitura deste report valoriza progresso em linguagem, investigação, educação financeira, pensamento STEM, projeto, oralidade, colaboração e autonomia. No Year 6, esperamos que o estudante avance da participação guiada para maior organização, uso de estratégias, escuta ativa e comunicação de ideias com evidências.</p>`;
  document.getElementById('nextStepsText').textContent=termConfig.next.replaceAll('{name}',name);const note=document.getElementById('optionalNote').value.trim();const out=document.getElementById('optionalNoteOut');out.style.display=note?'block':'none';out.innerHTML=note?`<strong>Observação complementar:</strong> ${note}`:'';document.getElementById('fileNameHint').textContent=`${(document.getElementById('schoolName').value||'CCPA').replaceAll(' ','-')}_Year6_${termConfig.term.replaceAll(' ','')}_${student.replaceAll(' ','-')}_Report-Card.pdf`}
 renderChecks();apply();document.getElementById('updateBtn').onclick=apply;document.getElementById('printBtn').onclick=()=>{apply();window.print()};document.getElementById('resetBtn').onclick=()=>{document.getElementById('optionalNote').value='';apply()};document.querySelectorAll('input,select,textarea').forEach(el=>el.addEventListener('input',apply));
 </script>
