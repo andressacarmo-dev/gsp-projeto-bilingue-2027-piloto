@@ -83,12 +83,12 @@ const skills=[
   "label": "Practices oral interaction: problem briefing, evidence-based pitch, exhibition, Q&A e reflexão final, connected to Sustainable Community Impact Exhibition",
   "title": "Speaking Lab",
   "sample": "Progressing"
- },
- {
-  "id": "autonomy",
-  "subject": "General development",
-  "label": "Organizes routines, collaborates responsibly and uses feedback with growing Middle Years autonomy",
-  "title": "Autonomy and participation",
+ }
+, {
+  "id": "english",
+  "subject": "English / Prepare 2",
+  "label": "Works with Prepare 2 Units 15–20 according to Santo Anjo sequence, using English to participate in project, oral and written routines",
+  "title": "English / Prepare 2",
   "sample": "Progressing"
  }
 ];
@@ -123,42 +123,28 @@ const textBank={
   "Progressing": "{name} participa de pair talk, entrevistas, apresentações curtas e Q&A usando frames conectados ao projeto.",
   "Consolidating": "{name} organiza falas com mais confiança, explica evidências e responde perguntas simples sobre o projeto.",
   "Extending": "{name} demonstra iniciativa oral, adapta frases, sustenta interação e contribui para apresentações com autonomia crescente."
- },
- "autonomy": {
-  "Developing": "{name} ainda precisa de apoio para organizar materiais, tempo, papéis e participação no Middle Years.",
-  "Progressing": "{name} segue rotinas conhecidas, colabora com colegas e usa feedback em atividades do Year 6.",
-  "Consolidating": "{name} demonstra autonomia consistente para participar, registrar, colaborar e revisar tentativas durante o term.",
-  "Extending": "{name} assume responsabilidade pelo próprio processo, antecipa combinados, apoia o grupo e usa feedback com maturidade."
+ }
+, "english": {
+  "Developing": "{name} está construindo repertório do Prepare 2 para participar das propostas do Santo Anjo com apoio de modelos e vocabulário visual.",
+  "Progressing": "{name} usa linguagem do Prepare 2 em situações conhecidas, conectando vocabulário e estruturas a interações, registros e projeto.",
+  "Consolidating": "{name} utiliza o repertório do Prepare 2 com segurança crescente para explicar ideias, escolhas e evidências.",
+  "Extending": "{name} amplia o repertório do Prepare 2 com autonomia, reformulando ideias e comunicando análise, recomendação ou reflexão."
  }
 };
 const termConfig={
  "term": "Term 3",
- "introStrong": "Cambridge International Math — conteúdo fonte a completar; Cambridge International Math — 2ª aula semanal; conteúdo fonte a completar; Cambridge International Science — conteúdo fonte a completar; Creative Writing / PBL conectado ao projeto Sustainable Community Impact Exhibition; Speaking Lab: problem briefing, evidence-based pitch, exhibition, Q&A e reflexão final",
- "next": "No próximo term, continuaremos ampliando a aprendizagem de {name} em Math, Science, Creative Writing / PBL, Speaking Lab e autonomia acadêmica, completando Math e Science conforme os sumários Cambridge International forem integrados.",
- "dear1": "Neste Term 3, {name} trabalhou no currículo Santo Anjo do Year 6 durante Setembro–Novembro, com Math, segunda aula semanal de Math, Science, Creative Writing / PBL e Speaking Lab.",
+ "introStrong": "Setembro–Novembro: English / Prepare 2 — Prepare 2 Units 15–20; Cambridge International Math — conteúdo fonte a completar; Cambridge International Math — 2ª aula semanal; Cambridge International Science — conteúdo fonte a completar; Creative Writing / PBL e Speaking Lab conectados ao projeto Sustainable Community Impact Exhibition",
+ "next": "No próximo term, continuaremos ampliando a aprendizagem de {name} em English / Prepare 2, Math, Science, Creative Writing / PBL e Speaking Lab, completando Math e Science conforme os sumários Cambridge International forem integrados.",
+ "dear1": "Neste Term 3, {name} trabalhou no currículo Santo Anjo do Year 6 durante Setembro–Novembro, com English / Prepare 2, Math, segunda aula semanal de Math, Science, Creative Writing / PBL e Speaking Lab.",
  "dear2": "As experiências do term conectaram conteúdos Cambridge International de Math e Science ainda a completar no portal, o projeto Sustainable Community Impact Exhibition, registros de Creative Writing / PBL e práticas orais de Speaking Lab.",
  "homeConnection": "Em casa, a família pode apoiar perguntando sobre o projeto do term, incentivando organização de rotina, valorizando registros escritos/orais e acompanhando a consolidação de Math e Science conforme o livro Cambridge International usado pela escola.",
  "highlights": [
-  [
-   "Math",
-   "Cambridge International Math — conteúdo fonte a completar"
-  ],
-  [
-   "Math — 2ª aula semanal",
-   "Cambridge International Math — 2ª aula semanal; conteúdo fonte a completar"
-  ],
-  [
-   "Science",
-   "Cambridge International Science — conteúdo fonte a completar"
-  ],
-  [
-   "Creative Writing / PBL",
-   "Creative Writing / PBL: campaign text, exhibition script, portfolio captions e reflexão final"
-  ],
-  [
-   "Speaking Lab",
-   "problem briefing, evidence-based pitch, exhibition, Q&A e reflexão final"
-  ]
+  ["English / Prepare 2","Prepare 2 Units 15–20 — sequência própria do Santo Anjo"],
+  ["Math","Cambridge International Math — conteúdo fonte a completar"],
+  ["Math — 2ª aula semanal","Cambridge International Math — 2ª aula semanal; conteúdo fonte a completar"],
+  ["Science","Cambridge International Science — conteúdo fonte a completar"],
+  ["Creative Writing / PBL","campaign text, exhibition script, portfolio captions e final reflection"],
+  ["Speaking Lab","news briefing, source evaluation, final exhibition e Q&A"]
  ]
 };
 function firstName(){return (document.getElementById('studentName').value.trim().split(/\s+/)[0]||'O estudante')}
