@@ -1414,3 +1414,26 @@ ul { padding-left: 18px; color: var(--muted); }
 #rubrica .content-card li::marker { color: #0f8f7a !important; }
 .cambridge-platforms { margin-top: 0 !important; }
 #relatorios { margin-bottom: 0 !important; }
+
+
+/* 2026-09-09 refinement: wider Report Card avatars with full head, hair and neck visible */
+#relatorios .report-segment-visual {
+  height: 176px !important;
+}
+#relatorios .report-segment-avatar,
+#relatorios .report-kinder .report-segment-avatar,
+#relatorios .report-primary .report-segment-avatar,
+#relatorios .report-middle .report-segment-avatar {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center bottom !important;
+  inset: auto 0 0 0 !important;
+  margin: auto !important;
+  transform: none !important;
+}
+@media (max-width: 640px) {
+  #relatorios .report-segment-visual { height: 168px !important; }
+}
