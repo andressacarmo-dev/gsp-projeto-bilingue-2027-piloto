@@ -1,8 +1,8 @@
 {
-  "published_at_utc": "2026-09-09T19:49:44.982493+00:00",
+  "published_at_utc": "2026-09-09T19:50:36.931794+00:00",
   "published": 9,
-  "commit": "99d757172da3979f777e0487d18fba873eb53048",
-  "short": "99d7571",
+  "commit": "083ec33f329bededf1ff676f8770d8f624de55ab",
+  "short": "083ec33",
   "files": [
     "portal-aluno/assets/img/student-portal-hero.png",
     "portal-aluno/assets/logos/cambridge-educational-partner.png",
