@@ -1487,3 +1487,12 @@ ul { padding-left: 18px; color: var(--muted); }
 #relatorios .report-kinder .report-segment-avatar {
   object-fit: cover !important;
 }
+
+
+/* 2026-09-09 Professor Embaixador home image: distinct mentor/team visual */
+.ambassador-home-visual figure img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+}
