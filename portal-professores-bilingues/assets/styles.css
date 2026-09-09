@@ -1471,3 +1471,19 @@ ul { padding-left: 18px; color: var(--muted); }
   object-fit: cover !important;
   object-position: center center !important;
 }
+
+
+/* 2026-09-09 correction: real-background Report Card avatars, no composed/blurred images */
+#relatorios .report-primary .report-segment-avatar,
+#relatorios .report-middle .report-segment-avatar {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center top !important;
+  inset: 0 !important;
+  margin: 0 !important;
+  transform: none !important;
+}
+#relatorios .report-kinder .report-segment-avatar {
+  object-fit: cover !important;
+}

@@ -14,7 +14,7 @@ function el(tag, className, html) {
 }
 
 async function init() {
-  const response = await fetch('data.json?v=20260909-reportcard-primary-middle-card');
+  const response = await fetch('data.json?v=20260909-reportcard-real-bg-safe');
   const data = await response.json();
 
   $('#portal-title').textContent = data.portal.title;
