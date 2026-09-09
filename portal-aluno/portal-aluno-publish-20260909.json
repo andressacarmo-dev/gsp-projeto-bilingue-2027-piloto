@@ -1,8 +1,8 @@
 {
-  "published_at_utc": "2026-09-09T19:50:36.931794+00:00",
+  "published_at_utc": "2026-09-09T19:53:12.340669+00:00",
   "published": 9,
-  "commit": "083ec33f329bededf1ff676f8770d8f624de55ab",
-  "short": "083ec33",
+  "commit": "18eea57d398dfa024cfe1f526152b7a4eac94903",
+  "short": "18eea57",
   "files": [
     "portal-aluno/assets/img/student-portal-hero.png",
     "portal-aluno/assets/logos/cambridge-educational-partner.png",
@@ -14,7 +14,7 @@
     "portal-aluno/praia-grande/index.html",
     "portal-aluno/praia-grande/levelup-f1.html"
   ],
-  "public_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/index.html?v=20260909-portal-aluno-v2",
-  "school_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/index.html?v=20260909-portal-aluno-v2",
-  "assessment_stub_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/levelup-f1.html?grade=4o_ano&v=20260909-portal-aluno-v2"
+  "public_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/index.html?v=20260909-portal-aluno-v3",
+  "school_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/index.html?v=20260909-portal-aluno-v3",
+  "assessment_stub_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/levelup-f1.html?grade=4o_ano&v=20260909-portal-aluno-v3"
 }
