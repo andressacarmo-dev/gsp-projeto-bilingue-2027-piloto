@@ -1255,3 +1255,63 @@ ul { padding-left: 18px; color: var(--muted); }
   background: #f8fafc !important;
   color: rgba(7,27,79,.56) !important;
 }
+
+
+/* 2026-09-09 refinement: flat, harmonious Report Cards section */
+#relatorios {
+  background: #0f8f7a !important;
+  border: 0 !important;
+  border-radius: 32px !important;
+  padding: clamp(24px, 4vw, 42px) !important;
+  box-shadow: 0 18px 46px rgba(15,95,82,.18), 0 14px 34px rgba(7,27,79,.06) !important;
+}
+#relatorios > div:first-child { max-width: 820px; margin-bottom: 24px; }
+#relatorios .eyebrow { color: rgba(255,255,255,.84) !important; }
+#relatorios h2 { color: #ffffff !important; }
+#relatorios > div:first-child p:not(.eyebrow) { color: rgba(255,255,255,.90) !important; font-size: 18px; }
+#relatorios .report-generator-box {
+  background: #f4fffb !important;
+  border: 1px solid rgba(255,255,255,.42) !important;
+  border-radius: 28px !important;
+  padding: 22px !important;
+  box-shadow: 0 16px 34px rgba(4,68,58,.16) !important;
+}
+#relatorios .report-generator-box h3 { color: #07305f !important; }
+#relatorios .report-link-group.report-segment-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(15,143,122,.16) !important;
+  box-shadow: 0 10px 24px rgba(7,27,79,.06) !important;
+}
+#relatorios .report-link-group h4 {
+  color: #07305f !important;
+}
+#relatorios .report-link {
+  background: #e9fbf6 !important;
+  border: 1px solid rgba(15,143,122,.18) !important;
+  color: #07305f !important;
+  box-shadow: none !important;
+}
+#relatorios .report-link.active {
+  background: #0f8f7a !important;
+  border-color: #0f8f7a !important;
+  color: #ffffff !important;
+  box-shadow: 0 12px 24px rgba(15,143,122,.22) !important;
+}
+#relatorios .report-link.active span {
+  color: rgba(255,255,255,.78) !important;
+}
+#relatorios .report-link.disabled {
+  background: #f2f6f8 !important;
+  color: rgba(7,27,79,.48) !important;
+  border-color: rgba(7,27,79,.08) !important;
+  opacity: 1 !important;
+}
+#relatorios .report-link.disabled strong { color: rgba(7,27,79,.48) !important; }
+#relatorios .report-link.disabled span { color: rgba(7,27,79,.38) !important; }
+#relatorios .report-segment-visual {
+  background: #e9fbf6 !important;
+  border: 1px solid rgba(15,143,122,.14) !important;
+}
+#relatorios .report-segment-visual::before {
+  background: linear-gradient(135deg, rgba(15,143,122,.10), rgba(46,163,242,.10), rgba(255,194,26,.14)) !important;
+}
