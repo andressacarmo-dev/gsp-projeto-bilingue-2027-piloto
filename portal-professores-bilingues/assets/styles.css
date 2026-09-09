@@ -1437,3 +1437,29 @@ ul { padding-left: 18px; color: var(--muted); }
 @media (max-width: 640px) {
   #relatorios .report-segment-visual { height: 168px !important; }
 }
+
+
+/* 2026-09-09 refinement: Report Card avatars fill the rectangle without tight face crop */
+#relatorios .report-segment-visual {
+  height: 176px !important;
+  background: #e9fbf6 !important;
+}
+#relatorios .report-segment-avatar,
+#relatorios .report-kinder .report-segment-avatar,
+#relatorios .report-primary .report-segment-avatar,
+#relatorios .report-middle .report-segment-avatar {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: cover !important;
+  inset: 0 !important;
+  margin: 0 !important;
+  transform: none !important;
+}
+#relatorios .report-kinder .report-segment-avatar { object-position: center 16% !important; }
+#relatorios .report-primary .report-segment-avatar { object-position: center 14% !important; }
+#relatorios .report-middle .report-segment-avatar { object-position: center 13% !important; }
+@media (max-width: 640px) {
+  #relatorios .report-segment-visual { height: 168px !important; }
+}
