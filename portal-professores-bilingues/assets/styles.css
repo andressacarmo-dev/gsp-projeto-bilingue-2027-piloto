@@ -1382,3 +1382,35 @@ ul { padding-left: 18px; color: var(--muted); }
   background: #ffffff !important;
   border-color: rgba(22,63,143,.10) !important;
 }
+
+
+/* 2026-09-09 final homepage polish before returning to Portal do Aluno */
+#rubrica {
+  background: #f7fbff !important;
+  border: 1px solid rgba(7,27,79,.08) !important;
+  border-radius: 32px !important;
+  padding: clamp(24px, 4vw, 42px) !important;
+  box-shadow: 0 14px 34px rgba(7,27,79,.06) !important;
+}
+#rubrica .section-heading .eyebrow { color: #2e6fe6 !important; }
+#rubrica .section-heading h2 { color: #07305f !important; }
+#rubrica .section-heading p:not(.eyebrow) { color: #667085 !important; }
+#rubrica .section-cards { margin-top: 22px !important; }
+#rubrica .content-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(7,27,79,.08) !important;
+  box-shadow: 0 12px 28px rgba(7,27,79,.06) !important;
+}
+#rubrica .content-card::before {
+  background: linear-gradient(90deg, #163f8f, #0f8f7a, #f47b20) !important;
+}
+#rubrica .card-eyebrow { color: #0f8f7a !important; }
+#rubrica .content-card h3 { color: #07305f !important; }
+#rubrica .content-card .status {
+  background: #eaf1ff !important;
+  color: #163f8f !important;
+}
+#rubrica .content-card ul { color: #667085 !important; }
+#rubrica .content-card li::marker { color: #0f8f7a !important; }
+.cambridge-platforms { margin-top: 0 !important; }
+#relatorios { margin-bottom: 0 !important; }

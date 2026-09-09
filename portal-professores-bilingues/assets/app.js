@@ -14,7 +14,7 @@ function el(tag, className, html) {
 }
 
 async function init() {
-  const response = await fetch('data.json?v=20260909-remove-english-quest-home');
+  const response = await fetch('data.json?v=20260909-home-final-polish');
   const data = await response.json();
 
   $('#portal-title').textContent = data.portal.title;
