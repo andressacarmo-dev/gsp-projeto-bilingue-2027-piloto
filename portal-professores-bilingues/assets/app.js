@@ -14,7 +14,7 @@ function el(tag, className, html) {
 }
 
 async function init() {
-  const response = await fetch('data.json?v=20260904-year789-links');
+  const response = await fetch('data.json?v=20260909-matrizes-orange-refined-c');
   const data = await response.json();
 
   $('#portal-title').textContent = data.portal.title;
