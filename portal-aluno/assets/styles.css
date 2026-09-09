@@ -61,3 +61,10 @@ a{text-decoration:none;color:inherit}.wrap{width:min(1120px,calc(100% - 32px));m
 .levelup-school-grid p{color:var(--muted);font-size:14px;line-height:1.55;margin:0 0 18px}
 .btn.school-action{width:100%;border-radius:999px;background:#22d3ee;color:#172033;box-shadow:0 14px 30px rgba(34,211,238,.24);font-weight:900}
 .btn.school-action.soft{background:#e0f2fe;color:#64748b;box-shadow:none;cursor:not-allowed}
+
+
+/* v5: right hero explanatory text like Portal do Projeto */
+.student-summary-copy{border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.13);border-radius:22px;padding:18px 18px 16px;backdrop-filter:blur(14px)}
+.student-summary-copy h2{margin:0 0 12px;color:white;font-size:24px;letter-spacing:-.025em}
+.student-summary-copy ul{margin:0;padding-left:20px;color:rgba(255,255,255,.86);line-height:1.55;font-size:15px}
+.student-summary-copy li{margin:5px 0}.student-summary-copy li::marker{color:#22d3ee}
