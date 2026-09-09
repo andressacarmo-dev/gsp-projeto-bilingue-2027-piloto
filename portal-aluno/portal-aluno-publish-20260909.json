@@ -1,0 +1,19 @@
+{
+  "published_at_utc": "2026-09-09T19:34:19.079763+00:00",
+  "published": 8,
+  "commit": "2c9085ac9e070287899bd389539ab96105707e4e",
+  "short": "2c9085a",
+  "files": [
+    "portal-aluno/assets/img/student-portal-hero.png",
+    "portal-aluno/assets/logos/cambridge-educational-partner.png",
+    "portal-aluno/assets/logos/cambridge-preparation-centre.png",
+    "portal-aluno/assets/logos/objetivo-logo.png",
+    "portal-aluno/assets/styles.css",
+    "portal-aluno/index.html",
+    "portal-aluno/praia-grande/index.html",
+    "portal-aluno/praia-grande/levelup-f1.html"
+  ],
+  "public_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/index.html?v=20260909-portal-aluno-v1",
+  "school_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/index.html?v=20260909-portal-aluno-v1",
+  "assessment_stub_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/levelup-f1.html?grade=4o_ano&v=20260909-portal-aluno-v1"
+}
