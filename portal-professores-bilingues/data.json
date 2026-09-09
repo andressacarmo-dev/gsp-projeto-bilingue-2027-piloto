@@ -98,10 +98,10 @@
     },
     {
       "id": "avaliacao",
-      "title": "Avaliação Global GSP",
-      "eyebrow": "Cambridge-like",
-      "description": "Avaliações trimestrais padronizadas para identificar progresso, lacunas e necessidades de apoio docente.",
-      "status": "Arquitetura pronta para desenho dos instrumentos",
+      "title": "Avaliação pedagógica GSP",
+      "eyebrow": "Evidências de aprendizagem",
+      "description": "Instrumentos e critérios para acompanhar progresso, lacunas e necessidades de apoio docente ao longo do percurso.",
+      "status": "Base pronta para instrumentos por segmento",
       "items": [
         "Listening/responding",
         "Vocabulary recognition",
