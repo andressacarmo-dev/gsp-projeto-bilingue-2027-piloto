@@ -4,7 +4,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Nivelamento Level Up F1 · Praia Grande</title>
-  <link rel="stylesheet" href="../assets/styles.css?v=20260909-v6" />
+  <link rel="stylesheet" href="../assets/styles.css?v=20260909-v7-levelup-f1-demo" />
+  <style>
+    .quest-shell{display:grid;gap:18px;margin-top:22px}.quest-intro{display:grid;grid-template-columns:1.05fr .95fr;gap:18px;align-items:center}.quest-intro img,.mission-hero{width:100%;border-radius:26px;display:block;box-shadow:0 18px 42px rgba(30,58,138,.13);object-fit:cover}.quest-intro img{aspect-ratio:1/1}.mission{background:#fff;border:1px solid rgba(37,99,235,.14);border-radius:30px;padding:22px;box-shadow:0 16px 45px rgba(30,58,138,.08)}.mission-head{display:grid;grid-template-columns:140px 1fr;gap:18px;align-items:center;margin-bottom:18px}.mission-head img{width:140px;height:140px;border-radius:24px;object-fit:cover}.mission h2{margin:0;color:var(--blue-dark)}.mission p{color:var(--muted);line-height:1.55}.q-grid{display:grid;gap:14px}.question-card{border:1px solid #dbeafe;background:linear-gradient(180deg,#fff,#f8fbff);border-radius:22px;padding:16px}.question-card h3{margin:0 0 12px;color:#172033;font-size:17px}.options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.option{border:1px solid #c7d2fe;background:white;color:#172033;border-radius:16px;padding:12px;font-weight:800;cursor:pointer;text-align:center;transition:.15s}.option:hover{transform:translateY(-1px);border-color:#7c3aed}.option.selected{background:#2563eb;color:white;border-color:#2563eb}.option.correct{background:#dcfce7;color:#166534;border-color:#86efac}.option.wrong{background:#fee2e2;color:#991b1b;border-color:#fecaca}.mini-scene{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.scene-choice{background:white;border:1px solid #c7d2fe;border-radius:18px;padding:10px;cursor:pointer}.scene-choice img{width:100%;aspect-ratio:1/1;border-radius:14px;object-fit:cover;display:block;margin-bottom:8px}.listen-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.speak-btn{border:0;border-radius:999px;background:#7c3aed;color:white;padding:10px 14px;font-weight:900;cursor:pointer}.chip-bank{display:flex;flex-wrap:wrap;gap:8px}.chip{border:1px solid #c7d2fe;background:#fff;border-radius:999px;padding:9px 12px;font-weight:900;cursor:pointer}.chip.selected{background:#22d3ee;color:#172033;border-color:#22d3ee}.fill-line{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.blank{min-width:98px;border-bottom:3px solid #7c3aed;text-align:center;font-weight:900;color:#7c3aed;padding:4px}.match-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.match-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;align-items:center}.match-row select{border:1px solid #c7d2fe;border-radius:14px;padding:10px;font:inherit}.writing textarea{width:100%;min-height:92px;border:1px solid #c7d2fe;border-radius:18px;padding:14px;font:inherit;resize:vertical}.progress-note{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.score-panel{display:none}.score-panel.show{display:block}.result-pill{display:inline-flex;padding:8px 12px;border-radius:999px;background:#eff6ff;color:#1e3a8a;font-weight:900;margin:4px}.timer-card{display:inline-flex;align-items:center;gap:8px;border:1px solid #c7d2fe;background:#fff;border-radius:999px;padding:9px 13px;font-weight:900;color:#1e3a8a}@media(max-width:850px){.quest-intro,.mission-head,.options,.mini-scene,.match-grid{grid-template-columns:1fr}.mission-head img{width:100%;height:auto;aspect-ratio:16/9}.match-row{grid-template-columns:1fr}.option{text-align:left}}
+  </style>
 </head>
 <body>
 <header class="topbar"><div class="wrap nav"><a class="brand" href="./"><span class="brand-mark">✦</span><span>Praia Grande<small>Nivelamento Level Up</small></span></a><a class="pill" href="./">← voltar para séries</a></div></header>
@@ -15,12 +18,12 @@
       <div>
         <span class="eyebrow">Prova F1 · Pre-A1/A1</span>
         <h1 style="margin:12px 0 4px;font-size:38px;letter-spacing:-.04em">English Quest: School Day Challenge</h1>
-        <p style="margin:0;color:var(--muted);line-height:1.55">Antes de começar, confira seus dados. Alguns campos já vêm fixos para ajudar sua escola a organizar os resultados.</p>
-        <div class="meta"><span class="tag">Escola: Praia Grande</span><span class="tag purple" id="gradeTag">Série</span><span class="tag cyan">Level Up 2027</span></div>
+        <p style="margin:0;color:var(--muted);line-height:1.55">Uma avaliação curta, visual e digital para entender sua jornada em inglês. Tempo estimado: até 25 minutos.</p>
+        <div class="meta"><span class="tag">Escola: Praia Grande</span><span class="tag purple" id="gradeTag">Série</span><span class="tag cyan">Level Up 2027</span><span class="timer-card">⏱ até 25 min</span></div>
       </div>
     </section>
 
-    <section class="card" style="margin-top:22px">
+    <section class="card" id="studentCard" style="margin-top:22px">
       <h2 style="margin-top:0">Identificação do aluno</h2>
       <form id="studentForm">
         <div class="form-grid">
@@ -30,22 +33,76 @@
           <div class="field"><label>Turma</label><select name="class_group" required><option value="">Selecione</option><option>4A</option><option>4B</option><option>5A</option><option>5B</option></select></div>
           <div class="field"><label>Professor(a)</label><select name="teacher_name" required><option value="">Selecione</option><option>A definir · professor(a) 1</option><option>A definir · professor(a) 2</option><option>A definir · professor(a) 3</option></select></div>
         </div>
-        <input type="hidden" name="school_id" value="praia_grande">
-        <input type="hidden" name="network" value="GSP">
-        <input type="hidden" name="assessment_id" value="levelup_f1_2027_v1">
-        <input type="hidden" name="segment" value="F1">
-        <input type="hidden" name="cefr_band" value="Pre-A1/A1">
-        <input type="hidden" name="version" value="v1">
-        <input type="hidden" name="academic_year" value="2027">
-        <div class="notice">Esta atividade ajuda a escola a entender melhor sua jornada em inglês. Responda com calma: o objetivo não é dar uma nota, e sim identificar como podemos apoiar sua aprendizagem.</div>
-        <div class="actions"><button class="btn primary" type="submit">Continuar para a prova</button><a class="btn secondary" href="./">Cancelar</a></div>
+        <input type="hidden" name="school_id" value="praia_grande"><input type="hidden" name="network" value="GSP"><input type="hidden" name="assessment_id" value="levelup_f1_2027_v1"><input type="hidden" name="segment" value="F1"><input type="hidden" name="cefr_band" value="Pre-A1/A1"><input type="hidden" name="version" value="v1-demo"><input type="hidden" name="academic_year" value="2027">
+        <div class="notice">Antes de começar, confira seus dados. Depois, ajude a Lia a completar as missões de um dia especial na escola.</div>
+        <div class="actions"><button class="btn primary" type="submit">Começar missões</button><a class="btn secondary" href="./">Cancelar</a></div>
       </form>
     </section>
 
-    <section class="coming" id="preview" hidden>
-      <h2 style="margin-top:0">Próxima etapa</h2>
-      <p>Depois deste cabeçalho, entraremos nas missões da prova F1: vocabulário visual, listening, reading, language use, situações comunicativas e escrita controlada.</p>
-      <p><strong>Dados prontos para dashboard:</strong> escola, série, turma, professor, aluno, prova, versão e faixa CEFR.</p>
+    <section class="quest-shell" id="assessment" hidden>
+      <section class="card quest-intro">
+        <div>
+          <span class="eyebrow">Meet Lia</span>
+          <h2 style="font-size:34px;margin:10px 0;color:var(--blue-dark)">Help Lia at school</h2>
+          <p>Você vai ajudar a Lia em cinco missões curtas. Algumas perguntas têm imagem, outras têm áudio, outras pedem para completar frases. Não precisa correr: leia com calma e faça o seu melhor.</p>
+          <div class="progress-note"><span class="tag">20 questões objetivas</span><span class="tag purple">1 escrita curta</span><span class="tag cyan">correção automática parcial</span></div>
+        </div>
+        <img src="../assets/img/levelup-lia-pack-bag.png" alt="Lia arrumando a mochila para a escola">
+      </section>
+
+      <section class="mission" data-mission="1">
+        <div class="mission-head"><img src="../assets/img/levelup-lia-pack-bag.png" alt="Lia preparando materiais escolares"><div><span class="eyebrow">Mission 1</span><h2>Pack your bag</h2><p>Look, read and choose. Vocabulário visual com objetos e ações da rotina escolar.</p></div></div>
+        <div class="q-grid">
+          <div class="question-card" data-q="q1" data-answer="notebook"><h3>1. Lia needs this for writing notes. What is it?</h3><div class="options"><button type="button" class="option" data-value="ruler">ruler</button><button type="button" class="option" data-value="notebook">notebook</button><button type="button" class="option" data-value="scissors">scissors</button></div></div>
+          <div class="question-card" data-q="q2" data-answer="pencil"><h3>2. Choose the school object you use to write.</h3><div class="options"><button type="button" class="option" data-value="apple">apple</button><button type="button" class="option" data-value="pencil">pencil</button><button type="button" class="option" data-value="chair">chair</button></div></div>
+          <div class="question-card" data-q="q3" data-answer="read"><h3>3. Lia is in the library. What can she do there?</h3><div class="options"><button type="button" class="option" data-value="swim">swim</button><button type="button" class="option" data-value="read">read</button><button type="button" class="option" data-value="sleep">sleep</button></div></div>
+          <div class="question-card" data-q="q4" data-answer="blue"><h3>4. Look at Lia’s backpack. Choose a colour.</h3><div class="options"><button type="button" class="option" data-value="blue">blue</button><button type="button" class="option" data-value="black">black</button><button type="button" class="option" data-value="pink">pink</button></div></div>
+        </div>
+      </section>
+
+      <section class="mission" data-mission="2">
+        <div class="mission-head"><img src="../assets/img/levelup-lia-classroom.png" alt="Lia em sala de aula"><div><span class="eyebrow">Mission 2</span><h2>Listen and choose</h2><p>Click to listen. Depois escolha a resposta correta. Nesta versão, o navegador lê o áudio.</p></div></div>
+        <div class="q-grid">
+          <div class="question-card" data-q="q5" data-answer="blue notebook"><h3>5. Listen. What does Lia need?</h3><div class="listen-row"><button type="button" class="speak-btn" data-say="Choose the blue notebook.">🔊 Play audio</button></div><div class="options"><button type="button" class="option" data-value="red pencil">red pencil</button><button type="button" class="option" data-value="blue notebook">blue notebook</button><button type="button" class="option" data-value="green ruler">green ruler</button></div></div>
+          <div class="question-card" data-q="q6" data-answer="under"><h3>6. Listen. Where is the pencil?</h3><button type="button" class="speak-btn" data-say="The pencil is under the desk.">🔊 Play audio</button><div class="options"><button type="button" class="option" data-value="on">on the desk</button><button type="button" class="option" data-value="under">under the desk</button><button type="button" class="option" data-value="next to">next to the desk</button></div></div>
+          <div class="question-card" data-q="q7" data-answer="draw"><h3>7. Listen. What is the action?</h3><button type="button" class="speak-btn" data-say="Draw a big star.">🔊 Play audio</button><div class="options"><button type="button" class="option" data-value="jump">jump</button><button type="button" class="option" data-value="draw">draw</button><button type="button" class="option" data-value="eat">eat</button></div></div>
+          <div class="question-card" data-q="q8" data-answer="library"><h3>8. Listen. Where does Lia go?</h3><button type="button" class="speak-btn" data-say="Lia goes to the library after class.">🔊 Play audio</button><div class="options"><button type="button" class="option" data-value="library">library</button><button type="button" class="option" data-value="park">park</button><button type="button" class="option" data-value="kitchen">kitchen</button></div></div>
+        </div>
+      </section>
+
+      <section class="mission" data-mission="3">
+        <div class="mission-head"><img src="../assets/img/levelup-lia-library.png" alt="Lia lendo na biblioteca"><div><span class="eyebrow">Mission 3</span><h2>Read the clue</h2><p>Leia pistas curtas. A resposta está explícita no texto.</p></div></div>
+        <div class="q-grid">
+          <div class="question-card" data-q="q9" data-answer="red"><h3>9. Lia has a red pencil case. What colour is her pencil case?</h3><div class="options"><button type="button" class="option" data-value="yellow">yellow</button><button type="button" class="option" data-value="red">red</button><button type="button" class="option" data-value="green">green</button></div></div>
+          <div class="question-card" data-q="q10" data-answer="football"><h3>10. Tom plays football after school. What does Tom play?</h3><div class="options"><button type="button" class="option" data-value="tennis">tennis</button><button type="button" class="option" data-value="basketball">basketball</button><button type="button" class="option" data-value="football">football</button></div></div>
+          <div class="question-card" data-q="q11" data-answer="Monday"><h3>11. Message: “Art Club is on Monday.” When is Art Club?</h3><div class="options"><button type="button" class="option" data-value="Friday">Friday</button><button type="button" class="option" data-value="Monday">Monday</button><button type="button" class="option" data-value="Sunday">Sunday</button></div></div>
+          <div class="question-card" data-q="q12" data-answer="two books"><h3>12. Lia has two books and one apple. What does Lia have?</h3><div class="options"><button type="button" class="option" data-value="two books">two books</button><button type="button" class="option" data-value="three apples">three apples</button><button type="button" class="option" data-value="one dog">one dog</button></div></div>
+        </div>
+      </section>
+
+      <section class="mission" data-mission="4">
+        <div class="mission-head"><img src="../assets/img/levelup-lia-friend.png" alt="Lia conversando com uma amiga"><div><span class="eyebrow">Mission 4</span><h2>Fix the message</h2><p>Complete as mensagens usando chips. Não é só múltipla escolha.</p></div></div>
+        <div class="q-grid">
+          <div class="question-card fill" data-q="q13" data-answer="am"><h3>13. Complete: I <span class="blank" data-blank>____</span> Lia.</h3><div class="chip-bank"><button type="button" class="chip" data-value="am">am</button><button type="button" class="chip" data-value="is">is</button><button type="button" class="chip" data-value="are">are</button></div></div>
+          <div class="question-card fill" data-q="q14" data-answer="has"><h3>14. Complete: She <span class="blank" data-blank>____</span> a blue backpack.</h3><div class="chip-bank"><button type="button" class="chip" data-value="have">have</button><button type="button" class="chip" data-value="has">has</button><button type="button" class="chip" data-value="are">are</button></div></div>
+          <div class="question-card fill" data-q="q15" data-answer="can"><h3>15. Complete: Lia <span class="blank" data-blank>____</span> read a short story.</h3><div class="chip-bank"><button type="button" class="chip" data-value="can">can</button><button type="button" class="chip" data-value="under">under</button><button type="button" class="chip" data-value="likes">likes</button></div></div>
+          <div class="question-card fill" data-q="q16" data-answer="like"><h3>16. Complete: I <span class="blank" data-blank>____</span> English games.</h3><div class="chip-bank"><button type="button" class="chip" data-value="likes">likes</button><button type="button" class="chip" data-value="like">like</button><button type="button" class="chip" data-value="am">am</button></div></div>
+        </div>
+      </section>
+
+      <section class="mission" data-mission="5">
+        <div class="mission-head"><img src="../assets/img/levelup-lia-friend.png" alt="Lia e uma amiga no corredor da escola"><div><span class="eyebrow">Mission 5</span><h2>Talk to a friend</h2><p>Escolha a resposta adequada para cada situação e escreva uma nota curta.</p></div></div>
+        <div class="q-grid">
+          <div class="question-card" data-q="q17" data-answer="Nice to meet you"><h3>17. A new friend says: “Hello, I’m Ana.” What can Lia say?</h3><div class="options"><button type="button" class="option" data-value="Nice to meet you">Nice to meet you</button><button type="button" class="option" data-value="It is under the chair">It is under the chair</button><button type="button" class="option" data-value="I have two pencils">I have two pencils</button></div></div>
+          <div class="question-card" data-q="q18" data-answer="Can you help me"><h3>18. Lia doesn’t understand. What can she ask?</h3><div class="options"><button type="button" class="option" data-value="I like pizza">I like pizza</button><button type="button" class="option" data-value="Can you help me">Can you help me?</button><button type="button" class="option" data-value="It is blue">It is blue</button></div></div>
+          <div class="question-card match" data-q="q19" data-answer="ok"><h3>19. Match the question to the answer.</h3><div class="match-row"><span>How old are you?</span><select data-match="age"><option value="">Choose</option><option value="I am nine">I am nine.</option><option value="It is Monday">It is Monday.</option><option value="I like blue">I like blue.</option></select></div></div>
+          <div class="question-card" data-q="q20" data-answer="I like English"><h3>20. Choose a good sentence.</h3><div class="options"><button type="button" class="option" data-value="I likes English">I likes English.</button><button type="button" class="option" data-value="I like English">I like English.</button><button type="button" class="option" data-value="I am English games">I am English games.</button></div></div>
+          <div class="question-card writing"><h3>Final note. Write 1 or 2 sentences about you.</h3><p>Example: “My name is Lia. I like games.”</p><textarea id="writingText" placeholder="Write here..."></textarea></div>
+        </div>
+      </section>
+
+      <div class="actions"><button class="btn primary" id="finishBtn" type="button">Finalizar revisão da prova</button><button class="btn secondary" id="resetBtn" type="button">Limpar respostas</button></div>
+      <section class="card score-panel" id="scorePanel"><h2 style="margin-top:0">Resultado interno da revisão</h2><p>Este painel é apenas para validação pedagógica da v1. Depois podemos esconder do aluno e enviar dados para dashboard.</p><div id="scoreSummary"></div></section>
     </section>
   </div>
 </main>
@@ -55,11 +112,14 @@ const grade = params.get('grade') || '4o_ano';
 const labels = { '4o_ano':'4º ano', '5o_ano':'5º ano' };
 document.getElementById('gradeLabel').value = labels[grade] || '4º ano';
 document.getElementById('gradeTag').textContent = 'Série: ' + (labels[grade] || '4º ano');
-document.getElementById('studentForm').addEventListener('submit', (e)=>{
-  e.preventDefault();
-  document.getElementById('preview').hidden = false;
-  document.getElementById('preview').scrollIntoView({behavior:'smooth'});
-});
+const answers = {};
+document.getElementById('studentForm').addEventListener('submit', (e)=>{e.preventDefault();document.getElementById('assessment').hidden=false;document.getElementById('studentCard').style.display='none';document.getElementById('assessment').scrollIntoView({behavior:'smooth'});});
+document.querySelectorAll('.option').forEach(btn=>btn.addEventListener('click',()=>{const card=btn.closest('.question-card');card.querySelectorAll('.option').forEach(b=>b.classList.remove('selected'));btn.classList.add('selected');answers[card.dataset.q]=btn.dataset.value;}));
+document.querySelectorAll('.chip').forEach(btn=>btn.addEventListener('click',()=>{const card=btn.closest('.question-card');card.querySelectorAll('.chip').forEach(b=>b.classList.remove('selected'));btn.classList.add('selected');card.querySelector('[data-blank]').textContent=btn.dataset.value;answers[card.dataset.q]=btn.dataset.value;}));
+document.querySelectorAll('[data-match]').forEach(sel=>sel.addEventListener('change',()=>{answers[sel.closest('.question-card').dataset.q]=sel.value==='I am nine'?'ok':sel.value;}));
+document.querySelectorAll('.speak-btn').forEach(btn=>btn.addEventListener('click',()=>{if('speechSynthesis' in window){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(btn.dataset.say);u.lang='en-US';u.rate=.82;speechSynthesis.speak(u);}else{alert(btn.dataset.say);}}));
+document.getElementById('finishBtn').addEventListener('click',()=>{let total=0, correct=0;document.querySelectorAll('.question-card[data-answer]').forEach(card=>{total++;const expected=card.dataset.answer;const got=answers[card.dataset.q];const ok=got===expected;if(ok) correct++;card.querySelectorAll('.option,.chip').forEach(el=>{if(el.dataset.value===expected)el.classList.add('correct');if(el.classList.contains('selected')&&el.dataset.value!==expected)el.classList.add('wrong');});});const writing=(document.getElementById('writingText').value||'').trim();const writingWords=writing?writing.split(/\s+/).length:0;let band='Convocar para Level Up';if(correct>=16 && writingWords>=4) band='Dispensar / acompanhar em rotina regular';else if(correct>=11) band='Acompanhar';const pct=Math.round((correct/total)*100);document.getElementById('scoreSummary').innerHTML=`<span class="result-pill">${correct}/${total} objetivas</span><span class="result-pill">${pct}%</span><span class="result-pill">Escrita: ${writingWords} palavras</span><span class="result-pill">Indicação preliminar: ${band}</span><p style="color:var(--muted);line-height:1.55">Para 4º ano, a leitura deve ser conservadora: alunos com vocabulário/listening razoáveis, mas leitura ou escrita frágeis, podem ficar em acompanhamento antes de convocação automática.</p>`;document.getElementById('scorePanel').classList.add('show');document.getElementById('scorePanel').scrollIntoView({behavior:'smooth'});});
+document.getElementById('resetBtn').addEventListener('click',()=>location.reload());
 </script>
 </body>
 </html>
