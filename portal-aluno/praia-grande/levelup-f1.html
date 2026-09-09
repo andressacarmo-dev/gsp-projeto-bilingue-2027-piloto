@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nivelamento Level Up F1 · Praia Grande</title>
+  <link rel="stylesheet" href="../assets/styles.css?v=20260909-v1" />
+</head>
+<body>
+<header class="topbar"><div class="wrap nav"><a class="brand" href="./"><span class="brand-mark">✦</span><span>Praia Grande<small>Nivelamento Level Up</small></span></a><a class="pill" href="./">← voltar para séries</a></div></header>
+<main class="assessment-shell">
+  <div class="wrap">
+    <section class="assessment-header">
+      <img src="../assets/logos/objetivo-logo.png" alt="Logo Objetivo Praia Grande">
+      <div>
+        <span class="eyebrow">Prova F1 · Pre-A1/A1</span>
+        <h1 style="margin:12px 0 4px;font-size:38px;letter-spacing:-.04em">English Quest: School Day Challenge</h1>
+        <p style="margin:0;color:var(--muted);line-height:1.55">Antes de começar, confira seus dados. Alguns campos já vêm fixos para ajudar sua escola a organizar os resultados.</p>
+        <div class="meta"><span class="tag">Escola: Praia Grande</span><span class="tag purple" id="gradeTag">Série</span><span class="tag cyan">Level Up 2027</span></div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:22px">
+      <h2 style="margin-top:0">Identificação do aluno</h2>
+      <form id="studentForm">
+        <div class="form-grid">
+          <div class="field"><label>Escola</label><input class="fixed" name="school_name" value="Praia Grande" readonly></div>
+          <div class="field"><label>Série</label><input class="fixed" name="grade_label" id="gradeLabel" value="4º ano" readonly></div>
+          <div class="field"><label>Nome completo do aluno</label><input name="student_full_name" placeholder="Digite seu nome completo" required></div>
+          <div class="field"><label>Turma</label><select name="class_group" required><option value="">Selecione</option><option>4A</option><option>4B</option><option>5A</option><option>5B</option></select></div>
+          <div class="field"><label>Professor(a)</label><select name="teacher_name" required><option value="">Selecione</option><option>A definir · professor(a) 1</option><option>A definir · professor(a) 2</option><option>A definir · professor(a) 3</option></select></div>
+          <div class="field"><label>Código/RA do aluno <span style="color:var(--muted);font-weight:600">(se houver)</span></label><input name="student_code" placeholder="Opcional nesta versão"></div>
+        </div>
+        <input type="hidden" name="school_id" value="praia_grande">
+        <input type="hidden" name="network" value="GSP">
+        <input type="hidden" name="assessment_id" value="levelup_f1_2027_v1">
+        <input type="hidden" name="segment" value="F1">
+        <input type="hidden" name="cefr_band" value="Pre-A1/A1">
+        <input type="hidden" name="version" value="v1">
+        <input type="hidden" name="academic_year" value="2027">
+        <div class="notice">Esta atividade ajuda a escola a entender melhor sua jornada em inglês. Responda com calma: o objetivo não é dar uma nota, e sim identificar como podemos apoiar sua aprendizagem.</div>
+        <div class="actions"><button class="btn primary" type="submit">Continuar para a prova</button><a class="btn secondary" href="./">Cancelar</a></div>
+      </form>
+    </section>
+
+    <section class="coming" id="preview" hidden>
+      <h2 style="margin-top:0">Próxima etapa</h2>
+      <p>Depois deste cabeçalho, entraremos nas missões da prova F1: vocabulário visual, listening, reading, language use, situações comunicativas e escrita controlada.</p>
+      <p><strong>Dados prontos para dashboard:</strong> escola, série, turma, professor, aluno, prova, versão e faixa CEFR.</p>
+    </section>
+  </div>
+</main>
+<script>
+const params = new URLSearchParams(location.search);
+const grade = params.get('grade') || '4o_ano';
+const labels = { '4o_ano':'4º ano', '5o_ano':'5º ano' };
+document.getElementById('gradeLabel').value = labels[grade] || '4º ano';
+document.getElementById('gradeTag').textContent = 'Série: ' + (labels[grade] || '4º ano');
+document.getElementById('studentForm').addEventListener('submit', (e)=>{
+  e.preventDefault();
+  document.getElementById('preview').hidden = false;
+  document.getElementById('preview').scrollIntoView({behavior:'smooth'});
+});
+</script>
+</body>
+</html>
