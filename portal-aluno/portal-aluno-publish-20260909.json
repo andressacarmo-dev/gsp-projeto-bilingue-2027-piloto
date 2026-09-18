@@ -1,8 +1,8 @@
 {
-  "published_at_utc": "2026-09-18T16:49:55.000517+00:00",
-  "published": 33,
-  "commit": "11583fddfe5d9ae3a643f3b6d37a8c2042d15c25",
-  "short": "11583fd",
+  "published_at_utc": "2026-09-18T16:55:30.766260+00:00",
+  "published": 35,
+  "commit": "43e56dfca7baf3b617d0f85519f14814c3a4e392",
+  "short": "43e56df",
   "files": [
     "portal-aluno/assets/img/levelup-lia-classroom.png",
     "portal-aluno/assets/img/levelup-lia-friend.png",
@@ -15,6 +15,7 @@
     "portal-aluno/assets/img/levelup-lia-m2-q6-desk.png",
     "portal-aluno/assets/img/levelup-lia-m2-q7-action.png",
     "portal-aluno/assets/img/levelup-lia-m2-q8-hallway.png",
+    "portal-aluno/assets/img/levelup-lia-m3-q10-football.png",
     "portal-aluno/assets/img/levelup-lia-m3-q10-sports.png",
     "portal-aluno/assets/img/levelup-lia-m3-q11-art.png",
     "portal-aluno/assets/img/levelup-lia-m3-q12-books.png",
@@ -28,6 +29,7 @@
     "portal-aluno/assets/img/levelup-lia-m5-q19-age.png",
     "portal-aluno/assets/img/levelup-lia-m5-writing.png",
     "portal-aluno/assets/img/levelup-lia-pack-bag.png",
+    "portal-aluno/assets/img/levelup-lia-school.png",
     "portal-aluno/assets/img/student-portal-hero.png",
     "portal-aluno/assets/logos/cambridge-educational-partner.png",
     "portal-aluno/assets/logos/cambridge-preparation-centre.png",
@@ -38,7 +40,7 @@
     "portal-aluno/praia-grande/index.html",
     "portal-aluno/praia-grande/levelup-f1.html"
   ],
-  "public_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/index.html?v=20260918-levelup-f1-mission1-backpack-v2",
-  "school_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/index.html?v=20260918-levelup-f1-mission1-backpack-v2",
-  "assessment_stub_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/levelup-f1.html?grade=4o_ano&v=20260918-levelup-f1-mission1-backpack-v2"
+  "public_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/index.html?v=20260918-levelup-f1-orientacoes-v3",
+  "school_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/index.html?v=20260918-levelup-f1-orientacoes-v3",
+  "assessment_stub_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/levelup-f1.html?grade=4o_ano&v=20260918-levelup-f1-orientacoes-v3"
 }
