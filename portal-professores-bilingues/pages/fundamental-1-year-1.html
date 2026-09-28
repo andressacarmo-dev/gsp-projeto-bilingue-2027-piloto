@@ -179,10 +179,10 @@
 
     #speaking-lab-percurso .project-grid { grid-template-columns:1fr; align-items:start; gap:18px; }
     #speaking-lab-percurso .project-card.speaking-month-card { padding:0; overflow:hidden; border-top:0; background:white; border-color:#BFD7EA; }
-    #speaking-lab-percurso .speaking-month-trigger { min-height:94px; display:flex; align-items:center; gap:16px; cursor:pointer; padding:18px 22px; background:linear-gradient(135deg,#1F4E79,#2F80C7); color:white; }
+    #speaking-lab-percurso .speaking-month-trigger { min-height:94px; display:grid; grid-template-columns:minmax(170px,1fr) auto minmax(70px,1fr); align-items:center; gap:16px; cursor:pointer; padding:18px 22px; background:linear-gradient(135deg,#1F4E79,#2F80C7); color:white; }
     #speaking-lab-percurso .speaking-month-trigger:focus { outline:4px solid rgba(62,163,142,.35); outline-offset:-4px; }
     #speaking-lab-percurso .speaking-month-trigger .project-status { margin:0; background:rgba(255,255,255,.18); color:white; border:1px solid rgba(255,255,255,.32); }
-    #speaking-lab-percurso .speaking-month-trigger h3 { color:white; margin:0; font-size:26px; flex:1; }
+    #speaking-lab-percurso .speaking-month-trigger h3 { color:white; margin:0; font-size:26px; text-align:center; }
     #speaking-lab-percurso .speaking-month-trigger p { margin:0; color:rgba(255,255,255,.88); font-weight:700; }
     #speaking-lab-percurso .speaking-month-content { padding:20px 22px 24px; }
     #speaking-lab-percurso .speaking-month-content > p { margin:0 0 14px; color:#245B52; font-size:17px; }
@@ -193,13 +193,23 @@
     #speaking-lab-percurso .speaking-month-card.is-collapsed .speaking-month-content { display:none; }
     #speaking-lab-percurso .speaking-month-card.is-collapsed { box-shadow:0 10px 26px rgba(7,27,79,.06); }
     #speaking-lab-percurso .speaking-month-card.is-collapsed .speaking-month-trigger { background:linear-gradient(135deg,#1F4E79,#2A6FA8); }
-    #speaking-lab-percurso .speaking-month-toggle { justify-self:start; border:1px solid rgba(255,255,255,.50); background:rgba(255,255,255,.16); color:white; border-radius:999px; padding:8px 12px; font-weight:900; font-size:12px; text-transform:uppercase; letter-spacing:.08em; white-space:nowrap; }
+    #speaking-lab-percurso .speaking-month-toggle { justify-self:end; border:1px solid rgba(255,255,255,.50); background:rgba(255,255,255,.16); color:white; border-radius:999px; padding:8px 12px; font-weight:900; font-size:12px; text-transform:uppercase; letter-spacing:.08em; white-space:nowrap; }
+
+    /* Speaking Lab: three subtle colours signal the quarterly PBL pathway. */
+    #speaking-lab-percurso .project-grid > .speaking-month-card:nth-child(-n+3) { border-color:#BFD7EA; }
+    #speaking-lab-percurso .project-grid > .speaking-month-card:nth-child(-n+3) .speaking-month-trigger,
+    #speaking-lab-percurso .project-grid > .speaking-month-card:nth-child(-n+3).is-collapsed .speaking-month-trigger { background:linear-gradient(135deg,#1F4E79,#2F80C7); }
+    #speaking-lab-percurso .project-grid > .speaking-month-card:nth-child(n+4):nth-child(-n+6) { border-color:#B9DCCD; }
+    #speaking-lab-percurso .project-grid > .speaking-month-card:nth-child(n+4):nth-child(-n+6) .speaking-month-trigger,
+    #speaking-lab-percurso .project-grid > .speaking-month-card:nth-child(n+4):nth-child(-n+6).is-collapsed .speaking-month-trigger { background:linear-gradient(135deg,#245B52,#3EA38E); }
+    #speaking-lab-percurso .project-grid > .speaking-month-card:nth-child(n+7) { border-color:#D7C9EE; }
+    #speaking-lab-percurso .project-grid > .speaking-month-card:nth-child(n+7) .speaking-month-trigger,
+    #speaking-lab-percurso .project-grid > .speaking-month-card:nth-child(n+7).is-collapsed .speaking-month-trigger { background:linear-gradient(135deg,#51407F,#8266B8); }
 
     @media (max-width:700px) {
       .lesson-plan-meta { grid-template-columns:1fr; }
-      #speaking-lab-percurso .speaking-month-trigger { align-items:flex-start; flex-wrap:wrap; gap:10px; }
-      #speaking-lab-percurso .speaking-month-trigger h3 { flex-basis:calc(100% - 150px); }
-      #speaking-lab-percurso .speaking-month-toggle { margin-left:auto; }
+      #speaking-lab-percurso .speaking-month-trigger { grid-template-columns:1fr auto; align-items:center; gap:10px; }
+      #speaking-lab-percurso .speaking-month-trigger h3 { grid-column:1 / -1; grid-row:2; font-size:22px; text-align:center; }
       #speaking-lab-percurso .speaking-month-content { padding:16px; }
       #speaking-lab-percurso .speaking-month-content > ul > li { padding:16px; }
     }
