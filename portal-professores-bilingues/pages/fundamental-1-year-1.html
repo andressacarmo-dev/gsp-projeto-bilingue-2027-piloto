@@ -294,24 +294,12 @@
     .project-culmination { margin:0 0 16px; padding:12px 14px; border-left:4px solid #F9791F; border-radius:14px; background:#fff7ec; color:#6d3a00; font-weight:800; line-height:1.45; }
     .project-culmination strong { display:block; margin-bottom:3px; color:#a75300; font-size:11px; text-transform:uppercase; letter-spacing:.08em; }
 
-    /* Progressão horizontal padronizada — Kindergarten e Fundamental 1 */
-    #progressao .bimester-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; }
+    /* Progressão por term — cards largos, padrão Year 6 */
+    #progressao .bimester-grid,
     #progressao .quarter-grid,
     #progressao .trimester-grid,
-    #progressao .santo-anjo-progression-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
-    #progressao .quarter-card { min-width:0; height:100%; }
-    @media (max-width:1100px) {
-      #progressao .bimester-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
-      #progressao .quarter-grid,
-      #progressao .trimester-grid,
-      #progressao .santo-anjo-progression-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
-    }
-    @media (max-width:640px) {
-      #progressao .bimester-grid,
-      #progressao .quarter-grid,
-      #progressao .trimester-grid,
-      #progressao .santo-anjo-progression-grid { grid-template-columns:1fr; }
-    }
+    #progressao .santo-anjo-progression-grid { display:grid; grid-template-columns:1fr; gap:16px; }
+    #progressao .quarter-card { width:100%; min-width:0; }
 </style>
 </head>
 <body>
