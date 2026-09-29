@@ -1,8 +1,8 @@
 {
-  "published_at_utc": "2026-09-29T15:36:29.686499+00:00",
-  "published": 35,
-  "commit": "7a7082921ec106b72498ead10cf6fb61433785f5",
-  "short": "7a70829",
+  "published_at_utc": "2026-09-29T15:57:55.889109+00:00",
+  "published": 36,
+  "commit": "06351e54efc8c5ae10a32dab319eb219faef362c",
+  "short": "06351e5",
   "files": [
     "portal-aluno/assets/img/levelup-lia-classroom.png",
     "portal-aluno/assets/img/levelup-lia-friend.png",
@@ -38,9 +38,10 @@
     "portal-aluno/index.html",
     "portal-aluno/portal-aluno-publish-20260909.json",
     "portal-aluno/praia-grande/index.html",
+    "portal-aluno/praia-grande/levelup-coordenacao-simulacao.html",
     "portal-aluno/praia-grande/levelup-f1.html"
   ],
-  "public_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/index.html?v=20260929-levelup-f1-visual-objects-v9",
-  "school_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/index.html?v=20260929-levelup-f1-visual-objects-v9",
-  "assessment_stub_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/levelup-f1.html?grade=4o_ano&v=20260929-levelup-f1-visual-objects-v9"
+  "public_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/index.html?v=20260929-levelup-coordinator-demo-v1",
+  "school_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/index.html?v=20260929-levelup-coordinator-demo-v1",
+  "assessment_stub_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/levelup-f1.html?grade=4o_ano&v=20260929-levelup-coordinator-demo-v1"
 }

@@ -1,0 +1,72 @@
+{
+  "schema_version": "levelup_result_v1",
+  "generated_at": "2026-09-29T16:10:00.000Z",
+  "student": {
+    "full_name": "Aluno Exemplo",
+    "school_name": "Praia Grande",
+    "school_id": "praia_grande",
+    "class_group": "4A",
+    "teacher_name": "Professor(a) Exemplo",
+    "grade_code": "4o_ano",
+    "grade_label": "4º ano"
+  },
+  "assessment": {
+    "id": "levelup_f1_2027_v1",
+    "segment": "F1",
+    "title": "English Quest: School Day Challenge",
+    "version": "20260929-levelup-f1-visual-objects-v9",
+    "cefr_band": "Pre-A1/A1",
+    "academic_year": "2027",
+    "started_at": "2026-09-29T16:00:00.000Z",
+    "finished_at": "2026-09-29T16:10:00.000Z",
+    "duration_seconds": 600
+  },
+  "score": {
+    "total": 20,
+    "points_possible": 34,
+    "percent": 59,
+    "objective_points": 18,
+    "objective_points_possible": 32,
+    "writing_points": 2,
+    "writing_points_possible": 2,
+    "band_code": "F1-B",
+    "cefr_approximation": "Pre-A1 em consolidacao / lacunas relevantes",
+    "recommendation_level_up": "Convocar Level Up",
+    "priority": "media",
+    "classification_reasons": ["criterio de convocacao F1 atendido"],
+    "strongest_skill": "controlled_writing",
+    "weakest_skill": "reading"
+  },
+  "skills": [
+    {"key":"vocabulary","label":"Vocabulary","score":3,"points_possible":6,"percent":50,"attention":"atencao"},
+    {"key":"listening","label":"Listening","score":4,"points_possible":7,"percent":57,"attention":"atencao"},
+    {"key":"reading","label":"Reading","score":3,"points_possible":7,"percent":43,"attention":"critico"},
+    {"key":"language_use","label":"Language Use","score":4,"points_possible":7,"percent":57,"attention":"atencao"},
+    {"key":"communicative_situations","label":"Communicative Situations","score":4,"points_possible":5,"percent":80,"attention":"adequado"},
+    {"key":"controlled_writing","label":"Controlled Writing","score":2,"points_possible":2,"percent":100,"attention":"adequado"}
+  ],
+  "items": [
+    {"id":"q1","skill":"vocabulary","expected":"notebook","answer":"notebook","correct":true,"points":1,"points_possible":1},
+    {"id":"q2","skill":"vocabulary","expected":"pencil","answer":"apple","correct":false,"points":0,"points_possible":1},
+    {"id":"q3","skill":"vocabulary","expected":"read","answer":"read","correct":true,"points":2,"points_possible":2},
+    {"id":"q4","skill":"vocabulary","expected":"blue","answer":"black","correct":false,"points":0,"points_possible":2},
+    {"id":"q5","skill":"listening","expected":"blue notebook","answer":"red pencil","correct":false,"points":0,"points_possible":1},
+    {"id":"q6","skill":"listening","expected":"under","answer":"on","correct":false,"points":0,"points_possible":2},
+    {"id":"q7","skill":"listening","expected":"draw","answer":"draw","correct":true,"points":2,"points_possible":2},
+    {"id":"q8","skill":"listening","expected":"library","answer":"library","correct":true,"points":2,"points_possible":2},
+    {"id":"q9","skill":"reading","expected":"blue","answer":"blue","correct":true,"points":1,"points_possible":1},
+    {"id":"q10","skill":"reading","expected":"football","answer":"football","correct":true,"points":2,"points_possible":2},
+    {"id":"q11","skill":"reading","expected":"Art Club","answer":"Music Club","correct":false,"points":0,"points_possible":2},
+    {"id":"q12","skill":"reading","expected":"apples and bananas","answer":"grapes and bananas","correct":false,"points":0,"points_possible":2},
+    {"id":"q13","skill":"language_use","expected":"am","answer":"is","correct":false,"points":0,"points_possible":1},
+    {"id":"q14","skill":"language_use","expected":"has","answer":"has","correct":true,"points":2,"points_possible":2},
+    {"id":"q15","skill":"language_use","expected":"can","answer":"under","correct":false,"points":0,"points_possible":2},
+    {"id":"q16","skill":"language_use","expected":"like","answer":"like","correct":true,"points":2,"points_possible":2},
+    {"id":"q17","skill":"communicative_situations","expected":"Nice to meet you","answer":"Nice to meet you","correct":true,"points":1,"points_possible":1},
+    {"id":"q18","skill":"communicative_situations","expected":"Can you help me","answer":"Can you help me","correct":true,"points":1,"points_possible":1},
+    {"id":"q19","skill":"communicative_situations","expected":"ok","answer":"ok","correct":true,"points":2,"points_possible":2},
+    {"id":"q20","skill":"communicative_situations","expected":"I like English","answer":"I am English games","correct":false,"points":0,"points_possible":1}
+  ],
+  "writing": {"text":"My name is Lia. I like games.","word_count":7,"score":2,"points_possible":2},
+  "dashboard_flags": {"needs_priority_contact":false,"needs_levelup_invitation":true,"needs_pedagogical_review":false}
+}
