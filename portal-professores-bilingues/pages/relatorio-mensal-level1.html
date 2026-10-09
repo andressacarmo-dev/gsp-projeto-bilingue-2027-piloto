@@ -89,6 +89,14 @@ const brands={
   'CJA':{logo:'../assets/logos/cja-logo.png',alt:'CJA'},
   'Marupiara':{logo:'../assets/logos/marupiara-logo.png',alt:'Marupiara'}
 };
+const requestedBrand=new URLSearchParams(window.location.search).get('brand');
+const fixedBrand=Object.prototype.hasOwnProperty.call(brands,requestedBrand)?requestedBrand:null;
+if(fixedBrand){
+  const schoolField=document.getElementById('school');
+  schoolField.value=fixedBrand;
+  schoolField.disabled=true;
+  schoolField.title='Esta versão do relatório está configurada para '+fixedBrand+'.';
+}
 const optionText=id=>document.getElementById(id).selectedOptions[0].textContent;
 const set=(id,text)=>document.getElementById(id).textContent=text;
 function person(){return document.getElementById('student').value.trim()||'a criança'}
