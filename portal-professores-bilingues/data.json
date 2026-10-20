@@ -144,7 +144,7 @@
       "name": "Kindergarten",
       "tagline": "Matrizes anuais por série",
       "driveUrl": "https://drive.google.com/drive/folders/1X7_omFKM7hn4lIIgS3OWW7ol1rL_rFn7?usp=sharing",
-      "status": "Matrizes anuais Level 1, Level 2 e Level 3 finalizadas",
+      "status": "Matrizes anuais Level 1, Level 2 e Level 3, mais Level 4 exclusivo do Santo Anjo",
       "disciplines": [
         {
           "name": "Level 1",
@@ -209,6 +209,23 @@
               "label": "Let’s Explore EY3 — matriz pedagógica",
               "type": "Matriz de apoio",
               "url": "https://drive.google.com/drive/folders/1BHawv8epW3R9Cx8F5b5QRHmu_mNz7S38"
+            }
+          ]
+        },
+        {
+          "name": "Level 4 · Santo Anjo",
+          "stage": "Matriz anual exclusiva do Santo Anjo, baseada em Cambridge Global English Starters (Books A, B e C).",
+          "localHtml": "pages/infantil-level-4-santo-anjo.html",
+          "resources": [
+            {
+              "type": "Página do portal",
+              "label": "Abrir matriz anual Level 4 · Santo Anjo",
+              "url": "pages/infantil-level-4-santo-anjo.html"
+            },
+            {
+              "label": "Cambridge Global English Starters — Books A, B e C",
+              "type": "Material adotado Santo Anjo",
+              "url": ""
             }
           ]
         }

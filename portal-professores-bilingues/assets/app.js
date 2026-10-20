@@ -14,7 +14,7 @@ function el(tag, className, html) {
 }
 
 async function init() {
-  const response = await fetch('data.json?v=20260909-professor-embaixador-image');
+  const response = await fetch('data.json?v=20261020-level4-santo-anjo');
   const data = await response.json();
 
   $('#portal-title').textContent = data.portal.title;
