@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- portal-version: 20261021-monthly-february-santo-anjo -->
+<!-- portal-version: 20261021-monthly-series-level1 -->
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
@@ -91,9 +91,20 @@ const brands={
   'Marupiara':{logo:'../assets/logos/marupiara-logo.png',alt:'Marupiara'},
   'Santo Anjo':{logo:'../assets/logos/santo-anjo-logo.png',alt:'Santo Anjo'}
 };
-const santoAnjoFebruary={n:'Fevereiro',title:'Block 1 · Welcome, routine and belonging',desc:'Entrada gradual na rotina bilíngue: cumprimentos, combinados, nomes, espaços da sala e segurança afetiva. Em Cambridge Early Years, a criança inicia o Block 1 · All about me por meio de identidade, contagem inicial e experiências de pertencimento.',chips:['Hello / Goodbye','My name is...','Look!','My turn','Help, please','I am happy'],next:'Seguir fortalecendo a segurança afetiva, a participação na rotina e as primeiras interações em inglês com apoio visual, gestual e afetivo.',tip:'Perguntem, com leveza, sobre um amigo, uma música ou um momento da rotina. Gestos, desenhos e palavras isoladas também são formas importantes de compartilhar essa experiência.'};
+const santoAnjoMonths={
+  Fevereiro:{n:'Fevereiro',title:'Block 1 · Welcome, routine and belonging',desc:'Entrada gradual na rotina bilíngue: cumprimentos, combinados, nomes, espaços da sala e segurança afetiva. Em Cambridge Early Years, a criança inicia o Block 1 · All about me por meio de identidade, contagem inicial e experiências de pertencimento.',chips:['Hello / Goodbye','My name is...','Look!','My turn','Help, please','I am happy'],next:'Seguir fortalecendo a segurança afetiva, a participação na rotina e as primeiras interações em inglês com apoio visual, gestual e afetivo.',tip:'Perguntem, com leveza, sobre um amigo, uma música ou um momento da rotina. Gestos, desenhos e palavras isoladas também são formas importantes de compartilhar essa experiência.'},
+  Março:{n:'Março',title:'Block 1 · All about me: body, family and care',desc:'Exploração do corpo, da família, das emoções, das roupas e de práticas simples de autocuidado, com espelhos, fotos, brincadeiras e apoio visual.',chips:['This is my...','I feel...','I like...','I can...','Wash your hands','Put on...'],next:'Ampliar a expressão de emoções, a nomeação do corpo e as primeiras ações de cuidado consigo e com o outro.',tip:'Conversem sobre uma foto da família, uma emoção ou uma pequena ação de cuidado. A criança pode responder apontando, desenhando, gesticulando ou falando.'},
+  Abril:{n:'Abril',title:'Block 2 · Senses: colours, sounds and textures',desc:'Investigação sensorial de sons, cores, texturas, cheiros e sabores por meio de música, histórias, estações de exploração e experiências concretas.',chips:['I see...','I hear...','I smell...','soft / hard','red / blue','I like it'],next:'Convidar a criança a observar, comparar e comunicar descobertas usando os sentidos, o corpo e palavras apoiadas.',tip:'Explorem uma cor, um som ou uma textura em casa e conversem sobre o que a criança percebeu.'},
+  Maio:{n:'Maio',title:'Block 3 · Food and things we grow',desc:'Observação de sementes, plantas, frutas e verduras, acompanhando crescimento, cuidado e mudança ao longo do tempo.',chips:['seed / plant','water / sun','It grows','more / fewer','I can help'],next:'Aprofundar a investigação sobre crescimento e cuidado, valorizando hipóteses simples e registros por foto, gesto, desenho ou fala.',tip:'Se possível, cuidem de uma planta juntos. Pergunte o que ela precisa para crescer e acolha as diferentes formas de resposta.'},
+  Junho:{n:'Junho',title:'Block 3 · Food, meals and healthy habits',desc:'Experiências de mercado, cozinha, refeições e escolhas alimentares, com linguagem funcional, higiene e brincadeiras de faz de conta.',chips:['I like...','I don’t like...','Yummy!','Can I have...?','More, please','Wash your hands'],next:'Fortalecer escolhas, turnos de fala, hábitos de cuidado e linguagem de cortesia em situações reais e lúdicas.',tip:'Na refeição, conversem sobre uma escolha alimentar e pratiquem frases simples de preferência, por exemplo: “I like...”.'},
+  Agosto:{n:'Agosto',title:'Block 4 · Animals: movement and care',desc:'Investigação de animais por histórias, sons, movimentos, padrões, comparação entre filhotes e adultos e propostas de cuidado com seres vivos.',chips:['It is a...','It can jump / run / fly','How does it move?','Why...?','My favourite animal is...'],next:'Ampliar a curiosidade investigativa e a comunicação sobre características, movimentos e cuidados com animais.',tip:'Escolham um animal para imitar em casa e conversem sobre como ele se move, o que come ou onde vive.'},
+  Setembro:{n:'Setembro',title:'Block 5 · Who helps us?',desc:'Reconhecimento de pessoas que ajudam na comunidade, em casa e na escola, relacionando papéis, segurança, cuidado e colaboração.',chips:['Who helps us?','He / She helps...','I can help','Be safe','Where is...?'],next:'Fortalecer o pertencimento, a cooperação e a comunicação sobre lugares e pessoas importantes da comunidade.',tip:'Conversem sobre quem ajuda em casa, na escola ou no bairro. A criança pode desenhar, escolher uma foto ou contar do seu jeito.'},
+  Outubro:{n:'Outubro',title:'Block 6 · Let’s move: roll, float and fly',desc:'Exploração de movimento com corpo e objetos: rolar, flutuar, voar, subir, descer, velocidade, direção, transporte e segurança.',chips:['It rolls / floats / flies','I can / I can’t','fast / slow','up / down','Be careful'],next:'Estimular a criança a testar ideias, observar efeitos e comunicar descobertas com corpo, linguagem e materiais.',tip:'Brinquem de testar objetos que rolam ou flutuam e conversem sobre o que aconteceu.'},
+  Novembro:{n:'Novembro',title:'Block 6 · Review, authorship and celebration',desc:'Retomada das experiências do ano por meio de portfólio, mostra de produções, preferências, reconhecimento de conquistas e celebração do percurso.',chips:['I can...','I know...','My favourite is...','Look at my work','Thank you'],next:'Valorizar as evidências do percurso e apoiar a criança a reconhecer, mostrar e celebrar o que já consegue fazer.',tip:'Peça para a criança escolher uma produção ou lembrança favorita do ano e contar, do seu jeito, por que ela é importante.'}
+};
 const monthTitleInEnglish={Fevereiro:'February',Março:'March',Abril:'April',Maio:'May',Junho:'June',Agosto:'August',Setembro:'September',Outubro:'October',Novembro:'November'};
 const requestedBrand=new URLSearchParams(window.location.search).get('brand');
+const requestedMonth=new URLSearchParams(window.location.search).get('month');
 const fixedBrand=Object.prototype.hasOwnProperty.call(brands,requestedBrand)?requestedBrand:null;
 if(fixedBrand){
   const schoolField=document.getElementById('school');
@@ -109,7 +120,7 @@ function setBrand(school){const brand=brands[school];const logo=document.getElem
 function update(){
   const name=person(), school=document.getElementById('school').value, cls=document.getElementById('className').value||'Level 1', teacher=document.getElementById('teacher').value.trim()||'Professor(a)';
   const selectedMonth=months[document.getElementById('month').value];
-  const m=school==='Santo Anjo'&&selectedMonth.n==='Fevereiro'?santoAnjoFebruary:selectedMonth;
+  const m=school==='Santo Anjo'&&santoAnjoMonths[selectedMonth.n]?santoAnjoMonths[selectedMonth.n]:selectedMonth;
   const engagement=optionText('engagement').toLowerCase(),understanding=optionText('understanding').toLowerCase(),language=optionText('language').toLowerCase(),discovery=optionText('discovery').toLowerCase(),social=optionText('social').toLowerCase(),autonomy=optionText('autonomy').toLowerCase();
   const isArrival=m.n==='Fevereiro';
   setBrand(school);set('reportTitle',monthTitleInEnglish[m.n]+' Learning Snapshot');set('outStudent',name);set('outClass',cls);set('outMonth',m.n+' · '+document.getElementById('year').value);set('outSchool',school);set('outSchoolCover',school);set('outTeacher',teacher);
@@ -137,7 +148,7 @@ function update(){
     setHtml('closingMessage',`<p>Seguimos celebrando o percurso de <strong>${name}</strong> e confiando nas próximas descobertas. Com escola e família em parceria, cada experiência se transforma em uma oportunidade de crescer, comunicar e aprender com alegria.</p>`);
   }
 }
-months.forEach((m,i)=>document.getElementById('month').insertAdjacentHTML('beforeend','<option value="'+i+'">'+m.n+'</option>'));document.getElementById('update').onclick=update;document.getElementById('print').onclick=()=>{update();window.print()};document.querySelectorAll('input,select').forEach(x=>x.addEventListener('input',update));update();
+months.forEach((m,i)=>document.getElementById('month').insertAdjacentHTML('beforeend','<option value="'+i+'">'+m.n+'</option>'));const requestedMonthIndex=months.findIndex(m=>m.n===requestedMonth);if(requestedMonthIndex>=0)document.getElementById('month').value=String(requestedMonthIndex);document.getElementById('update').onclick=update;document.getElementById('print').onclick=()=>{update();window.print()};document.querySelectorAll('input,select').forEach(x=>x.addEventListener('input',update));update();
 </script>
 </body>
 </html>
