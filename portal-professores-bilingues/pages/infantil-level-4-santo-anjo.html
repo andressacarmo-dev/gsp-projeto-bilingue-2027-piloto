@@ -1,4 +1,4 @@
-<!-- portal-version: 20261021-level4-santo-anjo-report-cards -->
+<!-- portal-version: 20261021-level4-santo-anjo-robust-architecture -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -12,38 +12,495 @@
   <link rel="stylesheet" href="../assets/styles.css">
   <style>
     body{background:#f8f5ef}.matrix-hero{color:#fff;background:radial-gradient(circle at 82% 18%,rgba(255,255,255,.16),transparent 28%),linear-gradient(135deg,#7d3900,#e27c12);padding:18px clamp(18px,4vw,64px) 54px}.matrix-hero .topbar{max-width:1180px;margin:0 auto}.matrix-hero-grid{max-width:1180px;margin:48px auto 0;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);gap:clamp(24px,5vw,60px);align-items:center}.matrix-hero h1{font-size:clamp(36px,6vw,72px);color:#fff}.matrix-card{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.25);border-radius:28px;padding:24px;box-shadow:var(--shadow)}.matrix-card li{margin:8px 0;color:rgba(255,255,255,.9)}.breadcrumb,.anchor-months,.section,.matrix-subheading{max-width:1180px;margin-left:auto;margin-right:auto}.breadcrumb{margin-top:28px;margin-bottom:20px;color:var(--muted);font-size:14px;font-weight:700}.breadcrumb a{color:var(--royal);text-decoration:none}.anchor-months{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:32px}.anchor-months a{text-decoration:none;color:#8a4300;background:#fff8f0;border:1px solid rgba(226,124,18,.25);padding:9px 12px;border-radius:999px;font-weight:800;font-size:13px}.teacher-note,.standard-box,.matrix-subheading,.progression-box,.assessment-box,.materials-box{background:#fff;border:1px solid var(--line);border-radius:28px;padding:clamp(22px,4vw,36px);box-shadow:0 14px 38px rgba(7,27,79,.08);margin-bottom:24px}.matrix-subheading .school-tag{display:inline-flex;margin-bottom:10px;padding:6px 10px;border-radius:999px;background:#fff3df;color:#9a4d00;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}.matrix-subheading h2{margin:0 0 8px;color:var(--navy)}.matrix-subheading p{margin:0;color:var(--muted)}.term-grid,.matrix-grid,.evidence-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.term-card,.matrix-grid>div,.evidence-grid article{background:#fffaf4;border:1px solid rgba(226,124,18,.20);border-radius:22px;padding:20px}.term-card{border-top:6px solid #e27c12}.term-card h3,.matrix-grid h4,.evidence-grid h3{color:#8a4300;margin-top:0}.month-list{display:grid;gap:22px}.month-card{background:#fff;border:1px solid rgba(226,124,18,.24);border-radius:30px;overflow:hidden;box-shadow:0 16px 44px rgba(7,27,79,.09)}.month-top{width:100%;border:0;text-align:left;display:grid;grid-template-columns:150px 1fr auto;gap:16px;align-items:center;background:linear-gradient(135deg,#8a4300,#e27c12);color:#fff;padding:18px 22px;font:inherit;cursor:pointer}.month-top span{font-weight:900;font-size:22px}.month-top strong{font-size:18px}.month-toggle{border:1px solid rgba(255,255,255,.52);background:rgba(255,255,255,.16);color:#fff;border-radius:999px;padding:9px 12px;font-weight:900;font-size:12px;text-transform:uppercase;letter-spacing:.08em;white-space:nowrap}.month-body{padding:20px 22px 24px}.month-focus{margin:0 0 16px;color:var(--ink);font-weight:650}.matrix-grid{grid-template-columns:repeat(2,1fr)}.matrix-grid h4{font-size:12px;text-transform:uppercase;letter-spacing:.08em}.matrix-grid p{margin:0;color:var(--muted);line-height:1.55}.teacher-note p,.standard-box p,.assessment-box p,.materials-box p{color:var(--muted);line-height:1.6}.routine-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.routine-strip article{background:#fff;border:1px solid var(--line);border-top:5px solid #e27c12;border-radius:20px;padding:18px;box-shadow:0 12px 30px rgba(7,27,79,.07)}.routine-strip h3{margin:0 0 8px;color:#8a4300;font-size:15px}.routine-strip p{margin:0;color:var(--muted);font-size:14px}.note{background:#fff8f2;border-left:6px solid #e27c12;border-radius:20px;padding:16px 18px;color:var(--ink);margin:0 auto 24px;max-width:1180px}.material-list{margin:10px 0 0 20px;color:var(--muted)}.material-list li{margin:7px 0}@media(max-width:900px){.matrix-hero-grid,.term-grid,.matrix-grid,.evidence-grid,.routine-strip{grid-template-columns:1fr}.month-top{grid-template-columns:1fr}.month-toggle{justify-self:start}}
+    .deeper-box,.practice-box,.strategy-box,.assessment-orientation{background:#fff;border:1px solid var(--line);border-radius:28px;padding:clamp(22px,4vw,36px);box-shadow:0 14px 38px rgba(7,27,79,.08);margin-bottom:24px}.deeper-grid,.rubric-grid,.strategy-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.deeper-grid article,.rubric-grid article,.strategy-grid article{padding:20px;background:#fffaf4;border:1px solid rgba(226,124,18,.20);border-radius:22px}.deeper-grid h3,.rubric-grid h3,.strategy-grid h3{margin:0 0 8px;color:#8a4300}.deeper-grid p,.rubric-grid p,.strategy-grid p{margin:0;color:var(--muted);line-height:1.58}.pbl-project{margin-bottom:18px}.pbl-hero{background:linear-gradient(135deg,#fff7eb,#fff);border:1px solid rgba(226,124,18,.28);border-left:7px solid #e27c12;border-radius:28px;padding:26px;box-shadow:0 14px 38px rgba(7,27,79,.08)}.pbl-hero h2{margin:0 0 8px;color:#8a4300}.pbl-hero>p:not(.eyebrow){color:var(--muted);line-height:1.6}.pbl-meta{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:16px}.pbl-meta div{background:#fff;padding:14px;border-radius:16px;border:1px solid var(--line)}.pbl-meta strong,.pbl-meta span{display:block}.pbl-meta strong{color:#8a4300;font-size:12px;text-transform:uppercase;letter-spacing:.06em}.pbl-meta span{margin-top:4px;color:var(--muted);line-height:1.45}.report-link{text-decoration:none;color:inherit;display:block}.report-link:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(7,27,79,.12)}@media(max-width:900px){.deeper-grid,.rubric-grid,.strategy-grid,.pbl-meta{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
   <header class="matrix-hero">
-    <nav class="topbar" aria-label="Navegação da matriz Level 4"><a class="brand" href="../index.html"><span>Portal dos Professores Bilíngues</span></a><div class="nav-links"><a href="#matriz">Matriz</a><a href="#progressao">Progressão</a><a href="#report-cards">Report Cards</a><a href="#avaliacao">Evidências</a><a href="#materiais">Materiais</a></div></nav>
-    <div class="matrix-hero-grid"><section><p class="eyebrow">Educação Infantil · Santo Anjo · matriz anual</p><h1>Level 4</h1><p class="lead">Matriz mensal exclusiva do Santo Anjo, organizada a partir de <em>Cambridge Global English Starters</em>: Learner’s Books A, B e C.</p><div class="hero-actions"><a class="btn primary" href="#matriz">Ver matriz mensal</a><a class="btn ghost" href="#uso">Como usar</a></div></section><aside class="matrix-card"><h2>Transição para Primary</h2><ul><li>Ampliação de compreensão e produção oral em contextos familiares.</li><li>Um livro por trimestre, com uma unidade por mês letivo.</li><li>Rotina de escuta, história, jogo, arte, movimento e registro.</li><li>Evidências breves para orientar o planejamento e a comunicação com as famílias.</li></ul></aside></div>
+    <nav class="topbar" aria-label="Navegação da matriz Level 4">
+<a class="brand" href="../index.html">
+<span>Portal dos Professores Bilíngues</span>
+</a>
+<div class="nav-links">
+<a href="#matriz">Matriz</a>
+<a href="#progressao">Progressão</a>
+<a href="#report-cards">Report Cards</a>
+<a href="#avaliacao">Evidências</a>
+<a href="#materiais">Materiais</a>
+</div>
+</nav>
+    <div class="matrix-hero-grid">
+<section>
+<p class="eyebrow">Educação Infantil · Santo Anjo · matriz anual</p>
+<h1>Level 4</h1>
+<p class="lead">Matriz mensal exclusiva do Santo Anjo, organizada a partir de <em>Cambridge Global English Starters</em>: Learner’s Books A, B e C.</p>
+<div class="hero-actions">
+<a class="btn primary" href="#matriz">Ver matriz mensal</a>
+<a class="btn ghost" href="#uso">Como usar</a>
+</div>
+</section>
+<aside class="matrix-card">
+<h2>Transição para Primary</h2>
+<ul>
+<li>Ampliação de compreensão e produção oral em contextos familiares.</li>
+<li>Um livro por trimestre, com uma unidade por mês letivo.</li>
+<li>Rotina de escuta, história, jogo, arte, movimento e registro.</li>
+<li>Evidências breves para orientar o planejamento e a comunicação com as famílias.</li>
+</ul>
+</aside>
+</div>
   </header>
   <main>
-    <div class="breadcrumb"><a href="../index.html#segmentos">Portal dos Professores</a> · Educação Infantil · Santo Anjo · Level 4 · Matriz anual</div>
-    <nav class="anchor-months" aria-label="Meses da matriz"><a href="#mes-1">Fevereiro</a><a href="#mes-2">Março</a><a href="#mes-3">Abril</a><a href="#mes-4">Maio</a><a href="#mes-5">Junho</a><a href="#mes-6">Agosto</a><a href="#mes-7">Setembro</a><a href="#mes-8">Outubro</a><a href="#mes-9">Novembro</a></nav>
-    <section class="section teacher-note" id="uso"><div class="section-heading compact"><p class="eyebrow">Como usar esta matriz</p><h2>Do livro para a experiência de aprendizagem</h2></div><p>Esta página organiza a progressão anual do Level 4 do Santo Anjo. O livro e o Teacher’s Resource orientam a sequência de cada unidade; a matriz traduz o escopo em foco mensal, linguagem funcional, experiências de sala e evidências observáveis.</p><p>Planeje com uma unidade por mês, mantendo espaço para retomadas, adaptações e celebração das produções das crianças. Não é uma lista de exercícios: é uma referência para ensinar inglês por meio de interação, brincadeira, história, investigação e criação.</p></section>
-    <section class="section standard-box"><div class="section-heading compact"><p class="eyebrow">Fonte e escopo</p><h2>O que esta página contempla</h2></div><div class="evidence-grid"><article><h3>Term 1 · Book A</h3><p>Units 1–3: <em>Come into my class!</em>, <em>Look at me</em> e <em>Feelings</em>.</p></article><article><h3>Term 2 · Book B</h3><p>Units 4–6: <em>Play time!</em>, <em>Let’s eat!</em> e <em>Let’s listen!</em>.</p></article><article><h3>Term 3 · Book C</h3><p>Units 7–9: <em>Home!</em>, <em>What do clothes tell us?</em> e <em>My garden</em>.</p></article></div></section>
-    <section class="section progression-box" id="progressao"><div class="section-heading compact"><p class="eyebrow">Progressão por trimestre</p><h2>Três livros, nove unidades, uma trajetória contínua</h2></div><div class="term-grid"><article class="term-card"><h3>Term 1 · Eu, a sala e as emoções</h3><p>Construir segurança na rotina do novo nível, nomear pessoas, objetos e características próximas e usar inglês para reconhecer e comunicar sentimentos.</p></article><article class="term-card"><h3>Term 2 · Escolhas, alimentação e sons</h3><p>Explorar brincadeiras, hábitos de alimentação e experiências musicais, ampliando linguagem para escolha, gosto, ação e escuta atenta.</p></article><article class="term-card"><h3>Term 3 · Casa, identidade e natureza</h3><p>Relacionar ambientes, roupas e jardim ao cotidiano da criança, fortalecendo descrição, comparação, cuidado e comunicação de descobertas.</p></article></div></section>
-    <section class="section assessment-box" id="report-cards"><div class="section-heading compact"><p class="eyebrow">Avaliação trimestral</p><h2>Geradores de Report Card · Level 4</h2><p>Use o gerador correspondente ao trimestre para registrar evidências ligadas exclusivamente à matriz do Santo Anjo.</p></div><div class="term-grid"><a class="term-card" href="report-card-santo-anjo-level4-term1.html"><h3>Term 1 · Book A</h3><p>Units 1–3: sala, autoimagem e sentimentos.</p></a><a class="term-card" href="report-card-santo-anjo-level4-term2.html"><h3>Term 2 · Book B</h3><p>Units 4–6: brincadeira, alimentação e escuta.</p></a><a class="term-card" href="report-card-santo-anjo-level4-term3.html"><h3>Term 3 · Book C</h3><p>Units 7–9: casa, roupas e jardim.</p></a></div></section>
-    <div class="matrix-subheading" id="matriz"><span class="school-tag">Santo Anjo · exclusivo</span><h2>Matriz anual mês a mês</h2><p>Uma unidade de <em>Cambridge Global English Starters</em> por mês letivo. A seleção de páginas, histórias e atividades deve seguir o livro e o Teacher’s Resource adotados pela escola.</p></div>
-    <p class="note"><strong>Combinado pedagógico:</strong> priorize compreensão, participação e intenção comunicativa. A correção acontece por modelagem e reformulação; não se espera repetição perfeita nem exposição individual obrigatória.</p>
-    <section class="section month-list" aria-label="Matriz mensal Level 4 Santo Anjo">
-      <article class="month-card" id="mes-1"><button class="month-top" type="button" aria-expanded="true"><span>Fevereiro</span><strong>Unit 1 · Come into my class!</strong><i class="month-toggle">Fechar</i></button><div class="month-body"><p class="month-focus">Acolher a turma no novo nível e consolidar linguagem de sala, materiais e combinados de participação.</p><div class="matrix-grid"><div><h4>Objetivo do mês</h4><p>Reconhecer e usar vocabulário de sala em rotinas reais: pedir, localizar, guardar e cuidar dos materiais.</p></div><div><h4>Linguagem em ação</h4><p><em>What’s this?</em> · <em>It’s a…</em> · <em>Here you are.</em> · <em>Open/close your book.</em> · <em>Can I have…?</em></p></div><div><h4>Experiências</h4><p>Caça aos objetos da sala, sacola surpresa, organização colaborativa do espaço e story time com personagens do livro.</p></div><div><h4>Evidência</h4><p>Foto de uma rotina com legenda oral coletiva ou registro de cada criança usando/apontando um item com apoio visual.</p></div></div></div></article>
-      <article class="month-card" id="mes-2"><button class="month-top" type="button" aria-expanded="false"><span>Março</span><strong>Unit 2 · Look at me</strong><i class="month-toggle">Abrir</i></button><div class="month-body" hidden><p class="month-focus">Ampliar a linguagem para olhar, descrever e valorizar características pessoais de forma respeitosa.</p><div class="matrix-grid"><div><h4>Objetivo do mês</h4><p>Nomear partes do corpo e traços visíveis em contextos de autocuidado, movimento e autoimagem positiva.</p></div><div><h4>Linguagem em ação</h4><p><em>Look at me.</em> · <em>I’ve got…</em> · <em>My eyes/hair are…</em> · <em>Touch your…</em></p></div><div><h4>Experiências</h4><p>Espelho e desenho de autorretrato, música com movimento, jogo de descrição e leitura dialogada da unidade.</p></div><div><h4>Evidência</h4><p>Autorretrato com uma frase oral modelada ou gravação breve de descrição em dupla.</p></div></div></div></article>
-      <article class="month-card" id="mes-3"><button class="month-top" type="button" aria-expanded="false"><span>Abril</span><strong>Unit 3 · Feelings</strong><i class="month-toggle">Abrir</i></button><div class="month-body" hidden><p class="month-focus">Reconhecer emoções, comunicar como se sente e praticar escuta e cuidado com o outro.</p><div class="matrix-grid"><div><h4>Objetivo do mês</h4><p>Associar situações, expressões faciais e ações a sentimentos, usando o inglês como linguagem de convivência.</p></div><div><h4>Linguagem em ação</h4><p><em>How are you?</em> · <em>I’m happy/sad/angry/scared.</em> · <em>Are you OK?</em> · <em>Let’s help.</em></p></div><div><h4>Experiências</h4><p>Cartões de emoção, roda de check-in, dramatização de histórias, mural de estratégias de bem-estar e canções.</p></div><div><h4>Evidência</h4><p>Participação no check-in com cartão/gesto e frase; registro coletivo de uma forma de cuidar de um colega.</p></div></div></div></article>
-      <article class="month-card" id="mes-4"><button class="month-top" type="button" aria-expanded="false"><span>Maio</span><strong>Unit 4 · Play time!</strong><i class="month-toggle">Abrir</i></button><div class="month-body" hidden><p class="month-focus">Usar linguagem para brincar, convidar, escolher e agir em jogos e experiências de movimento.</p><div class="matrix-grid"><div><h4>Objetivo do mês</h4><p>Compreender e usar vocabulário de brinquedos, cores e ações de brincadeira em interações colaborativas.</p></div><div><h4>Linguagem em ação</h4><p><em>Can you make…?</em> · <em>Yes, I can.</em> · <em>Let’s play.</em> · <em>I can jump/climb/play.</em></p></div><div><h4>Experiências</h4><p>Estações de brincadeira, construção de um jogo simples, comando e resposta com movimento, música e story time.</p></div><div><h4>Evidência</h4><p>Participação em dupla usando convite ou resposta; produto do jogo com explicação oral curta.</p></div></div></div></article>
-      <article class="month-card" id="mes-5"><button class="month-top" type="button" aria-expanded="false"><span>Junho</span><strong>Unit 5 · Let’s eat!</strong><i class="month-toggle">Abrir</i></button><div class="month-body" hidden><p class="month-focus">Explorar alimentos, gostos e escolhas cotidianas com curiosidade, segurança e respeito às diferenças.</p><div class="matrix-grid"><div><h4>Objetivo do mês</h4><p>Nomear alimentos e comunicar preferências, reconhecendo que escolhas alimentares fazem parte do cuidado consigo.</p></div><div><h4>Linguagem em ação</h4><p><em>I like/don’t like…</em> · <em>He/She likes…</em> · <em>Are you hungry?</em> · <em>Yummy!</em></p></div><div><h4>Experiências</h4><p>Mercado simbólico, classificação por cor, tasting apenas quando autorizado, gráfico de preferências e poster puzzle.</p></div><div><h4>Evidência</h4><p>Escolha registrada no gráfico e fala apoiada por imagem sobre uma preferência ou descoberta.</p></div></div></div></article>
-      <article class="month-card" id="mes-6"><button class="month-top" type="button" aria-expanded="false"><span>Agosto</span><strong>Unit 6 · Let’s listen!</strong><i class="month-toggle">Abrir</i></button><div class="month-body" hidden><p class="month-focus">Desenvolver escuta atenta, reconhecimento de sons e resposta comunicativa por meio da música.</p><div class="matrix-grid"><div><h4>Objetivo do mês</h4><p>Distinguir qualidades de som e associar sons, instrumentos e emoções em experiências práticas.</p></div><div><h4>Linguagem em ação</h4><p><em>What can you hear?</em> · <em>I can hear…</em> · <em>It’s loud/quiet/fast/slow.</em> · <em>Sorry?</em></p></div><div><h4>Experiências</h4><p>Caça aos sons, escuta de instrumentos, paisagem sonora, produção de instrumento simples e jogo de ritmo.</p></div><div><h4>Evidência</h4><p>Registro de som por desenho/símbolo e explicação oral de um instrumento ou contraste sonoro.</p></div></div></div></article>
-      <article class="month-card" id="mes-7"><button class="month-top" type="button" aria-expanded="false"><span>Setembro</span><strong>Unit 7 · Home!</strong><i class="month-toggle">Abrir</i></button><div class="month-body" hidden><p class="month-focus">Relacionar a linguagem de casa aos ambientes, às pessoas e às rotinas que fazem parte da vida da criança.</p><div class="matrix-grid"><div><h4>Objetivo do mês</h4><p>Reconhecer espaços e elementos da casa e comunicar pertencimento, rotina e cuidado com o ambiente.</p></div><div><h4>Linguagem em ação</h4><p><em>This is my home.</em> · <em>Where is…?</em> · <em>It’s in the…</em> · <em>At home, I…</em></p></div><div><h4>Experiências</h4><p>Maquete ou planta simples, jogo de localização, show and tell opcional e organização de uma casa de personagens.</p></div><div><h4>Evidência</h4><p>Legenda oral de um espaço construído/desenhado e uso de preposição com apoio visual.</p></div></div></div></article>
-      <article class="month-card" id="mes-8"><button class="month-top" type="button" aria-expanded="false"><span>Outubro</span><strong>Unit 8 · What do clothes tell us?</strong><i class="month-toggle">Abrir</i></button><div class="month-body" hidden><p class="month-focus">Explorar roupas, escolhas e contextos de uso, valorizando expressão pessoal e respeito à diversidade.</p><div class="matrix-grid"><div><h4>Objetivo do mês</h4><p>Nomear peças e características de roupas e relacioná-las a clima, função e escolhas pessoais.</p></div><div><h4>Linguagem em ação</h4><p><em>What are you wearing?</em> · <em>I’m wearing…</em> · <em>It’s big/small.</em> · <em>For hot/cold weather.</em></p></div><div><h4>Experiências</h4><p>Varal de classificação, dress-up com escolhas seguras, investigação de tecidos e criação de personagem.</p></div><div><h4>Evidência</h4><p>Descrição oral de uma escolha de roupa ou personagem, com imagem, gesto ou sentence frame.</p></div></div></div></article>
-      <article class="month-card" id="mes-9"><button class="month-top" type="button" aria-expanded="false"><span>Novembro</span><strong>Unit 9 · My garden</strong><i class="month-toggle">Abrir</i></button><div class="month-body" hidden><p class="month-focus">Investigar jardim, plantas e pequenos seres vivos, retomando curiosidade, cuidado e comunicação de descobertas.</p><div class="matrix-grid"><div><h4>Objetivo do mês</h4><p>Observar, nomear e comparar elementos do jardim, expressando necessidades de cuidado e aprendizagens do ano.</p></div><div><h4>Linguagem em ação</h4><p><em>I can see…</em> · <em>It’s growing.</em> · <em>It needs water/sun.</em> · <em>My favourite…</em></p></div><div><h4>Experiências</h4><p>Garden hunt, plantio ou observação, diário visual, classificação de elementos naturais e pequena galeria final.</p></div><div><h4>Evidência</h4><p>Registro before/after, explicação de cuidado e seleção de uma evidência para o portfólio de transição.</p></div></div></div></article>
+    <div class="breadcrumb">
+<a href="../index.html#segmentos">Portal dos Professores</a> · Educação Infantil · Santo Anjo · Level 4 · Matriz anual</div>
+    <nav class="anchor-months" aria-label="Meses da matriz">
+<a href="#mes-1">Fevereiro</a>
+<a href="#mes-2">Março</a>
+<a href="#mes-3">Abril</a>
+<a href="#mes-4">Maio</a>
+<a href="#mes-5">Junho</a>
+<a href="#mes-6">Agosto</a>
+<a href="#mes-7">Setembro</a>
+<a href="#mes-8">Outubro</a>
+<a href="#mes-9">Novembro</a>
+</nav>
+    <section class="section teacher-note" id="uso">
+<div class="section-heading compact">
+<p class="eyebrow">Como usar esta matriz</p>
+<h2>Do livro para a experiência de aprendizagem</h2>
+</div>
+<p>Esta página organiza a progressão anual do Level 4 do Santo Anjo. O livro e o Teacher’s Resource orientam a sequência de cada unidade; a matriz traduz o escopo em foco mensal, linguagem funcional, experiências de sala e evidências observáveis.</p>
+<p>Planeje com uma unidade por mês, mantendo espaço para retomadas, adaptações e celebração das produções das crianças. Não é uma lista de exercícios: é uma referência para ensinar inglês por meio de interação, brincadeira, história, investigação e criação.</p>
+</section>
+    <section class="section standard-box">
+<div class="section-heading compact">
+<p class="eyebrow">Fonte e escopo</p>
+<h2>O que esta página contempla</h2>
+</div>
+<div class="evidence-grid">
+<article>
+<h3>Term 1 · Book A</h3>
+<p>Units 1–3: <em>Come into my class!</em>, <em>Look at me</em> e <em>Feelings</em>.</p>
+</article>
+<article>
+<h3>Term 2 · Book B</h3>
+<p>Units 4–6: <em>Play time!</em>, <em>Let’s eat!</em> e <em>Let’s listen!</em>.</p>
+</article>
+<article>
+<h3>Term 3 · Book C</h3>
+<p>Units 7–9: <em>Home!</em>, <em>What do clothes tell us?</em> e <em>My garden</em>.</p>
+</article>
+</div>
+</section>
+    <section class="section deeper-box" id="deeper-learning">
+      <div class="section-heading compact"><p class="eyebrow">Deeper Learning no Level 4</p><h2>Investigar, explicar e compartilhar descobertas</h2><p>No Level 4, as crianças avançam da participação guiada para escolhas, descrições e explicações curtas. O professor sustenta a linguagem com imagens, objetos, gestos e sentence frames, sem antecipar demandas formais de Primary.</p></div>
+      <div class="deeper-grid"><article><h3>Conectar</h3><p>Relacionar a unidade a contextos reais: a sala, o corpo, a brincadeira, a casa, roupas e o jardim.</p></article><article><h3>Explicar</h3><p>Usar palavras, frases-modelo, desenho ou gesto para comunicar uma escolha, sentimento, necessidade ou descoberta.</p></article><article><h3>Compartilhar</h3><p>Apresentar uma produção breve, ouvir o colega e guardar evidências no portfólio para tornar a aprendizagem visível.</p></article></div>
     </section>
-    <section class="section standard-box"><div class="section-heading compact"><p class="eyebrow">Rotina pedagógica</p><h2>Estrutura de uma aula</h2></div><div class="routine-strip"><article><h3>Welcome</h3><p>Canção, rotina e retomada visual.</p></article><article><h3>Explore</h3><p>Imagem, objeto, história ou pergunta disparadora.</p></article><article><h3>Play</h3><p>Jogo, movimento, investigação ou prática guiada.</p></article><article><h3>Create</h3><p>Produção individual, em dupla ou em grupo.</p></article><article><h3>Share</h3><p>Fala, gesto, galeria ou registro da descoberta.</p></article></div></section>
-    <section class="section assessment-box" id="avaliacao"><div class="section-heading compact"><p class="eyebrow">Avaliação formativa</p><h2>O que observar e registrar</h2></div><div class="evidence-grid"><article><h3>Compreensão</h3><p>Responde a instruções e perguntas com gesto, ação, imagem ou fala; relaciona linguagem ao contexto.</p></article><article><h3>Comunicação</h3><p>Usa palavras, chunks e frases-modelo para participar; arrisca-se a falar sem exigir precisão absoluta.</p></article><article><h3>Aprendizagem</h3><p>Colabora, cria, revisita vocabulário e comunica uma descoberta ou escolha com apoio adequado.</p></article></div></section>
-    <section class="section materials-box" id="materiais"><div class="section-heading compact"><p class="eyebrow">Materiais essenciais</p><h2>O que preparar ao longo do ano</h2></div><ul class="material-list"><li><strong>Cambridge Global English Starters:</strong> Learner’s Book A, B e C, conforme o trimestre.</li><li>Teacher’s Resource correspondente, áudio e recursos visuais da unidade.</li><li>Flashcards, objetos reais, materiais de arte, cartões de linguagem e recursos de movimento/música.</li><li>Portfólio individual ou coletivo para guardar evidências selecionadas ao longo do ano.</li></ul></section>
+    <section class="section practice-box" id="deeper-learning-pratica">
+      <div class="section-heading compact"><p class="eyebrow">Aplicação em sala</p><h2>Como conduzir a experiência</h2><p>Em cada unidade, mantenha a sequência Kindergarten: Welcome, Explore, Play, Create e Share. A diferenciação acontece pela mediação, pelo apoio visual e pela complexidade da comunicação esperada.</p></div>
+      <div class="deeper-grid"><article><h3>Modelo do professor</h3><p>Apresente o objeto, imagem ou situação; diga a frase completa e associe fala, gesto e visual.</p></article><article><h3>Prática guiada</h3><p>Organize turnos curtos em dupla ou pequenos grupos: apontar, escolher, classificar, dramatizar, desenhar ou registrar.</p></article><article><h3>Checagem e evidência</h3><p>Registre uma fala, escolha, foto, desenho comentado ou participação observável — sem transformar a avaliação em prova.</p></article></div>
+    </section>
+    <section class="section strategy-box" id="rotina">
+      <div class="section-heading compact"><p class="eyebrow">Rotina base</p><h2>Arquitetura de aula</h2></div>
+      <div class="deeper-grid"><article><h3>Welcome + Explore</h3><p>Canção, rotina, retomada e uma imagem, objeto, história ou pergunta que desperte curiosidade.</p></article><article><h3>Play + Create</h3><p>Jogo, movimento ou investigação seguida de uma produção individual, em dupla ou coletiva.</p></article><article><h3>Share</h3><p>Uma frase-modelo, gesto, galeria ou explicação curta para comunicar o que a criança fez ou descobriu.</p></article></div>
+    </section>
+    <section class="section strategy-box" id="rubrica">
+      <div class="section-heading compact"><p class="eyebrow">Rubrica pedagógica Level 4</p><h2>Critérios de observação</h2><p>Observe progressivamente compreensão, comunicação funcional, participação, autonomia, colaboração e registro de aprendizagens.</p></div>
+      <div class="rubric-grid"><article><h3>Compreensão</h3><p>Responde a perguntas e instruções com gesto, ação, imagem, escolha ou fala.</p></article><article><h3>Comunicação</h3><p>Usa vocabulário, chunks e frases-modelo para participar em contextos significativos.</p></article><article><h3>Autonomia e colaboração</h3><p>Cuida de materiais, participa de turnos, escuta o outro e compartilha uma produção com apoio adequado.</p></article></div>
+    </section>
+    <section class="section progression-box" id="progressao">
+<div class="section-heading compact">
+<p class="eyebrow">Progressão por trimestre</p>
+<h2>Três livros, nove unidades, uma trajetória contínua</h2>
+</div>
+<div class="term-grid">
+<article class="term-card">
+<h3>Term 1 · Eu, a sala e as emoções</h3>
+<p>Construir segurança na rotina do novo nível, nomear pessoas, objetos e características próximas e usar inglês para reconhecer e comunicar sentimentos.</p>
+</article>
+<article class="term-card">
+<h3>Term 2 · Escolhas, alimentação e sons</h3>
+<p>Explorar brincadeiras, hábitos de alimentação e experiências musicais, ampliando linguagem para escolha, gosto, ação e escuta atenta.</p>
+</article>
+<article class="term-card">
+<h3>Term 3 · Casa, identidade e natureza</h3>
+<p>Relacionar ambientes, roupas e jardim ao cotidiano da criança, fortalecendo descrição, comparação, cuidado e comunicação de descobertas.</p>
+</article>
+</div>
+</section>
+    <section class="section" id="projetos">
+      <div class="section-heading"><p class="eyebrow">Projetos trimestrais</p><h2>Investigações que tornam a aprendizagem visível</h2><p>Os projetos integram linguagem, exploração, criação, colaboração e comunicação com as famílias. Eles aprofundam o percurso do livro sem substituí-lo.</p></div>
+    </section>
+    <section class="section pbl-project"><div class="pbl-hero"><p class="eyebrow">Projeto trimestral · Term 1 · Book A</p><h2>Our Classroom and Feelings Gallery</h2><p>As crianças investigam a sala, a própria imagem e as emoções para criar uma galeria de combinados, retratos e estratégias de cuidado.</p><div class="pbl-meta"><div><strong>Pergunta norteadora</strong><span>How can we make our classroom a kind place?</span></div><div><strong>Culminância para famílias</strong><span>Gallery walk com retratos, feelings cards e explicações orais apoiadas.</span></div></div></div></section>
+    <section class="section pbl-project"><div class="pbl-hero"><p class="eyebrow">Projeto trimestral · Term 2 · Book B</p><h2>Play, Food and Sound Lab</h2><p>As crianças investigam brincadeiras, escolhas alimentares e sons para criar uma estação interativa de jogos, preferências e escuta.</p><div class="pbl-meta"><div><strong>Pergunta norteadora</strong><span>What can we play, taste and hear together?</span></div><div><strong>Culminância para famílias</strong><span>Sound and play lab com jogos, gráfico de preferências e paisagens sonoras.</span></div></div></div></section>
+    <section class="section pbl-project"><div class="pbl-hero"><p class="eyebrow">Projeto trimestral · Term 3 · Book C</p><h2>My Home, My Clothes, My Garden Expo</h2><p>As crianças relacionam espaços, escolhas, identidade e natureza em uma pequena exposição de maquetes, personagens e observações do jardim.</p><div class="pbl-meta"><div><strong>Pergunta norteadora</strong><span>How can we care for our home, ourselves and our garden?</span></div><div><strong>Culminância para famílias</strong><span>Expo final com produções, registros de observação e apresentação de descobertas.</span></div></div></div></section>
+    <section class="section strategy-box" id="estrategias"><div class="section-heading compact"><p class="eyebrow">Estratégias pedagógicas</p><h2>Apoio prático ao professor</h2></div><div class="strategy-grid"><article><h3>Suportes visuais</h3><p>Antecipe vocabulário com imagens, objetos reais, cards e gestos antes de pedir fala.</p></article><article><h3>Sentence frames</h3><p>Modele frases completas e ofereça escolhas: <em>I can see…</em>, <em>I like…</em>, <em>I feel…</em>.</p></article><article><h3>Portfólio</h3><p>Selecione evidências breves por trimestre e retome-as com a criança para valorizar o percurso.</p></article></div></section>
+    <section class="section assessment-box" id="report-cards">
+<div class="section-heading compact">
+<p class="eyebrow">Avaliação trimestral</p>
+<h2>Geradores de Report Card · Level 4</h2>
+<p>Use o gerador correspondente ao trimestre para registrar evidências ligadas exclusivamente à matriz do Santo Anjo.</p>
+</div>
+<div class="term-grid">
+<a class="term-card" href="report-card-santo-anjo-level4-term1.html">
+<h3>Term 1 · Book A</h3>
+<p>Units 1–3: sala, autoimagem e sentimentos.</p>
+</a>
+<a class="term-card" href="report-card-santo-anjo-level4-term2.html">
+<h3>Term 2 · Book B</h3>
+<p>Units 4–6: brincadeira, alimentação e escuta.</p>
+</a>
+<a class="term-card" href="report-card-santo-anjo-level4-term3.html">
+<h3>Term 3 · Book C</h3>
+<p>Units 7–9: casa, roupas e jardim.</p>
+</a>
+</div>
+</section>
+    <div class="matrix-subheading" id="matriz">
+<span class="school-tag">Santo Anjo · exclusivo</span>
+<h2>Matriz anual mês a mês</h2>
+<p>Uma unidade de <em>Cambridge Global English Starters</em> por mês letivo. A seleção de páginas, histórias e atividades deve seguir o livro e o Teacher’s Resource adotados pela escola.</p>
+</div>
+    <p class="note">
+<strong>Combinado pedagógico:</strong> priorize compreensão, participação e intenção comunicativa. A correção acontece por modelagem e reformulação; não se espera repetição perfeita nem exposição individual obrigatória.</p>
+    <section class="section month-list" aria-label="Matriz mensal Level 4 Santo Anjo">
+      <article class="month-card" id="mes-1">
+<button class="month-top" type="button" aria-expanded="true">
+<span>Fevereiro</span>
+<strong>Unit 1 · Come into my class!</strong>
+<i class="month-toggle">Fechar</i>
+</button>
+<div class="month-body">
+<p class="month-focus">Acolher a turma no novo nível e consolidar linguagem de sala, materiais e combinados de participação.</p>
+<div class="matrix-grid">
+<div>
+<h4>Objetivo do mês</h4>
+<p>Reconhecer e usar vocabulário de sala em rotinas reais: pedir, localizar, guardar e cuidar dos materiais.</p>
+</div>
+<div>
+<h4>Linguagem em ação</h4>
+<p>
+<em>What’s this?</em> · <em>It’s a…</em> · <em>Here you are.</em> · <em>Open/close your book.</em> · <em>Can I have…?</em>
+</p>
+</div>
+<div>
+<h4>Experiências</h4>
+<p>Caça aos objetos da sala, sacola surpresa, organização colaborativa do espaço e story time com personagens do livro.</p>
+</div>
+<div>
+<h4>Evidência</h4>
+<p>Foto de uma rotina com legenda oral coletiva ou registro de cada criança usando/apontando um item com apoio visual.</p>
+</div>
+</div>
+</div>
+</article>
+      <article class="month-card" id="mes-2">
+<button class="month-top" type="button" aria-expanded="false">
+<span>Março</span>
+<strong>Unit 2 · Look at me</strong>
+<i class="month-toggle">Abrir</i>
+</button>
+<div class="month-body" hidden>
+<p class="month-focus">Ampliar a linguagem para olhar, descrever e valorizar características pessoais de forma respeitosa.</p>
+<div class="matrix-grid">
+<div>
+<h4>Objetivo do mês</h4>
+<p>Nomear partes do corpo e traços visíveis em contextos de autocuidado, movimento e autoimagem positiva.</p>
+</div>
+<div>
+<h4>Linguagem em ação</h4>
+<p>
+<em>Look at me.</em> · <em>I’ve got…</em> · <em>My eyes/hair are…</em> · <em>Touch your…</em>
+</p>
+</div>
+<div>
+<h4>Experiências</h4>
+<p>Espelho e desenho de autorretrato, música com movimento, jogo de descrição e leitura dialogada da unidade.</p>
+</div>
+<div>
+<h4>Evidência</h4>
+<p>Autorretrato com uma frase oral modelada ou gravação breve de descrição em dupla.</p>
+</div>
+</div>
+</div>
+</article>
+      <article class="month-card" id="mes-3">
+<button class="month-top" type="button" aria-expanded="false">
+<span>Abril</span>
+<strong>Unit 3 · Feelings</strong>
+<i class="month-toggle">Abrir</i>
+</button>
+<div class="month-body" hidden>
+<p class="month-focus">Reconhecer emoções, comunicar como se sente e praticar escuta e cuidado com o outro.</p>
+<div class="matrix-grid">
+<div>
+<h4>Objetivo do mês</h4>
+<p>Associar situações, expressões faciais e ações a sentimentos, usando o inglês como linguagem de convivência.</p>
+</div>
+<div>
+<h4>Linguagem em ação</h4>
+<p>
+<em>How are you?</em> · <em>I’m happy/sad/angry/scared.</em> · <em>Are you OK?</em> · <em>Let’s help.</em>
+</p>
+</div>
+<div>
+<h4>Experiências</h4>
+<p>Cartões de emoção, roda de check-in, dramatização de histórias, mural de estratégias de bem-estar e canções.</p>
+</div>
+<div>
+<h4>Evidência</h4>
+<p>Participação no check-in com cartão/gesto e frase; registro coletivo de uma forma de cuidar de um colega.</p>
+</div>
+</div>
+</div>
+</article>
+      <article class="month-card" id="mes-4">
+<button class="month-top" type="button" aria-expanded="false">
+<span>Maio</span>
+<strong>Unit 4 · Play time!</strong>
+<i class="month-toggle">Abrir</i>
+</button>
+<div class="month-body" hidden>
+<p class="month-focus">Usar linguagem para brincar, convidar, escolher e agir em jogos e experiências de movimento.</p>
+<div class="matrix-grid">
+<div>
+<h4>Objetivo do mês</h4>
+<p>Compreender e usar vocabulário de brinquedos, cores e ações de brincadeira em interações colaborativas.</p>
+</div>
+<div>
+<h4>Linguagem em ação</h4>
+<p>
+<em>Can you make…?</em> · <em>Yes, I can.</em> · <em>Let’s play.</em> · <em>I can jump/climb/play.</em>
+</p>
+</div>
+<div>
+<h4>Experiências</h4>
+<p>Estações de brincadeira, construção de um jogo simples, comando e resposta com movimento, música e story time.</p>
+</div>
+<div>
+<h4>Evidência</h4>
+<p>Participação em dupla usando convite ou resposta; produto do jogo com explicação oral curta.</p>
+</div>
+</div>
+</div>
+</article>
+      <article class="month-card" id="mes-5">
+<button class="month-top" type="button" aria-expanded="false">
+<span>Junho</span>
+<strong>Unit 5 · Let’s eat!</strong>
+<i class="month-toggle">Abrir</i>
+</button>
+<div class="month-body" hidden>
+<p class="month-focus">Explorar alimentos, gostos e escolhas cotidianas com curiosidade, segurança e respeito às diferenças.</p>
+<div class="matrix-grid">
+<div>
+<h4>Objetivo do mês</h4>
+<p>Nomear alimentos e comunicar preferências, reconhecendo que escolhas alimentares fazem parte do cuidado consigo.</p>
+</div>
+<div>
+<h4>Linguagem em ação</h4>
+<p>
+<em>I like/don’t like…</em> · <em>He/She likes…</em> · <em>Are you hungry?</em> · <em>Yummy!</em>
+</p>
+</div>
+<div>
+<h4>Experiências</h4>
+<p>Mercado simbólico, classificação por cor, tasting apenas quando autorizado, gráfico de preferências e poster puzzle.</p>
+</div>
+<div>
+<h4>Evidência</h4>
+<p>Escolha registrada no gráfico e fala apoiada por imagem sobre uma preferência ou descoberta.</p>
+</div>
+</div>
+</div>
+</article>
+      <article class="month-card" id="mes-6">
+<button class="month-top" type="button" aria-expanded="false">
+<span>Agosto</span>
+<strong>Unit 6 · Let’s listen!</strong>
+<i class="month-toggle">Abrir</i>
+</button>
+<div class="month-body" hidden>
+<p class="month-focus">Desenvolver escuta atenta, reconhecimento de sons e resposta comunicativa por meio da música.</p>
+<div class="matrix-grid">
+<div>
+<h4>Objetivo do mês</h4>
+<p>Distinguir qualidades de som e associar sons, instrumentos e emoções em experiências práticas.</p>
+</div>
+<div>
+<h4>Linguagem em ação</h4>
+<p>
+<em>What can you hear?</em> · <em>I can hear…</em> · <em>It’s loud/quiet/fast/slow.</em> · <em>Sorry?</em>
+</p>
+</div>
+<div>
+<h4>Experiências</h4>
+<p>Caça aos sons, escuta de instrumentos, paisagem sonora, produção de instrumento simples e jogo de ritmo.</p>
+</div>
+<div>
+<h4>Evidência</h4>
+<p>Registro de som por desenho/símbolo e explicação oral de um instrumento ou contraste sonoro.</p>
+</div>
+</div>
+</div>
+</article>
+      <article class="month-card" id="mes-7">
+<button class="month-top" type="button" aria-expanded="false">
+<span>Setembro</span>
+<strong>Unit 7 · Home!</strong>
+<i class="month-toggle">Abrir</i>
+</button>
+<div class="month-body" hidden>
+<p class="month-focus">Relacionar a linguagem de casa aos ambientes, às pessoas e às rotinas que fazem parte da vida da criança.</p>
+<div class="matrix-grid">
+<div>
+<h4>Objetivo do mês</h4>
+<p>Reconhecer espaços e elementos da casa e comunicar pertencimento, rotina e cuidado com o ambiente.</p>
+</div>
+<div>
+<h4>Linguagem em ação</h4>
+<p>
+<em>This is my home.</em> · <em>Where is…?</em> · <em>It’s in the…</em> · <em>At home, I…</em>
+</p>
+</div>
+<div>
+<h4>Experiências</h4>
+<p>Maquete ou planta simples, jogo de localização, show and tell opcional e organização de uma casa de personagens.</p>
+</div>
+<div>
+<h4>Evidência</h4>
+<p>Legenda oral de um espaço construído/desenhado e uso de preposição com apoio visual.</p>
+</div>
+</div>
+</div>
+</article>
+      <article class="month-card" id="mes-8">
+<button class="month-top" type="button" aria-expanded="false">
+<span>Outubro</span>
+<strong>Unit 8 · What do clothes tell us?</strong>
+<i class="month-toggle">Abrir</i>
+</button>
+<div class="month-body" hidden>
+<p class="month-focus">Explorar roupas, escolhas e contextos de uso, valorizando expressão pessoal e respeito à diversidade.</p>
+<div class="matrix-grid">
+<div>
+<h4>Objetivo do mês</h4>
+<p>Nomear peças e características de roupas e relacioná-las a clima, função e escolhas pessoais.</p>
+</div>
+<div>
+<h4>Linguagem em ação</h4>
+<p>
+<em>What are you wearing?</em> · <em>I’m wearing…</em> · <em>It’s big/small.</em> · <em>For hot/cold weather.</em>
+</p>
+</div>
+<div>
+<h4>Experiências</h4>
+<p>Varal de classificação, dress-up com escolhas seguras, investigação de tecidos e criação de personagem.</p>
+</div>
+<div>
+<h4>Evidência</h4>
+<p>Descrição oral de uma escolha de roupa ou personagem, com imagem, gesto ou sentence frame.</p>
+</div>
+</div>
+</div>
+</article>
+      <article class="month-card" id="mes-9">
+<button class="month-top" type="button" aria-expanded="false">
+<span>Novembro</span>
+<strong>Unit 9 · My garden</strong>
+<i class="month-toggle">Abrir</i>
+</button>
+<div class="month-body" hidden>
+<p class="month-focus">Investigar jardim, plantas e pequenos seres vivos, retomando curiosidade, cuidado e comunicação de descobertas.</p>
+<div class="matrix-grid">
+<div>
+<h4>Objetivo do mês</h4>
+<p>Observar, nomear e comparar elementos do jardim, expressando necessidades de cuidado e aprendizagens do ano.</p>
+</div>
+<div>
+<h4>Linguagem em ação</h4>
+<p>
+<em>I can see…</em> · <em>It’s growing.</em> · <em>It needs water/sun.</em> · <em>My favourite…</em>
+</p>
+</div>
+<div>
+<h4>Experiências</h4>
+<p>Garden hunt, plantio ou observação, diário visual, classificação de elementos naturais e pequena galeria final.</p>
+</div>
+<div>
+<h4>Evidência</h4>
+<p>Registro before/after, explicação de cuidado e seleção de uma evidência para o portfólio de transição.</p>
+</div>
+</div>
+</div>
+</article>
+    </section>
+    <section class="section standard-box">
+<div class="section-heading compact">
+<p class="eyebrow">Rotina pedagógica</p>
+<h2>Estrutura de uma aula</h2>
+</div>
+<div class="routine-strip">
+<article>
+<h3>Welcome</h3>
+<p>Canção, rotina e retomada visual.</p>
+</article>
+<article>
+<h3>Explore</h3>
+<p>Imagem, objeto, história ou pergunta disparadora.</p>
+</article>
+<article>
+<h3>Play</h3>
+<p>Jogo, movimento, investigação ou prática guiada.</p>
+</article>
+<article>
+<h3>Create</h3>
+<p>Produção individual, em dupla ou em grupo.</p>
+</article>
+<article>
+<h3>Share</h3>
+<p>Fala, gesto, galeria ou registro da descoberta.</p>
+</article>
+</div>
+</section>
+    <section class="section assessment-box" id="avaliacao">
+<div class="section-heading compact">
+<p class="eyebrow">Avaliação formativa</p>
+<h2>O que observar e registrar</h2>
+</div>
+<div class="evidence-grid">
+<article>
+<h3>Compreensão</h3>
+<p>Responde a instruções e perguntas com gesto, ação, imagem ou fala; relaciona linguagem ao contexto.</p>
+</article>
+<article>
+<h3>Comunicação</h3>
+<p>Usa palavras, chunks e frases-modelo para participar; arrisca-se a falar sem exigir precisão absoluta.</p>
+</article>
+<article>
+<h3>Aprendizagem</h3>
+<p>Colabora, cria, revisita vocabulário e comunica uma descoberta ou escolha com apoio adequado.</p>
+</article>
+</div>
+</section>
+    <section class="section materials-box" id="materiais">
+<div class="section-heading compact">
+<p class="eyebrow">Materiais essenciais</p>
+<h2>O que preparar ao longo do ano</h2>
+</div>
+<ul class="material-list">
+<li>
+<strong>Cambridge Global English Starters:</strong> Learner’s Book A, B e C, conforme o trimestre.</li>
+<li>Teacher’s Resource correspondente, áudio e recursos visuais da unidade.</li>
+<li>Flashcards, objetos reais, materiais de arte, cartões de linguagem e recursos de movimento/música.</li>
+<li>Portfólio individual ou coletivo para guardar evidências selecionadas ao longo do ano.</li>
+</ul>
+</section>
   </main>
-  <footer class="footer"><strong>Portal dos Professores Bilíngues · GSP</strong><span>Kinder Level 4 · Santo Anjo · uso interno</span></footer>
+  <footer class="footer">
+<strong>Portal dos Professores Bilíngues · GSP</strong>
+<span>Kinder Level 4 · Santo Anjo · uso interno</span>
+</footer>
   <script>
     document.querySelectorAll('.month-top').forEach((button)=>{button.addEventListener('click',()=>{const body=button.nextElementSibling;const open=button.getAttribute('aria-expanded')==='true';button.setAttribute('aria-expanded',String(!open));body.hidden=open;button.querySelector('.month-toggle').textContent=open?'Abrir':'Fechar';});});
     document.querySelectorAll('.anchor-months a').forEach((link)=>link.addEventListener('click',()=>{const card=document.querySelector(link.getAttribute('href'));const button=card?.querySelector('.month-top');const body=button?.nextElementSibling;if(button&&body.hidden){button.setAttribute('aria-expanded','true');body.hidden=false;button.querySelector('.month-toggle').textContent='Fechar';}}));
