@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- portal-version: 20261021-level2-february-pilot -->
 
 <html lang="pt-BR">
 <head>
@@ -186,6 +187,11 @@
     .brand-report-card strong { display:block; color:var(--navy); font-size:18px; margin-bottom:8px; }
     .brand-report-card span { display:block; color:var(--muted); font-size:12px; }
     .brand-report-card.disabled { opacity:.66; cursor:not-allowed; background:#f8fafc; }
+    #gerador-relatorio-mensal .monthly-report-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:12px; margin:0 auto; max-width:980px; }
+    #gerador-relatorio-mensal .brand-report-card { min-height:108px; padding:15px 14px; justify-content:center; border-top:6px solid #0f7f55; }
+    #gerador-relatorio-mensal .brand-report-card strong { margin:0 0 3px; white-space:nowrap; }
+    #gerador-relatorio-mensal .brand-report-card span { font-size:13px; }
+    #gerador-relatorio-mensal .note-box h2 { color:var(--navy); font-size:clamp(24px,2.8vw,36px); letter-spacing:-.025em; line-height:1.08; white-space:nowrap; }
     .brand-report-card.active { border-top:6px solid var(--red); }
     .brand-report-card.active:hover { transform:translateY(-2px); box-shadow:0 16px 38px rgba(7,27,79,.11); }
     #gerador-report-card { position:relative; overflow:hidden; background:radial-gradient(circle at 88% 18%, rgba(255,255,255,.34), transparent 24%), linear-gradient(135deg,#0f7f55,#23a06f 48%,#74c947); border:0; box-shadow:0 24px 60px rgba(15,127,85,.28); }
@@ -199,7 +205,7 @@
     #gerador-report-card .brand-report-card.active { border-top:0; background:linear-gradient(180deg,#ffffff,#efffed); outline:3px solid rgba(255,255,255,.78); box-shadow:0 18px 38px rgba(15,127,85,.22); }
     #gerador-report-card .brand-report-card.active strong { color:#0f6f4d; }
     #gerador-report-card .brand-report-card.disabled { background:rgba(255,255,255,.72); }
-    @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.source-grid,.matrix-grid,.routine-strip,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.materials-grid,.brand-report-grid { grid-template-columns:1fr; } .brand-report-grid { max-width:520px; } .month-card.accordion-month .month-top,.month-top { grid-template-columns:1fr; } }
+    @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.source-grid,.matrix-grid,.routine-strip,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.materials-grid,.brand-report-grid,#gerador-relatorio-mensal .monthly-report-grid { grid-template-columns:1fr; } .brand-report-grid { max-width:520px; } #gerador-relatorio-mensal .note-box h2 { font-size:clamp(24px,7vw,30px); white-space:normal; } .month-card.accordion-month .month-top,.month-top { grid-template-columns:1fr; } }
     @media (max-width:640px) { .bimester-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     #avaliacao-t1 .assessment-columns { grid-template-columns:repeat(4,minmax(0,1fr)); }
     #avaliacao-t1 .assessment-columns article { padding:16px; }
@@ -238,7 +244,7 @@
 <p class="eyebrow">Educação Infantil · matriz anual</p>
 <h1>Level 2</h1>
 <p class="lead">Sistema pedagógico Level 2 para orientar entregas esperadas, progressão bimestral e trimestral, estratégias docentes, avaliação global GSP, evidências e base futura para relatórios individualizados.</p>
-<div class="hero-actions"><a class="btn primary" href="#matriz">Ver matriz mensal</a><a class="btn ghost" href="#uso">Como usar</a><a class="btn ghost" href="#gerador-report-card">Gerador de Report Card</a><a class="btn ghost" href="#materiais">Recursos e Materiais</a></div>
+<div class="hero-actions"><a class="btn primary" href="#matriz">Ver matriz mensal</a><a class="btn ghost" href="#uso">Como usar</a><a class="btn ghost" href="#gerador-relatorio-mensal">Relatórios mensais</a><a class="btn ghost" href="#gerador-report-card">Gerador de Report Card</a><a class="btn ghost" href="#materiais">Recursos e Materiais</a></div>
 </section>
 <aside class="matrix-card">
 <h2>4–5 anos</h2>
@@ -594,6 +600,20 @@
 </section>
 
 <section class="section assessment-orientation" id="avaliacao-t1"><div class="section-heading"><p class="eyebrow">Modelo bimestral / trimestral · Level 2</p><h2>Orientação avaliativa contínua</h2><p>A avaliação deve acompanhar a evolução da criança ao longo do ano, considerando o calendário da escola. O foco não é aplicar prova formal, mas observar evidências progressivas de participação, linguagem funcional, autonomia, investigação concreta, colaboração, portfólio e ampliação de repertório.</p></div><div class="report-grid"><article class="report-card"><h3>Autonomia e rotina</h3><p>Observar se a criança retoma a rotina bilíngue com mais segurança, segue combinados, organiza materiais com apoio, espera sua vez, pede ajuda e participa de transições e propostas com maior autonomia.</p></article><article class="report-card"><h3>Compreensão e sequência</h3><p>Observar compreensão de comandos, histórias, perguntas simples e sequências com apoio visual: first, next, stop/go, daily routine, classroom actions e project steps.</p></article><article class="report-card"><h3>Linguagem funcional</h3><p>Registrar tentativas de pedir, escolher, descrever, agradecer, convidar, explicar preferência e participar com frames como Can I...?, I like..., I don’t like..., It is..., My turn, Help, please e Thank you.</p></article><article class="report-card"><h3>Vocabulário visual e primeiros registros</h3><p>Observar relação entre imagem, objeto, gesto e palavra; uso de labels com apoio, matching, desenho, classificação e registros visuais sem transformar o processo em cópia mecânica.</p></article><article class="report-card"><h3>Colaboração e cuidado</h3><p>Observar turn-taking, escuta, cuidado com materiais, ajuda entre pares, participação em jogos, role-play, construção coletiva e respeito às escolhas ou produções dos colegas.</p></article><article class="report-card"><h3>Investigação, portfólio e comunicação</h3><p>Registrar comparação, previsão simples, observação de resultados, seleção de evidências do próprio percurso e apresentação apoiada de uma descoberta ou produção.</p></article></div></section>
+<section class="section assessment-box" id="gerador-relatorio-mensal">
+<div class="note-box">
+<h2>🌱 Relatório Mensal de Aprendizagem · Level 2</h2>
+<p>Um acompanhamento breve e individualizado do percurso de cada mês. O professor seleciona indicadores observados e o gerador organiza automaticamente um texto familiar ligado à matriz mensal.</p>
+<p class="report-calendar-title">Relatórios mensais de aprendizagem. Escolha a marca da sua escola e o mês para acessar o relatório correspondente.</p>
+<div class="school-report-group">
+<h4 class="school-report-title">Objetivo</h4><div class="monthly-report-grid"><a class="brand-report-card active" href="relatorio-mensal-level2.html?brand=Objetivo&amp;month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div>
+<h4 class="school-report-title">CCPA</h4><div class="monthly-report-grid"><a class="brand-report-card active" href="relatorio-mensal-level2.html?brand=CCPA&amp;month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div>
+<h4 class="school-report-title">CJA</h4><div class="monthly-report-grid"><a class="brand-report-card active" href="relatorio-mensal-level2.html?brand=CJA&amp;month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div>
+<h4 class="school-report-title">Marupiara</h4><div class="monthly-report-grid"><a class="brand-report-card active" href="relatorio-mensal-level2.html?brand=Marupiara&amp;month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div>
+<h4 class="school-report-title">Santo Anjo</h4><div class="monthly-report-grid"><a class="brand-report-card active" href="relatorio-mensal-level2.html?brand=Santo+Anjo&amp;month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div>
+</div>
+</div>
+</section>
 <section class="section assessment-box" id="gerador-report-card">
 <div class="note-box">
 <h2>📝 Report Card · Level 2</h2>
