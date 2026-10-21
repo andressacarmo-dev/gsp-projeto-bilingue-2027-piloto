@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- portal-version: 20261021-level3-february-pilot -->
+<!-- portal-version: 20261021-level3-monthly-series -->
 
 <html lang="pt-BR">
 <head>
@@ -616,11 +616,11 @@
 <p>Um acompanhamento breve e individualizado do percurso de cada mês. O professor seleciona indicadores observados e o gerador organiza automaticamente um texto familiar ligado à matriz mensal.</p>
 <p class="report-calendar-title">Relatórios mensais de aprendizagem. Escolha a marca da sua escola e o mês para acessar o relatório correspondente.</p>
 <div class="school-report-group">
-<h4 class="school-report-title">Objetivo</h4><div class="monthly-report-grid" data-monthly-report-school="Objetivo"><a class="brand-report-card active" href="relatorio-mensal-level3.html?brand=Objetivo&amp;month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div>
-<h4 class="school-report-title">CCPA</h4><div class="monthly-report-grid" data-monthly-report-school="CCPA"><a class="brand-report-card active" href="relatorio-mensal-level3.html?brand=CCPA&amp;month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div>
-<h4 class="school-report-title">CJA</h4><div class="monthly-report-grid" data-monthly-report-school="CJA"><a class="brand-report-card active" href="relatorio-mensal-level3.html?brand=CJA&amp;month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div>
-<h4 class="school-report-title">Marupiara</h4><div class="monthly-report-grid" data-monthly-report-school="Marupiara"><a class="brand-report-card active" href="relatorio-mensal-level3.html?brand=Marupiara&amp;month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div>
-<h4 class="school-report-title">Santo Anjo</h4><div class="monthly-report-grid" data-monthly-report-school="Santo Anjo"><a class="brand-report-card active" href="relatorio-mensal-level3.html?brand=Santo+Anjo&amp;month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div>
+<h4 class="school-report-title">Objetivo</h4><div class="monthly-report-grid" data-monthly-report-school="Objetivo"></div>
+<h4 class="school-report-title">CCPA</h4><div class="monthly-report-grid" data-monthly-report-school="CCPA"></div>
+<h4 class="school-report-title">CJA</h4><div class="monthly-report-grid" data-monthly-report-school="CJA"></div>
+<h4 class="school-report-title">Marupiara</h4><div class="monthly-report-grid" data-monthly-report-school="Marupiara"></div>
+<h4 class="school-report-title">Santo Anjo</h4><div class="monthly-report-grid" data-monthly-report-school="Santo Anjo"></div>
 </div></div></section>
 <section class="section assessment-box" id="gerador-report-card">
 <div class="note-box">
@@ -791,6 +791,17 @@
       button.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
       button.textContent = willOpen ? 'Fechar lesson plan completo' : 'Ver lesson plan completo';
     });
+  });
+  const monthlyReportMonths = [
+    ['February', 'Fevereiro'], ['March', 'Março'], ['April', 'Abril'], ['May', 'Maio'], ['June', 'Junho'],
+    ['August', 'Agosto'], ['September', 'Setembro'], ['October', 'Outubro'], ['November', 'Novembro']
+  ];
+  document.querySelectorAll('[data-monthly-report-school]').forEach((grid) => {
+    const school = grid.dataset.monthlyReportSchool;
+    grid.innerHTML = monthlyReportMonths.map(([english, portuguese]) => {
+      const params = new URLSearchParams({brand: school, month: portuguese});
+      return `<a class="brand-report-card active" aria-label="${english} · relatório mensal · ${school}" href="relatorio-mensal-level3.html?${params.toString()}"><div><strong>${english}</strong><span>Relatório mensal</span></div></a>`;
+    }).join('');
   });
   if (location.hash && document.querySelector(location.hash + '.accordion-month')) {
     setTimeout(() => openMonthById(location.hash.slice(1)), 100);
