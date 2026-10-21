@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- portal-version: 20261021-level3-february-pilot -->
 
 <html lang="pt-BR">
 <head>
@@ -188,6 +189,16 @@
     .brand-report-card.disabled { opacity:.66; cursor:not-allowed; background:#f8fafc; }
     .brand-report-card.active { border-top:6px solid var(--red); }
     .brand-report-card.active:hover { transform:translateY(-2px); box-shadow:0 16px 38px rgba(7,27,79,.11); }
+    #gerador-relatorio-mensal .monthly-report-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:12px; margin:0 auto; max-width:980px; }
+    #gerador-relatorio-mensal .brand-report-card { min-height:108px; padding:15px 14px; justify-content:center; }
+    #gerador-relatorio-mensal .brand-report-card strong { margin:0 0 3px; white-space:nowrap; }
+    #gerador-relatorio-mensal .brand-report-card span { font-size:13px; }
+    #gerador-relatorio-mensal .note-box h2 { color:var(--navy); font-size:clamp(24px,2.8vw,36px); letter-spacing:-.025em; line-height:1.08; white-space:nowrap; }
+    #gerador-relatorio-mensal .monthly-report-grid[data-monthly-report-school="Objetivo"] .brand-report-card.active { border-top-color:#1e55b3; }
+    #gerador-relatorio-mensal .monthly-report-grid[data-monthly-report-school="CCPA"] .brand-report-card.active { border-top-color:#c8102e; }
+    #gerador-relatorio-mensal .monthly-report-grid[data-monthly-report-school="CJA"] .brand-report-card.active { border-top-color:#f9791f; }
+    #gerador-relatorio-mensal .monthly-report-grid[data-monthly-report-school="Marupiara"] .brand-report-card.active { border-top-color:#7553b7; }
+    #gerador-relatorio-mensal .monthly-report-grid[data-monthly-report-school="Santo Anjo"] .brand-report-card.active { border-top-color:#e0a800; }
     #gerador-report-card { position:relative; overflow:hidden; background:radial-gradient(circle at 88% 18%, rgba(255,255,255,.34), transparent 24%), linear-gradient(135deg,#0f7f55,#23a06f 48%,#74c947); border:0; box-shadow:0 24px 60px rgba(15,127,85,.28); }
     #gerador-report-card:before { content:""; position:absolute; inset:16px; border:2px dashed rgba(255,255,255,.38); border-radius:24px; pointer-events:none; }
     #gerador-report-card:after { content:"PDF"; position:absolute; right:26px; top:20px; color:rgba(255,255,255,.20); font-size:72px; font-weight:900; letter-spacing:.04em; transform:rotate(8deg); }
@@ -199,7 +210,7 @@
     #gerador-report-card .brand-report-card.active { border-top:0; background:linear-gradient(180deg,#ffffff,#efffed); outline:3px solid rgba(255,255,255,.78); box-shadow:0 18px 38px rgba(15,127,85,.22); }
     #gerador-report-card .brand-report-card.active strong { color:#0f6f4d; }
     #gerador-report-card .brand-report-card.disabled { background:rgba(255,255,255,.72); }
-    @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.source-grid,.matrix-grid,.routine-strip,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.materials-grid,.brand-report-grid { grid-template-columns:1fr; } .brand-report-grid { max-width:520px; } .month-card.accordion-month .month-top,.month-top { grid-template-columns:1fr; } }
+    @media (max-width:900px) { .matrix-hero-grid,.standard-grid,.source-grid,.matrix-grid,.routine-strip,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.assessment-columns,.materials-grid,.brand-report-grid,#gerador-relatorio-mensal .monthly-report-grid { grid-template-columns:1fr; } .brand-report-grid { max-width:520px; } #gerador-relatorio-mensal .note-box h2 { font-size:clamp(24px,7vw,30px); white-space:normal; } .month-card.accordion-month .month-top,.month-top { grid-template-columns:1fr; } }
     @media (max-width:640px) { .bimester-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     #avaliacao-t1 .assessment-columns { grid-template-columns:repeat(4,minmax(0,1fr)); }
     #avaliacao-t1 .assessment-columns article { padding:16px; }
@@ -238,7 +249,7 @@
 <p class="eyebrow">Educação Infantil · matriz anual</p>
 <h1>Level 3</h1>
 <p class="lead">Sistema pedagógico Level 3 para orientar entregas esperadas, progressão bimestral e trimestral, estratégias docentes, avaliação global GSP, evidências e base futura para relatórios individualizados.</p>
-<div class="hero-actions"><a class="btn primary" href="#matriz">Ver matriz mensal</a><a class="btn ghost" href="#uso">Como usar</a><a class="btn ghost" href="#gerador-report-card">Gerador de Report Card</a><a class="btn ghost" href="#materiais">Recursos e Materiais</a></div>
+<div class="hero-actions"><a class="btn primary" href="#matriz">Ver matriz mensal</a><a class="btn ghost" href="#uso">Como usar</a><a class="btn ghost" href="#gerador-relatorio-mensal">Relatórios mensais</a><a class="btn ghost" href="#gerador-report-card">Gerador de Report Card</a><a class="btn ghost" href="#materiais">Recursos e Materiais</a></div>
 </section>
 <aside class="matrix-card">
 <h2>5–6 anos</h2>
@@ -599,6 +610,18 @@
 <article class="report-card"><h3>Numeracy, portfólio e prontidão</h3><p>Registrar contagem, comparação simples, one more/one less quando aplicável, seleção de evidências do próprio percurso e apresentação apoiada de uma aprendizagem.</p></article>
 </div>
 </section>
+<section class="section assessment-box" id="gerador-relatorio-mensal">
+<div class="note-box">
+<h2>🌱 Relatório Mensal de Aprendizagem · Level 3</h2>
+<p>Um acompanhamento breve e individualizado do percurso de cada mês. O professor seleciona indicadores observados e o gerador organiza automaticamente um texto familiar ligado à matriz mensal.</p>
+<p class="report-calendar-title">Relatórios mensais de aprendizagem. Escolha a marca da sua escola e o mês para acessar o relatório correspondente.</p>
+<div class="school-report-group">
+<h4 class="school-report-title">Objetivo</h4><div class="monthly-report-grid" data-monthly-report-school="Objetivo"><a class="brand-report-card active" href="relatorio-mensal-level3.html?brand=Objetivo&amp;month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div>
+<h4 class="school-report-title">CCPA</h4><div class="monthly-report-grid" data-monthly-report-school="CCPA"><a class="brand-report-card active" href="relatorio-mensal-level3.html?brand=CCPA&amp;month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div>
+<h4 class="school-report-title">CJA</h4><div class="monthly-report-grid" data-monthly-report-school="CJA"><a class="brand-report-card active" href="relatorio-mensal-level3.html?brand=CJA&amp;month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div>
+<h4 class="school-report-title">Marupiara</h4><div class="monthly-report-grid" data-monthly-report-school="Marupiara"><a class="brand-report-card active" href="relatorio-mensal-level3.html?brand=Marupiara&amp;month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div>
+<h4 class="school-report-title">Santo Anjo</h4><div class="monthly-report-grid" data-monthly-report-school="Santo Anjo"><a class="brand-report-card active" href="relatorio-mensal-level3.html?brand=Santo+Anjo&amp;month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div>
+</div></div></section>
 <section class="section assessment-box" id="gerador-report-card">
 <div class="note-box">
 <h2>📝 Report Card · Level 3</h2>
