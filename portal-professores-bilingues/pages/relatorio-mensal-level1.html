@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- portal-version: 20261021-monthly-february-santo-anjo -->
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
@@ -40,7 +41,7 @@
     <h2>Dados do relatório</h2><p>Este material acompanha um recorte do percurso mensal. Para a visão avaliativa consolidada, use o Report Card do term correspondente.</p>
     <div class="fields">
       <div class="field"><label for="student">Nome da criança</label><input id="student" placeholder="Ex.: Sofia Almeida"></div>
-      <div class="field"><label for="school">Escola</label><select id="school"><option>Objetivo</option><option>CCPA</option><option>CJA</option><option>Marupiara</option></select></div>
+      <div class="field"><label for="school">Escola</label><select id="school"><option>Objetivo</option><option>CCPA</option><option>CJA</option><option>Marupiara</option><option>Santo Anjo</option></select></div>
       <div class="field"><label for="className">Turma</label><input id="className" value="Level 1"></div>
       <div class="field"><label for="teacher">Professor(a)</label><input id="teacher" placeholder="Ex.: Miss Ana"></div>
       <div class="field"><label for="month">Mês acompanhado</label><select id="month"></select></div>
@@ -87,8 +88,10 @@ const brands={
   'Objetivo':{logo:'../assets/logos/objetivo-logo-public-ref.png',alt:'Objetivo'},
   'CCPA':{logo:'../assets/logos/ccpa-logo.png',alt:'CCPA'},
   'CJA':{logo:'../assets/logos/cja-logo.png',alt:'CJA'},
-  'Marupiara':{logo:'../assets/logos/marupiara-logo.png',alt:'Marupiara'}
+  'Marupiara':{logo:'../assets/logos/marupiara-logo.png',alt:'Marupiara'},
+  'Santo Anjo':{logo:'../assets/logos/santo-anjo-logo.png',alt:'Santo Anjo'}
 };
+const santoAnjoFebruary={n:'Fevereiro',title:'Block 1 · Welcome, routine and belonging',desc:'Entrada gradual na rotina bilíngue: cumprimentos, combinados, nomes, espaços da sala e segurança afetiva. Em Cambridge Early Years, a criança inicia o Block 1 · All about me por meio de identidade, contagem inicial e experiências de pertencimento.',chips:['Hello / Goodbye','My name is...','Look!','My turn','Help, please','I am happy'],next:'Seguir fortalecendo a segurança afetiva, a participação na rotina e as primeiras interações em inglês com apoio visual, gestual e afetivo.',tip:'Perguntem, com leveza, sobre um amigo, uma música ou um momento da rotina. Gestos, desenhos e palavras isoladas também são formas importantes de compartilhar essa experiência.'};
 const monthTitleInEnglish={Fevereiro:'February',Março:'March',Abril:'April',Maio:'May',Junho:'June',Agosto:'August',Setembro:'September',Outubro:'October',Novembro:'November'};
 const requestedBrand=new URLSearchParams(window.location.search).get('brand');
 const fixedBrand=Object.prototype.hasOwnProperty.call(brands,requestedBrand)?requestedBrand:null;
@@ -104,8 +107,9 @@ const setHtml=(id,html)=>document.getElementById(id).innerHTML=html;
 function person(){return document.getElementById('student').value.trim()||'a criança'}
 function setBrand(school){const brand=brands[school];const logo=document.getElementById('schoolLogo');logo.src=brand.logo;logo.alt=brand.alt}
 function update(){
-  const m=months[document.getElementById('month').value];
   const name=person(), school=document.getElementById('school').value, cls=document.getElementById('className').value||'Level 1', teacher=document.getElementById('teacher').value.trim()||'Professor(a)';
+  const selectedMonth=months[document.getElementById('month').value];
+  const m=school==='Santo Anjo'&&selectedMonth.n==='Fevereiro'?santoAnjoFebruary:selectedMonth;
   const engagement=optionText('engagement').toLowerCase(),understanding=optionText('understanding').toLowerCase(),language=optionText('language').toLowerCase(),discovery=optionText('discovery').toLowerCase(),social=optionText('social').toLowerCase(),autonomy=optionText('autonomy').toLowerCase();
   const isArrival=m.n==='Fevereiro';
   setBrand(school);set('reportTitle',monthTitleInEnglish[m.n]+' Learning Snapshot');set('outStudent',name);set('outClass',cls);set('outMonth',m.n+' · '+document.getElementById('year').value);set('outSchool',school);set('outSchoolCover',school);set('outTeacher',teacher);
