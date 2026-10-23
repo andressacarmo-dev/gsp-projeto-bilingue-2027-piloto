@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- portal-version: 20261023-level4-bookc-project-weekly-plans -->
+<!-- portal-version: 20261023-level4-santo-anjo-trimester-only -->
 
 <html lang="pt-BR">
 <head>
@@ -240,7 +240,10 @@
     #matriz-curriculo-base, nav[aria-label="Meses da matriz do currículo base"], .month-list:not(.santo-anjo), .bimester-grid, #progressao > h3:not(.santo-anjo-progression-title), #progressao > .quarter-grid:not(.santo-anjo-progression-grid), #gerador-relatorio-mensal { display:none; }
     #gerador-report-card .school-report-group { display:none; }
     #gerador-report-card .school-report-group:has([aria-label*="Santo Anjo"]) { display:block; }
-    #projetos > .project-grid { display:none; }
+    /* O Level 4 é exclusivo do Santo Anjo e opera somente por trimestre. */
+    #projetos { display:none; }
+    #gerador-report-card > .note-box > .report-calendar-title { display:none; }
+    #avaliacao-t1 .section-heading > .eyebrow { display:none; }
     #projeto-day-dinner-timeline { display:none; }
     #projeto-friends-faces-studio { display:none; }
     #projeto-ready-year1-playground-expo { display:none; }
