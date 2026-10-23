@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- portal-version: 20261023-level4-force-remove-bimester-cards -->
+<!-- portal-version: 20261023-level4-level-labels -->
 
 <html lang="pt-BR">
 <head>
@@ -860,6 +860,12 @@
     setTimeout(() => openMonthById(location.hash.slice(1)), 100);
   } else if (location.hash && document.querySelector(location.hash + '.accordion-project')) {
     setTimeout(() => openProjectById(location.hash.slice(1)), 100);
+  }
+  // Esta página é exclusiva do Level 4; preserva os links internos herdados, mas nunca exibe a etiqueta do Level 3.
+  const levelLabelWalker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  let levelLabelNode;
+  while ((levelLabelNode = levelLabelWalker.nextNode())) {
+    levelLabelNode.nodeValue = levelLabelNode.nodeValue.replace(/\bLevel 3\b/g, 'Level 4');
   }
 })();
 </script>
