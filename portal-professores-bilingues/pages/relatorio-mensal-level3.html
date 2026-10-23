@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- portal-version: 20261021-level3-monthly-series -->
+<!-- portal-version: 20261023-level3-santo-anjo-mascots -->
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
@@ -170,7 +170,18 @@ const optionText=id=>document.getElementById(id).selectedOptions[0].textContent;
 const set=(id,text)=>document.getElementById(id).textContent=text;
 const setHtml=(id,html)=>document.getElementById(id).innerHTML=html;
 function person(){return document.getElementById('student').value.trim()||'a criança'}
-function setBrand(school){const brand=brands[school];const logo=document.getElementById('schoolLogo');logo.src=brand.logo;logo.alt=brand.alt}
+const santoAnjoMascots=[
+  '../assets/characters/santo-anjo-level1/orangutan.png',
+  '../assets/characters/santo-anjo-level1/spotted-cat.png',
+  '../assets/characters/santo-anjo-level1/chameleon.png'
+];
+const defaultMascots=Array.from(document.querySelectorAll('.cover-mascots img')).map(img=>img.getAttribute('src'));
+function setBrand(school){
+  const brand=brands[school],logo=document.getElementById('schoolLogo');
+  logo.src=brand.logo;logo.alt=brand.alt;
+  const mascotSources=school==='Santo Anjo'?santoAnjoMascots:defaultMascots;
+  document.querySelectorAll('.cover-mascots img').forEach((img,index)=>{img.src=mascotSources[index];});
+}
 function update(){
   const name=person(), school=document.getElementById('school').value, cls=document.getElementById('className').value||'Level 3', teacher=document.getElementById('teacher').value.trim()||'Professor(a)';
   const selectedMonth=level3PilotMonths[document.getElementById('month').value];
