@@ -1925,13 +1925,8 @@
 </script>
 <script>
   window.addEventListener('load', () => {
-    const reports = document.createElement('section');
-    reports.className = 'section assessment-box';
-    reports.id = 'gerador-relatorio-mensal';
-    reports.innerHTML = '<div class="note-box"><h2>🌱 Relatórios Mensais de Aprendizagem · Year 1</h2><p>Um acompanhamento breve e individualizado do percurso acadêmico, linguístico e investigativo de cada mês. Esta primeira versão é exclusiva do Santo Anjo e segue a sua matriz própria.</p><div class="brand-report-grid"><a class="brand-report-card active" href="relatorio-mensal-year1-santo-anjo.html?month=Fevereiro"><div><strong>February</strong><span>English/Kid’s Box, Science, Math, Classroom Shape Map e Speaking Lab</span></div></a></div></div>';
-    document.getElementById('gerador-report-card')?.before(reports);
-    const reportLink = document.createElement('a'); reportLink.href = '#gerador-relatorio-mensal'; reportLink.textContent = 'Relatórios mensais';
-    document.querySelector('.nav-links')?.append(reportLink);
+    const reports=document.createElement('section');reports.className='section assessment-box';reports.id='gerador-relatorio-mensal';reports.innerHTML='<div class="note-box"><h2>🌱 Relatórios Mensais de Aprendizagem · Year 1</h2><p>Relatórios mensais de aprendizagem. Escolha a marca da sua escola e o mês para acessar o relatório correspondente.</p><h3 class="report-calendar-title">Objetivo</h3><div class="brand-report-grid"><a class="brand-report-card active" href="relatorio-mensal-year1.html?brand=Objetivo&month=Fevereiro"><div><strong>February</strong><span>Relatório mensal</span></div></a></div></div>';document.getElementById('gerador-report-card')?.before(reports);
+    const link=document.createElement('a');link.href='#gerador-relatorio-mensal';link.textContent='Relatórios mensais';document.querySelector('.nav-links')?.append(link);
     if (window.location.hash === '#gerador-report-card') {
       const target = document.getElementById('gerador-report-card');
       if (target) setTimeout(() => target.scrollIntoView({ block: 'start' }), 120);
