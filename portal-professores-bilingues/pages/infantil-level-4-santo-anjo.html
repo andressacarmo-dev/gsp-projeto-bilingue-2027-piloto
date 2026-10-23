@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- portal-version: 20261023-level4-level-labels -->
+<!-- portal-version: 20261023-level4-santo-anjo-monthly-reports -->
 
 <html lang="pt-BR">
 <head>
@@ -237,7 +237,11 @@
     #progressao .santo-anjo-progression-grid { display:grid; grid-template-columns:1fr; gap:16px; }
     #progressao .quarter-card { width:100%; min-width:0; }
     /* Level 4 Santo Anjo has one curriculum pathway; retain the Level 3 base layout while showing only this pathway. */
-    #matriz-curriculo-base, nav[aria-label="Meses da matriz do currículo base"], .month-list:not(.santo-anjo), .bimester-grid, #progressao > h3:not(.santo-anjo-progression-title), #progressao > .quarter-grid:not(.santo-anjo-progression-grid), #gerador-relatorio-mensal { display:none; }
+    #matriz-curriculo-base, nav[aria-label="Meses da matriz do currículo base"], .month-list:not(.santo-anjo), .bimester-grid, #progressao > h3:not(.santo-anjo-progression-title), #progressao > .quarter-grid:not(.santo-anjo-progression-grid) { display:none; }
+    #gerador-relatorio-mensal .school-report-title,
+    #gerador-relatorio-mensal .monthly-report-grid { display:none; }
+    #gerador-relatorio-mensal .school-report-title:has(+ .monthly-report-grid[data-monthly-report-school="Santo Anjo"]) { display:block; }
+    #gerador-relatorio-mensal .monthly-report-grid[data-monthly-report-school="Santo Anjo"] { display:grid; }
     #progressao .bimester-grid { display:none !important; }
     #gerador-report-card .school-report-group { display:none; }
     #gerador-report-card .school-report-group:has([aria-label*="Santo Anjo"]) { display:block; }
@@ -853,7 +857,10 @@
     const school = grid.dataset.monthlyReportSchool;
     grid.innerHTML = monthlyReportMonths.map(([english, portuguese]) => {
       const params = new URLSearchParams({brand: school, month: portuguese});
-      return `<a class="brand-report-card active" aria-label="${english} · relatório mensal · ${school}" href="relatorio-mensal-level3.html?${params.toString()}"><div><strong>${english}</strong><span>Relatório mensal</span></div></a>`;
+      const href = school === 'Santo Anjo'
+        ? `relatorio-mensal-level4-santo-anjo.html?month=${encodeURIComponent(portuguese)}`
+        : `relatorio-mensal-level3.html?${params.toString()}`;
+      return `<a class="brand-report-card active" aria-label="${english} · relatório mensal · ${school}" href="${href}"><div><strong>${english}</strong><span>Relatório mensal</span></div></a>`;
     }).join('');
   });
   if (location.hash && document.querySelector(location.hash + '.accordion-month')) {
@@ -866,6 +873,14 @@
   let levelLabelNode;
   while ((levelLabelNode = levelLabelWalker.nextNode())) {
     levelLabelNode.nodeValue = levelLabelNode.nodeValue.replace(/\bLevel 3\b/g, 'Level 4');
+  }
+  const monthlyReports = document.getElementById('gerador-relatorio-mensal');
+  if (monthlyReports) {
+    monthlyReports.querySelector('h2').textContent = '🌱 Relatórios Mensais de Aprendizagem · Level 4';
+    const text = monthlyReports.querySelector('.note-box > p');
+    if (text) text.textContent = 'Um acompanhamento breve e individualizado do percurso de cada mês. O professor seleciona indicadores observados e o gerador organiza automaticamente um texto familiar ligado à matriz mensal do Santo Anjo.';
+    const calendarTitle = monthlyReports.querySelector('.report-calendar-title');
+    if (calendarTitle) calendarTitle.textContent = 'Santo Anjo · escolha o mês para acessar o relatório correspondente.';
   }
 })();
 </script>
