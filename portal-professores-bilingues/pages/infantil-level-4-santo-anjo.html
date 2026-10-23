@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- portal-version: 20261023-level4-santo-anjo-trimester-only -->
+<!-- portal-version: 20261023-level4-force-remove-bimester-cards -->
 
 <html lang="pt-BR">
 <head>
@@ -238,6 +238,7 @@
     #progressao .quarter-card { width:100%; min-width:0; }
     /* Level 4 Santo Anjo has one curriculum pathway; retain the Level 3 base layout while showing only this pathway. */
     #matriz-curriculo-base, nav[aria-label="Meses da matriz do currículo base"], .month-list:not(.santo-anjo), .bimester-grid, #progressao > h3:not(.santo-anjo-progression-title), #progressao > .quarter-grid:not(.santo-anjo-progression-grid), #gerador-relatorio-mensal { display:none; }
+    #progressao .bimester-grid { display:none !important; }
     #gerador-report-card .school-report-group { display:none; }
     #gerador-report-card .school-report-group:has([aria-label*="Santo Anjo"]) { display:block; }
     /* O Level 4 é exclusivo do Santo Anjo e opera somente por trimestre. */
