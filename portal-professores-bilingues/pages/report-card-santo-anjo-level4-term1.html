@@ -1,4 +1,4 @@
-<!-- portal-version: 20261021-level4-santo-anjo-report-cards -->
+<!-- portal-version: 20261023-level4-santo-anjo-report-card-mascots -->
 <!doctype html>
 <html lang="pt-BR">
 <head>
@@ -227,6 +227,8 @@ function apply(){const name=firstName(), student=fullName(), teacher=(document.g
  document.getElementById('nextStepsText').textContent = termConfig.next.replaceAll('{name}',name);
  const note=document.getElementById('optionalNote').value.trim(); const out=document.getElementById('optionalNoteOut'); out.style.display=note?'block':'none'; out.innerHTML=note?`<strong>Observação complementar:</strong> ${note}`:'';
  document.getElementById('fileNameHint').textContent=`${(document.getElementById('schoolName').value||'Santo Anjo').replaceAll(' ','-')}_Level4_${termConfig.term.replaceAll(' ','')}_${student.replaceAll(' ','-')}_Report-Card.pdf`}
+const santoAnjoMascots=['../assets/characters/santo-anjo-level1/orangutan.png','../assets/characters/santo-anjo-level1/spotted-cat.png','../assets/characters/santo-anjo-level1/chameleon.png'];
+document.querySelectorAll('.character-row img').forEach((img,index)=>{img.src=santoAnjoMascots[index];img.alt=''});document.querySelector('.dear-section .char-mini').src=santoAnjoMascots[1];document.querySelector('.family-tip .char-mini').src=santoAnjoMascots[0];
 renderChecks();apply();document.getElementById('updateBtn').onclick=apply;document.getElementById('printBtn').onclick=()=>{apply();window.print()};document.getElementById('resetBtn').onclick=()=>{document.getElementById('optionalNote').value='';apply()};document.querySelectorAll('input,select,textarea').forEach(el=>el.addEventListener('input',apply));
 </script>
 </body>
