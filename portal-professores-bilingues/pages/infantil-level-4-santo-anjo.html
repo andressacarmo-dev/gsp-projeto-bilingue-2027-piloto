@@ -882,6 +882,44 @@
     const calendarTitle = monthlyReports.querySelector('.report-calendar-title');
     if (calendarTitle) calendarTitle.textContent = 'Santo Anjo · escolha o mês para acessar o relatório correspondente.';
   }
+  // Remove da experiência publicada os blocos herdados de outros currículos/escolas.
+  ['#projetos', '#projeto-day-dinner-timeline', '#projeto-friends-faces-studio', '#projeto-ready-year1-playground-expo', '#matriz-curriculo-base', 'nav[aria-label="Meses da matriz do currículo base"]'].forEach((selector) => document.querySelector(selector)?.remove());
+  document.querySelectorAll('.month-list:not(.santo-anjo)').forEach((node) => node.remove());
+  document.querySelectorAll('#gerador-relatorio-mensal [data-monthly-report-school]').forEach((grid) => {
+    if (grid.dataset.monthlyReportSchool !== 'Santo Anjo') { grid.previousElementSibling?.remove(); grid.remove(); }
+  });
+  document.querySelectorAll('#gerador-report-card .school-report-group').forEach((group) => {
+    if (!group.querySelector('[aria-label*="Santo Anjo"]')) group.remove();
+  });
+  const projectMenu = document.getElementById('projetos-level4-book-a');
+  document.querySelector('.nav-links a[href="#projetos"]')?.setAttribute('href', '#projetos-level4-book-a');
+  if (projectMenu) {
+    const cards = projectMenu.querySelectorAll('.project-menu-card');
+    const destinations = ['#projeto-book-a-classroom-feelings', '#projeto-book-b-play-food-sound', '#projeto-book-c-home-clothes-garden'];
+    cards.forEach((card, index) => {
+      const status = card.querySelector('.project-status');
+      if (status) status.textContent = `Projeto completo · T${index + 1}`;
+      const summary = card.querySelector('p:last-of-type');
+      if (summary && index > 0) summary.textContent = index === 1 ? 'Book B · Units 4–6. Planejamento completo de 12 semanas, com lesson plans e evidências para famílias.' : 'Book C · Units 7–9. Planejamento completo de 12 semanas, com lesson plans e evidências para famílias.';
+      if (!card.querySelector('.project-actions')) {
+        const actions = document.createElement('div'); actions.className = 'project-actions';
+        actions.innerHTML = `<a href="${destinations[index]}">Abrir projeto</a>`; card.append(actions);
+      }
+    });
+  }
+  // Completa a comunicação com famílias no Book A, sem alterar seus objetivos ou lesson plans.
+  document.querySelectorAll('#projeto-book-a-classroom-feelings .pbl-week').forEach((week) => {
+    if (week.querySelector('.family-evidence')) return;
+    const title = week.querySelector('h3')?.textContent.replace(/^Semana \d+ · /, '') || 'atividade da semana';
+    const evidence = document.createElement('div'); evidence.className = 'family-evidence';
+    evidence.innerHTML = `<h5>Evidência coletada para envio às famílias</h5><p>Registrar uma foto, produção ou fala observada em <strong>${title}</strong>, acompanhada de uma breve nota do professor sobre participação, linguagem e autonomia.</p>`;
+    week.append(evidence);
+  });
+  document.querySelectorAll('#materiais .material-card').forEach((card) => {
+    if (/Ready, Set, Grow! Level 3|Let’s Explore Early Years 3/.test(card.textContent)) card.remove();
+  });
+  document.querySelector('#avaliacao-t1 .section-heading .eyebrow')?.replaceWith(Object.assign(document.createElement('p'), {className:'eyebrow', textContent:'Modelo trimestral · Level 4'}));
+  const footerLevel = document.querySelector('.footer span'); if (footerLevel) footerLevel.textContent = 'Level 4 · Santo Anjo · Projeto Bilíngue 2027';
 })();
 </script>
 <!-- scaffolding executável revisado em 2026-09-28 --></body>
