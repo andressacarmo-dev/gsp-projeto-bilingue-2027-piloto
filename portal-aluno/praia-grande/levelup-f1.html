@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Nivelamento Level Up F1 · Praia Grande</title>
-  <!-- build: 20260929-levelup-f1-visual-objects-v9 -->
+  <!-- build: 20261027-levelup-f1-total-score-rubric-v1 -->
   <link rel="stylesheet" href="../assets/styles.css?v=20260929-levelup-f1-visual-objects-v9" />
   <style>
     .quest-shell{display:grid;gap:18px;margin-top:22px}.quest-intro{display:grid;grid-template-columns:1.05fr .95fr;gap:18px;align-items:center}.quest-intro img,.mission-hero{width:100%;border-radius:26px;display:block;box-shadow:0 18px 42px rgba(30,58,138,.13);object-fit:cover}.quest-intro img{aspect-ratio:1/1}.mission{background:#fff;border:1px solid rgba(37,99,235,.14);border-radius:30px;padding:22px;box-shadow:0 16px 45px rgba(30,58,138,.08)}.mission-head{display:grid;grid-template-columns:140px 1fr;gap:18px;align-items:center;margin-bottom:18px}.mission-head img{width:140px;height:140px;border-radius:24px;object-fit:cover}.mission h2{margin:0;color:var(--blue-dark)}.mission p{color:var(--muted);line-height:1.55}.q-grid{display:grid;gap:14px}.question-card{border:1px solid #dbeafe;background:linear-gradient(180deg,#fff,#f8fbff);border-radius:22px;padding:16px}.question-card.with-visual{display:grid;grid-template-columns:132px 1fr;gap:14px;align-items:center}.question-visual{width:132px;aspect-ratio:1/1;border-radius:18px;object-fit:cover;display:block;box-shadow:0 12px 28px rgba(30,58,138,.12)}.question-body{min-width:0}.question-card h3{margin:0 0 12px;color:#172033;font-size:17px}.options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.option{border:1px solid #c7d2fe;background:white;color:#172033;border-radius:16px;padding:12px;font-weight:800;cursor:pointer;text-align:center;transition:.15s}.option:hover{transform:translateY(-1px);border-color:#7c3aed}.option.selected{background:#2563eb;color:white;border-color:#2563eb}.option.correct{background:#dcfce7;color:#166534;border-color:#86efac}.option.wrong{background:#fee2e2;color:#991b1b;border-color:#fecaca}.mini-scene{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.scene-choice{background:white;border:1px solid #c7d2fe;border-radius:18px;padding:10px;cursor:pointer}.scene-choice img{width:100%;aspect-ratio:1/1;border-radius:14px;object-fit:cover;display:block;margin-bottom:8px}.listen-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.speak-btn{border:0;border-radius:999px;background:#7c3aed;color:white;padding:10px 14px;font-weight:900;cursor:pointer}.chip-bank{display:flex;flex-wrap:wrap;gap:8px}.chip{border:1px solid #c7d2fe;background:#fff;border-radius:999px;padding:9px 12px;font-weight:900;cursor:pointer}.chip.selected{background:#22d3ee;color:#172033;border-color:#22d3ee}.fill-line{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.blank{display:inline-block;min-width:156px;border-bottom:4px solid #7c3aed;text-align:center;font-weight:900;color:#7c3aed;padding:4px 8px}.match-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.match-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;align-items:center}.match-row select{border:1px solid #c7d2fe;border-radius:14px;padding:10px;font:inherit}.writing textarea{width:100%;min-height:92px;border:1px solid #c7d2fe;border-radius:18px;padding:14px;font:inherit;resize:vertical}.progress-note{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.score-panel{display:none}.score-panel.show{display:block}.result-pill{display:inline-flex;padding:8px 12px;border-radius:999px;background:#eff6ff;color:#1e3a8a;font-weight:900;margin:4px}.timer-card{display:inline-flex;align-items:center;gap:8px;border:1px solid #c7d2fe;background:#fff;border-radius:999px;padding:9px 13px;font-weight:900;color:#1e3a8a}@media(max-width:850px){.quest-intro,.mission-head,.options,.mini-scene,.match-grid,.question-card.with-visual{grid-template-columns:1fr}.mission-head img{width:100%;height:auto;aspect-ratio:16/9}.question-visual{width:100%;max-height:220px}.match-row{grid-template-columns:1fr}.option{text-align:left}}
@@ -166,6 +166,28 @@ function buildReport(){const finishedAt=new Date();const form=new FormData(docum
 function renderReport(report){const skillsHtml=report.skills.map(s=>`<div class="skill-row"><b>${s.label}</b><span>${s.score}/${s.points_possible} · ${s.percent}% · ${s.attention}</span></div>`).join('');const json=JSON.stringify(report,null,2);document.getElementById('scoreSummary').innerHTML=`<span class="result-pill">${report.score.total}/${report.score.points_possible} pontos</span><span class="result-pill">${report.score.percent}%</span><span class="result-pill">${report.score.band_code}</span><span class="result-pill">${report.score.recommendation_level_up}</span><span class="result-pill">Prioridade: ${report.score.priority}</span><div class="skill-grid">${skillsHtml}</div><p class="report-note"><b>Leitura interna:</b> ${report.score.classification_reasons.join('; ')}. Resultado não deve aparecer para o aluno nesta fase; é saída técnica para coordenação/dashboard.</p><div class="report-actions"><button class="btn secondary" id="copyReportBtn" type="button">Copiar JSON do resultado</button><button class="btn secondary" id="downloadReportBtn" type="button">Baixar JSON</button></div><textarea class="report-json" readonly>${json.replace(/</g,'&lt;')}</textarea>`;document.getElementById('copyReportBtn').addEventListener('click',()=>navigator.clipboard&&navigator.clipboard.writeText(json));document.getElementById('downloadReportBtn').addEventListener('click',()=>{const blob=new Blob([json],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`levelup-f1-${report.student.full_name||'aluno'}-${Date.now()}.json`;a.click();URL.revokeObjectURL(a.href);});}
 document.getElementById('finishBtn').addEventListener('click',()=>{latestReport=buildReport();renderReport(latestReport);document.getElementById('scorePanel').classList.add('show');document.getElementById('scorePanel').scrollIntoView({behavior:'smooth'});});
 document.getElementById('resetBtn').addEventListener('click',()=>location.reload());
+</script>
+<script>
+/*
+  Rubrica de encaminhamento aprovada: a recomendação considera somente a
+  pontuação total da prova. Os recortes por habilidade seguem disponíveis no
+  relatório para leitura pedagógica, mas não alteram convocação ou prioridade.
+*/
+function classify(total, skills, writing){
+  const pointsPossible = year3 ? 20 : 34;
+  const percent = (total / pointsPossible) * 100;
+  let out;
+  if(percent < 40){
+    out={code:year3?'F1-3A':'F1-A',cefr:'Base inicial para o recorte avaliado',recommendation:'Convocar Level Up — prioridade alta',priority:'alta'};
+  }else if(percent < 60){
+    out={code:year3?'F1-3B':'F1-B',cefr:'Em consolidação para o recorte avaliado',recommendation:'Convocar Level Up',priority:'media'};
+  }else if(percent < 80){
+    out={code:year3?'F1-3C':'F1-C',cefr:'Desempenho em acompanhamento',recommendation:'Acompanhar',priority:'observacao'};
+  }else{
+    out={code:year3?'F1-3D':'F1-D',cefr:'Desempenho esperado para o recorte avaliado',recommendation:'Não convocar inicialmente',priority:'baixa'};
+  }
+  return {...out,reasons:[`pontuação total: ${total}/${pointsPossible} (${Math.round(percent)}%)`]};
+}
 </script>
 </body>
 </html>
