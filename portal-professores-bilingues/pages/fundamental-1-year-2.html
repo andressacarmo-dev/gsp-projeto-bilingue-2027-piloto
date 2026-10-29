@@ -75,6 +75,16 @@
     .santo-anjo-progression-title { color:#9a4d00; }
     .quarter-card.santo-anjo { border-top-color:#e27c12; background:linear-gradient(180deg,#fffaf4 0%,#ffffff 42%); }
     .quarter-card.santo-anjo h3 { color:#8a4300; }
+    #gerador-relatorio-mensal .monthly-report-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:12px; margin:0 auto; max-width:980px; }
+    #gerador-relatorio-mensal .brand-report-card { min-height:108px; padding:15px 14px; justify-content:center; }
+    #gerador-relatorio-mensal .brand-report-card strong { margin:0 0 3px; white-space:nowrap; }
+    #gerador-relatorio-mensal .brand-report-card span { font-size:13px; }
+    #gerador-relatorio-mensal .note-box h2 { color:var(--navy); font-size:clamp(24px,2.8vw,36px); letter-spacing:-.025em; line-height:1.08; white-space:nowrap; }
+    #gerador-relatorio-mensal .monthly-report-grid[data-monthly-report-school="Objetivo"] .brand-report-card.active { border-top:6px solid #1e55b3; }
+    #gerador-relatorio-mensal .monthly-report-grid[data-monthly-report-school="CCPA"] .brand-report-card.active { border-top:6px solid #c8102e; }
+    #gerador-relatorio-mensal .monthly-report-grid[data-monthly-report-school="CJA"] .brand-report-card.active { border-top:6px solid #f9791f; }
+    #gerador-relatorio-mensal .monthly-report-grid[data-monthly-report-school="Marupiara"] .brand-report-card.active { border-top:6px solid #7553b7; }
+    #gerador-relatorio-mensal .monthly-report-grid[data-monthly-report-school="Santo Anjo"] .brand-report-card.active { border-top:6px solid #e0a800; }
 
     
     .lesson-plan-toggle { margin-top:16px; display:inline-flex; align-items:center; justify-content:center; border:0; border-radius:999px; background:#F9791F; color:white; padding:10px 14px; font-family:inherit; font-weight:900; font-size:13px; cursor:pointer; }
@@ -238,7 +248,7 @@
     .quarter-card.santo-anjo { border-top-color:#e27c12; background:linear-gradient(180deg,#fffaf4 0%,#ffffff 42%); }
     .quarter-card.santo-anjo h3 { color:#8a4300; }
 
-    @media (max-width:900px) { .year-hero-grid,.standard-grid,.routine-strip,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.materials-grid,.assessment-columns,.brand-report-grid,.month-top,.rubric-fields { grid-template-columns:1fr; } .brand-report-grid { max-width:520px; } }
+    @media (max-width:900px) { .year-hero-grid,.standard-grid,.routine-strip,.quarter-grid,.project-grid,.strategy-grid,.report-grid,.materials-grid,.assessment-columns,.brand-report-grid,.month-top,.rubric-fields { grid-template-columns:1fr; } .brand-report-grid { max-width:520px; } #gerador-relatorio-mensal .monthly-report-grid { grid-template-columns:1fr; } #gerador-relatorio-mensal .note-box h2 { font-size:clamp(22px,7vw,30px); white-space:normal; } }
     @media (max-width:640px) { .bimester-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
 
 .discipline-card.partial { border-top-color:#F2B705; }
@@ -1795,6 +1805,12 @@
     setTimeout(() => openMonthById(location.hash.slice(1)), 100);
   }
 })();
+</script>
+<script>
+  window.addEventListener('load', () => {
+    const reports=document.createElement('section');reports.className='section assessment-box';reports.id='gerador-relatorio-mensal';reports.innerHTML='<div class="note-box"><h2>🌱 Relatórios Mensais de Aprendizagem · Year 2</h2><p>Um acompanhamento individualizado do percurso de cada mês. O professor seleciona indicadores observados e o gerador organiza automaticamente um texto claro para a família, ligado à matriz mensal.</p><p class="report-calendar-title">Relatórios mensais de aprendizagem. Escolha a marca da sua escola e o mês para acessar o relatório correspondente.</p><div class="school-report-group"><h4 class="school-report-title">Objetivo</h4><div class="monthly-report-grid" data-monthly-report-school="Objetivo"></div><h4 class="school-report-title">CCPA</h4><div class="monthly-report-grid" data-monthly-report-school="CCPA"></div><h4 class="school-report-title">CJA</h4><div class="monthly-report-grid" data-monthly-report-school="CJA"></div><h4 class="school-report-title">Marupiara</h4><div class="monthly-report-grid" data-monthly-report-school="Marupiara"></div><h4 class="school-report-title">Santo Anjo</h4><div class="monthly-report-grid" data-monthly-report-school="Santo Anjo"></div></div></div>';document.getElementById('gerador-report-card')?.before(reports);const months=[['February','Fevereiro'],['March','Março'],['April','Abril'],['May','Maio'],['June','Junho'],['August','Agosto'],['September','Setembro'],['October','Outubro'],['November','Novembro']];reports.querySelectorAll('[data-monthly-report-school]').forEach(grid=>{const school=grid.dataset.monthlyReportSchool;grid.innerHTML=months.map(([english,month])=>`<a class="brand-report-card active" aria-label="${english} · relatório mensal · ${school}" href="relatorio-mensal-year1.html?year=2&amp;brand=${encodeURIComponent(school)}&amp;month=${encodeURIComponent(month)}"><div><strong>${english}</strong><span>Relatório mensal</span></div></a>`).join('');});
+    const link=document.createElement('a');link.href='#gerador-relatorio-mensal';link.textContent='Relatórios mensais';document.querySelector('.nav-links')?.append(link);
+  });
 </script>
 <script>
   window.addEventListener('load', () => {
