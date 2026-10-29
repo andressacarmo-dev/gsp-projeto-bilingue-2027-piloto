@@ -426,7 +426,7 @@
     </style>
   </head>
   <body>
-    <!-- build: 20261029-year1-february-generation-fix-v4 -->
+    <!-- build: 20261029-year1-monthly-snapshots-v5 -->
     <section class="builder">
       <div class="builder-card">
         <h1>Relatório Mensal de Aprendizagem · Year 1</h1>
@@ -581,8 +581,8 @@
           <span class="badge"
             >Acompanhamento mensal · Fundamental 1 · Year 1</span
           >
-          <h1>February Learning Snapshot</h1>
-          <p>
+          <h1 id="reportTitle">February Learning Snapshot</h1>
+          <p id="coverSubtitle">
             Um retrato da chegada, dos vínculos e dos primeiros passos de
             aprendizagem de cada criança.
           </p>
@@ -590,7 +590,7 @@
             <div><b>Student</b><span id="outStudent">o aluno</span></div>
             <div><b>Class</b><span id="outClass">Year 1</span></div>
             <div><b>School</b><span>Objetivo</span></div>
-            <div><b>Month</b><span>February · 2026</span></div>
+            <div><b>Month</b><span id="monthMeta">February · 2026</span></div>
             <div><b>Teacher</b><span id="outTeacher">Professor(a)</span></div>
           </div>
         </div>
@@ -601,29 +601,23 @@
           <div class="card pink"><p id="welcome"></p></div>
         </section>
         <section class="section">
-          <h2>Uma descoberta que ganhou forma</h2>
-          <p>
+          <h2 id="discoveryHeading">Uma descoberta que ganhou forma</h2>
+          <p id="discoveryIntro">
             Em February, a Matemática ganhou vida dentro do primeiro projeto da turma: o <em>Classroom Shape Map</em>.
           </p>
           <div class="card aqua month-story">
-            <h3>Shape Hunt: procurando formas na nossa escola</h3>
+            <h3 id="activityTitle">Shape Hunt: procurando formas na nossa escola</h3>
             <p id="momentText"></p>
           </div>
           <div class="card month-story">
             <h3>Experiências que deram contexto ao mês</h3>
-            <p>
+            <p id="monthContext">
               A turma entrou no Year 1 por meio de rotinas, perguntas,
               observação de seres vivos e não vivos, contagem, formas e
               comunicação apoiada. Global Perspectives apareceu ao investigar,
               ouvir ideias, cuidar dos materiais e construir combinados.
             </p>
-            <div class="chips">
-              <span class="chip">Hello! · greetings</span
-              ><span class="chip">living / non-living</span
-              ><span class="chip">numbers to 10</span
-              ><span class="chip">shape map</span
-              ><span class="chip">ask · listen · share</span>
-            </div>
+            <div class="chips" id="monthChips"></div>
           </div>
         </section>
         <section class="section">
@@ -715,6 +709,19 @@
             "está começando a experimentar sons, palavras e respostas em inglês quando encontra modelos e mediação.",
         },
       };
+      const monthProfiles = {
+        Fevereiro:{en:'February',title:'February Learning Snapshot',heading:'Uma descoberta que ganhou forma',cover:'Um retrato da chegada, dos vínculos e dos primeiros passos de aprendizagem de cada criança.',intro:'Em February, a Matemática ganhou vida dentro do primeiro projeto da turma: o Classroom Shape Map.',activity:'Shape Hunt: procurando formas na nossa escola',context:'A turma entrou no Year 1 por meio de rotinas, perguntas, observação de seres vivos e não vivos, contagem, formas e comunicação apoiada. Global Perspectives apareceu ao investigar, ouvir ideias, cuidar dos materiais e construir combinados.',chips:['Hello! · greetings','living / non-living','numbers to 10','shape map','ask · listen · share'],welcome:n=>`Querida família, começar um novo ciclo escolar é feito de descobertas grandes e pequenas. Foi muito bonito acompanhar ${n} em February, conhecendo a turma, encontrando seu lugar nas rotinas e vivendo as primeiras experiências de aprendizagem em inglês.`,moment:n=>`Na nossa Shape Hunt, as crianças saíram pela sala com olhos de pesquisadores: observaram portas, mesas, relógios, livros e outros objetos, procurando circles, squares, triangles e rectangles. Em duplas, apontaram o que encontravam, compararam formas e usaram a linguagem do mês para nomear suas descobertas. Depois, registraram algumas delas no Classroom Shape Map, construindo juntos um mapa que mostra como a Matemática aparece no espaço onde aprendemos todos os dias.`,next:n=>`No próximo ciclo, vamos apoiar ${n} a usar as rotinas já conhecidas para fazer mais escolhas, explicar descobertas e escutar os colegas.`,family:'Façam uma pequena Shape Hunt em casa: procurem juntos um circle, um square, um triangle e um rectangle. Vale responder com desenho, gesto ou uma palavra em inglês.',closing:n=>`Encerramos este primeiro mês com alegria e confiança no caminho que está começando. Cada nova palavra, pergunta, tentativa e vínculo de ${n} seguirá crescendo ao longo do ano.`},
+        Março:{en:'March',title:'March Learning Snapshot',heading:'Uma descoberta que começou a crescer',cover:'Um retrato de curiosidade, cuidado e aprendizagens que ganham raízes.',intro:'Em March, a Science guiou uma investigação sobre o que as plantas precisam para crescer.',activity:'Plant Detectives: observando o que ajuda uma planta a viver',context:'A turma explorou plantas, necessidades dos seres vivos, objetos da sala, formas e halves. O Classroom Shape Map ganhou novos detalhes e novas perguntas.',chips:['plant detectives','living things','root · leaf · stem','halves','my class'],welcome:n=>`Querida família, depois do acolhimento inicial, foi bonito ver ${n} circulando com mais familiaridade pela escola e descobrindo que aprender também é cuidar, observar e perguntar.`,moment:n=>`Como pequenos cientistas, as crianças observaram plantas de perto, localizaram raízes, folhas e caules e conversaram sobre o que um ser vivo precisa para crescer. Elas compararam o que viam, fizeram registros e experimentaram explicar suas ideias com palavras e imagens.`,next:n=>`Em April, vamos ampliar a escuta, a observação e a capacidade de registrar descobertas em diferentes linguagens.`,family:'Escolham uma planta de casa para observar por alguns dias. Perguntem o que ela precisa para viver e façam um desenho mostrando uma parte que chamou atenção.',closing:n=>`March deixou perguntas plantadas — e é bonito ver ${n} percebendo que a curiosidade também cresce quando é cuidada todos os dias.`},
+        Abril:{en:'April',title:'April Learning Snapshot',heading:'Uma descoberta que pudemos escutar',cover:'Um retrato de atenção, comparação e descoberta pelo som.',intro:'Em April, a Science convidou a turma a investigar sons e a perceber o mundo com mais atenção.',activity:'Sound Walk: escutando a escola de um jeito novo',context:'A turma investigou sons, cores, medidas de comprimento e elementos da natureza. A observação virou registro, comparação e conversa.',chips:['sound walk','loud / quiet','colours','longer / shorter','garden'],welcome:n=>`Querida família, neste mês vimos ${n} se envolver em experiências que pediam atenção aos pequenos detalhes — aqueles que muitas vezes passam despercebidos na correria do dia.`,moment:n=>`Durante a Sound Walk, as crianças caminharam pela escola para escutar com intenção: identificaram sons altos e baixos, próximos e distantes, compararam o que ouviam e registraram suas descobertas. A atividade mostrou que investigar também pode começar pelos ouvidos.`,next:n=>`No próximo mês, vamos transformar observação em escolhas: testar materiais, organizar dados e explicar por que uma solução funciona.`,family:'Façam uma pausa de um minuto em casa para escutar. Quais sons ${n} consegue identificar? Organizem juntos em “loud” e “quiet”.',closing:n=>`April nos lembrou que aprender é prestar atenção. Seguimos animados para descobrir com ${n} quantas perguntas ainda cabem no cotidiano.`},
+        Maio:{en:'May',title:'May Learning Snapshot',heading:'Uma ideia que virou teste',cover:'Um retrato de escolhas, materiais e pequenas decisões de design.',intro:'Em May, a turma investigou materiais e descobriu que boas ideias podem ser testadas, revistas e melhoradas.',activity:'Material Lab: escolhendo, testando e explicando',context:'A turma explorou toys, materiais, posição e dados simples. As crianças observaram propriedades, fizeram escolhas e começaram a justificar suas soluções.',chips:['material lab','hard / soft','position','data','my toys'],welcome:n=>`Querida família, este mês foi cheio de mãos em ação. Foi especial acompanhar ${n} percebendo que uma ideia pode ser testada, ajustada e compartilhada.`,moment:n=>`No Material Lab, as crianças tocaram, compararam e testaram diferentes materiais. Conversaram sobre o que era hard, soft, smooth ou rough e escolheram quais poderiam funcionar melhor para um desafio. Mais do que acertar de primeira, elas viveram a alegria de investigar e tentar de novo.`,next:n=>`Em June, vamos conectar as descobertas à vida cotidiana: casas, rotinas, tempo e as pessoas que ajudam nossa comunidade.`,family:'Escolham dois objetos de casa e comparem seus materiais. Perguntem: qual é mais soft? Qual é mais hard? Para que cada um serve?',closing:n=>`May mostrou que pensar como pesquisador também é experimentar sem medo. Seguimos celebrando as escolhas e perguntas de ${n}.`},
+        Junho:{en:'June',title:'June Learning Snapshot',heading:'Uma rotina que virou aprendizagem',cover:'Um retrato de tempo, comunidade e das pessoas que organizam o nosso dia.',intro:'Em June, a turma percebeu que o tempo e a comunidade ajudam a contar histórias sobre como vivemos.',activity:'Our Day, Our Community: organizando tempo e descobrindo quem ajuda',context:'A turma explorou a casa, o tempo, números até 20 e pessoas que trabalham na comunidade. As experiências conectaram linguagem, rotina e pertencimento.',chips:['my house','time','numbers to 20','jobs','community'],welcome:n=>`Querida família, neste mês foi bonito observar ${n} reconhecer que a escola, a casa e a comunidade são feitas de rotinas e de pessoas que cuidam umas das outras.`,moment:n=>`Em uma investigação sobre o dia a dia, as crianças organizaram momentos da rotina, conversaram sobre horários e conheceram diferentes trabalhos da comunidade. Elas perceberam que cada pessoa tem uma função e que, juntos, organizamos os espaços onde vivemos.`,next:n=>`Depois da pausa, vamos retomar com novas perguntas sobre o corpo, o planeta e como nossas ações cuidam dos espaços compartilhados.`,family:'Conversem sobre a rotina de casa: o que acontece de manhã, à tarde e à noite? Escolham uma pessoa que ajuda a família e contem por quê.',closing:n=>`June fecha esta etapa com muitas conexões feitas. O aprendizado de ${n} continua vivo nas perguntas que leva para casa e nas histórias que traz de volta.`},
+        Agosto:{en:'August',title:'August Learning Snapshot',heading:'Uma investigação sobre o planeta que habitamos',cover:'Um retrato de responsabilidade, colaboração e cuidado com o mundo próximo.',intro:'Em August, a Science e a Global Perspectives convidaram a turma a olhar para a Terra e para as escolhas que fazemos nela.',activity:'Earth Care Investigation: pequenos gestos, grandes cuidados',context:'A turma explorou o corpo, o planeta, rochas e solo, números até 20 e frações de quantidades. As descobertas se ligaram ao cuidado com os espaços comuns.',chips:['Planet Earth','soil · rocks','my body','fractions','care'],welcome:n=>`Querida família, depois da pausa, foi muito bom reencontrar ${n} com energia para investigar o mundo e perceber que cada pessoa pode cuidar do lugar onde vive.`,moment:n=>`Na Earth Care Investigation, as crianças observaram elementos do planeta, conversaram sobre solo, pedras e espaços que compartilhamos e pensaram em pequenas ações de cuidado. A atividade transformou curiosidade em responsabilidade: o que vemos ao nosso redor também merece atenção.`,next:n=>`Em September, vamos aprofundar a investigação sobre seres vivos, necessidades, habitats e o uso responsável da água.`,family:'Em um passeio curto, procurem algo que vem da Terra — uma pedra, terra ou uma planta. Perguntem: como podemos cuidar desse lugar?',closing:n=>`August abriu um novo capítulo de investigação. Seguimos confiantes de que as perguntas de ${n} podem se transformar em gestos de cuidado.`},
+        Setembro:{en:'September',title:'September Learning Snapshot',heading:'Uma pergunta que aproximou ciência e cuidado',cover:'Um retrato de observação, empatia e descobertas sobre os seres vivos.',intro:'Em September, a turma investigou do que os animais precisam para viver e como podemos observar o mundo com responsabilidade.',activity:'Animal Needs Lab: observando, comparando e cuidando',context:'A turma explorou o corpo, sentidos, animais, habitats, massa, capacidade e água. As investigações ajudaram a diferenciar fatos, opiniões e ações de cuidado.',chips:['animals','habitats','needs','water','facts / opinions'],welcome:n=>`Querida família, este mês acompanhamos ${n} em perguntas que misturam ciência e empatia: o que um animal precisa? Onde ele vive? Como podemos cuidar dos seres vivos?`,moment:n=>`No Animal Needs Lab, as crianças observaram imagens e pistas sobre diferentes animais, compararam habitats e pensaram no que cada um precisa para viver. Ao justificar escolhas, perceberam que investigar é também aprender a olhar com cuidado para outras formas de vida.`,next:n=>`Em October, vamos usar dados, escolhas e experiências de movimento para pensar em soluções e ações responsáveis.`,family:'Escolham um animal de que ${n} goste. Conversem sobre onde ele vive, o que come e como as pessoas podem cuidar de seu habitat.',closing:n=>`September trouxe descobertas cheias de vida. Seguimos celebrando a curiosidade de ${n} e sua capacidade de transformar observação em cuidado.`},
+        Outubro:{en:'October',title:'October Learning Snapshot',heading:'Uma descoberta que se moveu',cover:'Um retrato de hipóteses, dados e escolhas que podem fazer diferença.',intro:'Em October, a turma investigou movimento, forças e escolhas do cotidiano, aprendendo que testar ideias é parte importante de aprender.',activity:'Move It Challenge: testando forças e criando soluções',context:'A turma explorou movimento, flutuação, magnetismo, agrupamento e partilha, além de dados sobre preferências e hábitos de cuidado.',chips:['move it','float / sink','magnets','grouping','water care'],welcome:n=>`Querida família, foi muito especial ver ${n} viver um mês de hipóteses: “o que acontece se...?” virou ponto de partida para testar, conversar e descobrir.`,moment:n=>`No Move It Challenge, as crianças fizeram previsões, testaram objetos e observaram o que mudava quando empurravam, puxavam, aproximavam ímãs ou colocavam materiais na água. Cada tentativa trouxe uma nova conversa sobre forças, movimento e como aprendemos quando revisamos uma ideia.`,next:n=>`Em November, vamos reunir evidências do ano, escolher produções e preparar uma celebração das aprendizagens construídas.`,family:'Escolham dois objetos seguros de casa para testar movimento: o que desliza melhor? O que precisa de mais força? Primeiro façam uma previsão, depois experimentem.',closing:n=>`October mostrou que aprender também é ter coragem de testar. Seguimos felizes ao ver ${n} construir explicações cada vez mais próprias.`},
+        Novembro:{en:'November',title:'November Learning Snapshot',heading:'Uma história de aprendizagem para compartilhar',cover:'Um retrato de memória, orgulho e de tudo o que ganhou sentido ao longo do ano.',intro:'Em November, a turma olhou para as próprias produções e percebeu o quanto aprendeu ao investigar, criar e comunicar.',activity:'Learning Exhibition: escolhendo evidências e contando o que aprendemos',context:'A turma revisou conteúdos do ano, selecionou produções, retomou perguntas importantes e ensaiou formas de compartilhar suas descobertas com clareza e orgulho.',chips:['portfolio','review','presentation','I learned...','celebrate'],welcome:n=>`Querida família, chegamos a um mês muito especial: o de olhar para trás com ${n}, reconhecer conquistas e perceber o quanto cresceu desde os primeiros dias do Year 1.`,moment:n=>`Na preparação da Learning Exhibition, as crianças revisitaram desenhos, mapas, registros e produções do ano. Escolheram evidências de que se orgulham, contaram o que aprenderam e ensaiaram como compartilhar essas histórias. Foi uma oportunidade bonita de tornar visível um percurso inteiro de descobertas.`,next:n=>`Encerramos o ciclo apoiando ${n} a reconhecer suas conquistas e a levar sua curiosidade para os próximos desafios.`,family:'Peçam para ${n} escolher uma produção ou lembrança do ano e contar: “I learned...”. Ouçam a história com curiosidade e celebrem o caminho, não apenas o resultado.',closing:n=>`November é uma celebração de percurso. O que ${n} construiu neste ano seguirá acompanhando suas novas perguntas, suas relações e sua confiança para aprender.`}
+      };
+      const requestedMonth = new URLSearchParams(window.location?.search || '').get('month') || 'Fevereiro';
+      const profile = monthProfiles[requestedMonth] || monthProfiles.Fevereiro;
       function update() {
         const n = $("student").value.trim() || "o aluno",
           p = $("participation").value,
@@ -727,19 +734,26 @@
         $("outClass").textContent = $("className").value.trim() || "Year 1";
         $("outTeacher").textContent =
           $("teacher").value.trim() || "Professor(a)";
+        $("reportTitle").textContent = profile.title;
+        $("coverSubtitle").textContent = profile.cover;
+        $("monthMeta").textContent = `${profile.en} · 2026`;
+        $("discoveryHeading").textContent = profile.heading;
+        $("discoveryIntro").innerHTML = profile.intro.replace('Classroom Shape Map','<em>Classroom Shape Map</em>');
+        $("activityTitle").textContent = profile.activity;
+        $("monthContext").textContent = profile.context;
+        $("monthChips").replaceChildren(...profile.chips.map(label=>{const chip=document.createElement('span');chip.className='chip';chip.textContent=label;return chip;}));
         ["headingName", "headingName3"].forEach(
           (id) => ($(id).textContent = n),
         );
-        $("welcome").textContent = `Querida família, começar um novo ciclo escolar é feito de descobertas grandes e pequenas. Foi muito bonito acompanhar ${n} em February, conhecendo a turma, encontrando seu lugar nas rotinas e vivendo as primeiras experiências de aprendizagem em inglês. ${t.arrival[a](n)}`;
-        $("momentText").textContent = `Na nossa Shape Hunt, as crianças saíram pela sala com olhos de pesquisadores: observaram portas, mesas, relógios, livros e outros objetos, procurando circles, squares, triangles e rectangles. Em duplas, apontaram o que encontravam, compararam formas e usaram a linguagem do mês para nomear suas descobertas. Depois, registraram algumas delas no Classroom Shape Map, construindo juntos um mapa que mostra como a Matemática aparece no espaço onde aprendemos todos os dias.${note ? ` Para ${n}, um detalhe especial foi: ${note}` : ""}`;
+        $("welcome").textContent = `${profile.welcome(n)} ${t.arrival[a](n)}`;
+        $("momentText").textContent = `${profile.moment(n)}${note ? ` Para ${n}, um detalhe especial foi: ${note}` : ""}`;
         $("participationText").textContent = t.participation[p](n);
         $("inquiryText").textContent = t.inquiry[i](n);
         $("communicationText").textContent =
           `${t.communication[c](n)} Em inglês, ${n} ${t.english[e]}`;
-        $("next").textContent =
-          `No próximo ciclo, vamos partir do que ${n} já mostra para ampliar participação, escolha, explicação e escuta — com rotinas claras, apoio visual e pequenos desafios.`;
-        $("family").textContent = `Façam uma pequena Shape Hunt em casa: procurem juntos um circle, um square, um triangle e um rectangle. Perguntem onde ${n} encontrou cada forma e acolham desenhos, gestos e palavras em inglês como respostas.`;
-        $("closing").textContent = `Encerramos este primeiro mês com alegria e confiança no caminho que está começando. Cada nova palavra, pergunta, tentativa e vínculo de ${n} é parte de uma aprendizagem que continuará crescendo ao longo do ano. Seguimos juntos, escola e família, celebrando esse percurso.`;
+        $("next").textContent = profile.next(n);
+        $("family").textContent = profile.family;
+        $("closing").textContent = profile.closing(n);
       }
       $("update").onclick = update;
       $("print").onclick = () => {
