@@ -426,7 +426,7 @@
     </style>
   </head>
   <body>
-    <!-- build: 20261029-year1-february-shape-hunt-family-v3 -->
+    <!-- build: 20261029-year1-february-generation-fix-v4 -->
     <section class="builder">
       <div class="builder-card">
         <h1>Relatório Mensal de Aprendizagem · Year 1</h1>
@@ -727,11 +727,11 @@
         $("outClass").textContent = $("className").value.trim() || "Year 1";
         $("outTeacher").textContent =
           $("teacher").value.trim() || "Professor(a)";
-        ["headingName", "headingName2", "headingName3"].forEach(
+        ["headingName", "headingName3"].forEach(
           (id) => ($(id).textContent = n),
         );
         $("welcome").textContent = `Querida família, começar um novo ciclo escolar é feito de descobertas grandes e pequenas. Foi muito bonito acompanhar ${n} em February, conhecendo a turma, encontrando seu lugar nas rotinas e vivendo as primeiras experiências de aprendizagem em inglês. ${t.arrival[a](n)}`;
-        $("momentText").textContent = `Na nossa Shape Hunt, a turma percorreu a sala procurando circles, squares, triangles e rectangles em objetos do cotidiano. Depois, as crianças levaram essas descobertas para o Classroom Shape Map — uma forma divertida de perceber que a Matemática está nas coisas que usamos e nos lugares por onde passamos.${note ? ` Para ${n}, um detalhe especial foi: ${note}` : ""}`;
+        $("momentText").textContent = `Na nossa Shape Hunt, as crianças saíram pela sala com olhos de pesquisadores: observaram portas, mesas, relógios, livros e outros objetos, procurando circles, squares, triangles e rectangles. Em duplas, apontaram o que encontravam, compararam formas e usaram a linguagem do mês para nomear suas descobertas. Depois, registraram algumas delas no Classroom Shape Map, construindo juntos um mapa que mostra como a Matemática aparece no espaço onde aprendemos todos os dias.${note ? ` Para ${n}, um detalhe especial foi: ${note}` : ""}`;
         $("participationText").textContent = t.participation[p](n);
         $("inquiryText").textContent = t.inquiry[i](n);
         $("communicationText").textContent =
