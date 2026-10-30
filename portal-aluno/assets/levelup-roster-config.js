@@ -6,12 +6,12 @@
  * sem exigir mudança nas páginas das provas.
  */
 window.LEVELUP_ROSTER_CONFIG = {
-  version: '2026-10-28-pending-official-rosters',
+  version: '2026-10-30-third-year-integration-test',
   schools: {
     praia_grande: {
       schoolName: 'Praia Grande',
       classGroups: {
-        '3o_ano': [],
+        '3o_ano': ['TESTE-3A'],
         '4o_ano': ['4A', '4B'],
         '5o_ano': ['5A', '5B'],
         '6o_ano': [],
@@ -20,7 +20,7 @@ window.LEVELUP_ROSTER_CONFIG = {
         '9o_ano': []
       },
       teachers: {
-        '3o_ano': [],
+        '3o_ano': ['Professor(a) Teste'],
         '4o_ano': [],
         '5o_ano': [],
         '6o_ano': [],
