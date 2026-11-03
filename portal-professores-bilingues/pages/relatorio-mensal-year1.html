@@ -426,7 +426,7 @@
     </style>
   </head>
   <body>
-    <!-- build: 20261030-year4-monthly-snapshots-v1 -->
+    <!-- build: 20261103-fundamental1-monthly-audit-fix-v1 -->
     <section class="builder">
       <div class="builder-card">
         <h1>Relatório Mensal de Aprendizagem · Year 1</h1>
@@ -663,8 +663,8 @@
       const $ = (id) => document.getElementById(id);
       const t = {
         arrival: {
-          settled: (n) =>
-            `${n} chegou a este início de Year 1 reconhecendo o espaço, as pessoas e as rotinas. Mostra-se seguro(a) para entrar no grupo e viver as propostas do dia.`,
+          settled: (n, year) =>
+            `${n} chegou a este início de Year ${year} reconhecendo o espaço, as pessoas e as rotinas. Mostra-se seguro(a) para entrar no grupo e viver as propostas do dia.`,
           growing: (n) =>
             `${n} está construindo segurança na chegada. Com acolhimento e previsibilidade, encontra seu lugar no grupo e vem reconhecendo as rotinas que organizam o dia.`,
           supported: (n) =>
@@ -1034,6 +1034,7 @@
       };
       const profiles = requestedYear === '5' ? year5Profiles : requestedYear === '4' ? year4Profiles : requestedYear === '3' ? year3Profiles : requestedYear === '2' ? year2Profiles : monthProfiles;
       const profile = (requestedYear === '5' && brand.label === 'Santo Anjo' ? santoYear5Profiles[requestedMonth] : requestedYear === '4' && brand.label === 'Santo Anjo' ? santoYear4Profiles[requestedMonth] : requestedYear === '3' && brand.label === 'Santo Anjo' ? santoYear3Profiles[requestedMonth] : requestedYear === '1' && brand.label === 'Santo Anjo' ? santoProfiles[requestedMonth] : profiles[requestedMonth]) || profiles.Fevereiro;
+      if ($("className").value.trim() === "Year 1") $("className").value = `Year ${requestedYear}`;
       function update() {
         const n = $("student").value.trim() || "o aluno",
           p = $("participation").value,
@@ -1062,7 +1063,7 @@
         ["headingName", "headingName3"].forEach(
           (id) => ($(id).textContent = n),
         );
-        $("welcome").textContent = `${profile.welcome(n)} ${t.arrival[a](n)}`;
+        $("welcome").textContent = `${profile.welcome(n)} ${t.arrival[a](n, requestedYear)}`;
         $("momentText").textContent = `${profile.moment(n)}${note ? ` Para ${n}, um detalhe especial foi: ${note}` : ""}`;
         $("participationText").textContent = t.participation[p](n);
         $("inquiryText").textContent = t.inquiry[i](n);
