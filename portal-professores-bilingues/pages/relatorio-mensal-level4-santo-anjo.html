@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- portal-version: 20261023-level4-santo-anjo-print-parity -->
+<!-- portal-version: 20261103-level4-santo-anjo-family-snapshots-v1 -->
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
@@ -42,6 +42,7 @@
     /* Variação mensal da identidade rosa/turquesa do Report Card Level 3. */
     :root{--navy:#1e2a4f;--green:#23a6b8;--mint:#e7fbfc;--peach:#fff1f8;--orange:#f6c65a;--paper:#fffaff;--ink:#1e2a4f;--muted:#675b70;--line:#f0b4d0;--pink:#e86aa3;--red:#c84c89;--blue:#23a6b8}
     body{background:#fff0f7}.builder-head{border-color:#f0b4d0}.primary{background:#c84c89}.cover{background:linear-gradient(135deg,#f4b5cf,#e86aa3 53%,#f6c65a);border-bottom-color:#c84c89}.cover:before{background:linear-gradient(135deg,rgba(30,42,79,.35),rgba(200,76,137,.50));opacity:1}.cover:after{border-color:rgba(255,255,255,.32)}.badge{background:#23a6b8}.content{background:linear-gradient(180deg,#fffaff,#fff0f7)}.chip{background:#e7fbfc;color:#127d91}.learning-card,.dev,.letter,.family{border-color:#f0b4d0}.letter{background:linear-gradient(#fff,#fff) padding-box,linear-gradient(#c84c89,#e86aa3,#23a6b8) border-box;border-left-color:transparent}.next,.family{background:linear-gradient(135deg,#fff1f8,#e7fbfc);border-color:#f0b4d0}
+    .learning-card .moment{margin:10px 0 0;padding:10px 12px;border-radius:13px;background:#e7fbfc;color:#1e5964;font-size:12px;line-height:1.4;font-weight:600}@media print{.cover{min-height:72mm!important;padding:5mm 8mm 4mm!important}.cover-content{margin-top:6mm!important}.content{gap:1.5mm!important;padding:3mm 8mm 2mm!important}.section h2{font-size:13px!important}.welcome-letter{padding:2.5mm 3.5mm!important}.welcome-letter p,.learning-card p,.closing p{font-size:8.5px!important;line-height:1.2!important}.learning-card{padding:2.5mm 3.5mm!important}.dev{padding:2.5mm!important}.dev p,.next p,.family p{font-size:8px!important;line-height:1.2!important}.learning-card .moment{margin-top:1.5mm;padding:1.5mm 2.5mm;font-size:7.8px;line-height:1.2}.signatures{display:none!important}}
   </style>
 </head>
 <body>
@@ -58,14 +59,14 @@
       <div class="field"><label for="year">Ano</label><input id="year" value="2026"></div>
     </div>
     <div class="indicator-grid">
-      <div class="indicator"><strong>Engajamento nas experiências</strong><span>Como participou das propostas do mês.</span><select id="engagement"><option value="enthusiastic">Participou com interesse e iniciativa</option><option value="steady">Participou com segurança crescente</option><option value="supported">Participou com apoio e acolhimento</option></select></div>
-      <div class="indicator"><strong>Compreensão e resposta</strong><span>Resposta a linguagem, rotina e propostas.</span><select id="understanding"><option value="recognizes">Reconheceu e respondeu a apoios visuais/gestuais</option><option value="uses">Demonstrou compreensão em situações conhecidas</option><option value="emerging">Está construindo compreensão com mediação</option></select></div>
-      <div class="indicator"><strong>Uso do inglês</strong><span>Gestos, escolhas, palavras ou frases apoiadas.</span><select id="language"><option value="gestures">Usou gestos, apontamentos e escolhas com significado</option><option value="words">Experimentou palavras e expressões do mês</option><option value="frames">Usou palavras/frases curtas com apoio</option></select></div>
-      <div class="indicator"><strong>Exploração e descoberta</strong><span>Curiosidade, investigação e criação.</span><select id="discovery"><option value="curious">Mostrou curiosidade e disposição para explorar</option><option value="observant">Observou, comparou e testou possibilidades</option><option value="guided">Explorou com apoio próximo do adulto</option></select></div>
-      <div class="indicator"><strong>Convivência</strong><span>Relação com pares, adultos e materiais.</span><select id="social"><option value="collaborates">Compartilhou e participou de propostas coletivas</option><option value="building">Está fortalecendo turnos e interações</option><option value="secure">Buscou segurança na relação com o adulto/grupo</option></select></div>
-      <div class="indicator"><strong>Autonomia do período</strong><span>Pequenas ações possíveis na rotina.</span><select id="autonomy"><option value="initiative">Fez escolhas e assumiu pequenas iniciativas</option><option value="routine">Acompanhou combinados e rotinas com apoio</option><option value="developing">Está construindo autonomia gradualmente</option></select></div>
+      <div class="indicator"><strong>Entrada e permanência na proposta</strong><span>Observe como iniciou e sustentou a participação.</span><select id="engagement"><option>Iniciou e permaneceu por iniciativa própria</option><option>Iniciou após convite, modelo ou apoio visual</option><option>Precisou de acolhimento próximo para iniciar ou permanecer</option></select></div>
+      <div class="indicator"><strong>Resposta à proposta</strong><span>Observe como respondeu ao que ouviu ou viu.</span><select id="understanding"><option>Respondeu após ouvir ou observar uma vez</option><option>Respondeu a situações conhecidas com pouco apoio</option><option>Precisou de repetição, gesto ou demonstração para responder</option></select></div>
+      <div class="indicator"><strong>Comunicação em inglês</strong><span>Observe o recurso de comunicação que utilizou.</span><select id="language"><option>Comunicou uma escolha por gesto, apontamento ou imagem</option><option>Experimentou uma palavra ou expressão do mês</option><option>Usou palavra ou frase curta para comunicar uma ideia</option></select></div>
+      <div class="indicator"><strong>Investigação</strong><span>Observe como explorou materiais e ideias.</span><select id="discovery"><option>Manipulou e testou materiais por iniciativa própria</option><option>Observou, comparou ou mostrou o que percebeu</option><option>Explorou quando o adulto iniciou e acompanhou a ação</option></select></div>
+      <div class="indicator"><strong>Interação</strong><span>Observe como participou com os colegas.</span><select id="social"><option>Compartilhou materiais ou participou de turnos com o grupo</option><option>Interagiu após convite ou mediação do adulto</option><option>Buscou proximidade do adulto antes de interagir com o grupo</option></select></div>
+      <div class="indicator"><strong>Autonomia</strong><span>Observe as pequenas ações que já realiza.</span><select id="autonomy"><option>Realizou uma etapa da rotina por conta própria</option><option>Fez uma escolha quando recebeu opções claras</option><option>Realizou a ação com lembrete, modelo ou ajuda próxima</option></select></div>
     </div>
-    <div class="actions"><button class="btn primary" id="update" type="button">Gerar relatório mensal</button><button class="btn secondary" id="print" type="button">Salvar / Imprimir PDF</button></div>
+    <p class="hint" id="monthlyObservationHint"></p><div class="actions"><button class="btn primary" id="update" type="button">Gerar relatório mensal</button><button class="btn secondary" id="print" type="button">Salvar / Imprimir PDF</button></div>
     <p class="hint">O gerador produz o texto automaticamente. Antes de salvar, confira apenas os dados de identificação e selecione “gráficos/fundos da página” na janela de impressão.</p>
   </div>
 </section>
@@ -74,7 +75,7 @@
   <section class="cover"><div class="squiggle s1">〰</div><div class="squiggle s2">〰</div><div class="dots"></div><div class="leaf-cluster"><i class="leaf"></i><i class="leaf"></i><i class="leaf"></i><i class="leaf"></i><i class="leaf"></i></div><div class="top"><div class="logo"><img id="schoolLogo" src="../assets/logos/objetivo-logo-public-ref.png" alt="Objetivo"></div><div class="seal-panel"><img src="../assets/logos/cambridge-educational-partner-flat-cropped-large.png" alt="Cambridge Educational Partner"><img src="../assets/logos/cambridge-preparation-centre.png" alt="Cambridge Preparation Centre"></div><div class="badge">Acompanhamento mensal</div></div><div class="cover-content"><h1 id="reportTitle">February Learning<br>Snapshot</h1><p id="coverSubtitle">Um retrato das experiências e descobertas vividas neste mês.</p><div class="meta"><div><strong>Student</strong><span id="outStudent">Nome da criança</span></div><div><strong>Class</strong><span id="outClass">Level 1</span></div><div><strong>School</strong><span id="outSchoolCover">Escola</span></div><div><strong>Month</strong><span id="outMonth">Fevereiro</span></div><div><strong>Teacher</strong><span id="outTeacher">Professor(a)</span></div></div></div><div class="cover-mascots" aria-hidden="true"><img src="../assets/characters/transparent/rsg-character-1-transparent.png" alt=""><img src="../assets/characters/transparent/rsg-character-2-transparent.png" alt=""><img src="../assets/characters/transparent/rsg-character-3-transparent.png" alt=""></div></section>
   <section class="content">
     <section class="section"><h2>Uma mensagem para a família</h2><div class="letter welcome-letter" id="welcomeMessage"></div></section>
-    <section class="section"><h2>Neste mês, vivenciamos</h2><p>Um recorte do que foi desenvolvido na matriz mensal do Level 4 do Santo Anjo.</p><div class="learning-card"><h3 id="monthTitle">Fevereiro · Come into my class!</h3><p id="monthDescription"></p><div class="chips" id="monthChips"></div></div></section>
+    <section class="section"><h2>Neste mês, vivenciamos</h2><p>Um recorte do que foi desenvolvido na matriz mensal do Level 4 do Santo Anjo.</p><div class="learning-card"><h3 id="monthTitle">Fevereiro · Come into my class!</h3><p id="monthDescription"></p><p class="moment" id="momentText"></p><div class="chips" id="monthChips"></div></div></section>
     <section class="section"><h2 id="developmentHeading">Como a criança se desenvolveu</h2><p id="developmentIntro">Estas observações apresentam o percurso do mês e não substituem a avaliação consolidada do Report Card.</p><div class="development"><article class="dev"><h3 id="participationTitle">Participação e linguagem</h3><p id="participation"></p></article><article class="dev"><h3 id="explorationTitle">Exploração e convivência</h3><p id="exploration"></p></article><article class="dev"><h3 id="independenceTitle">Autonomia em construção</h3><p id="independence"></p></article></div></section>
     <div class="bottom-grid"><section class="next"><h2 id="nextTitle">Próximo passo</h2><p id="nextStep"></p></section><aside class="family"><strong id="familyTitle">Conversa em família</strong><p id="familyTip"></p></aside></div>
     <section class="closing" id="closingMessage"></section>
@@ -168,6 +169,17 @@ const level4Months=[
 {n:'Outubro',title:'Unit 8 · What do clothes tell us?',desc:'Roupas, clima, escolhas pessoais e respeito à diversidade em propostas de classificação e criação.',chips:['What are you wearing?','I’m wearing...','big / small','hot / cold','clothes'],next:'Fortalecer descrição, escolhas e relação entre roupa, clima e função.',tip:'Conversem sobre uma peça escolhida e onde ou quando ela pode ser usada.'},
 {n:'Novembro',title:'Unit 9 · My garden',desc:'Jardim, plantas, pequenos seres vivos, cuidado e celebração das descobertas do ano.',chips:['I can see...','It’s growing','water / sun','My favourite...','garden'],next:'Valorizar observação, cuidado e seleção das evidências do percurso anual.',tip:'Observem uma planta ou jardim e conversem sobre o que ela precisa para crescer.'}
 ];
+const familyProfiles={
+Fevereiro:['Na chegada ao novo nível, {name} participou de uma caça aos materiais da sala: encontrou objetos, seguiu combinados e ensaiou pedidos para usar cada um.','Fortalecer pedidos funcionais, cuidado com materiais e autonomia nas rotinas.'],
+Março:['Com espelhos e retratos, a turma observou características, nomeou partes do corpo e criou descrições respeitosas de si e dos colegas.','Ampliar a descrição de si e do outro com respeito e confiança.'],
+Abril:['Em rodas de sentimentos e dramatizações, as crianças reconheceram emoções, imaginaram formas de pedir ajuda e pensaram em como acolher um colega.','Aprofundar a identificação de emoções e estratégias de cuidado.'],
+Maio:['Nos jogos cooperativos, a turma fez convites, combinou turnos e testou maneiras de construir uma brincadeira junto com os colegas.','Apoiar convites, turn-taking e colaboração nas brincadeiras.'],
+Junho:['Em uma proposta de mercado, as crianças fizeram escolhas, conversaram sobre gostos e praticaram linguagem de cortesia em situações de faz de conta.','Ampliar preferências e respeito às escolhas alimentares.'],
+Agosto:['Ao investigar sons e instrumentos, a turma comparou ritmo, volume e velocidade e criou pequenas sequências musicais em grupo.','Aprofundar escuta, comparação de sons e explicação de descobertas.'],
+Setembro:['Com mapas e miniaturas, as crianças localizaram espaços da casa, organizaram objetos e explicaram onde cada um poderia ficar.','Ampliar linguagem de localização e conexões entre casa e cuidado.'],
+Outubro:['Com uma mala de roupas e cartões de clima, a turma escolheu peças, explicou preferências e conversou sobre função e diversidade.','Fortalecer descrição, escolhas e relação entre roupa, clima e função.'],
+Novembro:['No jardim da escola, as crianças observaram plantas, registraram mudanças e escolheram evidências para contar suas descobertas do ano.','Valorizar observação, cuidado e reflexão sobre o percurso anual.']
+};
 const requestedBrand=new URLSearchParams(window.location.search).get('brand');
 const requestedMonth=new URLSearchParams(window.location.search).get('month');
 const fixedBrand=Object.prototype.hasOwnProperty.call(brands,requestedBrand)?requestedBrand:null;
@@ -187,12 +199,21 @@ function update(){
   const name=person(), school=document.getElementById('school').value, cls=document.getElementById('className').value||'Level 4', teacher=document.getElementById('teacher').value.trim()||'Professor(a)';
   const selectedMonth=level4Months[document.getElementById('month').value];
   const m=selectedMonth;
+  const profile=familyProfiles[m.n];
   const engagement=optionText('engagement').toLowerCase(),understanding=optionText('understanding').toLowerCase(),language=optionText('language').toLowerCase(),discovery=optionText('discovery').toLowerCase(),social=optionText('social').toLowerCase(),autonomy=optionText('autonomy').toLowerCase();
   const isArrival=m.n==='Fevereiro';
   setBrand(school);set('reportTitle',monthTitleInEnglish[m.n]+' Learning Snapshot');set('outStudent',name);set('outClass',cls);set('outMonth',m.n+' · '+document.getElementById('year').value);set('outSchool',school);set('outSchoolCover',school);set('outTeacher',teacher);
   set('coverSubtitle',isArrival?'Um registro afetivo dos primeiros vínculos, descobertas e passos de '+name+' na escola.':'Um retrato das experiências e descobertas de '+name+' em '+m.n.toLowerCase()+'.');
   set('monthTitle',m.n+' · '+m.title);set('monthDescription',m.desc);document.getElementById('monthChips').innerHTML=m.chips.map(x=>'<span class="chip">'+x+'</span>').join('');
-  if(isArrival){
+  set('momentText','Uma descoberta em cena: '+profile[0].replaceAll('{name}',name));
+  set('monthlyObservationHint','Foco de observação em '+m.n.toLowerCase()+': '+profile[1]);
+  if(profile){
+    setHtml('welcomeMessage','<p><strong>Em '+m.n.toLowerCase()+', '+name+' viveu uma experiência que marcou o percurso do mês.</strong> Este relatório aproxima a família de uma cena concreta de aprendizagem e mostra como a criança participou, investigou e se comunicou.</p>');
+    set('developmentHeading','Como '+name+' viveu as experiências de '+m.n.toLowerCase());set('developmentIntro','As observações abaixo ajudam a compreender como '+name+' participou, investigou, se comunicou e ganhou autonomia neste recorte do mês.');
+    set('participationTitle','Participação e linguagem');set('explorationTitle','Investigação e convivência');set('independenceTitle','Autonomia em construção');
+    set('participation',name+' '+engagement+'. Nas propostas do mês, '+understanding+' e '+language+'.');set('exploration',name+' '+discovery+'. Nas interações, '+social+'.');set('independence',name+' '+autonomy+'. Cada pequena iniciativa é parte importante do percurso de aprendizagem.');
+    set('nextTitle','Próximo passo');set('nextStep',m.next);set('familyTitle','Conversa em família');set('familyTip',m.tip);setHtml('closingMessage','<p>Seguimos celebrando o percurso de <strong>'+name+'</strong>. As experiências de '+m.n.toLowerCase()+' abrem espaço para novas perguntas, escolhas e descobertas junto à família.</p>');
+  }else if(isArrival){
     setHtml('welcomeMessage',`<p><strong>Que bom ter ${name} conosco neste ano!</strong> Em fevereiro, iniciamos nossa jornada bilíngue com acolhimento, brincadeiras e muita alegria. Este relatório compartilha os primeiros momentos de ${name} na escola: a aproximação com a turma, com o(a) professor(a), com os espaços e com as rotinas que tornam cada dia mais seguro e especial.</p>`);
     set('developmentHeading','Como está sendo a adaptação de '+name+' na escola');
     set('developmentIntro','Em fevereiro, olhamos com carinho para a chegada, os vínculos e as pequenas conquistas que ajudam cada criança a se sentir em casa na escola.');
