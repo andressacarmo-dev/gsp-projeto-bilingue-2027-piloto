@@ -82,6 +82,44 @@
 }
 </style>
 </head>
+
+<style id="family-closing-style">
+.closing-message{margin-top:16px;background:linear-gradient(135deg,#e4f7ff,#fffdf4);border:2px solid #cfe9f6;border-radius:28px;padding:22px;box-shadow:0 8px 0 rgba(22,136,200,.10)}
+.closing-message h2{margin:0 0 9px;color:var(--navy);font-size:22px}.closing-message p{margin:0;color:var(--muted);font-size:12.4px;line-height:1.45}
+.closing-prompts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}.closing-prompts span{background:rgba(255,255,255,.82);border-radius:16px;padding:10px 12px;color:var(--navy);font-size:11px;font-weight:800;line-height:1.28}
+</style>
+
+<style id="family-print-layout">
+@media print {
+  html,body{background:var(--cream)!important}
+  .content{padding:20px 30px 22px!important}.section{margin-bottom:11px!important}
+  .section-head{margin-bottom:7px!important}.section-head h2{font-size:18px!important}
+  .dear-section{margin:18px 0 10px!important}.dear-section .section-head h2{font-size:21px!important}
+  .dear-section .letter{min-height:0!important;padding:18px 22px!important}
+  .dear-section .letter p{font-size:11.15px!important;line-height:1.3!important;margin-bottom:8px!important}
+  .dear-section .char-mini{width:68px!important;height:68px!important;margin:0 0 7px 10px!important}
+  .explored-section .grid-2,.observed-section .grid-2{gap:8px!important}
+  .explored-section .card{min-height:82px!important;padding:10px 9px!important;border-radius:18px!important}
+  .explored-section .card h3{font-size:10.5px!important;margin-bottom:4px!important}
+  .explored-section .card p{font-size:8.65px!important;line-height:1.22!important}
+  .explored-section .family-tip{padding:14px!important;margin:10px 0 5px!important}
+  .family-tip h2{font-size:17px!important;margin-bottom:6px!important}.family-tip p{font-size:10px!important;line-height:1.28!important}
+  .observed-section{break-inside:auto!important;page-break-inside:auto!important}
+  .observed-section .card{min-height:78px!important;padding:10px!important;border-radius:18px!important}
+  .observed-section .card h3{font-size:11.3px!important;margin-bottom:4px!important}
+  .observed-section .card p{font-size:9.2px!important;line-height:1.22!important}
+  .observed-section .level{padding:4px 7px!important;margin-bottom:5px!important;font-size:8px!important}
+  .narrative-section{break-before:auto!important;page-break-before:auto!important;margin:8px 0 10px!important}
+  .narrative-section .section-head h2{font-size:20px!important}.narrative-section .letter{padding:16px 18px!important}
+  .narrative-section .letter p{font-size:10px!important;line-height:1.27!important;margin-bottom:7px!important}
+  .table th,.table td{padding:7px 8px!important;font-size:9px!important}.table th{font-size:8.8px!important}
+  .closing-section .family-tip{min-height:150px!important;padding:20px!important;margin-bottom:10px!important}
+  .closing-message{margin-top:12px!important;padding:18px!important}.closing-message h2{font-size:18px!important;margin-bottom:6px!important}
+  .closing-message p{font-size:10px!important;line-height:1.32!important}.closing-prompts{gap:8px!important;margin-top:10px!important}
+  .closing-prompts span{padding:8px 9px!important;font-size:9px!important}.closing-section .signatures{margin:70px 0 8px!important;gap:26px!important}
+  .sig{padding-top:10px!important;font-size:10px!important}
+}
+</style>
 <body>
 <section class="builder">
   <div class="builder-hero">
@@ -118,7 +156,7 @@
   <section class="section keep-together observed-section"><div class="section-head"><h2>Observed areas</h2></div><div class="grid-2" id="observedCards"></div></section>
   <section class="section page-start narrative-section"><div class="section-head"><h2>Term 3 learning narrative</h2></div><div class="letter" id="narrativeText"></div></section>
   <section class="section"><div class="section-head"><h2>Checklist registered by teacher</h2></div><table class="table"><thead><tr><th>Observed area</th><th>Selected development stage</th></tr></thead><tbody id="checklistBody"></tbody></table></section>
-  <section class="section"><div class="family-tip"><img class="char-mini" src="../assets/characters/transparent/rsg-character-1-transparent.png" alt="Learning character"><h2>Next steps</h2><p id="nextStepsText"></p><p id="optionalNoteOut" style="margin-top:8px;display:none"></p><div class="decor"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div></div><div class="signatures"><div class="sig">Teacher signature</div><div class="sig">School coordination</div></div></section>
+  <section class="section closing-section"><div class="family-tip"><img class="char-mini" src="../assets/characters/transparent/rsg-character-1-transparent.png" alt="Learning character"><h2>Next steps</h2><p id="nextStepsText"></p><p id="optionalNoteOut" style="margin-top:8px;display:none"></p><div class="decor"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div></div><div class="closing-message"><h2>Seguimos aprendendo juntos</h2><p id="termClosing"></p><div class="closing-prompts"><span id="closingPrompt1"></span><span id="closingPrompt2"></span></div></div><div class="signatures"><div class="sig">Teacher signature</div><div class="sig">School coordination</div></div></section>
 </main><footer class="footer"><span>Projeto Bilíngue 2027 · <span data-field="schoolName">Santo Anjo</span></span><span>Level 1 · Kindergarten · Term 3</span></footer></div>
 <script>
 const skills=[
@@ -157,7 +195,14 @@ function apply(){const name=firstName(), student=fullName(), teacher=(document.g
  document.getElementById('termHighlights').innerHTML = termConfig.highlightGroups.map(([title,words])=>`<article class="card"><h3>${title}</h3><p>${words}</p></article>`).join('');
  document.getElementById('homeConnectionText').textContent = termConfig.homeConnection;
  document.getElementById('narrativeText').innerHTML = `<p>Ao longo do ${termConfig.term}, ${name} participou de experiências planejadas a partir dos conteúdos ensinados no período: ${termConfig.introStrong}. A avaliação considera listening and responding, vocabulary recognition, speaking attempt, task performance, participation e social-emotional learning, sempre de forma observável e adequada à Educação Infantil.</p><p>Em listening and responding, ${name} ${stageFor('listening')==='Emerging'?'ainda se beneficia de gestos, imagens, repetição e modelagem do professor para compreender comandos e participar das propostas.':'vem demonstrando compreensão por meio de ações, escolhas, gestos, movimentos e participação nas rotinas propostas.'} Em vocabulary recognition, o foco foi reconhecer o vocabulário realmente trabalhado em sala neste term, como ${termConfig.vocabExamples}, sem antecipar conteúdos de períodos futuros.</p><p>Nas tentativas de fala, valorizamos palavras isoladas, repetições, escolhas, preferências, cumprimentos e frases curtas com apoio. Em task performance e participation, observamos como ${name} transforma compreensão em ação: apontar, classificar, criar, dramatizar, cuidar, escolher, registrar ou compartilhar, conforme o conteúdo do período.</p><p>Também acompanhamos social-emotional learning, porque confiança, turn-taking, aceitação de apoio, cooperação e autonomia são parte essencial da aprendizagem bilíngue nesta faixa etária.</p>`;
- document.getElementById('termMoment').textContent=`Em mapas, jogos de movimento e escolhas de portfólio, ${name} retomou aprendizagens do ano, compartilhou evidências e celebrou conquistas junto ao grupo.`; document.getElementById('nextStepsText').textContent = termConfig.next.replaceAll('{name}',name);
+ document.getElementById('termMoment').textContent=`Em mapas, jogos de movimento e escolhas de portfólio, ${name} retomou aprendizagens do ano, compartilhou evidências e celebrou conquistas junto ao grupo.`; const santoClosing={
+ 'Term 2':[`Neste segundo term, ${name} ampliou a confiança para observar mudanças, fazer escolhas e cuidar do que está ao redor. Agradecemos à família por seguir dando espaço para a curiosidade e para a linguagem em casa.`,`O que mudou em uma planta, alimento ou brincadeira que você observou?`,`Que escolha saudável podemos fazer juntos?`],
+ 'Term 3':[`Ao encerrar este percurso, celebramos as descobertas, os vínculos e as formas de expressão construídas por ${name}. Obrigada pela parceria em reconhecer cada pequena conquista e manter viva a vontade de aprender.`,`Qual descoberta deste ano você gostaria de contar para alguém?`,`Que curiosidade quer levar para o próximo ano?`]
+};
+document.getElementById('termClosing').textContent=santoClosing[termConfig.term][0];
+document.getElementById('closingPrompt1').textContent='“'+santoClosing[termConfig.term][1]+'”';
+document.getElementById('closingPrompt2').textContent='“'+santoClosing[termConfig.term][2]+'”';
+document.getElementById('nextStepsText').textContent = termConfig.next.replaceAll('{name}',name);
  const note=document.getElementById('optionalNote').value.trim(); const out=document.getElementById('optionalNoteOut'); out.style.display=note?'block':'none'; out.innerHTML=note?`<strong>Observação complementar:</strong> ${note}`:'';
  document.getElementById('fileNameHint').textContent=`${(document.getElementById('schoolName').value||'Santo Anjo').replaceAll(' ','-')}_Level1_${termConfig.term.replaceAll(' ','')}_${student.replaceAll(' ','-')}_Report-Card.pdf`}
 renderChecks();apply();document.getElementById('updateBtn').onclick=apply;document.getElementById('printBtn').onclick=()=>{apply();window.print()};document.getElementById('resetBtn').onclick=()=>{document.getElementById('optionalNote').value='';apply()};document.querySelectorAll('input,select,textarea').forEach(el=>el.addEventListener('input',apply));
