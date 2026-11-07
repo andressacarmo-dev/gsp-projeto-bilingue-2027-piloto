@@ -6,28 +6,82 @@
  * sem exigir mudança nas páginas das provas.
  */
 window.LEVELUP_ROSTER_CONFIG = {
-  version: '2026-10-30-third-year-integration-test',
+  version: '2026-11-07-all-gsp-test-rosters-v1',
   schools: {
     praia_grande: {
       schoolName: 'Praia Grande',
-      classGroups: {
-        '3o_ano': ['TESTE-3A'],
-        '4o_ano': ['4A', '4B'],
-        '5o_ano': ['5A', '5B'],
-        '6o_ano': [],
-        '7o_ano': [],
-        '8o_ano': [],
-        '9o_ano': []
-      },
-      teachers: {
-        '3o_ano': ['Professor(a) Teste'],
-        '4o_ano': [],
-        '5o_ano': [],
-        '6o_ano': [],
-        '7o_ano': [],
-        '8o_ano': [],
-        '9o_ano': []
-      }
+      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
+      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
+    },
+    cja: {
+      schoolName: 'CJA',
+      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
+      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
+    },
+    embare: {
+      schoolName: 'Embaré',
+      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
+      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
+    },
+    conselheiro: {
+      schoolName: 'Conselheiro',
+      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
+      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
+    },
+    ponta_da_praia: {
+      schoolName: 'Ponta da Praia',
+      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
+      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
+    },
+    marupiara: {
+      schoolName: 'Marupiara',
+      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
+      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
+    },
+    ccpa: {
+      schoolName: 'CCPA',
+      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
+      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
+    },
+    guaruja: {
+      schoolName: 'Guarujá',
+      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
+      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
+    },
+    sao_jose_dos_campos: {
+      schoolName: 'São José dos Campos',
+      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
+      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
+    },
+    sao_vicente: {
+      schoolName: 'São Vicente',
+      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
+      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
+    },
+    santa_felicidade: {
+      schoolName: 'Santa Felicidade',
+      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
+      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
+    },
+    barigui: {
+      schoolName: 'Barigui',
+      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
+      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
+    },
+    ecoville: {
+      schoolName: 'Ecoville',
+      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
+      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
+    },
+    anjinho: {
+      schoolName: 'Anjinho',
+      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
+      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
+    },
+    champagnat: {
+      schoolName: 'Champagnat',
+      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
+      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
     }
   }
 };
