@@ -25,8 +25,6 @@ SCHOOLS = [
     ('santa-felicidade', 'santa_felicidade', 'Santa Felicidade', 'santo-anjo-logo.png', 'Colégio Santo Anjo'),
     ('barigui', 'barigui', 'Barigui', 'santo-anjo-logo.png', 'Colégio Santo Anjo'),
     ('ecoville', 'ecoville', 'Ecoville', 'santo-anjo-logo.png', 'Colégio Santo Anjo'),
-    ('anjinho', 'anjinho', 'Anjinho', 'santo-anjo-logo.png', 'Colégio Santo Anjo'),
-    ('champagnat', 'champagnat', 'Champagnat', 'santo-anjo-logo.png', 'Colégio Santo Anjo'),
 ]
 
 

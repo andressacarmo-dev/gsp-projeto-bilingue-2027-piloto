@@ -72,16 +72,6 @@ window.LEVELUP_ROSTER_CONFIG = {
       schoolName: 'Ecoville',
       classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
       teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
-    },
-    anjinho: {
-      schoolName: 'Anjinho',
-      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
-      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
-    },
-    champagnat: {
-      schoolName: 'Champagnat',
-      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
-      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
     }
   }
 };
