@@ -1,12 +1,9 @@
 {
-  "published_at_utc": "2026-11-10T12:43:13.805197+00:00",
-  "published": 96,
-  "commit": "28f60ebb580781827e3133db02502d494c1df773",
-  "short": "28f60eb",
+  "published_at_utc": "2026-11-10T12:55:52.620625+00:00",
+  "published": 90,
+  "commit": "29b5f0f4eb7ca772972751729127716291121b8b",
+  "short": "29b5f0f",
   "files": [
-    "portal-aluno/anjinho/index.html",
-    "portal-aluno/anjinho/levelup-f1.html",
-    "portal-aluno/anjinho/levelup-f2.html",
     "portal-aluno/assets/img/f2-advanced-mission1-scenes-v1.png",
     "portal-aluno/assets/img/f2-advanced-mission2-scenes-v1.png",
     "portal-aluno/assets/img/f2-mission1-vocabulary-scenes-v1.png",
@@ -59,9 +56,6 @@
     "portal-aluno/ccpa/index.html",
     "portal-aluno/ccpa/levelup-f1.html",
     "portal-aluno/ccpa/levelup-f2.html",
-    "portal-aluno/champagnat/index.html",
-    "portal-aluno/champagnat/levelup-f1.html",
-    "portal-aluno/champagnat/levelup-f2.html",
     "portal-aluno/cja/index.html",
     "portal-aluno/cja/levelup-f1.html",
     "portal-aluno/cja/levelup-f2.html",
@@ -101,7 +95,7 @@
     "portal-aluno/sao-vicente/levelup-f1.html",
     "portal-aluno/sao-vicente/levelup-f2.html"
   ],
-  "public_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/index.html?v=20261110-levelup-brand-logos-v1",
-  "school_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/index.html?v=20261110-levelup-brand-logos-v1",
-  "assessment_stub_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/levelup-f1.html?grade=4o_ano&v=20261110-levelup-brand-logos-v1"
+  "public_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/index.html?v=20261110-remove-infantil-routes-v1",
+  "school_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/index.html?v=20261110-remove-infantil-routes-v1",
+  "assessment_stub_url": "https://andressacarmo-dev.github.io/gsp-projeto-bilingue-2027-piloto/portal-aluno/praia-grande/levelup-f1.html?grade=4o_ano&v=20261110-remove-infantil-routes-v1"
 }

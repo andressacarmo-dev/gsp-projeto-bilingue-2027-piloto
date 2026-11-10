@@ -23,11 +23,6 @@ window.LEVELUP_ROSTER_CONFIG = {
       classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
       teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
     },
-    conselheiro: {
-      schoolName: 'Conselheiro',
-      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
-      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
-    },
     ponta_da_praia: {
       schoolName: 'Ponta da Praia',
       classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
@@ -45,16 +40,6 @@ window.LEVELUP_ROSTER_CONFIG = {
     },
     guaruja: {
       schoolName: 'Guarujá',
-      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
-      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
-    },
-    sao_jose_dos_campos: {
-      schoolName: 'São José dos Campos',
-      classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
-      teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
-    },
-    sao_vicente: {
-      schoolName: 'São Vicente',
       classGroups: {'3o_ano': ['TESTE-3A'], '4o_ano': ['TESTE-4A'], '5o_ano': ['TESTE-5A'], '6o_ano': ['TESTE-6A'], '7o_ano': ['TESTE-7A'], '8o_ano': ['TESTE-8A'], '9o_ano': ['TESTE-9A']},
       teachers: {'3o_ano': ['Professor(a) Teste'], '4o_ano': ['Professor(a) Teste'], '5o_ano': ['Professor(a) Teste'], '6o_ano': ['Professor(a) Teste'], '7o_ano': ['Professor(a) Teste'], '8o_ano': ['Professor(a) Teste'], '9o_ano': ['Professor(a) Teste']}
     },
