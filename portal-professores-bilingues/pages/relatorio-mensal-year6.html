@@ -462,7 +462,10 @@
       .chip { background:#e6edf5; color:var(--deep); padding:1.3mm 2.3mm; }
       .development article { background:#fffaf6; border:2px solid var(--line); border-top:1.6mm solid var(--deep); border-radius:6mm; box-shadow:0 2mm 4mm rgba(20,57,104,.08); }
       .development article:nth-child(2) { background:#fff0e7; border-top-color:var(--orange); }
+      .development { grid-template-columns:repeat(2,1fr); }
       .development article:nth-child(3) { background:#edf2f7; border-top-color:var(--teal); }
+      .development article:nth-child(4) { background:#fff7e9; border-top-color:#d7b320; }
+      .indicator.evidence-note { grid-column:span 3; }
       .next { background:linear-gradient(135deg,#edf2f7,#fff7f0); border-color:#d9c3af; }
       .family { background:linear-gradient(135deg,#fff0e7,#fff7f0); border-color:#d9c3af; }
       .closing { background:linear-gradient(135deg,#edf2f7,#fff0e7); border-color:#d9c3af; }
@@ -473,7 +476,7 @@
     <script src="../assets/portal-access.js?v=20261113-light-school-access-v4"></script>
 </head>
   <body>
-    <!-- build: 20261113-year6-monthly-editorial-v2 -->
+    <!-- build: 20261113-year6-monthly-rubric-v3 -->
     <section class="builder">
       <div class="builder-card">
         <h1>Relatório Mensal de Aprendizagem · Year 6</h1>
@@ -499,97 +502,97 @@
         </div>
         <div class="indicators">
           <label class="indicator"
-            ><strong>Organização e pertencimento</strong
-            ><span>Como se organiza, compreende combinados e encontra lugar nas rotinas do Middle Years.</span
+            ><strong>Organização e autonomia acadêmica</strong
+            ><span>Como organiza materiais, acompanha combinados e gerencia as etapas de uma tarefa.</span
             ><select id="arrival">
               <option value="settled">
-                Chega com segurança, reconhece as rotinas e se integra ao grupo.
+                Organiza-se com segurança, acompanha combinados e inicia as tarefas.
               </option>
               <option value="growing">
-                Constrói segurança na chegada e se integra após acolhimento.
+                Consolida formas de organizar materiais, tempo e etapas com referências claras.
               </option>
               <option value="supported">
-                Precisa de acolhimento próximo para a transição e as rotinas.
+                Precisa de acompanhamento próximo para organizar-se e seguir as etapas propostas.
               </option>
             </select></label
           ><label class="indicator"
-            ><strong>Participação e autonomia</strong
-            ><span>Como inicia, sustenta e conclui tarefas, assumindo responsabilidades no percurso.</span
+            ><strong>Projeto, feedback e reflexão</strong
+            ><span>Como contribui para o produto do mês, usa devolutivas e reconhece um próximo passo.</span
+            ><select id="project">
+              <option value="developing">Participa do projeto com apoio para organizar uma contribuição ou registro.</option>
+              <option value="contributing">Contribui para o produto do grupo e responde a feedback com apoio.</option>
+              <option value="independent">Assume um papel consistente, revisa sua contribuição e explica escolhas.</option>
+              <option value="leading">Qualifica o trabalho do grupo, incorpora feedback e propõe próximos passos.</option>
+            </select></label
+          ><label class="indicator"
+            ><strong>Engajamento e responsabilidade</strong
+            ><span>Como sustenta o envolvimento, assume papéis e responde a combinados e devolutivas.</span
             ><select id="participation">
               <option value="ready">
-                Inicia prontamente e se mantém envolvido(a) até a conclusão.
+                Assume responsabilidades e sustenta o envolvimento até a conclusão.
               </option>
               <option value="routine">
-                Inicia com sinalização da rotina ou apoio visual e sustenta a
-                maior parte.
+                Sustenta o percurso quando objetivo, papéis e etapas estão visíveis.
               </option>
               <option value="invitation">
-                Participa melhor após convite individual e em etapas mais
-                curtas.
+                Participa melhor após uma retomada individual ou um ponto de partida definido.
               </option>
               <option value="mediation">
-                Precisa de mediação frequente para iniciar, permanecer e
-                concluir.
+                Precisa de mediação frequente para iniciar, priorizar e finalizar tarefas.
               </option>
             </select></label
           ><label class="indicator"
-            ><strong>Investigação e evidências</strong
+            ><strong>Inquiry: perguntas, fontes e evidências</strong
             ><span>Como formula perguntas, consulta fontes, registra informações e revisa ideias.</span
             ><select id="inquiry">
               <option value="curious">
-                Observa detalhes, faz perguntas e testa ideias espontaneamente.
+                Formula perguntas, consulta fontes e usa evidências antes de concluir.
               </option>
               <option value="prompted">
-                Observa e responde a perguntas quando recebe convites ou pistas.
+                Amplia perguntas e registros quando recebe critérios, exemplos ou perguntas de apoio.
               </option>
               <option value="modelled">
-                Explora melhor quando um adulto modela passos ou apresenta
-                escolhas.
+                Investiga com mais segurança quando recebe modelos de registro, fontes selecionadas ou exemplos.
               </option>
               <option value="shared">
-                Precisa de acompanhamento próximo para observar, escolher e
-                testar.
+                Precisa de acompanhamento próximo para selecionar informações e registrar evidências.
               </option>
             </select></label
           ><label class="indicator"
-            ><strong>Comunicação e colaboração</strong
+            ><strong>Colaboração e comunicação</strong
             ><span>Como expressa ideias, escuta perspectivas e contribui com o grupo.</span
             ><select id="communication">
               <option value="initiates">
-                Inicia trocas e usa palavras, gestos ou imagens para
-                compartilhar ideias.
+                Compartilha hipóteses, escuta perspectivas e contribui para decisões do grupo.
               </option>
               <option value="responds">
-                Responde às trocas com apoio de perguntas, gestos ou imagens.
+                Participa das trocas e amplia contribuições quando recebe uma pergunta direcionada.
               </option>
               <option value="models">
-                Comunica-se com modelos de linguagem, opções visuais ou parceria
-                próxima.
+                Comunica ideias com mais segurança quando usa estruturas de frase ou uma parceria próxima.
               </option>
               <option value="mediated">
-                Precisa de mediação frequente para entrar nas trocas e expressar
-                escolhas.
+                Precisa de mediação frequente para participar das discussões e negociar seu papel no grupo.
               </option>
             </select></label
           ><label class="indicator"
-            ><strong>English in action</strong
-            ><span>A forma mais frequente de participação em inglês.</span
+            ><strong>Academic English</strong
+            ><span>Como usa inglês para compreender, registrar, perguntar e comunicar ideias.</span
             ><select id="english">
               <option value="routine">
-                Compreende e acompanha palavras e comandos de rotina.
+                Compreende instruções e vocabulário acadêmico inicial para participar das tarefas.
               </option>
               <option value="responds">
-                Responde a palavras conhecidas com gestos, escolhas ou uma
-                palavra.
+                Responde a perguntas e comandos com apoio de palavras-chave, exemplos ou frames.
               </option>
               <option value="uses">
-                Usa espontaneamente palavras ou pequenas expressões conhecidas.
+                Usa palavras e estruturas em inglês para perguntar, registrar e compartilhar ideias.
               </option>
               <option value="trying">
-                Começa a experimentar sons, palavras e respostas com mediação.
+                Experimenta linguagem acadêmica em inglês quando encontra modelos e mediação.
               </option>
             </select></label
-          ><label class="indicator"
+          ><label class="indicator evidence-note"
             ><strong>Evidência da investigação</strong
             ><span>Opcional: registre uma pergunta, fonte, dado ou atitude de colaboração observada no mês.</span
             ><input
@@ -676,16 +679,20 @@
           </p>
           <div class="development">
             <article>
-              <h3>Participação e autonomia</h3>
+              <h3>Organização e autonomia acadêmica</h3>
               <p id="participationText"></p>
             </article>
             <article>
-              <h3>Curiosidade e investigação</h3>
+              <h3>Inquiry: perguntas, fontes e evidências</h3>
               <p id="inquiryText"></p>
             </article>
             <article>
-              <h3>Comunicação e inglês</h3>
+              <h3>Colaboração e comunicação acadêmica</h3>
               <p id="communicationText"></p>
+            </article>
+            <article>
+              <h3>Projeto, feedback e reflexão</h3>
+              <p id="projectText"></p>
             </article>
           </div>
         </section>
@@ -1128,6 +1135,12 @@
           uses: 'já utiliza palavras e estruturas em inglês para perguntar, registrar e compartilhar ideias durante as propostas.',
           trying: 'está começando a experimentar linguagem acadêmica em inglês quando encontra modelos e mediação.',
         },
+        project: {
+          developing: (n) => `${n} participa do Community Inquiry Launch com apoio para organizar uma contribuição, registrar uma evidência ou retomar uma devolutiva.`,
+          contributing: (n) => `${n} contribui para o produto do grupo, registra etapas do percurso e responde a feedback com apoio para definir o próximo passo.`,
+          independent: (n) => `${n} assume um papel consistente no projeto, revisa sua contribuição e explica escolhas feitas a partir de uma pergunta ou evidência.`,
+          leading: (n) => `${n} qualifica o trabalho do grupo, incorpora feedback de modo produtivo e propõe próximos passos para fortalecer a investigação.`,
+        },
       };
       const descriptors = requestedYear === '6' ? year6Descriptors : t;
       if ($("className").value.trim() === "Year 1") $("className").value = `Year ${requestedYear}`;
@@ -1137,6 +1150,7 @@
           i = $("inquiry").value,
           c = $("communication").value,
           e = $("english").value,
+          pr = $("project").value,
           a = $("arrival").value,
           note = $("momentNote").value.trim();
         $("schoolLogo").src = brand.logo;
@@ -1161,10 +1175,11 @@
         );
         $("welcome").textContent = `${profile.welcome(n)} ${descriptors.arrival[a](n, requestedYear)}`;
         $("momentText").textContent = `${profile.moment(n)}${note ? ` Para ${n}, um detalhe especial foi: ${note}` : ""}`;
-        $("participationText").textContent = descriptors.participation[p](n);
+        $("participationText").textContent = `${descriptors.arrival[a](n)} ${descriptors.participation[p](n)}`;
         $("inquiryText").textContent = descriptors.inquiry[i](n);
         $("communicationText").textContent =
           `${descriptors.communication[c](n)} Em inglês, ${n} ${descriptors.english[e]}`;
+        $("projectText").textContent = descriptors.project ? descriptors.project[pr](n) : '';
         $("next").textContent = profile.next(n);
         $("family").textContent = profile.family;
         $("closing").textContent = profile.closing(n);
