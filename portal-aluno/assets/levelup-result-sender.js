@@ -29,7 +29,7 @@ window.LevelUpResultSender = (() => {
     return missing;
   }
 
-  function mount({ getReport, renderReport, onRendered }) {
+  function mount({ getReport }) {
     let latestReport = null;
     const button = document.getElementById('finishBtn');
     const box = document.getElementById('sendStatus');
@@ -49,6 +49,19 @@ window.LevelUpResultSender = (() => {
       }
     }
 
+    function showCompletion() {
+      const assessment = document.getElementById('assessment');
+      if (!assessment) return;
+      assessment.hidden = false;
+      assessment.innerHTML = `
+        <section class="card" style="max-width:680px;margin:32px auto;text-align:center;padding:48px 28px">
+          <div aria-hidden="true" style="font-size:2rem;margin-bottom:12px">✓</div>
+          <h2 style="margin:0 0 12px">Prova finalizada!</h2>
+          <p style="margin:0;font-size:1.08rem">Obrigada pela sua participação.</p>
+        </section>`;
+      assessment.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
     async function submitReport() {
       const missing = validate(latestReport);
       if (missing.length) {
@@ -59,7 +72,7 @@ window.LevelUpResultSender = (() => {
       showStatus('Enviando resultado...', false);
       try {
         await sendReport(latestReport);
-        showStatus('Prova concluída. Obrigado!', false);
+        showCompletion();
       } catch (error) {
         if (error.status === 400) showStatus('Não foi possível registrar a prova. Chame o professor.', false);
         else {
@@ -72,8 +85,6 @@ window.LevelUpResultSender = (() => {
     button.addEventListener('click', () => {
       if (!latestReport) {
         latestReport = getReport();
-        renderReport(latestReport);
-        onRendered?.();
       }
       submitReport();
     });
