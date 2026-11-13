@@ -424,10 +424,56 @@
         }
       }
     </style>
+    <style id="year6-monthly-editorial-style">
+      /* Year 6 monthly report: the monthly structure remains, while the visual
+         language follows the Year 6 report card rather than the Primary cards. */
+      :root { --navy:#243d79; --deep:#32529d; --orange:#eb462b; --teal:#658e91; --paper:#fff9ea; --ink:#08080a; --muted:#4e6897; --line:#dec8af; }
+      body { background:#f0d9c8; color:var(--ink); }
+      .builder-card { background:#fff7f0; border:2px solid #ead0bd; border-radius:30px; box-shadow:0 14px 34px rgba(20,57,104,.16); }
+      .builder h1, .field label, .indicator strong { color:var(--deep); }
+      .builder > p, .indicator span { color:var(--muted); }
+      .indicator { background:#fffaf6; border-color:var(--line); }
+      input, select { border-color:var(--line); border-radius:14px; }
+      .button { background:var(--orange); }
+      .button.alt { background:var(--deep); }
+      .report { background:var(--paper); box-shadow:0 22px 76px rgba(20,57,104,.22); }
+      .cover { min-height:118mm; padding:10mm 12mm 8mm; background:#143968; }
+      .cover:before { inset:0; border:0; border-radius:0; background:linear-gradient(90deg,rgba(20,57,104,.90),rgba(20,57,104,.57) 52%,rgba(20,57,104,.12)),url('../assets/prepare/cambridge-year6-study-group-reference.jpg'); background-size:cover; background-position:center; }
+      .cover:after { content:""; position:absolute; left:-20mm; right:-20mm; bottom:-32mm; height:58mm; background:linear-gradient(135deg,rgba(239,203,181,.90),rgba(204,18,19,.72),rgba(20,57,104,.82)); transform:skewY(-7deg); transform-origin:left top; z-index:0; }
+      .top { display:grid; grid-template-columns:44mm 1fr; gap:5mm; position:relative; z-index:2; }
+      .school-logo { width:44mm; height:18mm; padding:3mm; border-radius:6mm; box-shadow:0 3mm 7mm rgba(0,0,0,.20); }
+      .seals { justify-self:end; gap:2mm; border-radius:6mm; padding:2.5mm 3mm; box-shadow:0 3mm 7mm rgba(0,0,0,.17); }
+      .seals img { width:28mm; height:12mm; border-radius:4mm; }
+      .hero { max-width:140mm; margin:19mm 0 0; text-align:left; position:relative; z-index:2; }
+      .badge { background:var(--orange); font-size:8px; padding:2.5mm 4.5mm; box-shadow:0 2mm 5mm rgba(0,0,0,.18); }
+      .hero h1 { font-size:38px; line-height:.98; letter-spacing:-.045em; text-transform:uppercase; text-shadow:0 4px 16px rgba(0,0,0,.32); margin:5mm 0 3mm; }
+      .hero p { max-width:136mm; margin:0; text-align:left; padding:3mm 4.5mm; border-radius:5mm; color:var(--ink); background:rgba(255,247,240,.95); font-size:10px; }
+      .meta { max-width:182mm; margin:6mm 0 0; grid-template-columns:1.35fr repeat(4,1fr); position:relative; z-index:2; }
+      .meta div { border-radius:5mm; box-shadow:0 3mm 6mm rgba(0,0,0,.14); border-bottom:1.3mm solid var(--orange); }
+      .meta b { color:var(--orange); }
+      .content { background:radial-gradient(circle at top right,rgba(204,18,19,.08),transparent 28%),linear-gradient(180deg,#fff7f0,#f7e3d5); padding:7mm 12mm 6mm; gap:3.5mm; }
+      .section h2 { color:var(--deep); font-size:17px; }
+      .section > p { color:var(--muted); }
+      .card, .next, .family, .closing { background:#fffaf6; border:2px solid var(--line); border-radius:6mm; box-shadow:0 2mm 4mm rgba(20,57,104,.08); }
+      .card.pink { border-left:3mm solid var(--orange); background:linear-gradient(180deg,#fffaf6,#fff0e7); }
+      .card.aqua { background:linear-gradient(145deg,#fff7f0,#edf2f7); border-color:#d9c3af; }
+      .card h3, .development h3, .next h2, .family strong { color:var(--deep); }
+      .card p, .development p, .next p, .family p, .closing p { color:var(--muted); }
+      .chip { background:#e6edf5; color:var(--deep); padding:1.3mm 2.3mm; }
+      .development article { background:#fffaf6; border:2px solid var(--line); border-top:1.6mm solid var(--deep); border-radius:6mm; box-shadow:0 2mm 4mm rgba(20,57,104,.08); }
+      .development article:nth-child(2) { background:#fff0e7; border-top-color:var(--orange); }
+      .development article:nth-child(3) { background:#edf2f7; border-top-color:var(--teal); }
+      .next { background:linear-gradient(135deg,#edf2f7,#fff7f0); border-color:#d9c3af; }
+      .family { background:linear-gradient(135deg,#fff0e7,#fff7f0); border-color:#d9c3af; }
+      .closing { background:linear-gradient(135deg,#edf2f7,#fff0e7); border-color:#d9c3af; }
+      .footer { background:#fff7f0; color:var(--muted); border-top:1px solid var(--line); }
+      @media print { body{background:#f7e3d5!important}.cover{min-height:103mm!important;padding:8mm 10mm 7mm!important}.hero{margin-top:13mm!important}.hero h1{font-size:31px!important}.content{padding:5mm 10mm 4mm!important}.card,.next,.family,.closing,.development article{box-shadow:none!important}.footer{background:#fff7f0!important} }
+      @media (max-width:800px) { .cover{min-height:600px}.top{display:flex}.hero{margin-top:54px}.hero h1{font-size:34px}.meta{grid-template-columns:1fr}.seals{justify-self:start} }
+    </style>
     <script src="../assets/portal-access.js?v=20261113-light-school-access-v4"></script>
 </head>
   <body>
-    <!-- build: 20261103-fundamental1-monthly-audit-fix-v1 -->
+    <!-- build: 20261113-year6-monthly-editorial-v2 -->
     <section class="builder">
       <div class="builder-card">
         <h1>Relatório Mensal de Aprendizagem · Year 6</h1>
