@@ -1,0 +1,1137 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>February Learning Snapshot · Year 6 · CCPA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --navy: #123c73;
+        --blue: #087fae;
+        --aqua: #19b7cc;
+        --pink: #e83b66;
+        --yellow: #ffd84a;
+        --paper: #fffef9;
+        --ink: #173150;
+        --muted: #5d6978;
+        --line: #d8e7ed;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: linear-gradient(180deg, #dff7fb, #fff4df);
+        font:
+          14px/1.45 Lexend,
+          Arial,
+          sans-serif;
+        color: var(--ink);
+      }
+      .builder {
+        max-width: 1060px;
+        margin: 28px auto;
+        padding: 0 20px;
+      }
+      .builder-card {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        padding: 27px;
+        box-shadow: 0 15px 38px #123c7315;
+      }
+      .builder h1 {
+        margin: 0;
+        color: var(--navy);
+        font-size: 25px;
+      }
+      .builder > p {
+        color: var(--muted);
+        max-width: 820px;
+      }
+      .fields,
+      .indicators {
+        display: grid;
+        gap: 12px;
+      }
+      .fields {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .indicators {
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 18px;
+      }
+      .field,
+      .indicator {
+        display: grid;
+        gap: 6px;
+      }
+      .field label,
+      .indicator strong {
+        font-size: 12px;
+        color: var(--navy);
+        font-weight: 900;
+      }
+      .indicator {
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 13px;
+        background: #fbfeff;
+        align-content: start;
+      }
+      .indicator span {
+        font-size: 11px;
+        color: var(--muted);
+        min-height: 32px;
+      }
+      input,
+      select {
+        width: 100%;
+        font: inherit;
+        padding: 10px;
+        border: 1px solid #c9dfe7;
+        border-radius: 12px;
+        background: #fff;
+      }
+      .actions {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 19px;
+      }
+      .button {
+        border: 0;
+        border-radius: 999px;
+        padding: 12px 18px;
+        font: 800 13px Lexend;
+        cursor: pointer;
+        background: var(--pink);
+        color: #fff;
+      }
+      .button.alt {
+        background: var(--navy);
+      }
+      .report {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0 auto 32px;
+        background: var(--paper);
+        overflow: hidden;
+        box-shadow: 0 20px 60px #123c7328;
+      }
+      .cover {
+        min-height: 83mm;
+        position: relative;
+        overflow: hidden;
+        padding: 8mm 10mm 7mm;
+        color: #fff;
+        background: radial-gradient(
+            circle at 83% 15%,
+            #ffffff4a 0 13mm,
+            transparent 13.3mm
+          ),
+          radial-gradient(
+            circle at 14% 74%,
+            #ffe36d6b 0 17mm,
+            transparent 17.3mm
+          ),
+          linear-gradient(135deg, #0a82b7 0%, #1bb8ca 45%, #61d2dd 100%);
+      }
+      .cover:before {
+        content: "";
+        position: absolute;
+        inset: 5mm;
+        border: 1.2mm dashed #ffffff9c;
+        border-radius: 8mm;
+      }
+      .top,
+      .hero {
+        position: relative;
+        z-index: 1;
+      }
+      .top {
+        display: flex;
+        justify-content: space-between;
+        gap: 8mm;
+        align-items: start;
+      }
+      .school-logo {
+        width: 46mm;
+        height: 20mm;
+        padding: 3.5mm;
+        background: #fff;
+        border-radius: 7mm;
+        object-fit: contain;
+        box-shadow: 0 3mm 0 #ffe04f83;
+      }
+      .seals {
+        display: flex;
+        gap: 2mm;
+        background: #fff;
+        border-radius: 7mm;
+        padding: 2mm 3mm;
+        box-shadow: 0 3mm 0 #ffe04f83;
+      }
+      .seals img {
+        width: 30mm;
+        height: 13mm;
+        object-fit: contain;
+        border: 1px solid #e8eff2;
+        border-radius: 3mm;
+        padding: 1mm;
+      }
+      .hero {
+        text-align: center;
+        margin: 10mm auto 0;
+        max-width: 180mm;
+      }
+      .badge {
+        display: inline-block;
+        background: var(--pink);
+        padding: 2.4mm 4mm;
+        border-radius: 99mm;
+        color: #fff;
+        font-size: 8px;
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .hero h1 {
+        font-size: 30px;
+        line-height: 1.05;
+        margin: 4mm 0 2.5mm;
+        font-weight: 900;
+      }
+      .hero p {
+        margin: 0 auto;
+        max-width: 158mm;
+        padding: 2.8mm 5mm;
+        border-radius: 7mm;
+        background: #fffdf1e8;
+        color: var(--ink);
+        font-size: 10px;
+        font-weight: 700;
+      }
+      .meta {
+        display: grid;
+        grid-template-columns: 1.35fr repeat(4, 1fr);
+        gap: 2mm;
+        margin: 4mm auto 0;
+        max-width: 182mm;
+      }
+      .meta div {
+        background: #fff;
+        border-radius: 5mm;
+        padding: 2.4mm;
+        color: var(--ink);
+        box-shadow: 0 2mm 0 #f4da5b80;
+      }
+      .meta b {
+        display: block;
+        color: var(--pink);
+        font-size: 6.8px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .meta span {
+        font-size: 8.7px;
+        font-weight: 800;
+      }
+      .content {
+        padding: 6mm 10mm 5mm;
+        background: linear-gradient(180deg, #fffef9, #fff6dc);
+        display: grid;
+        gap: 3.2mm;
+      }
+      .section h2 {
+        margin: 0 0 1.5mm;
+        color: var(--navy);
+        font-size: 16px;
+        line-height: 1.15;
+      }
+      .section > p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 9.3px;
+      }
+      .card,
+      .next,
+      .family,
+      .closing {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 5mm;
+        box-shadow: 0 2mm 0 #1782a60d;
+      }
+      .card {
+        padding: 3.5mm 5mm;
+      }
+      .card.pink {
+        border-left: 2.3mm solid var(--pink);
+      }
+      .card.aqua {
+        background: #f0fbfc;
+        border-color: #bfe4e7;
+      }
+      .card h3 {
+        margin: 0 0 1.4mm;
+        color: var(--navy);
+        font-size: 11px;
+      }
+      .card p,
+      .development p,
+      .next p,
+      .family p,
+      .closing p {
+        margin: 0;
+        color: #435b6a;
+        font-size: 9.5px;
+        line-height: 1.42;
+      }
+      .month-story {
+        margin-top: 2mm;
+      }
+      .chips {
+        display: flex;
+        gap: 1.5mm;
+        flex-wrap: wrap;
+        margin-top: 2mm;
+      }
+      .chip {
+        padding: 1.2mm 2.1mm;
+        border-radius: 99mm;
+        background: #e8f8f4;
+        color: #087b83;
+        font-size: 7.8px;
+        font-weight: 800;
+      }
+      .development {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5mm;
+        margin-top: 2mm;
+      }
+      .development article {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 5mm;
+        box-shadow: 0 2mm 0 #1782a60d;
+        padding: 3.5mm;
+      }
+      .development article:nth-child(2) {
+        background: #fffaf0;
+      }
+      .development article:nth-child(3) {
+        background: #f0fbfc;
+      }
+      .development h3 {
+        margin: 0 0 1.4mm;
+        color: var(--navy);
+        font-size: 10.5px;
+      }
+      .bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3mm;
+      }
+      .next,
+      .family {
+        padding: 3.5mm 4.5mm;
+      }
+      .next {
+        background: linear-gradient(135deg, #eefafd, #e5f7f0);
+        border-color: #bfe4e7;
+      }
+      .family {
+        background: linear-gradient(135deg, #fff9e5, #fff0db);
+        border-color: #efdcb4;
+      }
+      .next h2,
+      .family strong {
+        display: block;
+        margin: 0 0 1.3mm;
+        color: var(--navy);
+        font-size: 11.5px;
+      }
+      .closing {
+        padding: 3.3mm 5mm;
+        border-color: #f2dc87;
+        background: #fffdf5;
+      }
+      .footer {
+        padding: 2.5mm 10mm 3mm;
+        background: #fff;
+        color: var(--muted);
+        font-size: 7.4px;
+        display: flex;
+        justify-content: space-between;
+      }
+      @media (max-width: 800px) {
+        .builder {
+          padding: 0;
+          margin: 0;
+        }
+        .builder-card {
+          border-radius: 0;
+        }
+        .fields,
+        .indicators,
+        .development,
+        .bottom,
+        .meta {
+          grid-template-columns: 1fr;
+        }
+        .report {
+          width: 100%;
+          min-height: 0;
+        }
+        .cover,
+        .content {
+          padding-left: 24px;
+          padding-right: 24px;
+        }
+        .cover {
+          min-height: 630px;
+        }
+        .top,
+        .seals {
+          flex-wrap: wrap;
+        }
+        .hero {
+          margin-top: 54px;
+        }
+        .hero h1 {
+          font-size: 34px;
+        }
+      }
+      @media print {
+        .builder {
+          display: none;
+        }
+        .report {
+          margin: 0;
+          box-shadow: none;
+        }
+        * {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+      }
+    </style>
+    <script src="../assets/portal-access.js?v=20261113-light-school-access-v4"></script>
+</head>
+  <body>
+    <!-- build: 20261103-fundamental1-monthly-audit-fix-v1 -->
+    <section class="builder">
+      <div class="builder-card">
+        <h1>Relatório Mensal de Aprendizagem · Year 6</h1>
+        <p>
+          <strong>CCPA · February.</strong> Registre evidências do início do
+          Year 6: organização para as rotinas do Middle Years, participação em
+          investigação, colaboração e comunicação em inglês. Os itens ajudam a
+          transformar a observação do professor em uma devolutiva concreta para a família.
+        </p>
+        <div class="fields">
+          <div class="field">
+            <label for="student">Student</label
+            ><input id="student" placeholder="Nome do aluno" />
+          </div>
+          <div class="field">
+            <label for="className">Class</label
+            ><input id="className" value="Year 6" />
+          </div>
+          <div class="field">
+            <label for="teacher">Teacher</label
+            ><input id="teacher" placeholder="Professor(a)" />
+          </div>
+        </div>
+        <div class="indicators">
+          <label class="indicator"
+            ><strong>Organização e pertencimento</strong
+            ><span>Como se organiza, compreende combinados e encontra lugar nas rotinas do Middle Years.</span
+            ><select id="arrival">
+              <option value="settled">
+                Chega com segurança, reconhece as rotinas e se integra ao grupo.
+              </option>
+              <option value="growing">
+                Constrói segurança na chegada e se integra após acolhimento.
+              </option>
+              <option value="supported">
+                Precisa de acolhimento próximo para a transição e as rotinas.
+              </option>
+            </select></label
+          ><label class="indicator"
+            ><strong>Participação e autonomia</strong
+            ><span>Como inicia, sustenta e conclui tarefas, assumindo responsabilidades no percurso.</span
+            ><select id="participation">
+              <option value="ready">
+                Inicia prontamente e se mantém envolvido(a) até a conclusão.
+              </option>
+              <option value="routine">
+                Inicia com sinalização da rotina ou apoio visual e sustenta a
+                maior parte.
+              </option>
+              <option value="invitation">
+                Participa melhor após convite individual e em etapas mais
+                curtas.
+              </option>
+              <option value="mediation">
+                Precisa de mediação frequente para iniciar, permanecer e
+                concluir.
+              </option>
+            </select></label
+          ><label class="indicator"
+            ><strong>Investigação e evidências</strong
+            ><span>Como formula perguntas, consulta fontes, registra informações e revisa ideias.</span
+            ><select id="inquiry">
+              <option value="curious">
+                Observa detalhes, faz perguntas e testa ideias espontaneamente.
+              </option>
+              <option value="prompted">
+                Observa e responde a perguntas quando recebe convites ou pistas.
+              </option>
+              <option value="modelled">
+                Explora melhor quando um adulto modela passos ou apresenta
+                escolhas.
+              </option>
+              <option value="shared">
+                Precisa de acompanhamento próximo para observar, escolher e
+                testar.
+              </option>
+            </select></label
+          ><label class="indicator"
+            ><strong>Comunicação e colaboração</strong
+            ><span>Como expressa ideias, escuta perspectivas e contribui com o grupo.</span
+            ><select id="communication">
+              <option value="initiates">
+                Inicia trocas e usa palavras, gestos ou imagens para
+                compartilhar ideias.
+              </option>
+              <option value="responds">
+                Responde às trocas com apoio de perguntas, gestos ou imagens.
+              </option>
+              <option value="models">
+                Comunica-se com modelos de linguagem, opções visuais ou parceria
+                próxima.
+              </option>
+              <option value="mediated">
+                Precisa de mediação frequente para entrar nas trocas e expressar
+                escolhas.
+              </option>
+            </select></label
+          ><label class="indicator"
+            ><strong>English in action</strong
+            ><span>A forma mais frequente de participação em inglês.</span
+            ><select id="english">
+              <option value="routine">
+                Compreende e acompanha palavras e comandos de rotina.
+              </option>
+              <option value="responds">
+                Responde a palavras conhecidas com gestos, escolhas ou uma
+                palavra.
+              </option>
+              <option value="uses">
+                Usa espontaneamente palavras ou pequenas expressões conhecidas.
+              </option>
+              <option value="trying">
+                Começa a experimentar sons, palavras e respostas com mediação.
+              </option>
+            </select></label
+          ><label class="indicator"
+            ><strong>Evidência da investigação</strong
+            ><span>Opcional: registre uma pergunta, fonte, dado ou atitude de colaboração observada no mês.</span
+            ><input
+              id="momentNote"
+              maxlength="180"
+              placeholder="Ex.: formulou uma pergunta, registrou uma fonte ou explicou uma evidência..."
+          /></label>
+        </div>
+        <div class="actions">
+          <button class="button" id="update">Atualizar relatório</button
+          ><button class="button alt" id="print">
+            Imprimir / Salvar em PDF
+          </button>
+        </div>
+      </div>
+    </section>
+    <article class="report">
+      <header class="cover">
+        <div class="top">
+          <img
+            id="schoolLogo"
+            class="school-logo"
+            src="../assets/logos/objetivo-logo-public-ref.png"
+            alt="Objetivo"
+          />
+          <div class="seals">
+            <img
+              src="../assets/logos/cambridge-educational-partner-flat-cropped-large.png"
+              alt="Cambridge English Educational Partner"
+            /><img
+              src="../assets/logos/cambridge-preparation-centre.png"
+              alt="Cambridge English Qualifications"
+            />
+          </div>
+        </div>
+        <div class="hero">
+          <span class="badge" id="programBadge"
+            >Acompanhamento mensal · Fundamental 2 · Year 6</span
+          >
+          <h1 id="reportTitle">February Learning Snapshot</h1>
+          <p id="coverSubtitle">
+            Um retrato da chegada, dos vínculos e dos primeiros passos de
+            aprendizagem de cada criança.
+          </p>
+          <div class="meta">
+            <div><b>Student</b><span id="outStudent">o aluno</span></div>
+            <div><b>Class</b><span id="outClass">Year 6</span></div>
+            <div><b>School</b><span id="schoolMeta">Objetivo</span></div>
+            <div><b>Month</b><span id="monthMeta">February · 2026</span></div>
+            <div><b>Teacher</b><span id="outTeacher">Professor(a)</span></div>
+          </div>
+        </div>
+      </header>
+      <main class="content">
+        <section class="section">
+          <h2>Uma mensagem para a família de <span id="headingName">o aluno</span></h2>
+          <div class="card pink"><p id="welcome"></p></div>
+        </section>
+        <section class="section">
+          <h2 id="discoveryHeading">Uma descoberta que ganhou forma</h2>
+          <p id="discoveryIntro">
+            Em February, a Matemática ganhou vida dentro do primeiro projeto da turma: o <em>Classroom Shape Map</em>.
+          </p>
+          <div class="card aqua month-story">
+            <h3 id="activityTitle">Shape Hunt: procurando formas na nossa escola</h3>
+            <p id="momentText"></p>
+          </div>
+          <div class="card month-story">
+            <h3>Experiências que deram contexto ao mês</h3>
+            <p id="monthContext">
+              A turma entrou no Year 1 por meio de rotinas, perguntas,
+              observação de seres vivos e não vivos, contagem, formas e
+              comunicação apoiada. Global Perspectives apareceu ao investigar,
+              ouvir ideias, cuidar dos materiais e construir combinados.
+            </p>
+            <div class="chips" id="monthChips"></div>
+          </div>
+        </section>
+        <section class="section">
+          <h2>Como <span id="headingName3">o aluno</span> está aprendendo</h2>
+          <p>
+            Este retrato descreve o cotidiano. A avaliação consolidada por
+            objetivos segue no Report Card.
+          </p>
+          <div class="development">
+            <article>
+              <h3>Participação e autonomia</h3>
+              <p id="participationText"></p>
+            </article>
+            <article>
+              <h3>Curiosidade e investigação</h3>
+              <p id="inquiryText"></p>
+            </article>
+            <article>
+              <h3>Comunicação e inglês</h3>
+              <p id="communicationText"></p>
+            </article>
+          </div>
+        </section>
+        <div class="bottom">
+          <section class="next">
+            <h2>O próximo passo da escola</h2>
+            <p id="next"></p>
+          </section>
+          <aside class="family">
+            <strong>Em casa, vocês podem...</strong>
+            <p id="family"></p>
+          </aside>
+        </div>
+        <section class="closing"><p id="closing"></p></section>
+      </main>
+      <footer class="footer">
+        <span id="footerSchool">Objetivo · Year 1 · Relatório Mensal de Aprendizagem</span
+        ><span>Projeto Bilíngue 2027</span>
+      </footer>
+    </article>
+    <script>
+      const $ = (id) => document.getElementById(id);
+      const t = {
+        arrival: {
+          settled: (n, year) =>
+            `${n} chegou a este início de Year ${year} reconhecendo o espaço, as pessoas e as rotinas. Mostra-se seguro(a) para entrar no grupo e viver as propostas do dia.`,
+          growing: (n) =>
+            `${n} está construindo segurança na chegada. Com acolhimento e previsibilidade, encontra seu lugar no grupo e vem reconhecendo as rotinas que organizam o dia.`,
+          supported: (n) =>
+            `${n} ainda precisa de acolhimento próximo na transição para a escola e para entrar nas rotinas. Cuidamos desse momento com tempo, vínculos e combinados previsíveis.`,
+        },
+        participation: {
+          ready: (n) =>
+            `${n} inicia as propostas com prontidão e costuma permanecer envolvido(a) até a conclusão. Isso apareceu nos combinados, nas experiências coletivas e nos momentos de escolha.`,
+          routine: (n) =>
+            `${n} encontra segurança nas rotinas: com sinalização clara ou apoio visual, inicia as propostas e sustenta boa parte do percurso.`,
+          invitation: (n) =>
+            `${n} participa com mais presença após um convite individual e quando a experiência é apresentada em etapas curtas.`,
+          mediation: (n) =>
+            `${n} ainda precisa de acompanhamento frequente para iniciar, permanecer e concluir propostas. Mantemos rotinas previsíveis e metas pequenas para apoiar esse percurso.`,
+        },
+        inquiry: {
+          curious: (n) =>
+            `${n} observa detalhes, levanta perguntas e testa ideias com espontaneidade. Demonstrou disposição para comparar, descobrir e voltar ao que chamou sua atenção.`,
+          prompted: (n) =>
+            `${n} observa com atenção e amplia descobertas quando recebe convites ou pistas. Perguntas como “o que você percebeu?” ajudam a transformar observação em conversa.`,
+          modelled: (n) =>
+            `${n} explora materiais com mais segurança quando os passos são modelados ou quando tem escolhas visíveis.`,
+          shared: (n) =>
+            `${n} beneficia-se de acompanhamento próximo para observar, escolher e testar ideias. A mediação compartilhada ajuda a construir confiança diante de desafios novos.`,
+        },
+        communication: {
+          initiates: (n) =>
+            `${n} inicia trocas com os pares e usa palavras, gestos e imagens para compartilhar ideias.`,
+          responds: (n) =>
+            `${n} responde às trocas e compartilha ideias com perguntas, gestos ou imagens de apoio.`,
+          models: (n) =>
+            `${n} comunica-se com mais segurança quando encontra modelos de linguagem, opções visuais ou uma parceria próxima.`,
+          mediated: (n) =>
+            `${n} ainda precisa de mediação frequente para entrar nas trocas e expressar escolhas.`,
+        },
+        english: {
+          routine:
+            "acompanha palavras e comandos de rotina em inglês, mostrando compreensão nas ações do dia.",
+          responds:
+            "responde a palavras conhecidas por meio de gestos, escolhas ou uma palavra, conectando linguagem e contexto.",
+          uses: "já utiliza espontaneamente palavras ou pequenas expressões conhecidas em situações reais de sala.",
+          trying:
+            "está começando a experimentar sons, palavras e respostas em inglês quando encontra modelos e mediação.",
+        },
+      };
+      const monthProfiles = {
+        Fevereiro:{en:'February',title:'February Learning Snapshot',heading:'Uma descoberta que ganhou forma',cover:'Um retrato da chegada, dos vínculos e dos primeiros passos de aprendizagem de cada criança.',intro:'Em February, a Matemática ganhou vida dentro do primeiro projeto da turma: o Classroom Shape Map.',activity:'Shape Hunt: procurando formas na nossa escola',context:'A turma entrou no Year 1 por meio de rotinas, perguntas, observação de seres vivos e não vivos, contagem, formas e comunicação apoiada. Global Perspectives apareceu ao investigar, ouvir ideias, cuidar dos materiais e construir combinados.',chips:['Hello! · greetings','living / non-living','numbers to 10','shape map','ask · listen · share'],welcome:n=>`Querida família, começar um novo ciclo escolar é feito de descobertas grandes e pequenas. Foi muito bonito acompanhar ${n} em February, conhecendo a turma, encontrando seu lugar nas rotinas e vivendo as primeiras experiências de aprendizagem em inglês.`,moment:n=>`Na nossa Shape Hunt, as crianças saíram pela sala com olhos de pesquisadores: observaram portas, mesas, relógios, livros e outros objetos, procurando circles, squares, triangles e rectangles. Em duplas, apontaram o que encontravam, compararam formas e usaram a linguagem do mês para nomear suas descobertas. Depois, registraram algumas delas no Classroom Shape Map, construindo juntos um mapa que mostra como a Matemática aparece no espaço onde aprendemos todos os dias.`,next:n=>`No próximo ciclo, vamos apoiar ${n} a usar as rotinas já conhecidas para fazer mais escolhas, explicar descobertas e escutar os colegas.`,family:'Façam uma pequena Shape Hunt em casa: procurem juntos um circle, um square, um triangle e um rectangle. Vale responder com desenho, gesto ou uma palavra em inglês.',closing:n=>`Encerramos este primeiro mês com alegria e confiança no caminho que está começando. Cada nova palavra, pergunta, tentativa e vínculo de ${n} seguirá crescendo ao longo do ano.`},
+        Março:{en:'March',title:'March Learning Snapshot',heading:'Uma descoberta que começou a crescer',cover:'Um retrato de curiosidade, cuidado e aprendizagens que ganham raízes.',intro:'Em March, a Science guiou uma investigação sobre o que as plantas precisam para crescer.',activity:'Plant Detectives: observando o que ajuda uma planta a viver',context:'A turma explorou plantas, necessidades dos seres vivos, objetos da sala, formas e halves. O Classroom Shape Map ganhou novos detalhes e novas perguntas.',chips:['plant detectives','living things','root · leaf · stem','halves','my class'],welcome:n=>`Querida família, depois do acolhimento inicial, foi bonito ver ${n} circulando com mais familiaridade pela escola e descobrindo que aprender também é cuidar, observar e perguntar.`,moment:n=>`Como pequenos cientistas, as crianças observaram plantas de perto, localizaram raízes, folhas e caules e conversaram sobre o que um ser vivo precisa para crescer. Elas compararam o que viam, fizeram registros e experimentaram explicar suas ideias com palavras e imagens.`,next:n=>`Em April, vamos ampliar a escuta, a observação e a capacidade de registrar descobertas em diferentes linguagens.`,family:'Escolham uma planta de casa para observar por alguns dias. Perguntem o que ela precisa para viver e façam um desenho mostrando uma parte que chamou atenção.',closing:n=>`March deixou perguntas plantadas — e é bonito ver ${n} percebendo que a curiosidade também cresce quando é cuidada todos os dias.`},
+        Abril:{en:'April',title:'April Learning Snapshot',heading:'Uma descoberta que pudemos escutar',cover:'Um retrato de atenção, comparação e descoberta pelo som.',intro:'Em April, a Science convidou a turma a investigar sons e a perceber o mundo com mais atenção.',activity:'Sound Walk: escutando a escola de um jeito novo',context:'A turma investigou sons, cores, medidas de comprimento e elementos da natureza. A observação virou registro, comparação e conversa.',chips:['sound walk','loud / quiet','colours','longer / shorter','garden'],welcome:n=>`Querida família, neste mês vimos ${n} se envolver em experiências que pediam atenção aos pequenos detalhes — aqueles que muitas vezes passam despercebidos na correria do dia.`,moment:n=>`Durante a Sound Walk, as crianças caminharam pela escola para escutar com intenção: identificaram sons altos e baixos, próximos e distantes, compararam o que ouviam e registraram suas descobertas. A atividade mostrou que investigar também pode começar pelos ouvidos.`,next:n=>`No próximo mês, vamos transformar observação em escolhas: testar materiais, organizar dados e explicar por que uma solução funciona.`,family:'Façam uma pausa de um minuto em casa para escutar. Quais sons ${n} consegue identificar? Organizem juntos em “loud” e “quiet”.',closing:n=>`April nos lembrou que aprender é prestar atenção. Seguimos animados para descobrir com ${n} quantas perguntas ainda cabem no cotidiano.`},
+        Maio:{en:'May',title:'May Learning Snapshot',heading:'Uma ideia que virou teste',cover:'Um retrato de escolhas, materiais e pequenas decisões de design.',intro:'Em May, a turma investigou materiais e descobriu que boas ideias podem ser testadas, revistas e melhoradas.',activity:'Material Lab: escolhendo, testando e explicando',context:'A turma explorou toys, materiais, posição e dados simples. As crianças observaram propriedades, fizeram escolhas e começaram a justificar suas soluções.',chips:['material lab','hard / soft','position','data','my toys'],welcome:n=>`Querida família, este mês foi cheio de mãos em ação. Foi especial acompanhar ${n} percebendo que uma ideia pode ser testada, ajustada e compartilhada.`,moment:n=>`No Material Lab, as crianças tocaram, compararam e testaram diferentes materiais. Conversaram sobre o que era hard, soft, smooth ou rough e escolheram quais poderiam funcionar melhor para um desafio. Mais do que acertar de primeira, elas viveram a alegria de investigar e tentar de novo.`,next:n=>`Em June, vamos conectar as descobertas à vida cotidiana: casas, rotinas, tempo e as pessoas que ajudam nossa comunidade.`,family:'Escolham dois objetos de casa e comparem seus materiais. Perguntem: qual é mais soft? Qual é mais hard? Para que cada um serve?',closing:n=>`May mostrou que pensar como pesquisador também é experimentar sem medo. Seguimos celebrando as escolhas e perguntas de ${n}.`},
+        Junho:{en:'June',title:'June Learning Snapshot',heading:'Uma rotina que virou aprendizagem',cover:'Um retrato de tempo, comunidade e das pessoas que organizam o nosso dia.',intro:'Em June, a turma percebeu que o tempo e a comunidade ajudam a contar histórias sobre como vivemos.',activity:'Our Day, Our Community: organizando tempo e descobrindo quem ajuda',context:'A turma explorou a casa, o tempo, números até 20 e pessoas que trabalham na comunidade. As experiências conectaram linguagem, rotina e pertencimento.',chips:['my house','time','numbers to 20','jobs','community'],welcome:n=>`Querida família, neste mês foi bonito observar ${n} reconhecer que a escola, a casa e a comunidade são feitas de rotinas e de pessoas que cuidam umas das outras.`,moment:n=>`Em uma investigação sobre o dia a dia, as crianças organizaram momentos da rotina, conversaram sobre horários e conheceram diferentes trabalhos da comunidade. Elas perceberam que cada pessoa tem uma função e que, juntos, organizamos os espaços onde vivemos.`,next:n=>`Depois da pausa, vamos retomar com novas perguntas sobre o corpo, o planeta e como nossas ações cuidam dos espaços compartilhados.`,family:'Conversem sobre a rotina de casa: o que acontece de manhã, à tarde e à noite? Escolham uma pessoa que ajuda a família e contem por quê.',closing:n=>`June fecha esta etapa com muitas conexões feitas. O aprendizado de ${n} continua vivo nas perguntas que leva para casa e nas histórias que traz de volta.`},
+        Agosto:{en:'August',title:'August Learning Snapshot',heading:'Uma investigação sobre o planeta que habitamos',cover:'Um retrato de responsabilidade, colaboração e cuidado com o mundo próximo.',intro:'Em August, a Science e a Global Perspectives convidaram a turma a olhar para a Terra e para as escolhas que fazemos nela.',activity:'Earth Care Investigation: pequenos gestos, grandes cuidados',context:'A turma explorou o corpo, o planeta, rochas e solo, números até 20 e frações de quantidades. As descobertas se ligaram ao cuidado com os espaços comuns.',chips:['Planet Earth','soil · rocks','my body','fractions','care'],welcome:n=>`Querida família, depois da pausa, foi muito bom reencontrar ${n} com energia para investigar o mundo e perceber que cada pessoa pode cuidar do lugar onde vive.`,moment:n=>`Na Earth Care Investigation, as crianças observaram elementos do planeta, conversaram sobre solo, pedras e espaços que compartilhamos e pensaram em pequenas ações de cuidado. A atividade transformou curiosidade em responsabilidade: o que vemos ao nosso redor também merece atenção.`,next:n=>`Em September, vamos aprofundar a investigação sobre seres vivos, necessidades, habitats e o uso responsável da água.`,family:'Em um passeio curto, procurem algo que vem da Terra — uma pedra, terra ou uma planta. Perguntem: como podemos cuidar desse lugar?',closing:n=>`August abriu um novo capítulo de investigação. Seguimos confiantes de que as perguntas de ${n} podem se transformar em gestos de cuidado.`},
+        Setembro:{en:'September',title:'September Learning Snapshot',heading:'Uma pergunta que aproximou ciência e cuidado',cover:'Um retrato de observação, empatia e descobertas sobre os seres vivos.',intro:'Em September, a turma investigou do que os animais precisam para viver e como podemos observar o mundo com responsabilidade.',activity:'Animal Needs Lab: observando, comparando e cuidando',context:'A turma explorou o corpo, sentidos, animais, habitats, massa, capacidade e água. As investigações ajudaram a diferenciar fatos, opiniões e ações de cuidado.',chips:['animals','habitats','needs','water','facts / opinions'],welcome:n=>`Querida família, este mês acompanhamos ${n} em perguntas que misturam ciência e empatia: o que um animal precisa? Onde ele vive? Como podemos cuidar dos seres vivos?`,moment:n=>`No Animal Needs Lab, as crianças observaram imagens e pistas sobre diferentes animais, compararam habitats e pensaram no que cada um precisa para viver. Ao justificar escolhas, perceberam que investigar é também aprender a olhar com cuidado para outras formas de vida.`,next:n=>`Em October, vamos usar dados, escolhas e experiências de movimento para pensar em soluções e ações responsáveis.`,family:'Escolham um animal de que ${n} goste. Conversem sobre onde ele vive, o que come e como as pessoas podem cuidar de seu habitat.',closing:n=>`September trouxe descobertas cheias de vida. Seguimos celebrando a curiosidade de ${n} e sua capacidade de transformar observação em cuidado.`},
+        Outubro:{en:'October',title:'October Learning Snapshot',heading:'Uma descoberta que se moveu',cover:'Um retrato de hipóteses, dados e escolhas que podem fazer diferença.',intro:'Em October, a turma investigou movimento, forças e escolhas do cotidiano, aprendendo que testar ideias é parte importante de aprender.',activity:'Move It Challenge: testando forças e criando soluções',context:'A turma explorou movimento, flutuação, magnetismo, agrupamento e partilha, além de dados sobre preferências e hábitos de cuidado.',chips:['move it','float / sink','magnets','grouping','water care'],welcome:n=>`Querida família, foi muito especial ver ${n} viver um mês de hipóteses: “o que acontece se...?” virou ponto de partida para testar, conversar e descobrir.`,moment:n=>`No Move It Challenge, as crianças fizeram previsões, testaram objetos e observaram o que mudava quando empurravam, puxavam, aproximavam ímãs ou colocavam materiais na água. Cada tentativa trouxe uma nova conversa sobre forças, movimento e como aprendemos quando revisamos uma ideia.`,next:n=>`Em November, vamos reunir evidências do ano, escolher produções e preparar uma celebração das aprendizagens construídas.`,family:'Escolham dois objetos seguros de casa para testar movimento: o que desliza melhor? O que precisa de mais força? Primeiro façam uma previsão, depois experimentem.',closing:n=>`October mostrou que aprender também é ter coragem de testar. Seguimos felizes ao ver ${n} construir explicações cada vez mais próprias.`},
+        Novembro:{en:'November',title:'November Learning Snapshot',heading:'Uma história de aprendizagem para compartilhar',cover:'Um retrato de memória, orgulho e de tudo o que ganhou sentido ao longo do ano.',intro:'Em November, a turma olhou para as próprias produções e percebeu o quanto aprendeu ao investigar, criar e comunicar.',activity:'Learning Exhibition: escolhendo evidências e contando o que aprendemos',context:'A turma revisou conteúdos do ano, selecionou produções, retomou perguntas importantes e ensaiou formas de compartilhar suas descobertas com clareza e orgulho.',chips:['portfolio','review','presentation','I learned...','celebrate'],welcome:n=>`Querida família, chegamos a um mês muito especial: o de olhar para trás com ${n}, reconhecer conquistas e perceber o quanto cresceu desde os primeiros dias do Year 1.`,moment:n=>`Na preparação da Learning Exhibition, as crianças revisitaram desenhos, mapas, registros e produções do ano. Escolheram evidências de que se orgulham, contaram o que aprenderam e ensaiaram como compartilhar essas histórias. Foi uma oportunidade bonita de tornar visível um percurso inteiro de descobertas.`,next:n=>`Encerramos o ciclo apoiando ${n} a reconhecer suas conquistas e a levar sua curiosidade para os próximos desafios.`,family:'Peçam para ${n} escolher uma produção ou lembrança do ano e contar: “I learned...”. Ouçam a história com curiosidade e celebrem o caminho, não apenas o resultado.',closing:n=>`November é uma celebração de percurso. O que ${n} construiu neste ano seguirá acompanhando suas novas perguntas, suas relações e sua confiança para aprender.`}
+      };
+      const year2Profiles = {
+        Fevereiro: {
+          ...monthProfiles.Fevereiro,
+          title: 'February Learning Snapshot',
+          cover: 'Um retrato de investigação, rotina acadêmica e primeiras explicações no Year 2.',
+          heading: 'Uma pergunta que começou na mesa do lanche',
+          intro: 'Em February, a turma iniciou o <em>Food and Classroom Journey Map</em>, investigando de onde vêm os alimentos e como as escolhas chegam até a escola.',
+          activity: 'Food Detectives: seguindo pistas da origem ao lanche',
+          context: 'A turma retomou rotinas do Year 2, números até 100, habitats e ambientes locais. A investigação começou por objetos e alimentos reais, com registros e perguntas simples.',
+          chips: ['food detectives', 'where does it come from?', 'numbers to 100', 'local environment', 'ask · record · share'],
+          welcome: n => `Querida família, o Year 2 começou com ${n} assumindo um lugar mais ativo nas rotinas e nas perguntas da turma. Foi bonito acompanhar os primeiros passos de uma aprendizagem que observa, registra e explica.`,
+          moment: n => `Na Food Detectives, as crianças observaram alimentos do cotidiano, levantaram hipóteses sobre sua origem e começaram a seguir pistas: planta, animal, mercado, cozinha ou comunidade. ${n} participou de conversas, classificações e registros que mostraram que uma pergunta simples pode abrir uma investigação cheia de conexões.`,
+          next: n => `Em March, vamos transformar essas pistas em mapas, dados e explicações cada vez mais claras para apoiar as descobertas de ${n}.`,
+          family: 'Escolham um alimento da despensa e investiguem juntos: de onde ele pode ter vindo? Que caminho ele percorreu até chegar à mesa?',
+          closing: n => `February abriu o ano com boas perguntas. Seguiremos ao lado de ${n}, celebrando cada observação, registro e nova explicação.`,
+        },
+        Março: {
+          ...monthProfiles.Março,
+          title: 'March Learning Snapshot',
+          cover: 'Um retrato de mapas, medidas e ideias que ganharam evidência.',
+          heading: 'Uma descoberta que ganhou caminho e medida',
+          intro: 'Em March, o <em>Food and Classroom Journey Map</em> avançou com trajetos, medidas simples e dados sobre escolhas do cotidiano.',
+          activity: 'Journey Map Studio: desenhando percursos e encontrando dados',
+          context: 'A turma explorou a escola, linhas, medidas e forças ao redor. Mapas e tally charts ajudaram a organizar o que observavam e a comparar informações.',
+          chips: ['journey map', 'measure', 'tally chart', 'forces', 'compare'],
+          welcome: n => `Querida família, neste mês vimos ${n} ganhar confiança para transformar observações em registros e registros em explicações para os colegas.`,
+          moment: n => `No Journey Map Studio, as crianças desenharam percursos, compararam comprimentos e organizaram dados simples sobre objetos e escolhas da turma. Elas não apenas responderam: começaram a mostrar como chegaram a uma ideia. Para ${n}, o mapa se tornou uma forma de contar uma descoberta.`,
+          next: n => `Em April, vamos usar esse olhar investigativo para testar materiais e pensar em como cuidar melhor de nós e dos espaços compartilhados.`,
+          family: 'Façam um pequeno mapa de um percurso conhecido. Marquem dois pontos importantes e conversem: qual caminho é mais curto? Como podemos saber?',
+          closing: n => `March mostrou que aprender também é organizar pistas. Seguimos felizes ao ver ${n} construir explicações com mais intenção.`,
+        },
+        Abril: {
+          ...monthProfiles.Abril,
+          title: 'April Learning Snapshot',
+          cover: 'Um retrato de testes, comparação e escolhas fundamentadas.',
+          heading: 'Uma ideia que passou pelo teste',
+          intro: 'Em April, a turma iniciou o <em>Healthy Care and Materials Challenge</em>, investigando materiais e escolhas que apoiam bem-estar.',
+          activity: 'Materials Test Lab: comparar antes de escolher',
+          context: 'A turma explorou toys, materiais, gráficos simples, saúde e hábitos de cuidado. As crianças testaram propriedades e registraram o que observaram.',
+          chips: ['materials test', 'hard / soft', 'tally chart', 'healthy choices', 'evidence'],
+          welcome: n => `Querida família, foi especial acompanhar ${n} em experiências que pediam curiosidade e cuidado: olhar de perto, testar com atenção e explicar uma escolha.`,
+          moment: n => `No Materials Test Lab, as crianças compararam objetos, testaram propriedades e registraram o que percebiam antes de decidir qual material seria mais adequado para um desafio. ${n} viveu uma aprendizagem em que errar, rever e tentar de novo faz parte de encontrar uma boa solução.`,
+          next: n => `Em May, vamos conectar materiais, cuidado e necessidades dos seres vivos em novas propostas de investigação.`,
+          family: 'Escolham dois objetos seguros de casa e comparem seus materiais. O que muda quando apertamos, dobramos ou tocamos? Que evidência apoia essa resposta?',
+          closing: n => `April trouxe mãos, olhos e ideias em ação. Seguimos valorizando a coragem de ${n} para testar e explicar.`,
+        },
+        Maio: {
+          ...monthProfiles.Maio,
+          title: 'May Learning Snapshot',
+          cover: 'Um retrato de cuidado, comparação e decisões feitas com propósito.',
+          heading: 'Uma investigação sobre o que ajuda a viver bem',
+          intro: 'Em May, o <em>Healthy Care and Materials Challenge</em> aproximou animais, materiais e escolhas de cuidado.',
+          activity: 'Care Challenge: necessidades, materiais e boas soluções',
+          context: 'A turma explorou pets, materiais, dinheiro e dados. As crianças compararam necessidades, organizaram informações e discutiram escolhas possíveis.',
+          chips: ['care challenge', 'pets', 'needs', 'money', 'data'],
+          welcome: n => `Querida família, neste mês vimos ${n} perceber que cuidar também envolve observar necessidades, comparar possibilidades e justificar escolhas.`,
+          moment: n => `No Care Challenge, as crianças investigaram o que diferentes animais e pessoas precisam para viver bem. Elas organizaram ideias, compararam materiais e pensaram em soluções possíveis para situações de cuidado. ${n} foi convidado(a) a usar informações para ir além de uma resposta rápida e explicar o seu raciocínio.`,
+          next: n => `Em June, vamos levar essas ideias para as rotinas, o corpo e a acolhida de pessoas em novos lugares.`,
+          family: 'Escolham um pet, animal ou pessoa da família e conversem: do que ele precisa todos os dias? Quais escolhas ajudam a cuidar melhor?',
+          closing: n => `May reforçou que boas perguntas podem transformar cuidado em ação. Seguimos atentos às ideias generosas e criteriosas de ${n}.`,
+        },
+        Junho: {
+          ...monthProfiles.Junho,
+          title: 'June Learning Snapshot',
+          cover: 'Um retrato de saúde, rotina e pertencimento em ação.',
+          heading: 'Uma rotina que virou guia de cuidado',
+          intro: 'Em June, o <em>Healthy Care and Materials Challenge</em> reuniu bem-estar, corpo, tempo e acolhimento para criar orientações úteis.',
+          activity: 'Well-being Guide: criando orientações para cuidar e acolher',
+          context: 'A turma explorou face, corpo, tempo, dinheiro e necessidades de crianças em novos lugares. As produções transformaram informação em orientações claras.',
+          chips: ['well-being guide', 'my face', 'time', 'healthy habits', 'belonging'],
+          welcome: n => `Querida família, este mês mostrou como ${n} pode conectar o que aprende à vida cotidiana: corpo, tempo, cuidados e maneiras de acolher outras pessoas.`,
+          moment: n => `Na criação do Well-being Guide, as crianças organizaram dicas, imagens e exemplos para comunicar hábitos de cuidado e acolhimento. Elas pensaram em quem leria esse material e no que precisaria ficar claro. Para ${n}, foi uma oportunidade de aprender que conhecimento também pode servir para ajudar alguém.`,
+          next: n => `Depois da pausa, vamos retomar com novos desafios de luz, energia, segurança e comunidade.`,
+          family: 'Conversem sobre uma rotina de cuidado em casa. Que passos são importantes? Como vocês poderiam transformá-los em um pequeno guia para alguém novo na família?',
+          closing: n => `June encerra esta etapa com aprendizagens que ultrapassam a sala. Seguimos confiantes no jeito atento de ${n} de observar, cuidar e comunicar.`,
+        },
+        Agosto: {
+          ...monthProfiles.Agosto,
+          title: 'August Learning Snapshot',
+          cover: 'Um retrato de protótipos, revisão e soluções que começam a ganhar forma.',
+          heading: 'Uma solução que ganhou teste e melhoria',
+          intro: 'Em August, a turma retomou o <em>Healthy Care and Materials Challenge</em> para revisar ideias, criar protótipos e explicar melhorias.',
+          activity: 'Prototype Fair: testar, revisar e apresentar uma solução',
+          context: 'A turma explorou animais, luz, massa e capacidade. As crianças revisitaram escolhas, testaram ideias e prepararam evidências para compartilhar.',
+          chips: ['prototype fair', 'test · improve', 'light', 'mass / capacity', 'explain'],
+          welcome: n => `Querida família, depois da pausa foi muito bom reencontrar ${n} com energia para transformar perguntas em testes e ideias em soluções mais claras.`,
+          moment: n => `Na Prototype Fair, as crianças apresentaram uma ideia, ouviram perguntas, revisaram detalhes e explicaram o que mudariam para melhorar sua solução. ${n} viveu uma experiência importante de aprendizagem: uma produção pode crescer quando recebe evidência, conversa e uma nova tentativa.`,
+          next: n => `Em September, vamos iniciar uma investigação sobre rotas, segurança e ações que podem melhorar espaços da comunidade.`,
+          family: 'Peçam para a criança mostrar ou desenhar uma ideia que gostaria de melhorar. Perguntem: o que você testaria primeiro? Como saberia se funcionou?',
+          closing: n => `August trouxe a satisfação de construir, revisar e compartilhar. Seguimos celebrando a persistência de ${n} diante de novos desafios.`,
+        },
+        Setembro: {
+          ...monthProfiles.Setembro,
+          title: 'September Learning Snapshot',
+          cover: 'Um retrato de segurança, direção e perguntas voltadas à comunidade.',
+          heading: 'Uma rota que se transformou em investigação',
+          intro: 'Em September, a turma iniciou a <em>Safe Routes and Community Action Exhibition</em>, observando percursos, sinais e escolhas de segurança.',
+          activity: 'Safe Routes Walk: observar, mapear e recomendar',
+          context: 'A turma explorou animais, luz, direção, movimento e segurança. Mapas e observações ajudaram a transformar um percurso cotidiano em pergunta investigável.',
+          chips: ['safe routes', 'directions', 'light', 'movement', 'recommend'],
+          welcome: n => `Querida família, este mês acompanhamos ${n} olhando para a escola e a comunidade com olhos de quem observa riscos, pistas e possibilidades de cuidado.`,
+          moment: n => `Na Safe Routes Walk, as crianças observaram trajetos, sinais, pontos de atenção e escolhas que tornam um caminho mais seguro. Elas registraram pistas, compararam ideias e começaram a pensar em recomendações para outras pessoas. ${n} percebeu que investigar o cotidiano pode abrir espaço para agir sobre ele.`,
+          next: n => `Em October, vamos usar dados e argumentos para transformar observações em uma proposta de ação para a comunidade.`,
+          family: 'Conversem sobre um caminho feito pela família. Onde é preciso prestar mais atenção? Que sinal, regra ou cuidado ajuda todos a circularem melhor?',
+          closing: n => `September mostrou que perceber o entorno é o primeiro passo para cuidar dele. Seguimos animados com as perguntas responsáveis de ${n}.`,
+        },
+        Outubro: {
+          ...monthProfiles.Outubro,
+          title: 'October Learning Snapshot',
+          cover: 'Um retrato de dados, argumentos e propostas que procuram fazer diferença.',
+          heading: 'Uma ideia que virou ação para a comunidade',
+          intro: 'Em October, a <em>Safe Routes and Community Action Exhibition</em> avançou com dados, escolhas e mensagens para um público real.',
+          activity: 'Community Action Studio: escolher evidências e propor mudanças',
+          context: 'A turma explorou eletricidade, segurança, direção, movimento e resolução de problemas. As crianças selecionaram evidências para sustentar uma proposta.',
+          chips: ['community action', 'data', 'electricity safety', 'problem solving', 'campaign'],
+          welcome: n => `Querida família, foi especial ver ${n} descobrir que uma boa ideia ganha força quando vem acompanhada de evidências e de uma explicação clara.`,
+          moment: n => `No Community Action Studio, as crianças organizaram dados e observações para pensar em uma mensagem de cuidado para a comunidade. Elas discutiram o que deveria aparecer, para quem estavam falando e como uma recomendação poderia ser útil. ${n} praticou transformar descoberta em comunicação com propósito.`,
+          next: n => `Em November, vamos reunir o percurso, selecionar evidências e preparar a exposição que celebra as aprendizagens do Year 2.`,
+          family: 'Perguntem: qual mudança você gostaria de propor para tornar um espaço mais seguro? Incentivem a criança a dar uma razão ou evidência para sua ideia.',
+          closing: n => `October mostrou que aprender pode gerar impacto quando transformamos observação em proposta. Seguimos orgulhosos das ideias de ${n}.`,
+        },
+        Novembro: {
+          ...monthProfiles.Novembro,
+          title: 'November Learning Snapshot',
+          cover: 'Um retrato de percurso, autoria e orgulho pelo que foi construído.',
+          heading: 'Uma exposição que contou histórias de aprendizagem',
+          intro: 'Em November, a <em>Safe Routes and Community Action Exhibition</em> reuniu registros, produtos e explicações construídas ao longo do Year 2.',
+          activity: 'Community Exhibition: selecionando evidências e compartilhando descobertas',
+          context: 'A turma revisou conhecimentos do ano, escolheu evidências, preparou apresentações e refletiu sobre investigação, colaboração e ação.',
+          chips: ['community exhibition', 'portfolio', 'evidence', 'presentation', 'reflect'],
+          welcome: n => `Querida família, chegamos a um momento muito especial de reconhecer o percurso de ${n}: as perguntas que fez, os registros que produziu e as explicações que hoje consegue compartilhar com mais segurança.`,
+          moment: n => `Na Community Exhibition, as crianças revisitaram mapas, testes, dados e produções para escolher o que melhor contava sua história de aprendizagem. Elas ensaiaram explicações, ouviram perguntas e perceberam que apresentar não é apenas mostrar um produto: é comunicar um caminho.`,
+          next: n => `Encerramos o ciclo apoiando ${n} a reconhecer estratégias que pode levar para os próximos desafios de aprendizagem.`,
+          family: 'Peçam para a criança escolher uma evidência do ano e completar: “Eu aprendi que...” ou “I can explain...”. Escutem a história e celebrem o caminho percorrido.',
+          closing: n => `November é uma celebração de autoria e crescimento. O Year 2 deixa em ${n} novas ferramentas para observar, argumentar, colaborar e seguir aprendendo.`,
+        },
+      };
+      const makeYear3Profile = (base, s) => ({
+        ...base,
+        title: `${s.en} Learning Snapshot`, heading: s.heading, cover: s.cover,
+        intro: s.intro, activity: s.activity, context: s.context, chips: s.chips,
+        welcome: n => `Querida família, ${s.welcome(n)}`,
+        moment: n => s.moment(n), next: n => s.next(n), family: s.family,
+        closing: n => s.closing(n),
+      });
+      const year3Profiles = {
+        Fevereiro: makeYear3Profile(monthProfiles.Fevereiro,{en:'February',heading:'Uma pergunta que abriu uma investigação',cover:'Um retrato de observação, dados e curiosidade no começo do Year 3.',intro:'Em February, a turma começou o <em>School Resource Detectives</em>, investigando recursos usados na escola e as escolhas que fazemos todos os dias.',activity:'School Resource Detectives: observar, contar e perguntar',context:'A turma retomou rotinas acadêmicas, plantas, números até 1000 e tabelas de frequência. As crianças começaram a transformar hábitos em dados visíveis.',chips:['resources','tally chart','numbers to 1000','plants','because'],welcome:n=>`foi muito bonito ver ${n} voltar ao ritmo da escola com perguntas mais elaboradas e disposição para investigar o que acontece ao seu redor.`,moment:n=>`Como Resource Detectives, as crianças observaram como papel, água e outros materiais aparecem na rotina da escola. Elas fizeram contagens, registraram dados e conversaram sobre o que esses números poderiam revelar. ${n} viveu uma experiência em que observar o cotidiano se transformou em uma pergunta importante.`,next:n=>`Em March, vamos usar essas observações para acompanhar plantas e explicar mudanças com mais evidência.`,family:'Escolham um recurso usado em casa, como água ou papel. Durante um dia, anotem quando ele aparece e conversem sobre uma escolha que pode evitar desperdício.',closing:n=>`February abriu o ano com boas perguntas. Seguimos acompanhando cada descoberta e explicação de ${n}.`}),
+        Março: makeYear3Profile(monthProfiles.Março,{en:'March',heading:'Uma descoberta que ganhou registro e crescimento',cover:'Um retrato de previsões, cuidado e evidências que mudam ao longo do tempo.',intro:'Em March, a turma desenvolveu o <em>Plant Growth Investigation Board</em>, acompanhando o que as plantas precisam para viver e crescer.',activity:'Plant Growth Board: prever, observar e explicar mudanças',context:'A turma investigou partes das plantas, necessidades dos seres vivos, tabelas e dados. As observações foram organizadas para comparar o que mudou ao longo das semanas.',chips:['plant growth','prediction','data table','roots · leaves','because'],welcome:n=>`neste mês, acompanhamos ${n} exercitando a paciência e a curiosidade de quem observa um processo ao longo do tempo.`,moment:n=>`No Plant Growth Board, as crianças fizeram previsões, observaram plantas em diferentes momentos e registraram pistas sobre luz, água e crescimento. Elas compararam registros e começaram a usar evidências para explicar por que uma mudança poderia ter acontecido.`,next:n=>`Em April, vamos transformar dados sobre consumo e materiais em propostas concretas para reduzir desperdícios.`,family:'Escolham uma planta para observar por alguns dias. Façam um registro com desenho ou foto e perguntem: o que mudou? O que pode explicar essa mudança?',closing:n=>`March mostrou que investigar é voltar a olhar, comparar e aprender com as mudanças. ${n} segue crescendo nesse percurso.`}),
+        Abril: makeYear3Profile(monthProfiles.Abril,{en:'April',heading:'Uma ideia que virou plano de ação',cover:'Um retrato de materiais, escolhas e recomendações feitas com evidência.',intro:'Em April, a turma criou o <em>Reduce Waste Action Plan</em>, investigando materiais, consumo e alternativas para reduzir desperdícios.',activity:'Reduce Waste Action Plan: dados que ajudam a escolher',context:'A turma explorou sólidos, líquidos, gases, filtragem, adição e subtração. Dados e testes ajudaram a transformar uma preocupação real em recomendação.',chips:['reduce waste','materials','filtering','data','recommend'],welcome:n=>`foi especial ver ${n} perceber que os dados da turma podem ajudar a pensar em escolhas mais responsáveis.`,moment:n=>`No Reduce Waste Action Plan, as crianças observaram materiais usados no dia a dia, organizaram informações e discutiram quais mudanças poderiam reduzir desperdícios. Elas usaram dados e exemplos para sustentar uma recomendação, mostrando que aprender também pode gerar cuidado com o coletivo.`,next:n=>`Em May, vamos testar materiais e sombras para criar uma solução pensada para as pessoas que usam o espaço.`,family:'Escolham um resíduo de casa e conversem: ele pode ser reduzido, reutilizado ou reciclado? Que evidência ajudaria a defender essa escolha?',closing:n=>`April trouxe ideias com propósito. Seguimos valorizando a capacidade de ${n} de observar, justificar e propor. `}),
+        Maio: makeYear3Profile(monthProfiles.Maio,{en:'May',heading:'Uma solução que começou com um teste',cover:'Um retrato de design, comparação e melhoria de ideias.',intro:'Em May, a turma iniciou o <em>Simple Playground Feature</em>, testando materiais e critérios para imaginar um espaço mais interessante e seguro.',activity:'Playground Design Lab: testar, comparar e melhorar',context:'A turma explorou sombras, formas 3D, materiais e padrões de multiplicação. As crianças avaliaram opções antes de criar uma proposta.',chips:['design lab','shadows','3D shapes','test · improve','safe'],welcome:n=>`neste mês, ${n} viveu a alegria de descobrir que uma boa solução pode nascer de testes, comparações e novas tentativas.`,moment:n=>`No Playground Design Lab, as crianças testaram materiais, observaram sombras e discutiram quais escolhas tornariam uma proposta mais útil e segura. Cada grupo precisou explicar seus critérios, ouvir sugestões e melhorar uma ideia inicial.`,next:n=>`Em June, vamos conectar escolhas de design a dados sobre corpo, hábitos e bem-estar.`,family:'Peçam para ${n} desenhar uma melhoria para um espaço de brincar. Perguntem: para quem ela serve? Por que seria segura? O que você testaria primeiro?',closing:n=>`May mostrou que criar também é investigar. Seguimos celebrando a persistência e as boas ideias de ${n}.`}),
+        Junho: makeYear3Profile(monthProfiles.Junho,{en:'June',heading:'Uma campanha que transformou dados em cuidado',cover:'Um retrato de saúde, evidências e comunicação com propósito.',intro:'Em June, a turma criou a <em>Healthy Body Data Campaign</em>, usando dados simples para conversar sobre hábitos de bem-estar.',activity:'Healthy Body Data Campaign: pesquisar, representar e recomendar',context:'A turma explorou corpo humano, alimentação, dinheiro, medidas e dados sobre hábitos. Registros e gráficos apoiaram recomendações claras para o grupo.',chips:['healthy body','data campaign','organs','habits','recommend'],welcome:n=>`foi muito significativo acompanhar ${n} entendendo que dados podem ajudar a cuidar de si e das pessoas ao redor.`,moment:n=>`Na Healthy Body Data Campaign, as crianças levantaram informações sobre hábitos, organizaram resultados e criaram mensagens de cuidado para um público real. Elas aprenderam que um gráfico não é só um desenho: é uma forma de enxergar padrões e comunicar uma recomendação.`,next:n=>`Depois da pausa, vamos planejar um jardim escolar e investigar como ciclos de vida e medidas ajudam a cuidar de espaços vivos.`,family:'Conversem sobre um hábito de bem-estar da família. Criem uma pequena tabela de uma semana e observem juntos o que os dados mostram.',closing:n=>`June encerra esta etapa com descobertas que conectam conhecimento e cuidado. ${n} segue construindo explicações cada vez mais conscientes.`}),
+        Agosto: makeYear3Profile(monthProfiles.Agosto,{en:'August',heading:'Um plano que fez o jardim ganhar forma',cover:'Um retrato de ciclos, medidas e planejamento coletivo.',intro:'Em August, a turma desenvolveu o <em>School Garden Plan</em>, conectando seres vivos, medidas e escolhas para criar um espaço de cuidado.',activity:'School Garden Plan: medir, planejar e cuidar',context:'A turma explorou grupos de animais, ciclos de vida, área, perímetro e recursos naturais. O planejamento do jardim reuniu dados, desenho e negociação de ideias.',chips:['school garden','life cycles','area · perimeter','resources','plan'],welcome:n=>`foi uma alegria reencontrar ${n} pronto(a) para transformar conhecimento sobre seres vivos e medidas em um plano coletivo.`,moment:n=>`No School Garden Plan, as crianças observaram necessidades de plantas e animais, mediram espaços e discutiram como organizar um jardim possível para a escola. Elas precisaram negociar escolhas e explicar por que cada elemento fazia sentido no plano.`,next:n=>`Em September, vamos aprofundar a investigação sobre água, cadeias alimentares e consequências de nossas escolhas.`,family:'Escolham um pequeno espaço de casa e imaginem um jardim. O que seria preciso medir? Que seres vivos poderiam se beneficiar desse lugar?',closing:n=>`August trouxe um convite bonito: planejar com cuidado para que a vida possa crescer. ${n} segue contribuindo com ideias valiosas.`}),
+        Setembro: makeYear3Profile(monthProfiles.Setembro,{en:'September',heading:'Uma investigação que fez a água aparecer nos dados',cover:'Um retrato de recursos, consequências e ação responsável.',intro:'Em September, a turma iniciou a <em>Water Use Investigation</em>, observando como a água é usada e quais escolhas podem reduzir desperdícios.',activity:'Water Use Investigation: encontrar padrões e propor cuidado',context:'A turma explorou água, cadeias alimentares, frações, tempo e recursos compartilhados. Dados e observações ajudaram a pensar em consequências e recomendações.',chips:['water use','food chains','fractions','consequences','action'],welcome:n=>`neste mês, ${n} se envolveu em uma pergunta que aproxima ciência e responsabilidade: como usamos um recurso de que todos dependem?`,moment:n=>`Na Water Use Investigation, as crianças levantaram hipóteses, observaram situações de uso da água e organizaram dados para procurar padrões. Elas discutiram consequências e começaram a formular recomendações possíveis para a escola e a comunidade.`,next:n=>`Em October, vamos testar forças e movimento para pensar em transporte mais seguro e soluções que podem ser aprimoradas.`,family:'Observem juntos um momento de uso da água em casa. Que escolha ajuda a evitar desperdício? Peçam para ${n} explicar a razão usando “because”.',closing:n=>`September mostrou que uma investigação pode inspirar responsabilidade. Seguimos atentos às propostas cuidadosas de ${n}.`}),
+        Outubro: makeYear3Profile(monthProfiles.Outubro,{en:'October',heading:'Um desafio que se moveu com evidências',cover:'Um retrato de forças, segurança e melhoria de soluções.',intro:'Em October, a turma desenvolveu o <em>Forces and Safe Transport Challenge</em>, testando movimento, atrito e escolhas de segurança.',activity:'Safe Transport Challenge: testar, explicar e melhorar',context:'A turma explorou forças, gravidade, fricção, magnetismo, posição e transporte. Testes práticos ajudaram a transformar hipóteses em explicações.',chips:['forces','safe transport','friction','gravity','improve'],welcome:n=>`foi muito bom acompanhar ${n} em um mês de hipóteses, testes e descobertas que se movem de verdade.`,moment:n=>`No Safe Transport Challenge, as crianças testaram como objetos se movem, o que muda com diferentes superfícies e quais escolhas tornam um percurso mais seguro. Elas registraram resultados, compararam tentativas e explicaram melhorias para suas soluções.`,next:n=>`Em November, vamos reunir evidências do ano e preparar uma exposição que torne visível todo esse percurso de investigação.`,family:'Escolham um objeto seguro que deslize ou role. Façam uma previsão sobre o que mudará em duas superfícies diferentes e conversem sobre a evidência observada.',closing:n=>`October reforçou que aprender é testar, rever e explicar. ${n} segue construindo confiança para enfrentar novos desafios.`}),
+        Novembro: makeYear3Profile(monthProfiles.Novembro,{en:'November',heading:'Uma exposição que contou um percurso inteiro',cover:'Um retrato de autoria, evidências e orgulho pelas aprendizagens do Year 3.',intro:'Em November, a <em>Year 3 Learning Exhibition</em> reuniu investigações, testes, planos e recomendações construídos ao longo do ano.',activity:'Year 3 Learning Exhibition: selecionar evidências e compartilhar processos',context:'A turma retomou dados, registros, modelos e produções para comunicar o que aprendeu sobre recursos, vida, saúde, água, forças e espaço.',chips:['learning exhibition','portfolio','evidence','present','reflect'],welcome:n=>`chegamos a um momento especial de olhar para o caminho vivido por ${n} e reconhecer o quanto suas perguntas e explicações cresceram.`,moment:n=>`Na Year 3 Learning Exhibition, as crianças revisitaram registros, escolheram evidências e ensaiaram como contar a história de uma investigação. Elas perceberam que apresentar é compartilhar um processo: o que perguntaram, como testaram, o que descobriram e o que recomendam.`,next:n=>`Encerramos o ciclo apoiando ${n} a reconhecer estratégias de investigação e comunicação que seguirá levando para novos desafios.`,family:'Peçam para ${n} escolher uma evidência do ano e completar: “We found...” ou “Eu aprendi que...”. Escutem o processo e celebrem as tentativas.',closing:n=>`November celebra um percurso construído com curiosidade, evidência e colaboração. O que ${n} aprendeu seguirá acompanhando suas próximas perguntas.`}),
+      };
+      const year4Profiles = {
+        Fevereiro: makeYear3Profile(monthProfiles.Fevereiro,{en:'February',heading:'Uma escolha que começou com critérios',cover:'Um retrato de perspectivas, dados e decisões mais conscientes no Year 4.',intro:'Em February, a turma iniciou o <em>Better School Choices</em>, investigando como tecnologia, energia e rotinas podem afetar diferentes pessoas.',activity:'Better School Choices: comparar antes de decidir',context:'A turma explorou família, casa, números, horários, esqueleto e energia. As primeiras investigações usaram critérios simples para comparar alternativas.',chips:['school choices','technology','criteria','timetables','evidence'],welcome:n=>`foi muito bonito acompanhar ${n} começar o Year 4 percebendo que uma boa escolha pede perguntas, critérios e atenção às pessoas envolvidas.`,moment:n=>`No Better School Choices, as crianças compararam situações reais da escola, levantaram opiniões e começaram a perguntar: o que é útil, seguro, justo e possível? ${n} viveu uma investigação em que uma escolha não era apenas pessoal — precisava ser explicada com razões.`,next:n=>`Em March, vamos aprofundar essa conversa, reunindo evidências para discutir quando a tecnologia ajuda e quando pode trazer riscos.`,family:'Conversem sobre uma tecnologia usada em casa. Como ela ajuda? Que cuidado é necessário? Peçam para a criança justificar uma escolha com “because”.',closing:n=>`February abriu o ano com boas perguntas e decisões pensadas. Seguimos acompanhando as ideias de ${n} com atenção.`}),
+        Março: makeYear3Profile(monthProfiles.Março,{en:'March',heading:'Uma opinião que encontrou evidências',cover:'Um retrato de tecnologia, perspectivas e argumentos construídos com cuidado.',intro:'Em March, a turma desenvolveu o <em>Technology Help or Harm Poster</em>, comparando benefícios, riscos e usos responsáveis da tecnologia.',activity:'Technology Help or Harm: ouvir perspectivas e defender uma ideia',context:'A turma explorou energia, mudanças, horários e opiniões. Surveys e comparações ajudaram a transformar pontos de vista em argumentos.',chips:['technology','help / harm','survey','perspectives','because'],welcome:n=>`neste mês, ${n} foi convidado(a) a perceber que pessoas diferentes podem ter opiniões diferentes — e que evidências ajudam a sustentar uma conversa respeitosa.`,moment:n=>`No Technology Help or Harm Poster, as crianças reuniram exemplos, ouviram perspectivas e organizaram uma posição sobre usos responsáveis da tecnologia. Elas aprenderam a diferenciar uma opinião de uma razão que pode apoiá-la.`,next:n=>`Em April, vamos investigar rotinas e materiais para propor escolhas mais sustentáveis para o cotidiano.`,family:'Escolham uma tecnologia e conversem: ela ajuda, pode atrapalhar ou depende de como usamos? Incentivem uma razão para cada resposta.',closing:n=>`March mostrou que pensar bem inclui ouvir, comparar e explicar. ${n} segue construindo argumentos com mais confiança.`}),
+        Abril: makeYear3Profile(monthProfiles.Abril,{en:'April',heading:'Uma rotina que virou desafio sustentável',cover:'Um retrato de materiais, hábitos e escolhas com impacto.',intro:'Em April, a turma iniciou o <em>Sustainable Routine Challenge</em>, observando rotinas, materiais e pequenas mudanças que podem fazer diferença.',activity:'Sustainable Routine Challenge: observar hábitos e propor melhorias',context:'A turma explorou materiais, mudanças, adição, subtração e probabilidade. Registros ajudaram a comparar hábitos e pensar em alternativas.',chips:['sustainable routine','materials','habits','probability','recommend'],welcome:n=>`foi especial acompanhar ${n} olhando para hábitos cotidianos com curiosidade e percebendo que pequenas escolhas também têm impacto.`,moment:n=>`No Sustainable Routine Challenge, as crianças observaram como materiais e recursos aparecem ao longo do dia, registraram padrões e discutiram melhorias possíveis. ${n} aprendeu que uma recomendação precisa ser prática, responsável e explicada com clareza.`,next:n=>`Em May, vamos levar essa atenção para os espaços da escola, pensando em cidade, inclusão e uso seguro dos ambientes.`,family:'Escolham uma rotina de casa e perguntem: existe uma forma mais sustentável de realizá-la? Qual seria o benefício dessa mudança?',closing:n=>`April trouxe escolhas mais conscientes para o centro da aprendizagem. Seguimos valorizando as propostas cuidadosas de ${n}.`}),
+        Maio: makeYear3Profile(monthProfiles.Maio,{en:'May',heading:'Um mapa pensado para mais pessoas',cover:'Um retrato de cidade, inclusão e soluções construídas com critérios.',intro:'Em May, a turma criou o <em>Inclusive School Space Map</em>, observando como os espaços podem ser mais claros, seguros e acessíveis.',activity:'Inclusive School Space Map: mapear necessidades e propor ajustes',context:'A turma explorou cidade, probabilidade, materiais e inclusão. Mapas e critérios ajudaram a transformar observações em propostas.',chips:['inclusive map','city','accessibility','criteria','safe'],welcome:n=>`neste mês, ${n} foi convidado(a) a olhar para os espaços da escola a partir de diferentes necessidades e perspectivas.`,moment:n=>`No Inclusive School Space Map, as crianças observaram trajetos, sinais, barreiras e pontos de apoio. Elas discutiram quais mudanças poderiam tornar um espaço mais útil para mais pessoas e justificaram suas propostas usando critérios combinados.`,next:n=>`Em June, vamos conectar saúde, formas e sustentabilidade a escolhas que cuidem de pessoas e ambientes.`,family:'Pensem em um espaço da casa ou da escola. O que poderia torná-lo mais fácil e seguro para uma criança, um adulto ou alguém com mobilidade reduzida?',closing:n=>`May mostrou que incluir é observar com cuidado e agir com intenção. ${n} segue ampliando seu olhar para o coletivo.`}),
+        Junho: makeYear3Profile(monthProfiles.Junho,{en:'June',heading:'Uma campanha que conectou saúde e sustentabilidade',cover:'Um retrato de escolhas, critérios e comunicação para o bem comum.',intro:'Em June, a turma desenvolveu a <em>Healthy and Sustainable Choice Campaign</em>, comparando alternativas que cuidam de pessoas e do ambiente.',activity:'Healthy and Sustainable Choices: comparar, justificar e comunicar',context:'A turma explorou saúde, tessellation, multiplicação e escolhas sustentáveis. A campanha transformou critérios em mensagens claras para um público real.',chips:['healthy choices','sustainable','criteria','tessellation','campaign'],welcome:n=>`foi muito significativo ver ${n} relacionar bem-estar, ambiente e escolhas cotidianas em propostas pensadas para outras pessoas.`,moment:n=>`Na Healthy and Sustainable Choice Campaign, as crianças compararam opções, definiram critérios e criaram mensagens para defender uma escolha responsável. ${n} praticou explicar não apenas o que prefere, mas por que uma alternativa pode ser melhor para o coletivo.`,next:n=>`Depois da pausa, vamos retomar com luz, habitats e mapas de espaços úteis que poderão ser revisados com feedback.`,family:'Escolham duas opções do cotidiano — por exemplo, dois lanches ou dois meios de transporte — e comparem qual é mais saudável, prática ou sustentável. Quais critérios ajudam a decidir?',closing:n=>`June encerra esta etapa com escolhas mais conscientes. Seguimos acompanhando a capacidade de ${n} de argumentar com cuidado.`}),
+        Agosto: makeYear3Profile(monthProfiles.Agosto,{en:'August',heading:'Um espaço que ganhou utilidade e propósito',cover:'Um retrato de luz, habitats e melhorias orientadas por evidência.',intro:'Em August, a turma criou o <em>Useful School Space Map</em>, usando observações sobre luz, campo e necessidades para revisar propostas de espaço.',activity:'Useful School Space Map: observar, receber feedback e melhorar',context:'A turma explorou luz, sombra, habitats, frações e medidas. Mapas e registros ajudaram a ajustar propostas de acordo com necessidades reais.',chips:['useful spaces','light / shadow','habitats','feedback','improve'],welcome:n=>`foi uma alegria reencontrar ${n} pronto(a) para revisar ideias, acolher feedback e pensar em melhorias mais úteis para a comunidade.`,moment:n=>`No Useful School Space Map, as crianças observaram luz, sombra e usos dos ambientes para propor ajustes. Elas receberam perguntas, voltaram aos critérios e melhoraram seus mapas, percebendo que revisão é parte importante de uma boa solução.`,next:n=>`Em September, vamos transformar dados e necessidades da comunidade em uma proposta de ação mais inclusiva.`,family:'Observem um espaço durante diferentes momentos do dia. Como a luz muda? O que fica mais fácil ou mais difícil de usar? Que melhoria seria útil?',closing:n=>`August mostrou que uma ideia cresce quando é revisada com evidências e feedback. ${n} segue aprendendo a melhorar com propósito.`}),
+        Setembro: makeYear3Profile(monthProfiles.Setembro,{en:'September',heading:'Uma proposta que ouviu a comunidade',cover:'Um retrato de dados, necessidades e ação inclusiva.',intro:'Em September, a turma iniciou a <em>Inclusive Action Proposal</em>, reunindo dados e perspectivas para responder a uma necessidade real da comunidade escolar.',activity:'Inclusive Action Proposal: usar dados para defender uma melhoria',context:'A turma explorou animais, gráficos, coordenadas, comparativos e necessidades da comunidade. As evidências ajudaram a revisar propostas com mais clareza.',chips:['inclusive action','data','graphs','community needs','feedback'],welcome:n=>`neste mês, ${n} viveu uma investigação que pedia escuta: antes de propor uma mudança, era preciso entender quem seria afetado e de que forma.`,moment:n=>`Na Inclusive Action Proposal, as crianças organizaram dados, compararam perspectivas e definiram uma melhoria possível para a comunidade. Elas usaram evidências para explicar por que a proposta era relevante e como poderia ser mais inclusiva.`,next:n=>`Em October, vamos levar critérios de segurança e economia de energia para uma campanha que precisa ser clara, convincente e prática.`,family:'Conversem sobre uma melhoria que faria diferença na escola ou no bairro. Quem seria beneficiado? Que evidência ajudaria a mostrar que ela é necessária?',closing:n=>`September trouxe a força das propostas construídas com escuta e evidências. Seguimos atentos às ideias generosas de ${n}.`}),
+        Outubro: makeYear3Profile(monthProfiles.Outubro,{en:'October',heading:'Uma campanha que fez a energia virar escolha',cover:'Um retrato de eletricidade, segurança e comunicação com impacto.',intro:'Em October, a turma desenvolveu a <em>Energy-saving Campaign</em>, investigando eletricidade, segurança e hábitos que ajudam a economizar energia.',activity:'Energy-saving Campaign: investigar, persuadir e cuidar',context:'A turma explorou eletricidade, condutores, isolantes, circuitos, área e perímetro. Testes e dados apoiaram uma campanha de consumo responsável.',chips:['energy saving','electricity','safe circuits','campaign','persuade'],welcome:n=>`foi muito interessante acompanhar ${n} descobrir que entender como a energia funciona ajuda a fazer escolhas mais seguras e responsáveis.`,moment:n=>`Na Energy-saving Campaign, as crianças investigaram circuitos, segurança e hábitos de consumo. Elas transformaram o que descobriram em mensagens para convencer um público a agir, escolhendo evidências e argumentos que tornassem a campanha mais clara.`,next:n=>`Em November, vamos reunir processos, produtos e evidências para a Learning Exhibition do Year 4.`,family:'Façam uma pequena “energy check” em casa. Que aparelho poderia ser desligado quando não está em uso? Qual razão explica essa escolha?',closing:n=>`October mostrou que conhecimento pode virar ação. ${n} segue aprendendo a comunicar escolhas que cuidam do mundo ao redor.`}),
+        Novembro: makeYear3Profile(monthProfiles.Novembro,{en:'November',heading:'Uma exposição que tornou decisões visíveis',cover:'Um retrato de autoria, evidência e crescimento ao longo do Year 4.',intro:'Em November, a <em>Year 4 Learning Exhibition</em> reuniu mapas, campanhas, critérios e propostas construídos durante o ano.',activity:'Year 4 Learning Exhibition: compartilhar evidências e decisões',context:'A turma revisou dados, pesquisas, mapas, campanhas e produtos para contar processos de investigação, feedback e melhoria.',chips:['learning exhibition','portfolio','criteria','evidence','reflect'],welcome:n=>`chegamos a um mês especial para reconhecer como ${n} aprendeu a comparar, justificar escolhas e comunicar propostas com mais autonomia.`,moment:n=>`Na Year 4 Learning Exhibition, as crianças selecionaram produções, revisitaram evidências e explicaram decisões tomadas ao longo dos projetos. Elas mostraram que uma boa apresentação não conta apenas o resultado: mostra perguntas, critérios, feedback e melhorias do percurso.`,next:n=>`Encerramos o ciclo apoiando ${n} a reconhecer estratégias de pensamento e comunicação que levará para os desafios do Year 5.`,family:'Peçam para ${n} escolher uma produção do ano e contar: qual decisão foi tomada? Que evidência ajudou? O que melhoraria hoje?',closing:n=>`November celebra um percurso de escolhas cada vez mais conscientes. As perguntas e argumentos de ${n} seguirão crescendo nos próximos desafios.`}),
+      };
+      const santoYear4Profiles = {
+        ...year4Profiles,
+        Abril:{...year4Profiles.Abril, intro:'Em April, a matriz do Santo Anjo desenvolveu o <em>Project 3 — Sustainable Routine Challenge</em>, transformando rotinas em escolhas sustentáveis.', activity:'Sustainable Routine Challenge: hábitos, critérios e melhorias', moment:n=>`No Sustainable Routine Challenge, as crianças do Santo Anjo observaram hábitos, materiais e recursos para propor mudanças possíveis. ${n} usou critérios para justificar uma escolha mais sustentável.`},
+        Maio:{...year4Profiles.Maio, intro:'Em May, a matriz do Santo Anjo desenvolveu o <em>Project 4 — Inclusive School Space Map</em>, unindo cidade, segurança e inclusão.', activity:'Inclusive School Space Map: necessidades e propostas', moment:n=>`No Inclusive School Space Map, as crianças do Santo Anjo mapearam necessidades e defenderam ajustes para tornar os espaços mais úteis e seguros. ${n} praticou considerar diferentes perspectivas.`},
+        Junho:{...year4Profiles.Junho, intro:'Em June, a matriz do Santo Anjo trouxe o <em>Project 5 — Healthy and Sustainable Choice Campaign</em>, com saúde, critérios e sustentabilidade.', activity:'Healthy and Sustainable Choice Campaign: escolhas com impacto', moment:n=>`Na campanha do Santo Anjo, as crianças compararam opções e criaram mensagens para defender escolhas saudáveis e sustentáveis. ${n} transformou critérios em uma recomendação clara.`},
+        Agosto:{...year4Profiles.Agosto, intro:'Em August, a matriz do Santo Anjo desenvolveu o <em>Project 6 — Useful School Space Map</em>, com luz, habitats e ajustes nos espaços.', activity:'Useful School Space Map: evidências para melhorar', moment:n=>`No Useful School Space Map, as crianças do Santo Anjo observaram ambientes e usaram dados para revisar uma proposta. ${n} percebeu que feedback e evidências tornam uma solução mais útil.`},
+        Setembro:{...year4Profiles.Setembro, intro:'Em September, a matriz do Santo Anjo iniciou o <em>Project 7 — Inclusive Action Proposal</em>, reunindo dados e perspectivas da comunidade.', activity:'Inclusive Action Proposal: escutar, comparar e agir', moment:n=>`Na Inclusive Action Proposal, as crianças do Santo Anjo organizaram dados e perspectivas para defender uma melhoria possível. ${n} praticou comunicar uma proposta inclusiva com evidências.`},
+        Outubro:{...year4Profiles.Outubro, intro:'Em October, a matriz do Santo Anjo desenvolveu o <em>Project 8 — Energy-saving Campaign</em>, conectando eletricidade, segurança e responsabilidade.', activity:'Energy-saving Campaign: segurança e consumo responsável', moment:n=>`Na Energy-saving Campaign, as crianças do Santo Anjo investigaram segurança e consumo para criar uma mensagem de impacto. ${n} usou evidências para defender uma ação possível.`},
+        Novembro:{...year4Profiles.Novembro, intro:'Em November, o <em>Project 9 — Year 4 Learning Exhibition</em> do Santo Anjo reuniu evidências, critérios e propostas do ano.', activity:'Year 4 Learning Exhibition: processos e decisões', moment:n=>`Na Year 4 Learning Exhibition, as crianças do Santo Anjo reuniram projetos e evidências para compartilhar decisões e melhorias. ${n} pôde reconhecer a evolução de suas perguntas e argumentos.`},
+      };
+      const santoYear3Profiles = {
+        ...year3Profiles,
+        Abril: {...year3Profiles.Abril, intro:'Em April, a matriz do Santo Anjo conduziu a turma ao <em>Project 3 — Reduce Waste Action Plan</em>, transformando observação de materiais em propostas de cuidado.', activity:'Reduce Waste Action Plan: observar, registrar e recomendar', context:'A turma investigou materiais, consumo e desperdício, organizando dados para justificar escolhas mais responsáveis.', moment:n=>`No Reduce Waste Action Plan, as crianças do Santo Anjo observaram materiais usados na rotina, reuniram dados e criaram recomendações para reduzir desperdício. ${n} foi convidado(a) a explicar por que uma ação poderia fazer diferença no coletivo.`},
+        Maio: {...year3Profiles.Maio, intro:'Em May, a matriz do Santo Anjo desenvolveu o <em>Project 4 — Simple Playground Feature</em>, unindo materiais, sombras e design.', activity:'Simple Playground Feature: projetar com critério e segurança', context:'Materiais, sombras e formas ajudaram a turma a comparar opções e justificar uma proposta para o espaço de brincar.', moment:n=>`No Simple Playground Feature, as crianças testaram opções e defenderam escolhas para uma proposta de brincadeira mais interessante e segura. ${n} viveu um percurso de design com comparação, critérios e melhoria.`},
+        Junho: {...year3Profiles.Junho, intro:'Em June, a matriz do Santo Anjo trouxe o <em>Project 5 — Healthy Body Data Campaign</em>, usando dados para conversar sobre corpo e bem-estar.', activity:'Healthy Body Data Campaign: dados para cuidar', context:'A turma investigou hábitos, corpo e bem-estar para comunicar recomendações com clareza.', moment:n=>`Na Healthy Body Data Campaign, as crianças organizaram dados sobre hábitos e transformaram o que observaram em uma mensagem de cuidado. ${n} praticou explicar uma recomendação apoiada por evidências.`},
+        Agosto: {...year3Profiles.Agosto, intro:'Em August, a matriz do Santo Anjo desenvolveu o <em>Project 6 — School Garden Plan</em>, unindo ciclos de vida, medidas e cuidado coletivo.', activity:'School Garden Plan: vida, medida e planejamento', context:'A turma planejou um espaço vivo usando conhecimentos sobre ciclos, recursos e medidas.', moment:n=>`No School Garden Plan, as crianças do Santo Anjo organizaram medidas, seres vivos e recursos em uma proposta de cuidado para um espaço comum. ${n} precisou defender escolhas e considerar as necessidades da vida no jardim.`},
+        Setembro: {...year3Profiles.Setembro, intro:'Em September, a matriz do Santo Anjo iniciou o <em>Project 7 — Water Use Investigation</em>, relacionando água, cadeias alimentares e responsabilidade.', activity:'Water Use Investigation: evidências para cuidar da água', context:'A turma coletou dados e discutiu consequências para propor ações responsáveis sobre a água.', moment:n=>`Na Water Use Investigation, as crianças do Santo Anjo observaram usos da água, organizaram evidências e discutiram consequências. ${n} transformou uma observação do cotidiano em proposta de cuidado.`},
+        Outubro: {...year3Profiles.Outubro, intro:'Em October, a matriz do Santo Anjo desenvolveu o <em>Project 8 — Forces and Safe Transport Challenge</em>, com testes, movimento e segurança.', activity:'Forces and Safe Transport Challenge: testar e melhorar', context:'A turma investigou forças e transporte para explicar segurança e aperfeiçoar soluções.', moment:n=>`No Forces and Safe Transport Challenge, as crianças testaram movimentos e compararam resultados para aperfeiçoar uma proposta de transporte seguro. ${n} praticou explicar uma melhoria a partir do que observou.`},
+        Novembro: {...year3Profiles.Novembro, intro:'Em November, a <em>Year 3 Learning Exhibition</em> do Santo Anjo reuniu os projetos e evidências construídos ao longo do ano.', activity:'Year 3 Learning Exhibition: processos, evidências e recomendações', context:'A turma selecionou produções e evidências para comunicar investigações, escolhas e recomendações do ano.', moment:n=>`Na Year 3 Learning Exhibition, as crianças do Santo Anjo revisitaram projetos, dados e produções para compartilhar processos de aprendizagem. ${n} teve a oportunidade de reconhecer como suas perguntas foram ganhando evidências e explicações.`},
+      };
+      // Santo Anjo follows the same report form, but its Year 1 matrix has a
+      // different PBL pathway. These overrides keep each monthly snapshot
+      // faithful to that curriculum without changing the family-facing format.
+      const santoProfiles = {
+        Fevereiro: monthProfiles.Fevereiro,
+        Março: {
+          ...monthProfiles.Março,
+          intro: 'Em March, a turma continuou o <em>Classroom Shape Map</em>, encontrando formas nos objetos e organizando o que descobriu no espaço da escola.',
+          activity: 'Shape Map Studio: encontrando formas nos objetos da turma',
+          context: 'A turma explorou a própria sala, seres vivos, formas planas e espaciais e partes de um todo. As descobertas ganharam lugar no mapa construído coletivamente.',
+          chips: ['my class', 'objects and shapes', '2D / 3D', 'halves', 'shape map'],
+          moment: n => `No Shape Map Studio, as crianças observaram objetos da sala, procuraram formas em caixas, mesas, livros e materiais e decidiram como representá-las no mapa da turma. Ao comparar o que encontravam, ${n} pôde perceber que as formas estão presentes no espaço onde aprendemos e que um mapa pode guardar as descobertas de muitas pessoas.`,
+          next: n => `Em April, vamos ampliar esse mapa com uma caminhada de observação, usando medidas e registros para compartilhar novas descobertas de ${n} e do grupo.`,
+          family: 'Procurem formas em um cômodo da casa. Escolham um objeto, desenhem-no e conversem: qual shape ele lembra?',
+        },
+        Abril: {
+          ...monthProfiles.Abril,
+          heading: 'Uma descoberta que virou caminho',
+          cover: 'Um retrato de observação, registro e de um mapa que ganhou novas histórias.',
+          intro: 'Em April, o <em>Classroom Shape Map</em> chegou à etapa de caminhar, medir e compartilhar o que a turma descobriu.',
+          activity: 'Map Walk: seguindo pistas e contando descobertas',
+          context: 'A turma retomou o mapa construído, observou cores e sons do entorno, comparou comprimentos e organizou registros para mostrar suas descobertas.',
+          chips: ['map walk', 'colours', 'longer / shorter', 'sound', 'share'],
+          moment: n => `Na Map Walk, as crianças caminharam pela escola com o mapa em mãos para reencontrar os objetos e formas que tinham registrado. Elas compararam caminhos, observaram cores e sons do entorno e conversaram sobre como tornar suas pistas claras para quem fosse ler o mapa. A experiência ajudou ${n} a perceber que investigar também é registrar e compartilhar.`,
+          next: n => `Em May, vamos abrir uma nova investigação: como os materiais e a natureza podem inspirar escolhas e criações de ${n} e do grupo.`,
+          family: 'Façam um pequeno mapa do caminho até um lugar da casa. Marquem uma pista importante e peçam para a criança explicar como encontrá-la.',
+        },
+        Maio: {
+          ...monthProfiles.Maio,
+          intro: 'Em May, a turma iniciou o <em>Garden and Nature Gallery</em>, explorando materiais e escolhas de design inspiradas pela natureza.',
+          activity: 'Nature Design Lab: materiais, texturas e boas escolhas',
+          context: 'A turma explorou brinquedos, materiais, posição e dados simples. As crianças observaram propriedades e imaginaram como criar para uma galeria inspirada na natureza.',
+          chips: ['nature design', 'hard / soft', 'textures', 'position', 'materials'],
+          moment: n => `No Nature Design Lab, as crianças exploraram materiais, compararam texturas e pensaram no que seria mais adequado para uma criação inspirada pela natureza. Elas tocaram, testaram, fizeram escolhas e explicaram suas ideias ao grupo. ${n} viveu uma experiência em que investigar não era apenas descobrir propriedades, mas também imaginar o que poderia ser criado com elas.`,
+          next: n => `Em June, vamos conectar as criações à ideia de casa, comunidade e espaços onde as pessoas convivem.`,
+          family: 'Escolham materiais seguros de casa e comparem: qual é smooth, rough, hard ou soft? Conversem sobre onde cada um poderia ser usado.',
+        },
+        Junho: {
+          ...monthProfiles.Junho,
+          intro: 'Em June, o <em>Garden and Nature Gallery</em> aproximou casa, comunidade e os espaços que organizam a vida cotidiana.',
+          activity: 'Our Spaces Gallery: casas, rotinas e comunidade',
+          context: 'A turma explorou a casa, o tempo, números até 20 e as pessoas que cuidam da comunidade. As ideias ganharam forma em produções para a galeria.',
+          chips: ['my house', 'community', 'time', 'numbers to 20', 'our spaces'],
+          moment: n => `Na Our Spaces Gallery, as crianças conversaram sobre casas, escolas e lugares da comunidade. Organizaram momentos da rotina, imaginaram quem cuida de cada espaço e criaram registros para mostrar como vivemos juntos. Para ${n}, foi uma oportunidade de relacionar a aprendizagem à sua própria história e aos lugares que reconhece todos os dias.`,
+          next: n => `Depois da pausa, vamos retomar a galeria para selecionar, revisar e preparar produções que comuniquem nossas descobertas.`,
+          family: 'Conversem sobre um lugar importante para a família. Quem está ali? O que acontece nesse espaço? A criança pode fazer um desenho ou mapa simples.',
+        },
+        Agosto: {
+          ...monthProfiles.Agosto,
+          heading: 'Uma galeria que reuniu muitas descobertas',
+          cover: 'Um retrato de curadoria, colaboração e orgulho pelas produções criadas ao longo do percurso.',
+          intro: 'Em August, a turma retomou o <em>Garden and Nature Gallery</em> para revisar escolhas, organizar produções e prepará-las para compartilhar.',
+          activity: 'Gallery Curators: escolhendo, revisando e apresentando',
+          context: 'A turma explorou corpo, planeta, solo, rochas e frações, enquanto escolhia como tornar visíveis as perguntas e criações da galeria.',
+          chips: ['gallery curators', 'Planet Earth', 'soil · rocks', 'fractions', 'present'],
+          moment: n => `Como curadores da galeria, as crianças revisitaram produções, decidiram quais ideias queriam mostrar e conversaram sobre como organizar uma apresentação para outras pessoas. Elas retomaram perguntas sobre o planeta, o solo e os materiais, buscando deixar claro o que descobriram. ${n} pôde perceber que compartilhar uma aprendizagem também é cuidar dela.`,
+          next: n => `Em September, vamos iniciar uma nova etapa de investigação, olhando para os seres vivos e para ações de cuidado com a água.`,
+          family: 'Peçam para a criança escolher uma criação ou desenho de que goste e contar o que queria mostrar a alguém que ainda não conhece a atividade.',
+        },
+        Setembro: {
+          ...monthProfiles.Setembro,
+          intro: 'Em September, começou a <em>Year 1 Learning Exhibition</em>: uma investigação sobre seres vivos, água e formas de cuidado.',
+          activity: 'Care Lab: animais, água e perguntas que importam',
+          context: 'A turma explorou animais, habitats, necessidades dos seres vivos, massa, capacidade e água. As perguntas começaram a orientar a Learning Exhibition.',
+          chips: ['care lab', 'animals', 'habitats', 'water', 'needs'],
+          moment: n => `No Care Lab, as crianças observaram pistas sobre animais e habitats, conversaram sobre o que cada ser vivo precisa e relacionaram essas perguntas ao cuidado com a água. Elas compararam ideias, buscaram evidências e começaram a pensar no que gostariam de contar na Learning Exhibition. ${n} viveu uma investigação em que ciência e responsabilidade caminharam juntas.`,
+          next: n => `Em October, vamos transformar perguntas em ações, usando escolhas, dados e testes para preparar as ideias da exposição.`,
+          family: 'Escolham um animal e conversem sobre o que ele precisa para viver. Depois, pensem em uma atitude simples que ajude a cuidar de seu habitat.',
+        },
+        Outubro: {
+          ...monthProfiles.Outubro,
+          intro: 'Em October, a <em>Year 1 Learning Exhibition</em> avançou com escolhas, ações e dados que ajudam a explicar uma ideia ao público.',
+          activity: 'Action Studio: testando ideias e organizando evidências',
+          context: 'A turma explorou movimento, materiais, agrupamento, partilha e dados. As crianças escolheram evidências e começaram a planejar como comunicar suas propostas.',
+          chips: ['action studio', 'choices', 'data', 'movement', 'water care'],
+          moment: n => `No Action Studio, as crianças transformaram perguntas em pequenos testes e registros. Elas fizeram escolhas, organizaram dados simples e conversaram sobre quais evidências ajudariam alguém a entender suas ideias. ${n} praticou explicar não apenas o que fez, mas também por que aquela descoberta era importante para o grupo.`,
+          next: n => `Em November, vamos reunir as produções, revisar o percurso e celebrar a Learning Exhibition com clareza e orgulho.`,
+          family: 'Perguntem: “qual ideia você quer mostrar na exposição?” Incentivem a criança a explicar uma escolha e uma evidência que a ajuda a contar essa história.',
+        },
+        Novembro: {
+          ...monthProfiles.Novembro,
+          intro: 'Em November, a <em>Year 1 Learning Exhibition</em> reuniu produções, perguntas e histórias de aprendizagem construídas ao longo do ano.',
+          activity: 'Learning Exhibition: organizando um percurso para compartilhar',
+          context: 'A turma revisou conteúdos, selecionou evidências e preparou maneiras de contar o que investigou, criou e aprendeu durante o Year 1.',
+          chips: ['Learning Exhibition', 'portfolio', 'review', 'presentation', 'celebrate'],
+          moment: n => `Na Learning Exhibition, as crianças voltaram aos registros, mapas, criações e perguntas que marcaram o ano. Elas escolheram o que desejavam compartilhar, ensaiaram explicações e perceberam que uma exposição pode contar a história de um percurso inteiro. Para ${n}, foi um momento de reconhecer conquistas e de dar valor ao caminho vivido.`,
+          family: 'Peçam para a criança escolher uma lembrança do ano e completar: “I learned...” ou “Eu aprendi...”. Escutem a história e celebrem cada etapa desse percurso.',
+        },
+      };
+      const brandProfiles = {
+        Objetivo: { label: 'Objetivo', logo: '../assets/logos/objetivo-logo-public-ref.png' },
+        CCPA: { label: 'CCPA', logo: '../assets/logos/ccpa-logo.png' },
+        CJA: { label: 'CJA', logo: '../assets/logos/cja-logo.png' },
+        Marupiara: { label: 'Marupiara', logo: '../assets/logos/marupiara-logo.png' },
+        'Santo Anjo': { label: 'Santo Anjo', logo: '../assets/logos/santo-anjo-logo.png' },
+      };
+      const query = new URLSearchParams(window.location?.search || '');
+      const requestedYear = query.get('year') || '6';
+      const requestedMonth = query.get('month') || 'Fevereiro';
+      const requestedBrand = query.get('brand') || 'Objetivo';
+      const brand = brandProfiles[requestedBrand] || brandProfiles.Objetivo;
+      const year5Profiles = {
+        Fevereiro: makeYear3Profile(monthProfiles.Fevereiro,{en:'February',heading:'Uma investigação que começou pelas pessoas',cover:'Um retrato de acessibilidade, critérios e boas perguntas no início do Year 5.',intro:'Em February, a turma iniciou o <em>Accessible Recreation Audit</em>, observando como diferentes pessoas usam os espaços de convivência da escola.',activity:'Accessible Recreation Audit: observar barreiras e propor perguntas',context:'A turma retomou rotina, números decimais, plantas e participação. As primeiras observações mostraram que um mesmo espaço pode funcionar de modos diferentes para cada pessoa.',chips:['accessibility','recreation','criteria','decimals','evidence'],welcome:n=>`foi bonito acompanhar ${n} começar o Year 5 entendendo que observar um espaço também é pensar em quem consegue participar dele.`,moment:n=>`No Accessible Recreation Audit, as crianças caminharam pelos espaços de convivência com um olhar de pesquisadores: registraram o que facilita, o que pode dificultar e que perguntas ainda precisam responder. ${n} percebeu que uma boa proposta começa ao escutar diferentes experiências.`,next:n=>`Em March, vamos transformar observações em dados e esboçar propostas para tornar uma atividade mais inclusiva.`,family:'Em um espaço que a família frequenta, conversem: quem consegue usá-lo com facilidade? O que poderia ajudar mais pessoas a participar?',closing:n=>`February abriu o ano com atenção às pessoas e às evidências. Seguimos animados com as perguntas cuidadosas de ${n}.`}),
+        Março: makeYear3Profile(monthProfiles.Março,{en:'March',heading:'Uma proposta que combinou dados e inclusão',cover:'Um retrato de pesquisa, argumentos e escolhas feitas para ampliar a participação.',intro:'Em March, a turma avançou no <em>Inclusive Activity Centre Proposal</em>, usando registros e critérios para imaginar atividades que acolham mais pessoas.',activity:'Inclusive Activity Centre: pesquisar, comparar e defender escolhas',context:'A turma conectou esportes, plantas, padrões, simetria e dados simples. As crianças aprenderam que uma proposta precisa explicar para quem ela foi pensada e por quê.',chips:['inclusive activity','survey','symmetry','participation','recommend'],welcome:n=>`neste mês, vimos ${n} descobrir que defender uma ideia pede mais do que gosto pessoal: pede escuta, critérios e razões claras.`,moment:n=>`Ao planejar uma atividade inclusiva, as crianças compararam possibilidades, analisaram o que observaram e conversaram sobre adaptações. Elas criaram esboços e justificaram escolhas com frases como “We recommend...” e “because...”.`,next:n=>`Em April, vamos investigar bem-estar e transformar informações da turma em um retrato que ajude a pensar em cuidado.`,family:'Peçam para ${n} explicar uma atividade de que gosta. Depois perguntem: como ela poderia ser adaptada para que mais pessoas participassem?',closing:n=>`March mostrou que boas ideias crescem quando incluem outras perspectivas. ${n} segue construindo argumentos mais claros e generosos.`}),
+        Abril: makeYear3Profile(monthProfiles.Abril,{en:'April',heading:'Dados que ajudaram a falar de bem-estar',cover:'Um retrato de escuta, médias e mensagens de cuidado construídas com a turma.',intro:'Em April, a turma realizou o <em>School Well-being Survey</em>, investigando hábitos, percepções e formas de cuidar melhor da comunidade escolar.',activity:'Well-being Survey: perguntar, organizar e interpretar',context:'A turma explorou saúde, som, médias e representação de dados. Perguntas e respostas se transformaram em tabelas, gráficos e conversas sobre padrões.',chips:['well-being','survey','average','sound','data'],welcome:n=>`foi especial ver ${n} perceber que ouvir as pessoas e organizar informações pode ajudar uma comunidade a se cuidar melhor.`,moment:n=>`No Well-being Survey, as crianças formularam perguntas, coletaram respostas e buscaram padrões nos dados. Elas compararam resultados e conversaram sobre o que um gráfico pode mostrar — e também sobre o que ainda precisamos investigar antes de concluir algo.`,next:n=>`Em May, vamos levar esses dados para um plano de ação que transforme uma preocupação compartilhada em passos possíveis.`,family:'Escolham uma rotina da família e façam uma pergunta simples para todos responderem. Organizem as respostas e conversem sobre o que o grupo percebeu.',closing:n=>`April trouxe uma aprendizagem importante: dados ganham sentido quando ajudam a ouvir, compreender e cuidar. ${n} participou desse olhar com maturidade.`}),
+        Maio: makeYear3Profile(monthProfiles.Maio,{en:'May',heading:'Uma ação jovem que saiu do papel',cover:'Um retrato de responsabilidade, matéria e propostas para o coletivo.',intro:'Em May, a turma iniciou o <em>Young People Action Plan</em>, escolhendo uma questão da escola para investigar e transformar em proposta.',activity:'Action Plan Studio: definir problema, evidência e próximos passos',context:'A turma explorou matéria, água, mudanças de estado, números negativos e decisões coletivas. O desafio foi conectar conhecimento a uma ação possível.',chips:['action plan','matter','water cycle','problem','impact'],welcome:n=>`neste mês, acompanhamos ${n} reconhecer que crianças também podem investigar problemas e contribuir com soluções responsáveis.`,moment:n=>`No Action Plan Studio, os grupos escolheram uma questão, definiram o que precisavam descobrir e organizaram primeiros passos. Eles compararam ideias, pensaram em recursos e começaram a usar evidências para explicar por que uma ação poderia fazer diferença.`,next:n=>`Em June, vamos ampliar essa proposta com dados ambientais e mensagens claras para um público da escola.`,family:'Conversem sobre uma pequena melhoria que a família gostaria de fazer em casa ou no bairro. Qual seria o primeiro passo? Que evidência ajudaria a escolher esse caminho?',closing:n=>`May foi um convite à autoria: perceber um problema, investigá-lo e acreditar que uma ação bem pensada pode gerar impacto. `}),
+        Junho: makeYear3Profile(monthProfiles.Junho,{en:'June',heading:'Uma campanha que transformou porcentagens em escolhas',cover:'Um retrato de ambiente, dados e comunicação com propósito.',intro:'Em June, a turma criou uma <em>Environmental Data Campaign</em>, usando informações sobre hábitos e recursos para propor escolhas mais sustentáveis.',activity:'Environmental Data Campaign: interpretar porcentagens e comunicar impacto',context:'A turma trabalhou ambiente, propriedades da água, frações, porcentagens e probabilidade. Os dados ajudaram a construir uma mensagem que fosse clara e responsável.',chips:['environment','percentages','water','campaign','impact'],welcome:n=>`foi muito significativo acompanhar ${n} descobrir que porcentagens e gráficos podem contar histórias sobre escolhas que afetam o planeta.`,moment:n=>`Na Environmental Data Campaign, as crianças analisaram informações, selecionaram evidências e decidiram como comunicar uma recomendação. Elas aprenderam que uma campanha não é só um cartaz: é uma mensagem que precisa ser verdadeira, compreensível e útil para quem a recebe.`,next:n=>`Depois da pausa, vamos investigar tecnologia e bem-estar, comparando benefícios, riscos e escolhas de equilíbrio.`,family:'Procurem juntos uma porcentagem em uma embalagem, notícia ou pesquisa. Perguntem: o que esse número representa? Que pergunta ainda seria importante fazer?',closing:n=>`June encerra esta etapa mostrando que conhecimento e responsabilidade podem caminhar juntos. ${n} segue aprendendo a usar evidências para cuidar do mundo ao redor.`}),
+        Agosto: makeYear3Profile(monthProfiles.Agosto,{en:'August',heading:'Uma conversa sobre tecnologia que buscou equilíbrio',cover:'Um retrato de hábitos, evidências e recomendações para o bem-estar.',intro:'Em August, a turma desenvolveu a <em>Healthy Technology and Well-being Campaign</em>, investigando como diferentes usos da tecnologia podem afetar nossa rotina.',activity:'Healthy Technology Campaign: comparar, analisar e recomendar',context:'A turma explorou tecnologia, corpo humano, alimentação, medidas e dados. As crianças compararam perspectivas e aprenderam a sustentar recomendações sem respostas prontas.',chips:['technology','well-being','body','data','balance'],welcome:n=>`foi uma alegria reencontrar ${n} pronto(a) para discutir um tema tão presente na vida das crianças com curiosidade, respeito e pensamento crítico.`,moment:n=>`Na Healthy Technology Campaign, os grupos analisaram situações do cotidiano, levantaram dados e conversaram sobre equilíbrio. Em vez de classificar a tecnologia como apenas boa ou ruim, as crianças investigaram escolhas, contextos e cuidados que ajudam cada pessoa.`,next:n=>`Em September, vamos conectar dados, ambientes e perspectivas para elaborar uma proposta de ação local com alcance mais amplo.`,family:'Conversem sobre um uso de tecnologia que ajuda a família e um cuidado que torna esse uso mais equilibrado. Peçam para ${n} explicar sua recomendação.',closing:n=>`August trouxe conversas importantes e bem fundamentadas. ${n} segue ampliando a capacidade de analisar situações antes de formar uma opinião.`}),
+        Setembro: makeYear3Profile(monthProfiles.Setembro,{en:'September',heading:'Uma proposta que conectou o local ao global',cover:'Um retrato de sistemas, evidências e responsabilidade compartilhada.',intro:'Em September, a turma iniciou a <em>Local-Global Action Proposal</em>, conectando escolhas da escola a questões maiores de ambiente e bem-estar.',activity:'Local-Global Proposal: investigar relações e construir recomendações',context:'A turma explorou animais, forças, gráficos, medidas e sistemas vivos. Evidências ajudaram a perceber que ações locais podem se relacionar com impactos mais amplos.',chips:['local-global','systems','graphs','forces','proposal'],welcome:n=>`neste mês, ${n} se envolveu em perguntas que mostram como uma escolha próxima pode ter relações com outras pessoas, lugares e recursos.`,moment:n=>`Na Local-Global Action Proposal, as crianças organizaram informações, compararam perspectivas e começaram a construir uma recomendação para um público definido. Elas praticaram ligar uma evidência a uma razão, mostrando que uma proposta forte precisa explicar seu possível impacto.`,next:n=>`Em October, vamos transformar a proposta em protótipo, receber feedback e aprimorar a forma de comunicar nossas evidências.`,family:'Escolham uma escolha cotidiana, como transporte ou consumo. Conversem sobre quem pode ser afetado por ela e que evidência ajudaria a tomar uma decisão melhor.',closing:n=>`September ampliou o olhar de ${n}: aprender também é perceber conexões e assumir responsabilidade por escolhas possíveis.`}),
+        Outubro: makeYear3Profile(monthProfiles.Outubro,{en:'October',heading:'Um protótipo que melhorou depois de ouvir',cover:'Um retrato de feedback, revisão e comunicação de evidências.',intro:'Em October, a turma trabalhou no <em>Exhibition Prototype and Feedback</em>, transformando propostas em produtos que pudessem ser testados e aprimorados.',activity:'Exhibition Prototype: criar, ouvir feedback e revisar',context:'A turma explorou Terra, estações, geometria, medidas e apresentações. O foco foi tornar visível o caminho entre problema, evidência, solução e melhoria.',chips:['prototype','feedback','geometry','Earth','improve'],welcome:n=>`foi muito bom acompanhar ${n} perceber que revisar uma ideia não significa recomeçar do zero, mas fortalecê-la com novas informações e perguntas.`,moment:n=>`No Exhibition Prototype, as crianças selecionaram evidências, organizaram explicações e mostraram versões iniciais de seus produtos. Elas ouviram perguntas de colegas, identificaram o que estava claro ou precisava de ajuste e fizeram melhorias para comunicar melhor sua proposta.`,next:n=>`Em November, vamos reunir o percurso, preparar a apresentação final e celebrar as aprendizagens do Year 5.`,family:'Peçam para ${n} mostrar uma ideia ou desenho e façam uma pergunta curiosa sobre ele. Depois perguntem: o que você mudaria após ouvir essa pergunta?',closing:n=>`October reforçou que aprender envolve criar, escutar e aprimorar. ${n} mostrou muita autoria nesse processo.`}),
+        Novembro: makeYear3Profile(monthProfiles.Novembro,{en:'November',heading:'Uma exposição que mostrou pensamento, evidência e crescimento',cover:'Um retrato de autoria, argumentação e orgulho pelo percurso do Year 5.',intro:'Em November, a <em>Year 5 Learning Exhibition</em> reuniu investigações, dados, propostas e revisões construídas ao longo do ano.',activity:'Year 5 Learning Exhibition: contar o processo e defender uma aprendizagem',context:'A turma retomou portfólios, gráficos, modelos, campanhas e protótipos para comunicar perguntas, evidências, soluções e próximos passos.',chips:['learning exhibition','portfolio','argument','evidence','reflect'],welcome:n=>`chegamos a um momento muito especial de reconhecer o quanto ${n} cresceu ao investigar, justificar escolhas, revisar ideias e comunicar descobertas.`,moment:n=>`Na Year 5 Learning Exhibition, as crianças selecionaram evidências que contavam uma história de aprendizagem e ensaiaram como explicar seus processos. Elas responderam perguntas, compartilharam desafios e perceberam que apresentar é tornar visível não só um produto, mas o pensamento que o construiu.`,next:n=>`Encerramos o ciclo apoiando ${n} a reconhecer estratégias de pesquisa, argumentação e autonomia que seguirá levando para novos desafios.`,family:'Peçam para ${n} escolher uma evidência do ano e completar: “My evidence shows...” ou “Eu aprendi que...”. Escutem o processo e celebrem as escolhas feitas ao longo do caminho.',closing:n=>`November celebra um percurso de responsabilidade, investigação e autoria. O Year 5 deixa em ${n} ferramentas importantes para os próximos ciclos de aprendizagem.`}),
+      };
+      const santoYear5Profiles = {
+        ...year5Profiles,
+        Fevereiro: makeYear3Profile(year5Profiles.Fevereiro,{en:'February',heading:'Uma rotina que virou pergunta de investigação',cover:'Um retrato de identidade, método científico e escolhas iniciais no Year 5.',intro:'Em February, no Santo Anjo, a turma iniciou o ano conectando rotina, números, plantas e perguntas investigativas.',activity:'Question Lab: observar, registrar e explicar escolhas',context:'As crianças organizaram informações da rotina e praticaram como registrar uma pergunta, uma previsão e uma observação.',chips:['questions','routine','numbers','plants','evidence'],welcome:n=>`foi bonito acompanhar ${n} iniciar o ano transformando curiosidade em perguntas que podem ser observadas e investigadas.`,moment:n=>`No Question Lab, as crianças escolheram situações da rotina, formularam perguntas e registraram pistas para buscar respostas. Elas perceberam que um bom investigador observa com atenção, organiza evidências e está disposto a rever uma hipótese.`,next:n=>`Em March, vamos conectar saúde, corpo e dados para conversar sobre hábitos de bem-estar.`,family:'Escolham uma curiosidade da rotina da família e perguntem: como poderíamos observar ou registrar pistas para responder a ela?',closing:n=>`February abriu o percurso com curiosidade e método. ${n} já começou a construir ferramentas importantes de investigação.`}),
+        Março: makeYear3Profile(year5Profiles.Março,{en:'March',heading:'Hábitos que ganharam dados e explicações',cover:'Um retrato de corpo, saúde e leitura responsável de informações.',intro:'Em March, no Santo Anjo, a turma investigou hábitos de saúde, corpo e bem-estar por meio de perguntas e registros.',activity:'Healthy Habits Data Lab: perguntar, comparar e explicar',context:'A turma conectou esportes, saúde, som e dados para observar padrões e discutir escolhas de cuidado.',chips:['healthy habits','body','data','sound','compare'],welcome:n=>`neste mês, ${n} participou de conversas importantes sobre como observar hábitos sem julgamento e usar dados para aprender.`,moment:n=>`No Healthy Habits Data Lab, as crianças organizaram respostas, compararam resultados e discutiram o que um dado pode sugerir — sempre lembrando que precisamos de contexto para compreender as pessoas.`,next:n=>`Em April, vamos testar materiais e medidas para pensar em escolhas de design mais conscientes.`,family:'Conversem sobre um hábito que faz bem à família. Como seria possível registrá-lo por alguns dias e observar um padrão?',closing:n=>`March trouxe cuidado, escuta e pensamento crítico. ${n} segue aprendendo a transformar informações em explicações responsáveis.`}),
+        Abril: makeYear3Profile(year5Profiles.Abril,{en:'April',heading:'Testes que ajudaram a escolher materiais',cover:'Um retrato de propriedades, medidas e decisões de design.',intro:'Em April, no Santo Anjo, a turma investigou materiais, propriedades e medidas para comparar soluções de design.',activity:'Materials Lab: testar, medir e justificar escolhas',context:'As crianças observaram propriedades de materiais, fizeram comparações e usaram medidas para defender uma escolha.',chips:['materials','measure','design','test','justify'],welcome:n=>`foi muito interessante acompanhar ${n} descobrir que uma escolha de design pode ser explicada por testes e critérios, não apenas por preferência.`,moment:n=>`No Materials Lab, as crianças testaram opções, registraram resultados e compararam quais propriedades respondiam melhor ao desafio. Elas usaram medidas e evidências para justificar uma decisão e ouviram ideias que ajudaram a melhorar o plano.`,next:n=>`Em May, vamos olhar para espaços e mapas, pensando em como eles podem servir melhor à comunidade.`,family:'Escolham dois materiais de casa e comparem uma propriedade, como flexibilidade ou resistência. Qual seria mais adequado para uma tarefa? Por quê?',closing:n=>`April mostrou que testar é uma forma de pensar com cuidado. ${n} participou desse processo com curiosidade e precisão.`}),
+        Maio: makeYear3Profile(year5Profiles.Maio,{en:'May',heading:'Um mapa que imaginou espaços mais inclusivos',cover:'Um retrato de formas, comunidade e propostas com critérios.',intro:'Em May, no Santo Anjo, a turma explorou espaços, mapas e formas para propor melhorias que favoreçam a participação de todos.',activity:'Inclusive Space Map: medir, mapear e propor',context:'A turma usou orientação, formas e perspectivas para discutir o que torna um espaço mais acessível e acolhedor.',chips:['inclusive space','map','shapes','community','proposal'],welcome:n=>`neste mês, ${n} viveu a experiência de olhar para um espaço conhecido e imaginar como ele pode acolher melhor diferentes pessoas.`,moment:n=>`No Inclusive Space Map, as crianças observaram trajetos, registraram referências e organizaram propostas no mapa. Elas precisaram explicar quem seria beneficiado e que critério orientou cada escolha.`,next:n=>`Em June, vamos conectar energia, clima e sustentabilidade a recomendações práticas para a escola.`,family:'Olhem para um cômodo de casa e conversem: o que facilita circular, aprender ou brincar ali? Que pequena mudança poderia ajudar outra pessoa?',closing:n=>`May trouxe um olhar atento para espaços e pessoas. ${n} segue desenvolvendo propostas com mais empatia e clareza.`}),
+        Junho: makeYear3Profile(year5Profiles.Junho,{en:'June',heading:'Energia e clima em uma recomendação prática',cover:'Um retrato de ciência, sustentabilidade e escolhas para o cotidiano.',intro:'Em June, no Santo Anjo, a turma investigou energia, clima e sustentabilidade para elaborar recomendações aplicáveis à escola.',activity:'Energy and Climate Studio: observar impactos e recomendar',context:'A turma conectou dados, ciência e responsabilidade ambiental para avaliar escolhas de uso de recursos.',chips:['energy','climate','sustainability','data','recommend'],welcome:n=>`foi significativo acompanhar ${n} perceber que conceitos científicos também ajudam a tomar decisões mais responsáveis no cotidiano.`,moment:n=>`No Energy and Climate Studio, as crianças observaram situações de uso de recursos, compararam possíveis impactos e formularam recomendações. Elas aprenderam a explicar uma sugestão com uma razão e uma evidência, pensando no coletivo.`,next:n=>`Depois da pausa, vamos investigar seres vivos, ambientes e responsabilidade ambiental em sistemas que precisam de equilíbrio.`,family:'Conversem sobre uma escolha que pode economizar energia ou recursos em casa. Qual seria o impacto? Que dado ajudaria a acompanhar essa mudança?',closing:n=>`June encerra a etapa com ciência e cuidado em diálogo. ${n} segue fortalecendo sua capacidade de propor escolhas responsáveis.`}),
+        Agosto: makeYear3Profile(year5Profiles.Agosto,{en:'August',heading:'Sistemas vivos que ensinaram sobre equilíbrio',cover:'Um retrato de ambientes, seres vivos e responsabilidade ambiental.',intro:'Em August, no Santo Anjo, a turma investigou seres vivos, ambientes, frações e escolhas que ajudam a manter sistemas em equilíbrio.',activity:'Living Systems Investigation: observar relações e cuidar',context:'As crianças exploraram necessidades, relações e recursos em ambientes vivos, conectando ciência a decisões de cuidado.',chips:['living systems','environment','fractions','balance','care'],welcome:n=>`foi uma alegria reencontrar ${n} pronto(a) para observar como seres vivos e ambientes dependem de relações de equilíbrio.`,moment:n=>`Na Living Systems Investigation, as crianças organizaram observações, compararam ambientes e discutiram o que acontece quando um recurso muda ou falta. Elas usaram exemplos e representações para explicar por que cuidar de um sistema também é cuidar de suas relações.`,next:n=>`Em September, vamos investigar água, alimentação e dados para construir argumentos cada vez mais responsáveis.`,family:'Escolham um ser vivo próximo — uma planta, inseto ou animal — e conversem: do que ele precisa? O que aconteceria se uma dessas condições mudasse?',closing:n=>`August trouxe um olhar mais amplo para a vida e suas conexões. ${n} segue aprendendo a observar sistemas com atenção e responsabilidade.`}),
+        Setembro: makeYear3Profile(year5Profiles.Setembro,{en:'September',heading:'Dados que ajudaram a diferenciar opinião e evidência',cover:'Um retrato de água, alimentação e argumentos responsáveis.',intro:'Em September, no Santo Anjo, a turma investigou água, alimentação e dados para construir argumentos mais informados.',activity:'Evidence Lab: comparar fontes, dados e recomendações',context:'A turma analisou informações, organizou representações e praticou como usar evidências para apoiar uma ideia.',chips:['water','food','evidence','data','argument'],welcome:n=>`neste mês, ${n} praticou uma aprendizagem muito importante: uma opinião se fortalece quando consegue explicar em que evidência se apoia.`,moment:n=>`No Evidence Lab, as crianças compararam dados, formularam perguntas e conversaram sobre diferentes interpretações. Elas escolheram evidências para sustentar uma recomendação sobre água e alimentação, aprendendo a distinguir preferência de argumento.`,next:n=>`Em October, vamos aplicar esse repertório a testes de forças, máquinas simples e protótipos para a mostra final.`,family:'Escolham uma recomendação sobre alimentação ou água e perguntem: qual evidência apoia essa ideia? Há outra pergunta que seria útil investigar?',closing:n=>`September mostrou o crescimento de ${n} como alguém que pergunta, compara e argumenta com mais responsabilidade.`}),
+        Outubro: makeYear3Profile(year5Profiles.Outubro,{en:'October',heading:'Forças e máquinas que viraram protótipos',cover:'Um retrato de testes, medidas e explicações sobre como as coisas funcionam.',intro:'Em October, no Santo Anjo, a turma testou forças, máquinas simples e medidas para criar e aprimorar protótipos.',activity:'Forces and Machines Lab: testar, medir e melhorar',context:'As crianças observaram movimento, forças e funcionamento para transformar hipóteses em explicações e produtos.',chips:['forces','machines','prototype','measure','improve'],welcome:n=>`foi muito bom acompanhar ${n} em um mês de testes práticos, perguntas curiosas e melhorias construídas a partir do que foi observado.`,moment:n=>`No Forces and Machines Lab, as crianças testaram como objetos se movem e como pequenas mudanças podem alterar um resultado. Elas registraram tentativas, ajustaram protótipos e explicaram quais evidências apoiavam uma melhoria.`,next:n=>`Em November, vamos reunir evidências, organizar portfólios e preparar a Learning Exhibition do Year 5.`,family:'Procurem uma máquina simples em casa, como uma tesoura ou rampa. Peçam para ${n} explicar como ela ajuda a realizar uma tarefa.',closing:n=>`October reforçou que testar, revisar e explicar são partes de um mesmo processo de aprendizagem. ${n} mostrou bastante autoria.`}),
+        Novembro: makeYear3Profile(year5Profiles.Novembro,{en:'November',heading:'Uma mostra que celebrou perguntas e evidências',cover:'Um retrato de autoria, revisão e apresentação do percurso do Year 5.',intro:'Em November, no Santo Anjo, a <em>Year 5 Learning Exhibition</em> reuniu investigações, protótipos, dados e reflexões construídas ao longo do ano.',activity:'Learning Exhibition: selecionar evidências e compartilhar aprendizagens',context:'A turma organizou portfólios e apresentações para mostrar perguntas, testes, escolhas, revisões e propostas.',chips:['exhibition','portfolio','evidence','reflection','presentation'],welcome:n=>`chegamos a um momento muito especial de reconhecer o percurso de ${n} e celebrar a forma como suas perguntas se transformaram em investigações e explicações.`,moment:n=>`Na Learning Exhibition, as crianças escolheram evidências, ensaiaram apresentações e responderam perguntas sobre seu processo. Elas perceberam que compartilhar uma aprendizagem é contar como investigaram, o que mudaram e por que suas conclusões fazem sentido.`,next:n=>`Encerramos o ciclo valorizando estratégias de autonomia, investigação e comunicação que ${n} seguirá levando para os próximos desafios.`,family:'Peçam para ${n} escolher uma evidência do ano e contar: “Minha pergunta era...”, “Eu testei...” e “Eu aprendi...”. Celebrem o caminho, não apenas o resultado.',closing:n=>`November celebra um ano de perguntas bem feitas, evidências e autoria. O percurso de ${n} deixa bases importantes para continuar aprendendo com confiança.`}),
+      };
+      const year6Profiles = {
+        Fevereiro: makeYear3Profile(monthProfiles.Fevereiro, {
+          en: 'February',
+          title: 'February Learning Snapshot',
+          heading: 'Uma entrada no Middle Years feita de perguntas',
+          cover: 'Um retrato de autonomia, pertencimento e primeiras evidências de investigação no início do Year 6.',
+          intro: 'Em February, a turma iniciou o <em>Community Inquiry Launch</em>, investigando como perguntas, fontes e evidências ajudam a compreender a comunidade escolar.',
+          activity: 'Community Inquiry Launch: observar, perguntar e registrar evidências',
+          context: 'A chegada ao Fundamental 2 reuniu rotinas de estudo, Prepare 1, pesquisa em Global Perspectives, papéis de colaboração e comunicação em inglês. A turma praticou transformar observações do cotidiano em perguntas investigáveis e registros que possam ser retomados.',
+          chips: ['Middle Years routines', 'Prepare 1', 'research question', 'source · evidence', 'collaboration'],
+          welcome: n => `Querida família, February marcou a entrada de ${n} no Year 6 e em uma nova etapa de aprendizagem. Foi um mês de conhecer expectativas, organizar rotinas de estudo e perceber que, no Fundamental 2, aprender também envolve formular boas perguntas, ouvir perspectivas e sustentar ideias com evidências.`,
+          moment: n => `No Community Inquiry Launch, os estudantes observaram situações da comunidade escolar que despertavam curiosidade, transformaram essas observações em perguntas investigáveis e começaram um research log. Em grupos, definiram papéis, discutiram que tipo de fonte poderia ajudar e registraram as primeiras evidências. ${n} viveu uma experiência em que não havia uma resposta pronta: era preciso justificar por que uma pergunta importava e que dados poderiam ajudar a respondê-la.`,
+          next: n => `Em March, vamos apoiar ${n} a selecionar fontes, comparar informações e organizar evidências para começar a construir uma explicação com mais autonomia.`,
+          family: 'Conversem sobre uma situação do cotidiano que desperte curiosidade. Em vez de procurar uma resposta imediata, perguntem: que evidência ajudaria a entender melhor? Quem poderia oferecer uma perspectiva diferente? Peçam para o(a) estudante registrar uma pergunta e uma possível fonte em inglês ou português.',
+          closing: n => `February abriu o Year 6 com perguntas mais maduras e um convite à responsabilidade pelo próprio percurso. Seguiremos acompanhando ${n} enquanto constrói hábitos de investigação, colaboração e comunicação cada vez mais consistentes.`,
+        }),
+      };
+      const profiles = requestedYear === '6' ? year6Profiles : requestedYear === '5' ? year5Profiles : requestedYear === '4' ? year4Profiles : requestedYear === '3' ? year3Profiles : requestedYear === '2' ? year2Profiles : monthProfiles;
+      const profile = (requestedYear === '5' && brand.label === 'Santo Anjo' ? santoYear5Profiles[requestedMonth] : requestedYear === '4' && brand.label === 'Santo Anjo' ? santoYear4Profiles[requestedMonth] : requestedYear === '3' && brand.label === 'Santo Anjo' ? santoYear3Profiles[requestedMonth] : requestedYear === '1' && brand.label === 'Santo Anjo' ? santoProfiles[requestedMonth] : profiles[requestedMonth]) || profiles.Fevereiro;
+      const year6Descriptors = {
+        arrival: {
+          settled: (n) => `${n} se organiza com segurança para as rotinas do Middle Years, reconhece combinados e encontra seu lugar nos diferentes momentos do dia.`,
+          growing: (n) => `${n} está consolidando formas de se organizar para as novas rotinas. Com referências claras, vem assumindo os combinados e os materiais de estudo com mais autonomia.`,
+          supported: (n) => `${n} ainda se beneficia de acompanhamento próximo para organizar materiais, transições e combinados. Trabalhamos com passos claros para que esse repertório se fortaleça.`,
+        },
+        participation: {
+          ready: (n) => `${n} inicia tarefas com prontidão, sustenta o envolvimento e acompanha as etapas propostas, inclusive quando precisa revisar uma escolha.`,
+          routine: (n) => `${n} participa melhor quando o objetivo e as etapas estão visíveis; vem ampliando a capacidade de acompanhar a tarefa até sua conclusão.`,
+          invitation: (n) => `${n} se envolve mais depois de uma retomada individual ou de um ponto de partida bem definido, especialmente em tarefas novas ou mais abertas.`,
+          mediation: (n) => `${n} ainda precisa de mediação frequente para iniciar, priorizar etapas e finalizar tarefas. Metas curtas e devolutivas específicas apoiam esse percurso.`,
+        },
+        inquiry: {
+          curious: (n) => `${n} formula perguntas relevantes, identifica detalhes e demonstra disposição para buscar evidências antes de concluir uma ideia.`,
+          prompted: (n) => `${n} observa e contribui com boas ideias quando recebe perguntas de apoio; estamos fortalecendo a passagem da observação para uma questão investigável.`,
+          modelled: (n) => `${n} investiga com mais segurança quando encontra modelos de registro, fontes selecionadas ou exemplos de como justificar uma escolha.`,
+          shared: (n) => `${n} beneficia-se de acompanhamento próximo para selecionar informações, registrar evidências e transformar curiosidade em uma pergunta que possa ser investigada.`,
+        },
+        communication: {
+          initiates: (n) => `${n} inicia trocas, compartilha hipóteses e contribui para que o grupo avance nas tarefas e decisões.`,
+          responds: (n) => `${n} participa das trocas e amplia contribuições quando recebe uma pergunta direcionada ou tempo para organizar a resposta.`,
+          models: (n) => `${n} comunica ideias com mais segurança quando dispõe de modelos de linguagem, estruturas de frase ou uma parceria de trabalho próxima.`,
+          mediated: (n) => `${n} ainda precisa de mediação frequente para entrar nas discussões, sustentar uma explicação e negociar seu papel no grupo.`,
+        },
+        english: {
+          routine: 'acompanha instruções e vocabulário acadêmico inicial em inglês, usando o contexto para participar das tarefas.',
+          responds: 'responde a perguntas e comandos em inglês com apoio de palavras-chave, exemplos ou escolhas visuais.',
+          uses: 'já utiliza palavras e estruturas em inglês para perguntar, registrar e compartilhar ideias durante as propostas.',
+          trying: 'está começando a experimentar linguagem acadêmica em inglês quando encontra modelos e mediação.',
+        },
+      };
+      const descriptors = requestedYear === '6' ? year6Descriptors : t;
+      if ($("className").value.trim() === "Year 1") $("className").value = `Year ${requestedYear}`;
+      function update() {
+        const n = $("student").value.trim() || "o aluno",
+          p = $("participation").value,
+          i = $("inquiry").value,
+          c = $("communication").value,
+          e = $("english").value,
+          a = $("arrival").value,
+          note = $("momentNote").value.trim();
+        $("schoolLogo").src = brand.logo;
+        $("schoolLogo").alt = brand.label;
+        $("schoolMeta").textContent = brand.label;
+        $("programBadge").textContent = `Acompanhamento mensal · ${requestedYear === '6' ? 'Fundamental 2' : 'Fundamental 1'} · Year ${requestedYear}`;
+        $("footerSchool").textContent = `${brand.label} · Year ${requestedYear} · Relatório Mensal de Aprendizagem`;
+        $("outStudent").textContent = n;
+        $("outClass").textContent = $("className").value.trim() || `Year ${requestedYear}`;
+        $("outTeacher").textContent =
+          $("teacher").value.trim() || "Professor(a)";
+        $("reportTitle").textContent = profile.title;
+        $("coverSubtitle").textContent = profile.cover;
+        $("monthMeta").textContent = `${profile.en} · 2026`;
+        $("discoveryHeading").textContent = profile.heading;
+        $("discoveryIntro").innerHTML = profile.intro.replace('Classroom Shape Map','<em>Classroom Shape Map</em>');
+        $("activityTitle").textContent = profile.activity;
+        $("monthContext").textContent = profile.context;
+        $("monthChips").replaceChildren(...profile.chips.map(label=>{const chip=document.createElement('span');chip.className='chip';chip.textContent=label;return chip;}));
+        ["headingName", "headingName3"].forEach(
+          (id) => ($(id).textContent = n),
+        );
+        $("welcome").textContent = `${profile.welcome(n)} ${descriptors.arrival[a](n, requestedYear)}`;
+        $("momentText").textContent = `${profile.moment(n)}${note ? ` Para ${n}, um detalhe especial foi: ${note}` : ""}`;
+        $("participationText").textContent = descriptors.participation[p](n);
+        $("inquiryText").textContent = descriptors.inquiry[i](n);
+        $("communicationText").textContent =
+          `${descriptors.communication[c](n)} Em inglês, ${n} ${descriptors.english[e]}`;
+        $("next").textContent = profile.next(n);
+        $("family").textContent = profile.family;
+        $("closing").textContent = profile.closing(n);
+      }
+      $("update").onclick = update;
+      $("print").onclick = () => {
+        update();
+        window.print();
+      };
+      document
+        .querySelectorAll("input,select")
+        .forEach((x) => x.addEventListener("input", update));
+      update();
+    </script>
+  </body>
+</html>
