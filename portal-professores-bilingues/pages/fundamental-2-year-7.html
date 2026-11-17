@@ -272,4 +272,5 @@ document.querySelectorAll('.accordion-project .pbl-hero').forEach((hero)=>{hero.
 document.querySelectorAll('a[href^="#projeto-"]').forEach((link)=>{link.addEventListener('click',(event)=>{const id=link.getAttribute('href').slice(1);if(openProjectById(id)){event.preventDefault();history.replaceState(null,'','#'+id);}});});if(location.hash&&location.hash.includes('projeto-'))openProjectById(location.hash.slice(1));})();
 </script><script>document.querySelectorAll('.lesson-plan-toggle').forEach(function(b){b.addEventListener('click',function(e){e.stopPropagation();var p=document.getElementById(b.getAttribute('aria-controls'));var open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));p.hidden=open;b.textContent=open?'Ver lesson plan completo':'Fechar lesson plan completo';});});</script></body>
 </html>
+<script src="../assets/year7-other-lesson-plan-models.js?v=20261117-year7-other-lesson-plan-models-v1"></script>
 <script src="../assets/year7-pbl-lesson-plan-models.js?v=20261117-year7-pbl-lesson-plan-models-v1"></script>
