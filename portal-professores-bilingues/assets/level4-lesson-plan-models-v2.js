@@ -7,6 +7,17 @@
     25:'This is the kitchen.',26:'I can see a bed in the bedroom.',27:'We clean the table. We help at home.',28:'It is a T-shirt.',29:'It is rainy. I need boots.',30:'I’m wearing a hat. Put on the coat.',31:'I can see a plant and a flower.',32:'It grows. It needs water and sun.',33:'We water and care for the plants.',34:'This is our garden picture. I can see a flower.',35:'Welcome. This is my plant. I can see a leaf.',36:'Welcome. This is our home, clothes and garden expo.'
   };
   const text = node => node?.textContent.replace(/\s+/g, ' ').trim() || '';
+  const removeDuplicateProjectCards = () => {
+    document.querySelectorAll('.pbl-project').forEach(project => {
+      const seen = new Set();
+      [...project.querySelectorAll('.pbl-grid > .pbl-card:not(.pbl-week)')].forEach(card => {
+        const heading = text(card.querySelector('h3'));
+        if (!heading) return;
+        if (seen.has(heading)) card.remove();
+        else seen.add(heading);
+      });
+    });
+  };
   const extract = (week, label) => {
     const paragraphs = [...week.children].filter(node => node.tagName === 'P');
     const source = paragraphs.map(text).join(' ');
@@ -37,6 +48,7 @@
       ].join('');
       panel.dataset.level4Individualized = '20261126-v2';
     });
+    removeDuplicateProjectCards();
   };
   document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', apply) : apply();
 })();
